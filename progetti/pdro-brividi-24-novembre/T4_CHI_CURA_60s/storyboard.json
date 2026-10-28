@@ -1,0 +1,153 @@
+{
+  "serie": "Serie 2 — «Brividi»: chiara, essenziale, sonora",
+  "video": "Chi cura",
+  "durata_s": 60,
+  "formati": [
+    "16:9"
+  ],
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 3,
+      "asset": [
+        "cards/S2_00_nero_16x9.png"
+      ],
+      "regia": "Nero, ronzio di reparto.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 2,
+      "inizio_s": 3,
+      "fine_s": 13,
+      "asset": [
+        "clips/k07_infermiera_notte_16x9.mp4"
+      ],
+      "regia": "Corridoio di notte. Rallentare al 50% (10 s).",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Ogni giorno ascoltiamo il dolore degli altri. Lo curiamo, lo accompagniamo, lo portiamo a casa con noi."
+    },
+    {
+      "n": 3,
+      "inizio_s": 13,
+      "fine_s": 22,
+      "asset": [
+        "clips/k07_infermiera_notte_16x9.mp4"
+      ],
+      "regia": "Stessa clip in reverse rallentato o fermo immagine sul volto, desaturato.",
+      "testo_a_schermo": "Ma chi ascolta il nostro?",
+      "voce_fuori_campo": "Ma chi ascolta il nostro? Chi si accorge quando siamo noi ad aver bisogno?"
+    },
+    {
+      "n": 4,
+      "inizio_s": 22,
+      "fine_s": 24,
+      "asset": [
+        "cards/S2_00_nero_16x9.png"
+      ],
+      "regia": "NERO E SILENZIO.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 5,
+      "inizio_s": 24,
+      "fine_s": 34,
+      "asset": [
+        "clips/k08_mano_sulla_spalla_16x9.mp4"
+      ],
+      "regia": "All’alba, la mano della collega sulla spalla. Rallentare al 50%. Entra il pianoforte.",
+      "testo_a_schermo": "Nessuno si salva da solo.",
+      "voce_fuori_campo": "Ascoltarsi è il primo passo. Ascoltarsi a vicenda, il secondo."
+    },
+    {
+      "n": 6,
+      "inizio_s": 34,
+      "fine_s": 40,
+      "asset": [
+        "cards/S2_01_titolo_16x9.png"
+      ],
+      "regia": "Titolo.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 7,
+      "inizio_s": 40,
+      "fine_s": 47,
+      "asset": [
+        "cards/S2_02_info_16x9.png"
+      ],
+      "regia": "Info.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Un pomeriggio per fermarci, ascoltare, e sederci alla stessa tavola."
+    },
+    {
+      "n": 8,
+      "inizio_s": 47,
+      "fine_s": 55,
+      "asset": [
+        "cards/S2_03_prenota_16x9.png"
+      ],
+      "regia": "Prenotazione.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Il 24 novembre, al Patronato dell’Arcella. Gratuito, su prenotazione."
+    },
+    {
+      "n": 9,
+      "inizio_s": 55,
+      "fine_s": 60,
+      "asset": [
+        "cards/S2_04_firma_1522_16x9.png"
+      ],
+      "regia": "Firma CISL FP e 1522.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    }
+  ],
+  "sound_design": "Ronzio del reparto di notte, un monitor lontano, passi. Silenzio di 1,5 s al secondo 22. All’alba entra il pianoforte, poi un violoncello.",
+  "evento": {
+    "titolo": "Sentirsi per sentire",
+    "sottotitolo": "L’ascolto di sé come antidoto alla violenza",
+    "data": "Martedì 24 novembre 2026 · dalle ore 14:00",
+    "sede": "Patronato dell’Arcella (Centro Parrocchiale «P. Ludovico Bressan») · Via Beata Elena Enselmini 8 · Padova",
+    "promotori": "CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale",
+    "relatrici": [
+      "Elena Paccagnella – Ascoltare sé",
+      "Daniela Lucangeli – Ascoltare le emozioni",
+      "Sara Cordella – Ascoltare i segni",
+      "Luisa Morbiato – Ascoltare le storie"
+    ],
+    "modera": "Rosa Maria Volpe",
+    "musica": "Louis Huang, pianoforte",
+    "chiusura": "La tavola condivisa (momento conviviale)",
+    "accesso": "Gratuito e aperto a tutti · posti contingentati · prenotazione obbligatoria",
+    "prenota": "https://form.getformly.com/f/02eeRh",
+    "1522": "1522 · numero antiviolenza gratuito 24/7"
+  },
+  "stile": {
+    "serie": "Serie 2 — «Brividi»: chiara, essenziale, sonora",
+    "palette": {
+      "avorio": "#F4EDE2",
+      "inchiostro": "#2E1E32",
+      "rosso_filo": "#B21E2C",
+      "grigio_prugna": "#7A6A78",
+      "nero_pieno": "#0A080C"
+    },
+    "font": {
+      "titoli": "Instrument Serif (Regular/Italic)",
+      "testi": "Lora",
+      "etichette": "Work Sans Bold maiuscolo spaziato"
+    },
+    "regole": [
+      "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+      "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+      "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+      "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+      "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+      "Chiusura sempre su cartelli avorio: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+    ]
+  }
+}

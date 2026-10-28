@@ -1,0 +1,23 @@
+{
+  "serie": "Serie 2 — «Brividi»: chiara, essenziale, sonora",
+  "palette": {
+    "avorio": "#F4EDE2",
+    "inchiostro": "#2E1E32",
+    "rosso_filo": "#B21E2C",
+    "grigio_prugna": "#7A6A78",
+    "nero_pieno": "#0A080C"
+  },
+  "font": {
+    "titoli": "Instrument Serif (Regular/Italic)",
+    "testi": "Lora",
+    "etichette": "Work Sans Bold maiuscolo spaziato"
+  },
+  "regole": [
+    "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+    "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+    "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+    "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+    "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+    "Chiusura sempre su cartelli avorio: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+  ]
+}

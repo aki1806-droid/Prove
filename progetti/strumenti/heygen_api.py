@@ -11,6 +11,7 @@ api.heygen.com: HeyGen accetta la chiave anche come «Authorization: Bearer»), 
     python3 heygen_api.py avatar <look_id> <audio_asset_id> [webm] [titolo]   video avatar sull'audio, stampa il video_id
     python3 heygen_api.py scarica <video_id> <file>                 aspetta il video avatar e lo scarica
     python3 heygen_api.py suoni "<descrizione>" [n]                 effetti sonori dal catalogo HeyGen (titolo, durata, url)
+    python3 heygen_api.py musica "<descrizione>" [n]                musica dal catalogo HeyGen (royalty-free)
 """
 import json, os, subprocess, sys, time, urllib.parse, urllib.request
 
@@ -89,8 +90,8 @@ def scarica(video_id, dest):
         time.sleep(30)
 
 
-def suoni(q, n=5):
-    d = chiama('GET', '/v3/audio/sounds?' + urllib.parse.urlencode({'type': 'sound_effects', 'query': q, 'limit': n, 'min_score': 0.4}))
+def suoni(q, n=5, tipo='sound_effects'):
+    d = chiama('GET', '/v3/audio/sounds?' + urllib.parse.urlencode({'type': tipo, 'query': q, 'limit': n, 'min_score': 0.4}))
     for s in (d if isinstance(d, list) else d.get('sounds') or d.get('items') or []):
         print(json.dumps(s, ensure_ascii=False))
 
@@ -111,5 +112,7 @@ if __name__ == '__main__':
         scarica(a[1], a[2])
     elif a[0] == 'suoni':
         suoni(a[1], int(a[2]) if len(a) > 2 else 5)
+    elif a[0] == 'musica':
+        suoni(a[1], int(a[2]) if len(a) > 2 else 5, 'music')
     else:
         sys.exit(__doc__)

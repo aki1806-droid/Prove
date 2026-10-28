@@ -1,0 +1,120 @@
+{
+  "serie": "Serie 2 — «Brividi»: chiara, essenziale, sonora",
+  "video": "La porta",
+  "durata_s": 20,
+  "formati": [
+    "9:16"
+  ],
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 2,
+      "asset": [
+        "cards/S2_00_nero_9x16.png"
+      ],
+      "regia": "Nero. Un orologio lontano.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 2,
+      "inizio_s": 2,
+      "fine_s": 7,
+      "asset": [
+        "clips/k01_porta_chiusa_9x16.mp4"
+      ],
+      "regia": "La donna con la schiena contro la porta; la luce passa sotto.",
+      "testo_a_schermo": "Ci sono porte che si chiudono piano.",
+      "voce_fuori_campo": "Ci sono porte che si chiudono piano. Così piano che non te ne accorgi."
+    },
+    {
+      "n": 3,
+      "inizio_s": 7,
+      "fine_s": 9,
+      "asset": [
+        "cards/S2_00_nero_9x16.png"
+      ],
+      "regia": "NERO E SILENZIO TOTALE. Testo a macchina da scrivere.",
+      "testo_a_schermo": "Controllo. Isolamento. Silenzio.",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 4,
+      "inizio_s": 9,
+      "fine_s": 14,
+      "asset": [
+        "clips/k02_porta_luce_9x16.mp4"
+      ],
+      "regia": "La porta si apre, la luce invade l’inquadratura. Entra la nota di pianoforte.",
+      "testo_a_schermo": "Ogni porta si apre da dentro.",
+      "voce_fuori_campo": "Ma ogni porta si apre da dentro."
+    },
+    {
+      "n": 5,
+      "inizio_s": 14,
+      "fine_s": 17,
+      "asset": [
+        "cards/S2_01_titolo_9x16.png"
+      ],
+      "regia": "Titolo su avorio, il filo rosso “si disegna” da sinistra a destra.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 6,
+      "inizio_s": 17,
+      "fine_s": 20,
+      "asset": [
+        "cards/S2_03_prenota_9x16.png"
+      ],
+      "regia": "Prenotazione con QR.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Il 24 novembre, a Padova."
+    }
+  ],
+  "sound_design": "Silenzio di stanza, un orologio lontano. Al secondo 7 nero e silenzio TOTALE per 2 s (il brivido). Sull’apertura della porta entra una sola nota lunga di pianoforte che si apre in accordo maggiore.",
+  "evento": {
+    "titolo": "Sentirsi per sentire",
+    "sottotitolo": "L’ascolto di sé come antidoto alla violenza",
+    "data": "Martedì 24 novembre 2026 · dalle ore 14:00",
+    "sede": "Patronato dell’Arcella (Centro Parrocchiale «P. Ludovico Bressan») · Via Beata Elena Enselmini 8 · Padova",
+    "promotori": "CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale",
+    "relatrici": [
+      "Elena Paccagnella – Ascoltare sé",
+      "Daniela Lucangeli – Ascoltare le emozioni",
+      "Sara Cordella – Ascoltare i segni",
+      "Luisa Morbiato – Ascoltare le storie"
+    ],
+    "modera": "Rosa Maria Volpe",
+    "musica": "Louis Huang, pianoforte",
+    "chiusura": "La tavola condivisa (momento conviviale)",
+    "accesso": "Gratuito e aperto a tutti · posti contingentati · prenotazione obbligatoria",
+    "prenota": "https://form.getformly.com/f/02eeRh",
+    "1522": "1522 · numero antiviolenza gratuito 24/7"
+  },
+  "stile": {
+    "serie": "Serie 2 — «Brividi»: chiara, essenziale, sonora",
+    "palette": {
+      "avorio": "#F4EDE2",
+      "inchiostro": "#2E1E32",
+      "rosso_filo": "#B21E2C",
+      "grigio_prugna": "#7A6A78",
+      "nero_pieno": "#0A080C"
+    },
+    "font": {
+      "titoli": "Instrument Serif (Regular/Italic)",
+      "testi": "Lora",
+      "etichette": "Work Sans Bold maiuscolo spaziato"
+    },
+    "regole": [
+      "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+      "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+      "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+      "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+      "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+      "Chiusura sempre su cartelli avorio: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+    ]
+  }
+}
