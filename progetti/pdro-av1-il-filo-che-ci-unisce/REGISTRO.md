@@ -40,3 +40,17 @@ Portafoglio API: 30,78 → 27,22 $.
 - Nel post: «Immagini e video generati con IA; avatar digitale di Achille Pagliaro».
 - Musica di Louis Huang: se arriva con la liberatoria, la metti al posto del pianoforte del catalogo.
 - Commento in evidenza con il link di prenotazione (https://form.getformly.com/f/02eeRh).
+
+## Versione 2 — 28/10/2026, richiesta di Achille: «ci sono dei difetti con l'avatar, è poco fluido e a volte si blocca»
+Causa (il webm di HeyGen non aveva fotogrammi doppi): il montaggio teneva fermo Achille sul primo fotogramma finché partiva
+la voce (0,3 s in S02 e S08, 1 s in S04) e sull'ultimo in coda alle scene; in S08 lo zoom 100→112% lo spostava a scatti di
+un pixel. Rimedi:
+- avatar rifatto (../strumenti/filo/avatar.py v2): la traccia ha già il ritardo e la coda di ogni scena in silenzio, così
+  Achille si muove per tutta la scena: video 5129709cbcaef2f9aec05a64f104cedf (audio asset f6ad57c4a78d40e9bd6b3b543d5f12a3),
+  32,4 s, labiale 0 ms, 0 fotogrammi fermi nelle tre scene (misurato); il primo è in avatar/v1/;
+- tolto lo zoom sull'avatar in S08;
+- le clip appena più corte della scena ora si rallentano un poco invece di fermarsi in coda (c05 prima di S08).
+Montato v2: 85,0 s, 56 MB, integro, SAR 1:1, −16,1 LUFS; copia d'invio 28 MB e 16:9 (29 MB) mandate in chat.
+Originali su HeyGen (sostituiscono quelli della v1): 9:16 asset 9165e670c94747f9963522698ba1c076 —
+https://resource2.heygen.ai/video/9165e670c94747f9963522698ba1c076/original.mp4 · 16:9 asset 68b9e45fa2c145bd91a1dd2bdf482917 —
+https://resource2.heygen.ai/video/68b9e45fa2c145bd91a1dd2bdf482917/original.mp4. Portafoglio API: 27,22 → 25,98 $.

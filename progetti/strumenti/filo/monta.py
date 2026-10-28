@@ -94,7 +94,7 @@ def ancora(v, parole, t0):
 def lenta(src, d, cache):
     """Clip alla durata d: tagliata se più lunga, rallentata (flusso ottico) al massimo ×1,3, poi ferma."""
     f = d / durata(src)
-    if f < 1.06:
+    if f <= 1.0:              # v2: anche se manca poco si rallenta appena, invece di tenerla ferma in coda
         return src
     f = min(f, MAX_LENTO); out = f'{cache}/{os.path.basename(src)[:-4]}_{f:.3f}.mp4'
     if not os.path.exists(out):
@@ -150,12 +150,13 @@ def riquadro_avatar():
 
 
 def avatar(sid, n, lead, rq):
-    """Fotogrammi RGBA di Achille per la scena (dal webm, ritagliato, alto AV_H), fermi sul primo per il ritardo della voce."""
+    """Fotogrammi RGBA di Achille per la scena (dal webm, ritagliato, alto AV_H). v2: la traccia dell'avatar ha già il
+    silenzio del ritardo e della coda di ogni scena (avatar.py), quindi Achille si muove per tutta la scena: niente più
+    fotogrammi fermi all'inizio e alla fine (Achille: «è poco fluido e a volte si blocca»)."""
     w, h, x0, x1, y0 = rq; tav = {t['id']: t for t in json.load(open(f'{A}/tempi-avatar.json'))}[sid]
     cw, chh = x1 - x0, h - y0; ah = AV_H; aw = round(cw * ah / chh / 2) * 2
-    vf = (f"trim=start={tav['inizio']:.3f}:duration={tav['durata']:.3f},setpts=PTS-STARTPTS,fps={FPS},"
-          f"tpad=start_duration={lead}:start_mode=clone:stop_mode=clone:stop=-1,crop={cw}:{chh}:{x0}:{y0},"
-          f"scale={aw}:{ah}:flags=lanczos,format=rgba")
+    vf = (f"trim=start={tav['inizio']:.3f}:duration={n / FPS + 0.2:.3f},setpts=PTS-STARTPTS,fps={FPS},"
+          f"tpad=stop_mode=clone:stop=-1,crop={cw}:{chh}:{x0}:{y0},scale={aw}:{ah}:flags=lanczos,format=rgba")
     yield from leggi(['ffmpeg', '-v', 'error', '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-vf', vf,
                       '-frames:v', str(n), '-f', 'rawvideo', '-'], aw, ah, n, 4)
 
@@ -252,7 +253,7 @@ def monta():
                 if tipo == 'avatar':
                     if sid == 'S08':
                         f = (f.astype(np.float32) * 0.92).astype(np.uint8)
-                    f = metti_avatar(f, next(ga), 1 + 0.12 * j / max(1, n - 1) if sid == 'S08' else 1.0)
+                    f = metti_avatar(f, next(ga))      # v2: niente zoom sull'avatar in S08 (andava a scatti di un pixel)
                 # grafiche
                 for nome, da, a_, dy in graf:
                     ta, tb = anc(sid, da), (anc(sid, a_) if a_ is not None else d)
