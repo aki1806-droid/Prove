@@ -1,0 +1,140 @@
+{
+  "titolo": "Il filo che ci unisce – video di presentazione con avatar",
+  "durata_s": 90,
+  "formato": "9:16 1080x1920 (versione 16:9 opzionale)",
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio": 0,
+      "fine": 6,
+      "tipo": "BROLL",
+      "asset": "clips/q01_sedia_vuota_9x16.mp4",
+      "regia": "Sedia vuota con scialle rosso, push-in. Nero in dissolvenza d’apertura.",
+      "grafica": "grafiche/overlay_trasparenti/K01_frase.png (da 1,5 s)",
+      "voce": "",
+      "audio": "Battito cardiaco lento, riverbero di sala vuota. Nessuna musica."
+    },
+    {
+      "n": 2,
+      "inizio": 6,
+      "fine": 16,
+      "tipo": "AVATAR",
+      "asset": "avatar Achille — primo piano, sguardo in camera, luce calda laterale",
+      "regia": "Inquadratura stretta, fondo scuro prugna sfocato. Sottopancia da 7 a 12 s.",
+      "grafica": "grafiche/overlay_trasparenti/L01_sottopancia_Achille.png",
+      "voce": "Mi chiamo Achille Pagliaro e sono il segretario della CISL FP Padova Rovigo. Ogni giorno, nei nostri ospedali e nei nostri uffici, incontro donne che si prendono cura di tutti. Ma a volte, a casa, nessuno si prende cura di loro.",
+      "audio": "Entra il pianoforte, una nota alla volta (pianissimo)."
+    },
+    {
+      "n": 3,
+      "inizio": 16,
+      "fine": 24,
+      "tipo": "BROLL",
+      "asset": "clips/k07_infermiera_notte_16x9.mp4 → clips/k03_notifiche_9x16.mp4",
+      "regia": "Infermiera sola di notte (ritaglio verticale), poi il volto illuminato dal telefono.",
+      "grafica": "grafiche/overlay_trasparenti/K02_frase.png (sulla seconda clip)",
+      "voce": "(voce fuori campo di Achille) La violenza non sempre fa rumore. A volte comincia con un messaggio: dove sei, con chi sei. E piano piano ti allontana da te stessa.",
+      "audio": "Vibrazioni del telefono, sempre più fitte; il piano si ferma."
+    },
+    {
+      "n": 4,
+      "inizio": 24,
+      "fine": 30,
+      "tipo": "AVATAR",
+      "asset": "avatar Achille",
+      "regia": "Mezzo primo piano. Pausa di 1 s prima di «ascolto».",
+      "grafica": "",
+      "voce": "Per questo, il 24 novembre, abbiamo scelto di parlare di ascolto. Di ascolto di sé.",
+      "audio": "Silenzio, poi il piano riparte in maggiore."
+    },
+    {
+      "n": 5,
+      "inizio": 30,
+      "fine": 42,
+      "tipo": "BROLL",
+      "asset": "clips/c02_ascolto_orecchio_9x16.mp4 → immagini tele g09, g12, g03, g11 (3 s ciascuna)",
+      "regia": "Montaggio sulle opere con Ken Burns lento; nome di ogni relatrice in sovrimpressione.",
+      "grafica": "grafiche/overlay_trasparenti/R01…R04 (una per opera)",
+      "voce": "(fuori campo) Con quattro donne straordinarie: Elena Paccagnella, Daniela Lucangeli, Sara Cordella e Luisa Morbiato.",
+      "audio": "Piano più presente, entra il violoncello."
+    },
+    {
+      "n": 6,
+      "inizio": 42,
+      "fine": 52,
+      "tipo": "BROLL",
+      "asset": "clips/v03_telaio_mani_9x16.mp4 → clips/k10_candele_16x9.mp4",
+      "regia": "Le mani annodano i fili al telaio, poi le candele che si accendono una dopo l’altra.",
+      "grafica": "grafiche/overlay_trasparenti/K04_frase.png poi K05_frase.png + A01_filo_rosso_animato_alpha.webm",
+      "voce": "(fuori campo) All’ingresso riceverete un filo rosso. Lo annoderemo insieme a un grande telaio. Perché ogni filo, da solo, si spezza. Insieme diventa una trama.",
+      "audio": "Crescendo; lo sfregamento del fiammifero amplificato."
+    },
+    {
+      "n": 7,
+      "inizio": 52,
+      "fine": 60,
+      "tipo": "BROLL",
+      "asset": "clips/v01_nonna_filo_9x16.mp4 → clips/c05_tavola_condivisa_16x9.mp4",
+      "regia": "Le mani della nonna annodano il filo al polso della ragazza; poi la tavola e il pane.",
+      "grafica": "",
+      "voce": "(fuori campo) E alla fine ci siederemo a una tavola condivisa, a spezzare il pane insieme. Il gesto più antico della fiducia.",
+      "audio": "Musica piena, calda."
+    },
+    {
+      "n": 8,
+      "inizio": 60,
+      "fine": 72,
+      "tipo": "AVATAR",
+      "asset": "avatar Achille — primo piano più stretto",
+      "regia": "Il momento più intimo: voce più bassa, pause lunghe. Il badge 1522 entra a 66 s.",
+      "grafica": "grafiche/overlay_trasparenti/K03_frase.png (61–64 s) + B01_1522.png (66–72 s)",
+      "voce": "Se oggi qualcuno ti sta facendo sentire piccola, sbagliata, sola… voglio che tu sappia una cosa. Non sei sola. Il 1522 risponde, sempre.",
+      "audio": "La musica scende quasi a zero sotto la voce."
+    },
+    {
+      "n": 9,
+      "inizio": 72,
+      "fine": 80,
+      "tipo": "BROLL",
+      "asset": "clips/v02_alba_finestra_9x16.mp4",
+      "regia": "La donna alla finestra respira e apre gli occhi nella luce dell’alba.",
+      "grafica": "",
+      "voce": "(fuori campo) E se puoi, vieni. Anche solo per ascoltare. A volte basta un posto accanto a qualcuno.",
+      "audio": "La musica risale e si apre."
+    },
+    {
+      "n": 10,
+      "inizio": 80,
+      "fine": 84,
+      "tipo": "CARTELLO",
+      "asset": "grafiche/cartelli/C01_titolo.png",
+      "regia": "Il filo rosso animato si disegna sotto il titolo.",
+      "grafica": "A01_filo_rosso_animato_alpha.webm",
+      "voce": "(Achille, fuori campo) Ti aspetto. Il tuo posto è lì.",
+      "audio": "Accordo pieno."
+    },
+    {
+      "n": 11,
+      "inizio": 84,
+      "fine": 87,
+      "tipo": "CARTELLO",
+      "asset": "grafiche/cartelli/C02_data_luogo.png → C03_prenota_QR.png",
+      "regia": "Data e luogo, poi QR (almeno 3 s).",
+      "grafica": "",
+      "voce": "",
+      "audio": ""
+    },
+    {
+      "n": 12,
+      "inizio": 87,
+      "fine": 90,
+      "tipo": "CARTELLO",
+      "asset": "grafiche/cartelli/C04_firma_1522.png",
+      "regia": "Firma con logo e 1522.",
+      "grafica": "",
+      "voce": "",
+      "audio": "La nota finale si spegne."
+    }
+  ]
+}
