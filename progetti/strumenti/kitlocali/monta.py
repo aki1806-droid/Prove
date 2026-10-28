@@ -28,7 +28,7 @@ SCENE = [('S01', 'slide', '02_slide/video-s01-copertina.png', 3.0), ('S02', 'ava
          ('S09', 'slide', '02_slide/video-s09-come-richiederlo.png', None), ('S10', 'avatar', None, None),
          ('S11', 'slide', '02_slide/video-s11-chiusura-qr.png', 10.0)]
 CIFRE = [('duemilaventicinque duemilaventisette', '2025-2027'), ('duemilaventisette', '2027'), ('centocinquantadue', '152'),
-         ('centoquarantuno', '141'), ('centoventotto', '128'), ('ventiquattro', '24'), ('ventotto', '28')]
+         ('centoquarantuno', '141'), ('centoventotto', '128'), ('centotrentanove', '139'), ('ventiquattro', '24'), ('ventotto', '28')]
 MAXR, SUB_Y = 30, 1905
 IMPRESSI = False      # v3 (28/10): Achille non vuole i sottotitoli nel video; resta sottotitoli.srt
 SUB_Y_AVATAR = 1250

@@ -13,11 +13,19 @@ import numpy as np
 from scipy import ndimage as nd
 
 D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'pdro-kit-funzioni-locali')
-X0, W, H = 500, 920, 1080            # ritaglio di Andrea nel webm 1920x1080
-LARGA, SFUMA = 220, 6
+X0, W, H = 500, 920, 1080            # ritaglio di Andrea nel webm 1920x1080 (v2-v3)
+# v4: HeyGen ha restituito il webm già stretto su Andrea (1080x1286): si tiene tutto il fotogramma
+
+
+def misura():
+    w, h = map(int, subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v', '-show_entries', 'stream=width,height',
+                                    '-of', 'csv=p=0', f'{D}/avatar/avatar.webm'], capture_output=True, text=True).stdout.split(',')[:2])
+    return (X0, W, H) if w == 1920 else (0, w, h)
+LARGA, SFUMA, ASTA = 220, 6, 25
 
 
 def main():
+    X0, W, H = misura()
     dec = subprocess.Popen(['ffmpeg', '-v', 'error', '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm',
                             '-vf', f'crop={W}:{H}:{X0}:0,format=rgba', '-f', 'rawvideo', '-'], stdout=subprocess.PIPE)
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', '25',
@@ -44,6 +52,12 @@ def main():
         # bordo della testa ammorbidito dove si è tagliato: erosione di un pixel e sfocatura dell'alfa solo nella zona
         m = nd.binary_erosion(zona > 30, iterations=1, border_value=1)
         zona[:] = np.minimum(zona, (nd.gaussian_filter(m.astype(np.float32), 1.6) * 255).astype(np.uint8))
+        # v4: l'asta attaccata alla spalla: sotto la testa sparisce ciò che è più stretto di ASTA px in orizzontale
+        y0 = min(H, cima + 300); z = f[y0:, :, 3]
+        if z.size:
+            largo = nd.binary_opening(z > 30, structure=np.ones((1, ASTA)))
+            largo = nd.binary_dilation(largo, structure=np.ones((1, 3)))
+            z[~largo] = 0
         # l'asta e gli altri pezzi staccati: resta solo la sagoma più grande
         lab, k = nd.label(f[..., 3] > 30)
         if k > 1:

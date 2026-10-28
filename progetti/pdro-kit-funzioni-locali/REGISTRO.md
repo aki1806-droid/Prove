@@ -64,3 +64,19 @@ Portafoglio API: 37,23 → 35,68 $ (voce 0,20, avatar e caricamenti il resto).
   −24,6 LUFS, chiusura −22 (voce −18,8).
 - Montato v3: 104,7 s, 29 MB, file integro; copia d'invio mandata in chat. Originale su HeyGen (API): asset 128067d561254cf1847b2e9dcb56dbbd —
   https://resource2.heygen.ai/video/128067d561254cf1847b2e9dcb56dbbd/original.mp4 (sostituisce 7540192f15464e6295690ad8e9ab5fde).
+
+## Versione 4 — 28/10/2026, richieste di Achille
+«In apertura bisogna dire che oggi 28 ottobre si è firmato il contratto», «in un passaggio dico 128 anziché 138», «al termine
+concluderei con un augurio di buon lavoro e un caro saluto». Testi cambiati (autorizzati; scelte confermate da Achille):
+- S02: «… Oggi, ventotto ottobre, all'ARAN si è firmato in via definitiva il nuovo contratto delle Funzioni Locali …»
+- S04: la slide dà +127,63 € agli istruttori e +138,52 € ai funzionari: scelto l'esempio sul funzionario, «Un funzionario,
+  per esempio, avrà quasi centotrentanove euro lordi in più al mese.»; tolta la frase dei 141 € (era dell'istruttore).
+- S10: «… Richiedi il kit e giralo ai colleghi. Buon lavoro a tutti, e un caro saluto.»
+Voce solo di S02, S04, S10 (../strumenti/kitlocali/v4.py, stessa voce di Andrea, eleven_v4 via API, request
+zEJgNqLidDj4Cs4MjKEW, 34,4 s; parole uguali ai testi): S02 18,3 s · S04 5,3 · S10 9,5. Avatar rifatto via API in webm
+(S02+S08+S10, 38,8 s): video b76072b179af3cfe8fa0f9b05e069b31; stavolta HeyGen lo ha restituito già stretto su Andrea
+(1080x1286 invece di 1920x1080): pulisci_avatar.py legge la misura e toglie anche l'asta della bandiera attaccata alla
+spalla. Labiale 0 ms. File della v3 in avatar/v3/.
+Montato v4: 103,5 s, 29 MB, integro, SAR 1:1, −18,4 LUFS, mandato in chat. Originale su HeyGen (API): asset
+f8c7e156965f4169a92cc82e52bae5e0 — https://resource2.heygen.ai/video/f8c7e156965f4169a92cc82e52bae5e0/original.mp4
+(sostituisce 128067d561254cf1847b2e9dcb56dbbd). Portafoglio API: 32,33 → 30,78 $.

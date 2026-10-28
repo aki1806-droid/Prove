@@ -1,17 +1,17 @@
 [
  {
   "id": "S02",
-  "inizio": 0,
-  "durata": 17.307
+  "inizio": 0.0,
+  "durata": 18.321
  },
  {
   "id": "S08",
-  "inizio": 17.907,
+  "inizio": 18.921,
   "durata": 9.791
  },
  {
   "id": "S10",
-  "inizio": 28.298,
-  "durata": 7.051
+  "inizio": 29.312,
+  "durata": 9.45
  }
 ]
