@@ -1,170 +1,170 @@
 1
-00:00:03,030 --> 00:00:06,850
+00:00:02,030 --> 00:00:05,850
 Ciao, sono Andrea Ricci,
 segretario generale della CISL FP
 
 2
-00:00:06,870 --> 00:00:08,020
+00:00:05,870 --> 00:00:07,020
 Padova Rovigo.
 
 3
-00:00:08,110 --> 00:00:11,690
+00:00:07,110 --> 00:00:10,690
 Oggi, 28 ottobre, all'ARAN si
 è firmato in via definitiva
 
 4
-00:00:11,710 --> 00:00:14,770
+00:00:10,710 --> 00:00:13,770
 il nuovo contratto delle Funzioni
 Locali duemilaventicinque
 
 5
-00:00:14,790 --> 00:00:16,100
+00:00:13,790 --> 00:00:15,100
 2027.
 
 6
-00:00:16,270 --> 00:00:18,610
+00:00:15,270 --> 00:00:17,610
 Ed è una buona notizia per
 chi lavora nei Comuni,
 
 7
-00:00:18,630 --> 00:00:21,020
+00:00:17,630 --> 00:00:20,020
 nelle Province e negli
 altri enti locali.
 
 8
-00:00:21,351 --> 00:00:24,032
+00:00:19,950 --> 00:00:22,631
 Gli aumenti arrivano
 a regime dal 2027:
 
 9
-00:00:24,162 --> 00:00:29,152
+00:00:22,721 --> 00:00:27,711
 in media 152 euro al mese nei
 Comuni e 141 negli altri enti.
 
 10
-00:00:32,242 --> 00:00:34,872
+00:00:29,081 --> 00:00:31,711
 E gli arretrati medi
 superano i mille euro.
 
 11
-00:00:37,276 --> 00:00:41,107
+00:00:32,441 --> 00:00:36,272
 Un funzionario, per esempio,
 avrà quasi 139 euro lordi in
 
 12
-00:00:41,127 --> 00:00:42,117
+00:00:36,292 --> 00:00:37,282
 più al mese.
 
 13
-00:00:42,582 --> 00:00:45,762
+00:00:37,212 --> 00:00:40,392
 Dalla firma gli enti hanno trenta
 giorni per applicare aumenti
 
 14
-00:00:45,782 --> 00:00:46,842
+00:00:40,412 --> 00:00:41,472
 e arretrati:
 
 15
-00:00:46,862 --> 00:00:49,252
+00:00:41,492 --> 00:00:43,882
 indicativamente tra
 novembre e dicembre.
 
 16
-00:00:49,422 --> 00:00:51,442
+00:00:44,052 --> 00:00:46,072
 Se il tuo ente
 ritarda, diccelo:
 
 17
-00:00:51,462 --> 00:00:52,532
+00:00:46,092 --> 00:00:47,162
 interveniamo noi.
 
 18
-00:00:52,944 --> 00:00:54,511
+00:00:47,092 --> 00:00:48,659
 Ma non ci sono solo i soldi.
 
 19
-00:00:54,601 --> 00:00:56,981
+00:00:48,749 --> 00:00:51,129
 Ferie piene da subito
 per i neoassunti,
 
 20
-00:00:57,001 --> 00:00:59,951
+00:00:51,149 --> 00:00:54,099
 congedo fino a 24 mesi
 per le malattie gravi,
 
 21
-00:01:00,001 --> 00:01:03,101
+00:00:54,149 --> 00:00:57,249
 indennità pagate anche in ferie
 per chi fa turni o servizio
 
 22
-00:01:03,121 --> 00:01:03,951
+00:00:57,269 --> 00:00:58,099
 esterno.
 
 23
-00:01:04,295 --> 00:01:07,189
+00:00:58,029 --> 00:01:00,923
 E per la prima volta il contratto
 mette regole sull'intelligenza
 
 24
-00:01:07,209 --> 00:01:08,189
+00:01:00,943 --> 00:01:01,923
 artificiale:
 
 25
-00:01:08,209 --> 00:01:11,399
+00:01:01,943 --> 00:01:05,133
 le macchine aiutano, ma a
 decidere sono le persone.
 
 26
-00:01:11,755 --> 00:01:15,053
+00:01:05,063 --> 00:01:08,361
 Per questo abbiamo preparato il
 Kit Contratto Funzioni Locali:
 
 27
-00:01:15,073 --> 00:01:17,613
+00:01:08,381 --> 00:01:10,921
 una guida completa,
 chiara e gratuita,
 
 28
-00:01:17,633 --> 00:01:20,453
+00:01:10,941 --> 00:01:13,761
 con le tabelle per controllare
 la tua busta paga voce per
 
 29
-00:01:20,473 --> 00:01:21,143
+00:01:13,781 --> 00:01:14,451
 voce.
 
 30
-00:01:21,546 --> 00:01:23,109
+00:01:14,381 --> 00:01:15,944
 Compila il modulo
 in un minuto,
 
 31
-00:01:23,129 --> 00:01:26,069
+00:01:15,964 --> 00:01:18,904
 scegli la tua provincia, e il
 kit arriva subito nella tua
 
 32
-00:01:26,089 --> 00:01:28,759
+00:01:18,924 --> 00:01:21,594
 mail, insieme al link al
 nostro canale WhatsApp.
 
 33
-00:01:29,089 --> 00:01:32,479
+00:01:21,524 --> 00:01:24,914
 Il contratto si firma a Roma,
 ma si fa valere nel tuo ente.
 
 34
-00:01:32,529 --> 00:01:33,679
+00:01:24,964 --> 00:01:26,114
 Noi ci siamo.
 
 35
-00:01:33,729 --> 00:01:35,919
+00:01:26,164 --> 00:01:28,354
 Richiedi il kit e
 giralo ai colleghi.
 
 36
-00:01:36,009 --> 00:01:38,159
+00:01:28,444 --> 00:01:30,594
 Buon lavoro a tutti,
 e un caro saluto.
 

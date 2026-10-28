@@ -14,7 +14,7 @@ D = os.path.join(os.path.dirname(os.path.dirname(QUI)), 'pdro-kit-funzioni-local
 NOME = 'PDRO_Kit_Contratto_Funzioni_Locali_9x16'
 TRACCIA = ('upbeat positive corporate uplifting, confident, modern', 'e21d6bf3f9a6438a9192be6fab09941a')
 VOL = 0.42   # circa -21 LUFS: un filo sotto la voce (-18,8)
-COPERTINA, CHIUSURA, DA = 3.0, 10.0, 12.0   # durate delle scene mute e punto della traccia da cui parte la chiusura
+COPERTINA, CHIUSURA, DA = 2.0, 6.0, 12.0  # v5: come le scene di monta.py   # durate delle scene mute e punto della traccia da cui parte la chiusura
 
 
 def scarica():
@@ -39,7 +39,7 @@ def mescola(f):
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{D}/{NOME}_voce.mp4', '-i', f, '-i', f, '-filter_complex', fil,
                     '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart',
                     f'{D}/{NOME}.mp4'], check=True)
-    print('musica su copertina (0-3 s) e chiusura', f'({t11:.1f}-{tot:.1f} s)')
+    print(f'musica su copertina (0-{COPERTINA:g} s) e chiusura', f'({t11:.1f}-{tot:.1f} s)')
 
 
 if __name__ == '__main__':

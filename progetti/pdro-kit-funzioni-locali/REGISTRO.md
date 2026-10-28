@@ -92,3 +92,14 @@ f8c7e156965f4169a92cc82e52bae5e0 — https://resource2.heygen.ai/video/f8c7e1569
   (sostituisce f8c7e156965f4169a92cc82e52bae5e0).
 - Da guardare: la clip dei numeri del pacchetto (c03, ora solo 2,65 s) mostra «102 €» in media negli altri enti e
   «1.136 €» di arretrati, mentre la voce e l'infografica dicono 141 €.
+
+## Versione 5 — 28/10/2026, richiesta di Achille: «ha pause troppo lunghe»
+Misurate sul montato (silenzi oltre 0,4 s): fra una scena e l'altra ~0,7 s (la coda del taglio, 0,6 s, più l'attacco
+della scena dopo), 3 e 2,7 s di fermo sulle due slide di Achille, copertina muta 3 s, chiusura con il QR 10,5 s. Dentro le
+frasi le pause sono già sotto il mezzo secondo: voce e avatar non si toccano.
+- ogni scena finisce 0,2 s dopo l'ultima parola (monta.py CODA): fra le scene ora ~0,3 s;
+- slide «Quanto aumenta davvero» +1,3 s oltre la voce (era 3), «I tuoi arretrati» +0,8 (era 2);
+- copertina 2 s (era 3), chiusura con il QR 6 s (era 10; il QR resta ben oltre i 3 s); musica adattata (musica.py).
+Montato v5: 96,5 s (era 108,5), integro, SAR 1:1, −18,3 LUFS; copia d'invio 28 MB in chat. Originale su HeyGen: asset
+6c007bdfa1e44544b4cf138668d8bf8a — https://resource2.heygen.ai/video/6c007bdfa1e44544b4cf138668d8bf8a/original.mp4
+(sostituisce 4c9d295f53304b08bc7cd38b88f4f89f).
