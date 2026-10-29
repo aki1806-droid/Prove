@@ -5,7 +5,7 @@
       "args": [
         "-y", "mcp-remote",
         "https://gate-mcp.thefusebase.com/mcp",
-        "--header", "Authorization: Bearer ${FUSEBASE_TOKEN}"
+        "--header", "Authorization: Bearer ${FUSEBASE_TOKEN:-dal-proxy}"
       ]
     }
   }
