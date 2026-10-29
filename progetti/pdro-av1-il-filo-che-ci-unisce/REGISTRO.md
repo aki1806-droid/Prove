@@ -85,3 +85,20 @@ https://resource2.heygen.ai/video/618c44e98cfc4194aeab21dd220404b5/original.mp4
 Originali su HeyGen (sostituiscono la v3): 9:16 asset c321d4b8c8ec4741ba9fbb6d39ebdf50 —
 https://resource2.heygen.ai/video/c321d4b8c8ec4741ba9fbb6d39ebdf50/original.mp4 · 16:9 asset 48303772c8774dedbc0f5bde8e11563b —
 https://resource2.heygen.ai/video/48303772c8774dedbc0f5bde8e11563b/original.mp4. Copia d'invio 28 MB e 16:9 in chat.
+
+## Versione senza avatar con Luca Ward — 29/10/2026, richiesta di Achille: «fanne una versione senza avatar con la voce di Luca Ward v4»
+- Voce: Luca Ward e4bd8d8a357f41a99502309874733c16 via API HeyGen come passante, eleven_v4 (scelta di Achille), request
+  XzkSv4LqAkryEYsc0awy, 81,3 s, profilo «narratore» (pause >0,6 → 0,45 s, niente atempo): ../strumenti/filo/voci_ward.py,
+  in audio_ward/. Testi adattati al plurale della CISL FP (scelta di Achille): S02 «Ogni giorno, nei nostri ospedali e nei
+  nostri uffici, incontriamo donne che si prendono cura di tutti. Ma a volte, a casa, nessuno si prende cura di loro.»
+  (senza la presentazione di Achille), S10 «Ti aspettiamo. Il tuo posto è lì.»; il resto uguale. 9 blocchi, parole uguali.
+- Montaggio: `python3 strumenti/filo/monta.py ward`, come la v4 ma senza l'avatar (i fondi delle scene in camera a tutto
+  schermo) e senza il sottopancia di Achille; S02 da «Ma a volte, a casa» la donna alla finestra (n_alba del pacchetto);
+  clip rallentate fino a ×1,4 (Luca Ward legge più piano). Niente sottotitoli a schermo; sottotitoli_LucaWard.srt.
+- Rallentamento corretto per tutte e due le versioni: prima si allungano i tempi e poi minterpolate crea i fotogrammi
+  direttamente a 25 fps (interpolando a 25·f fps e riportando a 25 si ripetevano fotogrammi: gli scatti di c02). Nel
+  montato: un solo doppione al cambio S02→S03, fermi solo sui cartelli, integro, SAR 1:1, −16,0 LUFS, picco −1,0 dBFS.
+- Uscite: PDRO_Il_filo_che_ci_unisce_LucaWard_9x16.mp4 (84,4 s, 50 MB; copia d'invio 28 MB in chat) e _16x9 (29 MB).
+  HeyGen: 9:16 asset 8a76b9b923bf414d8f9eb950000bdb9d — https://resource2.heygen.ai/video/8a76b9b923bf414d8f9eb950000bdb9d/original.mp4
+  · 16:9 asset 441ad9a201bb4843be69e3d41ff83fc1 — https://resource2.heygen.ai/video/441ad9a201bb4843be69e3d41ff83fc1/original.mp4
+  Portafoglio API: 25,98 → 25,82 $.

@@ -28,9 +28,11 @@ sys.path.insert(0, os.path.join(os.path.dirname(QUI), 'brividi'))
 from trailer import sopra, colore, frasi, righe2, tc, norm, durata, ff, font  # noqa: E402
 
 D = os.path.join(os.path.dirname(os.path.dirname(QUI)), 'pdro-av1-il-filo-che-ci-unisce')
-A, SFX, OV = f'{D}/audio', f'{D}/audio/sfx', f'{D}/grafiche/overlay_trasparenti'
+# variante senza avatar con la voce di Luca Ward (richiesta di Achille, 29/10): python3 strumenti/filo/monta.py ward
+WARD = sys.argv[1:] == ['ward']
+A, SFX, OV = f'{D}/audio' + ('_ward' if WARD else ''), f'{D}/audio/sfx', f'{D}/grafiche/overlay_trasparenti'
 W, H, FPS = 1080, 1920, 25
-NOME = 'PDRO_Il_filo_che_ci_unisce'
+NOME = 'PDRO_Il_filo_che_ci_unisce' + ('_LucaWard' if WARD else '')
 MAX_LENTO, AV_H, PRUGNA, AVORIO = 1.3, 640, (38, 24, 42), (244, 237, 226)
 Y_SUB = 1250                         # base dei sottotitoli: sopra l'avatar e sopra la fascia dei nomi delle relatrici
 Y_SUB_CARTELLI = 1560                # sui cartelli finali sotto il testo del cartello
@@ -57,6 +59,13 @@ SCENE = [
     ('S11b', 3.2, 0, [('grafiche/cartelli/C03_prenota_QR.png', 0)], [], (0, 0)),
     ('S12', 2.8, 0, [('grafiche/cartelli/C04_firma_1522.png', 0)], [], (0, 0)),
 ]
+if WARD:
+    # senza avatar: nelle scene in camera resta il fondo (immagine o clip) a tutto schermo; via il sottopancia di Achille
+    SCENE = [(sid, fissa, lead, [(p[2], p[1]) if p[0] == 'avatar' else p for p in pezzi],
+              [g for g in graf if not g[0].startswith('L01')], col) for sid, fissa, lead, pezzi, graf, col in SCENE]
+    # S02 senza Achille in camera: le mani al telaio, poi da «Ma a volte, a casa» la donna alla finestra (n_alba del pacchetto)
+    SCENE = [(s[0], s[1], s[2], s[3] + [('immagini/n_alba.jpg', 'Ma')], *s[4:]) if s[0] == 'S02' else s for s in SCENE]
+    MAX_LENTO = 1.4                  # Luca Ward legge più piano: le clip si rallentano un poco di più invece di fermarsi
 CENTRO = {'k07b': 0.68, 'k10': 0.55, 'c05': 0.45, 'k08': 0.42, 'k09': (0.20, 0.55)}   # k09 è una panoramica: il ritaglio la segue
 # suono: (scena, da, effetto, volume, durata o None, offset, dissolvenza in, out); musica con il nome p_*
 SUONI = [('S01', 0.0, 'battito', 0.7, 2.8, 0, 0.3, 0.5),
@@ -101,11 +110,13 @@ def lenta(src, d, cache):
     """Clip alla durata d, sempre a 25 fps veri. v3 (Achille: «vorrei il video più fluido»): le clip del pacchetto sono a
     24 fps e prima fps=25 ripeteva un fotogramma ogni secondo (lo scatto). Ora: se la clip basta, si suona ogni suo
     fotogramma a 25 fps (4% più svelta, nessun doppione); se serve più tempo, flusso ottico direttamente a 25 fps,
-    rallentata al massimo ×1,3, poi ferma."""
-    f = min(d / durata(src), MAX_LENTO); out = f'{cache}/{os.path.basename(src)[:-4]}_25fps_{f:.3f}.mp4'
+    rallentata al massimo ×1,3, poi ferma. Prima si allungano i tempi, poi minterpolate crea i fotogrammi direttamente
+    a 25 fps (scd=none): interpolando a 25·f fps e poi riportando a 25 restavano tempi non interi e qualche fotogramma
+    ripetuto (gli scatti di c02 nella versione di Luca Ward). Misurato: 0 doppioni."""
+    f = min(d / durata(src), MAX_LENTO); out = f'{cache}/{os.path.basename(src)[:-4]}_lenta25_{f:.3f}.mp4'
     if not os.path.exists(out):
         vf = ("setpts=PTS*24/25" if f <= 24 / 25 else
-              f"minterpolate=fps={25 * f:.4f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,setpts={f:.4f}*PTS")
+              f"setpts={f:.4f}*PTS,minterpolate=fps=25:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=none")
         ff('-i', src, '-vf', vf + f",fps={FPS}", '-an', '-c:v', 'libx264', '-crf', '14', '-preset', 'fast', out + '.tmp.mp4')
         os.replace(out + '.tmp.mp4', out)          # se il montaggio si ferma a metà, in cache non resta un file rotto
     return out
@@ -236,7 +247,7 @@ def monta():
     for i in range(len(sub) - 1):
         if sub[i][1] > sub[i + 1][0] - 0.05:
             sub[i] = (sub[i][0], sub[i + 1][0] - 0.05, sub[i][2])
-    open(f'{D}/sottotitoli_montato.srt', 'w').write(''.join(f"{k}\n{tc(a)} --> {tc(b)}\n{chr(10).join(righe2(x, 30))}\n\n"
+    open(f'{D}/sottotitoli_' + ('LucaWard' if WARD else 'montato') + '.srt', 'w').write(''.join(f"{k}\n{tc(a)} --> {tc(b)}\n{chr(10).join(righe2(x, 30))}\n\n"
                                                          for k, (a, b, x) in enumerate(sub, 1)))
     strati_sub = []
     inizio_cartelli = tempi['S10'][0]
