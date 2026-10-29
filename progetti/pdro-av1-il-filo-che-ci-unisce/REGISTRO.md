@@ -54,3 +54,18 @@ Montato v2: 85,0 s, 56 MB, integro, SAR 1:1, −16,1 LUFS; copia d'invio 28 MB e
 Originali su HeyGen (sostituiscono quelli della v1): 9:16 asset 9165e670c94747f9963522698ba1c076 —
 https://resource2.heygen.ai/video/9165e670c94747f9963522698ba1c076/original.mp4 · 16:9 asset 68b9e45fa2c145bd91a1dd2bdf482917 —
 https://resource2.heygen.ai/video/68b9e45fa2c145bd91a1dd2bdf482917/original.mp4. Portafoglio API: 27,22 → 25,98 $.
+
+## Versione 3 — 29/10/2026, richiesta di Achille: «la musica è troppo alta e vorrei il video più fluido»
+- Musica: sui cartelli finali (solo musica) era −11,2 LUFS contro −17 della voce, cioè più forte della voce. Volume della
+  traccia 0,8 → 0,22 e sotto la voce −9 dB in più (monta.py MUSICA_VOL, MUSICA_SOTTO): ora cartelli −19,4 LUFS, parti
+  parlate −14,7/−15,2, il video intero −16,1.
+- Fluidità: le clip del pacchetto sono a 24 fps e fps=25 ripeteva un fotogramma ogni secondo (lo scatto). Ora ogni clip
+  esce a 25 fps veri: se basta, ogni fotogramma suonato a 25 (4% più svelta), se no flusso ottico direttamente a 25 fps.
+  Il Ken Burns delle immagini si calcola in Python con il riquadro in frazioni di pixel e partenza morbida (zoompan
+  arrotondava ai pixel e tremava). Doppioni isolati misurati nel montato: 1 (al cambio fra S05 e S06), prima uno al secondo
+  in tutte le clip.
+- Cache delle clip scritta in modo sicuro (file temporaneo poi rinominato): una prova interrotta ne aveva lasciata una rotta.
+Montato v3: 85,0 s, 57 MB, integro, picco −0,7 dBFS; copia d'invio 28 MB e 16:9 (29 MB) mandate in chat. Originali su HeyGen
+(sostituiscono la v2): 9:16 asset e597d78e34204836958f9e3baaa8f30d —
+https://resource2.heygen.ai/video/e597d78e34204836958f9e3baaa8f30d/original.mp4 · 16:9 asset 618c44e98cfc4194aeab21dd220404b5 —
+https://resource2.heygen.ai/video/618c44e98cfc4194aeab21dd220404b5/original.mp4

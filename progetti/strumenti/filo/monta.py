@@ -67,6 +67,7 @@ SUONI = [('S01', 0.0, 'battito', 0.7, 4.0, 0, 0.3, 0.6),
 # musica: intima fino a «A volte» di S03 (poi il piano si ferma); dopo il secondo di silenzio di S04, da 10 s della traccia
 MUSICA = [('S02', 0.0, 'S03', 'A', 1.5, 0.8, 2.5), ('S04', 1.0, None, None, 10.0, 0.6, 3.5)]
 SILENZI = [('S04', 0.0, 1.0)]
+MUSICA_VOL, MUSICA_SOTTO = 0.22, 0.65   # v3 (Achille: «la musica è troppo alta»): prima 0,8 e 0,8
 SOTTO_S08 = 0.06                     # la musica sotto «non sei sola» (regia: quasi a zero)
 
 
@@ -92,14 +93,16 @@ def ancora(v, parole, t0):
 
 
 def lenta(src, d, cache):
-    """Clip alla durata d: tagliata se più lunga, rallentata (flusso ottico) al massimo ×1,3, poi ferma."""
-    f = d / durata(src)
-    if f <= 1.0:              # v2: anche se manca poco si rallenta appena, invece di tenerla ferma in coda
-        return src
-    f = min(f, MAX_LENTO); out = f'{cache}/{os.path.basename(src)[:-4]}_{f:.3f}.mp4'
+    """Clip alla durata d, sempre a 25 fps veri. v3 (Achille: «vorrei il video più fluido»): le clip del pacchetto sono a
+    24 fps e prima fps=25 ripeteva un fotogramma ogni secondo (lo scatto). Ora: se la clip basta, si suona ogni suo
+    fotogramma a 25 fps (4% più svelta, nessun doppione); se serve più tempo, flusso ottico direttamente a 25 fps,
+    rallentata al massimo ×1,3, poi ferma."""
+    f = min(d / durata(src), MAX_LENTO); out = f'{cache}/{os.path.basename(src)[:-4]}_25fps_{f:.3f}.mp4'
     if not os.path.exists(out):
-        ff('-i', src, '-vf', f"minterpolate=fps={24 * f:.4f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,setpts={f:.4f}*PTS,"
-           f"fps={FPS}", '-an', '-c:v', 'libx264', '-crf', '14', '-preset', 'fast', out)
+        vf = ("setpts=PTS*24/25" if f <= 24 / 25 else
+              f"minterpolate=fps={25 * f:.4f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,setpts={f:.4f}*PTS")
+        ff('-i', src, '-vf', vf + f",fps={FPS}", '-an', '-c:v', 'libx264', '-crf', '14', '-preset', 'fast', out + '.tmp.mp4')
+        os.replace(out + '.tmp.mp4', out)          # se il montaggio si ferma a metà, in cache non resta un file rotto
     return out
 
 
@@ -123,9 +126,20 @@ def fondo(src, n, cache, cx=0.5, kb=True):
             yield f
         return
     if src.endswith(('.jpg', '.png')):
-        vf = (f"scale={W * 2}:{H * 2}:force_original_aspect_ratio=increase,crop={W * 2}:{H * 2},"
-              f"zoompan=z='1+{0.08 if kb else 0}*on/{n}':x='iw/2-iw/zoom/2':y='ih/2-ih/zoom/2':d=1:s={W}x{H}:fps={FPS}")
-        cmd = ['ffmpeg', '-v', 'error', '-loop', '1', '-i', src]
+        # v3: Ken Burns calcolato in Python con il riquadro in frazioni di pixel (zoompan arrotonda ai pixel e trema)
+        im = Image.open(src).convert('RGB'); SW, SH = round(W * 1.5), round(H * 1.5)
+        k = max(SW / im.size[0], SH / im.size[1]); im = im.resize((round(im.size[0] * k), round(im.size[1] * k)), Image.LANCZOS)
+        x, y = (im.size[0] - SW) // 2, (im.size[1] - SH) // 2; im = im.crop((x, y, x + SW, y + SH))
+        if not kb:
+            fermo = np.array(im.resize((W, H), Image.LANCZOS))
+            for _ in range(n):
+                yield fermo
+            return
+        for i in range(n):
+            u = i / max(1, n - 1); z = 1 + 0.08 * (u * u * (3 - 2 * u) * 0.35 + u * 0.65)    # parte e arriva morbida
+            bw, bh = SW / z, SH / z; x0, y0 = (SW - bw) / 2, (SH - bh) / 2
+            yield np.array(im.resize((W, H), Image.BICUBIC, box=(x0, y0, x0 + bw, y0 + bh)))
+        return
     else:
         vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}:(iw-{W})*{cx}:(ih-{H})/2,fps={FPS},"
               f"tpad=stop_mode=clone:stop=-1")
@@ -302,10 +316,10 @@ def monta():
     for sa, da, sb_, a_, off, fin, fout in MUSICA:
         t = tempi[sa][0] + anc(sa, da); fine = (tempi[sb_][0] + anc(sb_, a_)) if sb_ else tot; dd = fine - t
         ins += ['-i', f'{SFX}/p_filo.wav']
-        fil.append(f"[{k}:a]atrim={off}:{off + dd:.3f},asetpts=PTS-STARTPTS,volume=0.8,afade=t=in:d={fin},"
+        fil.append(f"[{k}:a]atrim={off}:{off + dd:.3f},asetpts=PTS-STARTPTS,volume={MUSICA_VOL},afade=t=in:d={fin},"
                    f"afade=t=out:st={max(0, dd - fout):.3f}:d={fout},adelay={round(t * 1000)}:all=1[m{k}]"); mus.append(f'm{k}'); k += 1
     fil.append(''.join(f'[{x}]' for x in mus) + f"amix=inputs={len(mus)}:normalize=0,apad=whole_dur={tot},"
-               f"volume='(1-0.8*min(1,{attiva}))*(1-{1 - SOTTO_S08}*min(1,max(0,(t-{s8a - 0.5:.2f})/1.0))*min(1,max(0,({s8a + s8d + 0.3:.2f}-t)/1.2)))'"
+               f"volume='(1-{MUSICA_SOTTO}*min(1,{attiva}))*(1-{1 - SOTTO_S08}*min(1,max(0,(t-{s8a - 0.5:.2f})/1.0))*min(1,max(0,({s8a + s8d + 0.3:.2f}-t)/1.2)))'"
                f":eval=frame[mus]")
     fil.append(''.join(f'[{x}]' for x in eff) + f"amix=inputs={len(eff)}:normalize=0,apad=whole_dur={tot},"
                f"volume='1-0.45*min(1,{attiva})':eval=frame[eff]")
