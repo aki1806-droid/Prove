@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fusebase-gate": {
+      "command": "npx",
+      "args": [
+        "-y", "mcp-remote",
+        "https://gate-mcp.thefusebase.com/mcp",
+        "--header", "Authorization: Bearer ${FUSEBASE_TOKEN}"
+      ]
+    }
+  }
+}
