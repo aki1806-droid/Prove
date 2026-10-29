@@ -1,6 +1,6 @@
 # Eredità Invisibili — tutti i video
 
-27 file (20 video: 10 reel, 6 short, il teaser con i 5 giorni del conto alla rovescia, 2 video in 16:9 e 9:16, 1 video YouTube). I link sono gli originali caricati su HeyGen: si aprono e si scaricano dal browser.
+27 file (20 video: 10 reel, 6 short, il teaser con i 5 giorni del conto alla rovescia, 2 video in 16:9 e 9:16, 1 video YouTube). I link sono gli originali caricati su HeyGen: si aprono e si scaricano dal browser (verificati uno per uno il 29/10/2026, tutti rispondono).
 
 | # | video | formato | durata | link |
 |---|---|---|---|---|
@@ -33,3 +33,13 @@
 | Y01 | Video YouTube «Perché ho scritto Eredità Invisibili» | 16:9 | 142,3 s | [apri](https://resource2.heygen.ai/video/97c0d9c36426478b8a1430bdbd122564/original.mp4) |
 
 Ogni cartella `progetti/ei-*/` ha il suo `REGISTRO.md` con voce, clip, controlli e asset.
+
+## Dove ho cercato (29/10/2026)
+- **Repository**, tutte le cartelle e tutti i branch: i video di Eredità Invisibili sono solo le 20 cartelle `progetti/ei-*`.
+  Le cartelle `libro-*` sono dell'altro libro, «Il Volo delle Radici»; negli altri branch «eredit» compare solo come parola
+  comune («ereditati», «l'eredità»), nessun video della serie.
+- **Pacchetti caricati in chat**: 20 zip EI, uno per ognuno dei 20 video qui sopra; non c'è un pacchetto rimasto da fare.
+  Le istruzioni per i nuovi (V01, VT11–VT20, TL01–TL10) sono arrivate senza gli zip.
+- **Account HeyGen** (1.406 video): 21 video con il titolo «EI … avatar» sono i rendering dell'avatar usati per montare,
+  non i video finiti; i finiti sono quelli della tabella.
+
