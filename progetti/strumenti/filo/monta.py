@@ -7,8 +7,10 @@ Scene del pacchetto (storyboard.json, NOTE_DI_REGIA.md) con le durate fatte sul 
 trailer «Brividi» (niente clip molto lente né pause lunghe): ogni scena dura quanto la sua voce più un respiro; clip
 rallentate al massimo ×1,3, poi ferme sull'ultimo fotogramma; immagini con Ken Burns 100→108%.
 Scene in camera (S02, S04, S08): Achille scontornato in basso a destra con l'alone, come nei reel PDRO (scelta di
-Achille), sopra un fondo: S02 le mani al telaio, S04 la clip dell'ascolto, S08 il fondo prugna sfocato della regia, con
-l'avatar che si avvicina piano (100→112%). Il sottopancia e il badge 1522 del pacchetto stavano dove sta l'avatar: alzati (sopra i sottotitoli).
+Achille), sopra un fondo: S02 le mani al telaio, S04 la clip dell'ascolto, S08 (v4: il prugna della
+regia era troppo vuoto per Achille) la mano della collega sulla spalla e, da «Non sei sola», gli sguardi delle donne (k08
+e k09 dei trailer «Brividi», stessa campagna). Il sottopancia e il badge 1522 del pacchetto stavano dove sta l'avatar: alzati.
+v4: niente sottotitoli a schermo (Achille), pause fra le scene ~0,5 s, silenzio d'apertura di S04 0,6 s.
 Colore: S01-S03 freddo e desaturato, in S04 si scalda sulla parola «ascolto», poi caldo.
 Grafiche del pacchetto (PNG a tutto schermo con trasparenza) in dissolvenza dal basso di 12 px in 0,6 s, uscita 0,4 s;
 filo rosso animato (A01, webm con alfa) in S06 su «Insieme» e sul cartello del titolo. Sottotitoli sempre (regia):
@@ -36,11 +38,11 @@ Y_SUB_CARTELLI = 1560                # sui cartelli finali sotto il testo del ca
 # scena: (id, durata fissa o None = voce + respiro, ritardo della voce, [pezzi di immagine], [grafiche], colore (inizio, fine))
 # pezzo: (sorgente, dalla parola | secondi); grafica: (file, da, a, spostamento y); da/a: secondi o «parola» o «parola+0.3»
 SCENE = [
-    ('S01', 4.0, 0, [('clips/q01_sedia_vuota_9x16.mp4', 0)], [('K01_frase.png', 1.5, None, 0)], (-1, -1)),
+    ('S01', 2.8, 0, [('clips/q01_sedia_vuota_9x16.mp4', 0)], [('K01_frase.png', 0.9, None, 0)], (-1, -1)),
     ('S02', None, 0.3, [('avatar', 0, 'immagini/n_telaio_mani.jpg')], [('L01_sottopancia_Achille.png', 1.0, 6.0, -560)], (-1, -1)),
     ('S03', None, 0.2, [('clips/k07b_infermiera_notte_16x9.mp4', 0), ('clips/k03_notifiche_9x16.mp4', 'A')],
      [('K02_frase.png', 'dove', None, 0)], (-1, -1)),
-    ('S04', None, 1.0, [('avatar', 0, 'clips/c02_ascolto_orecchio_9x16.mp4')], [], (-0.8, 0.8)),
+    ('S04', None, 0.6, [('avatar', 0, 'clips/c02_ascolto_orecchio_9x16.mp4')], [], (-0.8, 0.8)),
     ('S05', None, 0.2, [('immagini/g09_lo_specchio.jpg', 0), ('immagini/g12_la_voce.jpg', 'Daniela'),
                         ('immagini/g03_le_parole_che_feriscono.jpg', 'Sara'), ('immagini/g11_le_altre.jpg', 'Luisa')],
      [('R01_Paccagnella.png', 'Elena', 'Daniela-0.1', 0), ('R02_Lucangeli.png', 'Daniela', 'Sara-0.1', 0),
@@ -48,25 +50,28 @@ SCENE = [
     ('S06', None, 0.2, [('clips/v03_telaio_mani_9x16.mp4', 0), ('clips/k10_candele_16x9.mp4', 'Perché')],
      [('K04_frase.png', 'ogni', 'Insieme-0.15', 0), ('K05_frase.png', 'Insieme', None, 0), ('A01', 'Insieme', None, 0)], (1, 1)),
     ('S07', None, 0.2, [('clips/v01_nonna_filo_9x16.mp4', 0), ('clips/c05_tavola_condivisa_16x9.mp4', 'tavola-0.3')], [], (1, 1)),
-    ('S08', None, 0.3, [('avatar', 0, 'prugna')], [('K03_frase.png', 'Non', 'Lun-0.2', 0), ('B01_1522.png', "Lun", None, -480)], (1, 1)),
+    ('S08', None, 0.3, [('avatar', 0, 'clips/k08_mano_sulla_spalla_16x9.mp4'), ('avatar', 'Non-0.2', 'clips/k09_sguardi_16x9.mp4')], [('K03_frase.png', 'Non', 'Lun-0.2', 0), ('B01_1522.png', "Lun", None, -1150)], (1, 1)),
     ('S09', None, 0.2, [('clips/v02_alba_finestra_9x16.mp4', 0)], [], (1, 1)),
-    ('S10', 3.4, 0.3, [('grafiche/cartelli/C01_titolo.png', 0)], [('A01', 0.3, None, 0)], (0, 0)),
-    ('S11a', 2.6, 0, [('grafiche/cartelli/C02_data_luogo.png', 0)], [], (0, 0)),
-    ('S11b', 3.6, 0, [('grafiche/cartelli/C03_prenota_QR.png', 0)], [], (0, 0)),
-    ('S12', 3.2, 0, [('grafiche/cartelli/C04_firma_1522.png', 0)], [], (0, 0)),
+    ('S10', None, 0.3, [('grafiche/cartelli/C01_titolo.png', 0)], [('A01', 0.3, None, 0)], (0, 0)),
+    ('S11a', 2.2, 0, [('grafiche/cartelli/C02_data_luogo.png', 0)], [], (0, 0)),
+    ('S11b', 3.2, 0, [('grafiche/cartelli/C03_prenota_QR.png', 0)], [], (0, 0)),
+    ('S12', 2.8, 0, [('grafiche/cartelli/C04_firma_1522.png', 0)], [], (0, 0)),
 ]
-CENTRO = {'k07b': 0.68, 'k10': 0.55, 'c05': 0.45}
+CENTRO = {'k07b': 0.68, 'k10': 0.55, 'c05': 0.45, 'k08': 0.42, 'k09': (0.20, 0.55)}   # k09 è una panoramica: il ritaglio la segue
 # suono: (scena, da, effetto, volume, durata o None, offset, dissolvenza in, out); musica con il nome p_*
-SUONI = [('S01', 0.0, 'battito', 0.7, 4.0, 0, 0.3, 0.6),
+SUONI = [('S01', 0.0, 'battito', 0.7, 2.8, 0, 0.3, 0.5),
          ('S03', 'A', 'vibrazione', 0.5, None, 0, 0, 0), ('S03', 'dove', 'vibrazione', 0.5, None, 0, 0, 0),
          ('S03', 'chi', 'vibrazione', 0.55, None, 0, 0, 0), ('S03', 'sei.…+0.25', 'vibrazione', 0.6, None, 0, 0, 0),
          ('S03', 'piano', 'vibrazione', 0.6, None, 0, 0, 0), ('S03', 'piano#2', 'vibrazione', 0.6, None, 0, 0, 0),
          ('S06', 0.3, 'fruscio', 0.2, 3.6, 0, 0.6, 0.6), ('S06', 'Perché-0.1', 'fiammifero', 0.75, None, 0, 0, 0.2),
          ('S07', 'spezzare+0.2', 'pane', 0.55, None, 0, 0, 0.1),
-         ('S09', 0.0, 'uccelli', 0.14, 6.0, 0, 1.0, 1.0)]
+         ('S09', 0.0, 'uccelli', 0.14, 5.4, 0, 1.0, 1.0)]
 # musica: intima fino a «A volte» di S03 (poi il piano si ferma); dopo il secondo di silenzio di S04, da 10 s della traccia
-MUSICA = [('S02', 0.0, 'S03', 'A', 1.5, 0.8, 2.5), ('S04', 1.0, None, None, 10.0, 0.6, 3.5)]
-SILENZI = [('S04', 0.0, 1.0)]
+MUSICA = [('S02', 0.0, 'S03', 'A', 1.5, 0.8, 2.5), ('S04', 0.6, None, None, 10.0, 0.6, 3.5)]
+SILENZI = [('S04', 0.0, 0.6)]
+CODA, MIN_TITOLO = 0.25, 3.0
+LEAD_AVATAR = {'S02': 0.3, 'S04': 1.0, 'S08': 0.3}   # ritardi con cui avatar.py ha fatto la traccia dell'avatar (v2)
+SOTTOTITOLI = False                  # v4 (Achille: «elimina i sottotitoli»): resta solo sottotitoli_montato.srt
 MUSICA_VOL, MUSICA_SOTTO = 0.22, 0.65   # v3 (Achille: «la musica è troppo alta»): prima 0,8 e 0,8
 SOTTO_S08 = 0.06                     # la musica sotto «non sei sola» (regia: quasi a zero)
 
@@ -141,7 +146,8 @@ def fondo(src, n, cache, cx=0.5, kb=True):
             yield np.array(im.resize((W, H), Image.BICUBIC, box=(x0, y0, x0 + bw, y0 + bh)))
         return
     else:
-        vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,crop={W}:{H}:(iw-{W})*{cx}:(ih-{H})/2,fps={FPS},"
+        x = (f"(iw-{W})*({cx[0]}+({cx[1] - cx[0]})*min(1,n/{max(1, n - 1)}))" if isinstance(cx, tuple) else f"(iw-{W})*{cx}")
+        vf = (f"scale={W}:{H}:force_original_aspect_ratio=increase:flags=lanczos,fps={FPS},crop={W}:{H}:'{x}':(ih-{H})/2,"
               f"tpad=stop_mode=clone:stop=-1")
         cmd = ['ffmpeg', '-v', 'error', '-i', src]
     yield from leggi(cmd + ['-vf', vf + ',format=rgb24', '-frames:v', str(n), '-f', 'rawvideo', '-'], W, H, n)
@@ -163,13 +169,16 @@ def riquadro_avatar():
     return w, h, int(x0), int(x1), int(y0)
 
 
-def avatar(sid, n, lead, rq):
+def avatar(sid, n, lead, rq, da=0.0):
     """Fotogrammi RGBA di Achille per la scena (dal webm, ritagliato, alto AV_H). v2: la traccia dell'avatar ha già il
     silenzio del ritardo e della coda di ogni scena (avatar.py), quindi Achille si muove per tutta la scena: niente più
     fotogrammi fermi all'inizio e alla fine (Achille: «è poco fluido e a volte si blocca»)."""
     w, h, x0, x1, y0 = rq; tav = {t['id']: t for t in json.load(open(f'{A}/tempi-avatar.json'))}[sid]
     cw, chh = x1 - x0, h - y0; ah = AV_H; aw = round(cw * ah / chh / 2) * 2
-    vf = (f"trim=start={tav['inizio']:.3f}:duration={n / FPS + 0.2:.3f},setpts=PTS-STARTPTS,fps={FPS},"
+    # la traccia dell'avatar ha il ritardo con cui è stata fatta (LEAD_AVATAR): se ora la scena ne ha uno più corto, si
+    # parte più avanti; da = punto della scena da cui parte questo pezzo (S08 ha due fondi)
+    s0 = tav['inizio'] + LEAD_AVATAR[sid] - lead + da
+    vf = (f"trim=start={s0:.3f}:duration={n / FPS + 0.2:.3f},setpts=PTS-STARTPTS,fps={FPS},"
           f"tpad=stop_mode=clone:stop=-1,crop={cw}:{chh}:{x0}:{y0},scale={aw}:{ah}:flags=lanczos,format=rgba")
     yield from leggi(['ffmpeg', '-v', 'error', '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-vf', vf,
                       '-frames:v', str(n), '-f', 'rawvideo', '-'], aw, ah, n, 4)
@@ -201,7 +210,9 @@ def monta():
     # tempi
     t, tempi = 0.0, {}
     for sid, fissa, lead, *_ in SCENE:
-        d = fissa or round(lead + vdur[sid] + 0.15, 2)
+        # v4 (Achille: «pause troppo lunghe»): la scena finisce CODA s dopo l'ultima parola (prima: tutta la coda del
+        # taglio, e fra due scene restava ~1 s di silenzio); il titolo resta almeno MIN_TITOLO per il filo che si disegna
+        d = fissa or round(max(lead + parole[sid][-1]['b'] + CODA, MIN_TITOLO if sid == 'S10' else 0), 2)
         tempi[sid] = (t, d); t += d
     tot = round(t, 2)
     pw = lambda sid: parole.get(sid, [])                       # noqa: E731
@@ -249,7 +260,8 @@ def monta():
             if src == 'avatar':
                 bg = resto[0]
                 bgs = bg if bg == 'prugna' else (f'{cache}/{os.path.basename(bg)[:-4]}.png' if bg.endswith('.jpg') else lenta(f'{D}/{bg}', b - a, cache))
-                gens.append(('avatar', m, fondo(bgs, m, cache), avatar(sid, m, lead, rq)))
+                kb_ = os.path.basename(bg).split('_')[0]
+                gens.append(('avatar', m, fondo(bgs, m, cache, CENTRO.get(kb_, 0.5)), avatar(sid, m, lead, rq, a)))
             else:
                 s = f'{cache}/{os.path.basename(src)[:-4]}.png' if src.endswith('.jpg') else (f'{D}/{src}' if src.endswith('.png') else lenta(f'{D}/{src}', b - a, cache))
                 k = os.path.basename(src).split('_')[0]
@@ -283,7 +295,7 @@ def monta():
                     al = min(1, (tt - ta) / 0.6, (tb - tt) / 0.4 if a_ is not None else 1); al = al * al * (3 - 2 * al)
                     f = sopra(f, ov[nome], al, (1 - al) * 12)
                 ta_ = t0 + tt
-                for sa, sb_, st in strati_sub:
+                for sa, sb_, st in (strati_sub if SOTTOTITOLI else []):
                     if sa <= ta_ < sb_:
                         f = sopra(f, st, min(1, (ta_ - sa) / 0.15, (sb_ - ta_) / 0.15))
                 if sid == 'S01' and tt < 1.0:                        # nero in dissolvenza d'apertura

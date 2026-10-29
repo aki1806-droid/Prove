@@ -69,3 +69,19 @@ Montato v3: 85,0 s, 57 MB, integro, picco −0,7 dBFS; copia d'invio 28 MB e 16:
 (sostituiscono la v2): 9:16 asset e597d78e34204836958f9e3baaa8f30d —
 https://resource2.heygen.ai/video/e597d78e34204836958f9e3baaa8f30d/original.mp4 · 16:9 asset 618c44e98cfc4194aeab21dd220404b5 —
 https://resource2.heygen.ai/video/618c44e98cfc4194aeab21dd220404b5/original.mp4
+
+## Versione 4 — 29/10/2026, richiesta di Achille: «rivedi le imperfezioni e le pause troppo lunghe, elimina i sottotitoli, la parte in prugna è troppo vuota: aggiungi una clip»
+- Pause: fra una scena e l'altra c'era ~1 s di silenzio (la scena durava tutta la coda del taglio), 1,8 s prima di «Per
+  questo», 4,4 s di sedia prima della prima parola, 10,5 s di cartelli dopo l'ultima. Ora ogni scena finisce 0,25 s dopo
+  l'ultima parola (pause 0,5-0,6 s), il silenzio totale di S04 è 0,6 s (l'avatar parte 0,4 s più avanti nella sua traccia,
+  niente nuovo render), sedia 2,8 s, titolo 3 s, data 2,2, QR 3,2, firma 2,8. Durata 85,0 → 77,6 s. Unico silenzio
+  oltre il mezzo secondo: quello voluto di S04 (0,8 s).
+- Sottotitoli tolti dal video (monta.py SOTTOTITOLI = False); resta sottotitoli_montato.srt per i social.
+- S08: al posto del fondo prugna, la mano della collega sulla spalla (k08) e da «Non sei sola» gli sguardi delle donne (k09),
+  clip dei trailer «Brividi» (stessa campagna, nessuna generazione nuova); il ritaglio verticale segue la panoramica di k09
+  da un volto all'altro; il badge 1522 alzato in cima perché non copra i volti.
+- Controlli: labiale 0 ms, fermi immagine solo sui cartelli (fissi), un doppione isolato al cambio S07→S08, integro,
+  SAR 1:1, −16,1 LUFS. Resta un attimo di buio fra due volti dentro la panoramica di k09 (è nella clip).
+Originali su HeyGen (sostituiscono la v3): 9:16 asset c321d4b8c8ec4741ba9fbb6d39ebdf50 —
+https://resource2.heygen.ai/video/c321d4b8c8ec4741ba9fbb6d39ebdf50/original.mp4 · 16:9 asset 48303772c8774dedbc0f5bde8e11563b —
+https://resource2.heygen.ai/video/48303772c8774dedbc0f5bde8e11563b/original.mp4. Copia d'invio 28 MB e 16:9 in chat.
