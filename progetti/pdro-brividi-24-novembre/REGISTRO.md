@@ -88,5 +88,8 @@ pacchetto, che è il TTS proprio di HeyGen (escluso dalle regole); **T1 e T3 res
 - Uscite (9:16, integre, SAR 1:1): HeyGen T1 26e92010fd1540d297badbeb54a0f299 · T3 892e2c11601c4f24b6fb521b089a77dd ·
   P2 4a231b876cbf4b55913472f0167ca729 · P3 b5d4f672a2ca4f01ab85e5ed5f6f5560 (https://resource2.heygen.ai/video/<asset>/original.mp4).
   Portafoglio API: 43,80 $ (ricaricato).
-- Da fare: OK di Achille → post programmati su Robin (calendario: T1 sab 31/10 21:00, T3 mer 4/11 21:00, P2 dom 8/11 21:00,
-  P3 mar 10/11 21:00); liberatoria dei genitori di Louis Huang (minorenne, il nome è nei cartelli info).
+- Robin (30/10, dopo l'OK di Achille): programmati sui 12 canali (TikTok ×2, YouTube ×2, Instagram ×4, Facebook ×4),
+  testi e opzioni dal calendario, etichette «Sentirsi per sentire» + «Video Tx/Px»: T1 post 1126844 sab 31/10 21:00 ·
+  T3 1126847 mer 4/11 21:00 · P2 1126848 dom 8/11 21:00 · P3 1126853 mar 10/11 21:00. Aggiunti al calendario condiviso
+  (raccolta `extra`, NEW-T1/T3/P2/P3, stato «programmato» e numero Robin).
+- Da fare: liberatoria dei genitori di Louis Huang (minorenne, il nome è nei cartelli info).
