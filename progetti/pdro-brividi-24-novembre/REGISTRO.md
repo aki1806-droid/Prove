@@ -118,5 +118,9 @@ video non compaiono) e ricavati in 9:16, clip facoltative generate con Higgsfiel
   ad93d9b7b5484a8390a45b580ccf53ec · T5 42,7 s 099336b0d90e43d6b84f5846b5cf1e06 · P1 13,7 s b330765e4b374820b8d52e778d6ff6c9 ·
   P4 38,9 s 3a79b0d43a954256a09abf9f39e2a12d · P5 57,6 s ebc5a7fd9df4489da4db6bdd9854a2c6
   (https://resource2.heygen.ai/video/<asset>/original.mp4).
-- Da fare: OK di Achille → Robin (T2 ven 13/11 19:30, T4 sab 14/11 21:00, P5 lun 16/11 21:00, P4 mer 18/11 19:30,
-  T5 gio 19/11 21:00, P1 dom 22/11 19:30) e calendario condiviso.
+- Robin (30/10, dopo l'OK di Achille): programmati sui 12 canali con testi e opzioni del calendario, etichette
+  «Sentirsi per sentire» + «Video Tx/Px»: T2 post 1126932 ven 13/11 19:30 · T4 1126934 sab 14/11 21:00 ·
+  P5 1126936 lun 16/11 21:00 · P4 1126938 mer 18/11 19:30 · T5 1126941 gio 19/11 21:00 · P1 1126942 dom 22/11 19:30.
+  Calendario condiviso: aggiornate le voci che c'erano già (SPS-09 T2, SPS-12 P4, SPS-16 P1, prima «da montare») e
+  aggiunte NEW-T4, NEW-P5, NEW-T5, tutte «programmato» con il numero Robin.
+- Da fare: liberatoria dei genitori di Louis Huang (minorenne, il nome è nei cartelli info).
