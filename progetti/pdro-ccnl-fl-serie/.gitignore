@@ -1,0 +1,12 @@
+# media fuori da git (video, audio, avatar, clip, cache di montaggio): gli originali stanno su HeyGen (REGISTRO.md)
+*.mp4
+*.webm
+*.wav
+*.mov
+*.mp3
+clip/
+montaggio/
+audio/
+*/audio/wav/
+*/avatar/*
+!*/avatar/video_id.txt
