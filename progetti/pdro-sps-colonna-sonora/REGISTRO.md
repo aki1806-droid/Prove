@@ -68,3 +68,9 @@ volta su Higgsfield e rifatta. Crediti Higgsfield: 590 → 252.
   ../strumenti/sps/anima_heygen.py e la nuova funzione `anima` di ../strumenti/heygen_api.py.
 - Uscite v2 (integre, −16 LUFS, audio = video): 16:9 4:26 asset 30243e09b4744a91b9fa3dbff6fec55e · 9:16 1:20 asset
   202189b31dd544019c3dba86e6b42117 (sostituiscono 50c51104… e 41dfea6e…). Portafoglio API: 17,12 $.
+
+## Versione 3 — 31/10/2026, Achille: «mi piaceva più la versione con le immagini animate come prima»
+Rimontate con l'ordine, i tagli e i colori della prima versione, tutte clip Kling (monta.py `lungo_v1`, `reel_v1`), e con il
+missaggio corretto della v2 (audio lungo quanto il video, Ward intero fino a «Il tuo posto ti aspetta»). Unica differenza
+visiva dalla v1: niente grana (gonfiava i file). Integre, −16 LUFS. Originali su HeyGen: 16:9 a4c6b2b83c564685b42da06349cb8da1 ·
+9:16 7b7b220e8a0b4c41ad60513855b11a90 (sostituiscono quelle della v2; le animazioni HeyGen restano in clip_heygen/ se servono).

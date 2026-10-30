@@ -6,6 +6,7 @@ dell'evento (gli stessi della campagna) che entrano sulle sue parole.
     python3 strumenti/sps/monta.py lungo      -> 16:9, canzone intera, ~4:27   (proiezione all'evento, YouTube)
     python3 strumenti/sps/monta.py reel       -> 9:16, ~80 s sul terzo ritornello e sul finale (social)
     python3 strumenti/sps/monta.py audio lungo reel   -> rifà solo il missaggio sui video già montati
+    python3 strumenti/sps/monta.py lungo_v1 reel_v1   -> v3: montaggio della prima versione (solo clip), audio corretto
 
 Regia: le inquadrature seguono la canzone (intro → strofe della solitudine → ritornello dell'ascolto di sé → le altre
 donne → la liberazione → la luce che passa di mano → la comunità → l'abbraccio → Padova all'alba e Ward); dissolvenze
@@ -47,6 +48,30 @@ REEL = {'fmt': (1080, 1920), 'suff': '9x16', 'ward': 44.5, 'pezzi': [(172, 204),
     (0, 104, -1, 'S'), (4.4, 103, -0.8, 'H'), (8.8, 111, -0.2, 'S'), (13.2, 113, 0.1, 'K'), (17.6, 120, 0.4, 'S'),
     (22, 121, 0.5, 'K'), (26.4, 127, 0.6, 'S'), (30.8, 129, 0.5, 'K'), (35.2, 133, 1, 'S'), (39.6, 132, 0.9, 'H'),
     (44.5, 135, 0.6, 'S'), (52.5, 140, 1, 'H'),
+    ('ventiquattro', 'info'), ('sentirci', 'titolo'), ('Il tuo', 'prenota'), (5.0, 'firma_1522'), (5.5, None)],
+    'titolo_apertura': None}
+
+
+# Versione 3 (31/10, Achille: «mi piaceva più la versione con le immagini animate come prima»): l'ordine e i colori
+# della prima versione, tutte clip Kling; il missaggio è quello corretto (Ward intero).
+LUNGO_V1 = {'fmt': (1920, 1080), 'suff': '16x9', 'ward': 230.5, 'scene': [
+    (0, 1, -0.8, 'K'), (8, 2, -0.6, 'K'),
+    (16, 3, -0.8, 'K'), (22, 4, -1, 'K'), (28, 5, -0.9, 'K'), (34, 6, -1, 'K'), (40, 7, -0.8, 'K'), (46, 8, -0.9, 'K'),
+    (52, 11, -0.3, 'K'), (58, 12, 0, 'K'), (64, 13, 0.1, 'K'), (70, 14, 0, 'K'), (76, 36, 0.2, 'K'),
+    (82, 9, -0.5, 'K'), (87.7, 10, -0.2, 'K'), (93.3, 15, 0.3, 'K'), (99, 19, 0.2, 'K'), (104.7, 16, 0.6, 'K'), (110.3, 17, 0.3, 'K'),
+    (116, 18, 0.4, 'K'), (122, 20, 0.4, 'K'), (128, 21, 0.5, 'K'), (134, 22, 0.6, 'K'), (140, 23, 0.8, 'K'), (146, 24, 0.7, 'K'), (152, 38, 0.6, 'K'),
+    (158, 26, 0.5, 'K'), (165, 27, 0.6, 'K'),
+    (172, 28, 0.6, 'K'), (178.4, 29, 0.5, 'K'), (184.8, 25, 0.7, 'K'), (191.2, 37, 0.7, 'K'), (197.6, 39, 0.8, 'K'),
+    (204, 30, 0.6, 'K'), (210, 31, 0.8, 'K'),
+    (216, 32, 0.9, 'K'), (223.2, 33, 1, 'K'),
+    (230.5, 34, 0.9, 'K'), (236.2, 35, 0.6, 'K'), (241.6, 40, 1, 'K'),
+    ('ventiquattro', 'info'), ('sentirci', 'titolo'), ('Il tuo', 'prenota'), (5.0, 'firma_1522'), (5.5, None)],
+    'titolo_apertura': (9.0, 15.0)}
+# reel: la musica è il terzo ritornello (172-204), il finale (216-250,8) e la ripresa del pianoforte
+REEL_V1 = {'fmt': (1080, 1920), 'suff': '9x16', 'ward': 44.5, 'pezzi': [(172, 204), (216, 250.8)], 'scene': [
+    (0, 104, -1, 'K'), (4.4, 103, -0.8, 'K'), (8.8, 111, -0.2, 'K'), (13.2, 113, 0.1, 'K'), (17.6, 120, 0.4, 'K'), (22, 121, 0.5, 'K'),
+    (26.4, 127, 0.6, 'K'), (30.8, 129, 0.5, 'K'), (35.2, 132, 0.9, 'K'), (39.6, 133, 1, 'K'),
+    (44.5, 135, 0.6, 'K'), (52.5, 140, 1, 'K'),
     ('ventiquattro', 'info'), ('sentirci', 'titolo'), ('Il tuo', 'prenota'), (5.0, 'firma_1522'), (5.5, None)],
     'titolo_apertura': None}
 
@@ -210,4 +235,4 @@ def finisci(cfg, tot, L, W, H):
 if __name__ == '__main__':
     solo = 'audio' in sys.argv[1:]
     for n in [x for x in sys.argv[1:] if x != 'audio']:
-        monta(n, {'lungo': LUNGO, 'reel': REEL}[n], solo)
+        monta(n, {'lungo': LUNGO, 'reel': REEL, 'lungo_v1': LUNGO_V1, 'reel_v1': REEL_V1}[n], solo)
