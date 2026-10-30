@@ -52,3 +52,19 @@ volta su Higgsfield e rifatta. Crediti Higgsfield: 590 → 252.
 ## Da fare (Achille)
 - Liberatoria dei genitori di Louis Huang (il suo nome è nel cartello info).
 - Se va pubblicato su Robin: dimmi data e ora (il calendario della campagna è pieno fino al 25/11).
+
+## Versione 2 — 31/10/2026, richieste di Achille
+«Alterna immagini e clip e usa anche HeyGen per animare delle immagini» e «la voce alla fine è tagliata e non si sente».
+- **Voce tagliata (difetto della v1, solo nella versione lunga):** il missaggio finiva con la canzone (250,8 s) mentre il video
+  durava 266,4 s, e Ward si interrompeva a «per sentirci»; ripresa del pianoforte persa. Corretto in monta.py (ogni ramo
+  audio allungato fino alla fine del video): ora l'audio dura quanto il video e Ward arriva fino a «Il tuo posto ti
+  aspetta» (256-258 s), poi il pianoforte sui cartelli. Il reel non aveva il difetto.
+- **Alternanza:** in entrambe le versioni clip e immagini ferme si alternano sempre. Lunga: 15 clip Kling, 6 clip HeyGen,
+  19 immagini ferme con un lento movimento di macchina (in PIL, al sottopixel; avvicinamento o allontanamento e una leggera
+  deriva laterale); reel: 3 Kling, 3 HeyGen, 6 ferme.
+- **HeyGen:** 9 immagini animate con heygen-video-1 via API (`POST /v3/models/videos`, mode image_to_video, 1080p, 5 s; il
+  connettore era senza crediti): lacrima, mare all'alba, nonna che lavora a maglia, corsa sulla spiaggia, abbraccio, donne
+  sulla collina (16:9) e lacrima, abbraccio, collina (9:16). 0,20 $ l'una (1,80 $), id in clip_heygen/id.json;
+  ../strumenti/sps/anima_heygen.py e la nuova funzione `anima` di ../strumenti/heygen_api.py.
+- Uscite v2 (integre, −16 LUFS, audio = video): 16:9 4:26 asset 30243e09b4744a91b9fa3dbff6fec55e · 9:16 1:20 asset
+  202189b31dd544019c3dba86e6b42117 (sostituiscono 50c51104… e 41dfea6e…). Portafoglio API: 17,12 $.

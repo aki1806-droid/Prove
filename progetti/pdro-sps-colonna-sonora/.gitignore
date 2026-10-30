@@ -3,6 +3,7 @@
 *.mp3
 *.wav
 *.png
+clip_heygen/*.mp4
 clip/
 immagini/
 montaggio/

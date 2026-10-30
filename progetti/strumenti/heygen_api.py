@@ -90,6 +90,22 @@ def scarica(video_id, dest):
         time.sleep(30)
 
 
+def anima(asset_id, prompt, dest, durata=5, risoluzione='1080p'):
+    """anima un'immagine (asset HeyGen) con il modello video di HeyGen (heygen-video-1, image_to_video); attende e scarica.
+    Costo misurato il 30/10/2026: 0,20 $ per 5 s a 1080p dal portafoglio API."""
+    d = chiama('POST', '/v3/models/videos', {'model': 'heygen-video-1', 'mode': 'image_to_video', 'prompt': prompt,
+                                              'image': {'type': 'asset_id', 'asset_id': asset_id}, 'duration': durata,
+                                              'resolution': risoluzione})
+    vid = d['video_id']
+    while True:
+        d = chiama('GET', f'/v3/models/videos/{vid}')
+        if d['status'] == 'completed':
+            scarica_url(d['video_url'], dest); print(vid, 'scaricato', dest, d.get('width'), d.get('height')); return vid
+        if d['status'] in ('failed', 'cancelled'):
+            sys.exit(f"{vid}: {d['status']} {d.get('failure_message')}")
+        time.sleep(15)
+
+
 def suoni(q, n=5, tipo='sound_effects'):
     d = chiama('GET', '/v3/audio/sounds?' + urllib.parse.urlencode({'type': tipo, 'query': q, 'limit': n, 'min_score': 0.4}))
     for s in (d if isinstance(d, list) else d.get('sounds') or d.get('items') or []):
