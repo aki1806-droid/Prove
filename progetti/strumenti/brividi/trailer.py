@@ -27,14 +27,19 @@ SFX = f'{D}/audio/sfx'
 FONT = f'{QUI}/font'
 FPS = 25
 FMT = {'9x16': (1080, 1920), '16x9': (1920, 1080), '1x1': (1080, 1080)}
-TR = {'P2': 'P2_SCARPE_ROSSE_30s', 'P3': 'P3_PRENDERE_PAROLA_40s', 'T1': 'T1_LA_PORTA_20s', 'T2': 'T2_DOVE_SEI_30s', 'T3': 'T3_IL_NODO_45s', 'T4': 'T4_CHI_CURA_60s',
+TR = {'P1': 'P1_IL_POSTO_VUOTO_15s', 'P4': 'P4_ANCHE_GLI_UOMINI_60s', 'P5': 'P5_PADOVA_SI_ACCENDE_90s',
+      'P2': 'P2_SCARPE_ROSSE_30s', 'P3': 'P3_PRENDERE_PAROLA_40s', 'T1': 'T1_LA_PORTA_20s', 'T2': 'T2_DOVE_SEI_30s', 'T3': 'T3_IL_NODO_45s', 'T4': 'T4_CHI_CURA_60s',
       'T5': 'T5_ACCENDIAMO_UNA_LUCE_75s'}
-NOMI = {'P2': 'Scarpe_rosse', 'P3': 'Prendere_parola', 'T1': 'La_porta', 'T2': 'Dove_sei', 'T3': 'Il_nodo', 'T4': 'Chi_cura', 'T5': 'Accendiamo_una_luce'}
+NOMI = {'P1': 'Il_posto_vuoto', 'P4': 'Anche_gli_uomini', 'P5': 'Padova_si_accende', 'P2': 'Scarpe_rosse', 'P3': 'Prendere_parola', 'T1': 'La_porta', 'T2': 'Dove_sei', 'T3': 'Il_nodo', 'T4': 'Chi_cura', 'T5': 'Accendiamo_una_luce'}
 NERO, AVORIO, INCHIOSTRO, ROSSO = (10, 8, 12), (244, 237, 226), (46, 30, 50), (178, 30, 44)
 # k07 del pacchetto mostrava un occhio livido («niente volti feriti»): rifatta con Higgsfield, stesso corridoio
 SOSTITUTI = {'clips/k07_infermiera_notte_16x9.mp4': 'clips/k07b_infermiera_notte_16x9.mp4'}
 # centro orizzontale del soggetto nelle clip 16:9, per i ritagli 9:16 e 1:1
 # (una coppia = dal primo all'ultimo fotogramma della clip: k09 passa da un volto all'altro, da sinistra a destra)
+# clip facoltative dei pacchetti P4 e P5, generate con Higgsfield (scelta di Achille, 30/10) al posto del testo su nero
+ASSET = {('P4', 3): 'clips/q07_uomo_in_auto_9x16.mp4', ('P4', 6): 'clips/q08_padre_figlia_9x16.mp4',
+         ('P5', 5): 'clips/q07_uomo_in_auto_9x16.mp4', ('P5', 8): 'clips/q06_citta_si_accende_9x16.mp4',
+         ('P5', 10): 'clips/q08_padre_figlia_9x16.mp4'}
 CENTRO = {'k05': 0.55, 'k06': 0.45, 'k07b': 0.68, 'k08': 0.45, 'k09': (0.30, 0.66), 'k10': 0.5}
 
 # Per scena: clip (modo), colore (inizio, fine), testo ('macchina' | 'dissolvenza'), ingresso (s di dissolvenza)
@@ -97,6 +102,43 @@ REGIA = {
                      (9.5, 'respiro', 0.6, None, 0, 0.05, 0.1),
                      (26.0, 'p_parola', 0.9, 14.0, 0, 0.6, 3.0)],
            'silenzi': [(13.0, 16.0)]},
+    # serie Q (pacchetti «SERIE parte 2 e 3», 30/10), anche questi solo 9:16
+    'P1': {'scene': {1: {'clip': 'normale', 'colore': (-1, -1), 'testo': 'macchina'},
+                     2: {'testo': 'macchina', 'ingresso': 0},
+                     3: {'clip': 'normale', 'colore': (-0.4, 1), 'testo': 'dissolvenza'}},
+           'audio': [(0.0, 'ronzio', 0.22, 5.0, 0, 0.6, 0.2), (0.5, 'timpano', 0.8, None, 0, 0, 0.3),
+                     (6.5, 'p_posto', 0.9, 8.5, 0, 0.8, 1.5)],
+           'silenzi': [(5.0, 6.5)]},
+    'P4': {'scene': {2: {'testo': 'macchina', 'ingresso': 0},
+                     3: {'clip': 'normale', 'colore': (-1, -1), 'testo': 'macchina'},
+                     4: {'testo': 'macchina', 'ingresso': 0}, 5: {'testo': 'macchina', 'ingresso': 0},
+                     6: {'clip': 'lento', 'colore': (-0.3, 1), 'testo': 'dissolvenza'},
+                     7: {'testo': 'dissolvenza', 'ingresso': 0},
+                     8: {'filo': True}},
+           'audio': [(0.0, 'pioggia', 0.55, 18.0, 0, 1.0, 0.4), (4.5, 'respiro', 0.75, None, 0, 0.05, 0.1),
+                     (10.5, 'respiro', 0.55, None, 0, 0.05, 0.1), (16.0, 'respiro', 0.4, None, 0, 0.05, 0.1),
+                     (22.0, 'p_uomini', 0.85, 38.0, 0, 1.5, 3.0)],
+           'silenzi': [(18.0, 20.0)]},      # 1,5 s di silenzio dopo «… sentire sé stesso,» (DURATE di S04)
+    'P5': {'scene': {2: {'testo': 'macchina', 'ingresso': 0},
+                     3: {'clip': 'normale', 'colore': (-1, -1)}, 4: {'clip': 'normale', 'colore': (-1, -0.9)},
+                     5: {'clip': 'normale', 'colore': (-1, -1), 'testo': 'macchina'},
+                     6: {'clip': 'normale', 'colore': (-1, -0.8)},
+                     8: {'clip': 'normale', 'colore': (-0.5, 0.6), 'testo': 'dissolvenza'},
+                     9: {'clip': 'lento', 'colore': (0.4, 1)},
+                     10: {'clip': 'normale', 'colore': (1, 1), 'testo': 'dissolvenza'},
+                     11: {'clip': 'normale', 'colore': (1, 1), 'testo': 'dissolvenza'},
+                     12: {'testo': 'dissolvenza', 'ingresso': 0},
+                     13: {'filo': True}},
+           # 1) un battito e il vento; 2) ogni frammento aggiunge il suo suono e tutto cresce fino allo STOP; 3) pianoforte e coro
+           'audio': [(0.0, 'battito', 0.7, 4.0, 0, 0.3, 0.3), (4.0, 'vento', 0.12, 28.0, 0, 1.5, 0.03, (12.0, 32.0, 0.6, 2.2)),
+                     (12.0, 'battito', 0.25, 20.0, 0, 0.5, 0.03, (12.0, 32.0, 0.5, 1.8)),
+                     (12.0, 'fruscio', 0.18, 20.0, 0, 0.8, 0.03, (12.0, 32.0, 0.5, 1.5)),
+                     (22.0, 'pioggia', 0.4, 10.0, 0, 0.6, 0.03, (22.0, 32.0, 0.7, 1.6)),
+                     (22.5, 'respiro', 0.6, None, 0, 0.05, 0.1), (27.0, 'spot', 0.7, None, 0, 0, 0.1),
+                     (27.0, 'ronzio', 0.3, 5.0, 0, 0.3, 0.03, (27.0, 32.0, 0.6, 1.6)),
+                     (40.0, 'passi', 0.35, 10.0, 0, 0.5, 1.5),
+                     (40.0, 'p_citta', 0.9, 50.0, 0, 2.0, 4.0, (40.0, 46.0, 0.4, 1.0))],
+           'silenzi': [(32.0, 34.0)]},
 }
 BOLLE_T = [0.0, 2.0, 3.6, 5.0, 6.2, 7.2, 8.0]
 
@@ -107,7 +149,7 @@ BOLLE_T = [0.0, 2.0, 3.6, 5.0, 6.2, 7.2, 8.0]
 SILENZIO = 1.0
 MAX_LENTO = 1.3
 CARTELLI = {'titolo': 2.8, 'info': 4.0, 'prenota': 3.5, 'firma': 3.0}
-DURATE = {('P3', 1): 1.5, ('P3', 3): 1.5, ('P2', 2): 1.0, ('T1', 3): 2.4, ('T2', 1): 7.0, ('T2', 2): 3.5, ('T5', 1): 3.0, ('T1', 1): 1.5, ('T4', 1): 1.5}
+DURATE = {('P4', 1): 1.5, ('P4', 4): 4.6, ('P5', 1): 2.0, ('P5', 7): 1.5, ('P1', 2): 2.2, ('P3', 1): 1.5, ('P3', 3): 1.5, ('P2', 2): 1.0, ('T1', 3): 2.4, ('T2', 1): 7.0, ('T2', 2): 3.5, ('T5', 1): 3.0, ('T1', 1): 1.5, ('T4', 1): 1.5}
 
 
 def ritmo(T, scene, parole, R):
@@ -323,6 +365,8 @@ def tc(t):
 
 def monta(T, fmt):
     cart = TR[T]; sb = json.load(open(f'{D}/{cart}/storyboard.json')); R = REGIA[T]
+    for s in sb['scene']:
+        s['asset'] = [ASSET.get((T, s['n']), s['asset'][0])]
     W, H = FMT[fmt]; L = f'{D}/montaggio/{T}_{fmt}'; cache = f'{D}/montaggio/cache'
     os.makedirs(L, exist_ok=True); os.makedirs(cache, exist_ok=True)
     A = f'{D}/{cart}/audio'
@@ -466,7 +510,8 @@ def monta(T, fmt):
         ins += ['-i', f'{A}/wav/{sid}.wav']
         fil.append(f"[{k}:a]aresample=48000,aformat=channel_layouts=stereo,adelay={round(t0 * 1000)}:all=1[v{k}]"); k += 1
     nv = k
-    fil.append(''.join(f'[v{i}]' for i in range(nv)) + f"amix=inputs={nv}:normalize=0,apad=whole_dur={tot},asplit=2[voce][chiave]")
+    fil.append((''.join(f'[v{i}]' for i in range(nv)) + f"amix=inputs={nv}:normalize=0," if nv else    # P1: nessuna voce
+                f"anullsrc=r=48000:cl=stereo,atrim=0:{tot},") + f"apad=whole_dur={tot},asplit=2[voce][chiave]")
     eff, mus = [], []
     for ev in R['audio']:
         t, nome, vol, dmax, off, fin, fout = ev[:7]

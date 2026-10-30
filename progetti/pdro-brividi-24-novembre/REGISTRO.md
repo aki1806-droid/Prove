@@ -93,3 +93,30 @@ pacchetto, che è il TTS proprio di HeyGen (escluso dalle regole); **T1 e T3 res
   T3 1126847 mer 4/11 21:00 · P2 1126848 dom 8/11 21:00 · P3 1126853 mar 10/11 21:00. Aggiunti al calendario condiviso
   (raccolta `extra`, NEW-T1/T3/P2/P3, stato «programmato» e numero Robin).
 - Da fare: liberatoria dei genitori di Louis Huang (minorenne, il nome è nei cartelli info).
+
+## Serie parti 2 e 3 (30/10): T2, T4, T5 in 9:16 e i nuovi P1, P4, P5
+
+Pacchetti «SERIE parte 2» e «SERIE parte 3» (identici nelle istruzioni e nel calendario). Scelte di Achille: voce tramite
+HeyGen passante (eleven_v4; non «Lea inside sitting» del pacchetto, che è il TTS di HeyGen), pubblico **provinciale**,
+T2/T4/T5 riusati dai Brividi v2 (stessi testi e cartelli; cambiano solo i titoli degli interventi nello storyboard, che nei
+video non compaiono) e ricavati in 9:16, clip facoltative generate con Higgsfield.
+- Clip Higgsfield (seedance_2_5, 9:16, 5 s, 720×1280): q06_citta_si_accende (P5 S08), q07_uomo_in_auto (P4 S03, P5 S05:
+  il volto è coperto dalle mani), q08_padre_figlia (P4 S06, P5 S10: la bambina solo di spalle, senza volto).
+  Usate al posto del testo su nero (trailer.py ASSET).
+- Voci (voci.py `Q`): P4 tutta con la voce di Achille (9b851842…, profilo achille), scelta sua perché la regia chiede un
+  uomo, «meglio un padre o un delegato vero»; P5 a coro, frasi alternate donna (DONNA VOCE CALDA) / Achille, l'ultima
+  («Perché nessuno dovrebbe perdersi per amore») dette tutte e due insieme, la voce più corta allungata per finire insieme.
+  Request: donna NAL2e603pvTS0WgJjU2Q (29,0 s), Achille w8uZLjJEANeMsL4ToRgG (54,8 s). «il ventiquattro novembre» a voce.
+  P1 senza voce (regia: «solo testo»).
+- Suoni nuovi (suoni.py): timpano 050666a0c9345558 (P1, sulla scritta), violoncello 36aff990 (P1), pianoforte 7adaae3e (P4),
+  pianoforte con coro senza parole 0da15432 (P5); pioggia sul parabrezza sintetizzata (il catalogo non ha pioggia né voci
+  di bambini, quelle di P4 non ci sono). P5: i suoni dei frammenti crescono insieme fino allo STOP.
+- Silenzi totali: P1 tra la sedia e la donna; P4 1,3 s dopo «… sentire sé stesso,»; P5 1,5 s allo STOP.
+- Cartello «Prenota» 9:16 di P1: tenuto il nostro (più grande e leggibile di quello del pacchetto).
+- T2 9:16 rimontato con la correzione dei 25 fps veri (come T1 e T3), contenuto uguale.
+- Uscite (9:16, integre, SAR 1:1, −16 LUFS): T2 24,4 s f497b5af50994634a99d8fab71780469 · T4 36,3 s
+  ad93d9b7b5484a8390a45b580ccf53ec · T5 42,7 s 099336b0d90e43d6b84f5846b5cf1e06 · P1 13,7 s b330765e4b374820b8d52e778d6ff6c9 ·
+  P4 38,9 s 3a79b0d43a954256a09abf9f39e2a12d · P5 57,6 s ebc5a7fd9df4489da4db6bdd9854a2c6
+  (https://resource2.heygen.ai/video/<asset>/original.mp4).
+- Da fare: OK di Achille → Robin (T2 ven 13/11 19:30, T4 sab 14/11 21:00, P5 lun 16/11 21:00, P4 mer 18/11 19:30,
+  T5 gio 19/11 21:00, P1 dom 22/11 19:30) e calendario condiviso.

@@ -1,0 +1,174 @@
+{
+  "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+  "video": "Anche gli uomini",
+  "durata_s": 60,
+  "formati": [
+    "16:9"
+  ],
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 3,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, pioggia.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 2,
+      "inizio_s": 3,
+      "fine_s": 8,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "NERO: si sente solo la pioggia su un parabrezza e un respiro che si spezza. Testo a macchina da scrivere.",
+      "testo_a_schermo": "Un uomo non piange.",
+      "voce_fuori_campo": "Ci hanno insegnato che un uomo non piange."
+    },
+    {
+      "n": 3,
+      "inizio_s": 8,
+      "fine_s": 13,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, pioggia. Testo.",
+      "testo_a_schermo": "Le emozioni si tengono dentro.",
+      "voce_fuori_campo": "Che le emozioni si tengono dentro. Che chiedere aiuto è da deboli."
+    },
+    {
+      "n": 4,
+      "inizio_s": 13,
+      "fine_s": 20,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero. Il respiro si calma.",
+      "testo_a_schermo": "Ma un uomo che non sente sé",
+      "voce_fuori_campo": "Ma un uomo che non riesce a sentire sé stesso,"
+    },
+    {
+      "n": 5,
+      "inizio_s": 20,
+      "fine_s": 22,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "NERO E SILENZIO.",
+      "testo_a_schermo": "non sentirà nemmeno l’altra.",
+      "voce_fuori_campo": "fatica a sentire anche l’altra persona."
+    },
+    {
+      "n": 6,
+      "inizio_s": 22,
+      "fine_s": 32,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Il padre in ginocchio ascolta la figlia. Rallentare a 10 s. Entra il pianoforte. [Clip non disponibile: il padre che ascolta la figlia. Testo su nero; vedi «Clip opzionale».]",
+      "testo_a_schermo": "Un padre che si inginocchia per ascoltare.",
+      "voce_fuori_campo": "Educare al rispetto comincia da qui: insegnare a dare un nome a ciò che si prova."
+    },
+    {
+      "n": 7,
+      "inizio_s": 32,
+      "fine_s": 38,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, testo.",
+      "testo_a_schermo": "La violenza non è solo una questione di donne.",
+      "voce_fuori_campo": "La violenza non è solo una questione di donne. È una responsabilità di tutti."
+    },
+    {
+      "n": 8,
+      "inizio_s": 38,
+      "fine_s": 44,
+      "asset": [
+        "cards/S3_01_titolo_16x9.png"
+      ],
+      "regia": "Titolo.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 9,
+      "inizio_s": 44,
+      "fine_s": 50,
+      "asset": [
+        "cards/S3_02_info_16x9.png"
+      ],
+      "regia": "Info.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Il 24 novembre, al Patronato dell’Arcella."
+    },
+    {
+      "n": 10,
+      "inizio_s": 50,
+      "fine_s": 56,
+      "asset": [
+        "cards/S3_03_prenota_16x9.png"
+      ],
+      "regia": "Prenotazione.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Uomini e donne. Gratuito, su prenotazione."
+    },
+    {
+      "n": 11,
+      "inizio_s": 56,
+      "fine_s": 60,
+      "asset": [
+        "cards/S3_04_firma_1522_16x9.png"
+      ],
+      "regia": "Firma e 1522.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    }
+  ],
+  "sound_design": "Pioggia sul parabrezza, il motore spento, un respiro rotto. Silenzio di 1,5 s. Poi una casa: voci lontane di bambini, e il pianoforte, in maggiore.",
+  "evento": {
+    "titolo": "Sentirsi per sentire",
+    "sottotitolo": "L’ascolto di sé come antidoto alla violenza",
+    "data": "Martedì 24 novembre 2026 · dalle ore 14:00",
+    "sede": "Patronato dell’Arcella (Centro Parrocchiale «P. Ludovico Bressan») · Via Beata Elena Enselmini 8 · Padova",
+    "promotori": "CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale",
+    "relatrici": [
+      "Elena Paccagnella – L’ascolto di sé come antidoto alla violenza",
+      "Daniela Lucangeli – Ascolto di sé tra scienza e coscienza",
+      "Sara Cordella – Donne che hanno scritto no",
+      "Luisa Morbiato – Ascoltare le storie"
+    ],
+    "modera": "Rosa Maria Volpe",
+    "musica": "Louis Huang, pianoforte",
+    "chiusura": "La tavola condivisa (momento conviviale)",
+    "accesso": "Gratuito e aperto a tutti · posti contingentati · prenotazione obbligatoria",
+    "prenota": "https://form.getformly.com/f/02eeRh",
+    "1522": "1522 · numero antiviolenza gratuito 24/7"
+  },
+  "stile": {
+    "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+    "palette": {
+      "rosso_profondo": "#6E0F18",
+      "avorio": "#F4EDE2",
+      "rosa_carne": "#FFD6C8",
+      "nero_pieno": "#0A080C"
+    },
+    "font": {
+      "titoli": "Instrument Serif (Regular/Italic)",
+      "testi": "Lora",
+      "etichette": "Work Sans Bold maiuscolo spaziato"
+    },
+    "regole": [
+      "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+      "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+      "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+      "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+      "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+      "Chiusura sempre su cartelli rosso profondo: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+    ]
+  }
+}

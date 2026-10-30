@@ -1,0 +1,44 @@
+# Testi per i social · Chi cura
+
+Uscita: 2026-11-14 ore 21:00 (Europe/Rome) su 12 canali.
+
+## Facebook
+```
+Ogni giorno ascoltiamo il dolore degli altri. Ma chi ascolta il nostro?
+
+Nessuno si salva da solo. Un pomeriggio per fermarci, ascoltare e sederci alla stessa tavola.
+
+«Sentirsi per sentire» · Martedì 24 novembre, ore 14:00 · Patronato dell’Arcella, via Beata Elena Enselmini 8, Padova
+👉 Prenota il tuo posto (gratuito, posti contingentati): https://form.getformly.com/f/02eeRh
+
+#SentirsiPerSentire #25novembre #violenzasulledonne #CISLFP #Padova #1522
+```
+
+## Instagram
+```
+Ogni giorno ascoltiamo il dolore degli altri. Ma chi ascolta il nostro?
+
+Nessuno si salva da solo. Un pomeriggio per fermarci, ascoltare e sederci alla stessa tavola. 🧵
+
+📍 Martedì 24 novembre, ore 14:00 · Patronato dell’Arcella, via Beata Elena Enselmini 8, Padova
+👉 Prenota: link in bio (gratuito, posti contingentati)
+
+#SentirsiPerSentire #25novembre #violenzasulledonne #CISLFP #Padova #1522 #nonseisola
+```
+
+## TikTok
+```
+Ogni giorno ascoltiamo il dolore degli altri. Ma chi ascolta il nostro? 24 novembre, Padova. Prenotazione gratuita: link in bio. #SentirsiPerSentire #25novembre #violenzasulledonne
+```
+
+## YouTube
+```
+Ogni giorno ascoltiamo il dolore degli altri. Ma chi ascolta il nostro?
+
+Nessuno si salva da solo. Un pomeriggio per fermarci, ascoltare e sederci alla stessa tavola.
+
+Convegno «Sentirsi per sentire. L’ascolto di sé come antidoto alla violenza» – CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale.
+Martedì 24 novembre 2026, ore 14:00 · Patronato dell’Arcella, via Beata Elena Enselmini 8, Padova.
+Ingresso gratuito, posti contingentati, prenotazione obbligatoria: https://form.getformly.com/f/02eeRh
+Se hai bisogno di aiuto: 1522, gratuito, 24 ore su 24.
+```

@@ -1,0 +1,229 @@
+{
+  "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+  "video": "Padova si accende",
+  "durata_s": 90,
+  "formati": [
+    "16:9"
+  ],
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 4,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, un battito.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 2,
+      "inizio_s": 4,
+      "fine_s": 12,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, testo a macchina da scrivere.",
+      "testo_a_schermo": "Padova. Ogni giorno.",
+      "voce_fuori_campo": "C’è una città dove ogni giorno qualcuno smette di ascoltarsi."
+    },
+    {
+      "n": 3,
+      "inizio_s": 12,
+      "fine_s": 17,
+      "asset": [
+        "clips/q01_sedia_vuota_9x16.mp4"
+      ],
+      "regia": "Frammento: la sedia vuota (cornice verticale centrata su nero).",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Una sedia che resta vuota."
+    },
+    {
+      "n": 4,
+      "inizio_s": 17,
+      "fine_s": 22,
+      "asset": [
+        "clips/q03_scarpe_rosse_16x9.mp4"
+      ],
+      "regia": "Frammento: le scarpe rosse.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Un paio di scarpe in mezzo a una piazza."
+    },
+    {
+      "n": 5,
+      "inizio_s": 22,
+      "fine_s": 27,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Frammento solo sonoro: nero, pioggia su un parabrezza, un respiro rotto.",
+      "testo_a_schermo": "Un uomo che non sa dire quello che prova.",
+      "voce_fuori_campo": "Un uomo che non sa dire quello che prova."
+    },
+    {
+      "n": 6,
+      "inizio_s": 27,
+      "fine_s": 32,
+      "asset": [
+        "clips/q05_microfono_16x9.mp4"
+      ],
+      "regia": "Frammento: il microfono. Crescendo sonoro.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Una parola che non riesce a uscire."
+    },
+    {
+      "n": 7,
+      "inizio_s": 32,
+      "fine_s": 34,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "STOP. NERO E SILENZIO.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 8,
+      "inizio_s": 34,
+      "fine_s": 40,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, testo.",
+      "testo_a_schermo": "Ma c’è anche un’altra città.",
+      "voce_fuori_campo": "Ma c’è anche un’altra città."
+    },
+    {
+      "n": 9,
+      "inizio_s": 40,
+      "fine_s": 50,
+      "asset": [
+        "clips/q04_passi_insieme_16x9.mp4"
+      ],
+      "regia": "I passi insieme, rallentati a 10 s. Entrano pianoforte e coro.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Quella che apre le finestre. Che scende in strada. Che cammina insieme."
+    },
+    {
+      "n": 10,
+      "inizio_s": 50,
+      "fine_s": 58,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Il padre in ginocchio ascolta la figlia. [Clip non disponibile: il padre che ascolta la figlia. Testo su nero; vedi «Clip opzionale».]",
+      "testo_a_schermo": "Un padre che si inginocchia per ascoltare.",
+      "voce_fuori_campo": "Che insegna ai figli a sentire."
+    },
+    {
+      "n": 11,
+      "inizio_s": 58,
+      "fine_s": 66,
+      "asset": [
+        "clips/q02_lei_si_siede_9x16.mp4"
+      ],
+      "regia": "La donna prende lo scialle e si siede (cornice verticale).",
+      "testo_a_schermo": "Il 24 novembre",
+      "voce_fuori_campo": "E il 24 novembre si ritrova sotto lo stesso tetto."
+    },
+    {
+      "n": 12,
+      "inizio_s": 66,
+      "fine_s": 72,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, coro all’unisono.",
+      "testo_a_schermo": "Nessuno dovrebbe perdersi per amore.",
+      "voce_fuori_campo": "Perché nessuno dovrebbe perdersi per amore."
+    },
+    {
+      "n": 13,
+      "inizio_s": 72,
+      "fine_s": 78,
+      "asset": [
+        "cards/S3_01_titolo_16x9.png"
+      ],
+      "regia": "Titolo. Accordo pieno.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 14,
+      "inizio_s": 78,
+      "fine_s": 83,
+      "asset": [
+        "cards/S3_02_info_16x9.png"
+      ],
+      "regia": "Info.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 15,
+      "inizio_s": 83,
+      "fine_s": 87,
+      "asset": [
+        "cards/S3_03_prenota_16x9.png"
+      ],
+      "regia": "Prenotazione.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Il tuo posto ti aspetta."
+    },
+    {
+      "n": 16,
+      "inizio_s": 87,
+      "fine_s": 90,
+      "asset": [
+        "cards/S3_04_firma_1522_16x9.png"
+      ],
+      "regia": "Firma e 1522.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    }
+  ],
+  "sound_design": "Sinfonia in tre movimenti. 1) Città di notte: un solo battito, il vento. 2) I frammenti: ogni immagine ha il suo suono (lo scialle, il vento nella piazza, la pioggia, lo spot) che si sovrappone in un crescendo quasi insopportabile, poi STOP: 2 s di silenzio. 3) Pianoforte e coro di voci femminili senza parole, che si aprono sui passi.",
+  "evento": {
+    "titolo": "Sentirsi per sentire",
+    "sottotitolo": "L’ascolto di sé come antidoto alla violenza",
+    "data": "Martedì 24 novembre 2026 · dalle ore 14:00",
+    "sede": "Patronato dell’Arcella (Centro Parrocchiale «P. Ludovico Bressan») · Via Beata Elena Enselmini 8 · Padova",
+    "promotori": "CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale",
+    "relatrici": [
+      "Elena Paccagnella – L’ascolto di sé come antidoto alla violenza",
+      "Daniela Lucangeli – Ascolto di sé tra scienza e coscienza",
+      "Sara Cordella – Donne che hanno scritto no",
+      "Luisa Morbiato – Ascoltare le storie"
+    ],
+    "modera": "Rosa Maria Volpe",
+    "musica": "Louis Huang, pianoforte",
+    "chiusura": "La tavola condivisa (momento conviviale)",
+    "accesso": "Gratuito e aperto a tutti · posti contingentati · prenotazione obbligatoria",
+    "prenota": "https://form.getformly.com/f/02eeRh",
+    "1522": "1522 · numero antiviolenza gratuito 24/7"
+  },
+  "stile": {
+    "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+    "palette": {
+      "rosso_profondo": "#6E0F18",
+      "avorio": "#F4EDE2",
+      "rosa_carne": "#FFD6C8",
+      "nero_pieno": "#0A080C"
+    },
+    "font": {
+      "titoli": "Instrument Serif (Regular/Italic)",
+      "testi": "Lora",
+      "etichette": "Work Sans Bold maiuscolo spaziato"
+    },
+    "regole": [
+      "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+      "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+      "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+      "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+      "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+      "Chiusura sempre su cartelli rosso profondo: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+    ]
+  }
+}

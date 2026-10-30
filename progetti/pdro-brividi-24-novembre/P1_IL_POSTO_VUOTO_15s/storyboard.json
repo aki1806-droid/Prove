@@ -1,0 +1,97 @@
+{
+  "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+  "video": "Il posto vuoto",
+  "durata_s": 15,
+  "formati": [
+    "9:16"
+  ],
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 5,
+      "asset": [
+        "clips/q01_sedia_vuota_9x16.mp4"
+      ],
+      "regia": "La sedia vuota con lo scialle rosso, push-in lentissimo.",
+      "testo_a_schermo": "Questo posto è vuoto.",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 2,
+      "inizio_s": 5,
+      "fine_s": 6.5,
+      "asset": [
+        "cards/S3_00_nero_9x16.png"
+      ],
+      "regia": "NERO E SILENZIO.",
+      "testo_a_schermo": "Per chi non c’è più.",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 3,
+      "inizio_s": 6.5,
+      "fine_s": 11.5,
+      "asset": [
+        "clips/q02_lei_si_siede_9x16.mp4"
+      ],
+      "regia": "La donna prende lo scialle e si siede. Entra il violoncello.",
+      "testo_a_schermo": "Per chi non ha ancora trovato il coraggio.",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 4,
+      "inizio_s": 11.5,
+      "fine_s": 15,
+      "asset": [
+        "cards/S3_03_prenota_9x16.png"
+      ],
+      "regia": "«Il tuo posto ti aspetta» con QR.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    }
+  ],
+  "sound_design": "Sala vuota, riverbero lungo. Un solo colpo di timpano quando appare la scritta «Questo posto è vuoto». Silenzio. Quando lei si siede entra un violoncello basso, caldo.",
+  "evento": {
+    "titolo": "Sentirsi per sentire",
+    "sottotitolo": "L’ascolto di sé come antidoto alla violenza",
+    "data": "Martedì 24 novembre 2026 · dalle ore 14:00",
+    "sede": "Patronato dell’Arcella (Centro Parrocchiale «P. Ludovico Bressan») · Via Beata Elena Enselmini 8 · Padova",
+    "promotori": "CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale",
+    "relatrici": [
+      "Elena Paccagnella – L’ascolto di sé come antidoto alla violenza",
+      "Daniela Lucangeli – Ascolto di sé tra scienza e coscienza",
+      "Sara Cordella – Donne che hanno scritto no",
+      "Luisa Morbiato – Ascoltare le storie"
+    ],
+    "modera": "Rosa Maria Volpe",
+    "musica": "Louis Huang, pianoforte",
+    "chiusura": "La tavola condivisa (momento conviviale)",
+    "accesso": "Gratuito e aperto a tutti · posti contingentati · prenotazione obbligatoria",
+    "prenota": "https://form.getformly.com/f/02eeRh",
+    "1522": "1522 · numero antiviolenza gratuito 24/7"
+  },
+  "stile": {
+    "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+    "palette": {
+      "rosso_profondo": "#6E0F18",
+      "avorio": "#F4EDE2",
+      "rosa_carne": "#FFD6C8",
+      "nero_pieno": "#0A080C"
+    },
+    "font": {
+      "titoli": "Instrument Serif (Regular/Italic)",
+      "testi": "Lora",
+      "etichette": "Work Sans Bold maiuscolo spaziato"
+    },
+    "regole": [
+      "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+      "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+      "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+      "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+      "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+      "Chiusura sempre su cartelli rosso profondo: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+    ]
+  }
+}

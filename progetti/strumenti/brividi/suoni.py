@@ -30,7 +30,12 @@ CAT = {'orologio': ('sound_effects', 'clock ticking quiet room', 'b9cac060b3e469
        'vento': ('sound_effects', 'wind blowing outdoor gentle', 'dcc590846602e641'),
        'spot': ('sound_effects', 'spotlight switch on clunk', 'cb87077cb49ffe34'),
        'p_scarpe': ('music', 'slow emotional piano building crescendo hopeful', 'b5d94404a8de4dc19f0372fa363bb810'),
-       'p_parola': ('music', 'sparse solo piano few notes intimate', '54017c6eb7744795a2e37d8917cec48c')}
+       'p_parola': ('music', 'sparse solo piano few notes intimate', '54017c6eb7744795a2e37d8917cec48c'),
+       # serie Q (P1, P4, P5; 30/10). Il catalogo non ha né pioggia né voci di bambini: la pioggia si sintetizza (sotto)
+       'timpano': ('sound_effects', 'timpani hit single boom', '050666a0c9345558'),
+       'p_posto': ('music', 'slow cello warm low solo', '36aff9902f114c14bdd88e062781dca6'),
+       'p_uomini': ('music', 'hopeful piano major gentle', '7adaae3e9d344289b857a7d07d3b667c'),
+       'p_citta': ('music', 'soft choir humming piano hopeful', '0da1543250f5409ca3e1f1914b3defd5')}
 
 
 def ff(*a):
@@ -54,6 +59,11 @@ def scarica():
     ff('-f', 'lavfi', '-i', 'anoisesrc=c=pink:r=48000:a=0.5:d=10', '-af',
        "highpass=f=1800,lowpass=f=7000,volume='0.35+0.65*abs(sin(2*PI*0.7*t)*sin(2*PI*0.23*t+1))':eval=frame,"
        'aformat=channel_layouts=stereo', f'{S}/fruscio.wav')
+    # pioggia sul parabrezza, da dentro l'auto: rumore rosa cupo (il vetro taglia gli acuti) e gocce sparse più vicine
+    ff('-f', 'lavfi', '-i', 'anoisesrc=c=pink:r=48000:a=0.6:d=12', '-f', 'lavfi', '-i', 'anoisesrc=c=white:r=48000:a=1:d=12:seed=7',
+       '-filter_complex', "[0:a]lowpass=f=2200,highpass=f=120,volume=0.7[a];"
+       "[1:a]volume='gt(random(1),0.9993)':eval=frame,lowpass=f=4000,highpass=f=600,aecho=0.6:0.3:12:0.4,volume=2.5[b];"
+       '[a][b]amix=inputs=2:normalize=0,aformat=channel_layouts=stereo', f'{S}/pioggia.wav')
     # respiro (inspirazione lenta): rumore bianco filtrato sulla banda dell'aria, inviluppo che sale e si spegne in 1,1 s
     ff('-f', 'lavfi', '-i', 'anoisesrc=c=white:r=48000:a=0.4:d=1.1', '-af',
        "bandpass=f=1300:width_type=h:w=1800,lowpass=f=3500,volume='pow(sin(PI*min(1,t/1.1)),1.6)*(0.6+0.4*t/1.1)':eval=frame,"
