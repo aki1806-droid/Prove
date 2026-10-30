@@ -6,31 +6,36 @@ LARGA px (la punta della bandiera è stretta, ~130-150 px); tutto quello che sta
 qualche riga di sfumatura; sotto la cima si tolgono i pixel della base della bandiera (bianco acceso, bianco
 in ombra azzurrino, verde saturo: i capelli sono grigi), con il bordo ammorbidito e, in tutto il fotogramma, i pezzi staccati dalla sagoma (l'asta). Esce un ProRes 4444 con alfa già ritagliato, che monta.py usa al posto del webm.
 
-    python3 strumenti/kitlocali/pulisci_avatar.py
+    python3 strumenti/kitlocali/pulisci_avatar.py [cartella avatar [webm]]   (default: quella del Kit; la usa anche ccnlfl,
+    con «webm»: VP9 con alfa invece del ProRes, che per due minuti di avatar passa i 2 GB)
 """
-import os, subprocess
+import os, subprocess, sys
 import numpy as np
 from scipy import ndimage as nd
 
 D = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'pdro-kit-funzioni-locali')
+AV = sys.argv[1] if len(sys.argv) > 1 else f'{D}/avatar'
+WEBM = sys.argv[2:3] == ['webm']
 X0, W, H = 500, 920, 1080            # ritaglio di Andrea nel webm 1920x1080 (v2-v3)
 # v4: HeyGen ha restituito il webm già stretto su Andrea (1080x1286): si tiene tutto il fotogramma
 
 
 def misura():
     w, h = map(int, subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v', '-show_entries', 'stream=width,height',
-                                    '-of', 'csv=p=0', f'{D}/avatar/avatar.webm'], capture_output=True, text=True).stdout.split(',')[:2])
+                                    '-of', 'csv=p=0', f'{AV}/avatar.webm'], capture_output=True, text=True).stdout.split(',')[:2])
     return (X0, W, H) if w == 1920 else (0, w, h)
 LARGA, SFUMA, ASTA = 220, 6, 25
 
 
 def main():
     X0, W, H = misura()
-    dec = subprocess.Popen(['ffmpeg', '-v', 'error', '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm',
+    dec = subprocess.Popen(['ffmpeg', '-v', 'error', '-c:v', 'libvpx-vp9', '-i', f'{AV}/avatar.webm',
                             '-vf', f'crop={W}:{H}:{X0}:0,format=rgba', '-f', 'rawvideo', '-'], stdout=subprocess.PIPE)
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{W}x{H}', '-r', '25',
-                            '-i', '-', '-c:v', 'prores_ks', '-profile:v', '4444', '-pix_fmt', 'yuva444p10le',
-                            f'{D}/avatar/avatar_pulito.mov'], stdin=subprocess.PIPE)
+                            '-i', '-', *(['-c:v', 'libvpx-vp9', '-pix_fmt', 'yuva420p', '-crf', '20', '-b:v', '0',
+                                          '-deadline', 'good', '-cpu-used', '4', '-row-mt', '1', f'{AV}/avatar_pulito.webm']
+                                         if WEBM else ['-c:v', 'prores_ks', '-profile:v', '4444', '-pix_fmt', 'yuva444p10le',
+                                                       f'{AV}/avatar_pulito.mov'])], stdin=subprocess.PIPE)
     n, cime = 0, []
     while True:
         b = dec.stdout.read(W * H * 4)
