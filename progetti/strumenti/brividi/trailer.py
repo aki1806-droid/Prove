@@ -27,9 +27,9 @@ SFX = f'{D}/audio/sfx'
 FONT = f'{QUI}/font'
 FPS = 25
 FMT = {'9x16': (1080, 1920), '16x9': (1920, 1080), '1x1': (1080, 1080)}
-TR = {'T1': 'T1_LA_PORTA_20s', 'T2': 'T2_DOVE_SEI_30s', 'T3': 'T3_IL_NODO_45s', 'T4': 'T4_CHI_CURA_60s',
+TR = {'P2': 'P2_SCARPE_ROSSE_30s', 'P3': 'P3_PRENDERE_PAROLA_40s', 'T1': 'T1_LA_PORTA_20s', 'T2': 'T2_DOVE_SEI_30s', 'T3': 'T3_IL_NODO_45s', 'T4': 'T4_CHI_CURA_60s',
       'T5': 'T5_ACCENDIAMO_UNA_LUCE_75s'}
-NOMI = {'T1': 'La_porta', 'T2': 'Dove_sei', 'T3': 'Il_nodo', 'T4': 'Chi_cura', 'T5': 'Accendiamo_una_luce'}
+NOMI = {'P2': 'Scarpe_rosse', 'P3': 'Prendere_parola', 'T1': 'La_porta', 'T2': 'Dove_sei', 'T3': 'Il_nodo', 'T4': 'Chi_cura', 'T5': 'Accendiamo_una_luce'}
 NERO, AVORIO, INCHIOSTRO, ROSSO = (10, 8, 12), (244, 237, 226), (46, 30, 50), (178, 30, 44)
 # k07 del pacchetto mostrava un occhio livido («niente volti feriti»): rifatta con Higgsfield, stesso corridoio
 SOSTITUTI = {'clips/k07_infermiera_notte_16x9.mp4': 'clips/k07b_infermiera_notte_16x9.mp4'}
@@ -82,6 +82,21 @@ REGIA = {
                      (38.15, 'fiammifero', 0.9, None, 0, 0, 0.2),
                      (38.4, 'p_luce', 0.9, 36.6, 10.0, 2.0, 9.0, (38.4, 54.0, 0.2, 1.0))],
            'silenzi': [(36.0, 38.0)]},
+    # serie P (pacchetto «SERIE parte 1», 30/10): solo 9:16 («formato unico verticale per tutti i canali»)
+    'P2': {'scene': {1: {'clip': 'lento', 'colore': (-1, -0.8)},
+                     3: {'testo': 'macchina', 'ingresso': 0},
+                     4: {'clip': 'lento', 'colore': (-0.4, 1)}},
+           'audio': [(0.0, 'vento', 0.22, 8.0, 2.0, 1.0, 1.2), (0.0, 'uccelli', 0.12, 8.0, 0, 1.0, 1.2),
+                     (12.0, 'passi', 0.55, 8.0, 0, 0.3, 1.0),
+                     (12.0, 'p_scarpe', 0.85, 18.0, 0, 1.5, 2.5, (12.0, 20.0, 0.35, 1.0))],
+           'silenzi': [(8.0, 9.0)]},
+    'P3': {'scene': {2: {'clip': 'lento', 'colore': (-1, -0.7)},
+                     4: {'testo': 'macchina', 'ingresso': 0}, 5: {'testo': 'macchina', 'ingresso': 0}},
+           'audio': [(0.0, 'ronzio', 0.18, 3.0, 0, 1.0, 0.5), (3.0, 'spot', 0.7, None, 0, 0, 0.1),
+                     (3.0, 'ronzio', 0.12, 10.0, 0, 0.5, 0.5), (6.0, 'respiro', 0.8, None, 0, 0.05, 0.1),
+                     (9.5, 'respiro', 0.6, None, 0, 0.05, 0.1),
+                     (26.0, 'p_parola', 0.9, 14.0, 0, 0.6, 3.0)],
+           'silenzi': [(13.0, 16.0)]},
 }
 BOLLE_T = [0.0, 2.0, 3.6, 5.0, 6.2, 7.2, 8.0]
 
@@ -92,7 +107,7 @@ BOLLE_T = [0.0, 2.0, 3.6, 5.0, 6.2, 7.2, 8.0]
 SILENZIO = 1.0
 MAX_LENTO = 1.3
 CARTELLI = {'titolo': 2.8, 'info': 4.0, 'prenota': 3.5, 'firma': 3.0}
-DURATE = {('T1', 3): 2.4, ('T2', 1): 7.0, ('T2', 2): 3.5, ('T5', 1): 3.0, ('T1', 1): 1.5, ('T4', 1): 1.5}
+DURATE = {('P3', 1): 1.5, ('P3', 3): 1.5, ('P2', 2): 1.0, ('T1', 3): 2.4, ('T2', 1): 7.0, ('T2', 2): 3.5, ('T5', 1): 3.0, ('T1', 1): 1.5, ('T4', 1): 1.5}
 
 
 def ritmo(T, scene, parole, R):
@@ -152,13 +167,15 @@ def prepara(clip, modo, d, cache):
             ff('-sseof', '-0.1', '-i', src, '-frames:v', '1', '-update', '1', out)
         return out
     f = min(d / durata(src), MAX_LENTO)       # oltre, la clip si ferma sull'ultimo fotogramma (fotogrammi(): tpad)
-    if modo in ('normale', 'lento') and f < 1.06:     # più corta della clip: si taglia, non si accelera
-        return src
-    out = f'{cache}/{base}_{modo}_{f:.3f}.mp4'
+    # 30/10: sempre 25 fps veri (le clip sono a 24 e fps=25 ripeteva un fotogramma al secondo): se la clip basta, ogni suo
+    # fotogramma a 25 fps; se no prima si allungano i tempi e poi il flusso ottico crea i fotogrammi a 25 (0 doppioni)
+    pre = 'reverse,' if modo == 'reverse' else ''
+    out = f'{cache}/{base}_{modo}_25_{f:.3f}.mp4'
     if not os.path.exists(out):
-        pre = 'reverse,' if modo == 'reverse' else ''
-        ff('-i', src, '-vf', f"{pre}minterpolate=fps={24 * f:.4f}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1,"
-           f"setpts={f:.4f}*PTS,fps={FPS}", '-an', '-c:v', 'libx264', '-crf', '14', '-preset', 'fast', out)
+        vf = (f"{pre}setpts=PTS*24/25" if f <= 24 / 25 else
+              f"{pre}setpts={f:.4f}*PTS,minterpolate=fps={FPS}:mi_mode=mci:mc_mode=aobmc:me_mode=bidir:vsbmc=1:scd=none")
+        ff('-i', src, '-vf', vf + f",fps={FPS}", '-an', '-c:v', 'libx264', '-crf', '14', '-preset', 'fast', out + '.tmp.mp4')
+        os.replace(out + '.tmp.mp4', out)
     return out
 
 
@@ -331,8 +348,11 @@ def monta(T, fmt):
         t0 = s['inizio_s'] + lead; voci.append((sid, t0)); s['_t0'] = t0
         a_schermo = norm(s['testo_a_schermo'])
         for c in frasi(parole[sid], maxc):
-            testo = ' '.join(w['w'] for w in c).replace('ventiquattro', '24')
-            if a_schermo and norm(testo) and (norm(testo) in a_schermo or a_schermo in norm(testo)):
+            testo = ' '.join(w['w'] for w in c).replace('ventiquattro', '24').replace("l'uno cinque due due", 'il 1522')
+            # non ripete la frase già a schermo, anche se dice qualche parola in più (P3: «… è sempre la più difficile»)
+            ps = set(norm(x) for x in s['testo_a_schermo'].split()); pv = [norm(x) for x in testo.split()]
+            simile = ps and pv and sum(x in ps for x in pv) / len(pv) >= 0.7
+            if a_schermo and norm(testo) and (norm(testo) in a_schermo or a_schermo in norm(testo) or simile):
                 continue
             sub.append((t0 + c[0]['a'] - 0.05, min(t0 + c[-1]['b'] + 0.35, s['fine_s']), testo, s))
     if 'silenzio_prima' in R:                     # silenzio totale nella pausa della voce prima di quella parola
@@ -489,7 +509,7 @@ def monta(T, fmt):
     nome = f"PDRO_Brividi_{T}_{NOMI[T]}_{fmt}"
     ff('-i', f'{L}/video.mp4', '-i', f'{L}/mix.wav', '-filter_complex',
        f"[1:a]volume={gain:.2f}dB,alimiter=limit=0.89:level=false,volume='{zero}':eval=frame[a]",
-       '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', str(tot),
+       '-map', '0:v', '-map', '[a]', '-c:v', 'copy', '-aspect', f'{W}:{H}', '-c:a', 'aac', '-b:a', '192k', '-t', str(tot),
        '-movflags', '+faststart', f'{D}/{cart}/{nome}.mp4')
     print('montato', nome, f'{tot} s', fr, 'fotogrammi', len(sub), 'sottotitoli', f'guadagno {gain:+.1f} dB')
 

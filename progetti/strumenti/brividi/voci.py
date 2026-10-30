@@ -9,6 +9,7 @@ Profilo «pensiero»: pause oltre 0,6 s → 0,4 s (v1: 0,9 → 0,7; troppo lente
 
     python3 strumenti/brividi/voci.py genera     -> voce-brividi.json + voce-brividi-grezzo.mp3
     python3 strumenti/brividi/voci.py taglia
+    python3 strumenti/brividi/voci.py genera|taglia P     (serie P: P2, P3 -> voce-serieP)
 """
 import json, os, sys
 QUI = os.path.dirname(os.path.abspath(__file__))
@@ -18,8 +19,12 @@ import voci as cv  # noqa: E402
 PR = os.path.dirname(os.path.dirname(QUI))
 BASE = os.path.join(PR, 'pdro-brividi-24-novembre')
 TRAILER = ['T1_LA_PORTA_20s', 'T2_DOVE_SEI_30s', 'T3_IL_NODO_45s', 'T4_CHI_CURA_60s', 'T5_ACCENDIAMO_UNA_LUCE_75s']
+# serie P (pacchetto «SERIE parte 1», 30/10): P2 e P3 in una traccia a parte, così T1-T5 restano come consegnati
+NOME = 'voce-brividi'
+if 'P' in sys.argv[2:]:
+    TRAILER, NOME = ['P2_SCARPE_ROSSE_30s', 'P3_PRENDERE_PAROLA_40s'], 'voce-serieP'
 VOCE = '87fd26ac5b68410d93b36b2d44a19f8d'
-A_VOCE = [('Il 24 novembre', 'Il ventiquattro novembre')]
+A_VOCE = [('Il 24 novembre', 'Il ventiquattro novembre'), ('chiama il 1522', "chiama l'uno cinque due due")]   # 1522 cifra per cifra come in «Il filo»
 cv.TEMPO['pensiero'] = (0.6, 0.4, 1.0)      # v2: pause più corte (Achille: «troppe pause lunghe»)
 # pause della regia dentro una frase: (trailer, scena): {parola: secondi}
 PAUSE = {('T3_IL_NODO_45s', 'S04'): {'rabbia.': 0.7}}   # «Silenzio di 1 s prima di "Basta ascoltarsi"»
@@ -39,16 +44,16 @@ def righe():
 
 
 if __name__ == '__main__':
-    if sys.argv[1:] == ['genera']:
+    if sys.argv[1:2] == ['genera']:
         r = righe(); testo = ' <break time="1.6s"/> '.join(x[2] for x in r)
-        open(f'{QUI}/voce-brividi-testo.txt', 'w').write(testo); print(len(r), 'frasi', len(testo), 'caratteri')
+        open(f'{QUI}/{NOME}-testo.txt', 'w').write(testo); print(len(r), 'frasi', len(testo), 'caratteri')
         from heygen_api import voce
-        voce(VOCE, f'{QUI}/voce-brividi-testo.txt', f'{QUI}/voce-brividi')
-    elif sys.argv[1:] == ['taglia']:
-        r = righe(); b = cv.blocchi('voce-brividi', QUI)
+        voce(VOCE, f'{QUI}/{NOME}-testo.txt', f'{QUI}/{NOME}')
+    elif sys.argv[1:2] == ['taglia']:
+        r = righe(); b = cv.blocchi(NOME, QUI)
         b = [x for x in b if x]
         assert len(b) == len(r), (len(b), len(r))
-        src = f'{QUI}/voce-brividi-grezzo.mp3'
+        src = f'{QUI}/{NOME}-grezzo.mp3'
         for t in TRAILER:
             A = f'{BASE}/{t}/audio'; os.makedirs(f'{A}/wav', exist_ok=True)
             tempi, parole = [], {}

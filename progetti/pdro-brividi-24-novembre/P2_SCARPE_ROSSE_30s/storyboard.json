@@ -1,0 +1,131 @@
+{
+  "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+  "video": "Scarpe rosse",
+  "durata_s": 30,
+  "formati": [
+    "9:16",
+    "16:9"
+  ],
+  "fps": 25,
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 8,
+      "asset": [
+        "clips/q03_scarpe_rosse_16x9.mp4"
+      ],
+      "regia": "La piazza vuota, le scarpe rosse. Rallentare a 8 s.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Ogni anno contiamo le scarpe rosse."
+    },
+    {
+      "n": 2,
+      "inizio_s": 8,
+      "fine_s": 9,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "NERO.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 3,
+      "inizio_s": 9,
+      "fine_s": 12,
+      "asset": [
+        "cards/S3_00_nero_16x9.png"
+      ],
+      "regia": "Nero, testo che compare parola per parola.",
+      "testo_a_schermo": "Quest’anno contiamo i passi.",
+      "voce_fuori_campo": "Quest’anno contiamo i passi."
+    },
+    {
+      "n": 4,
+      "inizio_s": 12,
+      "fine_s": 20,
+      "asset": [
+        "clips/q04_passi_insieme_16x9.mp4"
+      ],
+      "regia": "I piedi che camminano insieme. Rallentare a 8 s, montato sul ritmo dei passi.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Quelli di chi sceglie di esserci. Di ascoltare. Di non voltarsi dall’altra parte."
+    },
+    {
+      "n": 5,
+      "inizio_s": 20,
+      "fine_s": 24,
+      "asset": [
+        "cards/S3_01_titolo_16x9.png"
+      ],
+      "regia": "Titolo.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 6,
+      "inizio_s": 24,
+      "fine_s": 27,
+      "asset": [
+        "cards/S3_02_info_16x9.png"
+      ],
+      "regia": "Info.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": ""
+    },
+    {
+      "n": 7,
+      "inizio_s": 27,
+      "fine_s": 30,
+      "asset": [
+        "cards/S3_03_prenota_16x9.png"
+      ],
+      "regia": "Prenotazione.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Cammina con noi. Il 24 novembre, a Padova."
+    }
+  ],
+  "sound_design": "Piazza all’alba: vento, piccioni che si alzano in volo. Silenzio di 1 s. Poi i passi: prima pochi, poi tanti, a ritmo, come un tamburo. Il pianoforte entra sui passi e cresce fino al titolo.",
+  "evento": {
+    "titolo": "Sentirsi per sentire",
+    "sottotitolo": "L’ascolto di sé come antidoto alla violenza",
+    "data": "Martedì 24 novembre 2026 · dalle ore 14:00",
+    "sede": "Patronato dell’Arcella (Centro Parrocchiale «P. Ludovico Bressan») · Via Beata Elena Enselmini 8 · Padova",
+    "promotori": "CISL FP Padova Rovigo con il Coordinamento Donne AOU Padova e il Coordinamento Donne provinciale",
+    "relatrici": [
+      "Elena Paccagnella – L’ascolto di sé come antidoto alla violenza",
+      "Daniela Lucangeli – Ascolto di sé tra scienza e coscienza",
+      "Sara Cordella – Donne che hanno scritto no",
+      "Luisa Morbiato – Ascoltare le storie"
+    ],
+    "modera": "Rosa Maria Volpe",
+    "musica": "Louis Huang, pianoforte",
+    "chiusura": "La tavola condivisa (momento conviviale)",
+    "accesso": "Gratuito e aperto a tutti · posti contingentati · prenotazione obbligatoria",
+    "prenota": "https://form.getformly.com/f/02eeRh",
+    "1522": "1522 · numero antiviolenza gratuito 24/7"
+  },
+  "stile": {
+    "serie": "Serie 3 — «Potenza»: simboli, corpo, collettività",
+    "palette": {
+      "rosso_profondo": "#6E0F18",
+      "avorio": "#F4EDE2",
+      "rosa_carne": "#FFD6C8",
+      "nero_pieno": "#0A080C"
+    },
+    "font": {
+      "titoli": "Instrument Serif (Regular/Italic)",
+      "testi": "Lora",
+      "etichette": "Work Sans Bold maiuscolo spaziato"
+    },
+    "regole": [
+      "Il silenzio è uno strumento: almeno un momento di nero e silenzio totale per video (0,8–2 s) prima della frase chiave",
+      "Testo a schermo bianco su nero o inchiostro su avorio, centrato, comparsa lettera per lettera (macchina da scrivere lenta) per le frasi che “fanno male”, dissolvenza per quelle che consolano",
+      "Il passaggio dal freddo al caldo racconta la storia: prima metà colori freddi/desaturati, seconda metà calda e luminosa",
+      "Montaggio sul respiro e sul battito, mai sul beat: tagli lunghi, poche inquadrature, nessun effetto flash",
+      "La violenza si evoca, non si mostra: niente volti feriti, niente aggressioni",
+      "Chiusura sempre su cartelli rosso profondo: titolo → info → prenotazione con QR (≥3 s) → firma con 1522"
+    ]
+  }
+}

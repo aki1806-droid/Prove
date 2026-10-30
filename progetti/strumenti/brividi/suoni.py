@@ -25,7 +25,12 @@ CAT = {'orologio': ('sound_effects', 'clock ticking quiet room', 'b9cac060b3e469
        'p_cura': ('music', 'piano chord sustain', 'd80ba44849874f5787bbb4f13991f2df'),
        'p_cura2': ('music', 'emotional piano cello', '42203bd929d14b17b0031cca5a9f9540'),
        'p_luce': ('music', 'hopeful piano', 'aa842465e72042488a3b82bc1e6e0d36'),
-       'p_luce2': ('music', 'hopeful piano', 'bccebdff431e4b019ed3809bb0adac7c')}
+       'p_luce2': ('music', 'hopeful piano', 'bccebdff431e4b019ed3809bb0adac7c'),
+       # serie P (30/10)
+       'vento': ('sound_effects', 'wind blowing outdoor gentle', 'dcc590846602e641'),
+       'spot': ('sound_effects', 'spotlight switch on clunk', 'cb87077cb49ffe34'),
+       'p_scarpe': ('music', 'slow emotional piano building crescendo hopeful', 'b5d94404a8de4dc19f0372fa363bb810'),
+       'p_parola': ('music', 'sparse solo piano few notes intimate', '54017c6eb7744795a2e37d8917cec48c')}
 
 
 def ff(*a):
@@ -55,5 +60,29 @@ def scarica():
        'aformat=channel_layouts=stereo', f'{S}/respiro.wav')
 
 
+def passi():
+    """Passi sul selciato (il catalogo non li ha): un passo è un colpo sordo di rumore filtrato con coda breve; prima pochi
+    passi, poi sempre più persone in passo (leggermente sfasate), come un tamburo che cresce. 8 s, stereo."""
+    import numpy as np
+    sr, d = 48000, 8.0; rng = np.random.default_rng(7); out = np.zeros((int(sr * d), 2))
+    def passo(gain):
+        n = int(sr * 0.16); t = np.arange(n) / sr
+        x = rng.standard_normal(n) * np.exp(-t / 0.025) + 0.6 * np.sin(2 * np.pi * 90 * t) * np.exp(-t / 0.04)
+        return x * gain
+    for k in range(1, 9):                      # da 1 a 8 persone, ognuna entra più tardi
+        inizio = (k - 1) * 0.7; ritmo = 0.55 + rng.uniform(-0.02, 0.02); pan = rng.uniform(0.25, 0.75)
+        t0 = inizio + rng.uniform(0, 0.08)
+        while t0 < d - 0.2:
+            p = passo(0.35 * (0.8 + 0.4 * rng.random())); i = int(t0 * sr)
+            out[i:i + len(p), 0] += p * (1 - pan); out[i:i + len(p), 1] += p * pan
+            t0 += ritmo
+    from scipy.signal import butter, lfilter
+    b, a = butter(2, [60 / (sr / 2), 2500 / (sr / 2)], btype='band'); out = lfilter(b, a, out, axis=0)
+    out = out / np.abs(out).max() * 0.8
+    import wave
+    w = wave.open(f'{S}/passi.wav', 'wb'); w.setnchannels(2); w.setsampwidth(2); w.setframerate(sr)
+    w.writeframes((out * 32767).astype(np.int16).tobytes()); w.close()
+
+
 if __name__ == '__main__':
-    scarica()
+    scarica(); passi()

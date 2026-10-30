@@ -70,3 +70,23 @@ Link: https://resource2.heygen.ai/video/<asset>/original.mp4. Portafoglio API: 3
   T1 fcfcea1f6c05481f8f8ecb4088b9d190 · T2 a04170e3179f4bacba8eff86dac27d12 · T3 16:9 968bfc42cfb440659cfa5fa24c917a75 ·
   T3 9:16 66027c94972e46b1aa162cf9ee4eec5b · T4 70b9d4d10af74ca59d6ec9a633e14eba · T5 16:9 434d38210f294e4cad00620b5a897b99 ·
   T5 1:1 7043d7593822477893198556593584f0 (https://resource2.heygen.ai/video/<asset>/original.mp4).
+
+## Serie T e P, parte 1 — 30/10/2026 (pacchetto SERIE_parte1_per_Claude_Code.zip: T1, T3, P2, P3)
+Istruzioni del pacchetto in serie_istruzioni/ (ISTRUZIONI_SERIE_T_P.md, calendario_pubblicazione.json, render_bozza.py).
+Scelte di Achille: voce **DONNA VOCE CALDA** (ElevenLabs eleven_v4 via HeyGen passante) e non «Lea inside sitting» del
+pacchetto, che è il TTS proprio di HeyGen (escluso dalle regole); **T1 e T3 restano i trailer Brividi** già fatti;
+**programmazione su Robin solo dopo il suo OK** sui video; pubblico **provinciale**. Formato unico 9:16 (pacchetto).
+- P2 «Scarpe rosse» e P3 «Prendere parola»: stesse regole dei Brividi v2 (scene sul parlato, clip quasi a velocità
+  naturale, silenzi brevi, sottotitoli piccoli impressi). Voce (voci.py `P`): request vjTjmvt1BF2zAEe5b0jZ, 32,4 s,
+  «ventiquattro» e «chiama l'uno cinque due due» a voce, in cifre a schermo. Cartello «Prenota» 9:16 ricomposto dal 16:9
+  (P2 aveva solo i 16:9; gli altri cartelli 9:16 sono uguali a quelli di P3). Suoni dal catalogo HeyGen: vento, uccelli,
+  click dello spot, pianoforti b5d94404 (P2, cresce sui passi) e 54017c6e (P3, poche note sul titolo); passi sintetizzati
+  (il catalogo non li ha), respiro e ronzio di sala già scaricati. Silenzi: P2 1 s prima di «Quest'anno contiamo i passi»,
+  P3 1,5 s prima della prima parola. P2 24,4 s, P3 25,8 s.
+- Fluidità (trailer.py prepara): ora 25 fps veri anche qui (prima fps=25 su clip a 24 ripeteva un fotogramma al secondo).
+  T1 e T3 9:16 rimontati con questa correzione, contenuto uguale. Doppioni isolati misurati: P2 0, P3 0, T3 0, T1 1.
+- Uscite (9:16, integre, SAR 1:1): HeyGen T1 26e92010fd1540d297badbeb54a0f299 · T3 892e2c11601c4f24b6fb521b089a77dd ·
+  P2 4a231b876cbf4b55913472f0167ca729 · P3 b5d4f672a2ca4f01ab85e5ed5f6f5560 (https://resource2.heygen.ai/video/<asset>/original.mp4).
+  Portafoglio API: 43,80 $ (ricaricato).
+- Da fare: OK di Achille → post programmati su Robin (calendario: T1 sab 31/10 21:00, T3 mer 4/11 21:00, P2 dom 8/11 21:00,
+  P3 mar 10/11 21:00); liberatoria dei genitori di Louis Huang (minorenne, il nome è nei cartelli info).
