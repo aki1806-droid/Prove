@@ -1,0 +1,8 @@
+# media fuori da git (canzone, voce, immagini, clip, montaggio, uscite): gli originali stanno su HeyGen e Higgsfield (REGISTRO.md)
+*.mp4
+*.mp3
+*.wav
+*.png
+clip/
+immagini/
+montaggio/
