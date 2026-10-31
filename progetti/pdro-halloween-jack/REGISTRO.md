@@ -48,5 +48,8 @@ gotico (39fec2ee) per Jack, «Halloween Mischief» pizzicati (685f9059) per i Fa
 - Montaggio locale (motore della serie PDRO), non create_video_from_studio.
 - Voce di Achille via HeyGen passante eleven_v4 con atempo 1,16, non ElevenLabs eleven_multilingual_v2 con 1,12.
 
-## Da fare
-- OK di Achille → Robin (pubblicazione entro il 31/10-1/11). Nel post dei Fantasmi togliere la riga di Rovigo (solo AOUP).
+## Robin (31/10, dopo l'OK di Achille)
+Sui 4 canali AOUP (TikTok e YouTube CISL FP AOUP, Instagram cislaop, Facebook CISL FP - Sanità AOUP Social Club), reel,
+testo del pacchetto, primo commento col canale WhatsApp CISL FP AOUP, etichetta «Halloween 2026»:
+Jack post 1129867 sab 31/10 18:00 · Fantasmi post 1129868 sab 31/10 21:00.
+Nel post dei Fantasmi tolta, con l'OK di Achille, la riga della sede di Rovigo (solo AOUP).

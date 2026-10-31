@@ -12,6 +12,6 @@ Niente aglio, niente acqua santa: bastano un evidenziatore, il contratto e un po
 🎃 Il dolcetto lo scegli tu: porta il cedolino in sede e lo controlliamo insieme, riga per riga.
 
 📞 Achille 391 127 1018 · Giovanna 389 928 5301
-📍 Padova, Via del Carmine 3 · Rovigo, Viale Tre Martiri 87/a
+📍 Padova, Via del Carmine 3
 ✉️ fp.padova.rovigo@cisl.it
 #Halloween #CISLFP #cislfppadovarovigo #BustaPaga
