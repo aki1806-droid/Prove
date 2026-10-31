@@ -1,0 +1,152 @@
+{
+  "progetto": "PDRO_Halloween_Jack_O_Lantern",
+  "titolo": "Jack O'Lantern – versione sindacale",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\" (tono da racconto di paura, ironico)",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "C'era una volta Jack",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "hw_jack.png",
+      "voce": "C'era una volta, in un villaggio avvolto dalla nebbia, un tale chiamato Jack. Jack il Furbo. Uno che prometteva tutto a tutti, e non manteneva niente a nessuno.",
+      "parole": 28,
+      "durata_stimata_s": 11.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/hw_jack.png: nebbia che scorre, la lanterna dell'insegna oscilla, Jack lancia la moneta e la riprende con un sorrisetto furbo.",
+      "regia": "Ululato lontano e campanella; titolo JACK O'LANTERN in caratteri horror arancio; musica da fiaba gotica ma ironica."
+    },
+    {
+      "n": 2,
+      "titolo": "Il primo trucco",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Jack era così furbo che riuscì a imbrogliare perfino il Diavolo. Gli promise la sua anima, poi lo convinse a trasformarsi in una moneta, e se lo infilò in tasca. Promesse, monete e tasche: la specialità di Jack.",
+      "parole": 38,
+      "durata_stimata_s": 14.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La moneta con la faccina del diavolo gira su sé stessa e 'cade' in basso come in una tasca; suono di moneta."
+    },
+    {
+      "n": 3,
+      "titolo": "Gli annunci di Jack",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Al villaggio, Jack annunciava di tutto. Arretrati in arrivo domani mattina. Aumenti sicurissimi. Date certe. Anzi, quasi certe. Nessuno sapeva da dove arrivassero quelle notizie. Nemmeno Jack.",
+      "parole": 27,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Pergamena che si srotola; ogni annuncio compare con un 'tadà' di trombetta; il timbro FONTE: BOH cade con un tonfo."
+    },
+    {
+      "n": 4,
+      "titolo": "Due porte chiuse",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "hw_cancelli.png",
+      "voce": "Quando arrivò il momento dei conti, Jack bussò al Paradiso: porta chiusa, troppe promesse non mantenute. Bussò all'Inferno: chiuso anche lì. Il Diavolo, quella moneta, se la ricordava benissimo.",
+      "parole": 29,
+      "durata_stimata_s": 13.4,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/hw_cancelli.png: i due cancelli restano chiusi, i lucchetti tremano quando Jack bussa, la nebbia sale. Jack si gratta la testa.",
+      "regia": "Due bussate, due 'NO' di eco; chip CHIUSO entrano uno per cancello."
+    },
+    {
+      "n": 5,
+      "titolo": "La lanterna",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "hw_lanterna.png",
+      "voce": "Così il Diavolo gli lanciò un tizzone ardente. Jack lo mise dentro una zucca intagliata e, da allora, vaga nella nebbia con la sua lanterna. Una luce che illumina una sola persona: lui.",
+      "parole": 33,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/hw_lanterna.png: Jack cammina lento nella brughiera, la zucca illumina solo lui, tutto intorno è buio.",
+      "regia": "Vento e passi; LUI. entra grande in arancio."
+    },
+    {
+      "n": 6,
+      "titolo": "Le differenze",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ecco la differenza. Jack promette tutto, noi diciamo quello che sappiamo. Jack tratta al buio, noi alla luce del sole. Jack inventa le date, noi le comunichiamo quando sono certe. E quando serve, Jack sparisce nella nebbia. Noi restiamo.",
+      "parole": 39,
+      "durata_stimata_s": 16.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le cinque righe compaiono a coppie: colonna zucca a sinistra, colonna CISL FP a destra, con un 'ding' a ogni risposta."
+    },
+    {
+      "n": 7,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "La lanterna di Jack illumina solo lui. La nostra illumina la strada a tutti. Questo Halloween, diffidate dei Jack: quelli che promettono tutto e poi spariscono. Noi restiamo qui, con le luci accese, tutto l'anno. Dolcetto o scherzetto? Con la CISL FP, niente scherzetti.",
+      "parole": 44,
+      "durata_stimata_s": 16.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Decine di piccole luci si accendono una dopo l'altra; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

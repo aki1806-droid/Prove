@@ -1,0 +1,478 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"drop",
+"fantasmi",
+0.4
+]
+},
+{
+"p": "t2",
+"in": [
+"drop",
+"fantasmi+0.5",
+0.4
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"nascondono",
+1.2
+]
+},
+{
+"p": "presenta",
+"in": [
+"fade",
+0.5,
+0.6
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"slam",
+0.15,
+0.3
+]
+},
+{
+"p": "ghost",
+"in": [
+"pop",
+"numero",
+0.5
+],
+"fx": [
+[
+"ondeggia",
+2.4,
+4
+]
+]
+},
+{
+"p": "titolo",
+"in": [
+"drop",
+"straordinario",
+0.35
+]
+},
+{
+"p": "desc",
+"in": [
+"wipe",
+"fatto",
+1.0
+]
+},
+{
+"p": "box",
+"in": [
+"slideL",
+"stanche",
+0.45
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+12,
+1.03,
+540,
+900
+]
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"slam",
+0.15,
+0.3
+]
+},
+{
+"p": "ghost",
+"in": [
+"pop",
+"numero",
+0.5
+],
+"fx": [
+[
+"ondeggia",
+2.4,
+4
+]
+]
+},
+{
+"p": "titolo",
+"in": [
+"drop",
+"strega",
+0.35
+]
+},
+{
+"p": "desc",
+"in": [
+"wipe",
+"arretrate",
+1.0
+]
+},
+{
+"p": "box",
+"in": [
+"slideL",
+"attenzione",
+0.45
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+12,
+1.03,
+540,
+900
+]
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"slam",
+0.15,
+0.3
+]
+},
+{
+"p": "ghost",
+"in": [
+"pop",
+"numero",
+0.5
+],
+"fx": [
+[
+"ondeggia",
+2.4,
+4
+]
+]
+},
+{
+"p": "titolo",
+"in": [
+"drop",
+"zombie",
+0.35
+]
+},
+{
+"p": "desc",
+"in": [
+"wipe",
+"turni",
+1.0
+]
+},
+{
+"p": "box",
+"in": [
+"slideL",
+"controlla",
+0.45
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+12,
+1.03,
+540,
+900
+]
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "chip",
+"in": [
+"slam",
+0.15,
+0.3
+]
+},
+{
+"p": "ghost",
+"in": [
+"pop",
+"numero",
+0.5
+],
+"fx": [
+[
+"ondeggia",
+2.4,
+4
+]
+]
+},
+{
+"p": "titolo",
+"in": [
+"drop",
+"vampiro",
+0.35
+]
+},
+{
+"p": "desc",
+"in": [
+"wipe",
+"voci",
+1.0
+]
+},
+{
+"p": "box",
+"in": [
+"slideL",
+"accende",
+0.45
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+12,
+1.03,
+540,
+900
+]
+]
+},
+"S06": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"aglio",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"santa",
+0.35
+]
+},
+{
+"p": "t3",
+"in": [
+"wipe",
+"evidenziatore",
+1.0
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"dolcetto",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"tu",
+0.35
+]
+},
+{
+"p": "p1",
+"in": [
+"wipe",
+"porta",
+1.0
+]
+},
+{
+"p": "p2",
+"in": [
+"wipe",
+"riga",
+1.0
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+0.6,
+0.45
+],
+"fx": [
+[
+"pulsa",
+"aspettiamo",
+1.1,
+0.04
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+11,
+1.04,
+540,
+900
+]
+]
+}
+}

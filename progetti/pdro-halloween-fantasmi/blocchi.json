@@ -1,0 +1,152 @@
+{
+  "progetto": "PDRO_Halloween_Fantasmi_del_cedolino",
+  "titolo": "I fantasmi del cedolino",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\" (tono da racconto di paura, ironico)",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "I fantasmi del cedolino",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "hw_cedolino.png",
+      "voce": "Notte di Halloween. Apri il cedolino e senti un brivido lungo la schiena. Non è il vento. Sono i fantasmi del cedolino. E si nascondono proprio lì, tra le righe.",
+      "parole": 30,
+      "durata_stimata_s": 11.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/hw_cedolino.png: l'infermiera legge il cedolino, dal foglio si alzano forme di fantasmi trasparenti, la zucca sul tavolo tremola.",
+      "regia": "Scricchiolio di porta e risatina spettrale; titolo horror che 'gocciola'."
+    },
+    {
+      "n": 2,
+      "titolo": "Fantasma n. 1",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fantasma numero uno: lo straordinario fantasma. Lo hai fatto, eccome. Ma in busta non compare. Esiste solo nei tuoi ricordi, e nelle tue gambe stanche.",
+      "parole": 25,
+      "durata_stimata_s": 10.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il fantasma con l'orologio fluttua su e giù; ticchettio."
+    },
+    {
+      "n": 3,
+      "titolo": "Fantasma n. 2",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fantasma numero due: la strega delle ferie. Ferie arretrate che rischiano di svanire nel nulla, come per magia nera. Attenzione alle scadenze: la strega non perdona.",
+      "parole": 26,
+      "durata_stimata_s": 11.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il cappello da strega oscilla; risata da strega di un secondo."
+    },
+    {
+      "n": 4,
+      "titolo": "Fantasma n. 3",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fantasma numero tre: lo zombie delle indennità. Turni, notti, festivi: a volte sembrano morte e sepolte. Poi, se qualcuno controlla bene, tornano in vita. A volte, perfino con gli arretrati.",
+      "parole": 30,
+      "durata_stimata_s": 13.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Lo zombie barcolla a destra e sinistra; verso 'mmmhhh' da zombie."
+    },
+    {
+      "n": 5,
+      "titolo": "Fantasma n. 4",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fantasma numero quattro: il vampiro delle trattenute. Voci misteriose che succhiano il netto, mese dopo mese. Nessuno sa da dove arrivino. Finché qualcuno non accende la luce.",
+      "parole": 27,
+      "durata_stimata_s": 12.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Mantello del vampiro che si apre; pipistrelli che attraversano lo schermo."
+    },
+    {
+      "n": 6,
+      "titolo": "Accendiamo la luce",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "hw_ufficio.png",
+      "voce": "Ed è qui che entriamo in scena noi. Niente aglio, niente acqua santa: bastano un evidenziatore, il contratto alla mano e un po' di esperienza. Alla luce, i fantasmi del cedolino spariscono.",
+      "parole": 32,
+      "durata_stimata_s": 13.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/hw_ufficio.png: la lampada si accende, il delegato evidenzia una riga, i fantasmini volano via dalla finestra, l'infermiera ride.",
+      "regia": "Click della lampada; i fantasmi scappano con un 'whoosh' comico."
+    },
+    {
+      "n": 7,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Questo Halloween il dolcetto lo scegli tu: porta il tuo cedolino in sede e lo controlliamo insieme, riga per riga. Lo scherzetto lasciamolo ai fantasmi. CISL FP Padova Rovigo. Ti aspettiamo, con le luci accese.",
+      "parole": 35,
+      "durata_stimata_s": 12.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con nomi, numeri e sedi; avatar in basso a destra."
+    }
+  ]
+}
