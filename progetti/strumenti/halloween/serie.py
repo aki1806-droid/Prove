@@ -22,6 +22,7 @@ from serie import P  # noqa: E402
 PR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 JK, FA = 'pdro-halloween-jack', 'pdro-halloween-fantasmi'
 TR, SM = 'pdro-halloween-turno', 'pdro-halloween-sindamatch'
+CI = 'pdro-favola-cicala-formica'   # Le favole del sindacato
 BANDE = [{'id': 'banda_su', 'm': ['rect', 0, 0, 1080, 117]}, {'id': 'banda_giu', 'm': ['rect', 0, 1810, 1080, 1920]}]
 
 
@@ -136,6 +137,30 @@ EPISODI = {
         'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
             CH('t1', 30, 262, 1040, 375, 150, 18), CH('t2', 30, 375, 1050, 480, 90, 18), CH('t3', 30, 488, 1040, 598, 130, 18),
             C('box', 60, 750, 645, 1105, 24, 'diffusione')]},
+    },
+    CI: {
+        'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
+            CH('badge', 70, 1104, 340, 1198, 120, 8), CH('t1', 70, 1216, 680, 1322, 120, 14), CH('t2', 70, 1322, 870, 1428, 120, 14),
+            CH('sotto', 70, 1456, 460, 1528, 110, 12), CH('firma', 280, 1848, 1060, 1884, 100, 3), *BANDE]},
+        'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
+            R('titolo', 60, 280, 600, 410), C('hl', 54, 460, 527, 562, 46), C('hr', 554, 460, 1027, 562, 46),
+            *[C(f'{l}{i}', x0, y0 - 3, x1, y1 + 3, 18) for i, (y0, y1) in enumerate([(600, 771), (790, 961), (980, 1151), (1170, 1341)], 1)
+              for l, x0, x1 in (('l', 57, 524), ('r', 557, 1024))]]},
+        'S03': {'base': 'overlay_clip/S03A.png', 'pezzi': [
+            CH('t1', 70, 1242, 500, 1338, 120, 14), CH('t2', 70, 1338, 500, 1434, 120, 14),
+            CH('s1', 70, 1464, 1030, 1541, 110, 12), CH('s2', 70, 1541, 360, 1612, 110, 12), *BANDE]},
+        'S04': {'base': 'grafiche/S04A.png', 'pezzi': [
+            R('titolo', 140, 280, 940, 382, 'diffusione'), R('sotto', 140, 400, 940, 484, 'diffusione'),
+            {'id': 'cerchio', 'riempi': 'diffusione', 'm': ['cerchio', 540, 800, 148]},
+            R('formiche', 110, 486, 970, 1175, 'diffusione'),
+            R('b1', 150, 1262, 930, 1315, 'righe'), R('b2', 150, 1328, 930, 1416, 'righe')]},
+        'S05': {'base': 'overlay_clip/S05A.png', 'pezzi': [
+            CH('t1', 70, 1250, 620, 1347, 120, 14), CH('t2', 70, 1347, 580, 1445, 120, 14),
+            CH('sotto', 70, 1462, 800, 1554, 110, 12), *BANDE]},
+        'S06': {'base': 'grafiche/S06A.png', 'pezzi': [
+            CH('t1', 50, 270, 420, 365, 150, 18), CH('t2', 50, 376, 690, 470, 120, 18),
+            *[C(f'p{i}', 62, y0, 708, y1, 40, 'diffusione') for i, (y0, y1) in enumerate([(578, 664), (672, 758), (767, 853)], 1)],
+            C('box', 60, 890, 640, 1160, 24, 'diffusione')]},
     },
 }
 
@@ -264,6 +289,31 @@ ANIM = {
         'S06': {**profilo('destra', 'destra$+0.1', 'si', 'su'), 'fondi': [['fondo', 0], ['fondoB', 'subito', 0.04]]},
         'S07': pieno([P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]), P('t3', ['wipe', 0.35, 0.4]),
                       P('box', ['pop', 0.0, 0.25], fx=[['pulsa', 'cedolino', 1.1, 0.04]])],
+                     camera=[[0, 1.0, 540, 960], [15, 1.04, 540, 900]]),
+    },
+    CI: {
+        # titolo della favola sul giardino animato, firma della serie in basso
+        'S01': ov([P('badge', ['pop', 0.3, 0.4]), P('t1', ['slam', 'cicala', 0.35]), P('t2', ['slam', 'formica', 0.35]),
+                   P('sotto', ['wipe', 'formica+0.6', 0.9]), P('firma', ['fade', 0.6, 0.8], fisso=True)], 0.5),
+        # le quattro coppie: a sinistra la cicala svogliata, a destra la formica decisa, sulle parole
+        'S02': pieno([P('titolo', ['slam', 0.1, 0.35]), P('hl', ['slideL', 0.3, 0.4]), P('hr', ['slideR', 0.45, 0.4]),
+                      P('l1', ['wipe', 'cedolino', 0.6]), P('l2', ['wipe', 'bando', 0.6]), P('l3', ['wipe', 'sindacato', 0.6]),
+                      P('r1', ['pop', 'controllava', 0.35]), P('r2', ['pop', 'studiava', 0.35]), P('r3', ['pop', 'informava', 0.35]),
+                      P('l4', ['wipe', 'cantava', 0.6]), P('r4', ['pop', 'preparava', 0.35])],
+                     camera=[[0, 1.0, 540, 960], [15, 1.03, 540, 1000]]),
+        'S03': ov([P('t1', ['slam', 'arrivo', 0.35]), P('t2', ['slam', 'linverno', 0.35]),
+                   P('s1', ['wipe', 'bandi', 1.4]), P('s2', ['wipe', 'misteriose', 0.6])]),
+        # il formicaio: le formiche arrivano da tutti i lati e si stringono attorno al cerchio CISL FP
+        'S04': pieno([P('titolo', ['slam', 0.1, 0.35]), P('sotto', ['wipe', 'porta', 0.9]),
+                      P('formiche', ['slam', 'lha', 1.4]),
+                      P('cerchio', ['pop', 'formicaio', 0.5], fx=[['pulsa', 'formicaio+0.5', 1.0, 0.05]]),
+                      P('b1', ['wipe', 'soli', 0.9]), P('b2', ['slam', 'insieme', 0.4], fx=[['bagliore', 'insieme', 1.2]])],
+                     camera=[[0, 1.0, 540, 960], [12, 1.04, 540, 900]]),
+        'S05': ov([P('t1', ['wipe', 'coperta', 0.9]), P('t2', ['wipe', 'caldo', 0.9]), P('sotto', ['wipe', 'qualcuno', 1.4])]),
+        # chiusura su foto: tutto entro mezzo secondo, poi le tre voci pulsano quando Achille le dice
+        'S06': pieno([P('box', ['pop', 0.0, 0.25]), P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]),
+                      *[P(f'p{i}', ['slideL', 0.3 + 0.1 * i, 0.35], fx=[['pulsa', w, 0.8, 0.05, f'{w}+1.6']])
+                        for i, w in enumerate(('cedolino', 'corsi', 'assistenza'), 1)]],
                      camera=[[0, 1.0, 540, 960], [15, 1.04, 540, 900]]),
     },
 }

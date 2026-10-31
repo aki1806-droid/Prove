@@ -49,9 +49,19 @@ CAT = {'vento': ('sound_effects', 'wind howling night', 'dcc590846602e641'),
        'pop': ('sound_effects', 'party confetti pop celebration', 'd9b59db7ed5ee90a'),
        'mus_turno': ('music', 'dark horror suspense drone trailer', '3bebd3594c384a39a9e2bf667169d32f'),
        'mus_turno2': ('music', 'upbeat happy feel good ukulele', 'd9757840300f4ddf8f16f139a037d78f'),
-       'mus_sindamatch': ('music', 'playful quirky comedy pizzicato', '597cfa95682f4eb8b044949749d29787')}
+       'mus_sindamatch': ('music', 'playful quirky comedy pizzicato', '597cfa95682f4eb8b044949749d29787'),
+       # La cicala e la formica (Le favole del sindacato)
+       'grilli': ('sound_effects', 'cicadas summer', '08513ad11bd5bb0f'),
+       'pagina': ('sound_effects', 'page turn paper', '9b77ef762e4f45f2'),
+       'penna': ('sound_effects', 'pencil writing scribble', '4de5bc1dbd9d3657'),
+       'fuoco': ('sound_effects', 'fire crackling fireplace', '13eeab9e8d966740'),
+       'mus_cicala_estate': ('music', 'warm hopeful strings fairy tale', '5adf6fba8081444b9f2a3994b8924fef'),
+       'mus_cicala_inverno': ('music', 'sad winter music box lullaby', '252a83d776f7455d98c0fa48ed896c1f'),
+       'mus_cicala_caldo': ('music', 'warm hopeful strings fairy tale', 'eb24e1caa4b6428f92335a8578fec6d2')}
 # musica a tratti: (chiave, scena da cui parte); Il Turno passa dall'horror alla commedia sul sequel (S06)
-MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')]}
+MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')],
+           # estate (ukulele da fiaba), inverno (carillon), formicaio (archi caldi)
+           'cicala': [('mus_cicala_estate', 'S01'), ('mus_cicala_inverno', 'S03'), ('mus_cicala_caldo', 'S04')]}
 # (scena, ancora, effetto, volume, durata massima o None)
 EVENTI = {
     'jack': [('S01', 0.0, 'vento', 0.35, 5.0), ('S01', 'chiamato$+0.1', 'campanella', 0.5, None), ('S01', 'furbo', 'colpo', 0.4, None),
@@ -91,10 +101,19 @@ EVENTI = {
                    ('S04', 'sinistra', 'squittio', 0.3, None), ('S05', 'mummia', 'polvere', 0.3, 2.0),
                    ('S06', 0.0, 'entra', 0.35, None), ('S06', 'destra', 'timbro', 0.5, None), ('S06', 'destra', 'chime', 0.4, None),
                    ('S06', 'ed', 'applauso', 0.45, None), ('S06', 'match', 'pop', 0.5, None), ('S06', 'match', 'tadan', 0.3, 1.2),
-                   ('S07', 'appuntamento', 'chime', 0.35, None), ('S07', 'cedolino', 'campanella', 0.3, None)]}
+                   ('S07', 'appuntamento', 'chime', 0.35, None), ('S07', 'cedolino', 'campanella', 0.3, None)],
+    'cicala': [('S01', 0.0, 'grilli', 0.25, 9.0), ('S01', 'cicala', 'campanella', 0.3, None), ('S01', 'preparava', 'chime', 0.3, None),
+               ('S02', 0.0, 'grilli', 0.15, 9.0), *[('S02', w, 'pagina', 0.45, None) for w in ('cedolino', 'bando', 'sindacato', 'cantava')],
+               *[('S02', w, 'penna', 0.5, None) for w in ('controllava', 'studiava', 'informava', 'preparava')],
+               ('S03', 0.0, 'vento', 0.4, 9.0), ('S03', 'cera', 'tonfo', 0.4, None),
+               ('S04', 'lha', 'whoosh', 0.35, None), ('S04', 'formicaio', 'chime', 0.4, None), ('S04', 'insieme', 'campanella', 0.35, None),
+               ('S05', 0.0, 'fuoco', 0.25, 7.0), ('S05', 'sola', 'chime', 0.35, None),
+               *[('S06', w, 'ding', 0.25, None) for w in ('cedolino', 'corsi', 'assistenza')], ('S06', 'rovigo', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
-        'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16'}
+        'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
+        'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16'}
 MUSICA_VOL = 0.13
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica'}
 
 
 def norm(s):
@@ -165,4 +184,4 @@ def mescola(v, D):
 
 if __name__ == '__main__':
     for v in sys.argv[1:]:
-        D = f'{PR}/pdro-halloween-{v}'; scarica(D); mescola(v, D)
+        D = f"{PR}/{CARTELLE.get(v, f'pdro-halloween-{v}')}"; scarica(D); mescola(v, D)

@@ -1,0 +1,133 @@
+{
+  "progetto": "PDRO_Favola_Cicala_e_Formica",
+  "titolo": "La cicala e la formica – versione corsia",
+  "serie": "Le favole del sindacato",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\" (tono da narratore di fiabe, ironico)",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Un'estate in corsia",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_cicala_estate.png",
+      "voce": "C'era una volta, in una calda estate di corsia, una cicala e una formica. La cicala cantava: tanto, a me, ci penserà qualcuno. La formica, intanto, si preparava.",
+      "parole": 28,
+      "durata_stimata_s": 11.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_cicala_estate.png: la cicala strimpella l'ukulele dondolando la testa, la formica sottolinea il cedolino, foglie che si muovono al sole.",
+      "regia": "Bande nere; musica da fiaba estiva con ukulele; titolo in dissolvenza."
+    },
+    {
+      "n": 2,
+      "titolo": "Estate",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il cedolino? La cicala non lo guardava. Il bando? C'è tempo. Il sindacato? Quando serve. La formica, invece, controllava, studiava, si informava. Una cantava, l'altra si preparava.",
+      "parole": 27,
+      "durata_stimata_s": 12.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le quattro coppie di frasi compaiono una alla volta: a sinistra scritte a mano e svogliate, a destra decise; cicale che frinire in sottofondo."
+    },
+    {
+      "n": 3,
+      "titolo": "Arriva l'inverno",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_cicala_inverno.png",
+      "voce": "Poi arrivò l'inverno. E con l'inverno arrivarono i bandi in scadenza, i turni cambiati, le trattenute misteriose. La cicala, al freddo, scoprì che quel qualcuno che doveva pensarci, semplicemente, non c'era.",
+      "parole": 31,
+      "durata_stimata_s": 14.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_cicala_inverno.png: la neve cade, la cicala trema leggendo la lettera, un ghiacciolo si stacca dall'ukulele.",
+      "regia": "Vento gelido; l'ukulele suona un ultimo accordo stonato."
+    },
+    {
+      "n": 4,
+      "titolo": "Il formicaio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ma questa è una favola moderna. La formica non ha chiuso la porta alla cicala. L'ha portata nel formicaio. Perché da soli si resiste a un inverno. Insieme, a tutti.",
+      "parole": 30,
+      "durata_stimata_s": 11.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le formiche arrivano da tutti i lati e si radunano attorno al cerchio verde; musica che si scalda."
+    },
+    {
+      "n": 5,
+      "titolo": "Al caldo",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_formicaio.png",
+      "voce": "Dentro, la cicala trovò una coperta, un tè caldo e qualcuno che le controllò il cedolino, le spiegò il bando e le disse: da adesso, non sei più sola.",
+      "parole": 29,
+      "durata_stimata_s": 10.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_formicaio.png: i colleghi accolgono la cicala, le mettono la coperta sulle spalle, le porgono il tè, sorrisi.",
+      "regia": "Calore, archi; le frasi scritte a mano compaiono lentamente."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Non serve essere formiche perfette. Basta non restare soli quando arriva l'inverno: cedolino controllato, corsi per concorsi e progressioni, assistenza quando serve. Iscriversi alla CISL FP è il modo più semplice per non farsi trovare al freddo. CISL FP Padova Rovigo.",
+      "parole": 41,
+      "durata_stimata_s": 16.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

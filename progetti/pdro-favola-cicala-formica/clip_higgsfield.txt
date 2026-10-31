@@ -1,0 +1,3 @@
+cicala S01 fv_cicala_estate eb5580cc-66a0-4218-b338-04856289e7eb (rifatta: la prima, 42c648a8-…, a metà diventava una cicala di cartone animato)
+cicala S03 fv_cicala_inverno 2b383ce3-a0ed-4633-ad6f-b13a6d820028
+cicala S05 fv_formicaio 1af15622-dd6c-4b20-a697-605bc42e8e70

@@ -13,10 +13,11 @@ QUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(QUI)); sys.path.insert(0, os.path.join(os.path.dirname(QUI), 'chicedomani'))
 from voci import blocchi, scrivi, PR  # noqa: E402
 
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica'}   # anche le «Favole del sindacato»
 WARD, ACHILLE = 'e4bd8d8a357f41a99502309874733c16', '9b851842ce54449fb9ff501751ca0271'
 
 if __name__ == '__main__':
-    cosa, v = sys.argv[1], sys.argv[2]; PG = f'pdro-halloween-{v}'
+    cosa, v = sys.argv[1], sys.argv[2]; PG = CARTELLE.get(v, f'pdro-halloween-{v}')
     testi = sorted(glob.glob(f'{PR}/{PG}/voce_testi/*.txt'))
     nar = [open(f).read().strip() for f in testi if 'narratore' in f]; ach = [open(f).read().strip() for f in testi if 'achille' in f]
     if cosa == 'genera':

@@ -1,0 +1,487 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"cicala",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"formica",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"formica+0.6",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "hl",
+"in": [
+"slideL",
+0.3,
+0.4
+]
+},
+{
+"p": "hr",
+"in": [
+"slideR",
+0.45,
+0.4
+]
+},
+{
+"p": "l1",
+"in": [
+"wipe",
+"cedolino",
+0.6
+]
+},
+{
+"p": "l2",
+"in": [
+"wipe",
+"bando",
+0.6
+]
+},
+{
+"p": "l3",
+"in": [
+"wipe",
+"sindacato",
+0.6
+]
+},
+{
+"p": "r1",
+"in": [
+"pop",
+"controllava",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"pop",
+"studiava",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"pop",
+"informava",
+0.35
+]
+},
+{
+"p": "l4",
+"in": [
+"wipe",
+"cantava",
+0.6
+]
+},
+{
+"p": "r4",
+"in": [
+"pop",
+"preparava",
+0.35
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.03,
+540,
+1000
+]
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"arrivo",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"linverno",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"bandi",
+1.4
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+"misteriose",
+0.6
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"porta",
+0.9
+]
+},
+{
+"p": "formiche",
+"in": [
+"slam",
+"lha",
+1.4
+]
+},
+{
+"p": "cerchio",
+"in": [
+"pop",
+"formicaio",
+0.5
+],
+"fx": [
+[
+"pulsa",
+"formicaio+0.5",
+1.0,
+0.05
+]
+]
+},
+{
+"p": "b1",
+"in": [
+"wipe",
+"soli",
+0.9
+]
+},
+{
+"p": "b2",
+"in": [
+"slam",
+"insieme",
+0.4
+],
+"fx": [
+[
+"bagliore",
+"insieme",
+1.2
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+12,
+1.04,
+540,
+900
+]
+]
+},
+"S05": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"wipe",
+"coperta",
+0.9
+]
+},
+{
+"p": "t2",
+"in": [
+"wipe",
+"caldo",
+0.9
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"qualcuno",
+1.4
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "p1",
+"in": [
+"slideL",
+0.4,
+0.35
+],
+"fx": [
+[
+"pulsa",
+"cedolino",
+0.8,
+0.05,
+"cedolino+1.6"
+]
+]
+},
+{
+"p": "p2",
+"in": [
+"slideL",
+0.5,
+0.35
+],
+"fx": [
+[
+"pulsa",
+"corsi",
+0.8,
+0.05,
+"corsi+1.6"
+]
+]
+},
+{
+"p": "p3",
+"in": [
+"slideL",
+0.6000000000000001,
+0.35
+],
+"fx": [
+[
+"pulsa",
+"assistenza",
+0.8,
+0.05,
+"assistenza+1.6"
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+900
+]
+]
+}
+}
