@@ -57,3 +57,21 @@ musica marimba e pizzicati 597cfa95. Uscite −16 LUFS, picco ≤ −0,4 dBFS.
 
 ## Da fare
 - OK di Achille → Robin sui 4 canali AOUP (pubblicazione entro il 31/10-1/11).
+
+## Versione 2 (31/10, sera): aloni e immagini sovrapposte (segnalazione di Achille)
+Achille: «ci sono aloni dove poi appaiono i testi e immagini sovrapposte». Corretto in tutti e quattro i reel.
+- **Aloni**: i pezzi che entrano più tardi lasciavano sul fondo il buco riempito, con dentro le ombre delle scritte (la
+  maschera «chiaro» prendeva solo le lettere) e l'alone di luce intorno a moneta, fantasmi e luci. Ora le scritte si
+  ritagliano con l'ombra (allargamento 16-28 px) e sui fondi a sfumatura con le stelle il buco si riempie con il nuovo
+  modo `righe` di ../strumenti/chicedomani/pezzi.py (30° percentile della stessa fascia di righe fuori dal buco):
+  moneta, tabella delle differenze e luci di Jack, i quattro fantasmi, titoli di SindaMatch. Campanelli del Turno a tinta
+  unita e accesi in 0,6 s. Nelle chiusure su foto (Fantasmi, Turno, SindaMatch) riquadro dei contatti subito e scritte
+  entro mezzo secondo, così la zona ritoccata della foto non si vede.
+- **Immagini sovrapposte**: in SindaMatch la clip nella card ora va avanti e torna indietro (finisce sul primo
+  fotogramma, uguale alla foto) e si passa alla foto ferma senza dissolvenza; «È UN MATCH!» entra di colpo su «subito»
+  quando la card è già uscita; sotto i timbri la foto è quella pulita del pacchetto (foto_card.py).
+- **Facebook**: i Reels accettano al massimo 90 s; Jack dura 1:44 e su Facebook esce come video normale (post 1129867).
+  SindaMatch (1:36) avrà lo stesso vincolo.
+- Robin: media sostituiti nei post 1129867 (Jack, 18:00) e 1129868 (Fantasmi, 21:00).
+- Nuovi asset HeyGen: Jack 18ee064cc0514eeea98551b42dc26b77 · Fantasmi 8e54627ca9a24436adb3fa6845377a8c ·
+  Il Turno f3313edff6264f04bacc72bfc18ff3b5 · SindaMatch eb3be6b2be5e45d6b6b9b9a5bb0dd7e4. Integri, −16 LUFS.

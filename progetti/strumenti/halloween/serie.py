@@ -40,7 +40,7 @@ def CH(id, x0, y0, x1, y1, soglia=150, allarga=10):
 def fantasma(base, titolo_x0=150, titolo_x1=930):
     """schema comune dei quattro fantasmi (S02-S05 dei Fantasmi del cedolino)."""
     return {'base': base, 'pezzi': [
-        C('chip', 45, 231, 1036, 372, 46, 'diffusione'), R('ghost', 285, 395, 805, 1035, 'diffusione'),
+        C('chip', 45, 231, 1036, 372, 46, 'diffusione'), R('ghost', 22, 374, 1058, 1062, 'righe'),
         R('titolo', titolo_x0, 1070, titolo_x1, 1195, 'diffusione'), R('desc', 31, 1207, 1050, 1330, 'diffusione'),
         C('box', 55, 1340, 1025, 1490, 24, 'diffusione')]}
 
@@ -51,28 +51,29 @@ EPISODI = {
             CH('t1', 240, 1170, 840, 1330, 100), CH('t2', 240, 1330, 840, 1505, 100), CH('sotto', 280, 1510, 800, 1610, 130, 8),
             CH('presenta', 330, 1830, 1060, 1895, 110, 3), *BANDE]},
         'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
-            R('titolo', 170, 230, 905, 360), R('moneta', 220, 440, 860, 1080, 'diffusione'),
-            R('promesse', 170, 1115, 905, 1238), R('tasche', 340, 1240, 725, 1358), R('spec', 255, 1390, 835, 1485)]},
+            R('titolo', 170, 230, 905, 360), R('moneta', 40, 372, 1040, 1104, 'righe'),
+            R('promesse', 150, 1108, 930, 1240, 'righe'), R('tasche', 320, 1240, 745, 1366, 'righe'),
+            R('spec', 235, 1383, 855, 1494, 'righe')]},
         'S03': {'base': 'grafiche/S03A.png', 'pezzi': [
             R('titolo', 230, 380, 860, 640, 'diffusione'),
             R('b1', 190, 690, 930, 800, 'diffusione'), R('b2', 190, 830, 930, 945, 'diffusione'),
             R('b3', 190, 965, 930, 1080, 'diffusione'), R('b4', 190, 1105, 930, 1225, 'diffusione'),
             {'id': 'timbro', 'm': ['rosso', 360, 1240, 975, 1505]}]},
         'S04': {'base': 'overlay_clip/S04A.png', 'pezzi': [
-            C('par', 80, 1172, 524, 1268, 46, 'diffusione'), C('inf', 556, 1172, 1000, 1268, 46, 'diffusione'),
+            C('par', 72, 1164, 532, 1276, 52, 'diffusione'), C('inf', 548, 1164, 1008, 1276, 52, 'diffusione'),
             CH('t1', 80, 1330, 900, 1430), CH('t2', 80, 1430, 840, 1528, 100), CH('sotto', 80, 1565, 900, 1630, 120, 8),
             *BANDE]},
         'S05': {'base': 'overlay_clip/S05A.png', 'pezzi': [
             CH('t1', 70, 1240, 880, 1335), CH('t2', 70, 1335, 760, 1430), CH('lui', 70, 1455, 330, 1600, 100), *BANDE]},
         'S06': {'base': 'grafiche/S06A.png', 'pezzi': [
-            R('titolo', 220, 225, 860, 355), C('hj', 52, 390, 530, 533, 22, 'diffusione'),
-            C('hc', 550, 390, 1032, 533, 22, 'diffusione'),
-            *[C(f'{l}{i}', x0, y0, x1, y1, 18, 'diffusione') for i, (y0, y1) in
+            R('titolo', 220, 225, 860, 355), C('hj', 46, 384, 536, 539, 24, 'righe'),
+            C('hc', 544, 384, 1038, 539, 24, 'righe'),
+            *[C(f'{l}{i}', x0 - 7, y0 - 6, x1 + 7, y1 + 6, 22, 'righe') for i, (y0, y1) in
               enumerate([(554, 715), (725, 885), (895, 1055), (1065, 1225), (1235, 1395)], 1)
               for l, x0, x1 in (('j', 58, 524), ('c', 555, 1025))]]},
         'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
-            CH('t1', 40, 250, 900, 358), CH('t2', 40, 358, 900, 470, 110), CH('dolc', 60, 485, 720, 572, 110, 8),
-            CH('connoi', 60, 572, 800, 660, 130, 8), R('luci', 80, 670, 1075, 1195, 'diffusione'),
+            CH('t1', 30, 240, 940, 360, 150, 18), CH('t2', 30, 360, 940, 476, 110, 18), CH('dolc', 40, 478, 760, 574, 110, 16),
+            CH('connoi', 40, 574, 840, 664, 130, 16), R('luci', 8, 640, 1072, 1235, 'righe'),
             C('box', 66, 1242, 564, 1505, 24, 'diffusione')]},
     },
     FA: {
@@ -84,15 +85,15 @@ EPISODI = {
         'S06': {'base': 'overlay_clip/S06A.png', 'pezzi': [
             CH('t1', 80, 1260, 700, 1345), CH('t2', 80, 1355, 960, 1445), CH('t3', 80, 1485, 760, 1575, 110, 8), *BANDE]},
         'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
-            CH('t1', 40, 250, 700, 365, 110), CH('t2', 40, 365, 700, 490), CH('p1', 60, 505, 720, 590, 130, 8),
-            CH('p2', 60, 590, 780, 670, 100, 8), C('box', 66, 755, 646, 1134, 26, 'diffusione')]},
+            CH('t1', 30, 240, 760, 368, 110, 18), CH('t2', 30, 368, 760, 496, 150, 18), CH('p1', 40, 496, 780, 592, 130, 18),
+            CH('p2', 40, 592, 820, 676, 100, 18), C('box', 66, 755, 646, 1134, 26, 'diffusione')]},
     },
     TR: {
         'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
             CH('presenta', 150, 1170, 930, 1232, 110, 3), CH('t1', 150, 1262, 930, 1345, 120, 6),
             CH('t2', 150, 1350, 930, 1440, 120, 6), *BANDE]},
         'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
-            *[{'id': f'c{i * 5 + j + 1}', 'm': ['cerchio', x, y, 50]} for i, y in enumerate((380, 500, 620, 740, 860, 980))
+            *[{'id': f'c{i * 5 + j + 1}', 'riempi': 'tinta', 'm': ['cerchio', x, y, 58]} for i, y in enumerate((380, 500, 620, 740, 860, 980))
               for j, x in enumerate((170, 340, 510, 680, 850))],
             R('t1', 150, 1170, 930, 1300), R('t2', 150, 1320, 930, 1450)]},
         'S03': {'base': 'grafiche/S03A.png', 'pezzi': [
@@ -115,14 +116,14 @@ EPISODI = {
             CH('t2', 150, 470, 930, 575, 110, 6), CH('p1', 120, 1468, 960, 1532, 140, 5),
             CH('p2', 120, 1538, 960, 1602, 140, 5), CH('p3', 120, 1622, 960, 1702, 100, 5)]},
         'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
-            CH('t1', 40, 265, 1000, 378, 140), CH('t2', 40, 382, 1000, 485, 110), CH('r1', 60, 498, 900, 582, 130, 8),
-            CH('r2', 60, 585, 900, 660, 100, 8), C('box', 60, 752, 640, 1068, 24, 'diffusione')]},
+            CH('t1', 30, 255, 1040, 380, 140, 20), CH('t2', 30, 380, 1040, 492, 110, 20), CH('r1', 40, 492, 940, 584, 130, 18),
+            CH('r2', 40, 584, 940, 668, 100, 18), C('box', 60, 752, 640, 1068, 24, 'diffusione')]},
     },
     SM: {
         'S01': {'base': 'grafiche/S01A.png', 'pezzi': [
-            CH('cuore', 260, 500, 820, 1000, 100, 6), CH('titolo', 120, 975, 960, 1095, 130, 6),
-            CH('edition', 200, 1105, 880, 1195, 110, 6), CH('s1', 150, 1290, 930, 1372, 120, 6),
-            CH('s2', 150, 1378, 930, 1455, 120, 6), CH('s3', 120, 1498, 960, 1565, 110, 4)]},
+            CH('cuore', 250, 490, 830, 968, 100, 10), CH('titolo', 80, 962, 1000, 1104, 130, 28),
+            CH('edition', 160, 1100, 920, 1206, 110, 28), CH('s1', 90, 1278, 990, 1378, 120, 28),
+            CH('s2', 90, 1378, 990, 1470, 120, 28), CH('s3', 60, 1486, 1020, 1580, 110, 24)]},
         **{s: {'base': f'grafiche/{s}A.png', 'pezzi': [
             {'id': 'timbro', 'm': ['rosso', 520, 440, 1010, 900]}, C('card', 160, 428, 920, 1330, 30),
             C('no', 298, 1438, 452, 1594, 77), C('si', 616, 1438, 774, 1594, 77)]} for s in ('S02', 'S03', 'S04', 'S05')},
@@ -133,7 +134,7 @@ EPISODI = {
             {'id': 'match', 'src': 'grafiche/S06B.png', 'm': ['giallo', 250, 390, 830, 570]},
             {'id': 'cuoreB', 'src': 'grafiche/S06B.png', 'm': ['chiaro', 440, 1225, 640, 1365, 100, 4]}]},
         'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
-            CH('t1', 40, 270, 1000, 372, 150), CH('t2', 40, 375, 1040, 472, 90), CH('t3', 40, 495, 1000, 590, 130, 8),
+            CH('t1', 30, 262, 1040, 375, 150, 18), CH('t2', 30, 375, 1050, 480, 90, 18), CH('t3', 30, 488, 1040, 598, 130, 18),
             C('box', 60, 750, 645, 1105, 24, 'diffusione')]},
     },
 }
@@ -166,10 +167,10 @@ def profilo(parola, uscita, bottone='no', via='strappa'):
     b[bottone]['fx'] = [['pulsa', parola, 0.4, 0.14, f'{parola}+1.2']]
     if bottone == 'si':
         for x in b.values():
-            x['out'] = ['fade', 'subito', 0.25]
+            x['out'] = ['fade', 'subito', 0.04]
     s = pieno([*b.values(), P('card', ['slideU', 0, 0.5], [via, uscita, 0.6], figli=[P('timbro', ['slam', parola, 0.3])])])
     if bottone == 'si':
-        s['strati'] += [P('eun', ['slam', 'subito', 0.35]), P('match', ['slam', 'match', 0.4], fx=[['bagliore', 'match', 1.0]]),
+        s['strati'] += [P('eun', ['slam', 'subito', 0.35]), P('match', ['slam', 'subito+0.15', 0.4], fx=[['bagliore', 'match', 1.0]]),
                         P('cuoreB', ['pop', 'match+0.2', 0.4], fx=[['pulsa', 'match+0.6', 0.6, 0.08]])]
         s['urti'] = ['subito']
     s['finestra'] = {'rect': [160, 430, 760, 898], 'da': 0.55, 'a': parola, 'sfuma': [530, 650], 'raggio': 30}
@@ -214,8 +215,8 @@ ANIM = {
         'S04': anim_fantasma('zombie', 'turni', 'controlla'),
         'S05': anim_fantasma('vampiro', 'voci', 'accende'),
         'S06': ov([P('t1', ['slam', 'aglio', 0.35]), P('t2', ['slam', 'santa', 0.35]), P('t3', ['wipe', 'evidenziatore', 1.0])]),
-        'S07': pieno([P('t1', ['slam', 'dolcetto', 0.35]), P('t2', ['slam', 'tu', 0.35]), P('p1', ['wipe', 'porta', 1.0]),
-                      P('p2', ['wipe', 'riga', 1.0]), P('box', ['pop', 0.6, 0.45], fx=[['pulsa', 'aspettiamo', 1.1, 0.04]])],
+        'S07': pieno([P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]), P('p1', ['wipe', 0.35, 0.4]),
+                      P('p2', ['wipe', 0.5, 0.4]), P('box', ['pop', 0.0, 0.25], fx=[['pulsa', 'aspettiamo', 1.1, 0.04]])],
                      camera=[[0, 1.0, 540, 960], [11, 1.04, 540, 900]]),
     },
     TR: {
@@ -223,7 +224,7 @@ ANIM = {
         'S01': ov([P('presenta', ['fade', 0.2, 0.6], fisso=True), P('t1', ['wipe', 'reparto', 1.0]),
                    P('t2', ['wipe', 'notte', 1.0])], 0.5),
         # i trenta campanelli si accendono a cascata e suonano sul telefono che squilla
-        'S02': pieno([*[P(f'c{i}', ['pop', round(0.1 + (i - 1) * 0.05, 2), 0.3],
+        'S02': pieno([*[P(f'c{i}', ['pop', round(0.05 + (i - 1) * 0.02, 2), 0.25],
                           fx=[['pulsa', 'squilla', 0.3, 0.14, 'coordinatore$']]) for i in range(1, 31)],
                       P('t1', ['slam', 'campanelli', 0.35]), P('t2', ['slam', 'oss', 0.35])],
                      camera=[[0, 1.0, 540, 960], [10, 1.04, 540, 900]], urti=['squilla']),
@@ -248,8 +249,8 @@ ANIM = {
         'S06': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
             P('badge', ['pop', 'seguito', 0.45]), P('t1', ['slam', 'due', 0.35]), P('t2', ['wipe', 'organici', 0.8]),
             P('p1', ['wipe', 'personale', 0.9]), P('p2', ['wipe', 'turni', 0.8]), P('p3', ['wipe', 'film', 1.0])]},
-        'S07': pieno([P('t1', ['slam', 0.2, 0.35]), P('t2', ['slam', 0.6, 0.35]), P('r1', ['wipe', 'raccontacelo', 0.9]),
-                      P('r2', ['wipe', 'portiamo', 0.9]), P('box', ['pop', 1.0, 0.45], fx=[['pulsa', 'paura', 1.1, 0.04]])],
+        'S07': pieno([P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]), P('r1', ['wipe', 0.35, 0.4]),
+                      P('r2', ['wipe', 0.5, 0.4]), P('box', ['pop', 0.0, 0.25], fx=[['pulsa', 'paura', 1.1, 0.04]])],
                      camera=[[0, 1.0, 540, 960], [14, 1.04, 540, 900]]),
     },
     SM: {
@@ -260,9 +261,9 @@ ANIM = {
         'S02': profilo('sinistra', 'volte'), 'S03': profilo('sinistra', 'sinistra$+0.2'),
         'S04': profilo('sinistra', 'croce'), 'S05': profilo('sinistra', 'avvolga'),
         # il LIKE e poi «È un match!» con i coriandoli (seconda grafica)
-        'S06': {**profilo('destra', 'destra$+0.1', 'si', 'su'), 'fondi': [['fondo', 0], ['fondoB', 'subito', 0.25]]},
-        'S07': pieno([P('t1', ['slam', 0.2, 0.35]), P('t2', ['slam', 0.6, 0.35]), P('t3', ['wipe', 'sede', 0.9]),
-                      P('box', ['pop', 1.0, 0.45], fx=[['pulsa', 'cedolino', 1.1, 0.04]])],
+        'S06': {**profilo('destra', 'destra$+0.1', 'si', 'su'), 'fondi': [['fondo', 0], ['fondoB', 'subito', 0.04]]},
+        'S07': pieno([P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]), P('t3', ['wipe', 0.35, 0.4]),
+                      P('box', ['pop', 0.0, 0.25], fx=[['pulsa', 'cedolino', 1.1, 0.04]])],
                      camera=[[0, 1.0, 540, 960], [15, 1.04, 540, 900]]),
     },
 }

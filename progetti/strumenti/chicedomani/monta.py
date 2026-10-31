@@ -68,11 +68,14 @@ def scena(t, g):
             k = max(0.0, 1 - (r - s0) / max(1, s1 - s0))
             m.paste(m.crop((0, r, w, r + 1)).point(lambda v, k=k: int(v * k)), (0, r))
         m.save(f'{LAV}/{sid}_maschera.png')
-        c = f"{D}/{fz['clip']}"; k = max(1.0, (a - da) / durata(c))
+        # avanti e indietro: all'istante «a» la clip torna al primo fotogramma, cioè alla foto ferma della grafica,
+        # e si passa alla foto senza dissolvenza (niente doppia immagine)
+        c = f"{D}/{fz['clip']}"; mezza = min(durata(c) - 0.05, (a - da) / 2); k = (a - da) / (2 * mezza)
         ff('-i', g, '-i', c, '-loop', '1', '-i', f'{LAV}/{sid}_maschera.png', '-filter_complex',
-           f"[1:v]setpts=PTS*{k:.4f}+{da}/TB,fps={FPS},scale={w}:-2:flags=lanczos,crop={w}:{h}:0:0,format=rgba[c];"
-           f"[2:v]format=gray,fps={FPS}[m];[c][m]alphamerge,fade=t=out:st={a - 0.1:.3f}:d=0.2:alpha=1[cm];"
-           f"[0:v][cm]overlay={x}:{y}:eof_action=pass:shortest=0:enable='between(t,{da},{a + 0.15:.3f})',format=yuv420p[v]",
+           f"[1:v]trim=0:{mezza:.3f},setpts=PTS-STARTPTS,fps={FPS},split[av][ind];[ind]reverse[rv];[av][rv]concat=n=2:v=1,"
+           f"setpts=PTS*{k:.4f}+{da}/TB,scale={w}:-2:flags=lanczos,crop={w}:{h}:0:0,format=rgba[c];"
+           f"[2:v]format=gray,fps={FPS}[m];[c][m]alphamerge[cm];"
+           f"[0:v][cm]overlay={x}:{y}:eof_action=pass:shortest=0:enable='between(t,{da},{a - 0.02:.3f})',format=yuv420p[v]",
            '-map', '[v]', '-frames:v', str(n), '-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', out)
     else:
         ff('-i', g, '-frames:v', str(n), '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', '-pix_fmt', 'yuv420p', out)

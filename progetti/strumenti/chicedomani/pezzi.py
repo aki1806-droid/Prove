@@ -13,6 +13,7 @@ Le coordinate sono in pixel della grafica (1080x1920 nei reel, 1920x1080 nei vid
   poly  [[x,y],...]                    poligono (cartelli e pagine ruotati)
   chiaro [x0,y0,x1,y1, soglia]         solo i pixel chiari nel rettangolo (scritte su foto), allargati
   rosso / verde / giallo [x0,y0,x1,y1] solo i pixel di quel colore (timbri, freccia, testimone)
+Riempimento del buco (riempi): diffusione, tinta, verticale, righe (mediana della riga fuori dal buco).
   alfa [x0,y0,x1,y1]                   alfa della grafica nel rettangolo (overlay trasparenti)
   cerchio [cx,cy,r]
 Un pezzo può venire da un'altra grafica (src) e può non bucare il fondo (buca: False).
@@ -172,7 +173,21 @@ def scena(ep, sid, sp):
             x0r, y0r, x1r, y1r = pz['m'][1:5]
             H = nd.binary_dilation(M, iterations=26); R = np.zeros_like(H); R[y0r:y1r, x0r:x1r] = True; H &= R
             cur[src] = riga(I, H); continue
-        if modo == 'tinta':
+        if modo == 'righe':
+            # fondi a sfumatura verticale (cielo con stelle, aloni): ogni riga del buco prende il colore mediano della
+            # stessa riga fuori dal buco e fuori dagli altri pezzi; niente macchie né aloni rimasti dal riempimento
+            altri = np.zeros_like(H)
+            for q in lista:
+                if q['_src'] == src:
+                    altri |= q['_M']
+            nuovo = I.copy(); fuori = ~nd.binary_dilation(altri | H, iterations=4)
+            # finestra di ±30 righe e 30° percentile: luci e stelle sul bordo (valori alti) non tingono la riga
+            for r in np.where(H.any(1))[0]:
+                r0, r1 = max(0, r - 30), r + 31
+                cam = I[r0:r1][fuori[r0:r1]]
+                nuovo[r, H[r]] = np.percentile(cam, 30, axis=0) if len(cam) else nuovo[r, H[r]]
+            cur[src] = nuovo
+        elif modo == 'tinta':
             cur[src] = tinta(I, H)
         elif modo == 'verticale':
             cur[src] = verticale(I, H)
