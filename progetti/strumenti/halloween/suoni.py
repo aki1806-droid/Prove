@@ -29,7 +29,29 @@ CAT = {'vento': ('sound_effects', 'wind howling night', 'dcc590846602e641'),
        'squittio': ('sound_effects', 'bats flapping wings', '71335c7139f13308'),
        'brontolio': ('sound_effects', 'zombie groan', '5a245b7f81501e0c'),
        'mus_jack': ('music', 'gothic fairy tale music box ironic', '39fec2eee49d4dc4bc5f3b60707b40c7'),
-       'mus_fantasmi': ('music', 'comic mysterious pizzicato halloween', '685f9059e4cf4904a712fa5318b42de8')}
+       'mus_fantasmi': ('music', 'comic mysterious pizzicato halloween', '685f9059e4cf4904a712fa5318b42de8'),
+       # Il Turno e SindaMatch
+       'braam': ('sound_effects', 'cinematic braam trailer hit', '6b74643ad8f504d5'),
+       'impatto': ('sound_effects', 'cinematic braam trailer hit', '06244e5719626722'),
+       'battito': ('sound_effects', 'heartbeat', '229f33e1a7b45c4a'),
+       'allarme': ('sound_effects', 'alarm bell ringing', '64bc0cce565b00cc'),
+       'squillo': ('sound_effects', 'alarm bell ringing', '214ec99fcf5cc0e7'),
+       'notifica': ('sound_effects', 'phone vibration notification', '9eddaec30faa56e8'),
+       'urlo': ('sound_effects', 'horror scream', 'a5ab155e6c92d869'),
+       'ringhio': ('sound_effects', 'monster growl', '826b34afc0761154'),
+       'swish': ('sound_effects', 'swipe swoosh', 'df8c73ce46972f98'),
+       'swipe': ('sound_effects', 'swipe swoosh', '8639f57528857966'),
+       'entra': ('sound_effects', 'swipe swoosh', 'f21dfc942d4165a2'),
+       'flash': ('sound_effects', 'camera shutter flash', '618e3c54f29b2c13'),
+       'timbro': ('sound_effects', 'stamp hit', 'ce323edc9d058371'),
+       'polvere': ('sound_effects', 'dust magic', '13eeab9e8d966740'),
+       'applauso': ('sound_effects', 'party confetti pop celebration', '380346728d423751'),
+       'pop': ('sound_effects', 'party confetti pop celebration', 'd9b59db7ed5ee90a'),
+       'mus_turno': ('music', 'dark horror suspense drone trailer', '3bebd3594c384a39a9e2bf667169d32f'),
+       'mus_turno2': ('music', 'upbeat happy feel good ukulele', 'd9757840300f4ddf8f16f139a037d78f'),
+       'mus_sindamatch': ('music', 'playful quirky comedy pizzicato', '597cfa95682f4eb8b044949749d29787')}
+# musica a tratti: (chiave, scena da cui parte); Il Turno passa dall'horror alla commedia sul sequel (S06)
+MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')]}
 # (scena, ancora, effetto, volume, durata massima o None)
 EVENTI = {
     'jack': [('S01', 0.0, 'vento', 0.35, 5.0), ('S01', 'chiamato$+0.1', 'campanella', 0.5, None), ('S01', 'furbo', 'colpo', 0.4, None),
@@ -48,8 +70,30 @@ EVENTI = {
                  ('S05', 'vampiro', 'squittio', 0.35, None), ('S05', 'vampiro+0.4', 'whoosh', 0.35, None),
                  ('S05', 'luce', 'clic', 0.6, None),
                  ('S06', 0.1, 'clic', 0.6, None), ('S06', 'aglio', 'colpo', 0.3, None), ('S06', 'spariscono', 'whoosh', 0.45, None),
-                 ('S07', 'aspettiamo', 'campanella', 0.3, None)]}
-NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16'}
+                 ('S07', 'aspettiamo', 'campanella', 0.3, None)],
+    'turno': [*[('S01', x, 'battito', 0.45, None) for x in (0.0, 2.6, 5.2, 7.8)],
+              ('S01', 'in', 'braam', 0.55, 3.0), ('S01', 'dove#2', 'braam', 0.55, 3.0), ('S01', 'una', 'braam', 0.6, 3.0),
+              *[('S02', round(0.1 + i * 0.25, 2), 'ding', 0.18, None) for i in range(7)],
+              ('S02', 'campanelli', 'allarme', 0.35, None), ('S02', 'oss', 'allarme', 0.4, None),
+              ('S02', 'squilla', 'squillo', 0.45, 2.0), ('S02', 'coordinatore', 'braam', 0.6, 3.0),
+              ('S03', 0.0, 'notifica', 0.5, None), ('S03', 'piu', 'urlo', 0.55, 0.5), ('S03', 'spariscono', 'braam', 0.5, 3.0),
+              ('S04', 'turno', 'impatto', 0.7, 3.0), ('S04', 'critica', 'swish', 0.4, None), ('S04', 'unanime', 'swish', 0.4, None),
+              ('S04', 'terrificante', 'swish', 0.4, None), ('S04', 'vera', 'braam', 0.55, 3.0),
+              ('S05', 'mostri', 'ringhio', 0.5, 3.0), *[('S05', w, 'timbro', 0.35, None) for w in ('carenze', 'doppi', 'riposi', 'aggressioni')],
+              ('S05', 'spariscono', 'braam', 0.5, 3.0),
+              ('S06', 'seguito', 'chime', 0.4, None), ('S06', 'due', 'tadan', 0.3, 1.2), ('S06', 'film', 'campanella', 0.35, None),
+              ('S07', 'paura', 'chime', 0.35, None), ('S07', 'noi', 'campanella', 0.3, None)],
+    'sindamatch': [('S01', 0.1, 'pop', 0.4, None), ('S01', 'sindamatch', 'ding', 0.45, None), ('S01', 'attenzione', 'tonfo', 0.4, None),
+                   *[x for s, w, fuori in (('S02', 'sinistra', 'volte'), ('S03', 'sinistra', 'sinistra'), ('S04', 'sinistra', 'croce'),
+                                           ('S05', 'sinistra', 'avvolga'))
+                     for x in ((s, 0.0, 'entra', 0.35, None), (s, w, 'timbro', 0.5, None), (s, fuori + ('$+0.2' if fuori == w else ''), 'swipe', 0.45, None))],
+                   ('S03', 'buuu', 'whoosh', 0.45, None), ('S04', 'selfie', 'flash', 0.45, None), ('S04', 'fotografare', 'flash', 0.45, None),
+                   ('S04', 'sinistra', 'squittio', 0.3, None), ('S05', 'mummia', 'polvere', 0.3, 2.0),
+                   ('S06', 0.0, 'entra', 0.35, None), ('S06', 'destra', 'timbro', 0.5, None), ('S06', 'destra', 'chime', 0.4, None),
+                   ('S06', 'ed', 'applauso', 0.45, None), ('S06', 'match', 'pop', 0.5, None), ('S06', 'match', 'tadan', 0.3, 1.2),
+                   ('S07', 'appuntamento', 'chime', 0.35, None), ('S07', 'cedolino', 'campanella', 0.3, None)]}
+NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
+        'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16'}
 MUSICA_VOL = 0.13
 
 
@@ -76,7 +120,7 @@ def scarica(D):
         f = f'{D}/audio/sfx/{k}.mp3'
         if os.path.exists(f):
             continue
-        r = chiama('GET', '/v3/audio/sounds?' + urllib.parse.urlencode({'type': tipo, 'query': q, 'limit': 10, 'min_score': 0.4}))
+        r = chiama('GET', '/v3/audio/sounds?' + urllib.parse.urlencode({'type': tipo, 'query': q, 'limit': 12, 'min_score': 0.3}))
         s = next(x for x in (r if isinstance(r, list) else r.get('sounds') or []) if x['id'] == sid)
         subprocess.run(['curl', '-sS', '-L', '-o', f + '.tmp', s['audio_url']], check=True)
         subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f + '.tmp', '-ar', '48000', '-ac', '2', f], check=True); os.remove(f + '.tmp')
@@ -89,9 +133,17 @@ def mescola(v, D):
     parole = json.load(open(f'{D}/audio/parole.json'))
     tot = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{D}/{nome}_voce.mp4'],
                                capture_output=True, text=True).stdout)
-    ins = ['-i', f'{D}/{nome}_voce.mp4', '-stream_loop', '-1', '-i', f'{D}/audio/sfx/mus_{v}.mp3']
-    fil = [f'[1:a]atrim=0:{tot:.2f},volume={MUSICA_VOL},afade=t=in:d=1.5,afade=t=out:st={tot - 2.5:.2f}:d=2.5[mus]']; et = ['[mus]']
-    for i, (sid, a, k, vol, dmax) in enumerate(EVENTI[v], 2):
+    ins = ['-i', f'{D}/{nome}_voce.mp4']; fil = []; et = []
+    tratti = MUSICHE.get(v, [(f'mus_{v}', None)])
+    for j, (k, sid) in enumerate(tratti):
+        t0 = tempi[sid]['inizio'] if sid else 0.0
+        t1 = tempi[tratti[j + 1][1]]['inizio'] if j + 1 < len(tratti) else tot
+        d, ms = t1 - t0, round(t0 * 1000)
+        ins += ['-stream_loop', '-1', '-i', f'{D}/audio/sfx/{k}.mp3']
+        fin = f',afade=t=out:st={d - 2.5:.2f}:d=2.5' if j + 1 == len(tratti) else f',afade=t=out:st={d - 0.15:.2f}:d=0.15'
+        fil.append(f'[{j + 1}:a]atrim=0:{d:.2f},volume={MUSICA_VOL},afade=t=in:d={1.5 if j == 0 else 0.05}{fin},'
+                   f'adelay={ms}|{ms}[mus{j}]'); et.append(f'[mus{j}]')
+    for i, (sid, a, k, vol, dmax) in enumerate(EVENTI[v], len(tratti) + 1):
         t = tempi[sid]['inizio'] + ancora(a, parole.get(sid, []))
         ins += ['-i', f'{D}/audio/sfx/{k}.mp3']
         cod = f',atrim=0:{dmax},afade=t=out:st={max(0, dmax - 0.6)}:d=0.6' if dmax else ''

@@ -21,6 +21,7 @@ from serie import P  # noqa: E402
 
 PR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 JK, FA = 'pdro-halloween-jack', 'pdro-halloween-fantasmi'
+TR, SM = 'pdro-halloween-turno', 'pdro-halloween-sindamatch'
 BANDE = [{'id': 'banda_su', 'm': ['rect', 0, 0, 1080, 117]}, {'id': 'banda_giu', 'm': ['rect', 0, 1810, 1080, 1920]}]
 
 
@@ -86,6 +87,55 @@ EPISODI = {
             CH('t1', 40, 250, 700, 365, 110), CH('t2', 40, 365, 700, 490), CH('p1', 60, 505, 720, 590, 130, 8),
             CH('p2', 60, 590, 780, 670, 100, 8), C('box', 66, 755, 646, 1134, 26, 'diffusione')]},
     },
+    TR: {
+        'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
+            CH('presenta', 150, 1170, 930, 1232, 110, 3), CH('t1', 150, 1262, 930, 1345, 120, 6),
+            CH('t2', 150, 1350, 930, 1440, 120, 6), *BANDE]},
+        'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
+            *[{'id': f'c{i * 5 + j + 1}', 'm': ['cerchio', x, y, 50]} for i, y in enumerate((380, 500, 620, 740, 860, 980))
+              for j, x in enumerate((170, 340, 510, 680, 850))],
+            R('t1', 150, 1170, 930, 1300), R('t2', 150, 1320, 930, 1450)]},
+        'S03': {'base': 'grafiche/S03A.png', 'pezzi': [
+            R('t1', 150, 1430, 930, 1535), R('t2', 150, 1555, 930, 1665),
+            C('dots', 578, 826, 790, 903, 30, 'diffusione'), C('msg', 284, 553, 790, 800, 26, 'diffusione'),
+            C('tel', 222, 328, 848, 1356, 50, 'diffusione')]},
+        'S04': {'base': 'grafiche/S04A.png', 'pezzi': [
+            CH('r1', 60, 200, 350, 370, 120, 5), CH('r2', 360, 200, 690, 370, 120, 5), CH('r3', 690, 200, 1060, 370, 120, 5),
+            {'id': 'titolo', 'm': ['rosso', 130, 1320, 950, 1545]},
+            CH('basato', 150, 1568, 930, 1630, 140, 5), CH('ogni', 150, 1635, 930, 1690, 110, 4)]},
+        'S05': {'base': 'grafiche/S05A.png', 'pezzi': [
+            R('titolo', 150, 240, 930, 355), R('sotto', 150, 365, 930, 445),
+            *[{'id': f'o{i}', 'm': ['giallo', 95, y0 + 20, 235, y1 - 20]} for i, (y0, y1) in
+              enumerate([(546, 706), (744, 908), (943, 1107), (1141, 1305)], 1)],
+            *[C(f'm{i}', 54, y0 - 6, 1018, y1 + 6, 22, 'tinta') for i, (y0, y1) in
+              enumerate([(546, 706), (744, 908), (943, 1107), (1141, 1305)], 1)],
+            R('fine', 150, 1385, 930, 1470)]},
+        'S06': {'base': 'overlay_clip/S06A.png', 'pezzi': [
+            {'id': 'badge', 'm': ['giallo', 270, 225, 810, 300]}, CH('t1', 120, 340, 960, 455, 140, 6),
+            CH('t2', 150, 470, 930, 575, 110, 6), CH('p1', 120, 1468, 960, 1532, 140, 5),
+            CH('p2', 120, 1538, 960, 1602, 140, 5), CH('p3', 120, 1622, 960, 1702, 100, 5)]},
+        'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
+            CH('t1', 40, 265, 1000, 378, 140), CH('t2', 40, 382, 1000, 485, 110), CH('r1', 60, 498, 900, 582, 130, 8),
+            CH('r2', 60, 585, 900, 660, 100, 8), C('box', 60, 752, 640, 1068, 24, 'diffusione')]},
+    },
+    SM: {
+        'S01': {'base': 'grafiche/S01A.png', 'pezzi': [
+            CH('cuore', 260, 500, 820, 1000, 100, 6), CH('titolo', 120, 975, 960, 1095, 130, 6),
+            CH('edition', 200, 1105, 880, 1195, 110, 6), CH('s1', 150, 1290, 930, 1372, 120, 6),
+            CH('s2', 150, 1378, 930, 1455, 120, 6), CH('s3', 120, 1498, 960, 1565, 110, 4)]},
+        **{s: {'base': f'grafiche/{s}A.png', 'pezzi': [
+            {'id': 'timbro', 'm': ['rosso', 520, 440, 1010, 900]}, C('card', 160, 428, 920, 1330, 30),
+            C('no', 298, 1438, 452, 1594, 77), C('si', 616, 1438, 774, 1594, 77)]} for s in ('S02', 'S03', 'S04', 'S05')},
+        'S06': {'base': 'grafiche/S06A.png', 'fondi': {'fondo': 'grafiche/S06A.png', 'fondoB': 'grafiche/S06B.png'}, 'pezzi': [
+            {'id': 'timbro', 'm': ['verde', 160, 440, 760, 870]}, C('card', 160, 428, 920, 1330, 30),
+            C('no', 298, 1438, 452, 1594, 77), C('si', 616, 1438, 774, 1594, 77),
+            {'id': 'eun', 'src': 'grafiche/S06B.png', 'm': ['chiaro', 250, 280, 830, 380, 200, 5]},
+            {'id': 'match', 'src': 'grafiche/S06B.png', 'm': ['giallo', 250, 390, 830, 570]},
+            {'id': 'cuoreB', 'src': 'grafiche/S06B.png', 'm': ['chiaro', 440, 1225, 640, 1365, 100, 4]}]},
+        'S07': {'base': 'grafiche/S07A.png', 'pezzi': [
+            CH('t1', 40, 270, 1000, 372, 150), CH('t2', 40, 375, 1040, 472, 90), CH('t3', 40, 495, 1000, 590, 130, 8),
+            C('box', 60, 750, 645, 1105, 24, 'diffusione')]},
+    },
 }
 
 
@@ -107,6 +157,23 @@ def anim_fantasma(nome, desc, box):
     return pieno([P('chip', ['slam', 0.15, 0.3]), P('ghost', ['pop', 'numero', 0.5], fx=[['ondeggia', 2.4, 4]]),
                   P('titolo', ['drop', nome, 0.35]), P('desc', ['wipe', desc, 1.0]), P('box', ['slideL', box, 0.45])],
                  camera=[[0, 1.0, 540, 960], [12, 1.03, 540, 900]])
+
+
+def profilo(parola, uscita, bottone='no', via='strappa'):
+    """SindaMatch S02-S06: la card sale, sulla parola il timbro (NOPE o LIKE) e il bottone pulsa, poi la card vola via.
+    La foto della card è viva: la clip Kling ci passa sopra fino al timbro (finestra, montata da ../chicedomani/monta.py)."""
+    b = {'no': P('no', ['pop', 0.2, 0.4]), 'si': P('si', ['pop', 0.3, 0.4])}
+    b[bottone]['fx'] = [['pulsa', parola, 0.4, 0.14, f'{parola}+1.2']]
+    if bottone == 'si':
+        for x in b.values():
+            x['out'] = ['fade', 'subito', 0.25]
+    s = pieno([*b.values(), P('card', ['slideU', 0, 0.5], [via, uscita, 0.6], figli=[P('timbro', ['slam', parola, 0.3])])])
+    if bottone == 'si':
+        s['strati'] += [P('eun', ['slam', 'subito', 0.35]), P('match', ['slam', 'match', 0.4], fx=[['bagliore', 'match', 1.0]]),
+                        P('cuoreB', ['pop', 'match+0.2', 0.4], fx=[['pulsa', 'match+0.6', 0.6, 0.08]])]
+        s['urti'] = ['subito']
+    s['finestra'] = {'rect': [160, 430, 760, 898], 'da': 0.55, 'a': parola, 'sfuma': [530, 650], 'raggio': 30}
+    return s
 
 
 ANIM = {
@@ -151,6 +218,53 @@ ANIM = {
                       P('p2', ['wipe', 'riga', 1.0]), P('box', ['pop', 0.6, 0.45], fx=[['pulsa', 'aspettiamo', 1.1, 0.04]])],
                      camera=[[0, 1.0, 540, 960], [11, 1.04, 540, 900]]),
     },
+    TR: {
+        # trailer: il cartello «una produzione» e le due righe sul corridoio animato
+        'S01': ov([P('presenta', ['fade', 0.2, 0.6], fisso=True), P('t1', ['wipe', 'reparto', 1.0]),
+                   P('t2', ['wipe', 'notte', 1.0])], 0.5),
+        # i trenta campanelli si accendono a cascata e suonano sul telefono che squilla
+        'S02': pieno([*[P(f'c{i}', ['pop', round(0.1 + (i - 1) * 0.05, 2), 0.3],
+                          fx=[['pulsa', 'squilla', 0.3, 0.14, 'coordinatore$']]) for i in range(1, 31)],
+                      P('t1', ['slam', 'campanelli', 0.35]), P('t2', ['slam', 'oss', 0.35])],
+                     camera=[[0, 1.0, 540, 960], [10, 1.04, 540, 900]], urti=['squilla']),
+        # il messaggio del coordinatore col telefono che vibra; l'urlo tagliato su «più»
+        'S03': pieno([P('tel', ['slideU', 0, 0.45], fx=[['trema', 0.45, 1.1, 9]], figli=[
+                          P('msg', ['pop', 'puoi', 0.4]),
+                          P('dots', ['pop', 'mattina$+0.2', 0.3], fx=[['lampeggia', 'mattina$+0.5', 'rispetti$', 0.5]])]),
+                      P('t1', ['slam', 'giorno', 0.35]), P('t2', ['slam', 'riposo', 0.35])],
+                     camera=[[0, 1.0, 540, 960], [10, 1.05, 540, 900]], urti=['piu']),
+        # la locandina: le recensioni scorrono, il titolo gocciola dall'alto
+        'S04': pieno([P('titolo', ['wipeD', 'turno', 1.1], fx=[['bagliore', 'turno', 1.0]]),
+                      P('r1', ['slideR', 'critica', 0.45]), P('r2', ['slideR', 'unanime', 0.45]),
+                      P('r3', ['slideR', 'terrificante', 0.45]), P('basato', ['wipe', 'basato', 0.9]),
+                      P('ogni', ['fade', 'vera', 0.6])],
+                     camera=[[0, 1.06, 540, 1000], [3, 1.0, 540, 960], [11, 1.03, 540, 1000]], urti=['turno']),
+        # i quattro mostri: ogni riga entra e gli occhi gialli si aprono
+        'S05': pieno([P('titolo', ['slam', 'mostri', 0.35]), P('sotto', ['wipe', 'zanne', 0.8]),
+                      *[P(f'm{i}', ['slideL', w, 0.45], figli=[P(f'o{i}', ['apri', f'{w}+0.45', 0.3])])
+                        for i, w in enumerate(('carenze', 'doppi', 'riposi', 'aggressioni'), 1)],
+                      P('fine', ['wipe', 'spariscono', 1.0])], urti=['aggressioni+0.4']),
+        # il sequel: luce piena, PROSSIMAMENTE e il nuovo titolo
+        'S06': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
+            P('badge', ['pop', 'seguito', 0.45]), P('t1', ['slam', 'due', 0.35]), P('t2', ['wipe', 'organici', 0.8]),
+            P('p1', ['wipe', 'personale', 0.9]), P('p2', ['wipe', 'turni', 0.8]), P('p3', ['wipe', 'film', 1.0])]},
+        'S07': pieno([P('t1', ['slam', 0.2, 0.35]), P('t2', ['slam', 0.6, 0.35]), P('r1', ['wipe', 'raccontacelo', 0.9]),
+                      P('r2', ['wipe', 'portiamo', 0.9]), P('box', ['pop', 1.0, 0.45], fx=[['pulsa', 'paura', 1.1, 0.04]])],
+                     camera=[[0, 1.0, 540, 960], [14, 1.04, 540, 900]]),
+    },
+    SM: {
+        'S01': pieno([P('cuore', ['pop', 0.1, 0.5], fx=[['pulsa', 0.6, 0.8, 0.06]]), P('titolo', ['slam', 'sindamatch', 0.35]),
+                      P('edition', ['slam', 'sindamatch+0.5', 0.35]), P('s1', ['wipe', 'scegli', 0.9]),
+                      P('s2', ['wipe', 'prossimi', 0.9]), P('s3', ['fade', 'attenzione', 0.6])],
+                     camera=[[0, 1.0, 540, 960], [13, 1.04, 540, 960]]),
+        'S02': profilo('sinistra', 'volte'), 'S03': profilo('sinistra', 'sinistra$+0.2'),
+        'S04': profilo('sinistra', 'croce'), 'S05': profilo('sinistra', 'avvolga'),
+        # il LIKE e poi «È un match!» con i coriandoli (seconda grafica)
+        'S06': {**profilo('destra', 'destra$+0.1', 'si', 'su'), 'fondi': [['fondo', 0], ['fondoB', 'subito', 0.25]]},
+        'S07': pieno([P('t1', ['slam', 0.2, 0.35]), P('t2', ['slam', 0.6, 0.35]), P('t3', ['wipe', 'sede', 0.9]),
+                      P('box', ['pop', 1.0, 0.45], fx=[['pulsa', 'cedolino', 1.1, 0.04]])],
+                     camera=[[0, 1.0, 540, 960], [15, 1.04, 540, 900]]),
+    },
 }
 
 
@@ -158,5 +272,12 @@ if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():
         os.makedirs(f'{PR}/{pg}/grafica', exist_ok=True)
+        # la finestra della clip (SindaMatch) va in secondi: monta.py non legge le parole
+        for sid, sc in a.items():
+            if 'finestra' in sc:
+                from suoni import ancora
+                parole = json.load(open(f'{PR}/{pg}/audio/parole.json'))[sid]
+                sc['finestra'] = {**sc['finestra'], 'clip': f'clip_kling/{sid}.mp4',
+                                  'a': round(ancora(sc['finestra']['a'], parole), 3)}
         json.dump(a, open(f'{PR}/{pg}/grafica/anim.json', 'w'), ensure_ascii=False, indent=0)
         print(pg, list(a))

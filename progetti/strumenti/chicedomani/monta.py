@@ -58,6 +58,22 @@ def scena(t, g):
            f"scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,{GRADO}[c];"
            f"[c][1:v]overlay=0:0:format=auto,format=yuv420p[v]",
            '-map', '[v]', '-frames:v', str(n), '-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', out)
+    elif 'finestra' in ANIM[sid]:
+        # una clip viva dentro un riquadro della grafica (la foto della card di SindaMatch) fino al secondo «a»
+        fz = ANIM[sid]['finestra']; x, y, w, h = fz['rect']; da, a = fz['da'], fz['a']
+        from PIL import Image, ImageDraw
+        m = Image.new('L', (w, h), 0); ImageDraw.Draw(m).rounded_rectangle([0, 0, w - 1, h - 1], radius=fz.get('raggio', 0), fill=255)
+        s0, s1 = fz.get('sfuma', (h, h))
+        for r in range(s0, h):
+            k = max(0.0, 1 - (r - s0) / max(1, s1 - s0))
+            m.paste(m.crop((0, r, w, r + 1)).point(lambda v, k=k: int(v * k)), (0, r))
+        m.save(f'{LAV}/{sid}_maschera.png')
+        c = f"{D}/{fz['clip']}"; k = max(1.0, (a - da) / durata(c))
+        ff('-i', g, '-i', c, '-loop', '1', '-i', f'{LAV}/{sid}_maschera.png', '-filter_complex',
+           f"[1:v]setpts=PTS*{k:.4f}+{da}/TB,fps={FPS},scale={w}:-2:flags=lanczos,crop={w}:{h}:0:0,format=rgba[c];"
+           f"[2:v]format=gray,fps={FPS}[m];[c][m]alphamerge,fade=t=out:st={a - 0.1:.3f}:d=0.2:alpha=1[cm];"
+           f"[0:v][cm]overlay={x}:{y}:eof_action=pass:shortest=0:enable='between(t,{da},{a + 0.15:.3f})',format=yuv420p[v]",
+           '-map', '[v]', '-frames:v', str(n), '-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', out)
     else:
         ff('-i', g, '-frames:v', str(n), '-c:v', 'libx264', '-preset', 'medium', '-crf', '16', '-pix_fmt', 'yuv420p', out)
 

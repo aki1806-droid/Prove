@@ -1,0 +1,1027 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "presenta",
+"in": [
+"fade",
+0.2,
+0.6
+],
+"fisso": true
+},
+{
+"p": "t1",
+"in": [
+"wipe",
+"reparto",
+1.0
+]
+},
+{
+"p": "t2",
+"in": [
+"wipe",
+"notte",
+1.0
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "c1",
+"in": [
+"pop",
+0.1,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c2",
+"in": [
+"pop",
+0.15,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c3",
+"in": [
+"pop",
+0.2,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c4",
+"in": [
+"pop",
+0.25,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c5",
+"in": [
+"pop",
+0.3,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c6",
+"in": [
+"pop",
+0.35,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c7",
+"in": [
+"pop",
+0.4,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c8",
+"in": [
+"pop",
+0.45,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c9",
+"in": [
+"pop",
+0.5,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c10",
+"in": [
+"pop",
+0.55,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c11",
+"in": [
+"pop",
+0.6,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c12",
+"in": [
+"pop",
+0.65,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c13",
+"in": [
+"pop",
+0.7,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c14",
+"in": [
+"pop",
+0.75,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c15",
+"in": [
+"pop",
+0.8,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c16",
+"in": [
+"pop",
+0.85,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c17",
+"in": [
+"pop",
+0.9,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c18",
+"in": [
+"pop",
+0.95,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c19",
+"in": [
+"pop",
+1.0,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c20",
+"in": [
+"pop",
+1.05,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c21",
+"in": [
+"pop",
+1.1,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c22",
+"in": [
+"pop",
+1.15,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c23",
+"in": [
+"pop",
+1.2,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c24",
+"in": [
+"pop",
+1.25,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c25",
+"in": [
+"pop",
+1.3,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c26",
+"in": [
+"pop",
+1.35,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c27",
+"in": [
+"pop",
+1.4,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c28",
+"in": [
+"pop",
+1.45,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c29",
+"in": [
+"pop",
+1.5,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "c30",
+"in": [
+"pop",
+1.55,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"squilla",
+0.3,
+0.14,
+"coordinatore$"
+]
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"campanelli",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"oss",
+0.35
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+10,
+1.04,
+540,
+900
+]
+],
+"urti": [
+"squilla"
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "tel",
+"in": [
+"slideU",
+0,
+0.45
+],
+"fx": [
+[
+"trema",
+0.45,
+1.1,
+9
+]
+],
+"figli": [
+{
+"p": "msg",
+"in": [
+"pop",
+"puoi",
+0.4
+]
+},
+{
+"p": "dots",
+"in": [
+"pop",
+"mattina$+0.2",
+0.3
+],
+"fx": [
+[
+"lampeggia",
+"mattina$+0.5",
+"rispetti$",
+0.5
+]
+]
+}
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"giorno",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"riposo",
+0.35
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+10,
+1.05,
+540,
+900
+]
+],
+"urti": [
+"piu"
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"wipeD",
+"turno",
+1.1
+],
+"fx": [
+[
+"bagliore",
+"turno",
+1.0
+]
+]
+},
+{
+"p": "r1",
+"in": [
+"slideR",
+"critica",
+0.45
+]
+},
+{
+"p": "r2",
+"in": [
+"slideR",
+"unanime",
+0.45
+]
+},
+{
+"p": "r3",
+"in": [
+"slideR",
+"terrificante",
+0.45
+]
+},
+{
+"p": "basato",
+"in": [
+"wipe",
+"basato",
+0.9
+]
+},
+{
+"p": "ogni",
+"in": [
+"fade",
+"vera",
+0.6
+]
+}
+],
+"camera": [
+[
+0,
+1.06,
+540,
+1000
+],
+[
+3,
+1.0,
+540,
+960
+],
+[
+11,
+1.03,
+540,
+1000
+]
+],
+"urti": [
+"turno"
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+"mostri",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"zanne",
+0.8
+]
+},
+{
+"p": "m1",
+"in": [
+"slideL",
+"carenze",
+0.45
+],
+"figli": [
+{
+"p": "o1",
+"in": [
+"apri",
+"carenze+0.45",
+0.3
+]
+}
+]
+},
+{
+"p": "m2",
+"in": [
+"slideL",
+"doppi",
+0.45
+],
+"figli": [
+{
+"p": "o2",
+"in": [
+"apri",
+"doppi+0.45",
+0.3
+]
+}
+]
+},
+{
+"p": "m3",
+"in": [
+"slideL",
+"riposi",
+0.45
+],
+"figli": [
+{
+"p": "o3",
+"in": [
+"apri",
+"riposi+0.45",
+0.3
+]
+}
+]
+},
+{
+"p": "m4",
+"in": [
+"slideL",
+"aggressioni",
+0.45
+],
+"figli": [
+{
+"p": "o4",
+"in": [
+"apri",
+"aggressioni+0.45",
+0.3
+]
+}
+]
+},
+{
+"p": "fine",
+"in": [
+"wipe",
+"spariscono",
+1.0
+]
+}
+],
+"urti": [
+"aggressioni+0.4"
+]
+},
+"S06": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+"seguito",
+0.45
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"due",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"wipe",
+"organici",
+0.8
+]
+},
+{
+"p": "p1",
+"in": [
+"wipe",
+"personale",
+0.9
+]
+},
+{
+"p": "p2",
+"in": [
+"wipe",
+"turni",
+0.8
+]
+},
+{
+"p": "p3",
+"in": [
+"wipe",
+"film",
+1.0
+]
+}
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.2,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.6,
+0.35
+]
+},
+{
+"p": "r1",
+"in": [
+"wipe",
+"raccontacelo",
+0.9
+]
+},
+{
+"p": "r2",
+"in": [
+"wipe",
+"portiamo",
+0.9
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+1.0,
+0.45
+],
+"fx": [
+[
+"pulsa",
+"paura",
+1.1,
+0.04
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+900
+]
+]
+}
+}

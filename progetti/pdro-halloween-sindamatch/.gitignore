@@ -1,0 +1,12 @@
+# media fuori da git: uscite, voci tagliate, avatar, clip, montaggio, effetti
+*.mp4
+*.mov
+*.webm
+*.wav
+*.mp3
+montaggio/
+clip/
+avatar/*
+!avatar/video_id.txt
+audio/sfx/
+clip_kling/

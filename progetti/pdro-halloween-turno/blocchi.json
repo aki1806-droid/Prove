@@ -1,0 +1,152 @@
+{
+  "progetto": "PDRO_Halloween_Il_Turno_trailer",
+  "titolo": "Il Turno – trailer horror",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il trailer",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "tr_corridoio.png",
+      "voce": "In un reparto dove la notte non finisce mai. Dove il caffè è l'unica cosa che non manca. Una sola infermiera sta per affrontare l'incubo più grande della sua carriera.",
+      "parole": 30,
+      "durata_stimata_s": 11.5,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/tr_corridoio.png: le luci al neon sfarfallano, la sagoma dell'infermiera in fondo al corridoio accende la torcia, lento carrello in avanti.",
+      "regia": "Voce da trailer cinematografico, 'BRAAAM' di ottoni a ogni frase, battito cardiaco di sottofondo."
+    },
+    {
+      "n": 2,
+      "titolo": "Trenta campanelli",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Trenta campanelli. Una sola OSS. Due infermieri per un reparto intero. E poi, a fine turno, il telefono squilla. È il coordinatore.",
+      "parole": 22,
+      "durata_stimata_s": 9.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "I campanelli si accendono a cascata con un suono di allarme crescente; i titoli entrano a scatti."
+    },
+    {
+      "n": 3,
+      "titolo": "Il messaggio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Puoi rientrare domani mattina? Era il suo giorno di riposo. Ora non più. Perché in questa storia i riposi spariscono, come in ogni film dell'orrore che si rispetti.",
+      "parole": 28,
+      "durata_stimata_s": 11.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Notifica del messaggio con vibrazione; urlo da film horror tagliato di netto, poi silenzio."
+    },
+    {
+      "n": 4,
+      "titolo": "La locandina",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il turno. Il film che ha terrorizzato migliaia di operatori sanitari. La critica è unanime: terrificante. Purtroppo, basato su una storia vera.",
+      "parole": 22,
+      "durata_stimata_s": 9.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Locandina che appare con lampo di luce; le tre recensioni a cinque stelle scorrono; titolo IL TURNO che 'gocciola' rosso."
+    },
+    {
+      "n": 5,
+      "titolo": "I veri mostri",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Perché i veri mostri non hanno le zanne. Si chiamano carenze di organico, doppi turni, riposi saltati e aggressioni. E non spariscono a mezzanotte.",
+      "parole": 24,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "I quattro mostri compaiono uno alla volta con gli occhi gialli che si aprono; ringhio sordo."
+    },
+    {
+      "n": 6,
+      "titolo": "Il sequel",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "tr_sequel.png",
+      "voce": "Ma noi stiamo già scrivendo il seguito. Si chiama Il turno due: organici adeguati. Più personale, riposi rispettati, turni sostenibili. Un film che ha bisogno anche di te.",
+      "parole": 28,
+      "durata_stimata_s": 11.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/tr_sequel.png: la squadra in un reparto luminoso sorride e si avvicina alla camera, luce piena, atmosfera da commedia felice.",
+      "regia": "Cambio musicale netto: da horror a musica allegra; badge PROSSIMAMENTE."
+    },
+    {
+      "n": 7,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Il primo episodio è stato un horror. Il secondo vogliamo che sia un lieto fine. Se il tuo reparto vive questo film, raccontacelo: lo portiamo al tavolo con l'Azienda. CISL FP Padova Rovigo. Per i turni, niente paura: ci siamo noi.",
+      "parole": 41,
+      "durata_stimata_s": 14.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con nomi e numeri; avatar in basso a destra."
+    }
+  ]
+}

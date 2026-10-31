@@ -1,0 +1,7 @@
+turno S01 tr_corridoio c0440fa0-884f-4a51-8d27-6d80a02819fd
+turno S06 tr_sequel 264956d8-58d5-4711-b1c5-4d65d8677f97
+sindamatch S02 sm_jack 23cb0aca-5a56-42f5-9804-832f0d285488
+sindamatch S03 sm_ghost 11aa504c-4d37-418a-92c9-5d86f0337dc6
+sindamatch S04 sm_vamp d886f7d1-c04a-4fa2-8fe5-c85763a27e66
+sindamatch S05 sm_mummy 380adf34-081f-4bac-b7ef-0b9799656ee4
+sindamatch S06 sm_cisl a225e804-d2c8-45a5-85d5-1b42760b568e

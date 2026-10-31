@@ -1,0 +1,156 @@
+{
+  "progetto": "PDRO_Halloween_SindaMatch",
+  "titolo": "SindaMatch – Halloween edition",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "SindaMatch",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "È Halloween, e anche il sindacato ha la sua app di incontri: SindaMatch. Scorri i profili e scegli con chi passare i prossimi anni di lavoro. Ma attenzione: alcuni profili sono spaventosi davvero.",
+      "parole": 33,
+      "durata_stimata_s": 13.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Schermata di avvio dell'app con il cuore-zucca che pulsa; suono di notifica; titolo horror arancio."
+    },
+    {
+      "n": 2,
+      "titolo": "Profilo: Jack",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Primo profilo: Jack, trecentododici anni. Bio: prometto tutto, mantengo... vediamo. Specialità: annunci anticipati e date quasi certe. Scorri a sinistra, senza pensarci due volte.",
+      "parole": 24,
+      "durata_stimata_s": 12.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il profilo entra dal basso; sulla parola 'sinistra' la card vola via a sinistra e compare il timbro NOPE con un 'swoosh'."
+    },
+    {
+      "n": 3,
+      "titolo": "Profilo: il Fantasma",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Secondo profilo: il Fantasma, età sconosciuta. Bio: mi vedrai solo sotto le elezioni. Poi, buuu, sparisco fino alle prossime. Anche qui: a sinistra.",
+      "parole": 23,
+      "durata_stimata_s": 10.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Effetto dissolvenza del fantasma che appare e scompare; NOPE."
+    },
+    {
+      "n": 4,
+      "titolo": "Profilo: il Conte Selfie",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Terzo profilo: il Conte Selfie, seicento anni. Bio: vivo di like. Al tavolo mi faccio fotografare, poi torno nella bara fino al prossimo post. A sinistra, con la croce.",
+      "parole": 29,
+      "durata_stimata_s": 11.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Flash da selfie; NOPE con suono di pipistrello."
+    },
+    {
+      "n": 5,
+      "titolo": "Profilo: la Mummia",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Quarto profilo: la Mummia, tremila anni. Bio: si è sempre fatto così. Le novità? Le archivio. Le proposte? Le imbalsamo. Scorri a sinistra, prima che ti avvolga.",
+      "parole": 27,
+      "durata_stimata_s": 11.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Polvere che si alza dalla foto; NOPE."
+    },
+    {
+      "n": 6,
+      "titolo": "È un match",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "E poi, finalmente, lei. CISL FP Padova Rovigo. Presenti tutto l'anno. Cedolini controllati riga per riga. Trattative alla luce del sole. Date solo quando sono certe. Scorri a destra. Ed è subito match.",
+      "parole": 33,
+      "durata_stimata_s": 13.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S06B.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "A: profilo con timbro LIKE verde. B (su 'Ed è subito match'): esplosione di coriandoli e cuori, scritta È UN MATCH!"
+    },
+    {
+      "n": 7,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Questo Halloween, scegli bene con chi uscire... dal turno. Niente Jack, niente fantasmi, niente vampiri e niente mummie: noi ci siamo davvero, tutto l'anno. Il primo appuntamento? In sede, con il tuo cedolino. CISL FP Padova Rovigo.",
+      "parole": 37,
+      "durata_stimata_s": 14.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

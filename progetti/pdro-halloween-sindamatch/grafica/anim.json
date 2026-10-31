@@ -1,0 +1,580 @@
+{
+"S01": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "cuore",
+"in": [
+"pop",
+0.1,
+0.5
+],
+"fx": [
+[
+"pulsa",
+0.6,
+0.8,
+0.06
+]
+]
+},
+{
+"p": "titolo",
+"in": [
+"slam",
+"sindamatch",
+0.35
+]
+},
+{
+"p": "edition",
+"in": [
+"slam",
+"sindamatch+0.5",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"scegli",
+0.9
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+"prossimi",
+0.9
+]
+},
+{
+"p": "s3",
+"in": [
+"fade",
+"attenzione",
+0.6
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+13,
+1.04,
+540,
+960
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "no",
+"in": [
+"pop",
+0.2,
+0.4
+],
+"fx": [
+[
+"pulsa",
+"sinistra",
+0.4,
+0.14,
+"sinistra+1.2"
+]
+]
+},
+{
+"p": "si",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+0,
+0.5
+],
+"out": [
+"strappa",
+"volte",
+0.6
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"slam",
+"sinistra",
+0.3
+]
+}
+]
+}
+],
+"finestra": {
+"rect": [
+160,
+430,
+760,
+898
+],
+"da": 0.55,
+"a": 12.011,
+"sfuma": [
+530,
+650
+],
+"raggio": 30,
+"clip": "clip_kling/S02.mp4"
+}
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "no",
+"in": [
+"pop",
+0.2,
+0.4
+],
+"fx": [
+[
+"pulsa",
+"sinistra",
+0.4,
+0.14,
+"sinistra+1.2"
+]
+]
+},
+{
+"p": "si",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+0,
+0.5
+],
+"out": [
+"strappa",
+"sinistra$+0.2",
+0.6
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"slam",
+"sinistra",
+0.3
+]
+}
+]
+}
+],
+"finestra": {
+"rect": [
+160,
+430,
+760,
+898
+],
+"da": 0.55,
+"a": 10.975,
+"sfuma": [
+530,
+650
+],
+"raggio": 30,
+"clip": "clip_kling/S03.mp4"
+}
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "no",
+"in": [
+"pop",
+0.2,
+0.4
+],
+"fx": [
+[
+"pulsa",
+"sinistra",
+0.4,
+0.14,
+"sinistra+1.2"
+]
+]
+},
+{
+"p": "si",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+0,
+0.5
+],
+"out": [
+"strappa",
+"croce",
+0.6
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"slam",
+"sinistra",
+0.3
+]
+}
+]
+}
+],
+"finestra": {
+"rect": [
+160,
+430,
+760,
+898
+],
+"da": 0.55,
+"a": 10.607,
+"sfuma": [
+530,
+650
+],
+"raggio": 30,
+"clip": "clip_kling/S04.mp4"
+}
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "no",
+"in": [
+"pop",
+0.2,
+0.4
+],
+"fx": [
+[
+"pulsa",
+"sinistra",
+0.4,
+0.14,
+"sinistra+1.2"
+]
+]
+},
+{
+"p": "si",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+0,
+0.5
+],
+"out": [
+"strappa",
+"avvolga",
+0.6
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"slam",
+"sinistra",
+0.3
+]
+}
+]
+}
+],
+"finestra": {
+"rect": [
+160,
+430,
+760,
+898
+],
+"da": 0.55,
+"a": 9.876,
+"sfuma": [
+530,
+650
+],
+"raggio": 30,
+"clip": "clip_kling/S05.mp4"
+}
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+],
+[
+"fondoB",
+"subito",
+0.25
+]
+],
+"strati": [
+{
+"p": "no",
+"in": [
+"pop",
+0.2,
+0.4
+],
+"out": [
+"fade",
+"subito",
+0.25
+]
+},
+{
+"p": "si",
+"in": [
+"pop",
+0.3,
+0.4
+],
+"fx": [
+[
+"pulsa",
+"destra",
+0.4,
+0.14,
+"destra+1.2"
+]
+],
+"out": [
+"fade",
+"subito",
+0.25
+]
+},
+{
+"p": "card",
+"in": [
+"slideU",
+0,
+0.5
+],
+"out": [
+"su",
+"destra$+0.1",
+0.6
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"slam",
+"destra",
+0.3
+]
+}
+]
+},
+{
+"p": "eun",
+"in": [
+"slam",
+"subito",
+0.35
+]
+},
+{
+"p": "match",
+"in": [
+"slam",
+"match",
+0.4
+],
+"fx": [
+[
+"bagliore",
+"match",
+1.0
+]
+]
+},
+{
+"p": "cuoreB",
+"in": [
+"pop",
+"match+0.2",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"match+0.6",
+0.6,
+0.08
+]
+]
+}
+],
+"urti": [
+"subito"
+],
+"finestra": {
+"rect": [
+160,
+430,
+760,
+898
+],
+"da": 0.55,
+"a": 13.691,
+"sfuma": [
+530,
+650
+],
+"raggio": 30,
+"clip": "clip_kling/S06.mp4"
+}
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.2,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.6,
+0.35
+]
+},
+{
+"p": "t3",
+"in": [
+"wipe",
+"sede",
+0.9
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+1.0,
+0.45
+],
+"fx": [
+[
+"pulsa",
+"cedolino",
+1.1,
+0.04
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+900
+]
+]
+}
+}
