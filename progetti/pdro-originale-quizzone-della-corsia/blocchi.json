@@ -1,0 +1,133 @@
+{
+  "progetto": "PDRO_Originale_Quizzone_della_corsia",
+  "titolo": "Il Quizzone della corsia",
+  "serie": "Format originali",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il Quizzone della corsia",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "or_quiz.png",
+      "voce": "Benvenuti al Quizzone della corsia, il gioco in cui si vince conoscendo i propri diritti! La concorrente di stasera è un'infermiera, e ha l'aria di chi ha appena smontato dalla notte. Si parte!",
+      "parole": 33,
+      "durata_stimata_s": 13.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/or_quiz.png: luci dello studio che girano, il conduttore sorride al pubblico, la concorrente si sistema dietro il podio.",
+      "regia": "Sigla da quiz televisivo, applausi, luci stroboscopiche."
+    },
+    {
+      "n": 2,
+      "titolo": "Domanda 1",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Prima domanda: quante ore all'anno di permessi retribuiti per studio prevede il contratto della sanità? Cinquanta, cento, centocinquanta o trecento? Risposta esatta: centocinquanta! E in Azienda Ospedale Università la domanda va fatta entro l'undici novembre.",
+      "parole": 35,
+      "durata_stimata_s": 17.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Musica di suspense; la risposta C si illumina di verde con suono di vittoria."
+    },
+    {
+      "n": 3,
+      "titolo": "Domanda 2",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Seconda domanda: quante ore di riposo consecutivo spettano per legge ogni ventiquattro ore? Sei, undici, otto, oppure: dipende dal coordinatore? Risposta esatta: undici. La D non era una risposta. Era un incubo.",
+      "parole": 32,
+      "durata_stimata_s": 14.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Pubblico che ride sulla risposta D; risposta B verde."
+    },
+    {
+      "n": 4,
+      "titolo": "Domanda 3",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Domanda finale, la più difficile: chi può controllarti il cedolino, riga per riga? Il tuo gatto, l'oroscopo, la CISL FP per i suoi iscritti, o nessuno, perché è un mistero? Risposta esatta: la C!",
+      "parole": 34,
+      "durata_stimata_s": 13.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Rullo di tamburi; risposta C verde; coriandoli."
+    },
+    {
+      "n": 5,
+      "titolo": "Aiuto da casa",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "or_telefono.png",
+      "voce": "E se non sapete la risposta? Niente panico. Nel nostro quiz c'è sempre un aiuto da casa. Basta una telefonata.",
+      "parole": 20,
+      "durata_stimata_s": 7.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/or_telefono.png: la concorrente al telefono annuisce sollevata, il conduttore si accarezza il mento, faro su di lei.",
+      "regia": "Squillo di telefono; musica da attesa."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Nel quiz della vita lavorativa non ci sono domande facili, ma puoi giocare con un aiuto in più. Hai dubbi su ore, riposi, cedolino o permessi? Chiamaci: la risposta giusta te la diamo noi. CISL FP Padova Rovigo.",
+      "parole": 38,
+      "durata_stimata_s": 13.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

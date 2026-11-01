@@ -98,6 +98,7 @@ function stato(s, sid, t) {
       case 'drop': { const k = lerp(2.8, 1, eIn(p)); st.sx = st.sy = k; st.r = lerp(-14, 0, eIn(p)); st.a = cl(p * 4); break; }
       case 'tape': st.r = lerp(-7, 0, eBack(p)); st.sx = st.sy = lerp(1.15, 1, eOut(p)); st.dy = lerp(-50, 0, eOut(p)); st.a = cl(p * 4); break;
       case 'apri': st.sy = eOut(p); st.oy = 0; st.a = cl(p * 4); break;
+      case 'cresce': st.sy = eOut(p); st.oy = 1; st.a = cl(p * 6); break;
       case 'vola': st.dx = -1400 * (1 - eOut(p)); st.r = -30 * (1 - eOut(p)); break;
       case 'rotola': st.dx = 700 * (1 - eBack(p)); st.r = 20 * (1 - eOut(p)); break;
       case 'stampa': { const q = p * 7, e = (Math.floor(q) + eOut(q % 1)) / 7; st.dy = 1500 * (1 - cl(e)); break; }

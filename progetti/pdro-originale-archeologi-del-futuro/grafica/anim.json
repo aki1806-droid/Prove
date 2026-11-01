@@ -1,0 +1,337 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "anno",
+"in": [
+"slam",
+"anno",
+0.4
+],
+"fx": [
+[
+"bagliore",
+"anno",
+1.0
+]
+]
+},
+{
+"p": "t1",
+"in": [
+"wipe",
+"archeologi",
+0.8
+]
+},
+{
+"p": "t2",
+"in": [
+"wipe",
+"archeologi+0.5",
+0.8
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"scava",
+1.0
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "targhetta",
+"in": [
+"wipeD",
+"dispositivo",
+1.2
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+13,
+1.12,
+540,
+720
+]
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "targhetta",
+"in": [
+"wipeD",
+"zoccoli",
+1.2
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+12.8,
+1.16,
+540,
+700
+]
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"importante",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"tessera",
+0.35
+],
+"fx": [
+[
+"bagliore",
+"tessera",
+1.2
+]
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"possedeva",
+1.0
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+"solo",
+0.4
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.4,
+0.35
+]
+},
+{
+"p": "linea",
+"in": [
+"wipeD",
+0.7,
+2.4
+]
+},
+{
+"p": "e1",
+"in": [
+"wipe",
+"duemilaventisei",
+0.8
+]
+},
+{
+"p": "e2",
+"in": [
+"pop",
+"resto",
+0.35
+]
+},
+{
+"p": "e3",
+"in": [
+"pop",
+"storia",
+0.35
+]
+},
+{
+"p": "e4",
+"in": [
+"wipe",
+"scrivendo",
+1.2
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.47,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+900
+]
+]
+}
+}

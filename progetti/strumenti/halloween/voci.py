@@ -13,7 +13,7 @@ QUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(QUI)); sys.path.insert(0, os.path.join(os.path.dirname(QUI), 'chicedomani'))
 from voci import blocchi, scrivi, PR  # noqa: E402
 
-CARTELLE = {'cicala': 'pdro-favola-cicala-formica'}   # anche le «Favole del sindacato»
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro'}   # anche le «Favole del sindacato»
 WARD, ACHILLE = 'e4bd8d8a357f41a99502309874733c16', '9b851842ce54449fb9ff501751ca0271'
 
 if __name__ == '__main__':

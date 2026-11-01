@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Favola_Tre_Porcellini_e_il_Lupo",
+  "titolo": "I tre porcellini e il lupo delle riorganizzazioni",
+  "serie": "Le favole del sindacato",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\" (tono da narratore di fiabe, ironico)",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Tre porcellini in ospedale",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_porcellini.png",
+      "voce": "C'erano una volta tre porcellini che lavoravano nello stesso ospedale. Un giorno arrivò una voce, di corridoio in corridoio: sta arrivando il lupo. Il lupo delle riorganizzazioni.",
+      "parole": 27,
+      "durata_stimata_s": 12.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_porcellini.png: i tre porcellini lavorano alle loro case, quello dei mattoni stende la malta con cura, gli altri due già finito e si riposano.",
+      "regia": "Musica da fiaba; ululato lontano sulla parola 'lupo'."
+    },
+    {
+      "n": 2,
+      "titolo": "Tre case",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il primo costruì una casa di paglia: promesse a voce. Il secondo una casa di legno: annunci e accordi mai firmati. Il terzo, più paziente, usò i mattoni: contratti, accordi firmati, regole scritte.",
+      "parole": 33,
+      "durata_stimata_s": 13.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le tre case si costruiscono una alla volta: paglia veloce, legno un po' meno, mattoni pezzo per pezzo."
+    },
+    {
+      "n": 3,
+      "titolo": "Il lupo soffia",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_lupo.png",
+      "voce": "Arrivò il lupo, con la cravatta e una cartellina, e soffiò. Turni stravolti, trasferimenti improvvisi, servizi accorpati. La casa di paglia volò via al primo soffio. Quella di legno resistette un giorno. Forse due.",
+      "parole": 34,
+      "durata_stimata_s": 14.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_lupo.png: il lupo soffia con le guance gonfie, la paglia vola ovunque, il porcellino scappa.",
+      "regia": "Vento fortissimo comico; foglietti e paglia che volano sullo schermo."
+    },
+    {
+      "n": 4,
+      "titolo": "La casa di mattoni",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_mattoni.png",
+      "voce": "Poi il lupo arrivò alla casa di mattoni. Soffiò, soffiò, e soffiò ancora. Ma la casa restò in piedi. Perché dentro c'erano regole scritte, firmate, e qualcuno capace di farle rispettare.",
+      "parole": 31,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_mattoni.png: il lupo si siede stremato, si allenta la cravatta, i tre porcellini salutano dalla finestra.",
+      "regia": "Il lupo che ansima; risatina dei porcellini; musica trionfale leggera."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Le riorganizzazioni arrivano. Non sempre possiamo fermare il lupo, ma possiamo costruire case solide: regole scritte, confronto preventivo, accordi firmati. E quando il lupo soffia, ci trovi lì dentro, con te. CISL FP Padova Rovigo.",
+      "parole": 35,
+      "durata_stimata_s": 14.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Tre mattoni con le parole si impilano; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

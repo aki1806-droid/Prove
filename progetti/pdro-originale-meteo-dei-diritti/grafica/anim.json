@@ -1,0 +1,455 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "banda",
+"in": [
+"slideL",
+0.2,
+0.4
+],
+"fx": [
+[
+"lampeggia",
+0.6,
+2.0,
+0.5
+]
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"previsioni",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"corsia",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"settimana",
+1.0
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "z1",
+"in": [
+"pop",
+"soccorso",
+0.4
+],
+"fx": [
+[
+"trema",
+"temporali",
+"temporali+0.8",
+6
+]
+]
+},
+{
+"p": "z2",
+"in": [
+"pop",
+"chirurgie",
+0.4
+],
+"fx": [
+[
+"sposta",
+"nebbia",
+3.0,
+8,
+0
+]
+]
+},
+{
+"p": "z3",
+"in": [
+"pop",
+"grandinate",
+0.4
+],
+"fx": [
+[
+"trema",
+"grandinate+0.2",
+"grandinate+1.0",
+4
+]
+]
+},
+{
+"p": "z4",
+"in": [
+"pop",
+"ambulatori",
+0.4
+],
+"fx": [
+[
+"ondeggia",
+1.4,
+1.2
+]
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "banda",
+"in": [
+"slideL",
+0.0,
+0.35
+],
+"fx": [
+[
+"lampeggia",
+0.4,
+1.6,
+0.4
+]
+]
+},
+{
+"p": "fenomeno",
+"in": [
+"wipe",
+0.3,
+0.5
+]
+},
+{
+"p": "riquadro",
+"in": [
+"pop",
+0.5,
+0.4
+],
+"fx": [
+[
+"trema",
+"puoi",
+"domani$",
+7
+],
+[
+"pulsa",
+"puoi",
+0.6,
+0.05,
+"domani$+0.6"
+]
+]
+},
+{
+"p": "consiglio",
+"in": [
+"wipe",
+0.8,
+0.6
+]
+}
+],
+"urti": [
+"puoi"
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "nuvola",
+"in": [
+"slideL",
+0.0,
+0.5
+]
+},
+{
+"p": "sole",
+"in": [
+"risale",
+"schiarite",
+0.8
+],
+"fx": [
+[
+"ondeggia",
+6,
+8
+]
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"schiarite",
+0.4
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"nordest",
+0.35
+]
+},
+{
+"p": "c1",
+"in": [
+"pop",
+"corsi",
+0.35
+]
+},
+{
+"p": "c2",
+"in": [
+"pop",
+"cedolini",
+0.35
+]
+},
+{
+"p": "c3",
+"in": [
+"pop",
+"assistenza",
+0.35
+]
+},
+{
+"p": "pillola",
+"in": [
+"pop",
+"temperature",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"iscritti",
+0.6,
+0.06
+]
+]
+}
+]
+},
+"S05": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"wipe",
+"clima",
+0.8
+]
+},
+{
+"p": "t2",
+"in": [
+"wipe",
+"persone",
+0.9
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"periodo",
+0.8
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.35,
+0.4
+]
+},
+{
+"p": "ombrello",
+"in": [
+"zoom",
+0.45,
+0.5
+],
+"fx": [
+[
+"ondeggia",
+3,
+3
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+13,
+1.04,
+540,
+900
+]
+]
+}
+}

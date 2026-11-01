@@ -1,0 +1,350 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"porcellini",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"lupo#2",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"riorganizzazioni",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.4,
+0.35
+]
+},
+{
+"p": "h1",
+"in": [
+"risale",
+"paglia",
+0.3
+]
+},
+{
+"p": "l1",
+"in": [
+"pop",
+"paglia",
+0.3
+]
+},
+{
+"p": "d1",
+"in": [
+"wipe",
+"promesse",
+0.6
+]
+},
+{
+"p": "h2",
+"in": [
+"risale",
+"legno",
+0.8
+]
+},
+{
+"p": "l2",
+"in": [
+"pop",
+"legno",
+0.3
+]
+},
+{
+"p": "d2",
+"in": [
+"wipe",
+"annunci",
+0.8
+]
+},
+{
+"p": "h3",
+"in": [
+"stampa",
+"mattoni",
+1.6
+]
+},
+{
+"p": "l3",
+"in": [
+"pop",
+"mattoni+1.2",
+0.3
+]
+},
+{
+"p": "d3",
+"in": [
+"wipe",
+"contratti",
+0.9
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"stravolti",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"trasferimenti",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"servizi",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"soffio",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"soffio#2",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"dentro",
+1.4
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "m3",
+"in": [
+"drop",
+0.3,
+0.3
+]
+},
+{
+"p": "m2",
+"in": [
+"drop",
+0.45,
+0.3
+]
+},
+{
+"p": "m1",
+"in": [
+"drop",
+0.6,
+0.3
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+900
+]
+]
+}
+}

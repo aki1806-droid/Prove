@@ -13,6 +13,7 @@ Le coordinate sono in pixel della grafica (1080x1920 nei reel, 1920x1080 nei vid
   poly  [[x,y],...]                    poligono (cartelli e pagine ruotati)
   chiaro [x0,y0,x1,y1, soglia]         solo i pixel chiari nel rettangolo (scritte su foto), allargati
   rosso / verde / giallo [x0,y0,x1,y1] solo i pixel di quel colore (timbri, freccia, testimone)
+  scuro [x0,y0,x1,y1, soglia]          solo i pixel scuri (timbri neri su carta)
 Riempimento del buco (riempi): diffusione, tinta, verticale, righe (mediana della riga fuori dal buco).
   alfa [x0,y0,x1,y1]                   alfa della grafica nel rettangolo (overlay trasparenti)
   cerchio [cx,cy,r]
@@ -67,6 +68,10 @@ def maschera(img, m):
         elif tipo == 'giallo':
             M = R & (((r > 190) & (g > 140) & (b < 150)) | (lum > 200))
             M = nd.binary_closing(M, iterations=2); M = nd.binary_dilation(M, iterations=4)
+        elif tipo == 'scuro':
+            # timbri e scritte nere su carta chiara: i pixel sotto la soglia, chiusi e allargati
+            M = R & (lum < (a[4] if len(a) > 4 else 70)) & (al > 150)
+            M = nd.binary_closing(M, iterations=2); M = nd.binary_dilation(M, iterations=3)
         elif tipo == 'alfa':
             M = R & (al > (a[4] if len(a) > 4 else 8))
         M &= R

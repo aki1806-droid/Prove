@@ -1,0 +1,310 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"volpe",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"gatto",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"eleganti",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "cartello",
+"in": [
+"drop",
+0.05,
+0.5
+],
+"fx": [
+[
+"ondeggia",
+2.6,
+1.6
+]
+]
+},
+{
+"p": "garantito",
+"in": [
+"slam",
+"garantito",
+0.4
+]
+},
+{
+"p": "piuomeno",
+"in": [
+"fade",
+"meno+0.3",
+0.8
+]
+}
+],
+"urti": [
+"garantito+0.3"
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"albero",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"lombra",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"cartellino",
+1.6
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.4,
+0.35
+]
+},
+{
+"p": "t3",
+"in": [
+"wipe",
+"troverai#2",
+0.9
+]
+},
+{
+"p": "albero",
+"in": [
+"cresce",
+"magico",
+1.2
+]
+},
+{
+"p": "f3",
+"in": [
+"pop",
+"contratti",
+0.4
+]
+},
+{
+"p": "f2",
+"in": [
+"pop",
+"cedolini",
+0.4
+]
+},
+{
+"p": "f1",
+"in": [
+"pop",
+"tutela",
+0.4
+]
+},
+{
+"p": "f4",
+"in": [
+"pop",
+"corsi",
+0.4
+]
+},
+{
+"p": "f5",
+"in": [
+"pop",
+"assistenza",
+0.4
+]
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.47,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+900
+]
+]
+}
+}

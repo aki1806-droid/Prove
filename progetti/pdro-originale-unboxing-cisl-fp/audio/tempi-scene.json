@@ -1,0 +1,38 @@
+[
+ {
+  "id": "S01",
+  "tipo": "narratore",
+  "inizio": 0.0,
+  "durata": 12.445
+ },
+ {
+  "id": "S02",
+  "tipo": "narratore",
+  "inizio": 12.445,
+  "durata": 10.945
+ },
+ {
+  "id": "S03",
+  "tipo": "narratore",
+  "inizio": 23.39,
+  "durata": 14.322
+ },
+ {
+  "id": "S04",
+  "tipo": "narratore",
+  "inizio": 37.712,
+  "durata": 12.574
+ },
+ {
+  "id": "S05",
+  "tipo": "narratore",
+  "inizio": 50.286,
+  "durata": 12.7524
+ },
+ {
+  "id": "S06",
+  "tipo": "achille",
+  "inizio": 63.0384,
+  "durata": 12.7485
+ }
+]

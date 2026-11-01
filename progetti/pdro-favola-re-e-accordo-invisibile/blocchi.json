@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Favola_Re_e_accordo_invisibile",
+  "titolo": "Il Re e l'accordo invisibile",
+  "serie": "Le favole del sindacato",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\" (tono da narratore di fiabe, ironico)",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il Re degli annunci",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_re.png",
+      "voce": "C'era una volta un Re che amava gli annunci più di ogni altra cosa. Un giorno due abili sarti gli promisero un accordo straordinario: così straordinario che solo i più intelligenti sarebbero riusciti a vederlo.",
+      "parole": 35,
+      "durata_stimata_s": 14.5,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_re.png: il Re solleva le mani vuote con orgoglio, i due sarti si inchinano strizzando l'occhio, la corte applaude.",
+      "regia": "Fanfara di trombe; titolo dorato."
+    },
+    {
+      "n": 2,
+      "titolo": "Il proclama",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il Re lo annunciò a tutto il regno: risultato storico! Nessuno vedeva niente. Ma tutti applaudivano. Nessuno voleva essere l'unico a non capire.",
+      "parole": 23,
+      "durata_stimata_s": 9.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La pergamena si srotola; dentro c'è solo '(qui c'è scritto l'accordo)'; applausi registrati; timbro INVISIBILE."
+    },
+    {
+      "n": 3,
+      "titolo": "La parata",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "fv_parata.png",
+      "voce": "Durante la grande parata, una giovane OSS in prima fila alzò la mano e disse quello che tutti pensavano: scusate, ma l'accordo... dov'è? Silenzio. Poi una risata. Poi il regno intero.",
+      "parole": 31,
+      "durata_stimata_s": 12.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/fv_parata.png: la giovane OSS indica il Re e ride, la gente intorno comincia a ridere, il Re si blocca con le mani a mezz'aria.",
+      "regia": "La musica si interrompe di colpo sulla domanda; poi risate che crescono."
+    },
+    {
+      "n": 4,
+      "titolo": "Un accordo vero",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Morale della favola: un accordo vero si riconosce facilmente. Ha una firma. Ha delle date. Ha delle cifre. E soprattutto, lo puoi leggere tutto, non solo il titolo. Se non si vede, non c'è.",
+      "parole": 34,
+      "durata_stimata_s": 13.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La lente d'ingrandimento passa sulle quattro voci che si spuntano una alla volta."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Noi preferiamo un accordo vero a un annuncio straordinario. Quando firmiamo qualcosa, te lo mostriamo: nero su bianco, con le date e le cifre. E se qualcosa non c'è ancora, te lo diciamo. Anche quando sarebbe più comodo applaudire. CISL FP Padova Rovigo.",
+      "parole": 43,
+      "durata_stimata_s": 15.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

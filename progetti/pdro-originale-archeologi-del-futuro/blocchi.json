@@ -1,0 +1,133 @@
+{
+  "progetto": "PDRO_Originale_Archeologi_del_futuro",
+  "titolo": "Gli archeologi del futuro",
+  "serie": "Format originali",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Anno 2126",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "or_scavo.png",
+      "voce": "Anno duemilacentoventisei. Una squadra di archeologi scava tra le rovine di un antico ospedale del ventunesimo secolo. E fa scoperte davvero sconcertanti.",
+      "parole": 22,
+      "durata_stimata_s": 10.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/or_scavo.png: gli archeologi spolverano un letto arrugginito, gli ologrammi dei tablet si accendono, luce filtrata tra il muschio.",
+      "regia": "Musica da documentario di scienza; voce solenne con ironia."
+    },
+    {
+      "n": 2,
+      "titolo": "Reperto n. 1",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Reperto numero uno. Un antico dispositivo con un messaggio: puoi rientrare domani? Gli studiosi ancora discutono sul suo significato. L'ipotesi più accreditata: un misterioso rito notturno.",
+      "parole": 26,
+      "durata_stimata_s": 13.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Teca da museo con luce spot; targhetta che si scrive; tono da guida museale."
+    },
+    {
+      "n": 3,
+      "titolo": "Reperto n. 2",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Reperto numero due. Un paio di zoccoli di operatore socio sanitario, con un'usura impressionante. Percorrevano chilometri a ogni turno. Il contapassi trovato accanto si è rifiutato di collaborare.",
+      "parole": 28,
+      "durata_stimata_s": 13.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Zoom lento sugli zoccoli consumati; risatina degli archeologi."
+    },
+    {
+      "n": 4,
+      "titolo": "Il reperto più importante",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "or_museo.png",
+      "voce": "Ma il reperto più importante è un piccolo oggetto verde. Una tessera. Gli archeologi hanno scoperto che chi la possedeva non affrontava i turni da solo. E che proprio da lì, lentamente, le cose cominciarono a cambiare.",
+      "parole": 37,
+      "durata_stimata_s": 15.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/or_museo.png: la luce si concentra sulla piccola tessera verde nella teca, i visitatori del futuro si avvicinano curiosi.",
+      "regia": "Musica che si fa emozionante; luce che si stringe sulla tessera."
+    },
+    {
+      "n": 5,
+      "titolo": "Come andò a finire",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Come andò a finire? Nel duemilaventisei, le persone smisero di affrontare i turni da sole. Il resto della storia è ancora da scrivere. E, a dirla tutta, la stiamo scrivendo adesso.",
+      "parole": 31,
+      "durata_stimata_s": 12.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La linea del tempo si disegna dall'alto; gli anni futuri restano con i puntini; l'ultima riga si scrive a mano."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Tra cento anni qualcuno racconterà come lavoravamo oggi. Facciamo in modo che racconti anche come abbiamo cambiato le cose, insieme. Il primo capitolo si scrive in sede, o con una telefonata. CISL FP Padova Rovigo.",
+      "parole": 35,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

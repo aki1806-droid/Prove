@@ -1,0 +1,133 @@
+{
+  "progetto": "PDRO_Originale_Meteo_dei_diritti",
+  "titolo": "Il meteo dei diritti",
+  "serie": "Format originali",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il meteo dei diritti",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "or_meteo.png",
+      "voce": "Buonasera e benvenuti alle previsioni del tempo. Anzi, alle previsioni del tempo in corsia. Ci aspetta una settimana piuttosto movimentata sull'intero ospedale. Vediamo nel dettaglio.",
+      "parole": 25,
+      "durata_stimata_s": 12.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/or_meteo.png: la meteorologa sorride e indica lo schermo con gesto ampio, luci dello studio.",
+      "regia": "Sigla da telegiornale; banda rossa EDIZIONE STRAORDINARIA."
+    },
+    {
+      "n": 2,
+      "titolo": "Le previsioni",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Al pronto soccorso, temporali di accessi per tutta la settimana. Sulle chirurgie, nebbia fitta di turni notturni, visibilità ridotta sul riposo. Grandinate di straordinari sulle medicine. E sugli ambulatori, venti forti di riorganizzazione.",
+      "parole": 33,
+      "durata_stimata_s": 16.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le quattro zone si illuminano una alla volta; le icone si animano: lampi, nebbia che scorre, grandine che cade, vento."
+    },
+    {
+      "n": 3,
+      "titolo": "Allerta rossa",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Attenzione: allerta rossa nei giorni di riposo. È atteso il fenomeno puoi rientrare domani. Si consiglia di non lasciare il telefono incustodito e di conoscere bene i propri diritti sul riposo.",
+      "parole": 31,
+      "durata_stimata_s": 13.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Sirena da protezione civile di un secondo; banda rossa lampeggiante."
+    },
+    {
+      "n": 4,
+      "titolo": "Schiarite",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ma non è tutto grigio. Da nord-est arrivano ampie schiarite: corsi di preparazione per concorsi e progressioni, cedolini controllati riga per riga, assistenza quando piove forte. Temperature in aumento, soprattutto per gli iscritti.",
+      "parole": 33,
+      "durata_stimata_s": 16.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Il sole spunta da dietro la nuvola; le tre voci entrano con un 'ding' luminoso."
+    },
+    {
+      "n": 5,
+      "titolo": "Lungo periodo",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "or_ospedale_meteo.png",
+      "voce": "Previsioni per il lungo periodo: il clima migliora dove le persone si uniscono. È statistico. Anzi, è sindacale.",
+      "parole": 18,
+      "durata_stimata_s": 7.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/or_ospedale_meteo.png: le nuvole si spostano, il sole illumina l'ospedale, l'arcobaleno si accende.",
+      "regia": "Musica che si apre; arcobaleno che si intensifica."
+    },
+    {
+      "n": 6,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Il tempo in corsia non lo decidiamo noi, ma possiamo darti un ottimo ombrello. Se nel tuo reparto piove troppo, chiamaci: le perturbazioni le portiamo al tavolo con l'Azienda. Per oggi è tutto. Linea alla CISL FP Padova Rovigo.",
+      "parole": 39,
+      "durata_stimata_s": 14.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Ombrello verde che si apre; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}
