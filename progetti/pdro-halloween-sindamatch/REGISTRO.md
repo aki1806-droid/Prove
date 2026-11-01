@@ -75,3 +75,8 @@ Achille: «ci sono aloni dove poi appaiono i testi e immagini sovrapposte». Cor
 - Robin: media sostituiti nei post 1129867 (Jack, 18:00) e 1129868 (Fantasmi, 21:00).
 - Nuovi asset HeyGen: Jack 18ee064cc0514eeea98551b42dc26b77 · Fantasmi 8e54627ca9a24436adb3fa6845377a8c ·
   Il Turno f3313edff6264f04bacc72bfc18ff3b5 · SindaMatch eb3be6b2be5e45d6b6b9b9a5bb0dd7e4. Integri, −16 LUFS.
+
+## Robin (1/11, dopo l'OK di Achille)
+Sui 4 canali AOUP, testo del pacchetto, primo commento col canale WhatsApp CISL FP AOUP, etichetta «Halloween 2026»:
+Il Turno post 1131202 dom 1/11 12:30 (reel ovunque) · SindaMatch post 1131203 dom 1/11 18:30 (1:36: su Facebook video
+normale, i Reels arrivano a 90 s).

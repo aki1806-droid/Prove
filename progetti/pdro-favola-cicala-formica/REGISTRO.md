@@ -37,3 +37,7 @@ PDRO_Favole_La_cicala_e_la_formica_9x16 · 1:22 · asset HeyGen 48a15c0c936f4199
 
 ## Da fare
 - OK di Achille → Robin sui 4 canali AOUP (1:22, sotto i 90 s: su Facebook va come reel).
+
+## Robin (1/11, dopo l'OK di Achille)
+Post 1131204 lun 2/11 12:30 sui 4 canali AOUP (reel ovunque), testo del pacchetto, primo commento col canale WhatsApp
+CISL FP AOUP, etichette «Le favole del sindacato» + «La cicala e la formica».
