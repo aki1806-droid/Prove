@@ -4,6 +4,7 @@ Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'orig
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
 **116 video** in 12 sezioni.
+
 - `https://resource2.heygen.ai/video/<id>/original.mp4`: file originale caricato su HeyGen, si apre e si scarica direttamente.
 - `https://app.heygen.com/videos/<id>`: video montato dentro HeyGen, si apre dal tuo account.
 
