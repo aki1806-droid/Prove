@@ -80,3 +80,9 @@ Dal 27 ottobre 2026: quando i crediti del connettore HeyGen finiscono, si usa la
 eleven_v4, asset, avatar anche webm, effetti sonori dal catalogo HeyGen). La chiave non va mai nel repository (è pubblico):
 sta negli ambienti come segreto di rete di tipo **Bearer** per `api.heygen.com`, che il proxy aggiunge da
 solo; in alternativa `HEYGEN_API_KEY` o `/root/.config/heygen/api_key`.
+
+## «OSS» a voce: sempre «operatori socio sanitari»
+
+Dal 3 novembre 2026 (Achille): nei testi parlati, **OSS si dice sempre per esteso**, «operatori socio sanitari» (al
+singolare «operatore socio sanitario»), anche se il pacchetto scrive la sigla. Nelle grafiche e nei testi dei post la
+sigla OSS può restare. Prima di generare le voci si controllano i `voce_testi/` con `grep -n OSS`.
