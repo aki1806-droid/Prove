@@ -28,3 +28,10 @@ PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16 · 70 s · asset HeyGen d52db04240
 
 ## Pubblicazione
 - Programmato su Robin (OK di Achille del 3/11): post 1139390, 5/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.
+
+## Versione 2 (3/11): «OSS» per esteso
+Su richiesta di Achille la voce dice «una giovane operatrice socio sanitaria» al posto di «una giovane OSS» (S03): rifatta
+la traccia del narratore (request T5O5K9t3OxJFleNEmDc2, 58,6 s), stesso avatar e stesse clip, rimontato. 1:10, −16,2 LUFS,
+labiale 0 ms. Asset HeyGen 08c97ee8bc494bf9bc68916c2bf64a71
+(https://resource2.heygen.ai/video/08c97ee8bc494bf9bc68916c2bf64a71/original.mp4); la prima versione d52db04240074fbd94e6166e396fdd5c
+è superata. Robin: media sostituito nel post 1139390 (gio 5/11 12:30). Il testo del post scritto resta con la sigla OSS.

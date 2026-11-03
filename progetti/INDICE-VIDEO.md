@@ -168,7 +168,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | Video | Uscita sui social | Indirizzo |
 |---|---|---|
 | N° 1 «La cicala e la formica – versione corsia» | lun 2/11 12:30 | [apri](https://resource2.heygen.ai/video/48a15c0c936f4199a1effb4512af824d/original.mp4) |
-| N° 2 «Il Re e l'accordo invisibile» | gio 5/11 12:30 | [apri](https://resource2.heygen.ai/video/d52db04240074fbd94e6166e396fdd5c/original.mp4) |
+| N° 2 «Il Re e l'accordo invisibile» | gio 5/11 12:30 | [apri](https://resource2.heygen.ai/video/08c97ee8bc494bf9bc68916c2bf64a71/original.mp4) |
 | N° 3 «Il Gatto, la Volpe e il Campo dei Miracoli» | sab 7/11 12:30 | [apri](https://resource2.heygen.ai/video/889d3096fcac4ab8ab95304e4a7ca012/original.mp4) |
 | N° 4 «I tre porcellini e il lupo delle riorganizzazioni» | lun 9/11 12:30 | [apri](https://resource2.heygen.ai/video/db30fd36bfd7443e9051799c33b43193/original.mp4) |
 
@@ -214,8 +214,8 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · «Il caso del volantino scomparso» (reel 9:16) – versione 2 |  | [apri](https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4) |
 | PDRO · «Convenzione XTE Salute» (16:9) |  | [apri](https://resource2.heygen.ai/video/11a18edecb574b09945903206aca24c7/original.mp4) |
 | PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | mar 3/11 13:15 | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
-| PDRO · «Le tue segnalazioni: a che punto sono?» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7c3045d88ab471cb7fa3c02cb0eab5c/original.mp4) |
-| PDRO · «Scegli il tuo turno – turni da 12 ore», librogame (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/9cc2e21a56a64d04908f91bd67331c35/original.mp4) |
+| PDRO · «Le tue segnalazioni: a che punto sono?» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/3223bdea5dd8464d9d5e54277ef6c33d/original.mp4) |
+| PDRO · «Scegli il tuo turno – turni da 12 ore», librogame (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/aca2098f659241bdbd2e45d42d2b6527/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 
