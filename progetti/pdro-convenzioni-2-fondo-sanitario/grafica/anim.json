@@ -1,0 +1,456 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"cara",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"scrivo",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"pensione",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"tempo",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"salute",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"firmato",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.44999999999999996,
+0.4
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+0.55,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+900
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "l1",
+"in": [
+"wipe",
+0.0,
+0.7
+]
+},
+{
+"p": "l2",
+"in": [
+"wipe",
+0.5,
+0.7
+]
+},
+{
+"p": "l3",
+"in": [
+"wipe",
+"iscrivesti",
+1.0
+]
+},
+{
+"p": "l4",
+"in": [
+"wipe",
+"vita",
+1.0
+]
+},
+{
+"p": "l5",
+"in": [
+"wipe",
+"carenza",
+1.0
+]
+},
+{
+"p": "l6",
+"in": [
+"wipe",
+"qualunque",
+1.0
+]
+},
+{
+"p": "l7",
+"in": [
+"wipe",
+"famiglia",
+1.0
+]
+},
+{
+"p": "l8",
+"in": [
+"wipe",
+"detraibile",
+1.0
+]
+},
+{
+"p": "l9",
+"in": [
+"wipe",
+"detraibile+1.0",
+1.0
+]
+},
+{
+"p": "l10",
+"in": [
+"fade",
+"detraibile+1.8",
+0.6
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+960
+]
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.3,
+0.35
+]
+},
+{
+"p": "r1",
+"in": [
+"slideL",
+"visite",
+0.4
+],
+"figli": [
+{
+"p": "v1",
+"in": [
+"pop",
+"visite+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r2",
+"in": [
+"slideL",
+"ricoveri",
+0.4
+],
+"figli": [
+{
+"p": "v2",
+"in": [
+"pop",
+"ricoveri+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r3",
+"in": [
+"slideL",
+"ricoveri$",
+0.4
+],
+"figli": [
+{
+"p": "v3",
+"in": [
+"pop",
+"ricoveri$+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r4",
+"in": [
+"slideL",
+"prevenzione",
+0.4
+],
+"figli": [
+{
+"p": "v4",
+"in": [
+"pop",
+"prevenzione+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r5",
+"in": [
+"slideL",
+"fisioterapia",
+0.4
+],
+"figli": [
+{
+"p": "v5",
+"in": [
+"pop",
+"fisioterapia+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r6",
+"in": [
+"slideL",
+"dentale",
+0.4
+],
+"figli": [
+{
+"p": "v6",
+"in": [
+"pop",
+"dentale+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r7",
+"in": [
+"slideL",
+"telemedicina",
+0.4
+],
+"figli": [
+{
+"p": "v7",
+"in": [
+"pop",
+"telemedicina+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+"migliaia",
+0.4
+]
+}
+]
+}
+}

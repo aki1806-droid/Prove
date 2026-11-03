@@ -1,0 +1,305 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"benvenuti",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"carriera",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"dadi",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"mossa",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"consigliamo",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"master",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.44999999999999996,
+0.4
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+0.55,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+13,
+1.04,
+540,
+900
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.3,
+0.35
+]
+},
+{
+"p": "k1",
+"in": [
+"pop",
+"iul",
+0.35
+]
+},
+{
+"p": "k2",
+"in": [
+"pop",
+"izeos",
+0.35
+]
+},
+{
+"p": "k3",
+"in": [
+"pop",
+"unitelma",
+0.35
+]
+},
+{
+"p": "k4",
+"in": [
+"pop",
+"unifortunato",
+0.35
+]
+},
+{
+"p": "k5",
+"in": [
+"pop",
+"ecm",
+0.35
+]
+},
+{
+"p": "k6",
+"in": [
+"pop",
+"inglese",
+0.35
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "carte",
+"in": [
+"drop",
+"carta",
+0.45
+],
+"figli": [
+{
+"p": "barra",
+"in": [
+"wipe",
+"imprevisti+0.4",
+0.4
+]
+}
+]
+}
+],
+"urti": [
+"imprevisti+0.6"
+]
+}
+}

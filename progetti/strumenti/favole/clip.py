@@ -40,6 +40,30 @@ CLIP = {
     'pdro-turni-12-ore-librogame': {
         'S01': ('lg_bivio.png', 'The nurse, seen from behind, looks left and right at the two hospital corridors, the hands of the two wall clocks move, the light in the corridors slowly changes, slow push-in.'),
         'S07': ('lg_voto.png', 'In the meeting room the staff raise their hands to vote and smile, the coordinator with the clipboard counts the hands and smiles, warm daylight, slow push-in.')},
+    'pdro-convenzioni-1-colpa-grave': {
+        'S01': ('cv_aereo.png', 'On board the plane the flight attendant demonstrates the safety procedure with calm gestures, the passengers in hospital scrubs watch attentively, soft cabin light, slow push-in.'),
+        'S03': ('cv_paracadute.png', 'The nurse walks confidently down the hospital corridor with the parachute pack on her shoulders, her colleagues turn and watch her curiously, bright light, slow camera drift.')},
+    'pdro-convenzioni-2-fondo-sanitario': {
+        'S01': ('cv_pensionata.png', 'The elderly woman writes with the fountain pen, then looks up and smiles warmly, the flowers move gently in the breeze, warm garden light, slow push-in.'),
+        'S04': ('cv_lettera.png', 'The young nurse reads the letter, smiles moved, and gently puts down her mug, soft morning light, slow push-in.')},
+    'pdro-convenzioni-3-medico-h24': {
+        'S01': ('cv_notte.png', 'At night on the sofa the nurse mother looks at her phone with a worried face, behind her the child keeps sleeping still under the blanket, warm lamp light, very slow push-in.'),
+        'S03': ('cv_telemed.png', 'On the phone screen the doctor in the video call smiles and talks reassuringly, the wall clock shows three o clock in the background, soft night light, slow push-in.')},
+    'pdro-convenzioni-4-formazione': {
+        'S01': ('cv_gioco.png', 'The two dice roll across the colourful board game and stop, the small nurse game pieces move forward along the path, top-down view, slow push-in.'),
+        'S04': ('cv_dadi.png', 'The nurse throws the dice on the table, her colleagues around her cheer and laugh, warm evening light, slow push-in.')},
+    'pdro-convenzioni-5-tempo-libero': {
+        'S01': ('cv_spiaggia.png', 'The sea waves move gently behind her, the nurse under the straw hat raises the postcard and smiles, bright summer light, slow push-in.'),
+        'S04': ('cv_trekking.png', 'The group walks laughing along the mountain path, the golden dog wags its tail, autumn valley view in the background, slow camera drift.')},
+    'pdro-convenzioni-6-acquisti': {
+        'S01': ('cv_spesa.png', 'The woman walks along the tree-lined street with her shopping bags, the golden dog trots happily beside her, autumn leaves fall, slow camera drift.'),
+        'S03': ('cv_cena.png', 'The family at the dinner table laughs, they pass the bread and raise their glasses in a toast, warm home light, slow push-in.')},
+    'pdro-convenzioni-7-digitale': {
+        'S01': ('cv_pec_paura.png', 'The laptop screen lights up the terrified face of the nurse in the dark room, shadows slowly stretch on the wall, comic horror mood, slow push-in.'),
+        'S04': ('cv_pec_relax.png', 'The nurse relaxed on the sofa taps her phone, smiles and takes a sip of coffee, soft daylight, slow push-in.')},
+    'pdro-convenzioni-8-quanto-vale-la-tessera': {
+        'S01': ('cv_tessera.png', 'The hand raises the green card, behind it the lights of the shop windows switch on one after another, evening city light, slow push-in.'),
+        'S04': ('cv_calcolatrice.png', 'The nurse types on the calculator, then brings her hand to her mouth, amazed and smiling, warm kitchen light, slow push-in.')},
 }
 
 

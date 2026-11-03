@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_1_Colpa_grave",
+  "titolo": "Istruzioni di sicurezza – polizza colpa grave",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Benvenuti a bordo",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_aereo.png",
+      "voce": "Signore e signori, benvenuti a bordo del vostro turno. Prima del decollo, vi chiediamo un minuto di attenzione per le istruzioni di sicurezza.",
+      "parole": 23,
+      "durata_stimata_s": 9.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_aereo.png: l'assistente di volo mostra la procedura, i passeggeri in divisa sanitaria seguono attenti.",
+      "regia": "'Ding' da annuncio di bordo; voce da comandante."
+    },
+    {
+      "n": 2,
+      "titolo": "La scheda di sicurezza",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Turni lunghi, fretta, carenze di personale: l'errore può capitare a tutti. E se viene riconosciuta la colpa grave, l'Azienda o la Corte dei conti possono chiedere a te di risarcire. Senza copertura, paghi di tasca tua.",
+      "parole": 36,
+      "durata_stimata_s": 15.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Scheda di sicurezza stile aereo; i quattro passaggi si illuminano uno alla volta; il quarto in verde."
+    },
+    {
+      "n": 3,
+      "titolo": "Il paracadute",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_paracadute.png",
+      "voce": "Per questo, sotto il vostro sedile, anzi, dentro la vostra tessera, trovate il paracadute: la polizza per la colpa grave riservata agli iscritti CISL FP. Per dipendenti e dirigenti pubblici. Senza franchigie, senza massimali aggregati, senza sorprese.",
+      "parole": 37,
+      "durata_stimata_s": 17.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_paracadute.png: l'infermiera cammina sicura con il paracadute sulle spalle, i colleghi la guardano incuriositi.",
+      "regia": "Effetto 'click' delle cinghie; sorriso."
+    },
+    {
+      "n": 4,
+      "titolo": "Come si apre",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Come si apre il paracadute? Sei iscritto alla CISL FP, accedi al portale Mag e attivi la polizza. E se fai anche libera professione, c'è una copertura di responsabilità civile dedicata.",
+      "parole": 31,
+      "durata_stimata_s": 12.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "I tre passaggi si spuntano; riquadro arancio per la libera professione."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Speriamo che il paracadute non serva mai. Ma volare senza, in sanità, non è coraggio: è un rischio inutile. Chiedici come attivare la polizza, ti guidiamo passo passo. CISL FP Padova Rovigo. Buon turno, e buon volo.",
+      "parole": 37,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

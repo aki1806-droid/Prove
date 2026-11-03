@@ -1,0 +1,257 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"riposo",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"sacro",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"cartoline",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"saluti",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"weroad",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"trekking",
+0.9
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+"zampe",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.44999999999999996,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+900
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "cart",
+"in": [
+"vola",
+0.0,
+0.7
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"stampa",
+"flash",
+0.3
+]
+}
+]
+}
+],
+"urti": [
+"flash+0.2"
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "sotto"
+},
+{
+"p": "cart",
+"in": [
+"vola",
+0.0,
+0.7
+],
+"figli": [
+{
+"p": "timbro",
+"in": [
+"stampa",
+"bitq",
+0.3
+]
+}
+]
+}
+],
+"urti": [
+"bitq+0.2"
+]
+}
+}

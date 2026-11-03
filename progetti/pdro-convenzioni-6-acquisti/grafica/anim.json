@@ -1,0 +1,412 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"otto",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"minuto",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"sara",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"venti",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"eataly",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"calabria",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.44999999999999996,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+15,
+1.04,
+540,
+900
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "p1",
+"in": [
+"pop",
+"nove",
+0.3
+]
+},
+{
+"p": "h1",
+"in": [
+"slideL",
+"nove+0.1",
+0.35
+]
+},
+{
+"p": "x1",
+"in": [
+"wipe",
+"nove+0.2",
+0.6
+]
+},
+{
+"p": "p2",
+"in": [
+"pop",
+"dieci",
+0.3
+]
+},
+{
+"p": "h2",
+"in": [
+"slideL",
+"dieci+0.1",
+0.35
+]
+},
+{
+"p": "x2",
+"in": [
+"wipe",
+"dieci+0.2",
+0.6
+]
+},
+{
+"p": "p3",
+"in": [
+"pop",
+"piadina",
+0.3
+]
+},
+{
+"p": "h3",
+"in": [
+"slideL",
+"piadina+0.1",
+0.35
+]
+},
+{
+"p": "x3",
+"in": [
+"wipe",
+"piadina+0.2",
+0.6
+]
+},
+{
+"p": "p4",
+"in": [
+"pop",
+"capo",
+0.3
+]
+},
+{
+"p": "h4",
+"in": [
+"slideL",
+"capo+0.1",
+0.35
+]
+},
+{
+"p": "x4",
+"in": [
+"wipe",
+"capo+0.2",
+0.6
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "p1",
+"in": [
+"pop",
+"luce",
+0.3
+]
+},
+{
+"p": "h1",
+"in": [
+"slideL",
+"luce+0.1",
+0.35
+]
+},
+{
+"p": "x1",
+"in": [
+"wipe",
+"luce+0.2",
+0.6
+]
+},
+{
+"p": "p2",
+"in": [
+"pop",
+"depuratore",
+0.3
+]
+},
+{
+"p": "h2",
+"in": [
+"slideL",
+"depuratore+0.1",
+0.35
+]
+},
+{
+"p": "x2",
+"in": [
+"wipe",
+"depuratore+0.2",
+0.6
+]
+},
+{
+"p": "p3",
+"in": [
+"pop",
+"piattaforma",
+0.3
+]
+},
+{
+"p": "h3",
+"in": [
+"slideL",
+"piattaforma+0.1",
+0.35
+]
+},
+{
+"p": "x3",
+"in": [
+"wipe",
+"piattaforma+0.2",
+0.6
+]
+},
+{
+"p": "p4",
+"in": [
+"pop",
+"lauto",
+0.3
+]
+},
+{
+"p": "h4",
+"in": [
+"slideL",
+"lauto+0.1",
+0.35
+]
+},
+{
+"p": "x4",
+"in": [
+"wipe",
+"lauto+0.2",
+0.6
+]
+}
+]
+}
+}

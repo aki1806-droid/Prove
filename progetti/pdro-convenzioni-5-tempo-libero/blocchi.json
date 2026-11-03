@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_5_Tempo_libero",
+  "titolo": "Cartoline dal riposo – tempo libero",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Cartoline dal riposo",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_spiaggia.png",
+      "voce": "Il riposo è sacro. E ogni tanto, va anche organizzato bene. Ecco le cartoline che i nostri iscritti ci hanno mandato. Beh, che potrebbero mandarci.",
+      "parole": 25,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_spiaggia.png: onde del mare, la collega solleva la cartolina e sorride sotto il cappello.",
+      "regia": "Musica estiva leggera; suono di onde."
+    },
+    {
+      "n": 2,
+      "titolo": "Saluti dal mare",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Saluti dal mare! E dalla montagna, e dalle città d'arte. Con Flash Viaggi, formule su misura e prezzi riservati agli iscritti e ai loro familiari. Crociere comprese.",
+      "parole": 27,
+      "durata_stimata_s": 11.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La cartolina arriva 'volando' e si posa; timbro postale."
+    },
+    {
+      "n": 3,
+      "titolo": "Saluti dal cinema e dalle terme",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Saluti dal cinema! Con BitQ, biglietti per cinema, musei e parchi divertimento a prezzo speciale. E saluti dalle terme: con Anusca, terme, palestra, hotel e ristoranti con vantaggi esclusivi.",
+      "parole": 29,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Seconda cartolina sopra la prima."
+    },
+    {
+      "n": 4,
+      "titolo": "Saluti dai sentieri",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_trekking.png",
+      "voce": "Saluti dai sentieri! Con WeRoad, viaggi di gruppo in più di novanta destinazioni nel mondo. Con Trekking Lazio, escursioni per tutti, anche per gli amici a quattro zampe.",
+      "parole": 28,
+      "durata_stimata_s": 11.7,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_trekking.png: il gruppo cammina ridendo sul sentiero, il cane scodinzola, vista sulla valle.",
+      "regia": "Musica allegra; abbaio felice."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Dopo turni, notti e reperibilità, il tempo libero non è un lusso: è salute. E con la tessera CISL FP costa anche un po' meno, per te e per la tua famiglia. Trovi tutto su convenzioni cisl fp punto it, o chiedici in sede.",
+      "parole": 44,
+      "durata_stimata_s": 13.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

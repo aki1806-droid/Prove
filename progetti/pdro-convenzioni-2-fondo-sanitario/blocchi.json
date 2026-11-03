@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_2_Fondo_sanitario",
+  "titolo": "Lettera dal futuro – Fondo sanitario CISL FP",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Lettera dal futuro",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_pensionata.png",
+      "voce": "Cara me di trent'anni fa, ti scrivo dal giardino. Sono in pensione, sto bene, e voglio ringraziarti per una scelta che allora ti sembrava piccola.",
+      "parole": 25,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_pensionata.png: la signora scrive con la penna stilografica, alza lo sguardo e sorride, fiori mossi dal vento.",
+      "regia": "Voce narrante femminile calda se disponibile, altrimenti Luca Ward con tono dolce; carillon."
+    },
+    {
+      "n": 2,
+      "titolo": "La lettera",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ti iscrivesti al Fondo sanitario della CISL FP. Quello che vale per tutta la vita, anche in pensione. Senza periodi di carenza, qualunque fosse la tua storia clinica. Per te e per la tua famiglia. E il contributo era pure detraibile.",
+      "parole": 41,
+      "durata_stimata_s": 16.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La lettera si scrive riga per riga con calligrafia a mano; le spunte verdi compaiono sulle parole."
+    },
+    {
+      "n": 3,
+      "titolo": "Cosa copre",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Visite specialistiche e alta diagnostica, ricoveri, prevenzione ogni anno, fisioterapia, prevenzione dentale, telemedicina. In migliaia di strutture convenzionate, senza anticipare un euro.",
+      "parole": 22,
+      "durata_stimata_s": 13.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le sette voci si spuntano a cascata; riquadro verde finale."
+    },
+    {
+      "n": 4,
+      "titolo": "La giovane collega",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_lettera.png",
+      "voce": "Lo so: a trent'anni pensi di avere tempo. Ma credimi, la salute non manda il preavviso. Firmato: tu, tra trent'anni.",
+      "parole": 20,
+      "durata_stimata_s": 8.0,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_lettera.png: la giovane infermiera legge la lettera, sorride emozionata, appoggia la tazza.",
+      "regia": "Pausa emotiva; archi."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Le adesioni al Fondo sanitario si aprono in finestre precise durante l'anno. Lasciaci il tuo contatto: ti avvisiamo noi alla prossima apertura e ti aiutiamo a scegliere il piano giusto. CISL FP Padova Rovigo. Per te, oggi. E per te, domani.",
+      "parole": 41,
+      "durata_stimata_s": 14.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

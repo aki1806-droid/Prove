@@ -1,0 +1,428 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"quanto",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"tessera",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"conti",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"risultato",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"sorprende",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"conti",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.44999999999999996,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+900
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "testa",
+"in": [
+"wipeD",
+0.0,
+0.4
+]
+},
+{
+"p": "r1",
+"in": [
+"wipeD",
+"farmacia",
+0.35
+]
+},
+{
+"p": "r2",
+"in": [
+"wipeD",
+"animali",
+0.35
+]
+},
+{
+"p": "r3",
+"in": [
+"wipeD",
+"universita",
+0.35
+]
+},
+{
+"p": "r4",
+"in": [
+"wipeD",
+"meta",
+0.35
+]
+},
+{
+"p": "r5",
+"in": [
+"wipeD",
+"enogastronomia",
+0.35
+]
+},
+{
+"p": "r6",
+"in": [
+"wipeD",
+"cinema",
+0.35
+]
+},
+{
+"p": "r7",
+"in": [
+"wipeD",
+"viaggi",
+0.35
+]
+},
+{
+"p": "r8",
+"in": [
+"wipeD",
+"polizza",
+0.35
+]
+},
+{
+"p": "r9",
+"in": [
+"wipeD",
+"fondo",
+0.35
+]
+},
+{
+"p": "r10",
+"in": [
+"wipeD",
+"medico",
+0.35
+]
+},
+{
+"p": "chi",
+"in": [
+"slam",
+"famiglia",
+0.35
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+700
+],
+[
+19,
+1.06,
+540,
+1000
+]
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.3,
+0.35
+]
+},
+{
+"p": "t3",
+"in": [
+"slam",
+"prezzo",
+0.35
+]
+},
+{
+"p": "r1",
+"in": [
+"slideL",
+"contratto",
+0.4
+],
+"figli": [
+{
+"p": "v1",
+"in": [
+"pop",
+"contratto+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r2",
+"in": [
+"slideL",
+"cedolino",
+0.4
+],
+"figli": [
+{
+"p": "v2",
+"in": [
+"pop",
+"cedolino+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r3",
+"in": [
+"slideL",
+"corsi",
+0.4
+],
+"figli": [
+{
+"p": "v3",
+"in": [
+"pop",
+"corsi+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r4",
+"in": [
+"slideL",
+"lassistenza",
+0.4
+],
+"figli": [
+{
+"p": "v4",
+"in": [
+"pop",
+"lassistenza+0.35",
+0.3
+]
+}
+]
+},
+{
+"p": "r5",
+"in": [
+"slideL",
+"qualcuno",
+0.4
+],
+"figli": [
+{
+"p": "v5",
+"in": [
+"pop",
+"qualcuno+0.35",
+0.3
+]
+}
+]
+}
+]
+}
+}

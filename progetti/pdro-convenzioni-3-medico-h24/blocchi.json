@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_3_Medico_H24",
+  "titolo": "Le tre di notte – salute e medico H24",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Le tre di notte",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_notte.png",
+      "voce": "Tre di notte. Sei appena rientrata dal turno, e il piccolo ha la febbre. Il pediatra apre tra sei ore. E il pronto soccorso è l'ultima cosa che vuoi.",
+      "parole": 29,
+      "durata_stimata_s": 10.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_notte.png: la mamma infermiera guarda il telefono, il bambino dorme avvolto nella coperta sul divano, luce calda della lampada.",
+      "regia": "Ticchettio di orologio; atmosfera notturna sospesa."
+    },
+    {
+      "n": 2,
+      "titolo": "Le opzioni",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Puoi aspettare. Puoi correre in pronto soccorso. Oppure puoi fare la cosa peggiore di tutte: cercare i sintomi su internet. Oppure...",
+      "parole": 21,
+      "durata_stimata_s": 9.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "L'orologio segna le tre; la terza opzione viene barrata con un tratto rosso; 'Oppure...' scritto a mano."
+    },
+    {
+      "n": 3,
+      "titolo": "Il medico in tasca",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_telemed.png",
+      "voce": "Oppure apri l'app. Con Blue Assistance, gli iscritti CISL FP hanno accesso a un medico online, giorno e notte, e a una rete di strutture convenzionate per visite e cure dentistiche a tariffe contenute.",
+      "parole": 34,
+      "durata_stimata_s": 13.9,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_telemed.png: la dottoressa in videochiamata sorride e parla, l'orologio alle tre sullo sfondo.",
+      "regia": "Suono di chiamata che si connette; sollievo."
+    },
+    {
+      "n": 4,
+      "titolo": "E c'è di più",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "E non è tutto. C'è XTE Salute, l'assistenza sanitaria digitale per gli iscritti. E c'è Alpifarma, la farmacia online con il cinque per cento di sconto su tutto, anche sui prodotti già in promozione.",
+      "parole": 34,
+      "durata_stimata_s": 13.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le tre card salgono una alla volta."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Lavori per curare gli altri, a ogni ora. È giusto che qualcuno pensi anche a te, alle tre di notte. Scopri come attivare questi servizi: chiamaci o scrivici. CISL FP Padova Rovigo.",
+      "parole": 32,
+      "durata_stimata_s": 11.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_8_Quanto_vale_la_tessera",
+  "titolo": "Quanto vale una tessera?",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Quanto vale una tessera?",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_tessera.png",
+      "voce": "Quanto vale, davvero, una tessera sindacale? Facciamo i conti. Ma i conti veri, quelli dello scontrino di un anno intero.",
+      "parole": 20,
+      "durata_stimata_s": 8.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_tessera.png: la mano solleva la tessera verde, le luci delle vetrine dietro si accendono una dopo l'altra.",
+      "regia": "Suono di registratore di cassa all'inizio."
+    },
+    {
+      "n": 2,
+      "titolo": "Lo scontrino",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Farmacia online, meno cinque per cento. Animali, meno quindici. Università, dal venti fino alla metà in meno. Enogastronomia, meno dieci. Cinema, parchi e viaggi a prezzi riservati. Polizza colpa grave, fondo sanitario, medico online. E tutto vale anche per la tua famiglia.",
+      "parole": 42,
+      "durata_stimata_s": 18.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Lo scontrino esce dalla stampante riga per riga con il suono della cassa."
+    },
+    {
+      "n": 3,
+      "titolo": "Le cose senza prezzo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "E poi ci sono le cose che non hanno prezzo. Il contratto, difeso al tavolo. Il cedolino, controllato riga per riga. I corsi gratuiti. L'assistenza quando qualcosa non va. E qualcuno che risponde al telefono.",
+      "parole": 35,
+      "durata_stimata_s": 14.3,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le cinque voci si spuntano una alla volta; musica che si scalda."
+    },
+    {
+      "n": 4,
+      "titolo": "Il risultato",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_calcolatrice.png",
+      "voce": "Il risultato? Sorprende sempre. Fai due conti anche tu.",
+      "parole": 9,
+      "durata_stimata_s": 3.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_calcolatrice.png: l'infermiera digita sulla calcolatrice e si porta la mano alla bocca, stupita e sorridente.",
+      "regia": "Suono di calcolatrice e 'wow'."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Le convenzioni sono il di più. La vera differenza è avere qualcuno accanto, ogni giorno. Iscriversi è semplice: chiamaci o passa in sede, facciamo tutto noi. CISL FP Padova Rovigo. La tessera che conviene, in tutti i sensi.",
+      "parole": 38,
+      "durata_stimata_s": 13.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

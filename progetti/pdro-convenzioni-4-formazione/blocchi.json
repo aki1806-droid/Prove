@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_4_Formazione",
+  "titolo": "Il gioco della carriera – formazione",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il gioco della carriera",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_gioco.png",
+      "voce": "Benvenuti al gioco della carriera! Regole semplici: tiri i dadi, avanzi di casella, e ogni casella ti avvicina a un titolo, a un incarico, a una nuova professione. Gli iscritti CISL FP partono avvantaggiati.",
+      "parole": 34,
+      "durata_stimata_s": 14.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_gioco.png: i dadi rotolano sul tabellone, le pedine-infermiere avanzano di casella.",
+      "regia": "Musica da gioco da tavolo; suono di dadi."
+    },
+    {
+      "n": 2,
+      "titolo": "Le caselle",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella università: con IUL il venti per cento di sconto e due rate; con Izeos fino alla metà in meno sulle università telematiche partner; e poi Unitelma e Unifortunato. Casella ECM: crediti formativi con sconti dedicati ai sanitari. Casella inglese: British School.",
+      "parole": 42,
+      "durata_stimata_s": 18.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le sei caselle si accendono una alla volta con un 'tic' da pedina."
+    },
+    {
+      "n": 3,
+      "titolo": "Pesca una carta",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Pesca una carta! Imprevisti? Non ce ne sono. Solo carte opportunità: come la preparazione ai concorsi pubblici con l'Istituto Cappellari.",
+      "parole": 20,
+      "durata_stimata_s": 9.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La carta IMPREVISTI viene scartata e barrata; la carta OPPORTUNITÀ si gira con un 'flip'."
+    },
+    {
+      "n": 4,
+      "titolo": "Tira i dadi",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_dadi.png",
+      "voce": "E se non sai quale mossa fare? Te la consigliamo noi: master di coordinamento, progressioni verticali, concorsi. Ogni percorso ha la sua strategia.",
+      "parole": 23,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_dadi.png: l'infermiera lancia i dadi, i colleghi esultano.",
+      "regia": "Esultanza; musica che sale."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "In questo gioco non vince chi ha più fortuna, ma chi si prepara meglio. Con la tessera CISL FP, ogni lancio di dadi vale un po' di più. Chiamaci, e costruiamo insieme il tuo percorso. CISL FP Padova Rovigo.",
+      "parole": 39,
+      "durata_stimata_s": 12.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

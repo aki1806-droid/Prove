@@ -1,0 +1,113 @@
+{
+  "progetto": "PDRO_Convenzioni_7_Digitale",
+  "titolo": "Il terrore digitale – SPID e PEC",
+  "serie": "Convenzioni CISL FP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il terrore digitale",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_pec_paura.png",
+      "voce": "Mezzanotte. Lo schermo si illumina nel buio. Una parola fa gelare il sangue: PEC. E subito dopo, ancora più spaventosa: SPID.",
+      "parole": 21,
+      "durata_stimata_s": 8.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_pec_paura.png: lo schermo illumina il volto terrorizzato dell'infermiera, ombre che si allungano.",
+      "regia": "Musica da film horror, tuono; titolo che vibra."
+    },
+    {
+      "n": 2,
+      "titolo": "Fenomeni paranormali",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fenomeni paranormali segnalati: password dimenticate, codici che scadono in trenta secondi, file che non si aprono, la sessione è scaduta. Gli esperti non hanno spiegazioni.",
+      "parole": 25,
+      "durata_stimata_s": 11.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Effetto schermo verde da vecchio computer; ogni voce appare con un 'glitch'."
+    },
+    {
+      "n": 3,
+      "titolo": "L'esorcismo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ma esiste un esorcismo. Con la convenzione Infocert, gli iscritti CISL FP e i loro familiari possono avere SPID e PEC a prezzi convenzionati.",
+      "parole": 24,
+      "durata_stimata_s": 9.7,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Luce che entra; coro angelico di un secondo, ironico."
+    },
+    {
+      "n": 4,
+      "titolo": "Il digitale non fa più paura",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "cv_pec_relax.png",
+      "voce": "E il digitale smette di fare paura. Domande di concorso, ricorsi, comunicazioni ufficiali: tutto con un clic, alla luce del giorno, con il caffè in mano.",
+      "parole": 26,
+      "durata_stimata_s": 10.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/cv_pec_relax.png: l'infermiera sul divano tocca il telefono e sorride, sorso di caffè.",
+      "regia": "Musica luminosa."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Il digitale non deve spaventare nessuno. Se hai bisogno di una mano con SPID, PEC o domande online, passa in sede: ti aiutiamo noi. E con Infocert, risparmi pure. CISL FP Padova Rovigo.",
+      "parole": 33,
+      "durata_stimata_s": 11.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

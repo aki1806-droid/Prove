@@ -1,0 +1,308 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"signore",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"benvenuti",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"decollo",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"paracadute",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"polizza",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"franchigie",
+0.9
+]
+},
+{
+"p": "s2",
+"in": [
+"wipe",
+"sorprese",
+0.9
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.44999999999999996,
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+900
+]
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"wipe",
+0.3,
+0.8
+]
+},
+{
+"p": "c1",
+"in": [
+"slideR",
+"turni",
+0.4
+]
+},
+{
+"p": "c2",
+"in": [
+"slideR",
+"colpa",
+0.4
+]
+},
+{
+"p": "c3",
+"in": [
+"slideR",
+"senza",
+0.4
+]
+},
+{
+"p": "c4",
+"in": [
+"slideR",
+"tasca+0.6",
+0.4
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"paracadute",
+0.35
+]
+},
+{
+"p": "c1",
+"in": [
+"slideL",
+"iscritto",
+0.4
+]
+},
+{
+"p": "c2",
+"in": [
+"slideL",
+"accedi",
+0.4
+]
+},
+{
+"p": "c3",
+"in": [
+"slideL",
+"attivi",
+0.4
+]
+},
+{
+"p": "c4",
+"in": [
+"pop",
+"libera",
+0.4
+]
+}
+]
+}
+}

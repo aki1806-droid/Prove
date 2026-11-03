@@ -16,3 +16,4 @@ build/
 # Ambiente
 .env
 .env.local
+progetti/strumenti/convenzioni/node_modules

@@ -489,6 +489,203 @@ ANIM = {
 }
 
 
+# ---- Serie «Convenzioni CISL FP» (novembre 2026, provinciale): otto reel da cinque scene, chiusura con il riquadro dei
+# delegati dei tre territori (../convenzioni/contatti.mjs). Righe dei titoli rilevate sui PNG del pacchetto.
+CV = {i: f'pdro-convenzioni-{i}-{s}' for i, s in enumerate(['colpa-grave', 'fondo-sanitario', 'medico-h24', 'formazione',
+                                                             'tempo-libero', 'acquisti', 'digitale', 'quanto-vale-la-tessera'], 1)}
+_OV1 = {1: (458, (1235, 1304, 671), (1340, 1409, 810), (1467, 1509, 614)), 2: (525, (1236, 1303, 547), (1340, 1409, 749), (1467, 1522, 661)),
+        3: (458, (1236, 1303, 432), (1340, 1409, 569), (1467, 1510, 700)), 4: (458, (1235, 1304, 541), (1340, 1409, 985), (1470, 1523, 648)),
+        5: (458, (1235, 1304, 673), (1340, 1409, 725), (1470, 1514, 438)), 6: (458, (1235, 1304, 887), (1340, 1409, 618), (1463, 1521, 648)),
+        7: (458, (1235, 1304, 688), (1340, 1409, 559), (1467, 1514, 834)), 8: (458, (1235, 1320, 830), (1340, 1409, 852), (1466, 1509, 447))}
+# overlay della seconda illustrazione: (scena, righe)
+_OV2 = {1: ('S03', [(1266, 1334, 762), (1356, 1429, 928), (1479, 1533, 817), (1561, 1606, 639)]),
+        2: ('S04', [(1266, 1320, 432), (1356, 1429, 999), (1480, 1535, 779)]),
+        3: ('S03', [(1261, 1331, 781), (1356, 1429, 654), (1480, 1533, 796), (1552, 1595, 330)]),
+        4: ('S04', [(1261, 1334, 744), (1356, 1429, 914), (1481, 1535, 751)]),
+        5: ('S04', [(1261, 1321, 778), (1357, 1422, 1001), (1480, 1535, 957), (1555, 1593, 237)]),
+        6: ('S03', [(1266, 1321, 673), (1353, 1406, 1005), (1478, 1533, 905)]),
+        7: ('S04', [(1261, 1334, 446), (1356, 1429, 734), (1477, 1528, 948), (1556, 1593, 170)]),
+        8: ('S04', [(1261, 1320, 514), (1361, 1429, 817), (1481, 1523, 583)])}
+# chiusura S05: righe di titolo e sottotitolo (le ultime una o due sono la scritta a mano)
+_CH = {1: [(284, 351, 761), (389, 456, 780), (502, 556, 918)], 2: [(284, 351, 713), (389, 456, 882), (502, 556, 931), (574, 617, 363)],
+       3: [(284, 365, 632), (389, 456, 674), (499, 546, 575)], 4: [(284, 351, 565), (389, 456, 685), (499, 557, 955), (576, 618, 197)],
+       5: [(284, 351, 562), (365, 456, 560), (501, 553, 988)], 6: [(284, 351, 877), (385, 442, 1004), (500, 557, 671)],
+       7: [(285, 350, 427), (365, 456, 639), (498, 548, 802), (575, 617, 418)], 8: [(284, 351, 667), (389, 456, 836), (502, 546, 409)]}
+
+
+def _ov1(i):
+    bx, r1, r2, r3 = _OV1[i]
+    return {'base': 'overlay_clip/S01A.png', 'pezzi': [
+        CH('badge', 70, 1104, bx + 70, 1198, 120, 8), CH('t1', 70, r1[0] - 10, r1[2] + 30, r1[1] + 10, 120, 14),
+        CH('t2', 70, r2[0] - 10, r2[2] + 30, r2[1] + 10, 120, 14), CH('sotto', 70, r3[0] - 10, r3[2] + 30, r3[1] + 10, 110, 12),
+        CH('firma', 320, 1848, 1060, 1884, 100, 3), *BANDE]}
+
+
+def _ov2(i):
+    sid, rr = _OV2[i]
+    nomi = ['t1', 't2', 's1', 's2']
+    return sid, {'base': f'overlay_clip/{sid}A.png', 'pezzi': [
+        CH(nomi[k], 70, y0 - 10, x1 + 30, y1 + 10, 120 if k < 2 else 110, 14 if k < 2 else 12) for k, (y0, y1, x1) in enumerate(rr)] + BANDE}
+
+
+def _ch(i):
+    rr = _CH[i]; pz = [CH('t1', 30, rr[0][0] - 12, rr[0][2] + 40, rr[0][1] + 12, 150, 18), CH('t2', 30, rr[1][0] - 12, rr[1][2] + 40, rr[1][1] + 12, 120, 18)]
+    pz += [CH(f's{k}', 40, y0 - 10, x1 + 40, y1 + 10, 120, 16) for k, (y0, y1, x1) in enumerate(rr[2:], 1)]
+    return {'base': 'grafiche/S05A.png', 'pezzi': pz + [C('box', 52, 874, 1028, 1258, 32, 'diffusione')]}
+
+
+def _anim_ov1(w1, w2, w3):
+    return ov([P('badge', ['pop', 0.3, 0.4]), P('t1', ['slam', w1, 0.35]), P('t2', ['slam', w2, 0.35]),
+               P('sotto', ['wipe', w3, 0.9]), P('firma', ['fade', 0.6, 0.8], fisso=True)], 0.5)
+
+
+def _anim_ov2(i, ws):
+    n = len(_OV2[i][1]); nomi = ['t1', 't2', 's1', 's2']
+    return ov([P(nomi[k], ['slam' if k < 2 else 'wipe', ws[k], 0.35 if k < 2 else 0.9]) for k in range(n)])
+
+
+def _anim_ch(i, durata):
+    n = len(_CH[i]) - 2
+    return pieno([P('box', ['pop', 0.0, 0.25]), P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]),
+                  *[P(f's{k}', ['wipe', 0.35 + 0.1 * k, 0.4]) for k in range(1, n + 1)]],
+                 camera=[[0, 1.0, 540, 960], [durata, 1.04, 540, 900]])
+
+
+def _righe(prefisso, rr, x0=66, x1=1015, r=20, m=4, riempi='tinta'):
+    return [C(f'{prefisso}{k}', x0, y0 - m, x1, y1 + m, r, riempi) for k, (y0, y1) in enumerate(rr, 1)]
+
+
+def _spunte(rr, x0=78, x1=160):
+    return [{'id': f'v{k}', 'm': ['verde', x0, y0, x1, y1]} for k, (y0, y1) in enumerate(rr, 1)]
+
+
+def _inchiostro(rr, soglia=130):
+    return [{'id': f'l{k}', 'riempi': 'tinta', 'm': ['scuro', x0 - 6, y0 - 6, x1 + 6, y1 + 6, soglia]} for k, (x0, y0, x1, y1) in enumerate(rr, 1)]
+
+
+_LETTERA = [(179, 324, 761, 397), (173, 448, 636, 501), (173, 577, 948, 641), (164, 717, 961, 777), (159, 858, 685, 900),
+            (155, 987, 632, 1034), (150, 1124, 689, 1181), (145, 1254, 505, 1304), (141, 1386, 693, 1449), (598, 1578, 928, 1622)]
+_SCONTRINO = [(387, 415), (469, 497), (551, 579), (632, 661), (716, 750), (796, 832), (877, 914), (959, 996), (1042, 1071), (1124, 1153)]
+_SARA = [(470, 443, 572), (750, 726, 852), (1030, 1003, 1092), (1310, 1288, 1372)]     # (centro del pallino, testo y0, y1)
+_CASA = [(470, 448, 572), (750, 728, 852), (1030, 1003, 1132), (1310, 1283, 1412)]
+
+
+def _giornata(voci):
+    pz = []
+    for k, (cy, y0, y1) in enumerate(voci, 1):
+        pz += [R(f'h{k}', 12, cy + 44, 170, cy + 107), {'id': f'p{k}', 'riempi': 'tinta', 'm': ['cerchio', 180, cy, 35]},
+               R(f'x{k}', 212, y0 - 8, 1016, y1 + 8)]
+    return pz
+
+
+EPISODI.update({
+    CV[1]: {'S01': _ov1(1), _ov2(1)[0]: _ov2(1)[1], 'S05': _ch(1),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('t1', 60, 288, 770, 344), R('t2', 60, 362, 560, 425),
+                                                          *_righe('c', [(470, 681), (700, 911), (930, 1141), (1160, 1371)])]},
+            'S04': {'base': 'grafiche/S04A.png', 'pezzi': [R('t1', 60, 285, 730, 365), R('t2', 60, 385, 810, 465),
+                                                          *_righe('c', [(520, 691), (715, 886), (910, 1081), (1125, 1286)])]}},
+    CV[2]: {'S01': _ov1(2), _ov2(2)[0]: _ov2(2)[1], 'S05': _ch(2),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': _inchiostro(_LETTERA)},
+            'S03': {'base': 'grafiche/S03A.png', 'pezzi': [R('t1', 60, 290, 590, 359), R('t2', 60, 369, 460, 438),
+                                                          *_spunte([(y0 + 10, y1 - 10) for y0, y1 in [(470 + 106 * k, 563 + 106 * k) for k in range(7)]]),
+                                                          *_righe('r', [(470 + 106 * k, 563 + 106 * k) for k in range(7)], m=3),
+                                                          C('box', 66, 1228, 1015, 1387, 22)]}},
+    CV[3]: {'S01': _ov1(3), _ov2(3)[0]: _ov2(3)[1], 'S05': _ch(3),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
+                {'id': 'orologio', 'riempi': 'tinta', 'm': ['cerchio', 540, 560, 258]},
+                {'id': 'barra', 'riempi': 'tinta', 'm': ['rosso', 95, 1205, 985, 1242]},
+                *_righe('o', [(900, 1011), (1035, 1146), (1170, 1281)], 84, 997, 50), R('oppure', 380, 1295, 712, 1410)]},
+            'S04': {'base': 'grafiche/S04A.png', 'pezzi': [R('t1', 60, 276, 300, 359), R('t2', 60, 355, 330, 438),
+                                                          *_righe('c', [(480, 717), (746, 905), (934, 1132)])]}},
+    CV[4]: {'S01': _ov1(4), _ov2(4)[0]: _ov2(4)[1], 'S05': _ch(4),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('t1', 60, 275, 620, 356), R('t2', 60, 369, 800, 435),
+                                                          *[C(f'k{k}', x0, y0, x1, y1, 26) for k, (x0, y0, x1, y1) in enumerate(
+                                                              [(64, 514, 524, 827), (552, 514, 1014, 827), (64, 854, 524, 1167),
+                                                               (552, 854, 1014, 1167), (64, 1194, 524, 1507), (552, 1194, 1014, 1507)], 1)]]},
+            'S03': {'base': 'grafiche/S03A.png', 'pezzi': [R('titolo', 130, 262, 960, 345),
+                                                          {'id': 'barra', 'riempi': 'tinta', 'm': ['rosso', 240, 548, 505, 618]},
+                                                          R('carte', 60, 440, 1080, 1485)]}},
+    CV[5]: {'S01': _ov1(5), _ov2(5)[0]: _ov2(5)[1], 'S05': _ch(5),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('timbro', 770, 805, 975, 1032), R('cart', 20, 274, 1062, 1638)]},
+            'S03': {'base': 'grafiche/S03A.png', 'pezzi': [
+                {'id': 'sotto', 'src': 'grafiche/S02A.png', 'buca': False, 'm': ['rect', 20, 274, 1062, 1638]},
+                R('timbro', 770, 805, 975, 1032), R('cart', 20, 274, 1062, 1638)]}},
+    CV[6]: {'S01': _ov1(6), _ov2(6)[0]: _ov2(6)[1], 'S05': _ch(6),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('titolo', 60, 298, 930, 368), *_giornata(_SARA)]},
+            'S04': {'base': 'grafiche/S04A.png', 'pezzi': [R('titolo', 60, 298, 650, 378), *_giornata(_CASA)]}},
+    CV[7]: {'S01': _ov1(7), _ov2(7)[0]: _ov2(7)[1], 'S05': _ch(7),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('t1', 60, 250, 1020, 350), R('t2', 60, 354, 1020, 452),
+                                                          *_righe('f', [(540, 661), (690, 811), (840, 961), (990, 1111), (1140, 1261)], 84, 997, 22)]},
+            'S03': {'base': 'grafiche/S03A.png', 'pezzi': [R('t1', 60, 290, 610, 359), R('t2', 60, 369, 440, 438),
+                                                          *_righe('c', [(500, 725), (764, 989)]), C('arancio', 66, 1024, 1015, 1143, 56)]}},
+    CV[8]: {'S01': _ov1(8), _ov2(8)[0]: _ov2(8)[1], 'S05': _ch(8),
+            'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('testa', 200, 246, 890, 340),
+                                                          *[R(f'r{k}', 200, y0 - 12, 880, y1 + 12) for k, (y0, y1) in enumerate(_SCONTRINO, 1)],
+                                                          R('chi', 200, 1225, 880, 1300)]},
+            'S03': {'base': 'grafiche/S03A.png', 'pezzi': [R('t1', 60, 282, 670, 353), R('t2', 60, 382, 420, 453), R('t3', 60, 482, 710, 554),
+                                                          *_spunte([(y0 + 12, y1 - 12) for y0, y1 in [(640 + 135 * k, 751 + 135 * k) for k in range(5)]], 80, 150),
+                                                          *_righe('r', [(640 + 135 * k, 751 + 135 * k) for k in range(5)], r=48, m=3)]}},
+})
+
+
+def _fila(pref, parole, tipo='slideL', d=0.4, spunte=False):
+    out = []
+    for k, w in enumerate(parole, 1):
+        out.append(P(f'{pref}{k}', [tipo, w, d], figli=[P(f'v{k}', ['pop', f'{w}+0.35', 0.3])] if spunte else None))
+    return out
+
+
+def _giorno(parole):
+    out = []
+    for k, w in enumerate(parole, 1):
+        out += [P(f'p{k}', ['pop', w, 0.3]), P(f'h{k}', ['slideL', f'{w}+0.1', 0.35]), P(f'x{k}', ['wipe', f'{w}+0.2', 0.6])]
+    return out
+
+
+ANIM.update({
+    CV[1]: {'S01': _anim_ov1('signore', 'benvenuti', 'decollo'), 'S03': _anim_ov2(1, ['paracadute', 'polizza', 'franchigie', 'sorprese']),
+            'S05': _anim_ch(1, 14),
+            'S02': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['wipe', 0.3, 0.8]), *_fila('c', ['turni', 'colpa', 'senza', 'tasca+0.6'], 'slideR')]),
+            'S04': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 'paracadute', 0.35]), *_fila('c', ['iscritto', 'accedi', 'attivi'], 'slideL'),
+                          P('c4', ['pop', 'libera', 0.4])])},
+    CV[2]: {'S01': _anim_ov1('cara', 'scrivo', 'pensione'), 'S04': _anim_ov2(2, ['tempo', 'salute', 'firmato']), 'S05': _anim_ch(2, 14),
+            'S02': pieno([P('l1', ['wipe', 0.0, 0.7]), P('l2', ['wipe', 0.5, 0.7]),
+                          *[P(f'l{k}', ['wipe', w, 1.0]) for k, w in zip(range(3, 10), ['iscrivesti', 'vita', 'carenza', 'qualunque', 'famiglia', 'detraibile', 'detraibile+1.0'])],
+                          P('l10', ['fade', 'detraibile+1.8', 0.6])], camera=[[0, 1.0, 540, 960], [15, 1.04, 540, 960]]),
+            'S03': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.3, 0.35]),
+                          *_fila('r', ['visite', 'ricoveri', 'ricoveri$', 'prevenzione', 'fisioterapia', 'dentale', 'telemedicina'], spunte=True),
+                          P('box', ['pop', 'migliaia', 0.4])])},
+    CV[3]: {'S01': _anim_ov1('tre', 'notte', 'febbre'), 'S03': _anim_ov2(3, ['lapp', 'medico', 'notte', 'strutture']), 'S05': _anim_ch(3, 12),
+            'S02': pieno([P('orologio', ['zoom', 0.0, 0.5]), *_fila('o', ['aspettare', 'correre', 'peggiore'], 'slideL'),
+                          P('barra', ['wipe', 'internet+0.2', 0.5]), P('oppure', ['wipe', 'oppure#2', 0.8])], urti=['internet+0.4']),
+            'S04': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.3, 0.35]), *_fila('c', ['tutto', 'xte', 'alpifarma'], 'slideU', 0.45)])},
+    CV[4]: {'S01': _anim_ov1('benvenuti', 'carriera', 'dadi'), 'S04': _anim_ov2(4, ['mossa', 'consigliamo', 'master']), 'S05': _anim_ch(4, 13),
+            'S02': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.3, 0.35]),
+                          *[P(f'k{k}', ['pop', w, 0.35]) for k, w in enumerate(['iul', 'izeos', 'unitelma', 'unifortunato', 'ecm', 'inglese'], 1)]]),
+            'S03': pieno([P('titolo', ['slam', 0.1, 0.35]), P('carte', ['drop', 'carta', 0.45], figli=[P('barra', ['wipe', 'imprevisti+0.4', 0.4])])],
+                         urti=['imprevisti+0.6'])},
+    CV[5]: {'S01': _anim_ov1('riposo', 'sacro', 'cartoline'), 'S04': _anim_ov2(5, ['saluti', 'weroad', 'trekking', 'zampe']), 'S05': _anim_ch(5, 14),
+            'S02': pieno([P('cart', ['vola', 0.0, 0.7], figli=[P('timbro', ['stampa', 'flash', 0.3])])], urti=['flash+0.2']),
+            'S03': pieno([P('sotto'), P('cart', ['vola', 0.0, 0.7], figli=[P('timbro', ['stampa', 'bitq', 0.3])])], urti=['bitq+0.2'])},
+    CV[6]: {'S01': _anim_ov1('otto', 'minuto', 'sara'), 'S03': _anim_ov2(6, ['venti', 'eataly', 'calabria']), 'S05': _anim_ch(6, 15),
+            'S02': pieno([P('titolo', ['slam', 0.1, 0.35]), *_giorno(['nove', 'dieci', 'piadina', 'capo'])]),
+            'S04': pieno([P('titolo', ['slam', 0.1, 0.35]), *_giorno(['luce', 'depuratore', 'piattaforma', 'lauto'])])},
+    CV[7]: {'S01': _anim_ov1('mezzanotte', 'schermo', 'pec'), 'S04': _anim_ov2(7, ['digitale', 'paura', 'domande', 'clic']), 'S05': _anim_ch(7, 12),
+            'S02': pieno([P('t1', ['neon', 0.1, 0.6]), P('t2', ['neon', 0.4, 0.6]),
+                          *_fila('f', ['password', 'codici', 'file', 'sessione', 'spiegazioni'], 'neon', 0.5)]),
+            'S03': pieno([P('t1', ['slam', 'esorcismo', 0.35]), P('t2', ['slam', 'esorcismo+0.3', 0.35]),
+                          *_fila('c', ['spid', 'pec'], 'slideL', 0.45), P('arancio', ['pop', 'familiari', 0.4])],
+                         camera=[[0, 1.0, 540, 960], [11, 1.04, 540, 900]])},
+    CV[8]: {'S01': _anim_ov1('quanto', 'tessera', 'conti'), 'S04': _anim_ov2(8, ['risultato', 'sorprende', 'conti']), 'S05': _anim_ch(8, 14),
+            'S02': pieno([P('testa', ['wipeD', 0.0, 0.4]),
+                          *[P(f'r{k}', ['wipeD', w, 0.35]) for k, w in enumerate(['farmacia', 'animali', 'universita', 'meta', 'enogastronomia',
+                                                                                 'cinema', 'viaggi', 'polizza', 'fondo', 'medico'], 1)],
+                          P('chi', ['slam', 'famiglia', 0.35])], camera=[[0, 1.0, 540, 700], [19, 1.06, 540, 1000]]),
+            'S03': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.3, 0.35]), P('t3', ['slam', 'prezzo', 0.35]),
+                          *_fila('r', ['contratto', 'cedolino', 'corsi', 'lassistenza', 'qualcuno'], spunte=True)])},
+})
+
+
 def verifica(pg):
     """tutte le parole-ancora devono esistere nella voce tagliata."""
     import json
