@@ -1,0 +1,173 @@
+{
+  "progetto": "PDRO_Turni_12_ore_Librogame",
+  "titolo": "Scegli il tuo turno – turni da 12 ore",
+  "serie": "CISL FP informa",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Scegli il tuo turno",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "lg_bivio.png",
+      "voce": "Questa storia la scrivi tu. Sei un infermiere, un OSS, un tecnico. Nel tuo reparto si comincia a parlare di turni da dodici ore. Che cosa fai? Scegli la tua strada.",
+      "parole": 31,
+      "durata_stimata_s": 11.3,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/lg_bivio.png: l'infermiera guarda i due corridoi, le lancette dei due orologi si muovono, la luce cambia.",
+      "regia": "Suono di pagina che si gira; musica d'avventura leggera."
+    },
+    {
+      "n": 2,
+      "titolo": "Pagina 1",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Se vuoi provare il modello sei, sei, dodici, vai a pagina dodici. Se preferisci restare con il modello attuale, vai a pagina otto. E attenzione: entrambe le strade sono giuste. Purché sia tu a sceglierle.",
+      "parole": 35,
+      "durata_stimata_s": 14.1,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Pagina di libro che si apre; i due riquadri si illuminano alternandosi."
+    },
+    {
+      "n": 3,
+      "titolo": "Pagina 12: il percorso",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Pagina dodici. La richiesta deve partire formalmente dal Direttore e dal Coordinatore dell'Unità Operativa. Poi le Direzioni valutano la sostenibilità organizzativa, assistenziale e contrattuale. Seguono i passaggi informativi e sindacali. E soprattutto, si verifica il reale interesse dei lavoratori.",
+      "parole": 39,
+      "durata_stimata_s": 20.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La pagina si gira con un 'fruscio'; i quattro passi si illuminano lungo la linea verde."
+    },
+    {
+      "n": 4,
+      "titolo": "Pagina 8: restare",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Pagina otto. Chi non ritiene i turni da dodici ore adatti alla propria vita deve essere ascoltato. Nessun modello deve essere imposto, e nessuno deve diventare irreversibile. E le regole devono essere le stesse in tutti i reparti.",
+      "parole": 38,
+      "durata_stimata_s": 15.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Pagina azzurra; i tre bollini entrano uno alla volta."
+    },
+    {
+      "n": 5,
+      "titolo": "La pagina trappola",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ma attenzione alla pagina trappola. Quella in cui qualcuno decide per te e, già che c'è, cambia anche i tempi di vestizione e consegna. Questa pagina non vale. Il nuovo orario non cambia automaticamente quei tempi: sono negli accordi, e si discutono solo al tavolo sindacale.",
+      "parole": 46,
+      "durata_stimata_s": 19.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Musica che si fa minacciosa; la pagina trema; FINE? in rosso; timbro NON VALE con colpo secco."
+    },
+    {
+      "n": 6,
+      "titolo": "Le regole del gioco",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Per questo chiediamo un regolamento aziendale con le regole del gioco: criteri uguali per tutti, rispetto della volontà del personale, attenzione a carichi e sicurezza, possibilità di tornare indietro se qualcosa non funziona, e il coinvolgimento dei sindacati.",
+      "parole": 38,
+      "durata_stimata_s": 18.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le cinque regole entrano come carte da gioco."
+    },
+    {
+      "n": 7,
+      "titolo": "La scelta è vostra",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "lg_voto.png",
+      "voce": "Perché in questo libro il finale lo decide chi lavora. Una scelta libera, consapevole e sostenibile.",
+      "parole": 16,
+      "durata_stimata_s": 6.9,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/lg_voto.png: le mani si alzano per votare, sorrisi, la coordinatrice conta.",
+      "regia": "Musica che si apre; tono positivo."
+    },
+    {
+      "n": 8,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Non siamo contrari ai turni da dodici ore: siamo contrari alle scorciatoie. La flessibilità deve essere un'opportunità per i lavoratori, non un alibi per scavalcare gli accordi. La volontà dei lavoratori si rispetta. Gli accordi si applicano. Le regole si condividono. CISL FP Padova Rovigo.",
+      "parole": 45,
+      "durata_stimata_s": 17.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S08A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Tre bande colorate con il motto; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

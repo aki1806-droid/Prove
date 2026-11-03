@@ -1,0 +1,632 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"storia",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"tu",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"infermiere",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "pag",
+"in": [
+"pop",
+0.0,
+0.35
+]
+},
+{
+"p": "titolo",
+"in": [
+"slam",
+0.15,
+0.35
+]
+},
+{
+"p": "domanda",
+"in": [
+"wipe",
+0.3,
+1.2
+]
+},
+{
+"p": "b1",
+"in": [
+"pop",
+"provare",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"entrambe",
+0.9,
+0.04
+]
+]
+},
+{
+"p": "b2",
+"in": [
+"pop",
+"preferisci",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"giuste",
+0.9,
+0.04
+]
+]
+},
+{
+"p": "nota",
+"in": [
+"wipe",
+"giuste",
+1.2
+]
+},
+{
+"p": "coda",
+"in": [
+"fade",
+"giuste+0.9",
+0.3
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+960
+]
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "pag",
+"in": [
+"pop",
+0.0,
+0.35
+]
+},
+{
+"p": "titolo",
+"in": [
+"slam",
+0.3,
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"slideL",
+"richiesta",
+0.45
+]
+},
+{
+"p": "s2",
+"in": [
+"slideL",
+"direzioni",
+0.45
+]
+},
+{
+"p": "s3",
+"in": [
+"slideL",
+"passaggi",
+0.45
+]
+},
+{
+"p": "s4",
+"in": [
+"slideL",
+"verifica",
+0.45
+]
+},
+{
+"p": "nota",
+"in": [
+"wipe",
+"lavoratori",
+1.0
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+20,
+1.04,
+540,
+960
+]
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "pag",
+"in": [
+"pop",
+0.0,
+0.35
+]
+},
+{
+"p": "titolo",
+"in": [
+"slam",
+0.3,
+0.35
+]
+},
+{
+"p": "script",
+"in": [
+"wipe",
+"chi",
+2.0
+]
+},
+{
+"p": "p1",
+"in": [
+"pop",
+"imposto",
+0.4
+]
+},
+{
+"p": "p2",
+"in": [
+"pop",
+"irreversibile",
+0.4
+]
+},
+{
+"p": "p3",
+"in": [
+"pop",
+"stesse",
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.04,
+540,
+960
+]
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "pag",
+"in": [
+"pop",
+0.0,
+0.35
+]
+},
+{
+"p": "titolo",
+"in": [
+"slam",
+"trappola",
+0.35
+],
+"fx": [
+[
+"trema",
+"trappola+0.3",
+"trappola+1.2",
+4
+]
+]
+},
+{
+"p": "script",
+"in": [
+"wipe",
+"qualcuno",
+2.2
+]
+},
+{
+"p": "fine",
+"in": [
+"slam",
+"consegna+0.2",
+0.35
+],
+"fx": [
+[
+"trema",
+"consegna+0.5",
+"questa",
+5
+]
+]
+},
+{
+"p": "timbro",
+"in": [
+"stampa",
+"vale",
+0.3
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+18,
+1.05,
+540,
+960
+]
+],
+"urti": [
+"vale+0.2"
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"regole",
+0.35
+]
+},
+{
+"p": "sub",
+"in": [
+"wipe",
+"regolamento",
+0.8
+]
+},
+{
+"p": "r1",
+"in": [
+"drop",
+"criteri",
+0.4
+]
+},
+{
+"p": "r2",
+"in": [
+"drop",
+"rispetto",
+0.4
+]
+},
+{
+"p": "r3",
+"in": [
+"drop",
+"attenzione",
+0.4
+]
+},
+{
+"p": "r4",
+"in": [
+"drop",
+"possibilita",
+0.4
+]
+},
+{
+"p": "r5",
+"in": [
+"drop",
+"coinvolgimento",
+0.4
+]
+}
+]
+},
+"S07": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"libro",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"finale",
+0.35
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+"libera",
+1.0
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S08": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "f1",
+"in": [
+"slideL",
+0.4,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"rispetta",
+0.8,
+0.05
+]
+]
+},
+{
+"p": "f2",
+"in": [
+"slideL",
+0.5,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"applicano",
+0.8,
+0.05
+]
+]
+},
+{
+"p": "f3",
+"in": [
+"slideL",
+0.6000000000000001,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"condividono",
+0.8,
+0.05
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+17,
+1.04,
+540,
+900
+]
+]
+}
+}

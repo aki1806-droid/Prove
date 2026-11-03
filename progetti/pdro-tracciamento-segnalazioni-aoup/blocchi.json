@@ -1,0 +1,177 @@
+{
+  "progetto": "PDRO_Tracciamento_segnalazioni_AOUP",
+  "titolo": "Le tue segnalazioni: a che punto sono?",
+  "serie": "CISL FP informa",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Traccia la segnalazione",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "tr_tracking.png",
+      "voce": "Hai presente quando aspetti un pacco e controlli il tracciamento ogni ora? Ecco. Con le segnalazioni dei reparti succede lo stesso. Le abbiamo spedite alla Direzione. Vediamo a che punto sono.",
+      "parole": 31,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/tr_tracking.png: l'infermiera aggiorna lo schermo del telefono e alza un sopracciglio, scettica.",
+      "regia": "Suono di notifica da app di consegne; titolo che entra."
+    },
+    {
+      "n": 2,
+      "titolo": "Sciopero e malattie infettive",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Prima di tutto: non era un tavolo di contrattazione, ma un incontro informativo. Segnalazione uno, sciopero e contingenti minimi: tabella corretta, ora la verifichiamo prima della firma. Segnalazione due, malattie infettive: consegna parziale. Per noi la sicurezza non si misura solo in posti letto, ma sulla complessità dei pazienti. E il supporto OSS serve.",
+      "parole": 54,
+      "durata_stimata_s": 24.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Schermata da app di tracciamento; le barre di avanzamento si riempiono fino allo stato attuale."
+    },
+    {
+      "n": 3,
+      "titolo": "Turni da dodici ore",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Segnalazione tre, turni da dodici ore: in transito verso il tavolo sindacale. La nostra linea è chiara: rispetto della volontà dei lavoratori, regole uguali per tutti, possibilità di correggere ciò che non funziona, e nessuna modifica automatica dei tempi di vestizione e consegna.",
+      "parole": 43,
+      "durata_stimata_s": 19.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        },
+        {
+          "file": "grafiche/S03B.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "A: card in blu IN TRANSITO. B (su 'La nostra linea'): i quattro principi; frase finale in rosso."
+    },
+    {
+      "n": 4,
+      "titolo": "Pediatria e sale operatorie",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Segnalazioni quattro e cinque: in lavorazione. In Pediatria si rivedono i compiti degli OSS, ma senza nuovo personale: non basta spostare il problema. Nelle sale operatorie si cerca di limitare le chiamate notturne. Ma gli sforamenti ripetuti non possono diventare la normalità.",
+      "parole": 42,
+      "durata_stimata_s": 19.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Due card viola IN LAVORAZIONE; leggero suono di ingranaggi."
+    },
+    {
+      "n": 5,
+      "titolo": "CRIC e Radiologie",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Segnalazione sei, la riapertura del CRIC: consegna rinviata, di circa un mese. Chiediamo che riparta con personale adeguato. Segnalazione sette, Radiologie e altre questioni: in attesa di informazioni. E ricordiamolo: le questioni senza risposta non sono questioni risolte.",
+      "parole": 38,
+      "durata_stimata_s": 18.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Card rossa CONSEGNA RINVIATA con suono di errore; card grigia IN ATTESA con orologio che gira."
+    },
+    {
+      "n": 6,
+      "titolo": "Le nostre priorità",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "È positivo che l'Azienda abbia cominciato a rispondere. Ma molte risposte restano parziali. Le nostre priorità non cambiano: sicurezza e carichi sostenibili, rispetto degli accordi, organizzazione trasparente, ascolto vero dei lavoratori, e attenzione a chi rischia di andarsene.",
+      "parole": 38,
+      "durata_stimata_s": 19.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le cinque priorità si spuntano una alla volta."
+    },
+    {
+      "n": 7,
+      "titolo": "Continua a segnalare",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "tr_postit.png",
+      "voce": "Per questo continuiamo a raccogliere le vostre segnalazioni, a verificare le risposte, e a riportare al tavolo tutto ciò che è rimasto aperto.",
+      "parole": 23,
+      "durata_stimata_s": 9.8,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/tr_postit.png: i colleghi consegnano i foglietti alla delegata, che li attacca sulla bacheca e annuisce.",
+      "regia": "Ritmo deciso; musica che cresce."
+    },
+    {
+      "n": 8,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Non ci basta sapere che un problema è all'attenzione dell'Azienda. Vogliamo sapere come e quando verrà risolto. Continuate a segnalarci quello che succede nei reparti: noi lo seguiamo fino alla consegna. CISL FP Padova Rovigo. Con i fatti, non con le parole.",
+      "parole": 42,
+      "durata_stimata_s": 15.9,
+      "grafiche": [
+        {
+          "file": "grafiche/S08A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Riquadro rosso per le segnalazioni; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}

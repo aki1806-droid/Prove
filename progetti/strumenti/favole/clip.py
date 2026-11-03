@@ -34,6 +34,12 @@ CLIP = {
     'pdro-originale-archeologi-del-futuro': {
         'S01': ('or_scavo.png', 'The archaeologists gently dust off an old rusty hospital bed overgrown with moss, holograms light up above their tablets, filtered light through the vegetation, slow push-in.'),
         'S04': ('or_museo.png', 'The light slowly focuses on the small green card inside the glass display case, visitors from the future lean in curiously, slow push-in.')},
+    'pdro-tracciamento-segnalazioni-aoup': {
+        'S01': ('tr_tracking.png', 'In the hospital locker room the nurse scrolls and refreshes the screen of her phone, then slowly raises one eyebrow, sceptical, soft cool light, slow push-in.'),
+        'S07': ('tr_postit.png', 'The colleagues hand their coloured notes to the union delegate, she takes them, sticks one on the board behind her and nods firmly, bright corridor light, slow camera drift.')},
+    'pdro-turni-12-ore-librogame': {
+        'S01': ('lg_bivio.png', 'The nurse, seen from behind, looks left and right at the two hospital corridors, the hands of the two wall clocks move, the light in the corridors slowly changes, slow push-in.'),
+        'S07': ('lg_voto.png', 'In the meeting room the staff raise their hands to vote and smile, the coordinator with the clipboard counts the hands and smiles, warm daylight, slow push-in.')},
 }
 
 

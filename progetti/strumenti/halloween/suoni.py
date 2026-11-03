@@ -75,9 +75,15 @@ CAT = {'vento': ('sound_effects', 'wind howling night', 'dcc590846602e641'),
        'mus_unboxing': ('music', 'unboxing upbeat lo-fi', 'ae1068d977dc4df0be8b51777299ae37'),
        'mus_quiz': ('music', 'quiz show music', 'c669d07ed127481398e4d0a1cfd604fc'),
        'mus_archeologi': ('music', 'documentary mysterious archaeology', '8271d164265641388b6b49df46684b6b'),
-       'mus_parttime': ('music', 'soft tender acoustic warm', '651cf562bc1a48bbbca25615223a344e')}
+       'mus_parttime': ('music', 'soft tender acoustic warm', '651cf562bc1a48bbbca25615223a344e'),
+       # Tracciamento delle segnalazioni e Librogame dei turni da 12 ore
+       'ingranaggi': ('sound_effects', 'gears mechanism', '393934d3a3ccc457'),
+       'notifica2': ('sound_effects', 'delivery notification', 'a26de62bfb206d77'),
+       'mus_segnalazioni': ('music', 'driving upbeat corporate tech pulse', 'f3187970539143b7855d1d5ceca56f40'),
+       'mus_librogame': ('music', 'adventure fantasy storybook orchestral', '7d1d88f242db4d1f880d02998b12adc9')}
 # musica a tratti: (chiave, scena da cui parte); Il Turno passa dall'horror alla commedia sul sequel (S06)
 MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')],
+           'librogame': [('mus_librogame', 'S01'), ('mus_turno', 'S05'), ('mus_librogame', 'S06')],
            # estate (ukulele da fiaba), inverno (carillon), formicaio (archi caldi)
            'cicala': [('mus_cicala_estate', 'S01'), ('mus_cicala_inverno', 'S03'), ('mus_cicala_caldo', 'S04')]}
 # (scena, ancora, effetto, volume, durata massima o None)
@@ -181,16 +187,37 @@ EVENTI = {
                  *[('S05', w, 'clic', 0.3, None) for w in ('patologie', 'lhandicap', 'lassistenza', 'figli', 'leta', 'notti')],
                  *[('S06', w, 'pop', 0.3, None) for w in ('ferie', 'incarico', 'documenti', 'modello')],
                  *[('S07', w, 'ding', 0.25, None) for w in ('mano', 'raccomandata', 'pec')], ('S07', 'noi', 'campanella', 0.3, None),
-                 ('S08', 'rovigo', 'campanella', 0.3, None)]}
+                 ('S08', 'rovigo', 'campanella', 0.3, None)],
+    'segnalazioni': [('S01', 0.0, 'notifica2', 0.35, None), ('S01', 'tracciamento', 'ding', 0.25, None), ('S01', 'punto', 'notifica', 0.3, None),
+                     *[('S02', w, k, v, None) for w, k, v in (('uno', 'whoosh', 0.2), ('sciopero', 'clic', 0.25), ('verifichiamo', 'ding', 0.3),
+                                                               ('due', 'whoosh', 0.2), ('infettive', 'clic', 0.25), ('parziale', 'ding', 0.3))],
+                     ('S03', 0.2, 'whoosh', 0.2, None), ('S03', 'transito', 'clic', 0.25, None), ('S03', 'tavolo', 'notifica', 0.3, None),
+                     ('S03', 'linea', 'whoosh', 0.2, None), *[('S03', f'{w}+0.35', 'ding', 0.25, None) for w in ('rispetto', 'regole', 'possibilita', 'nessuna')],
+                     ('S03', 'consegna+0.2', 'tonfo', 0.3, None),
+                     ('S04', 'quattro', 'whoosh', 0.2, None), ('S04', 'pediatria', 'ingranaggi', 0.35, 1.5), ('S04', 'lavorazione', 'ding', 0.3, None),
+                     ('S04', 'sale', 'whoosh', 0.2, None), ('S04', 'operatorie', 'ingranaggi', 0.35, 1.5), ('S04', 'chiamate', 'ding', 0.3, None),
+                     ('S05', 'sei', 'whoosh', 0.2, None), ('S05', 'rinviata', 'sbagliato', 0.35, None),
+                     ('S05', 'sette', 'whoosh', 0.2, None), ('S05', 'attesa', 'tic', 0.25, 3.0),
+                     *[('S06', f'{w}+0.35', 'ding', 0.25, None) for w in ('sicurezza', 'rispetto', 'organizzazione', 'ascolto', 'attenzione')],
+                     ('S07', 'continuiamo', 'whoosh', 0.2, None), ('S07', 'tavolo', 'notifica', 0.3, None),
+                     ('S08', 'rovigo', 'campanella', 0.3, None)],
+    'librogame': [*[(s, 0.0, 'pagina', 0.4, None) for s in ('S01', 'S02', 'S03', 'S04', 'S05')], ('S01', 'tu', 'chime', 0.3, None),
+                  ('S02', 'provare', 'ding', 0.25, None), ('S02', 'preferisci', 'ding', 0.25, None), ('S02', 'giuste', 'chime', 0.3, None),
+                  *[('S03', w, 'whoosh', 0.18, None) for w in ('richiesta', 'direzioni', 'passaggi', 'verifica')],
+                  *[('S04', w, 'pop', 0.3, None) for w in ('imposto', 'irreversibile', 'stesse')],
+                  ('S05', 'trappola', 'braam', 0.35, 3.0), ('S05', 'consegna+0.2', 'tonfo', 0.35, None), ('S05', 'vale', 'timbro', 0.5, None),
+                  *[('S06', w, 'whoosh', 0.2, None) for w in ('criteri', 'rispetto', 'attenzione', 'possibilita', 'coinvolgimento')],
+                  ('S07', 'decide', 'applausi', 0.25, 2.5), ('S08', 'rovigo', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
         'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
         'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16', 're': 'PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16',
         'gatto': 'PDRO_Favole_Il_Gatto_la_Volpe_e_il_Campo_dei_Miracoli_9x16', 'porcellini': 'PDRO_Favole_I_tre_porcellini_e_il_lupo_9x16',
         'meteo': 'PDRO_Originali_Il_meteo_dei_diritti_9x16', 'unboxing': 'PDRO_Originali_Unboxing_CISL_FP_9x16',
         'quiz': 'PDRO_Originali_Il_Quizzone_della_corsia_9x16', 'archeologi': 'PDRO_Originali_Gli_archeologi_del_futuro_9x16',
-        'parttime': 'PDRO_Bando_Part_time_2026_AOUP_9x16'}
+        'parttime': 'PDRO_Bando_Part_time_2026_AOUP_9x16', 'segnalazioni': 'PDRO_Le_tue_segnalazioni_a_che_punto_sono_9x16',
+        'librogame': 'PDRO_Scegli_il_tuo_turno_turni_12_ore_9x16'}
 MUSICA_VOL = 0.13
-CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026'}
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026', 'segnalazioni': 'pdro-tracciamento-segnalazioni-aoup', 'librogame': 'pdro-turni-12-ore-librogame'}
 
 
 def norm(s):

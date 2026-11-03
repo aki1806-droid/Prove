@@ -21,6 +21,28 @@ UN = 'pdro-originale-unboxing-cisl-fp'
 QZ = 'pdro-originale-quizzone-della-corsia'
 AR = 'pdro-originale-archeologi-del-futuro'
 PT = 'pdro-bando-part-time-2026'
+TR = 'pdro-tracciamento-segnalazioni-aoup'
+LG = 'pdro-turni-12-ore-librogame'
+K3 = [(530, 640), (730, 887), (930, 1087), (1130, 1287)]        # le quattro card di «La nostra linea» (S03B)
+P6 = [(500, 603), (624, 773), (794, 943), (964, 1113), (1134, 1283)]  # le cinque priorità (S06)
+
+
+def B(pz):
+    """pezzo preso dalla seconda grafica della scena (S03B)."""
+    return {**pz, 'src': 'grafiche/S03B.png'}
+
+
+def scheda(n, y0, y1, xb, xbadge=None):
+    """card di tracciamento: bollino e barra si ritagliano prima (figli), poi la card intera."""
+    return [C(f'bol{n}', 86, y0 + 125, (xbadge or 0) or 600, y0 + 184, 26), R(f'bar{n}', 86, y0 + 212, xb + 8, y0 + 257),
+            C(f'card{n}', 46, y0 - 6, 1034, y1 + 9, 28)]
+
+
+def anim_scheda(n, entra, barra, bollino, fx=None, fuori=None):
+    return [P(f'card{n}', ['slideL', entra, 0.45], fuori, figli=[
+        P(f'bar{n}', ['wipe', barra, 0.9]), P(f'bol{n}', ['pop', bollino, 0.35], fx=fx)])]
+
+
 
 
 def titolo_favola(t1y, t2y, soty, x1=(440, 880, 840)):
@@ -201,6 +223,60 @@ EPISODI = {
             CH('t1', 30, 256, 760, 361, 150, 18), CH('t2', 30, 379, 860, 466, 120, 18), CH('s1', 40, 488, 960, 558, 120, 16),
             C('scadenza', 56, 612, 700, 720, 40, 'diffusione'), C('box', 56, 890, 650, 1176, 24, 'diffusione')]},
     },
+    TR: {
+        'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
+            CH('badge', 70, 1104, 520, 1198, 120, 8), CH('t1', 70, 1226, 460, 1314, 120, 14), CH('t2', 70, 1330, 880, 1419, 120, 14),
+            CH('sotto', 70, 1452, 530, 1526, 110, 12), CH('firma', 320, 1848, 1060, 1884, 100, 3), *BANDE]},
+        'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('titolo', 60, 288, 760, 350), *scheda(1, 426, 825, 694), *scheda(2, 866, 1305, 694)]},
+        'S03': {'base': 'grafiche/S03A.png', 'fondi': {'fondoA': 'grafiche/S03A.png', 'fondoB': 'grafiche/S03B.png'}, 'pezzi': [
+            *scheda(1, 426, 865, 411),
+            *[B(R(f'{n}', 60, y0, 900, y1, 'righe')) for n, y0, y1 in [('t1', 285, 362), ('t2', 376, 446)]],
+            *[B({'id': f'v{i}', 'm': ['verde', 92, (y0 + y1) // 2 - 34, 172, (y0 + y1) // 2 + 34]}) for i, (y0, y1) in enumerate(K3, 1)],
+            *[B(C(f'k{i}', 64, y0 - 6, 1016, y1 + 6, 26, 'righe')) for i, (y0, y1) in enumerate(K3, 1)],
+            B(R('si', 150, 1350, 930, 1412, 'righe')), B(R('no', 150, 1420, 930, 1478, 'righe'))]},
+        'S04': {'base': 'grafiche/S04A.png', 'pezzi': [R('titolo', 60, 288, 760, 350), *scheda(1, 426, 865, 694), *scheda(2, 906, 1345, 694)]},
+        'S05': {'base': 'grafiche/S05A.png', 'pezzi': [R('titolo', 60, 288, 760, 350), *scheda(1, 426, 825, 411),
+                                                         *scheda(2, 866, 1265, 425, 545)]},
+        'S06': {'base': 'grafiche/S06A.png', 'pezzi': [
+            R('t1', 66, 294, 560, 366), R('t2', 66, 370, 500, 456),
+            *[{'id': f'v{i}', 'm': ['verde', 92, y0 + 18, 160, y0 + 80]} for i, (y0, y1) in enumerate(P6, 1)],
+            *[C(f'r{i}', 66, y0 - 3, 1015, y1 + 3, 18) for i, (y0, y1) in enumerate(P6, 1)]]},
+        'S07': {'base': 'overlay_clip/S07A.png', 'pezzi': [
+            CH('t1', 70, 1251, 830, 1344, 120, 14), CH('t2', 70, 1357, 350, 1425, 120, 14),
+            CH('s1', 70, 1470, 820, 1544, 110, 12), CH('s2', 70, 1546, 510, 1608, 110, 12), *BANDE]},
+        'S08': {'base': 'grafiche/S08A.png', 'pezzi': [
+            CH('t1', 30, 262, 860, 368, 150, 18), CH('t2', 30, 376, 880, 472, 120, 18), CH('s1', 40, 486, 980, 566, 120, 16),
+            C('bottone', 64, 612, 770, 716, 45, 'diffusione'), C('box', 58, 892, 648, 1158, 24, 'diffusione')]},
+    },
+    LG: {
+        'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
+            CH('badge', 70, 1104, 410, 1198, 120, 8), CH('t1', 70, 1225, 480, 1314, 120, 14), CH('t2', 70, 1330, 840, 1419, 120, 14),
+            CH('sotto', 70, 1455, 620, 1530, 110, 12), CH('firma', 320, 1848, 1060, 1884, 100, 3), *BANDE]},
+        'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
+            R('pag', 395, 325, 720, 385), R('titolo', 175, 412, 405, 492), R('domanda', 172, 588, 720, 740),
+            C('b1', 150, 846, 918, 1180, 24), C('b2', 146, 1204, 910, 1542, 24), R('nota', 200, 1588, 835, 1709), {'id': 'coda', 'riempi': 'tinta', 'm': ['rosso', 520, 1700, 680, 1722]}]},
+        'S03': {'base': 'grafiche/S03A.png', 'pezzi': [
+            R('pag', 390, 326, 725, 380), R('titolo', 178, 418, 925, 558),
+            R('s1', 170, 604, 905, 766), R('s2', 163, 767, 900, 985), R('s3', 158, 986, 895, 1147), R('s4', 152, 1147, 895, 1300),
+            R('nota', 185, 1606, 866, 1690)]},
+        'S04': {'base': 'grafiche/S04A.png', 'pezzi': [
+            R('pag', 395, 325, 720, 385), R('titolo', 178, 418, 815, 552), R('script', 170, 615, 890, 870),
+            C('p1', 158, 1028, 916, 1180, 60), C('p2', 153, 1186, 913, 1342, 60), C('p3', 148, 1345, 909, 1500, 60)]},
+        'S05': {'base': 'grafiche/S05A.png', 'pezzi': [
+            {'id': 'fine', 'riempi': 'tinta', 'm': ['rosso', 225, 1025, 875, 1238]},
+            {'id': 'timbro', 'riempi': 'tinta', 'm': ['rosso', 200, 1240, 885, 1585]},
+            R('pag', 350, 322, 692, 392), R('titolo', 145, 422, 768, 512), R('script', 150, 598, 900, 858)]},
+        'S06': {'base': 'grafiche/S06A.png', 'pezzi': [
+            R('t1', 66, 268, 640, 372, 'righe'), R('t2', 66, 385, 645, 472, 'righe'), R('sub', 66, 488, 845, 542, 'righe'),
+            *[C(f'r{i}', 62, c - 80, 1018, c + 80, 18, 'righe') for i, c in enumerate((656, 827, 1000, 1172, 1344), 1)]]},
+        'S07': {'base': 'overlay_clip/S07A.png', 'pezzi': [
+            CH('t1', 70, 1256, 450, 1330, 120, 14), CH('t2', 70, 1350, 440, 1425, 120, 14), CH('s1', 70, 1470, 790, 1540, 110, 12),
+            *BANDE]},
+        'S08': {'base': 'grafiche/S08A.png', 'pezzi': [
+            CH('t1', 30, 262, 900, 368, 150, 18), CH('t2', 30, 374, 1030, 452, 120, 18),
+            *[C(f'f{i}', 64, y0 - 5, 808, y1 + 5, 40, 'diffusione') for i, (y0, y1) in enumerate([(601, 679), (695, 774), (790, 870)], 1)],
+            C('box', 58, 892, 648, 1158, 24, 'diffusione')]},
+    },
 }
 
 ANIM = {
@@ -353,6 +429,62 @@ ANIM = {
         'S08': pieno([P('box', ['pop', 0.0, 0.25]), P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]),
                       P('s1', ['wipe', 0.35, 0.4]), P('scadenza', ['pop', 0.5, 0.3], fx=[['pulsa', 'tempi', 0.8, 0.05]])],
                      camera=[[0, 1.0, 540, 960], [16, 1.04, 540, 900]]),
+    },
+    TR: {
+        'S01': ov([P('badge', ['pop', 0.3, 0.4]), P('t1', ['slam', 'ecco', 0.35]), P('t2', ['slam', 'segnalazioni', 0.35]),
+                   P('sotto', ['wipe', 'punto', 0.9]), P('firma', ['fade', 0.6, 0.8], fisso=True)], 0.5),
+        # le schede entrano, la barra si riempie fino allo stato, poi il bollino
+        'S02': pieno([P('titolo', ['slam', 0.1, 0.35]), *anim_scheda(1, 'uno', 'sciopero', 'verifichiamo'),
+                      *anim_scheda(2, 'due', 'infettive', 'parziale')], camera=[[0, 1.0, 540, 960], [24, 1.04, 540, 900]]),
+        'S03': {'tipo': 'pieno', 'fondi': [['fondoA', 0], ['fondoB', 'linea-0.2', 0.3]], 'strati': [
+            *anim_scheda(1, 0.2, 'transito', 'tavolo', fuori=['fade', 'linea-0.2', 0.3]),
+            P('t1', ['slam', 'linea', 0.35]), P('t2', ['slam', 'linea+0.3', 0.35]),
+            *[P(f'k{i}', ['slideL', w, 0.4], figli=[P(f'v{i}', ['pop', f'{w}+0.35', 0.3])])
+              for i, w in enumerate(('rispetto', 'regole', 'possibilita', 'nessuna'), 1)],
+            P('si', ['fade', 'vestizione', 0.5]), P('no', ['slam', 'consegna+0.2', 0.35])]},
+        'S04': pieno([P('titolo', ['slam', 0.1, 0.35]), *anim_scheda(1, 'quattro', 'pediatria', 'lavorazione'),
+                      *anim_scheda(2, 'sale', 'operatorie', 'chiamate')], camera=[[0, 1.0, 540, 960], [18, 1.04, 540, 900]]),
+        'S05': pieno([P('titolo', ['slam', 0.1, 0.35]),
+                      *anim_scheda(1, 'sei', 'cric', 'rinviata', fx=[['trema', 'rinviata+0.3', 'rinviata+0.9', 5]]),
+                      *anim_scheda(2, 'sette', 'radiologie', 'attesa', fx=[['pulsa', 'attesa+0.4', 0.9, 0.05]])],
+                     camera=[[0, 1.0, 540, 960], [20, 1.04, 540, 900]]),
+        # le cinque priorità si spuntano una alla volta
+        'S06': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                      *[P(f'r{i}', ['slideL', w, 0.4], figli=[P(f'v{i}', ['pop', f'{w}+0.35', 0.3])])
+                        for i, w in enumerate(('sicurezza', 'rispetto', 'organizzazione', 'ascolto', 'attenzione'), 1)]]),
+        'S07': ov([P('t1', ['slam', 'continuiamo', 0.35]), P('t2', ['slam', 'segnalazioni', 0.35]),
+                   P('s1', ['wipe', 'verificare', 1.0]), P('s2', ['wipe', 'tavolo', 0.8])]),
+        'S08': pieno([P('box', ['pop', 0.0, 0.25]), P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]),
+                      P('s1', ['wipe', 0.35, 0.4]), P('bottone', ['pop', 0.5, 0.3], fx=[['pulsa', 'continuate', 0.8, 0.05]])],
+                     camera=[[0, 1.0, 540, 960], [15, 1.04, 540, 900]]),
+    },
+    LG: {
+        'S01': ov([P('badge', ['pop', 0.3, 0.4]), P('t1', ['slam', 'storia', 0.35]), P('t2', ['slam', 'tu', 0.35]),
+                   P('sotto', ['wipe', 'infermiere', 0.9]), P('firma', ['fade', 0.6, 0.8], fisso=True)], 0.5),
+        # pagina 1: i due riquadri si accendono a turno
+        'S02': pieno([P('pag', ['pop', 0.0, 0.35]), P('titolo', ['slam', 0.15, 0.35]), P('domanda', ['wipe', 0.3, 1.2]),
+                      P('b1', ['pop', 'provare', 0.4], fx=[['pulsa', 'entrambe', 0.9, 0.04]]),
+                      P('b2', ['pop', 'preferisci', 0.4], fx=[['pulsa', 'giuste', 0.9, 0.04]]),
+                      P('nota', ['wipe', 'giuste', 1.2]), P('coda', ['fade', 'giuste+0.9', 0.3])],
+                     camera=[[0, 1.0, 540, 960], [14, 1.04, 540, 960]]),
+        'S03': pieno([P('pag', ['pop', 0.0, 0.35]), P('titolo', ['slam', 0.3, 0.35]),
+                      *[P(f's{i}', ['slideL', w, 0.45]) for i, w in enumerate(('richiesta', 'direzioni', 'passaggi', 'verifica'), 1)],
+                      P('nota', ['wipe', 'lavoratori', 1.0])], camera=[[0, 1.0, 540, 960], [20, 1.04, 540, 960]]),
+        'S04': pieno([P('pag', ['pop', 0.0, 0.35]), P('titolo', ['slam', 0.3, 0.35]), P('script', ['wipe', 'chi', 2.0]),
+                      *[P(f'p{i}', ['pop', w, 0.4]) for i, w in enumerate(('imposto', 'irreversibile', 'stesse'), 1)]],
+                     camera=[[0, 1.0, 540, 960], [16, 1.04, 540, 960]]),
+        # la pagina trappola: FINE? in rosso, timbro NON VALE con colpo secco
+        'S05': pieno([P('pag', ['pop', 0.0, 0.35]), P('titolo', ['slam', 'trappola', 0.35], fx=[['trema', 'trappola+0.3', 'trappola+1.2', 4]]),
+                      P('script', ['wipe', 'qualcuno', 2.2]),
+                      P('fine', ['slam', 'consegna+0.2', 0.35], fx=[['trema', 'consegna+0.5', 'questa', 5]]),
+                      P('timbro', ['stampa', 'vale', 0.3])], urti=['vale+0.2'], camera=[[0, 1.0, 540, 960], [18, 1.05, 540, 960]]),
+        'S06': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 'regole', 0.35]), P('sub', ['wipe', 'regolamento', 0.8]),
+                      *[P(f'r{i}', ['drop', w, 0.4]) for i, w in enumerate(('criteri', 'rispetto', 'attenzione', 'possibilita', 'coinvolgimento'), 1)]]),
+        'S07': ov([P('t1', ['slam', 'libro', 0.35]), P('t2', ['slam', 'finale', 0.35]), P('s1', ['wipe', 'libera', 1.0])]),
+        'S08': pieno([P('box', ['pop', 0.0, 0.25]), P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]),
+                      *[P(f'f{i}', ['slideL', 0.3 + 0.1 * i, 0.3], fx=[['pulsa', w, 0.8, 0.05]])
+                        for i, w in enumerate(('rispetta', 'applicano', 'condividono'), 1)]],
+                     camera=[[0, 1.0, 540, 960], [17, 1.04, 540, 900]]),
     },
 }
 
