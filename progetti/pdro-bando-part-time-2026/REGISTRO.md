@@ -33,4 +33,6 @@ PDRO_Bando_Part_time_2026_AOUP_9x16 · 2:00 · asset HeyGen 87a8acf1070d4e7c916f
 ## Note
 - Il pacchetto segnala un refuso nella delibera («complessivi 110 posti»): nel video si usa 135.
 - Dura 2:00: su Facebook va come video normale (i Reels arrivano a 90 s). Pubblicare prima del 3/12/2026.
-- Da fare: OK di Achille → Robin sui 4 canali AOUP.
+- Robin (3/11, OK di Achille «programmalo subito»): post 1138787 mar 3/11 13:15 sui 4 canali AOUP (TikTok e YouTube
+  CISL FP AOUP, Instagram cislaop reel, Facebook CISL FP - Sanità AOUP Social Club come video normale), testo del pacchetto,
+  primo commento col canale WhatsApp CISL FP AOUP, etichette «Bando part-time 2026» + «AOUP».
