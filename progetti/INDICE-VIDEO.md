@@ -5,11 +5,43 @@ progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le
 
 **117 video** in 12 sezioni.
 
+La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
+2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
+Il calendario completo, in ordine di data, è subito sotto.
+
 - `https://resource2.heygen.ai/video/<id>/original.mp4`: file originale caricato su HeyGen, si apre e si scarica direttamente.
 - `https://app.heygen.com/videos/<id>`: video montato dentro HeyGen, si apre dal tuo account.
 
 Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia) e il «Reel Decreto PA 2026»
 (reel-decreto-pa-2026): esistono solo come copia inviata in chat.
+
+## Calendario delle uscite
+
+| Giorno e ora | Video | Canali |
+|---|---|---|
+| sab 31/10 18:00 | Halloween · «Jack O'Lantern – versione sindacale» | 4 canali AOUP |
+| sab 31/10 21:00 | Halloween · «I fantasmi del cedolino» | 4 canali AOUP |
+| sab 31/10 21:00 | Sentirsi per sentire · Brividi T1 «La porta» | 12 canali provinciali |
+| dom 1/11 12:30 | Halloween · «Il Turno – trailer horror» | 4 canali AOUP |
+| dom 1/11 18:30 | Halloween · «SindaMatch – Halloween edition» | 4 canali AOUP |
+| lun 2/11 12:30 | Favole N° 1 · «La cicala e la formica – versione corsia» | 4 canali AOUP |
+| mar 3/11 13:15 | «Bando part-time 2026 AOUP» | 4 canali AOUP |
+| mer 4/11 12:30 | Format originali · «Il Quizzone della corsia» | 4 canali AOUP |
+| mer 4/11 21:00 | Sentirsi per sentire · Brividi T3 «Il nodo» | 12 canali provinciali |
+| gio 5/11 12:30 | Favole N° 2 · «Il Re e l'accordo invisibile» | 4 canali AOUP |
+| ven 6/11 12:30 | Format originali · «Il meteo dei diritti» | 4 canali AOUP |
+| sab 7/11 12:30 | Favole N° 3 · «Il Gatto, la Volpe e il Campo dei Miracoli» | 4 canali AOUP |
+| dom 8/11 12:30 | Format originali · «Unboxing: l'iscrizione alla CISL FP» | 4 canali AOUP |
+| dom 8/11 21:00 | Sentirsi per sentire · P2 «Scarpe rosse» | 12 canali provinciali |
+| lun 9/11 12:30 | Favole N° 4 · «I tre porcellini e il lupo delle riorganizzazioni» | 4 canali AOUP |
+| mar 10/11 12:30 | Format originali · «Gli archeologi del futuro» | 4 canali AOUP |
+| mar 10/11 21:00 | Sentirsi per sentire · P3 «Prendere parola» | 12 canali provinciali |
+| ven 13/11 19:30 | Sentirsi per sentire · Brividi T2 «Dove sei» | 12 canali provinciali |
+| sab 14/11 21:00 | Sentirsi per sentire · Brividi T4 «Chi cura» | 12 canali provinciali |
+| lun 16/11 21:00 | Sentirsi per sentire · P5 «Padova si accende» | 12 canali provinciali |
+| mer 18/11 19:30 | Sentirsi per sentire · P4 «Anche gli uomini» | 12 canali provinciali |
+| gio 19/11 21:00 | Sentirsi per sentire · Brividi T5 «Accendiamo una luce» | 12 canali provinciali |
+| dom 22/11 19:30 | Sentirsi per sentire · P1 «Il posto vuoto» | 12 canali provinciali |
 
 ## Eredità Invisibili
 
@@ -99,55 +131,55 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 ## PDRO · «Sentirsi per sentire» (24 novembre 2026)
 
-| Video | Indirizzo |
-|---|---|
-| «Il filo che ci unisce» – presentazione con avatar, v4 (9:16) | [apri](https://resource2.heygen.ai/video/c321d4b8c8ec4741ba9fbb6d39ebdf50/original.mp4) |
-| «Il filo che ci unisce» – presentazione con avatar, v4 (16:9) | [apri](https://resource2.heygen.ai/video/48303772c8774dedbc0f5bde8e11563b/original.mp4) |
-| «Il filo che ci unisce» – versione con Luca Ward, senza avatar (9:16) | [apri](https://resource2.heygen.ai/video/8a76b9b923bf414d8f9eb950000bdb9d/original.mp4) |
-| «Il filo che ci unisce» – versione con Luca Ward, senza avatar (16:9) | [apri](https://resource2.heygen.ai/video/441ad9a201bb4843be69e3d41ff83fc1/original.mp4) |
-| Brividi T1 «La porta» (9:16) | [apri](https://resource2.heygen.ai/video/26e92010fd1540d297badbeb54a0f299/original.mp4) |
-| Brividi T2 «Dove sei» (9:16) | [apri](https://resource2.heygen.ai/video/f497b5af50994634a99d8fab71780469/original.mp4) |
-| Brividi T3 «Il nodo» (9:16) | [apri](https://resource2.heygen.ai/video/892e2c11601c4f24b6fb521b089a77dd/original.mp4) |
-| Brividi T3 «Il nodo» (16:9) | [apri](https://resource2.heygen.ai/video/968bfc42cfb440659cfa5fa24c917a75/original.mp4) |
-| Brividi T4 «Chi cura» (9:16) | [apri](https://resource2.heygen.ai/video/ad93d9b7b5484a8390a45b580ccf53ec/original.mp4) |
-| Brividi T4 «Chi cura» (16:9) | [apri](https://resource2.heygen.ai/video/70b9d4d10af74ca59d6ec9a633e14eba/original.mp4) |
-| Brividi T5 «Accendiamo una luce» (9:16) | [apri](https://resource2.heygen.ai/video/099336b0d90e43d6b84f5846b5cf1e06/original.mp4) |
-| Brividi T5 «Accendiamo una luce» (16:9) | [apri](https://resource2.heygen.ai/video/434d38210f294e4cad00620b5a897b99/original.mp4) |
-| Brividi T5 «Accendiamo una luce» (1:1) | [apri](https://resource2.heygen.ai/video/7043d7593822477893198556593584f0/original.mp4) |
-| P1 «Il posto vuoto» (9:16) | [apri](https://resource2.heygen.ai/video/b330765e4b374820b8d52e778d6ff6c9/original.mp4) |
-| P2 «Scarpe rosse» (9:16) | [apri](https://resource2.heygen.ai/video/4a231b876cbf4b55913472f0167ca729/original.mp4) |
-| P3 «Prendere parola» (9:16) | [apri](https://resource2.heygen.ai/video/b5d4f672a2ca4f01ab85e5ed5f6f5560/original.mp4) |
-| P4 «Anche gli uomini» (9:16) | [apri](https://resource2.heygen.ai/video/3a79b0d43a954256a09abf9f39e2a12d/original.mp4) |
-| P5 «Padova si accende» (9:16) | [apri](https://resource2.heygen.ai/video/ebc5a7fd9df4489da4db6bdd9854a2c6/original.mp4) |
-| Video della colonna sonora, con Luca Ward (16:9, 4:26) | [apri](https://resource2.heygen.ai/video/a4c6b2b83c564685b42da06349cb8da1/original.mp4) |
-| Video della colonna sonora, con Luca Ward (9:16, 1:20) | [apri](https://resource2.heygen.ai/video/7b7b220e8a0b4c41ad60513855b11a90/original.mp4) |
+| Video | Uscita sui social | Indirizzo |
+|---|---|---|
+| «Il filo che ci unisce» – presentazione con avatar, v4 (9:16) |  | [apri](https://resource2.heygen.ai/video/c321d4b8c8ec4741ba9fbb6d39ebdf50/original.mp4) |
+| «Il filo che ci unisce» – presentazione con avatar, v4 (16:9) |  | [apri](https://resource2.heygen.ai/video/48303772c8774dedbc0f5bde8e11563b/original.mp4) |
+| «Il filo che ci unisce» – versione con Luca Ward, senza avatar (9:16) |  | [apri](https://resource2.heygen.ai/video/8a76b9b923bf414d8f9eb950000bdb9d/original.mp4) |
+| «Il filo che ci unisce» – versione con Luca Ward, senza avatar (16:9) |  | [apri](https://resource2.heygen.ai/video/441ad9a201bb4843be69e3d41ff83fc1/original.mp4) |
+| Brividi T1 «La porta» (9:16) | sab 31/10 21:00 | [apri](https://resource2.heygen.ai/video/26e92010fd1540d297badbeb54a0f299/original.mp4) |
+| Brividi T2 «Dove sei» (9:16) | ven 13/11 19:30 | [apri](https://resource2.heygen.ai/video/f497b5af50994634a99d8fab71780469/original.mp4) |
+| Brividi T3 «Il nodo» (9:16) | mer 4/11 21:00 | [apri](https://resource2.heygen.ai/video/892e2c11601c4f24b6fb521b089a77dd/original.mp4) |
+| Brividi T3 «Il nodo» (16:9) |  | [apri](https://resource2.heygen.ai/video/968bfc42cfb440659cfa5fa24c917a75/original.mp4) |
+| Brividi T4 «Chi cura» (9:16) | sab 14/11 21:00 | [apri](https://resource2.heygen.ai/video/ad93d9b7b5484a8390a45b580ccf53ec/original.mp4) |
+| Brividi T4 «Chi cura» (16:9) |  | [apri](https://resource2.heygen.ai/video/70b9d4d10af74ca59d6ec9a633e14eba/original.mp4) |
+| Brividi T5 «Accendiamo una luce» (9:16) | gio 19/11 21:00 | [apri](https://resource2.heygen.ai/video/099336b0d90e43d6b84f5846b5cf1e06/original.mp4) |
+| Brividi T5 «Accendiamo una luce» (16:9) |  | [apri](https://resource2.heygen.ai/video/434d38210f294e4cad00620b5a897b99/original.mp4) |
+| Brividi T5 «Accendiamo una luce» (1:1) |  | [apri](https://resource2.heygen.ai/video/7043d7593822477893198556593584f0/original.mp4) |
+| P1 «Il posto vuoto» (9:16) | dom 22/11 19:30 | [apri](https://resource2.heygen.ai/video/b330765e4b374820b8d52e778d6ff6c9/original.mp4) |
+| P2 «Scarpe rosse» (9:16) | dom 8/11 21:00 | [apri](https://resource2.heygen.ai/video/4a231b876cbf4b55913472f0167ca729/original.mp4) |
+| P3 «Prendere parola» (9:16) | mar 10/11 21:00 | [apri](https://resource2.heygen.ai/video/b5d4f672a2ca4f01ab85e5ed5f6f5560/original.mp4) |
+| P4 «Anche gli uomini» (9:16) | mer 18/11 19:30 | [apri](https://resource2.heygen.ai/video/3a79b0d43a954256a09abf9f39e2a12d/original.mp4) |
+| P5 «Padova si accende» (9:16) | lun 16/11 21:00 | [apri](https://resource2.heygen.ai/video/ebc5a7fd9df4489da4db6bdd9854a2c6/original.mp4) |
+| Video della colonna sonora, con Luca Ward (16:9, 4:26) |  | [apri](https://resource2.heygen.ai/video/a4c6b2b83c564685b42da06349cb8da1/original.mp4) |
+| Video della colonna sonora, con Luca Ward (9:16, 1:20) |  | [apri](https://resource2.heygen.ai/video/7b7b220e8a0b4c41ad60513855b11a90/original.mp4) |
 
 ## PDRO · Halloween 2026 (solo AOUP)
 
-| Video | Indirizzo |
-|---|---|
-| «Jack O'Lantern – versione sindacale» | [apri](https://resource2.heygen.ai/video/18ee064cc0514eeea98551b42dc26b77/original.mp4) |
-| «I fantasmi del cedolino» | [apri](https://resource2.heygen.ai/video/8e54627ca9a24436adb3fa6845377a8c/original.mp4) |
-| «Il Turno – trailer horror» | [apri](https://resource2.heygen.ai/video/f3313edff6264f04bacc72bfc18ff3b5/original.mp4) |
-| «SindaMatch – Halloween edition» | [apri](https://resource2.heygen.ai/video/eb3be6b2be5e45d6b6b9b9a5bb0dd7e4/original.mp4) |
+| Video | Uscita sui social | Indirizzo |
+|---|---|---|
+| «Jack O'Lantern – versione sindacale» | sab 31/10 18:00 | [apri](https://resource2.heygen.ai/video/18ee064cc0514eeea98551b42dc26b77/original.mp4) |
+| «I fantasmi del cedolino» | sab 31/10 21:00 | [apri](https://resource2.heygen.ai/video/8e54627ca9a24436adb3fa6845377a8c/original.mp4) |
+| «Il Turno – trailer horror» | dom 1/11 12:30 | [apri](https://resource2.heygen.ai/video/f3313edff6264f04bacc72bfc18ff3b5/original.mp4) |
+| «SindaMatch – Halloween edition» | dom 1/11 18:30 | [apri](https://resource2.heygen.ai/video/eb3be6b2be5e45d6b6b9b9a5bb0dd7e4/original.mp4) |
 
 ## PDRO · Le favole del sindacato (solo AOUP)
 
-| Video | Indirizzo |
-|---|---|
-| N° 1 «La cicala e la formica – versione corsia» | [apri](https://resource2.heygen.ai/video/48a15c0c936f4199a1effb4512af824d/original.mp4) |
-| N° 2 «Il Re e l'accordo invisibile» | [apri](https://resource2.heygen.ai/video/d52db04240074fbd94e6166e396fdd5c/original.mp4) |
-| N° 3 «Il Gatto, la Volpe e il Campo dei Miracoli» | [apri](https://resource2.heygen.ai/video/889d3096fcac4ab8ab95304e4a7ca012/original.mp4) |
-| N° 4 «I tre porcellini e il lupo delle riorganizzazioni» | [apri](https://resource2.heygen.ai/video/db30fd36bfd7443e9051799c33b43193/original.mp4) |
+| Video | Uscita sui social | Indirizzo |
+|---|---|---|
+| N° 1 «La cicala e la formica – versione corsia» | lun 2/11 12:30 | [apri](https://resource2.heygen.ai/video/48a15c0c936f4199a1effb4512af824d/original.mp4) |
+| N° 2 «Il Re e l'accordo invisibile» | gio 5/11 12:30 | [apri](https://resource2.heygen.ai/video/d52db04240074fbd94e6166e396fdd5c/original.mp4) |
+| N° 3 «Il Gatto, la Volpe e il Campo dei Miracoli» | sab 7/11 12:30 | [apri](https://resource2.heygen.ai/video/889d3096fcac4ab8ab95304e4a7ca012/original.mp4) |
+| N° 4 «I tre porcellini e il lupo delle riorganizzazioni» | lun 9/11 12:30 | [apri](https://resource2.heygen.ai/video/db30fd36bfd7443e9051799c33b43193/original.mp4) |
 
 ## PDRO · Format originali (solo AOUP)
 
-| Video | Indirizzo |
-|---|---|
-| «Il meteo dei diritti» | [apri](https://resource2.heygen.ai/video/7df7da7efe1640fe8c3b80d1df3fc88d/original.mp4) |
-| «Unboxing: l'iscrizione alla CISL FP» | [apri](https://resource2.heygen.ai/video/036d679ac4cb423394e0333c5218f895/original.mp4) |
-| «Il Quizzone della corsia» | [apri](https://resource2.heygen.ai/video/57513a768fd04faf9e1938ff0fabc57e/original.mp4) |
-| «Gli archeologi del futuro» | [apri](https://resource2.heygen.ai/video/c581bc5893c6468990da0d2e582dc4e3/original.mp4) |
+| Video | Uscita sui social | Indirizzo |
+|---|---|---|
+| «Il meteo dei diritti» | ven 6/11 12:30 | [apri](https://resource2.heygen.ai/video/7df7da7efe1640fe8c3b80d1df3fc88d/original.mp4) |
+| «Unboxing: l'iscrizione alla CISL FP» | dom 8/11 12:30 | [apri](https://resource2.heygen.ai/video/036d679ac4cb423394e0333c5218f895/original.mp4) |
+| «Il Quizzone della corsia» | mer 4/11 12:30 | [apri](https://resource2.heygen.ai/video/57513a768fd04faf9e1938ff0fabc57e/original.mp4) |
+| «Gli archeologi del futuro» | mar 10/11 12:30 | [apri](https://resource2.heygen.ai/video/c581bc5893c6468990da0d2e582dc4e3/original.mp4) |
 
 ## PDRO · CCNL Funzioni Locali 2025-2027 con Andrea Ricci
 
@@ -161,27 +193,27 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 ## PDRO · Reel informativi e campagne
 
-| Video | Indirizzo |
-|---|---|
-| PDRO 150 ore studio 2027 (Reel 9:16) | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
-| PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
-| PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
-| PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
-| PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |
-| PDRO «Immagina quella mattina – corso concorso OSS» (Reel 9:16) – versione 2 | [apri](https://resource2.heygen.ai/video/ffd7713e1d0f42638698b5e34ecd6608/original.mp4) |
-| PDRO «Sali di livello – corso progressioni verticali» (Reel 9:16) | [apri](https://resource2.heygen.ai/video/f8b1d2570d7444c4a1909d1b1545e312/original.mp4) |
-| PDRO · «Decreto PA è legge – 3 cose che ti riguardano» (reel 9:16) | [apri](https://resource2.heygen.ai/video/85c04817a34a42dc99715256c7b5c554/original.mp4) |
-| Kit Contratto CISL FP · Video 1 · Promo «Il tuo Kit Contratto» (Reel 9:16) | [apri](https://resource2.heygen.ai/video/df095acab953473c85696b132de01e53/original.mp4) |
-| Kit Contratto CISL FP · promo 9:16 con avatar – versione 4, senza sottotitoli | [apri](https://resource2.heygen.ai/video/8cb7001a8fd84b25a92b688c4806e617/original.mp4) |
-| PDRO Oncoematologia – No capri espiatori (Reel 9:16) | [apri](https://resource2.heygen.ai/video/93bffd76fa954f949f8281a4e390aeeb/original.mp4) |
-| PDRO · «Oncoematologia pediatrica – il confronto del 27 ottobre» (reel 9:16) | [apri](https://resource2.heygen.ai/video/686de12ebc824273a3cc722c414ce675/original.mp4) |
-| PDRO Riforma professioni sanitarie (Reel 9:16) | [apri](https://resource2.heygen.ai/video/34f8d654fb534f9c8e29e2037db8494a/original.mp4) |
-| PDRO Trattativa AOUP – Il punto (Reel 9:16) – versione 2 | [apri](https://resource2.heygen.ai/video/940889441c9e4e7e9f67d14a750027bd/original.mp4) |
-| PDRO · «Verso il coordinamento – pacchetto master per gli iscritti» (reel 9:16) – versione 3 (provinciale) | [apri](https://resource2.heygen.ai/video/461842e3a2374e0d89da36d69cbb363a/original.mp4) |
-| PDRO · «Verso il coordinamento – pacchetto master per gli iscritti» (reel 9:16) – versione 1 (AOUP) | [apri](https://resource2.heygen.ai/video/9ec983f39cbe40e7a027256c71a4b803/original.mp4) |
-| PDRO · «Il caso del volantino scomparso» (reel 9:16) – versione 2 | [apri](https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4) |
-| PDRO · «Convenzione XTE Salute» (16:9) | [apri](https://resource2.heygen.ai/video/11a18edecb574b09945903206aca24c7/original.mp4) |
-| PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
+| Video | Uscita sui social | Indirizzo |
+|---|---|---|
+| PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
+| PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
+| PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
+| PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
+| PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille |  | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |
+| PDRO «Immagina quella mattina – corso concorso OSS» (Reel 9:16) – versione 2 |  | [apri](https://resource2.heygen.ai/video/ffd7713e1d0f42638698b5e34ecd6608/original.mp4) |
+| PDRO «Sali di livello – corso progressioni verticali» (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/f8b1d2570d7444c4a1909d1b1545e312/original.mp4) |
+| PDRO · «Decreto PA è legge – 3 cose che ti riguardano» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/85c04817a34a42dc99715256c7b5c554/original.mp4) |
+| Kit Contratto CISL FP · Video 1 · Promo «Il tuo Kit Contratto» (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/df095acab953473c85696b132de01e53/original.mp4) |
+| Kit Contratto CISL FP · promo 9:16 con avatar – versione 4, senza sottotitoli |  | [apri](https://resource2.heygen.ai/video/8cb7001a8fd84b25a92b688c4806e617/original.mp4) |
+| PDRO Oncoematologia – No capri espiatori (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/93bffd76fa954f949f8281a4e390aeeb/original.mp4) |
+| PDRO · «Oncoematologia pediatrica – il confronto del 27 ottobre» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/686de12ebc824273a3cc722c414ce675/original.mp4) |
+| PDRO Riforma professioni sanitarie (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/34f8d654fb534f9c8e29e2037db8494a/original.mp4) |
+| PDRO Trattativa AOUP – Il punto (Reel 9:16) – versione 2 |  | [apri](https://resource2.heygen.ai/video/940889441c9e4e7e9f67d14a750027bd/original.mp4) |
+| PDRO · «Verso il coordinamento – pacchetto master per gli iscritti» (reel 9:16) – versione 3 (provinciale) |  | [apri](https://resource2.heygen.ai/video/461842e3a2374e0d89da36d69cbb363a/original.mp4) |
+| PDRO · «Verso il coordinamento – pacchetto master per gli iscritti» (reel 9:16) – versione 1 (AOUP) |  | [apri](https://resource2.heygen.ai/video/9ec983f39cbe40e7a027256c71a4b803/original.mp4) |
+| PDRO · «Il caso del volantino scomparso» (reel 9:16) – versione 2 |  | [apri](https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4) |
+| PDRO · «Convenzione XTE Salute» (16:9) |  | [apri](https://resource2.heygen.ai/video/11a18edecb574b09945903206aca24c7/original.mp4) |
+| PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | mar 3/11 13:15 | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 
