@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**116 video** in 12 sezioni.
+**117 video** in 12 sezioni.
 
 - `https://resource2.heygen.ai/video/<id>/original.mp4`: file originale caricato su HeyGen, si apre e si scarica direttamente.
 - `https://app.heygen.com/videos/<id>`: video montato dentro HeyGen, si apre dal tuo account.
@@ -181,6 +181,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · «Verso il coordinamento – pacchetto master per gli iscritti» (reel 9:16) – versione 1 (AOUP) | [apri](https://resource2.heygen.ai/video/9ec983f39cbe40e7a027256c71a4b803/original.mp4) |
 | PDRO · «Il caso del volantino scomparso» (reel 9:16) – versione 2 | [apri](https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4) |
 | PDRO · «Convenzione XTE Salute» (16:9) | [apri](https://resource2.heygen.ai/video/11a18edecb574b09945903206aca24c7/original.mp4) |
+| PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 

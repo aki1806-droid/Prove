@@ -20,6 +20,7 @@ ME = 'pdro-originale-meteo-dei-diritti'
 UN = 'pdro-originale-unboxing-cisl-fp'
 QZ = 'pdro-originale-quizzone-della-corsia'
 AR = 'pdro-originale-archeologi-del-futuro'
+PT = 'pdro-bando-part-time-2026'
 
 
 def titolo_favola(t1y, t2y, soty, x1=(440, 880, 840)):
@@ -170,6 +171,36 @@ EPISODI = {
             R('e4', 105, 1232, 1000, 1384, 'righe'), R('linea', 128, 556, 178, 1460, 'righe')]},
         'S06': chiusura_foto([(502, 546)]) | {'base': 'grafiche/S06A.png'},
     },
+    PT: {
+        'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
+            CH('badge', 70, 1104, 550, 1198, 120, 8), CH('t1', 70, 1226, 1060, 1313, 120, 14), CH('t2', 70, 1330, 1060, 1419, 120, 14),
+            CH('sotto', 70, 1456, 860, 1533, 110, 12), CH('firma', 320, 1848, 1060, 1884, 100, 3), *BANDE]},
+        'S02': {'base': 'grafiche/S02A.png', 'pezzi': [
+            R('titolo', 150, 206, 930, 276, 'righe'), {'id': 'orologio', 'riempi': 'righe', 'm': ['cerchio', 537, 620, 300]},
+            C('b1', 56, 972, 376, 1270, 18, 'righe'), C('b2', 380, 972, 692, 1270, 18, 'righe'), C('b3', 696, 966, 1016, 1276, 20, 'righe'),
+            R('azienda', 150, 1352, 930, 1412, 'righe')]},
+        'S03': {'base': 'grafiche/S03A.png', 'pezzi': [
+            R('t1', 60, 292, 700, 368, 'verticale'), R('t2', 60, 380, 700, 442, 'verticale'),
+            *[R(f'p{i}', 56, y0 - 6, 920, y1 + 6, 'verticale') for i, (y0, y1) in enumerate(
+                [(490, 603), (618, 731), (746, 859), (874, 982), (1002, 1115), (1130, 1243), (1258, 1366), (1386, 1499), (1514, 1622)], 1)]]},
+        'S04': {'base': 'grafiche/S04A.png', 'pezzi': [
+            R('t1', 60, 268, 760, 372, 'righe'), R('t2', 60, 395, 1040, 471, 'righe'),
+            *[C(f'c{i}', 56, y0 - 6, 1012, y1 + 6, 20, 'righe') for i, (y0, y1) in enumerate([(540, 649), (672, 781), (804, 1009), (1052, 1245)], 1)]]},
+        'S05': {'base': 'grafiche/S05A.png', 'pezzi': [
+            R('t1', 60, 292, 760, 368, 'verticale'), R('t2', 60, 383, 760, 457, 'verticale'),
+            *[R(f'r{i}', 56, y0 - 3, 1024, y0 + 76, 'righe') for i, y0 in enumerate(range(505, 1451, 105), 1)],
+            R('nota', 56, 1552, 1024, 1598, 'verticale')]},
+        'S06': {'base': 'grafiche/S06A.png', 'pezzi': [
+            R('t1', 60, 286, 760, 366, 'righe'), R('t2', 60, 390, 900, 472, 'righe'),
+            *[C(f'a{i}', 56, y0 - 6, 1012, y1 + 6, 20, 'righe') for i, (y0, y1) in enumerate([(520, 653), (674, 849), (870, 1045), (1066, 1199)], 1)]]},
+        'S07': {'base': 'overlay_clip/S07A.png', 'pezzi': [
+            CH('titolo', 70, 1110, 900, 1184, 120, 12), *[CH(f'm{i}', 60, y0 - 4, 1020, y1 + 4, 200, 6) for i, (y0, y1) in
+                                                        enumerate([(1200, 1291), (1310, 1401), (1420, 1511)], 1)],
+            CH('fine', 70, 1560, 900, 1644, 100, 12), *BANDE]},
+        'S08': {'base': 'grafiche/S08A.png', 'pezzi': [
+            CH('t1', 30, 256, 760, 361, 150, 18), CH('t2', 30, 379, 860, 466, 120, 18), CH('s1', 40, 488, 960, 558, 120, 16),
+            C('scadenza', 56, 612, 700, 720, 40, 'diffusione'), C('box', 56, 890, 650, 1176, 24, 'diffusione')]},
+    },
 }
 
 ANIM = {
@@ -292,6 +323,36 @@ ANIM = {
                       P('e1', ['wipe', 'duemilaventisei', 0.8]), P('e2', ['pop', 'resto', 0.35]), P('e3', ['pop', 'storia', 0.35]),
                       P('e4', ['wipe', 'scrivendo', 1.2])]),
         'S06': anim_chiusura(1),
+    },
+    PT: {
+        'S01': ov([P('badge', ['pop', 0.3, 0.4]), P('t1', ['slam', 'bando', 0.35]), P('t2', ['slam', 'duemilaventisei', 0.35]),
+                   P('sotto', ['wipe', 'padova', 0.9]), P('firma', ['fade', 0.6, 0.8], fisso=True)], 0.5),
+        # l'orologio con la metà verde, poi i tre numeri sulle parole
+        'S02': pieno([P('titolo', ['slam', 0.1, 0.35]), P('orologio', ['zoom', 0.2, 0.6], fx=[['ondeggia', 4, 2]]),
+                      P('b1', ['pop', 'centotrentacinque', 0.35]), P('b2', ['pop', 'quattro', 0.35]), P('b3', ['pop', 'tre', 0.35]),
+                      P('azienda', ['fade', 'duemilaventisei', 0.8])]),
+        # le barre crescono da sinistra una alla volta
+        'S03': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                      *[P(f'p{i}', ['wipe', w, 0.7]) for i, w in enumerate(
+                          ('infermieri', 'diciannove', 'dodici', 'ostetriche', 'tecnici', 'fisioterapisti', 'molti', 'altri', 'profili'), 1)]]),
+        # spunte verdi in sequenza, l'esclusione in rosso
+        'S04': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                      P('c1', ['slideL', 'indeterminato', 0.4]), P('c2', ['slideL', 'servizio', 0.4]), P('c3', ['slideL', 'gia', 0.4]),
+                      P('c4', ['pop', 'revisione', 0.4], fx=[['trema', 'revisione+0.3', 'revisione+0.9', 5]])]),
+        # la classifica si compila dall'alto
+        'S05': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                      *[P(f'r{i}', ['wipe', w, 0.5]) for i, w in enumerate(
+                          ('patologie', 'lhandicap', 'lassistenza', 'familiari', 'disabilita', 'figli', 'figlio', 'tredici', 'leta', 'notti'), 1)],
+                      P('nota', ['fade', 'notti+1.0', 0.6])]),
+        # quattro avvisi, uno alla volta
+        'S06': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                      P('a1', ['slideR', 'ferie', 0.4]), P('a2', ['slideR', 'incarico', 0.4]), P('a3', ['slideR', 'documenti', 0.4]),
+                      P('a4', ['slideR', 'modello', 0.4])]),
+        'S07': ov([P('titolo', ['wipe', 'consegna', 0.6]), P('m1', ['slideL', 'mano', 0.4]), P('m2', ['slideL', 'raccomandata', 0.4]),
+                   P('m3', ['slideL', 'pec', 0.4]), P('fine', ['wipe', 'controllare', 1.0])]),
+        'S08': pieno([P('box', ['pop', 0.0, 0.25]), P('t1', ['slam', 0.1, 0.25]), P('t2', ['slam', 0.25, 0.25]),
+                      P('s1', ['wipe', 0.35, 0.4]), P('scadenza', ['pop', 0.5, 0.3], fx=[['pulsa', 'tempi', 0.8, 0.05]])],
+                     camera=[[0, 1.0, 540, 960], [16, 1.04, 540, 900]]),
     },
 }
 

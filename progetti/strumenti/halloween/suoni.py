@@ -74,7 +74,8 @@ CAT = {'vento': ('sound_effects', 'wind howling night', 'dcc590846602e641'),
        'mus_meteo': ('music', 'tv weather forecast music', 'd8f6d6df740546a7a824b8e0566b8333'),
        'mus_unboxing': ('music', 'unboxing upbeat lo-fi', 'ae1068d977dc4df0be8b51777299ae37'),
        'mus_quiz': ('music', 'quiz show music', 'c669d07ed127481398e4d0a1cfd604fc'),
-       'mus_archeologi': ('music', 'documentary mysterious archaeology', '8271d164265641388b6b49df46684b6b')}
+       'mus_archeologi': ('music', 'documentary mysterious archaeology', '8271d164265641388b6b49df46684b6b'),
+       'mus_parttime': ('music', 'soft tender acoustic warm', '651cf562bc1a48bbbca25615223a344e')}
 # musica a tratti: (chiave, scena da cui parte); Il Turno passa dall'horror alla commedia sul sequel (S06)
 MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')],
            # estate (ukulele da fiaba), inverno (carillon), formicaio (archi caldi)
@@ -172,15 +173,24 @@ EVENTI = {
                    ('S03', 'zoccoli', 'scintille', 0.3, None), ('S03', 'collaborare', 'boing', 0.3, None),
                    ('S04', 'tessera', 'scintille', 0.45, None), ('S04', 'cambiare', 'chime', 0.35, None),
                    ('S05', 'duemilaventisei', 'whoosh', 0.3, None), ('S05', 'resto', 'ding', 0.3, None), ('S05', 'storia', 'ding', 0.3, None),
-                   ('S05', 'adesso', 'campanella', 0.35, None), ('S06', 'rovigo', 'campanella', 0.3, None)]}
+                   ('S05', 'adesso', 'campanella', 0.35, None), ('S06', 'rovigo', 'campanella', 0.3, None)],
+    'parttime': [('S01', 0.0, 'tic', 0.25, 6.0), ('S01', 'bando', 'chime', 0.3, None),
+                 ('S02', 0.2, 'whoosh', 0.25, None), *[('S02', w, 'ding', 0.3, None) for w in ('centotrentacinque', 'quattro', 'tre')],
+                 *[('S03', w, 'whoosh', 0.18, None) for w in ('infermieri', 'diciannove', 'dodici')],
+                 *[('S04', w, 'ding', 0.3, None) for w in ('indeterminato', 'servizio', 'gia')], ('S04', 'revisione', 'tonfo', 0.3, None),
+                 *[('S05', w, 'clic', 0.3, None) for w in ('patologie', 'lhandicap', 'lassistenza', 'figli', 'leta', 'notti')],
+                 *[('S06', w, 'pop', 0.3, None) for w in ('ferie', 'incarico', 'documenti', 'modello')],
+                 *[('S07', w, 'ding', 0.25, None) for w in ('mano', 'raccomandata', 'pec')], ('S07', 'noi', 'campanella', 0.3, None),
+                 ('S08', 'rovigo', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
         'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
         'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16', 're': 'PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16',
         'gatto': 'PDRO_Favole_Il_Gatto_la_Volpe_e_il_Campo_dei_Miracoli_9x16', 'porcellini': 'PDRO_Favole_I_tre_porcellini_e_il_lupo_9x16',
         'meteo': 'PDRO_Originali_Il_meteo_dei_diritti_9x16', 'unboxing': 'PDRO_Originali_Unboxing_CISL_FP_9x16',
-        'quiz': 'PDRO_Originali_Il_Quizzone_della_corsia_9x16', 'archeologi': 'PDRO_Originali_Gli_archeologi_del_futuro_9x16'}
+        'quiz': 'PDRO_Originali_Il_Quizzone_della_corsia_9x16', 'archeologi': 'PDRO_Originali_Gli_archeologi_del_futuro_9x16',
+        'parttime': 'PDRO_Bando_Part_time_2026_AOUP_9x16'}
 MUSICA_VOL = 0.13
-CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro'}
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026'}
 
 
 def norm(s):

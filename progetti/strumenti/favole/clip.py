@@ -28,6 +28,9 @@ CLIP = {
     'pdro-originale-quizzone-della-corsia': {
         'S01': ('or_quiz.png', 'Studio lights sweep and spin, the host smiles at the audience, the contestant in scrubs settles behind the podium, slow push-in.'),
         'S05': ('or_telefono.png', 'The contestant on the phone nods with relief and smiles, the host strokes his chin, a spotlight shines on her, slow push-in.')},
+    'pdro-bando-part-time-2026': {
+        'S01': ('pt_famiglia.png', 'Warm home kitchen light: the nurse gently helps the little girl with her homework and holds the hand of her elderly father, the wall clock hands move forward, soft warm light, slow push-in.'),
+        'S07': ('pt_domanda.png', 'The union delegate checks the papers with a pen, pointing at a line, the nurse nods relieved and smiles, calm office light, slow push-in.')},
     'pdro-originale-archeologi-del-futuro': {
         'S01': ('or_scavo.png', 'The archaeologists gently dust off an old rusty hospital bed overgrown with moss, holograms light up above their tablets, filtered light through the vegetation, slow push-in.'),
         'S04': ('or_museo.png', 'The light slowly focuses on the small green card inside the glass display case, visitors from the future lean in curiously, slow push-in.')},

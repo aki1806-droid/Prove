@@ -1,0 +1,620 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.3,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"bando",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"duemilaventisei",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"padova",
+0.9
+]
+},
+{
+"p": "firma",
+"in": [
+"fade",
+0.6,
+0.8
+],
+"fisso": true
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "orologio",
+"in": [
+"zoom",
+0.2,
+0.6
+],
+"fx": [
+[
+"ondeggia",
+4,
+2
+]
+]
+},
+{
+"p": "b1",
+"in": [
+"pop",
+"centotrentacinque",
+0.35
+]
+},
+{
+"p": "b2",
+"in": [
+"pop",
+"quattro",
+0.35
+]
+},
+{
+"p": "b3",
+"in": [
+"pop",
+"tre",
+0.35
+]
+},
+{
+"p": "azienda",
+"in": [
+"fade",
+"duemilaventisei",
+0.8
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "p1",
+"in": [
+"wipe",
+"infermieri",
+0.7
+]
+},
+{
+"p": "p2",
+"in": [
+"wipe",
+"diciannove",
+0.7
+]
+},
+{
+"p": "p3",
+"in": [
+"wipe",
+"dodici",
+0.7
+]
+},
+{
+"p": "p4",
+"in": [
+"wipe",
+"ostetriche",
+0.7
+]
+},
+{
+"p": "p5",
+"in": [
+"wipe",
+"tecnici",
+0.7
+]
+},
+{
+"p": "p6",
+"in": [
+"wipe",
+"fisioterapisti",
+0.7
+]
+},
+{
+"p": "p7",
+"in": [
+"wipe",
+"molti",
+0.7
+]
+},
+{
+"p": "p8",
+"in": [
+"wipe",
+"altri",
+0.7
+]
+},
+{
+"p": "p9",
+"in": [
+"wipe",
+"profili",
+0.7
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "c1",
+"in": [
+"slideL",
+"indeterminato",
+0.4
+]
+},
+{
+"p": "c2",
+"in": [
+"slideL",
+"servizio",
+0.4
+]
+},
+{
+"p": "c3",
+"in": [
+"slideL",
+"gia",
+0.4
+]
+},
+{
+"p": "c4",
+"in": [
+"pop",
+"revisione",
+0.4
+],
+"fx": [
+[
+"trema",
+"revisione+0.3",
+"revisione+0.9",
+5
+]
+]
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "r1",
+"in": [
+"wipe",
+"patologie",
+0.5
+]
+},
+{
+"p": "r2",
+"in": [
+"wipe",
+"lhandicap",
+0.5
+]
+},
+{
+"p": "r3",
+"in": [
+"wipe",
+"lassistenza",
+0.5
+]
+},
+{
+"p": "r4",
+"in": [
+"wipe",
+"familiari",
+0.5
+]
+},
+{
+"p": "r5",
+"in": [
+"wipe",
+"disabilita",
+0.5
+]
+},
+{
+"p": "r6",
+"in": [
+"wipe",
+"figli",
+0.5
+]
+},
+{
+"p": "r7",
+"in": [
+"wipe",
+"figlio",
+0.5
+]
+},
+{
+"p": "r8",
+"in": [
+"wipe",
+"tredici",
+0.5
+]
+},
+{
+"p": "r9",
+"in": [
+"wipe",
+"leta",
+0.5
+]
+},
+{
+"p": "r10",
+"in": [
+"wipe",
+"notti",
+0.5
+]
+},
+{
+"p": "nota",
+"in": [
+"fade",
+"notti+1.0",
+0.6
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "a1",
+"in": [
+"slideR",
+"ferie",
+0.4
+]
+},
+{
+"p": "a2",
+"in": [
+"slideR",
+"incarico",
+0.4
+]
+},
+{
+"p": "a3",
+"in": [
+"slideR",
+"documenti",
+0.4
+]
+},
+{
+"p": "a4",
+"in": [
+"slideR",
+"modello",
+0.4
+]
+}
+]
+},
+"S07": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "titolo",
+"in": [
+"wipe",
+"consegna",
+0.6
+]
+},
+{
+"p": "m1",
+"in": [
+"slideL",
+"mano",
+0.4
+]
+},
+{
+"p": "m2",
+"in": [
+"slideL",
+"raccomandata",
+0.4
+]
+},
+{
+"p": "m3",
+"in": [
+"slideL",
+"pec",
+0.4
+]
+},
+{
+"p": "fine",
+"in": [
+"wipe",
+"controllare",
+1.0
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S08": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "box",
+"in": [
+"pop",
+0.0,
+0.25
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.25
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.25,
+0.25
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.35,
+0.4
+]
+},
+{
+"p": "scadenza",
+"in": [
+"pop",
+0.5,
+0.3
+],
+"fx": [
+[
+"pulsa",
+"tempi",
+0.8,
+0.05
+]
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+16,
+1.04,
+540,
+900
+]
+]
+}
+}

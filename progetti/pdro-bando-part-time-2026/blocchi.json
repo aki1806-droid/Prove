@@ -1,0 +1,173 @@
+{
+  "progetto": "PDRO_Bando_Part_time_2026",
+  "titolo": "Bando part-time 2026 AOUP",
+  "serie": "Bandi AOUP",
+  "identita": "CISL FP Padova Rovigo",
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Il tempo ritrovato",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "pt_famiglia.png",
+      "voce": "C'è chi corre tra un turno e la scuola dei figli. Chi assiste un genitore. Chi ha bisogno di più tempo per curarsi. Per loro è uscito il bando part-time duemilaventisei dell'Azienda Ospedale Università di Padova.",
+      "parole": 36,
+      "durata_stimata_s": 14.6,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S01A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/pt_famiglia.png: l'infermiera aiuta la bambina con i compiti e stringe la mano del padre anziano, l'orologio a muro avanza, luce calda.",
+      "regia": "Ticchettio d'orologio che rallenta; musica dolce; titolo in dissolvenza."
+    },
+    {
+      "n": 2,
+      "titolo": "I numeri",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Centotrentacinque posti, con un contratto part-time della durata di quattro anni. Le domande vanno presentate entro il tre dicembre duemilaventisei.",
+      "parole": 20,
+      "durata_stimata_s": 10.2,
+      "grafiche": [
+        {
+          "file": "grafiche/S02A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "La metà verde dell'orologio si riempie; i tre riquadri entrano con i numeri che contano."
+    },
+    {
+      "n": 3,
+      "titolo": "I posti per profilo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "La fetta più grande va agli infermieri, con settantasei posti. Poi diciannove per OSS e operatori tecnici addetti all'assistenza, dodici per gli amministrativi, e posti anche per ostetriche, tecnici, fisioterapisti e molti altri profili sanitari.",
+      "parole": 35,
+      "durata_stimata_s": 17.0,
+      "grafiche": [
+        {
+          "file": "grafiche/S03A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Le barre crescono da sinistra una alla volta."
+    },
+    {
+      "n": 4,
+      "titolo": "Chi può fare domanda",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Possono partecipare i dipendenti a tempo indeterminato con almeno un anno di servizio nel sistema sanitario nazionale, anche chi è già part-time con il contratto in scadenza entro aprile duemilaventotto. Chi ha un part-time in revisione avrà invece una procedura dedicata.",
+      "parole": 41,
+      "durata_stimata_s": 18.8,
+      "grafiche": [
+        {
+          "file": "grafiche/S04A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Spunte verdi in sequenza; l'esclusione entra in rosso."
+    },
+    {
+      "n": 5,
+      "titolo": "Il punteggio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Se le domande superano i posti, conta il punteggio. Danno diritto o punti alti le patologie gravi, l'handicap, l'assistenza a familiari malati o con disabilità. Poi i figli piccoli, con punti per ciascun figlio fino ai tredici anni. E anche l'età dai cinquantatré anni e le notti fatte negli ultimi cinque anni.",
+      "parole": 52,
+      "durata_stimata_s": 21.4,
+      "grafiche": [
+        {
+          "file": "grafiche/S05A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Classifica che si compila dall'alto; i badge dei punti entrano con un 'tic'."
+    },
+    {
+      "n": 6,
+      "titolo": "Prima di consegnare",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Attenzione a quattro dettagli. Le ferie residue vanno godute prima del nuovo contratto. Chi ha un incarico di funzione potrebbe doverci rinunciare. I documenti vanno allegati, altrimenti il punteggio non conta. E si usa solo il modello allegato al bando.",
+      "parole": 40,
+      "durata_stimata_s": 17.5,
+      "grafiche": [
+        {
+          "file": "grafiche/S06A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Quattro avvisi con punto esclamativo arancio, uno alla volta."
+    },
+    {
+      "n": 7,
+      "titolo": "La consegna",
+      "tipo": "ILLUSTRAZIONE ANIMATA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": "pt_domanda.png",
+      "voce": "La domanda si consegna a mano al protocollo, con raccomandata o via PEC. Ma un verbale mancante può costare la graduatoria. Per questo, prima di consegnare, falla controllare a noi.",
+      "parole": 30,
+      "durata_stimata_s": 12.5,
+      "grafiche": [
+        {
+          "file": "overlay_clip/S07A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": "Image-to-video da img/pt_domanda.png: la delegata controlla i fogli con la penna, l'infermiera annuisce sollevata.",
+      "regia": "Tono rassicurante."
+    },
+    {
+      "n": 8,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Il part-time non è un favore: è un diritto da esercitare bene, con i documenti giusti e nei tempi giusti. Questo bando nasce da un accordo con i sindacati, e noi ti aiutiamo a usarlo. Chiamaci o passa in sede: controlliamo insieme la tua domanda. CISL FP Padova Rovigo.",
+      "parole": 49,
+      "durata_stimata_s": 16.6,
+      "grafiche": [
+        {
+          "file": "grafiche/S08A.png",
+          "da": "inizio scena"
+        }
+      ],
+      "clip": null,
+      "regia": "Badge rosso con la scadenza; riquadro arancio con i contatti; avatar in basso a destra."
+    }
+  ]
+}
