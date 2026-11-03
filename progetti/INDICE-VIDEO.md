@@ -26,6 +26,8 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | dom 1/11 18:30 | Halloween · «SindaMatch – Halloween edition» | 4 canali AOUP |
 | lun 2/11 12:30 | Favole N° 1 · «La cicala e la formica – versione corsia» | 4 canali AOUP |
 | mar 3/11 13:15 | «Bando part-time 2026 AOUP» | 4 canali AOUP |
+| mar 3/11 19:10 | «Le tue segnalazioni: a che punto sono?» | 4 canali AOUP |
+| mar 3/11 19:20 | «Scegli il tuo turno – turni da 12 ore» (librogame) | 4 canali AOUP |
 | mer 4/11 12:30 | Format originali · «Il Quizzone della corsia» | 4 canali AOUP |
 | mer 4/11 21:00 | Sentirsi per sentire · Brividi T3 «Il nodo» | 12 canali provinciali |
 | gio 5/11 12:30 | Favole N° 2 · «Il Re e l'accordo invisibile» | 4 canali AOUP |
@@ -214,8 +216,8 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · «Il caso del volantino scomparso» (reel 9:16) – versione 2 |  | [apri](https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4) |
 | PDRO · «Convenzione XTE Salute» (16:9) |  | [apri](https://resource2.heygen.ai/video/11a18edecb574b09945903206aca24c7/original.mp4) |
 | PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | mar 3/11 13:15 | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
-| PDRO · «Le tue segnalazioni: a che punto sono?» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/3223bdea5dd8464d9d5e54277ef6c33d/original.mp4) |
-| PDRO · «Scegli il tuo turno – turni da 12 ore», librogame (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/aca2098f659241bdbd2e45d42d2b6527/original.mp4) |
+| PDRO · «Le tue segnalazioni: a che punto sono?» (reel 9:16) | mar 3/11 19:10 | [apri](https://resource2.heygen.ai/video/3223bdea5dd8464d9d5e54277ef6c33d/original.mp4) |
+| PDRO · «Scegli il tuo turno – turni da 12 ore», librogame (reel 9:16) | mar 3/11 19:20 | [apri](https://resource2.heygen.ai/video/aca2098f659241bdbd2e45d42d2b6527/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 

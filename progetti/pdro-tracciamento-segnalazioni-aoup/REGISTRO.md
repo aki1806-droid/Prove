@@ -34,4 +34,5 @@ Su richiesta di Achille la voce dice «operatori socio sanitari» al posto della
 del narratore (S01-S04), rimontato il video; la prima versione (asset d7c3045d88ab471cb7fa3c02cb0eab5c) è superata.
 
 ## Pubblicazione
-- Da fare: OK di Achille → Robin sui 4 canali AOUP (2:14: su Facebook va come video normale, i Reels arrivano a 90 s).
+- Robin (3/11, OK di Achille «programmale per ora a 10 minuti»): post 1139600 mar 3/11 19:10 sui 4 canali AOUP (TikTok,
+  Instagram reel, YouTube, Facebook come video normale perché dura 2:14), primo commento col canale WhatsApp CISL FP AOUP.
