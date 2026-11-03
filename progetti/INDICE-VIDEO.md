@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**117 video** in 12 sezioni.
+**119 video** in 12 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -214,6 +214,8 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · «Il caso del volantino scomparso» (reel 9:16) – versione 2 |  | [apri](https://resource2.heygen.ai/video/bf94ab8c0b8b47d69710dc390c188134/original.mp4) |
 | PDRO · «Convenzione XTE Salute» (16:9) |  | [apri](https://resource2.heygen.ai/video/11a18edecb574b09945903206aca24c7/original.mp4) |
 | PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | mar 3/11 13:15 | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
+| PDRO · «Le tue segnalazioni: a che punto sono?» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7c3045d88ab471cb7fa3c02cb0eab5c/original.mp4) |
+| PDRO · «Scegli il tuo turno – turni da 12 ore», librogame (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/9cc2e21a56a64d04908f91bd67331c35/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 
