@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**119 video** in 12 sezioni.
+**127 video** in 13 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -182,6 +182,20 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | «Unboxing: l'iscrizione alla CISL FP» | dom 8/11 12:30 | [apri](https://resource2.heygen.ai/video/036d679ac4cb423394e0333c5218f895/original.mp4) |
 | «Il Quizzone della corsia» | mer 4/11 12:30 | [apri](https://resource2.heygen.ai/video/57513a768fd04faf9e1938ff0fabc57e/original.mp4) |
 | «Gli archeologi del futuro» | mar 10/11 12:30 | [apri](https://resource2.heygen.ai/video/c581bc5893c6468990da0d2e582dc4e3/original.mp4) |
+
+
+## PDRO · Convenzioni CISL FP (provinciale)
+
+| Video | Uscita sui social | Indirizzo |
+|---|---|---|
+| 1 «Istruzioni di sicurezza – polizza colpa grave» |  | [apri](https://resource2.heygen.ai/video/f2794e99f66a4e7380fbb8a615bab277/original.mp4) |
+| 2 «Lettera dal futuro – Fondo sanitario» |  | [apri](https://resource2.heygen.ai/video/a66b5571658c4192ba4bbda6f8907315/original.mp4) |
+| 3 «Le tre di notte – medico H24» |  | [apri](https://resource2.heygen.ai/video/178178c748be417eb69df9abf9aa9b7a/original.mp4) |
+| 4 «Il gioco della carriera – formazione» |  | [apri](https://resource2.heygen.ai/video/989245901c794a49af6370dc0c7bfd65/original.mp4) |
+| 5 «Cartoline dal riposo – tempo libero» |  | [apri](https://resource2.heygen.ai/video/5c0d1def4e1e47209ca362e131ab7abd/original.mp4) |
+| 6 «Una giornata a sconto – acquisti» |  | [apri](https://resource2.heygen.ai/video/4dfdec33e97348e49a558c4c6cc83bbf/original.mp4) |
+| 7 «Il terrore digitale – SPID e PEC» |  | [apri](https://resource2.heygen.ai/video/ef70896e24de4e84ae50cf8302f75315/original.mp4) |
+| 8 «Quanto vale una tessera?» |  | [apri](https://resource2.heygen.ai/video/46101895766f47d794545c370f535029/original.mp4) |
 
 ## PDRO · CCNL Funzioni Locali 2025-2027 con Andrea Ricci
 
