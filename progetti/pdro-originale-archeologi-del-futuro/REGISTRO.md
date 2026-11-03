@@ -26,5 +26,5 @@ Musica documentario misterioso 8271d164; boato sull'anno, scintille sui reperti,
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Originali_Gli_archeologi_del_futuro_9x16 · 77 s · asset HeyGen c581bc5893c6468990da0d2e582dc4e3 (https://resource2.heygen.ai/video/c581bc5893c6468990da0d2e582dc4e3/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139395, 10/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.

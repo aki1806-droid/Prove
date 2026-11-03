@@ -26,5 +26,5 @@ Musica fanfara di liuto medievale 92638bba; trombe, applausi della corte, tonfo 
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16 · 70 s · asset HeyGen d52db04240074fbd94e6166e396fdd5c (https://resource2.heygen.ai/video/d52db04240074fbd94e6166e396fdd5c/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139390, 5/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.

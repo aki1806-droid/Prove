@@ -26,5 +26,5 @@ Musica sigla da meteo d8f6d6df; jingle, tuono, vento, grandine, allarme dell'all
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Originali_Il_meteo_dei_diritti_9x16 · 78 s · asset HeyGen 7df7da7efe1640fe8c3b80d1df3fc88d (https://resource2.heygen.ai/video/7df7da7efe1640fe8c3b80d1df3fc88d/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139391, 6/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.

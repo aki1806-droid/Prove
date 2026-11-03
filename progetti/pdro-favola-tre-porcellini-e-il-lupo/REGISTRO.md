@@ -26,5 +26,5 @@ Musica fiaba giocosa b087deb3; brontolio sul lupo, vento comico sui soffi, colpi
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Favole_I_tre_porcellini_e_il_lupo_9x16 · 72 s · asset HeyGen db30fd36bfd7443e9051799c33b43193 (https://resource2.heygen.ai/video/db30fd36bfd7443e9051799c33b43193/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139394, 9/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.

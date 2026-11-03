@@ -26,5 +26,5 @@ Musica pizzicati furbi 35de200a; vento nel campo vuoto, «Garantito» con fanfar
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Favole_Il_Gatto_la_Volpe_e_il_Campo_dei_Miracoli_9x16 · 62 s · asset HeyGen 889d3096fcac4ab8ab95304e4a7ca012 (https://resource2.heygen.ai/video/889d3096fcac4ab8ab95304e4a7ca012/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139392, 7/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.

@@ -26,5 +26,5 @@ Musica musica da quiz c669d07e; ding delle risposte, suono di vittoria e applaus
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Originali_Il_Quizzone_della_corsia_9x16 · 84 s · asset HeyGen 57513a768fd04faf9e1938ff0fabc57e (https://resource2.heygen.ai/video/57513a768fd04faf9e1938ff0fabc57e/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139389, 4/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.

@@ -26,5 +26,5 @@ Musica lo-fi ae1068d9; jingle, pop delle card, applausi, squillo, ding delle cin
 ## Uscita (1080x1920, 25 fps, integra; fuori da git; copia d'invio mandata in chat)
 PDRO_Originali_Unboxing_CISL_FP_9x16 · 76 s · asset HeyGen 036d679ac4cb423394e0333c5218f895 (https://resource2.heygen.ai/video/036d679ac4cb423394e0333c5218f895/original.mp4).
 
-## Da fare
-- OK di Achille → Robin sui 4 canali AOUP.
+## Pubblicazione
+- Programmato su Robin (OK di Achille del 3/11): post 1139393, 8/11/2026 ore 12:30 (Europe/Rome), reel su TikTok, Instagram, YouTube e Facebook AOUP, primo commento con il canale WhatsApp CISL FP AOUP.
