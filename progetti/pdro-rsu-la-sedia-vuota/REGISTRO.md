@@ -36,6 +36,16 @@ colpi sulle righe SERVE, campanella finale. −16,5 LUFS, picco −0,5 dBFS.
 RSU_AOUP_La_sedia_vuota_9x16 · 2:34 · asset HeyGen 7f7d225e28dc4439892a584a02c46290
 (https://resource2.heygen.ai/video/7f7d225e28dc4439892a584a02c46290/original.mp4). Portafoglio API dopo il lavoro: 67,28 $.
 
+## Versione 2 (4/11): voce maschile e inno solenne
+Richiesta di Achille: «una voce maschile più calda e carismatica e una musica di fondo più solenne». Fra cinque campioni
+maschili ha scelto la n. 1, «Uomo anziano caldo» 403b2f166bdd4b4c976e2d7b370d26d6 (scartati Voce da discorso,
+Sindacalista 2, Luca Brasi gentile, Il lettore); fra tre musiche la B, inno lento e solenne 40d447a922bc43f1a95a303a9d2ded15,
+su tutto il video. Voce in due tracce: request iPejFbbZxs0HZZb5rAHa (S01-S05, 96,7 s) e NM06L4ungm1p1LdbBrOi (S06-S09,
+74,6 s). S01 11,5 · S02 20,2 · S03 22,5 · S04 20,2 · S05 18,1 · S06 13,3 · S07 31,4 · S08 11,8 · S09 15,4 s = 164,3 s.
+Stesse grafiche e clip (le sedie si riaccendono sui nuovi tempi). −16,2 LUFS, integro. 2:44.
+Asset HeyGen dcd765c456d84d138b02f03a995aa65d (https://resource2.heygen.ai/video/dcd765c456d84d138b02f03a995aa65d/original.mp4); la versione 1 (voce femminile,
+7f7d225e28dc4439892a584a02c46290) è superata. Portafoglio API: 66.77 $.
+
 ## Pubblicazione
-- Da fare: OK di Achille → Robin (dura 2:34: su Facebook va come video normale). Checklist del pacchetto: nomi verificati
+- Da fare: OK di Achille → Robin (dura 2:44: su Facebook va come video normale). Checklist del pacchetto: nomi verificati
   con l'elenco dei componenti e consenso alla pubblicazione dei volti e dei nomi.

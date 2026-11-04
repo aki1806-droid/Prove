@@ -98,12 +98,13 @@ CAT = {'vento': ('sound_effects', 'wind howling night', 'dcc590846602e641'),
        # «La sedia vuota» (RSU AOUP)
        'colpo2': ('sound_effects', 'door slam', 'c35b59ff77cb4574'),
        'mus_sedia': ('music', 'tense minimal piano reflective', '950ccb16ec664094b30849bcff1c0341'),
-       'mus_sedia2': ('music', 'determined rising inspiring cinematic', 'ab1255090647457dbef93b43a0544641')}
+       'mus_sedia2': ('music', 'determined rising inspiring cinematic', 'ab1255090647457dbef93b43a0544641'),
+       'mus_sedia_inno': ('music', 'epic solemn anthem slow', '40d447a922bc43f1a95a303a9d2ded15')}
 # musica a tratti: (chiave, scena da cui parte); Il Turno passa dall'horror alla commedia sul sequel (S06)
 MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')],
            'librogame': [('mus_librogame', 'S01'), ('mus_turno', 'S05'), ('mus_librogame', 'S06')],
            'cv7': [('mus_turno', 'S01'), ('mus_cv7', 'S03')],
-           'sedia': [('mus_sedia', 'S01'), ('mus_sedia2', 'S06')],
+           'sedia': [('mus_sedia_inno', 'S01')],   # v2: inno solenne su tutto (Achille, 4/11)
            # estate (ukulele da fiaba), inverno (carillon), formicaio (archi caldi)
            'cicala': [('mus_cicala_estate', 'S01'), ('mus_cicala_inverno', 'S03'), ('mus_cicala_caldo', 'S04')]}
 # (scena, ancora, effetto, volume, durata massima o None)

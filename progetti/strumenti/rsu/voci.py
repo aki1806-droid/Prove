@@ -1,5 +1,5 @@
-"""Voce di «La sedia vuota» (RSU AOUP, novembre 2026): tutta fuori campo, senza avatar, con la voce «DONNA VOCE CALDA
-PER VIDEO» (87fd26ac5b68410d93b36b2d44a19f8d), scelta da Achille fra cinque campioni al posto della sua. HeyGen come
+"""Voce di «La sedia vuota» (RSU AOUP, novembre 2026): tutta fuori campo, senza avatar, con la voce «UOMO ANZIANO CALDO»
+(403b2f166bdd4b4c976e2d7b370d26d6), scelta da Achille (4/11) fra cinque campioni maschili, dopo una prima versione femminile. HeyGen come
 passante, eleven_v4, in due tracce (S01-S05 e S06-S09, blocchi uniti da <break time="1.6s"/>); tagli profilo narratore.
     python3 strumenti/rsu/voci.py genera|taglia
 """
@@ -7,9 +7,9 @@ import glob, os, sys
 QUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(QUI)); sys.path.insert(0, os.path.join(os.path.dirname(QUI), 'chicedomani'))
 from voci import blocchi, scrivi, PR  # noqa: E402
-PG, VOCE = 'pdro-rsu-la-sedia-vuota', '87fd26ac5b68410d93b36b2d44a19f8d'
+PG, VOCE = 'pdro-rsu-la-sedia-vuota', '403b2f166bdd4b4c976e2d7b370d26d6'
 testi = [open(f).read().strip() for f in sorted(glob.glob(f'{PR}/{PG}/voce_testi/*.txt'))]
-TRACCE = [('rsu-sedia-a', testi[:5]), ('rsu-sedia-b', testi[5:])]
+TRACCE = [('rsu-sedia-uomo-a', testi[:5]), ('rsu-sedia-uomo-b', testi[5:])]
 if sys.argv[1] == 'genera':
     from heygen_api import voce
     for nome, tt in TRACCE:
