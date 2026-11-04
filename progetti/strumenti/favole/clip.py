@@ -64,6 +64,9 @@ CLIP = {
     'pdro-convenzioni-8-quanto-vale-la-tessera': {
         'S01': ('cv_tessera.png', 'The hand raises the green card, behind it the lights of the shop windows switch on one after another, evening city light, slow push-in.'),
         'S04': ('cv_calcolatrice.png', 'The nurse types on the calculator, then brings her hand to her mouth, amazed and smiling, warm kitchen light, slow push-in.')},
+    'pdro-rsu-la-sedia-vuota': {
+        'S01': ('rsu_sala.png', 'Slow tracking shot along the empty meeting table with empty chairs, the hand of the wall clock ticks forward, dust floats in the light beams, silent atmosphere, no people.'),
+        'S08': ('rsu_gruppo.png', 'The group of hospital workers walks decisively towards the camera, backlit, confident steps, slow camera push back.')},
 }
 
 

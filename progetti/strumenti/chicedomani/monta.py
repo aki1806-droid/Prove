@@ -93,7 +93,16 @@ def monta():
     en = {k: '+'.join(f"between(t,{t['inizio']:.3f},{t['inizio'] + t['durata'] - 0.001:.3f})"
                       for t in scene if ANIM[t['id']]['tipo'] == k) or '0' for k in LOGO_Y}
     cx, cy, cw, ch = AV_CROP
-    ff('-i', f'{LAV}/fondo.mp4', '-loop', '1', '-i', f'{QUI}/logo.png',
+    # un progetto può portare il suo logo (logo.png nella cartella, es. la RSU) e può non avere l'avatar
+    LOGO = f'{D}/logo.png' if os.path.exists(f'{D}/logo.png') else f'{QUI}/logo.png'
+    if not os.path.exists(f'{D}/avatar/avatar.webm'):
+        ff('-i', f'{LAV}/fondo.mp4', '-loop', '1', '-i', LOGO, '-i', f'{D}/audio/voce-completa.wav', '-filter_complex',
+           f"[1:v]split[l1][l2];[0:v][l1]overlay=0:{LOGO_Y['pieno']}:shortest=1:enable='{en['pieno']}'[a];"
+           f"[a][l2]overlay=0:{LOGO_Y['overlay']}:enable='{en['overlay']}',format=yuv420p[v];[2:a]apad=whole_dur={dur:.3f}[au]",
+           '-map', '[v]', '-map', '[au]', '-t', f'{dur:.3f}', '-r', str(FPS), '-c:v', 'libx264', '-preset', 'medium', '-crf', '18',
+           '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', f'{D}/{NOME}.mp4')
+        print('montato', NOME, f'{dur:.2f} s (senza avatar)'); return
+    ff('-i', f'{LAV}/fondo.mp4', '-loop', '1', '-i', LOGO,
        '-itsoffset', f"{av['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm',
        '-i', f'{D}/audio/voce-completa.wav', '-filter_complex',
        f"[1:v]split[l1][l2];"

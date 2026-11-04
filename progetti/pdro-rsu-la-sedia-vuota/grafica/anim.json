@@ -1,0 +1,1251 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "badge",
+"in": [
+"pop",
+0.4,
+0.4
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
+"sala",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"guardatela",
+0.35
+]
+},
+{
+"p": "sotto",
+"in": [
+"wipe",
+"mesi",
+1.0
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.5
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.5
+],
+"fisso": true
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "p1",
+"in": [
+"slideL",
+"eleggete",
+0.45
+]
+},
+{
+"p": "p2",
+"in": [
+"slideL",
+"riunisce",
+0.45
+]
+},
+{
+"p": "p3",
+"in": [
+"slideL",
+"siede",
+0.45
+]
+},
+{
+"p": "p4",
+"in": [
+"slideL",
+"accordi",
+0.45
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondoA",
+0
+],
+[
+"fondoB",
+"ventisette-0.2",
+0.3
+]
+],
+"strati": [
+{
+"p": "c0",
+"in": [
+"pop",
+5.371,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c1",
+"in": [
+"pop",
+5.567,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c2",
+"in": [
+"pop",
+5.762,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c3",
+"in": [
+"pop",
+5.958,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c4",
+"in": [
+"pop",
+6.153,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c5",
+"in": [
+"pop",
+6.349,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c6",
+"in": [
+"pop",
+6.544,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c7",
+"in": [
+"pop",
+6.74,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c8",
+"in": [
+"pop",
+6.935,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c9",
+"in": [
+"pop",
+7.131,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c10",
+"in": [
+"pop",
+7.327,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c11",
+"in": [
+"pop",
+7.522,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c12",
+"in": [
+"pop",
+7.718,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c13",
+"in": [
+"pop",
+7.913,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c14",
+"in": [
+"pop",
+8.109,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c15",
+"in": [
+"pop",
+8.304,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c16",
+"in": [
+"pop",
+8.5,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c17",
+"in": [
+"pop",
+8.695,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c18",
+"in": [
+"pop",
+8.891,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c19",
+"in": [
+"pop",
+9.087,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c20",
+"in": [
+"pop",
+9.282,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c21",
+"in": [
+"pop",
+9.478,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c22",
+"in": [
+"pop",
+9.673,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c23",
+"in": [
+"pop",
+9.869,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c24",
+"in": [
+"pop",
+10.064,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c25",
+"in": [
+"pop",
+10.26,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c26",
+"in": [
+"pop",
+10.455,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "c27",
+"in": [
+"pop",
+10.651,
+0.18
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "conta",
+"in": [
+"slam",
+"ventotto#2",
+0.35
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "badge",
+"in": [
+"pop",
+"discute",
+0.35
+],
+"out": [
+"fade",
+"ventisette-0.2",
+0.3
+]
+},
+{
+"p": "sedia",
+"in": [
+"pop",
+"ventisette",
+0.3
+],
+"fx": [
+[
+"pulsa",
+"ventisette+0.4",
+0.8,
+0.06
+]
+]
+},
+{
+"p": "contaB",
+"in": [
+"slam",
+"ventisette+0.2",
+0.35
+]
+},
+{
+"p": "badgeB",
+"in": [
+"pop",
+"cominciare",
+0.35
+]
+}
+],
+"urti": [
+"ventisette+0.2"
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "x1",
+"in": [
+"stampa",
+"convocazione+0.00",
+0.25
+]
+},
+{
+"p": "x2",
+"in": [
+"stampa",
+"convocazione+0.35",
+0.25
+]
+},
+{
+"p": "x3",
+"in": [
+"stampa",
+"convocazione+0.70",
+0.25
+]
+},
+{
+"p": "x4",
+"in": [
+"stampa",
+"convocazione+1.05",
+0.25
+]
+},
+{
+"p": "x5",
+"in": [
+"stampa",
+"convocazione+1.40",
+0.25
+]
+},
+{
+"p": "x6",
+"in": [
+"stampa",
+"convocazione+1.75",
+0.25
+]
+},
+{
+"p": "badge",
+"in": [
+"pop",
+"ventotto",
+0.35
+],
+"fx": [
+[
+"pulsa",
+"ventotto+0.4",
+0.7,
+0.05
+]
+]
+},
+{
+"p": "scelta",
+"in": [
+"wipe",
+"caso",
+1.0
+]
+},
+{
+"p": "nota",
+"in": [
+"fade",
+"eletti",
+0.6
+]
+}
+]
+},
+"S05": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+]
+},
+{
+"p": "r1",
+"in": [
+"slideL",
+"ferie",
+0.4
+],
+"figli": [
+{
+"p": "o1",
+"in": [
+"fade",
+"ferie+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+},
+{
+"p": "r2",
+"in": [
+"slideL",
+"agile",
+0.4
+],
+"figli": [
+{
+"p": "o2",
+"in": [
+"fade",
+"agile+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+},
+{
+"p": "r3",
+"in": [
+"slideL",
+"parttime",
+0.4
+],
+"figli": [
+{
+"p": "o3",
+"in": [
+"fade",
+"parttime+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+},
+{
+"p": "r4",
+"in": [
+"slideL",
+"differenziali",
+0.4
+],
+"figli": [
+{
+"p": "o4",
+"in": [
+"fade",
+"differenziali+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+},
+{
+"p": "r5",
+"in": [
+"slideL",
+"progressioni",
+0.4
+],
+"figli": [
+{
+"p": "o5",
+"in": [
+"fade",
+"progressioni+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+},
+{
+"p": "r6",
+"in": [
+"slideL",
+"progettualita",
+0.4
+],
+"figli": [
+{
+"p": "o6",
+"in": [
+"fade",
+"progettualita+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+},
+{
+"p": "r7",
+"in": [
+"slideL",
+"risorse",
+0.4
+],
+"figli": [
+{
+"p": "o7",
+"in": [
+"fade",
+"risorse+0.3",
+0.4
+],
+"fx": [
+[
+"pulsa",
+"manca",
+0.8,
+0.06
+]
+]
+}
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "basta",
+"in": [
+"slam",
+"basta",
+0.35
+]
+},
+{
+"p": "foglio",
+"in": [
+"drop",
+"rappresentanza",
+0.45
+]
+},
+{
+"p": "testo",
+"in": [
+"wipe",
+"rsu",
+1.2
+]
+}
+],
+"urti": [
+"basta+0.2"
+]
+},
+"S07": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondoA",
+0
+],
+[
+"fondoB",
+"giovanna-0.3",
+0.3
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.35
+],
+"out": [
+"fade",
+"giovanna-0.3",
+0.3
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.35,
+0.35
+],
+"out": [
+"fade",
+"giovanna-0.3",
+0.3
+]
+},
+{
+"p": "foto",
+"in": [
+"zoom",
+0.3,
+0.6
+],
+"out": [
+"fade",
+"giovanna-0.3",
+0.3
+]
+},
+{
+"p": "dida",
+"in": [
+"wipe",
+"volti",
+1.0
+],
+"out": [
+"fade",
+"giovanna-0.3",
+0.3
+]
+},
+{
+"p": "n1",
+"in": [
+"fade",
+"giovanna",
+0.3
+]
+},
+{
+"p": "n2",
+"in": [
+"fade",
+"marika",
+0.3
+]
+},
+{
+"p": "n3",
+"in": [
+"fade",
+"pasquale",
+0.3
+]
+},
+{
+"p": "n4",
+"in": [
+"fade",
+"antonio",
+0.3
+]
+},
+{
+"p": "n5",
+"in": [
+"fade",
+"giuseppina",
+0.3
+]
+},
+{
+"p": "n6",
+"in": [
+"fade",
+"luigi",
+0.3
+]
+},
+{
+"p": "n7",
+"in": [
+"fade",
+"antonio#2",
+0.3
+]
+},
+{
+"p": "n8",
+"in": [
+"fade",
+"davide",
+0.3
+]
+},
+{
+"p": "n9",
+"in": [
+"fade",
+"stefania",
+0.3
+]
+},
+{
+"p": "n10",
+"in": [
+"fade",
+"elena",
+0.3
+]
+},
+{
+"p": "n11",
+"in": [
+"fade",
+"carlo",
+0.3
+]
+},
+{
+"p": "n12",
+"in": [
+"fade",
+"manuela",
+0.3
+]
+},
+{
+"p": "n13",
+"in": [
+"fade",
+"maria",
+0.3
+]
+},
+{
+"p": "n14",
+"in": [
+"fade",
+"chiara#2",
+0.3
+]
+},
+{
+"p": "n15",
+"in": [
+"fade",
+"luca",
+0.3
+]
+},
+{
+"p": "n16",
+"in": [
+"fade",
+"tamara",
+0.3
+]
+},
+{
+"p": "n17",
+"in": [
+"fade",
+"luigi#2",
+0.3
+]
+},
+{
+"p": "n18",
+"in": [
+"fade",
+"anna",
+0.3
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+"giovanna-0.3",
+1.06,
+540,
+960
+],
+[
+"giovanna",
+1.0,
+540,
+960
+]
+]
+},
+"S08": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+"persone",
+0.35
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+"nascondersi",
+0.35
+]
+},
+{
+"p": "t3",
+"in": [
+"slam",
+"rappresentanza",
+0.4
+]
+},
+{
+"p": "banda_su",
+"in": [
+"bandaSu",
+0,
+0.4
+],
+"fisso": true
+},
+{
+"p": "banda_giu",
+"in": [
+"bandaGiu",
+0,
+0.4
+],
+"fisso": true
+}
+]
+},
+"S09": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s1",
+"in": [
+"slideL",
+"responsabilita",
+0.4
+]
+},
+{
+"p": "s2",
+"in": [
+"slideL",
+"presenza",
+0.4
+]
+},
+{
+"p": "s3",
+"in": [
+"slideL",
+"rispetto",
+0.4
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+14,
+1.04,
+540,
+960
+]
+]
+}
+}

@@ -686,6 +686,86 @@ ANIM.update({
 })
 
 
+# ---- «La sedia vuota» (RSU AOUP, novembre 2026): nessun avatar, logo RSU (logo.png del progetto)
+SV = 'pdro-rsu-la-sedia-vuota'
+_SEDIA = [(93 + 100 * (k % 9), 500 + 120 * (k // 9)) for k in range(54)]
+_NOMI = [452, 570, 688, 806, 924, 1042, 1160, 1278, 1396]
+_PRIMI = ['giovanna', 'marika', 'pasquale', 'antonio', 'giuseppina', 'luigi', 'antonio#2', 'davide', 'stefania', 'elena',
+          'carlo', 'manuela', 'maria', 'chiara#2', 'luca', 'tamara', 'luigi#2', 'anna']
+EPISODI[SV] = {
+    'S01': {'base': 'overlay_clip/S01A.png', 'pezzi': [
+        CH('badge', 70, 1110, 600, 1214, 120, 8), CH('t1', 70, 1252, 720, 1358, 120, 14), CH('t2', 70, 1382, 610, 1488, 120, 14),
+        CH('sotto', 70, 1518, 830, 1600, 110, 12), *BANDE]},
+    'S02': {'base': 'grafiche/S02A.png', 'pezzi': [R('t1', 60, 290, 770, 359), R('t2', 60, 375, 600, 444),
+                                                  *[C(f'p{k}', 64, y0 - 4, 1017, y1 + 4, 22) for k, (y0, y1) in
+                                                    enumerate([(500, 738), (750, 988), (1000, 1238), (1250, 1451)], 1)]]},
+    'S03': {'base': 'grafiche/S03A_grigio.png', 'fondi': {'fondoA': 'grafiche/S03A_grigio.png', 'fondoB': 'grafiche/S03B.png'}, 'pezzi': [
+        *[{'id': f'c{k}', 'src': 'grafiche/S03A.png', 'buca': False, 'm': ['rect', x - 4, y - 4, x + 80, y + 100]} for k, (x, y) in enumerate(_SEDIA[:28])],
+        R('conta', 270, 1190, 810, 1345), C('badge', 64, 1384, 1017, 1507, 58),
+        {'id': 'sedia', 'src': 'grafiche/S03B.png', 'buca': False, 'm': ['rect', 89, 856, 173, 960]},
+        {**R('contaB', 270, 1190, 810, 1345), 'src': 'grafiche/S03B.png'}, {**C('badgeB', 64, 1384, 1017, 1507, 58), 'src': 'grafiche/S03B.png'}]},
+    'S04': {'base': 'grafiche/S04A.png', 'pezzi': [
+        R('t1', 60, 282, 720, 353), R('t2', 60, 372, 500, 443),
+        *[{'id': f'x{k}', 'riempi': 'tinta', 'm': ['rosso', x0 - 4, y0 - 4, x1 + 4, y1 + 4]} for k, (x0, y0, x1, y1) in
+          enumerate([(192, 711, 319, 830), (477, 711, 604, 830), (762, 711, 889, 830), (192, 941, 319, 1060), (477, 941, 604, 1060), (762, 941, 889, 1060)], 1)],
+        C('badge', 86, 1156, 995, 1285, 60), R('scelta', 130, 1318, 960, 1410), R('nota', 80, 1470, 970, 1565)]},
+    'S05': {'base': 'grafiche/S05A.png', 'pezzi': [
+        R('t1', 60, 289, 870, 351), R('t2', 60, 369, 830, 431),
+        *[{'id': f'o{k}', 'riempi': 'tinta', 'm': ['rosso', 695, y0 - 6, 998, y0 + 73]} for k, y0 in enumerate([542, 700, 858, 1016, 1174, 1332, 1490], 1)],
+        *[C(f'r{k}', 64, y0 - 4, 1017, y0 + 145, 18) for k, y0 in enumerate([480, 638, 796, 954, 1112, 1270, 1428], 1)]]},
+    'S06': {'base': 'grafiche/S06A.png', 'pezzi': [R('basta', 34, 294, 1048, 638), R('foglio', 74, 714, 1012, 1294), R('testo', 84, 1340, 952, 1490)]},
+    'S07': {'base': 'grafiche/S07A.png', 'fondi': {'fondoA': 'grafiche/S07A.png', 'fondoB': 'grafiche/S07B.png'}, 'pezzi': [
+        R('t1', 60, 273, 660, 347), R('t2', 60, 367, 660, 452), R('foto', 34, 494, 1046, 1444), R('dida', 190, 1474, 906, 1558),
+        *[{**R(f'n{2 * j + s + 1}', x0, y - 16, x1, y + 48), 'src': 'grafiche/S07B.png'}
+          for j, y in enumerate(_NOMI) for s, (x0, x1) in enumerate([(80, 532), (548, 1000)])]]},
+    'S08': {'base': 'overlay_clip/S08A.png', 'pezzi': [
+        CH('t1', 70, 1234, 930, 1308, 120, 14), CH('t2', 70, 1310, 380, 1386, 120, 14), CH('t3', 70, 1428, 850, 1538, 120, 14), *BANDE]},
+    'S09': {'base': 'grafiche/S09A.png', 'pezzi': [R(f's{k}', 60, y0 - 12, 1000, y1 + 12, 'righe') for k, (y0, y1) in
+                                                  enumerate([(603, 667), (788, 841), (953, 992)], 1)]},
+}
+
+
+def _sedie():
+    """le 28 sedie verdi si accendono una alla volta fra «componenti» e «presenti»."""
+    import json
+    sys.path.insert(0, os.path.join(os.path.dirname(QUI), 'halloween'))
+    from suoni import ancora
+    pa = json.load(open(f'{PR}/{SV}/audio/parole.json'))['S03']
+    a, b = ancora('componenti', pa), ancora('presenti', pa)
+    return [P(f'c{k}', ['pop', round(a + (b - a) * k / 27, 3), 0.18], ['fade', 'ventisette-0.2', 0.3]) for k in range(28)]
+
+
+FUORI7 = ['fade', 'giovanna-0.3', 0.3]
+ANIM[SV] = {
+    'S01': ov([P('badge', ['pop', 0.4, 0.4]), P('t1', ['slam', 'sala', 0.35]), P('t2', ['slam', 'guardatela', 0.35]),
+               P('sotto', ['wipe', 'mesi', 1.0])], 0.5),
+    'S02': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                  *[P(f'p{k}', ['slideL', w, 0.45]) for k, w in enumerate(['eleggete', 'riunisce', 'siede', 'accordi'], 1)]]),
+    'S03': {'tipo': 'pieno', 'fondi': [['fondoA', 0], ['fondoB', 'ventisette-0.2', 0.3]], 'strati': [
+        *_sedie(), P('conta', ['slam', 'ventotto#2', 0.35], ['fade', 'ventisette-0.2', 0.3]),
+        P('badge', ['pop', 'discute', 0.35], ['fade', 'ventisette-0.2', 0.3]),
+        P('sedia', ['pop', 'ventisette', 0.3], fx=[['pulsa', 'ventisette+0.4', 0.8, 0.06]]),
+        P('contaB', ['slam', 'ventisette+0.2', 0.35]), P('badgeB', ['pop', 'cominciare', 0.35])],
+        'urti': ['ventisette+0.2']},
+    'S04': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                  *[P(f'x{k}', ['stampa', f'convocazione+{0.35 * (k - 1):.2f}', 0.25]) for k in range(1, 7)],
+                  P('badge', ['pop', 'ventotto', 0.35], fx=[['pulsa', 'ventotto+0.4', 0.7, 0.05]]),
+                  P('scelta', ['wipe', 'caso', 1.0]), P('nota', ['fade', 'eletti', 0.6])]),
+    'S05': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
+                  *[P(f'r{k}', ['slideL', w, 0.4], figli=[P(f'o{k}', ['fade', f'{w}+0.3', 0.4], fx=[['pulsa', 'manca', 0.8, 0.06]])])
+                    for k, w in enumerate(['ferie', 'agile', 'parttime', 'differenziali', 'progressioni', 'progettualita', 'risorse'], 1)]]),
+    'S06': pieno([P('basta', ['slam', 'basta', 0.35]), P('foglio', ['drop', 'rappresentanza', 0.45]), P('testo', ['wipe', 'rsu', 1.2])],
+                 urti=['basta+0.2']),
+    'S07': {'tipo': 'pieno', 'fondi': [['fondoA', 0], ['fondoB', 'giovanna-0.3', 0.3]], 'strati': [
+        P('t1', ['slam', 0.1, 0.35], FUORI7), P('t2', ['slam', 0.35, 0.35], FUORI7), P('foto', ['zoom', 0.3, 0.6], FUORI7),
+        P('dida', ['wipe', 'volti', 1.0], FUORI7), *[P(f'n{k}', ['fade', w, 0.3]) for k, w in enumerate(_PRIMI, 1)]],
+        'camera': [[0, 1.0, 540, 960], ['giovanna-0.3', 1.06, 540, 960], ['giovanna', 1.0, 540, 960]]},
+    'S08': ov([P('t1', ['slam', 'persone', 0.35]), P('t2', ['slam', 'nascondersi', 0.35]), P('t3', ['slam', 'rappresentanza', 0.4])]),
+    'S09': pieno([P('s1', ['slideL', 'responsabilita', 0.4]), P('s2', ['slideL', 'presenza', 0.4]), P('s3', ['slideL', 'rispetto', 0.4])],
+                 camera=[[0, 1.0, 540, 960], [14, 1.04, 540, 960]]),
+}
+
+
 def verifica(pg):
     """tutte le parole-ancora devono esistere nella voce tagliata."""
     import json

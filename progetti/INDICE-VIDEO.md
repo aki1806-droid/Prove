@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**127 video** in 13 sezioni.
+**128 video** in 14 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -232,6 +232,13 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · «Bando part-time 2026 AOUP» (reel 9:16) | mar 3/11 13:15 | [apri](https://resource2.heygen.ai/video/87a8acf1070d4e7c916f60d39b98cd52/original.mp4) |
 | PDRO · «Le tue segnalazioni: a che punto sono?» (reel 9:16) | mar 3/11 19:10 | [apri](https://resource2.heygen.ai/video/3223bdea5dd8464d9d5e54277ef6c33d/original.mp4) |
 | PDRO · «Scegli il tuo turno – turni da 12 ore», librogame (reel 9:16) | mar 3/11 19:20 | [apri](https://resource2.heygen.ai/video/aca2098f659241bdbd2e45d42d2b6527/original.mp4) |
+
+
+## RSU AOUP
+
+| Video | Indirizzo |
+|---|---|
+| «La sedia vuota» (reel 9:16, firmato Componenti RSU) | [apri](https://resource2.heygen.ai/video/7f7d225e28dc4439892a584a02c46290/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 

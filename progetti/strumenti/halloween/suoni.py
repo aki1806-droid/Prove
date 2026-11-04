@@ -94,11 +94,16 @@ CAT = {'vento': ('sound_effects', 'wind howling night', 'dcc590846602e641'),
        'mus_cv5': ('music', 'summer beach acoustic happy', 'eb0e08d4cb274daba06388b516cd4133'),
        'mus_cv6': ('music', 'light pop upbeat everyday', 'bb5651df137e4768a49a92d1d2b73150'),
        'mus_cv7': ('music', 'bright hopeful uplifting', 'fce98786069d40e5bac3c7b437914218'),
-       'mus_cv8': ('music', 'warm inspiring upbeat corporate', '01f87f542a254e4585f86300c081122e')}
+       'mus_cv8': ('music', 'warm inspiring upbeat corporate', '01f87f542a254e4585f86300c081122e'),
+       # «La sedia vuota» (RSU AOUP)
+       'colpo2': ('sound_effects', 'door slam', 'c35b59ff77cb4574'),
+       'mus_sedia': ('music', 'tense minimal piano reflective', '950ccb16ec664094b30849bcff1c0341'),
+       'mus_sedia2': ('music', 'determined rising inspiring cinematic', 'ab1255090647457dbef93b43a0544641')}
 # musica a tratti: (chiave, scena da cui parte); Il Turno passa dall'horror alla commedia sul sequel (S06)
 MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')],
            'librogame': [('mus_librogame', 'S01'), ('mus_turno', 'S05'), ('mus_librogame', 'S06')],
            'cv7': [('mus_turno', 'S01'), ('mus_cv7', 'S03')],
+           'sedia': [('mus_sedia', 'S01'), ('mus_sedia2', 'S06')],
            # estate (ukulele da fiaba), inverno (carillon), formicaio (archi caldi)
            'cicala': [('mus_cicala_estate', 'S01'), ('mus_cicala_inverno', 'S03'), ('mus_cicala_caldo', 'S04')]}
 # (scena, ancora, effetto, volume, durata massima o None)
@@ -246,7 +251,14 @@ EVENTI = {
     'cv8': [('S01', 0.0, 'cassa2', 0.35, None), *[('S02', w, 'clic', 0.2, None) for w in ('farmacia', 'animali', 'universita', 'meta', 'enogastronomia',
                                                                                           'cinema', 'viaggi', 'polizza', 'fondo', 'medico')],
             ('S02', 'famiglia', 'cassa2', 0.3, None), *[('S03', f'{w}+0.35', 'ding', 0.25, None) for w in ('contratto', 'cedolino', 'corsi', 'lassistenza', 'qualcuno')],
-            ('S04', 'sorprende', 'scintille', 0.35, None), ('S05', 'rovigo', 'campanella', 0.3, None)]}
+            ('S04', 'sorprende', 'scintille', 0.35, None), ('S05', 'rovigo', 'campanella', 0.3, None)],
+    'sedia': [('S01', 0.0, 'tic', 0.3, 11.0), *[('S02', w, 'whoosh', 0.18, None) for w in ('eleggete', 'riunisce', 'siede', 'accordi')],
+              ('S03', 'ventotto#2', 'ding', 0.3, None), ('S03', 'ventisette', 'colpo2', 0.45, None),
+              *[('S04', f'convocazione+{0.35 * k:.2f}', 'timbro', 0.25, None) for k in range(6)], ('S04', 'ventotto', 'sbagliato', 0.3, None),
+              *[('S05', w, 'clic', 0.2, None) for w in ('ferie', 'agile', 'parttime', 'differenziali', 'progressioni', 'progettualita', 'risorse')],
+              ('S05', 'manca', 'tonfo', 0.3, None), ('S06', 'basta', 'impatto', 0.4, None), ('S06', 'rappresentanza', 'pagina', 0.3, None),
+              ('S07', 'giovanna-0.3', 'whoosh', 0.2, None),
+              *[('S09', w, 'tonfo', 0.25, None) for w in ('responsabilita', 'presenza', 'rispetto')], ('S09', 'siamo', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
         'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
         'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16', 're': 'PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16',
@@ -254,9 +266,9 @@ NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Hallowee
         'meteo': 'PDRO_Originali_Il_meteo_dei_diritti_9x16', 'unboxing': 'PDRO_Originali_Unboxing_CISL_FP_9x16',
         'quiz': 'PDRO_Originali_Il_Quizzone_della_corsia_9x16', 'archeologi': 'PDRO_Originali_Gli_archeologi_del_futuro_9x16',
         'parttime': 'PDRO_Bando_Part_time_2026_AOUP_9x16', 'segnalazioni': 'PDRO_Le_tue_segnalazioni_a_che_punto_sono_9x16',
-        'librogame': 'PDRO_Scegli_il_tuo_turno_turni_12_ore_9x16', 'cv1': 'PDRO_Convenzioni_1_Colpa_grave_9x16', 'cv2': 'PDRO_Convenzioni_2_Fondo_sanitario_9x16', 'cv3': 'PDRO_Convenzioni_3_Medico_H24_9x16', 'cv4': 'PDRO_Convenzioni_4_Formazione_9x16', 'cv5': 'PDRO_Convenzioni_5_Tempo_libero_9x16', 'cv6': 'PDRO_Convenzioni_6_Acquisti_9x16', 'cv7': 'PDRO_Convenzioni_7_Digitale_9x16', 'cv8': 'PDRO_Convenzioni_8_Quanto_vale_la_tessera_9x16'}
+        'librogame': 'PDRO_Scegli_il_tuo_turno_turni_12_ore_9x16', 'cv1': 'PDRO_Convenzioni_1_Colpa_grave_9x16', 'cv2': 'PDRO_Convenzioni_2_Fondo_sanitario_9x16', 'cv3': 'PDRO_Convenzioni_3_Medico_H24_9x16', 'cv4': 'PDRO_Convenzioni_4_Formazione_9x16', 'cv5': 'PDRO_Convenzioni_5_Tempo_libero_9x16', 'cv6': 'PDRO_Convenzioni_6_Acquisti_9x16', 'cv7': 'PDRO_Convenzioni_7_Digitale_9x16', 'cv8': 'PDRO_Convenzioni_8_Quanto_vale_la_tessera_9x16', 'sedia': 'RSU_AOUP_La_sedia_vuota_9x16'}
 MUSICA_VOL = 0.13
-CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026', 'segnalazioni': 'pdro-tracciamento-segnalazioni-aoup', 'librogame': 'pdro-turni-12-ore-librogame', 'cv1': 'pdro-convenzioni-1-colpa-grave', 'cv2': 'pdro-convenzioni-2-fondo-sanitario', 'cv3': 'pdro-convenzioni-3-medico-h24', 'cv4': 'pdro-convenzioni-4-formazione', 'cv5': 'pdro-convenzioni-5-tempo-libero', 'cv6': 'pdro-convenzioni-6-acquisti', 'cv7': 'pdro-convenzioni-7-digitale', 'cv8': 'pdro-convenzioni-8-quanto-vale-la-tessera'}
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026', 'segnalazioni': 'pdro-tracciamento-segnalazioni-aoup', 'librogame': 'pdro-turni-12-ore-librogame', 'cv1': 'pdro-convenzioni-1-colpa-grave', 'cv2': 'pdro-convenzioni-2-fondo-sanitario', 'cv3': 'pdro-convenzioni-3-medico-h24', 'cv4': 'pdro-convenzioni-4-formazione', 'cv5': 'pdro-convenzioni-5-tempo-libero', 'cv6': 'pdro-convenzioni-6-acquisti', 'cv7': 'pdro-convenzioni-7-digitale', 'cv8': 'pdro-convenzioni-8-quanto-vale-la-tessera', 'sedia': 'pdro-rsu-la-sedia-vuota'}
 
 
 def norm(s):
