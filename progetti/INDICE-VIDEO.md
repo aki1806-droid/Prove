@@ -38,12 +38,20 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | lun 9/11 12:30 | Favole N° 4 · «I tre porcellini e il lupo delle riorganizzazioni» | 4 canali AOUP |
 | mar 10/11 12:30 | Format originali · «Gli archeologi del futuro» | 4 canali AOUP |
 | mar 10/11 21:00 | Sentirsi per sentire · P3 «Prendere parola» | 12 canali provinciali |
+| ven 13/11 12:30 | Convenzioni 1 · «Istruzioni di sicurezza – polizza colpa grave» | 4 canali AOUP (testo provinciale) |
 | ven 13/11 19:30 | Sentirsi per sentire · Brividi T2 «Dove sei» | 12 canali provinciali |
 | sab 14/11 21:00 | Sentirsi per sentire · Brividi T4 «Chi cura» | 12 canali provinciali |
 | lun 16/11 21:00 | Sentirsi per sentire · P5 «Padova si accende» | 12 canali provinciali |
+| mar 17/11 12:30 | Convenzioni 2 · «Lettera dal futuro – Fondo sanitario» | 4 canali AOUP (testo provinciale) |
 | mer 18/11 19:30 | Sentirsi per sentire · P4 «Anche gli uomini» | 12 canali provinciali |
 | gio 19/11 21:00 | Sentirsi per sentire · Brividi T5 «Accendiamo una luce» | 12 canali provinciali |
+| ven 20/11 12:30 | Convenzioni 3 · «Le tre di notte – medico H24» | 4 canali AOUP (testo provinciale) |
 | dom 22/11 19:30 | Sentirsi per sentire · P1 «Il posto vuoto» | 12 canali provinciali |
+| mar 24/11 12:30 | Convenzioni 4 · «Il gioco della carriera – formazione» | 4 canali AOUP (testo provinciale) |
+| ven 27/11 12:30 | Convenzioni 5 · «Cartoline dal riposo – tempo libero» | 4 canali AOUP (testo provinciale) |
+| mar 1/12 12:30 | Convenzioni 6 · «Una giornata a sconto – acquisti» | 4 canali AOUP (testo provinciale) |
+| ven 4/12 12:30 | Convenzioni 7 · «Il terrore digitale – SPID e PEC» | 4 canali AOUP (testo provinciale) |
+| mar 8/12 12:30 | Convenzioni 8 · «Quanto vale una tessera?» | 4 canali AOUP (testo provinciale) |
 
 ## Eredità Invisibili
 
@@ -188,14 +196,14 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 | Video | Uscita sui social | Indirizzo |
 |---|---|---|
-| 1 «Istruzioni di sicurezza – polizza colpa grave» |  | [apri](https://resource2.heygen.ai/video/f2794e99f66a4e7380fbb8a615bab277/original.mp4) |
-| 2 «Lettera dal futuro – Fondo sanitario» |  | [apri](https://resource2.heygen.ai/video/a66b5571658c4192ba4bbda6f8907315/original.mp4) |
-| 3 «Le tre di notte – medico H24» |  | [apri](https://resource2.heygen.ai/video/178178c748be417eb69df9abf9aa9b7a/original.mp4) |
-| 4 «Il gioco della carriera – formazione» |  | [apri](https://resource2.heygen.ai/video/989245901c794a49af6370dc0c7bfd65/original.mp4) |
-| 5 «Cartoline dal riposo – tempo libero» |  | [apri](https://resource2.heygen.ai/video/5c0d1def4e1e47209ca362e131ab7abd/original.mp4) |
-| 6 «Una giornata a sconto – acquisti» |  | [apri](https://resource2.heygen.ai/video/4dfdec33e97348e49a558c4c6cc83bbf/original.mp4) |
-| 7 «Il terrore digitale – SPID e PEC» |  | [apri](https://resource2.heygen.ai/video/ef70896e24de4e84ae50cf8302f75315/original.mp4) |
-| 8 «Quanto vale una tessera?» |  | [apri](https://resource2.heygen.ai/video/46101895766f47d794545c370f535029/original.mp4) |
+| 1 «Istruzioni di sicurezza – polizza colpa grave» | ven 13/11 12:30 | [apri](https://resource2.heygen.ai/video/f2794e99f66a4e7380fbb8a615bab277/original.mp4) |
+| 2 «Lettera dal futuro – Fondo sanitario» | mar 17/11 12:30 | [apri](https://resource2.heygen.ai/video/a66b5571658c4192ba4bbda6f8907315/original.mp4) |
+| 3 «Le tre di notte – medico H24» | ven 20/11 12:30 | [apri](https://resource2.heygen.ai/video/178178c748be417eb69df9abf9aa9b7a/original.mp4) |
+| 4 «Il gioco della carriera – formazione» | mar 24/11 12:30 | [apri](https://resource2.heygen.ai/video/989245901c794a49af6370dc0c7bfd65/original.mp4) |
+| 5 «Cartoline dal riposo – tempo libero» | ven 27/11 12:30 | [apri](https://resource2.heygen.ai/video/5c0d1def4e1e47209ca362e131ab7abd/original.mp4) |
+| 6 «Una giornata a sconto – acquisti» | mar 1/12 12:30 | [apri](https://resource2.heygen.ai/video/4dfdec33e97348e49a558c4c6cc83bbf/original.mp4) |
+| 7 «Il terrore digitale – SPID e PEC» | ven 4/12 12:30 | [apri](https://resource2.heygen.ai/video/ef70896e24de4e84ae50cf8302f75315/original.mp4) |
+| 8 «Quanto vale una tessera?» | mar 8/12 12:30 | [apri](https://resource2.heygen.ai/video/46101895766f47d794545c370f535029/original.mp4) |
 
 ## PDRO · CCNL Funzioni Locali 2025-2027 con Andrea Ricci
 

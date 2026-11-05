@@ -25,5 +25,8 @@ PDRO_Convenzioni_1_*_9x16 · 1:06 · asset HeyGen f2794e99f66a4e7380fbb8a615bab2
 Portafoglio API dopo la serie: 71.48 $.
 
 ## Pubblicazione
-- Da fare: OK di Achille → Robin sui canali provinciali. Prima di pubblicare ricontrollare le condizioni su
+- Robin (5/11, richiesta di Achille, «due a settimana», solo i 4 canali CISL FP AOUP): post 1147115 ven 13/11 12:30
+  (TikTok e YouTube CISL FP AOUP, Instagram cislaop, Facebook CISL FP - Sanità AOUP Social Club, reel ovunque), testo
+  provinciale con i delegati dei tre territori, primo commento col canale WhatsApp CISL FP AOUP, etichette «Convenzioni CISL FP».
+- Restava da fare: Prima di pubblicare ricontrollare le condizioni su
   convenzionicislfp.it (percentuali e finestre di adesione possono cambiare).
