@@ -709,10 +709,10 @@ EPISODI[SV] = {
         *[{'id': f'x{k}', 'riempi': 'tinta', 'm': ['rosso', x0 - 4, y0 - 4, x1 + 4, y1 + 4]} for k, (x0, y0, x1, y1) in
           enumerate([(192, 711, 319, 830), (477, 711, 604, 830), (762, 711, 889, 830), (192, 941, 319, 1060), (477, 941, 604, 1060), (762, 941, 889, 1060)], 1)],
         C('badge', 86, 1156, 995, 1285, 60), R('scelta', 130, 1318, 960, 1410), R('nota', 80, 1470, 970, 1565)]},
+    # versione 3 (5/11): «Cosa vorremmo portare al tavolo», quattro schede (../rsu/grafiche_v3.mjs)
     'S05': {'base': 'grafiche/S05A.png', 'pezzi': [
-        R('t1', 60, 289, 870, 351), R('t2', 60, 369, 830, 431),
-        *[{'id': f'o{k}', 'riempi': 'tinta', 'm': ['rosso', 695, y0 - 6, 998, y0 + 73]} for k, y0 in enumerate([542, 700, 858, 1016, 1174, 1332, 1490], 1)],
-        *[C(f'r{k}', 64, y0 - 4, 1017, y0 + 145, 18) for k, y0 in enumerate([480, 638, 796, 954, 1112, 1270, 1428], 1)]]},
+        R('t1', 60, 280, 780, 368), R('t2', 60, 368, 900, 452),
+        *[C(f'c{k}', 64, 500 + 235 * (k - 1) - 5, 1016, 500 + 235 * (k - 1) + 205, 28) for k in range(1, 5)], R('k', 60, 1462, 1020, 1556)]},
     'S06': {'base': 'grafiche/S06A.png', 'pezzi': [R('basta', 34, 294, 1048, 638), R('foglio', 74, 714, 1012, 1294), R('testo', 84, 1340, 952, 1490)]},
     'S07': {'base': 'grafiche/S07A.png', 'fondi': {'fondoA': 'grafiche/S07A.png', 'fondoB': 'grafiche/S07B.png'}, 'pezzi': [
         R('t1', 60, 273, 660, 347), R('t2', 60, 367, 660, 452), R('foto', 34, 494, 1046, 1444), R('dida', 190, 1474, 906, 1558),
@@ -748,20 +748,20 @@ ANIM[SV] = {
         P('contaB', ['slam', 'ventisette+0.2', 0.35]), P('badgeB', ['pop', 'cominciare', 0.35])],
         'urti': ['ventisette+0.2']},
     'S04': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
-                  *[P(f'x{k}', ['stampa', f'convocazione+{0.35 * (k - 1):.2f}', 0.25]) for k in range(1, 7)],
-                  P('badge', ['pop', 'ventotto', 0.35], fx=[['pulsa', 'ventotto+0.4', 0.7, 0.05]]),
-                  P('scelta', ['wipe', 'caso', 1.0]), P('nota', ['fade', 'eletti', 0.6])]),
+                  *[P(f'x{k}', ['stampa', f'mesi+{0.3 * (k - 1):.2f}', 0.25]) for k in range(1, 7)],
+                  P('badge', ['pop', 'legale', 0.35], fx=[['pulsa', 'legale+0.4', 0.7, 0.05]]),
+                  P('nota', ['fade', 'convocazione', 0.6]), P('scelta', ['wipe', 'unoccasione', 1.0])]),
     'S05': pieno([P('t1', ['slam', 0.1, 0.35]), P('t2', ['slam', 0.35, 0.35]),
-                  *[P(f'r{k}', ['slideL', w, 0.4], figli=[P(f'o{k}', ['fade', f'{w}+0.3', 0.4], fx=[['pulsa', 'manca', 0.8, 0.06]])])
-                    for k, w in enumerate(['ferie', 'agile', 'parttime', 'differenziali', 'progressioni', 'progettualita', 'risorse'], 1)]]),
-    'S06': pieno([P('basta', ['slam', 'basta', 0.35]), P('foglio', ['drop', 'rappresentanza', 0.45]), P('testo', ['wipe', 'rsu', 1.2])],
-                 urti=['basta+0.2']),
+                  *[P(f'c{k}', ['slideL', w, 0.45]) for k, w in enumerate(['condizioni', 'pediatria', 'banca', 'welfare'], 1)],
+                  P('k', ['wipe', 'migliaia', 1.2])]),
+    'S06': pieno([P('basta', ['slam', 0.2, 0.35]), P('foglio', ['drop', 'eletti', 0.45]), P('testo', ['wipe', 'responsabilita', 1.2])],
+                 urti=[0.4]),
     'S07': {'tipo': 'pieno', 'fondi': [['fondoA', 0], ['fondoB', 'giovanna-0.3', 0.3]], 'strati': [
         P('t1', ['slam', 0.1, 0.35], FUORI7), P('t2', ['slam', 0.35, 0.35], FUORI7), P('foto', ['zoom', 0.3, 0.6], FUORI7),
         P('dida', ['wipe', 'volti', 1.0], FUORI7), *[P(f'n{k}', ['fade', w, 0.3]) for k, w in enumerate(_PRIMI, 1)]],
         'camera': [[0, 1.0, 540, 960], ['giovanna-0.3', 1.06, 540, 960], ['giovanna', 1.0, 540, 960]]},
-    'S08': ov([P('t1', ['slam', 'persone', 0.35]), P('t2', ['slam', 'nascondersi', 0.35]), P('t3', ['slam', 'rappresentanza', 0.4])]),
-    'S09': pieno([P('s1', ['slideL', 'responsabilita', 0.4]), P('s2', ['slideL', 'presenza', 0.4]), P('s3', ['slideL', 'rispetto', 0.4])],
+    'S08': ov([P('t1', ['slam', 'soli', 0.35]), P('t2', ['slam', 'ruolo', 0.35]), P('t3', ['slam', 'continueremo', 0.4])]),
+    'S09': pieno([P('s1', ['slideL', 'responsabilita', 0.4]), P('s2', ['slideL', 'presenza#2', 0.4]), P('s3', ['slideL', 'rispetto#3', 0.4])],
                  camera=[[0, 1.0, 540, 960], [14, 1.04, 540, 960]]),
 }
 

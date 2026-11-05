@@ -46,6 +46,25 @@ Stesse grafiche e clip (le sedie si riaccendono sui nuovi tempi). −16,2 LUFS, 
 Asset HeyGen dcd765c456d84d138b02f03a995aa65d (https://resource2.heygen.ai/video/dcd765c456d84d138b02f03a995aa65d/original.mp4); la versione 1 (voce femminile,
 7f7d225e28dc4439892a584a02c46290) è superata. Portafoglio API: 66.77 $.
 
+## Versione 3 (5/11): testi dalla lettera della RSU
+Achille ha mandato la lettera «Ai lavoratori dell'Azienda Ospedaliera Universitaria di Padova» come base delle modifiche;
+copione riscritto e approvato da lui («Si, singolare e tieni i 18 nomi»). Testi vecchi in voce_testi_v2/, post vecchio in
+TESTO_POST_v1.md.
+- Tolta l'accusa «seguendo logiche dettate dalle proprie sigle» e la scena degli accordi senza firma RSU.
+- S01 apre con «Care colleghe e cari colleghi»; S04 «non siamo mai riusciti a raggiungere il numero legale… un'occasione
+  persa per tutti i lavoratori»; S05 nuova «Cosa vorremmo portare al tavolo» (condizioni di lavoro e organizzazione dei
+  servizi, nuovo polo della Pediatria, banca ore, congedi parentali a ore e settimana corta, welfare aziendale); S06 la
+  domanda sulla fiducia e la responsabilità; S07 «Chi vi scrive ha scelto di esserci» e i 18 nomi; S08 «continueremo a
+  presentarci»; S09 il rispetto del mandato e «Con affetto, i vostri RSU: quelli che ci sono, e che ci saranno sempre».
+- Grafiche (../strumenti/rsu/grafiche_v3.mjs, Montserrat e Caveat): S04 «Un'occasione persa per tutti.» e «Ci presentiamo
+  a ogni convocazione. Senza numero legale, nessuna riunione è valida.»; S05 nuova con quattro schede; S09 con «Quelli che
+  ci sono e che ci saranno sempre.» Versioni precedenti: grafiche/S0xA_v1.png.
+- Voce «Uomo anziano caldo» in tre tracce (la prima da S01-S05 tornava HTTP 502): request 87EIApmvNXKggDtWQ8ag (S01-S03),
+  aj9K0u9H9turnZKhqTnk (S04-S06), suVBAY8iJk9cNJvw6fUu (S07-S09). S01 13,6 · S02 20,4 · S03 22,5 · S04 21,2 · S05 25,6 ·
+  S06 17,6 · S07 30,0 · S08 14,0 · S09 16,5 s = 181,5 s. Inno solenne su tutto. −16,2 LUFS, integro. 3:01.
+- Asset HeyGen 0146bb92a66c4181b98ae29336483c4c (https://resource2.heygen.ai/video/0146bb92a66c4181b98ae29336483c4c/original.mp4); la versione 2 (dcd765c456d84d138b02f03a995aa65d) è superata.
+- Portafoglio API da 66,77 a 49,35 $: calo da verificare (le tre voci valgono pochi crediti).
+
 ## Pubblicazione
-- Da fare: OK di Achille → Robin (dura 2:44: su Facebook va come video normale). Checklist del pacchetto: nomi verificati
+- Da fare: OK di Achille → Robin (dura 3:01: su Facebook va come video normale). Checklist del pacchetto: nomi verificati
   con l'elenco dei componenti e consenso alla pubblicazione dei volti e dei nomi.

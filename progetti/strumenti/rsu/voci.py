@@ -9,7 +9,7 @@ sys.path.insert(0, os.path.dirname(QUI)); sys.path.insert(0, os.path.join(os.pat
 from voci import blocchi, scrivi, PR  # noqa: E402
 PG, VOCE = 'pdro-rsu-la-sedia-vuota', '403b2f166bdd4b4c976e2d7b370d26d6'
 testi = [open(f).read().strip() for f in sorted(glob.glob(f'{PR}/{PG}/voce_testi/*.txt'))]
-TRACCE = [('rsu-sedia-uomo-a', testi[:5]), ('rsu-sedia-uomo-b', testi[5:])]
+TRACCE = [('rsu-sedia-v3-a', testi[:3]), ('rsu-sedia-v3-b', testi[3:6]), ('rsu-sedia-v3-c', testi[6:])]   # v3: tre tracce (HTTP 502 oltre ~1.400 caratteri)
 if sys.argv[1] == 'genera':
     from heygen_api import voce
     for nome, tt in TRACCE:

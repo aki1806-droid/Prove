@@ -255,11 +255,11 @@ EVENTI = {
             ('S04', 'sorprende', 'scintille', 0.35, None), ('S05', 'rovigo', 'campanella', 0.3, None)],
     'sedia': [('S01', 0.0, 'tic', 0.3, 11.0), *[('S02', w, 'whoosh', 0.18, None) for w in ('eleggete', 'riunisce', 'siede', 'accordi')],
               ('S03', 'ventotto#2', 'ding', 0.3, None), ('S03', 'ventisette', 'colpo2', 0.45, None),
-              *[('S04', f'convocazione+{0.35 * k:.2f}', 'timbro', 0.25, None) for k in range(6)], ('S04', 'ventotto', 'sbagliato', 0.3, None),
-              *[('S05', w, 'clic', 0.2, None) for w in ('ferie', 'agile', 'parttime', 'differenziali', 'progressioni', 'progettualita', 'risorse')],
-              ('S05', 'manca', 'tonfo', 0.3, None), ('S06', 'basta', 'impatto', 0.4, None), ('S06', 'rappresentanza', 'pagina', 0.3, None),
+              *[('S04', f'mesi+{0.3 * k:.2f}', 'timbro', 0.25, None) for k in range(6)], ('S04', 'legale', 'sbagliato', 0.3, None),
+              *[('S05', w, 'clic', 0.25, None) for w in ('condizioni', 'pediatria', 'banca', 'welfare')], ('S05', 'migliaia', 'chime', 0.25, None),
+              ('S06', 0.2, 'impatto', 0.4, None), ('S06', 'eletti', 'pagina', 0.3, None),
               ('S07', 'giovanna-0.3', 'whoosh', 0.2, None),
-              *[('S09', w, 'tonfo', 0.25, None) for w in ('responsabilita', 'presenza', 'rispetto')], ('S09', 'siamo', 'campanella', 0.3, None)]}
+              *[('S09', w, 'tonfo', 0.25, None) for w in ('responsabilita', 'presenza#2', 'rispetto#3')], ('S09', 'sempre', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
         'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
         'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16', 're': 'PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16',
