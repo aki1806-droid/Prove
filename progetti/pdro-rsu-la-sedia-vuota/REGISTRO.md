@@ -65,6 +65,11 @@ TESTO_POST_v1.md.
 - Asset HeyGen 0146bb92a66c4181b98ae29336483c4c (https://resource2.heygen.ai/video/0146bb92a66c4181b98ae29336483c4c/original.mp4); la versione 2 (dcd765c456d84d138b02f03a995aa65d) è superata.
 - Portafoglio API da 66,77 a 49,35 $: calo da verificare (le tre voci valgono pochi crediti).
 
+## Versione 3.1 (5/11): musica più bassa
+Richiesta di Achille: «abbassare il volume della musica». Inno da 0,13 a 0,06 (suoni.py, MUSICA_VOL_V), stesso montaggio
+e stessa voce; −16,1 LUFS. Asset HeyGen 4c0faf50e7fd4163ae244e73ff42da9b (https://resource2.heygen.ai/video/4c0faf50e7fd4163ae244e73ff42da9b/original.mp4); la 3 (0146bb92a66c4181b98ae29336483c4c) è superata.
+Portafoglio API: 49.35 $.
+
 ## Pubblicazione
 - Da fare: OK di Achille → Robin (dura 3:01: su Facebook va come video normale). Checklist del pacchetto: nomi verificati
   con l'elenco dei componenti e consenso alla pubblicazione dei volti e dei nomi.

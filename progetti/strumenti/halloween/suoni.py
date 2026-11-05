@@ -269,6 +269,7 @@ NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Hallowee
         'parttime': 'PDRO_Bando_Part_time_2026_AOUP_9x16', 'segnalazioni': 'PDRO_Le_tue_segnalazioni_a_che_punto_sono_9x16',
         'librogame': 'PDRO_Scegli_il_tuo_turno_turni_12_ore_9x16', 'cv1': 'PDRO_Convenzioni_1_Colpa_grave_9x16', 'cv2': 'PDRO_Convenzioni_2_Fondo_sanitario_9x16', 'cv3': 'PDRO_Convenzioni_3_Medico_H24_9x16', 'cv4': 'PDRO_Convenzioni_4_Formazione_9x16', 'cv5': 'PDRO_Convenzioni_5_Tempo_libero_9x16', 'cv6': 'PDRO_Convenzioni_6_Acquisti_9x16', 'cv7': 'PDRO_Convenzioni_7_Digitale_9x16', 'cv8': 'PDRO_Convenzioni_8_Quanto_vale_la_tessera_9x16', 'sedia': 'RSU_AOUP_La_sedia_vuota_9x16'}
 MUSICA_VOL = 0.13
+MUSICA_VOL_V = {'sedia': 0.06}   # «La sedia vuota»: musica più bassa (Achille, 5/11)
 CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026', 'segnalazioni': 'pdro-tracciamento-segnalazioni-aoup', 'librogame': 'pdro-turni-12-ore-librogame', 'cv1': 'pdro-convenzioni-1-colpa-grave', 'cv2': 'pdro-convenzioni-2-fondo-sanitario', 'cv3': 'pdro-convenzioni-3-medico-h24', 'cv4': 'pdro-convenzioni-4-formazione', 'cv5': 'pdro-convenzioni-5-tempo-libero', 'cv6': 'pdro-convenzioni-6-acquisti', 'cv7': 'pdro-convenzioni-7-digitale', 'cv8': 'pdro-convenzioni-8-quanto-vale-la-tessera', 'sedia': 'pdro-rsu-la-sedia-vuota'}
 
 
@@ -316,7 +317,7 @@ def mescola(v, D):
         d, ms = t1 - t0, round(t0 * 1000)
         ins += ['-stream_loop', '-1', '-i', f'{D}/audio/sfx/{k}.mp3']
         fin = f',afade=t=out:st={d - 2.5:.2f}:d=2.5' if j + 1 == len(tratti) else f',afade=t=out:st={d - 0.15:.2f}:d=0.15'
-        fil.append(f'[{j + 1}:a]atrim=0:{d:.2f},volume={MUSICA_VOL},afade=t=in:d={1.5 if j == 0 else 0.05}{fin},'
+        fil.append(f'[{j + 1}:a]atrim=0:{d:.2f},volume={MUSICA_VOL_V.get(v, MUSICA_VOL)},afade=t=in:d={1.5 if j == 0 else 0.05}{fin},'
                    f'adelay={ms}|{ms}[mus{j}]'); et.append(f'[mus{j}]')
     for i, (sid, a, k, vol, dmax) in enumerate(EVENTI[v], len(tratti) + 1):
         t = tempi[sid]['inizio'] + ancora(a, parole.get(sid, []))

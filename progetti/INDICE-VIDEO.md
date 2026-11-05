@@ -238,7 +238,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 | Video | Indirizzo |
 |---|---|
-| «La sedia vuota» (reel 9:16, firmato Componenti RSU) | [apri](https://resource2.heygen.ai/video/0146bb92a66c4181b98ae29336483c4c/original.mp4) |
+| «La sedia vuota» (reel 9:16, firmato Componenti RSU) | [apri](https://resource2.heygen.ai/video/4c0faf50e7fd4163ae244e73ff42da9b/original.mp4) |
 
 ## Altri video (montati dentro HeyGen)
 
