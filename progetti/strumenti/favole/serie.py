@@ -766,6 +766,67 @@ ANIM[SV] = {
 }
 
 
+# ---- «20 format attrattivi» (CISL FP Padova Rovigo, solo AOUP, novembre 2026): 01 Traduttore, 02 Green flag, 03 Mito,
+# 04 Calendario dell'avvento (25 reel separati, ritagliati dal montaggio unico).
+V1, V2, V3, V4 = ('pdro-20f-01-traduttore-aziendalese', 'pdro-20f-02-green-flag', 'pdro-20f-03-mito-da-sfatare',
+                  'pdro-20f-04-calendario-avvento')
+
+
+def _chiusura20(rr):
+    pz = [R('t1', 60, rr[0][0] - 10, rr[0][2] + 30, rr[0][1] + 10), R('t2', 60, rr[1][0] - 10, rr[1][2] + 30, rr[1][1] + 10),
+          R('s1', 60, rr[2][0] - 10, rr[2][2] + 30, rr[2][1] + 10), C('box', 62, 892, 648, 1158, 24)]
+    return {'base': 'grafiche/' + ('S%02dA.png' % 0), 'pezzi': pz}
+
+
+def _anim_ch20(durata):
+    return pieno([P('t1', ['slam', 0.1, 0.3]), P('t2', ['slam', 0.3, 0.3]), P('s1', ['wipe', 0.5, 0.6]), P('box', ['pop', 0.7, 0.35])],
+                 camera=[[0, 1.0, 540, 960], [durata, 1.04, 540, 900]])
+
+
+def _trad(righe):
+    pz = []
+    for k, (y0, y1) in enumerate(righe, 1):
+        pz += [R(f'a{k}', 66, y0 - 3, 522, y1 + 3), R(f'b{k}', 548, y0 - 3, 1014, y1 + 3)]
+    return pz
+
+
+_CH20 = {V1: ('S04', [(284, 353, 807), (389, 458, 561), (497, 548, 795)]), V2: ('S03', [(284, 353, 983), (389, 458, 617), (498, 545, 533)]),
+         V3: ('S04', [(284, 351, 698), (389, 456, 736), (498, 552, 939)]), V4: ('S25', [(284, 356, 752), (389, 461, 635), (500, 547, 562)])}
+for _pg, (_sid, _rr) in _CH20.items():
+    EPISODI.setdefault(_pg, {})[_sid] = {**_chiusura20(_rr), 'base': f'grafiche/{_sid}A.png'}
+EPISODI[V1].update({
+    'S01': {'base': 'grafiche/S01A.png', 'pezzi': _trad([(501, 682)])},
+    'S02': {'base': 'grafiche/S02A.png', 'pezzi': _trad([(501, 738), (769, 1062), (1093, 1330)])},
+    'S03': {'base': 'grafiche/S03A.png', 'pezzi': _trad([(501, 682), (713, 894), (925, 1106)])}})
+_BAND = [(320, 701), (740, 1121), (1160, 1541)]
+EPISODI[V2].update({s: {'base': f'grafiche/{s}A.png', 'pezzi': [C(f'f{k}', 56, y0 - 4, 1025, y1 + 4, 22) for k, (y0, y1) in enumerate(_BAND, 1)]}
+                    for s in ('S01', 'S02')})
+EPISODI[V3].update({s: {'base': f'grafiche/{s}A.png', 'pezzi': [
+    {'id': 'timbro', 'riempi': 'tinta', 'm': ['rosso', 380, 700, 890, 1000]},
+    C('mito', 64, 374, 1017, 802, 22), C('realta', 64, 994, 1017, 1487, 22)]} for s in ('S01', 'S02', 'S03')})
+EPISODI[V4].update({f'S{k:02d}': {'base': f'grafiche/S{k:02d}A.png', 'pezzi': [
+    R('porta', 284, 424, 796, 936, 'righe'), C('card', 64, 994, 1016, 1526, 22, 'righe'), R('domani', 20, 1570, 1060, 1640, 'righe')]}
+    for k in range(1, 25)})
+
+ANIM[V1] = {
+    'S01': pieno([P('a1', ['slideL', 'prima', 0.4]), P('b1', ['wipe', 'traduzione', 1.0])]),
+    'S02': pieno([P('a1', ['slideL', 0.2, 0.4]), P('b1', ['wipe', 'chiamiamo', 0.8]), P('a2', ['slideL', 'riorganizzazione', 0.4]),
+                  P('b2', ['wipe', 'stesse', 0.8]), P('a3', ['slideL', 'questione', 0.4]), P('b3', ['wipe', 'ora', 0.6])]),
+    'S03': pieno([P('a1', ['slideL', 0.2, 0.4]), P('b1', ['wipe', 'si', 0.8]), P('a2', ['slideL', 'valorizzazione', 0.4]),
+                  P('b2', ['wipe', 'diciamo', 0.8]), P('a3', ['slideL', 'classico', 0.4]), P('b3', ['wipe', 'traduzione', 0.8])]),
+    'S04': _anim_ch20(11)}
+ANIM[V2] = {
+    'S01': pieno([P(f'f{k}', ['slideL', w, 0.4], fx=[['ondeggia', 3, 1]]) for k, w in enumerate(['green', 'bluered', 'green#2'], 1)]),
+    'S02': pieno([P(f'f{k}', ['slideL', w, 0.4], fx=[['ondeggia', 3, 1]]) for k, w in enumerate(['bluered', 'green', 'bluered#2'], 1)]),
+    'S03': _anim_ch20(10)}
+ANIM[V3] = {s: pieno([P('mito', ['wipe', 0.1, 0.8]), P('timbro', ['stampa', 'falso', 0.3]), P('realta', ['slideU', 'falso+0.5', 0.45])],
+                     urti=['falso+0.2'], camera=[[0, 1.0, 540, 960], [14, 1.04, 540, 960]]) for s in ('S01', 'S02', 'S03')}
+ANIM[V3]['S04'] = _anim_ch20(8)
+ANIM[V4] = {f'S{k:02d}': pieno([P('porta', ['zoom', 0.0, 0.45], fx=[['pulsa', 0.6, 0.9, 0.04]]), P('card', ['slideU', 1.4, 0.45]),
+                                 P('domani', ['fade', 'domani', 0.5])], camera=[[0, 1.0, 540, 960], [12, 1.04, 540, 960]]) for k in range(1, 25)}
+ANIM[V4]['S25'] = _anim_ch20(10)
+
+
 def verifica(pg):
     """tutte le parole-ancora devono esistere nella voce tagliata."""
     import json

@@ -1,0 +1,439 @@
+{
+  "progetto": "PDRO_20F_04_Calendario_avvento_diritti",
+  "titolo": "Il calendario dell'avvento dei diritti",
+  "identita": "CISL FP Padova Rovigo",
+  "serie": "20 format attrattivi",
+  "numero_elenco": 4,
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "1 dicembre · Riposo giornaliero",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero uno: riposo giornaliero. Undici ore consecutive di riposo ogni ventiquattro. Domani si apre un'altra casella.",
+      "parole": 17,
+      "durata_stimata_s": 8.6,
+      "grafiche": [
+        "grafiche/S01A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 2,
+      "titolo": "2 dicembre · Riposo settimanale",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero due: riposo settimanale. Ventiquattro ore consecutive ogni sette giorni, di regola insieme alle undici del riposo giornaliero. Domani si apre un'altra casella.",
+      "parole": 24,
+      "durata_stimata_s": 12.0,
+      "grafiche": [
+        "grafiche/S02A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 3,
+      "titolo": "3 dicembre · Orario massimo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero tre: orario massimo. In media non più di quarantotto ore a settimana, straordinari compresi. Domani si apre un'altra casella.",
+      "parole": 21,
+      "durata_stimata_s": 9.7,
+      "grafiche": [
+        "grafiche/S03A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 4,
+      "titolo": "4 dicembre · Ferie",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero quattro: ferie. Almeno quattro settimane l'anno, retribuite. E non si rinunciano. Domani si apre un'altra casella.",
+      "parole": 18,
+      "durata_stimata_s": 8.9,
+      "grafiche": [
+        "grafiche/S04A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 5,
+      "titolo": "5 dicembre · Diritto allo studio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero cinque: diritto allo studio. Fino a centocinquanta ore l'anno di permessi retribuiti per studiare. Domani si apre un'altra casella.",
+      "parole": 21,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        "grafiche/S05A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 6,
+      "titolo": "6 dicembre · Legge centoquattro",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero sei: legge centoquattro. Tre giorni di permesso al mese per assistere un familiare con disabilità grave. Domani si apre un'altra casella.",
+      "parole": 23,
+      "durata_stimata_s": 10.5,
+      "grafiche": [
+        "grafiche/S06A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 7,
+      "titolo": "7 dicembre · Congedo parentale",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero sette: congedo parentale. Si può usare fino ai dodici anni del figlio, per entrambi i genitori. Domani si apre un'altra casella.",
+      "parole": 23,
+      "durata_stimata_s": 9.9,
+      "grafiche": [
+        "grafiche/S07A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 8,
+      "titolo": "8 dicembre · Congedo di paternità",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero otto: congedo di paternità. Dieci giorni lavorativi obbligatori per il papà, retribuiti al cento per cento. Domani si apre un'altra casella.",
+      "parole": 23,
+      "durata_stimata_s": 10.7,
+      "grafiche": [
+        "grafiche/S08A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 9,
+      "titolo": "9 dicembre · Allattamento",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero nove: allattamento. Nel primo anno del bambino, riposi giornalieri retribuiti per la mamma o, in alcuni casi, per il papà. Domani si apre un'altra casella.",
+      "parole": 27,
+      "durata_stimata_s": 11.7,
+      "grafiche": [
+        "grafiche/S09A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 10,
+      "titolo": "10 dicembre · Malattia",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero dieci: malattia. Il posto di lavoro è conservato per un periodo stabilito dal contratto: chiedi a noi come si calcola. Domani si apre un'altra casella.",
+      "parole": 27,
+      "durata_stimata_s": 11.4,
+      "grafiche": [
+        "grafiche/S10A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 11,
+      "titolo": "11 dicembre · Visite ed esami",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero undici: visite ed esami. Il contratto prevede permessi orari per visite, terapie ed esami diagnostici. Domani si apre un'altra casella.",
+      "parole": 22,
+      "durata_stimata_s": 10.3,
+      "grafiche": [
+        "grafiche/S11A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 12,
+      "titolo": "12 dicembre · Lutto",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero dodici: lutto. Permessi retribuiti in caso di decesso di un familiare stretto. Domani si apre un'altra casella.",
+      "parole": 19,
+      "durata_stimata_s": 8.7,
+      "grafiche": [
+        "grafiche/S12A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 13,
+      "titolo": "13 dicembre · Matrimonio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero tredici: matrimonio. Quindici giorni consecutivi di congedo retribuito per il matrimonio o l'unione civile. Domani si apre un'altra casella.",
+      "parole": 21,
+      "durata_stimata_s": 10.7,
+      "grafiche": [
+        "grafiche/S13A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 14,
+      "titolo": "14 dicembre · Donazione di sangue",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero quattordici: donazione di sangue. Il giorno della donazione è di riposo, retribuito. Domani si apre un'altra casella.",
+      "parole": 19,
+      "durata_stimata_s": 9.1,
+      "grafiche": [
+        "grafiche/S14A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 15,
+      "titolo": "15 dicembre · Assemblea",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero quindici: assemblea. Ore di assemblea retribuite in orario di lavoro, ogni anno. Domani si apre un'altra casella.",
+      "parole": 19,
+      "durata_stimata_s": 8.8,
+      "grafiche": [
+        "grafiche/S15A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 16,
+      "titolo": "16 dicembre · Affissione",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero sedici: affissione. Il sindacato ha diritto alle bacheche per informarti. Domani si apre un'altra casella.",
+      "parole": 17,
+      "durata_stimata_s": 8.3,
+      "grafiche": [
+        "grafiche/S16A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 17,
+      "titolo": "17 dicembre · Libertà di opinione",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero diciassette: libertà di opinione. Puoi esprimere le tue idee sul lavoro, nel rispetto della legge. Domani si apre un'altra casella.",
+      "parole": 22,
+      "durata_stimata_s": 10.1,
+      "grafiche": [
+        "grafiche/S17A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 18,
+      "titolo": "18 dicembre · Niente discriminazioni",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero diciotto: niente discriminazioni. Nessuno può penalizzarti per la tua iscrizione o attività sindacale. Domani si apre un'altra casella.",
+      "parole": 20,
+      "durata_stimata_s": 10.3,
+      "grafiche": [
+        "grafiche/S18A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 19,
+      "titolo": "19 dicembre · Dispositivi di protezione",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero diciannove: dispositivi di protezione. I dispositivi di protezione li fornisce il datore di lavoro. Non tu. Domani si apre un'altra casella.",
+      "parole": 23,
+      "durata_stimata_s": 10.7,
+      "grafiche": [
+        "grafiche/S19A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 20,
+      "titolo": "20 dicembre · Medico competente",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero venti: medico competente. Puoi chiedere una visita al medico competente se pensi che il lavoro incida sulla tua salute. Domani si apre un'altra casella.",
+      "parole": 26,
+      "durata_stimata_s": 11.5,
+      "grafiche": [
+        "grafiche/S20A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 21,
+      "titolo": "21 dicembre · Contro le aggressioni",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero ventuno: contro le aggressioni. Chi aggredisce il personale sanitario rischia pene più severe. Domani si apre un'altra casella.",
+      "parole": 20,
+      "durata_stimata_s": 9.8,
+      "grafiche": [
+        "grafiche/S21A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 22,
+      "titolo": "22 dicembre · Part-time",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero ventidue: part-time. Puoi chiedere il tempo parziale nei limiti e con i criteri previsti dal contratto e dai bandi. Domani si apre un'altra casella.",
+      "parole": 26,
+      "durata_stimata_s": 11.2,
+      "grafiche": [
+        "grafiche/S22A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 23,
+      "titolo": "23 dicembre · Formazione",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero ventitré: formazione. La formazione obbligatoria si fa in orario di lavoro, non nel tuo tempo libero. Domani si apre un'altra casella.",
+      "parole": 23,
+      "durata_stimata_s": 10.3,
+      "grafiche": [
+        "grafiche/S23A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 24,
+      "titolo": "24 dicembre · Tredicesima",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Casella numero ventiquattro: tredicesima. A dicembre arriva la tredicesima mensilità. Controlla che sia giusta! Domani si apre un'altra casella.",
+      "parole": 19,
+      "durata_stimata_s": 9.9,
+      "grafiche": [
+        "grafiche/S24A.png"
+      ],
+      "clip": null,
+      "regia": "Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato."
+    },
+    {
+      "n": 25,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Ventiquattro caselle, ventiquattro diritti. Ma i diritti non valgono solo a dicembre: valgono tutto l'anno. Se ne hai bisogno, siamo qui. Buone feste da CISL FP Padova Rovigo.",
+      "parole": 28,
+      "durata_stimata_s": 10.8,
+      "grafiche": [
+        "grafiche/S25A.png"
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar «Aki with a lapel microphone» in basso a destra."
+    }
+  ]
+}

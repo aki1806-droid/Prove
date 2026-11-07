@@ -1,0 +1,204 @@
+{
+"S01": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "a1",
+"in": [
+"slideL",
+"prima",
+0.4
+]
+},
+{
+"p": "b1",
+"in": [
+"wipe",
+"traduzione",
+1.0
+]
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "a1",
+"in": [
+"slideL",
+0.2,
+0.4
+]
+},
+{
+"p": "b1",
+"in": [
+"wipe",
+"chiamiamo",
+0.8
+]
+},
+{
+"p": "a2",
+"in": [
+"slideL",
+"riorganizzazione",
+0.4
+]
+},
+{
+"p": "b2",
+"in": [
+"wipe",
+"stesse",
+0.8
+]
+},
+{
+"p": "a3",
+"in": [
+"slideL",
+"questione",
+0.4
+]
+},
+{
+"p": "b3",
+"in": [
+"wipe",
+"ora",
+0.6
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "a1",
+"in": [
+"slideL",
+0.2,
+0.4
+]
+},
+{
+"p": "b1",
+"in": [
+"wipe",
+"si",
+0.8
+]
+},
+{
+"p": "a2",
+"in": [
+"slideL",
+"valorizzazione",
+0.4
+]
+},
+{
+"p": "b2",
+"in": [
+"wipe",
+"diciamo",
+0.8
+]
+},
+{
+"p": "a3",
+"in": [
+"slideL",
+"classico",
+0.4
+]
+},
+{
+"p": "b3",
+"in": [
+"wipe",
+"traduzione",
+0.8
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "t1",
+"in": [
+"slam",
+0.1,
+0.3
+]
+},
+{
+"p": "t2",
+"in": [
+"slam",
+0.3,
+0.3
+]
+},
+{
+"p": "s1",
+"in": [
+"wipe",
+0.5,
+0.6
+]
+},
+{
+"p": "box",
+"in": [
+"pop",
+0.7,
+0.35
+]
+}
+],
+"camera": [
+[
+0,
+1.0,
+540,
+960
+],
+[
+11,
+1.04,
+540,
+900
+]
+]
+}
+}

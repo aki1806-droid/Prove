@@ -1,0 +1,65 @@
+{
+  "progetto": "PDRO_20F_02_Green_flag_Blue_red_flag",
+  "titolo": "Green flag, Blue-red flag",
+  "identita": "CISL FP Padova Rovigo",
+  "serie": "20 format attrattivi",
+  "numero_elenco": 2,
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Green flag",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Green flag: ti controlla il cedolino riga per riga. Blue-red flag: ti promette gli arretrati senza una data. Green flag: c'è tutto l'anno, non solo sotto le elezioni.",
+      "parole": 28,
+      "durata_stimata_s": 11.4,
+      "grafiche": [
+        "grafiche/S01A.png"
+      ],
+      "clip": null,
+      "regia": "Ogni bandiera sventola entrando; suono 'ding' per il verde, 'buzz' per il blu-rosso."
+    },
+    {
+      "n": 2,
+      "titolo": "Blue-red flag",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Blue-red flag: non si presenta alle riunioni RSU per strategia. Green flag: firma gli accordi e te li mostra nero su bianco. Blue-red flag: annuncia risultati storici che nessuno ha mai visto.",
+      "parole": 32,
+      "durata_stimata_s": 13.2,
+      "grafiche": [
+        "grafiche/S02A.png"
+      ],
+      "clip": null,
+      "regia": "Ritmo veloce, stesso schema."
+    },
+    {
+      "n": 3,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "E tu, che bandiera hai visto ultimamente? Scrivilo nei commenti. Noi restiamo dalla parte verde: presenza, trasparenza, risultati veri. CISL FP Padova Rovigo.",
+      "parole": 23,
+      "durata_stimata_s": 9.7,
+      "grafiche": [
+        "grafiche/S03A.png"
+      ],
+      "clip": null,
+      "regia": "Riquadro arancio con i contatti; avatar «Aki with a lapel microphone» in basso a destra."
+    }
+  ]
+}

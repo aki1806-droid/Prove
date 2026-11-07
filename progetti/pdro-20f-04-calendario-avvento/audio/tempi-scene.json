@@ -1,0 +1,152 @@
+[
+ {
+  "id": "S01",
+  "tipo": "narratore",
+  "inizio": 0.0,
+  "durata": 9.103
+ },
+ {
+  "id": "S02",
+  "tipo": "narratore",
+  "inizio": 9.103,
+  "durata": 12.067
+ },
+ {
+  "id": "S03",
+  "tipo": "narratore",
+  "inizio": 21.17,
+  "durata": 9.793
+ },
+ {
+  "id": "S04",
+  "tipo": "narratore",
+  "inizio": 30.963,
+  "durata": 9.703
+ },
+ {
+  "id": "S05",
+  "tipo": "narratore",
+  "inizio": 40.666,
+  "durata": 9.858
+ },
+ {
+  "id": "S06",
+  "tipo": "narratore",
+  "inizio": 50.524,
+  "durata": 10.386
+ },
+ {
+  "id": "S07",
+  "tipo": "narratore",
+  "inizio": 60.91,
+  "durata": 9.628
+ },
+ {
+  "id": "S08",
+  "tipo": "narratore",
+  "inizio": 70.5381,
+  "durata": 10.8272
+ },
+ {
+  "id": "S09",
+  "tipo": "narratore",
+  "inizio": 81.3653,
+  "durata": 11.819
+ },
+ {
+  "id": "S10",
+  "tipo": "narratore",
+  "inizio": 93.1843,
+  "durata": 11.518
+ },
+ {
+  "id": "S11",
+  "tipo": "narratore",
+  "inizio": 104.7023,
+  "durata": 11.314
+ },
+ {
+  "id": "S12",
+  "tipo": "narratore",
+  "inizio": 116.0163,
+  "durata": 9.517
+ },
+ {
+  "id": "S13",
+  "tipo": "narratore",
+  "inizio": 125.5333,
+  "durata": 11.063
+ },
+ {
+  "id": "S14",
+  "tipo": "narratore",
+  "inizio": 136.5963,
+  "durata": 9.914
+ },
+ {
+  "id": "S15",
+  "tipo": "narratore",
+  "inizio": 146.5103,
+  "durata": 9.546
+ },
+ {
+  "id": "S16",
+  "tipo": "narratore",
+  "inizio": 156.0563,
+  "durata": 8.8783
+ },
+ {
+  "id": "S17",
+  "tipo": "narratore",
+  "inizio": 164.9346,
+  "durata": 10.408
+ },
+ {
+  "id": "S18",
+  "tipo": "narratore",
+  "inizio": 175.3426,
+  "durata": 10.9
+ },
+ {
+  "id": "S19",
+  "tipo": "narratore",
+  "inizio": 186.2426,
+  "durata": 11.107
+ },
+ {
+  "id": "S20",
+  "tipo": "narratore",
+  "inizio": 197.3496,
+  "durata": 11.363
+ },
+ {
+  "id": "S21",
+  "tipo": "narratore",
+  "inizio": 208.7126,
+  "durata": 10.002
+ },
+ {
+  "id": "S22",
+  "tipo": "narratore",
+  "inizio": 218.7146,
+  "durata": 11.355
+ },
+ {
+  "id": "S23",
+  "tipo": "narratore",
+  "inizio": 230.0696,
+  "durata": 10.403
+ },
+ {
+  "id": "S24",
+  "tipo": "narratore",
+  "inizio": 240.4727,
+  "durata": 10.4113
+ },
+ {
+  "id": "S25",
+  "tipo": "achille",
+  "inizio": 250.884,
+  "durata": 10.2185
+ }
+]

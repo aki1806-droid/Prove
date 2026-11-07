@@ -1,0 +1,46 @@
+"""Voci della serie «20 format attrattivi» (CISL FP Padova Rovigo, solo AOUP, novembre 2026). Scelte di Achille: HeyGen
+come passante (eleven_v4) sul CONNETTORE (crediti del piano), non sulla chiave API. Le tracce si generano con lo strumento
+create_speech del connettore (testi in <nome>-testo.txt); poi «scarica» rifà la stessa richiesta sull'API, che risponde dalla
+cache di HeyGen (stesso audio, pochi centesimi) e dà il json con i tempi parola per parola. Tagli come in ../halloween/voci.py.
+    python3 strumenti/venti/voci.py testi          -> <nome>-testo.txt
+    python3 strumenti/venti/voci.py scarica NOME   -> <nome>.json, <nome>-grezzo.mp3
+    python3 strumenti/venti/voci.py taglia CHIAVE  (tr, gf, mito, cal)
+"""
+import glob, json, os, sys
+QUI = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.dirname(QUI)); sys.path.insert(0, os.path.join(os.path.dirname(QUI), 'chicedomani'))
+from voci import blocchi, scrivi, PR  # noqa: E402
+WARD, ACHILLE = 'e4bd8d8a357f41a99502309874733c16', '9b851842ce54449fb9ff501751ca0271'
+PG = {'tr': 'pdro-20f-01-traduttore-aziendalese', 'gf': 'pdro-20f-02-green-flag', 'mito': 'pdro-20f-03-mito-da-sfatare',
+      'cal': 'pdro-20f-04-calendario-avvento'}
+B = ' <break time="1.6s"/> '
+
+
+def testi(k):
+    fs = sorted(glob.glob(f'{PR}/{PG[k]}/voce_testi/*.txt'))
+    return [open(f).read().strip() for f in fs if 'narratore' in f], [open(f).read().strip() for f in fs if 'achille' in f]
+
+
+def tracce():
+    t = {f'ward-{k}': testi(k)[0] for k in ('tr', 'gf', 'mito')}
+    n = testi('cal')[0]
+    t.update({'ward-cal-a': n[:8], 'ward-cal-b': n[8:16], 'ward-cal-c': n[16:]})
+    t['achille-20f'] = [testi(k)[1][0] for k in ('tr', 'gf', 'mito', 'cal')]
+    return t
+
+
+if __name__ == '__main__':
+    cosa = sys.argv[1]
+    if cosa == 'testi':
+        for nome, tt in tracce().items():
+            open(f'{QUI}/{nome}-testo.txt', 'w').write(B.join(tt)); print(nome, len(B.join(tt)))
+    elif cosa == 'scarica':
+        from heygen_api import voce
+        nome = sys.argv[2]; voce(ACHILLE if nome.startswith('achille') else WARD, f'{QUI}/{nome}-testo.txt', f'{QUI}/{nome}')
+    else:
+        k = sys.argv[2]; ach = blocchi('achille-20f', QUI)
+        ach = [b for b in ach if b][['tr', 'gf', 'mito', 'cal'].index(k)]
+        nomi = ['ward-cal-a', 'ward-cal-b', 'ward-cal-c'] if k == 'cal' else [f'ward-{k}']
+        w = [(n, b) for n in nomi for b in blocchi(n, QUI) if b]
+        assert len(w) == len(testi(k)[0]), (len(w), len(testi(k)[0]))
+        scrivi(PG[k], [(f'{QUI}/{n}-grezzo.mp3', b, 'narratore') for n, b in w] + [(f'{QUI}/achille-20f-grezzo.mp3', ach, 'achille')])
