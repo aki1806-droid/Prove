@@ -801,8 +801,10 @@ EPISODI[V1].update({
 _BAND = [(320, 701), (740, 1121), (1160, 1541)]
 EPISODI[V2].update({s: {'base': f'grafiche/{s}A.png', 'pezzi': [C(f'f{k}', 56, y0 - 4, 1025, y1 + 4, 22) for k, (y0, y1) in enumerate(_BAND, 1)]}
                     for s in ('S01', 'S02')})
-EPISODI[V3].update({s: {'base': f'grafiche/{s}A.png', 'pezzi': [
-    {'id': 'timbro', 'riempi': 'tinta', 'm': ['rosso', 380, 700, 890, 1000]},
+# il timbro FALSO sta sopra il riquadro del mito: la base è la grafica senza timbro (S0xA_senza.png, ricostruita col colore del
+# riquadro e del fondo), il timbro si prende dall'originale senza bucare
+EPISODI[V3].update({s: {'base': f'grafiche/{s}A_senza.png', 'pezzi': [
+    {'id': 'timbro', 'src': f'grafiche/{s}A.png', 'buca': False, 'm': ['rosso', 380, 700, 890, 1000]},
     C('mito', 64, 374, 1017, 802, 22), C('realta', 64, 994, 1017, 1487, 22)]} for s in ('S01', 'S02', 'S03')})
 EPISODI[V4].update({f'S{k:02d}': {'base': f'grafiche/S{k:02d}A.png', 'pezzi': [
     R('porta', 284, 424, 796, 936, 'righe'), C('card', 64, 994, 1016, 1526, 22, 'righe'), R('domani', 20, 1570, 1060, 1640, 'righe')]}
