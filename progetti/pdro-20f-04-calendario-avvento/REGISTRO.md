@@ -49,7 +49,7 @@ campanellini all'apertura di ogni casella, musica natalizia leggera, campanella 
 - 24/12 finale: PDRO_20F_04_Finale_buone_feste_9x16 · asset 1147b336a459413fac2606c6dad443cc
 
 ## Note
-- Casella 7 dice «congedo parentale fino ai dodici anni del figlio» (testo del pacchetto); il post «Diritti in scena»
+- [RISOLTO 8/11: 14 anni, v2.1] Casella 7 diceva «congedo parentale fino ai dodici anni del figlio» (testo del pacchetto); il post «Diritti in scena»
   di marzo 2027 dice «fino ai 14 anni»: da verificare con Achille prima della pubblicazione.
 - Casella 24 chiude con «Domani si apre un'altra casella» anche il 24/12 (testo del pacchetto).
 
@@ -89,3 +89,38 @@ Uscita v2 (montaggio e 25 reel di taglia_calendario.py):
 - PDRO_20F_04_Casella_23_9x16 · asset b45302780eae46f6bc7ff306876a81b4 (https://resource2.heygen.ai/video/b45302780eae46f6bc7ff306876a81b4/original.mp4)
 - PDRO_20F_04_Casella_24_9x16 · asset e861cc21e3dd44a6a1da191046913545 (https://resource2.heygen.ai/video/e861cc21e3dd44a6a1da191046913545/original.mp4)
 - PDRO_20F_04_Finale_buone_feste_9x16 · asset e03bb4873f3b497da8c0983600e501e7 (https://resource2.heygen.ai/video/e03bb4873f3b497da8c0983600e501e7/original.mp4)
+
+## Versione 2.1 (8/11/2026): casella 7 a 14 anni
+Achille: «Casella 7 sono 14 anni, tieni il resto». Testo della casella 7 cambiato in «fino ai quattordici anni del figlio»
+(voce_testi, blocchi.json, SCRIPT.md), traccia ward-cal-a rifatta col connettore (create_speech, request vDaKMlhIdOHZqB1JZNUl,
+87,2 s) e scaricata dalla cache API; card «fino a 14 anni». Casella 24 resta com'è. Rimontato tutto: 4:22, −16,1 LUFS, labiale 0 ms.
+Uscita v2.1 (sostituisce la v2):
+- PDRO_20F_04_Calendario_avvento_diritti_9x16 · asset 38e0068bc54a456ead48eef12203dd94 (https://resource2.heygen.ai/video/38e0068bc54a456ead48eef12203dd94/original.mp4)
+- PDRO_20F_04_Casella_01_9x16 · asset 3e29377715e14bef8327798729fcecdf (https://resource2.heygen.ai/video/3e29377715e14bef8327798729fcecdf/original.mp4)
+- PDRO_20F_04_Casella_02_9x16 · asset 916acc3e103444e7995924f65d3cdbec (https://resource2.heygen.ai/video/916acc3e103444e7995924f65d3cdbec/original.mp4)
+- PDRO_20F_04_Casella_03_9x16 · asset c4c9a4597ec54c7aba16906727c428f3 (https://resource2.heygen.ai/video/c4c9a4597ec54c7aba16906727c428f3/original.mp4)
+- PDRO_20F_04_Casella_04_9x16 · asset 89b29517996e4930960726e20798fbaa (https://resource2.heygen.ai/video/89b29517996e4930960726e20798fbaa/original.mp4)
+- PDRO_20F_04_Casella_05_9x16 · asset 2ca1c79294f944cdb4d472f9879aa3ea (https://resource2.heygen.ai/video/2ca1c79294f944cdb4d472f9879aa3ea/original.mp4)
+- PDRO_20F_04_Casella_06_9x16 · asset 2f142f110db04847a7e872abbc34adb1 (https://resource2.heygen.ai/video/2f142f110db04847a7e872abbc34adb1/original.mp4)
+- PDRO_20F_04_Casella_07_9x16 · asset f3a04f3ce20647618cb84ce6f7a069c3 (https://resource2.heygen.ai/video/f3a04f3ce20647618cb84ce6f7a069c3/original.mp4)
+- PDRO_20F_04_Casella_08_9x16 · asset fc93072d41b74d799222e50dfbf2798d (https://resource2.heygen.ai/video/fc93072d41b74d799222e50dfbf2798d/original.mp4)
+- PDRO_20F_04_Casella_09_9x16 · asset c9515c9f270d4ac7bf3d6c1802f2e313 (https://resource2.heygen.ai/video/c9515c9f270d4ac7bf3d6c1802f2e313/original.mp4)
+- PDRO_20F_04_Casella_10_9x16 · asset 50c6f63c20ee451b9ec14c5389e53f81 (https://resource2.heygen.ai/video/50c6f63c20ee451b9ec14c5389e53f81/original.mp4)
+- PDRO_20F_04_Casella_11_9x16 · asset f0d33e551c6a4e4eb2c95d350719f7ce (https://resource2.heygen.ai/video/f0d33e551c6a4e4eb2c95d350719f7ce/original.mp4)
+- PDRO_20F_04_Casella_12_9x16 · asset 4a297ceb37614256b85271728d7877ee (https://resource2.heygen.ai/video/4a297ceb37614256b85271728d7877ee/original.mp4)
+- PDRO_20F_04_Casella_13_9x16 · asset 399f1c0c42444be6b1f3e4e6187c20c4 (https://resource2.heygen.ai/video/399f1c0c42444be6b1f3e4e6187c20c4/original.mp4)
+- PDRO_20F_04_Casella_14_9x16 · asset 1f2c6297a1ce45758c11a9ba70ee6bd9 (https://resource2.heygen.ai/video/1f2c6297a1ce45758c11a9ba70ee6bd9/original.mp4)
+- PDRO_20F_04_Casella_15_9x16 · asset a0c40254abac43058c57a8f6bdcd14ad (https://resource2.heygen.ai/video/a0c40254abac43058c57a8f6bdcd14ad/original.mp4)
+- PDRO_20F_04_Casella_16_9x16 · asset ae5e1c11e3704cd68ce2c8a955c72972 (https://resource2.heygen.ai/video/ae5e1c11e3704cd68ce2c8a955c72972/original.mp4)
+- PDRO_20F_04_Casella_17_9x16 · asset 411ccf2cb84b45a6aa937d552d0d6248 (https://resource2.heygen.ai/video/411ccf2cb84b45a6aa937d552d0d6248/original.mp4)
+- PDRO_20F_04_Casella_18_9x16 · asset 9210841472ea4b40ae37cd83d821fe8e (https://resource2.heygen.ai/video/9210841472ea4b40ae37cd83d821fe8e/original.mp4)
+- PDRO_20F_04_Casella_19_9x16 · asset 7c0a140a5d6f49d59152851e7fba8301 (https://resource2.heygen.ai/video/7c0a140a5d6f49d59152851e7fba8301/original.mp4)
+- PDRO_20F_04_Casella_20_9x16 · asset 4c64a3e016f24c82ba0bcf273ddd4a34 (https://resource2.heygen.ai/video/4c64a3e016f24c82ba0bcf273ddd4a34/original.mp4)
+- PDRO_20F_04_Casella_21_9x16 · asset ca05555fc61d4d93bc67e4d2002cda63 (https://resource2.heygen.ai/video/ca05555fc61d4d93bc67e4d2002cda63/original.mp4)
+- PDRO_20F_04_Casella_22_9x16 · asset 068ed8a82e4e41cabeb4ceb49386d27e (https://resource2.heygen.ai/video/068ed8a82e4e41cabeb4ceb49386d27e/original.mp4)
+- PDRO_20F_04_Casella_23_9x16 · asset 615a3406f37c4dec8d92c910c8eccb50 (https://resource2.heygen.ai/video/615a3406f37c4dec8d92c910c8eccb50/original.mp4)
+- PDRO_20F_04_Casella_24_9x16 · asset c85683fd6ee0459a917a522c9d3cc8a2 (https://resource2.heygen.ai/video/c85683fd6ee0459a917a522c9d3cc8a2/original.mp4)
+- PDRO_20F_04_Finale_buone_feste_9x16 · asset e439d9fff7b9413da3cc1d15c07cb913 (https://resource2.heygen.ai/video/e439d9fff7b9413da3cc1d15c07cb913/original.mp4)
+
+## Pubblicazione (v2)
+- Robin (Achille 8/11 «programma tu»): un reel al giorno, caselle 1-24 dall'1 al 24/12/2026 alle 18:15 (post 1153791-1153814), finale «Buone feste» ven 25/12 10:15 (post 1153815); 4 canali AOUP, FB reel, primo commento WhatsApp. Testo del post per casella con la cifra in numeri; casella 24 chiude con «E domani… una sorpresa». Il montaggio unico non si pubblica.

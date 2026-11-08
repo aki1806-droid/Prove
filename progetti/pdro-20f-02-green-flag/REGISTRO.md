@@ -29,3 +29,6 @@ Clip HeyGen text_to_video dal connettore (9:16, 1080p, 15 s): S01 delegato e inf
 (strumenti/venti/strati_v2.mjs): titolo «GREEN FLAG o BLUE-RED?» e una bandiera per volta a tutto schermo, verde con la spunta,
 blu-rossa con la croce, che entra di lato e trema. Suoni: impatto, ding, sbagliato, whoosh. Chiusura invariata. 36,7 s, −16 LUFS.
 Uscita v2: asset HeyGen e16819749ee0491db1360b9dba3212f9 (https://resource2.heygen.ai/video/e16819749ee0491db1360b9dba3212f9/original.mp4). La v1 resta nell'asset indicato sopra.
+
+## Pubblicazione (v2)
+- Robin (Achille 8/11 «programma tu»): post 1153695, gio 19/11/2026 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

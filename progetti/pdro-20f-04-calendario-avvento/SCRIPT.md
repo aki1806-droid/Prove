@@ -50,7 +50,7 @@
 **Grafiche:** `grafiche/S07A.png`
 **Regia:** Lo sportello della casella si apre con un suono di campanellini; il testo appare sotto. Ogni scena è un REEL SEPARATO da 15 secondi, da pubblicare il giorno indicato.
 **Testo (23 parole, ~9.9s):**
-> Casella numero sette: congedo parentale. Si può usare fino ai dodici anni del figlio, per entrambi i genitori. Domani si apre un'altra casella.
+> Casella numero sette: congedo parentale. Si può usare fino ai quattordici anni del figlio, per entrambi i genitori. Domani si apre un'altra casella.
 
 ### SCENA 8 · `GRAFICA` · 8 dicembre · Congedo di paternità
 **Voce:** HeyGen · voce "Luca Ward"

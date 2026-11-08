@@ -30,3 +30,6 @@ Clip HeyGen text_to_video dal connettore (9:16, 1080p): S01 dirigente alla lavag
 «DALL'AZIENDALESE ALL'ITALIANO», una frase per volta nel riquadro scuro e la traduzione sull'evidenziatore giallo che cala con
 un tremolio. Suoni: impatto, whoosh, tonfo e tastiera. Chiusura S04 invariata. 47,7 s, −16,3 LUFS, labiale 0 ms.
 Uscita v2: asset HeyGen 512a78e773c4466687b62eaa05985557 (https://resource2.heygen.ai/video/512a78e773c4466687b62eaa05985557/original.mp4). La v1 resta nell'asset indicato sopra.
+
+## Pubblicazione (v2)
+- Robin (Achille 8/11 «programma tu»): post 1153694, gio 12/11/2026 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

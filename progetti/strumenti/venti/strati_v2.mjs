@@ -73,7 +73,7 @@ const CA = 'pdro-20f-04-calendario-avvento';
 const cas = [['Riposo giornaliero', '11 ore', 'consecutive di riposo ogni 24'], ['Riposo settimanale', '24 ore', "consecutive ogni 7 giorni, di regola insieme alle 11 del riposo giornaliero"],
   ['Orario massimo', '48 ore', 'in media a settimana, straordinari compresi'], ['Ferie', '4 settimane', "almeno, ogni anno, retribuite. E non si rinunciano."],
   ['Diritto allo studio', '150 ore', "l'anno di permessi retribuiti per studiare"], ['Legge 104', '3 giorni', 'di permesso al mese per assistere un familiare con disabilità grave'],
-  ['Congedo parentale', 'fino a 12 anni', 'del figlio, per entrambi i genitori'], ['Congedo di paternità', '10 giorni', 'lavorativi obbligatori per il papà, retribuiti al 100%'],
+  ['Congedo parentale', 'fino a 14 anni', 'del figlio, per entrambi i genitori'], ['Congedo di paternità', '10 giorni', 'lavorativi obbligatori per il papà, retribuiti al 100%'],
   ['Allattamento', '1° anno', 'del bambino: riposi giornalieri retribuiti per la mamma o, in alcuni casi, per il papà'],
   ['Malattia', 'posto conservato', 'per il periodo stabilito dal contratto: chiedi a noi come si calcola'], ['Visite ed esami', 'permessi orari', 'per visite, terapie ed esami diagnostici'],
   ['Lutto', 'permessi retribuiti', 'in caso di decesso di un familiare stretto'], ['Matrimonio', '15 giorni', "consecutivi di congedo retribuito, anche per l'unione civile"],

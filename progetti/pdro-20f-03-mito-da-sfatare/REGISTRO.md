@@ -29,3 +29,6 @@ Clip HeyGen text_to_video dal connettore (9:16, 1080p): S01 infermiera nello spo
 dell'accordo (12 s, 4013040d9a3d410f9d462555ce7ff8a7). Sopra (strumenti/venti/strati_v2.mjs): «MITO N° k», il mito in
 corsivo, il timbro FALSO che cala con un colpo e trema, la realtà nel riquadro bianco. Chiusura invariata. 47,1 s, −16 LUFS.
 Uscita v2: asset HeyGen 8809365be12a40e1bbfab47c72761a33 (https://resource2.heygen.ai/video/8809365be12a40e1bbfab47c72761a33/original.mp4). La v1 resta nell'asset indicato sopra.
+
+## Pubblicazione (v2)
+- Robin (Achille 8/11 «programma tu»): post 1153709, gio 26/11/2026 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

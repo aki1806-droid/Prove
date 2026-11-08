@@ -38,20 +38,48 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | lun 9/11 12:30 | Favole N° 4 · «I tre porcellini e il lupo delle riorganizzazioni» | 4 canali AOUP |
 | mar 10/11 12:30 | Format originali · «Gli archeologi del futuro» | 4 canali AOUP |
 | mar 10/11 21:00 | Sentirsi per sentire · P3 «Prendere parola» | 12 canali provinciali |
+| gio 12/11 18:15 | 20 format · 01 «Il traduttore aziendalese–italiano» | 4 canali AOUP |
 | ven 13/11 12:30 | Convenzioni 1 · «Istruzioni di sicurezza – polizza colpa grave» | 4 canali AOUP (testo provinciale) |
 | ven 13/11 19:30 | Sentirsi per sentire · Brividi T2 «Dove sei» | 12 canali provinciali |
 | sab 14/11 21:00 | Sentirsi per sentire · Brividi T4 «Chi cura» | 12 canali provinciali |
 | lun 16/11 21:00 | Sentirsi per sentire · P5 «Padova si accende» | 12 canali provinciali |
 | mar 17/11 12:30 | Convenzioni 2 · «Lettera dal futuro – Fondo sanitario» | 4 canali AOUP (testo provinciale) |
 | mer 18/11 19:30 | Sentirsi per sentire · P4 «Anche gli uomini» | 12 canali provinciali |
+| gio 19/11 18:15 | 20 format · 02 «Green flag, Blue-red flag» | 4 canali AOUP |
 | gio 19/11 21:00 | Sentirsi per sentire · Brividi T5 «Accendiamo una luce» | 12 canali provinciali |
 | ven 20/11 12:30 | Convenzioni 3 · «Le tre di notte – medico H24» | 4 canali AOUP (testo provinciale) |
 | dom 22/11 19:30 | Sentirsi per sentire · P1 «Il posto vuoto» | 12 canali provinciali |
 | mar 24/11 12:30 | Convenzioni 4 · «Il gioco della carriera – formazione» | 4 canali AOUP (testo provinciale) |
+| gio 26/11 18:15 | 20 format · 03 «Mito da sfatare» | 4 canali AOUP |
 | ven 27/11 12:30 | Convenzioni 5 · «Cartoline dal riposo – tempo libero» | 4 canali AOUP (testo provinciale) |
 | mar 1/12 12:30 | Convenzioni 6 · «Una giornata a sconto – acquisti» | 4 canali AOUP (testo provinciale) |
+| mar 1/12 18:15 | Calendario dei diritti · Casella 1 «Riposo giornaliero» | 4 canali AOUP |
+| mer 2/12 18:15 | Calendario dei diritti · Casella 2 «Riposo settimanale» | 4 canali AOUP |
+| gio 3/12 18:15 | Calendario dei diritti · Casella 3 «Orario massimo» | 4 canali AOUP |
 | ven 4/12 12:30 | Convenzioni 7 · «Il terrore digitale – SPID e PEC» | 4 canali AOUP (testo provinciale) |
+| ven 4/12 18:15 | Calendario dei diritti · Casella 4 «Ferie» | 4 canali AOUP |
+| sab 5/12 18:15 | Calendario dei diritti · Casella 5 «Diritto allo studio» | 4 canali AOUP |
+| dom 6/12 18:15 | Calendario dei diritti · Casella 6 «Legge 104» | 4 canali AOUP |
+| lun 7/12 18:15 | Calendario dei diritti · Casella 7 «Congedo parentale» | 4 canali AOUP |
 | mar 8/12 12:30 | Convenzioni 8 · «Quanto vale una tessera?» | 4 canali AOUP (testo provinciale) |
+| mar 8/12 18:15 | Calendario dei diritti · Casella 8 «Congedo di paternità» | 4 canali AOUP |
+| mer 9/12 18:15 | Calendario dei diritti · Casella 9 «Allattamento» | 4 canali AOUP |
+| gio 10/12 18:15 | Calendario dei diritti · Casella 10 «Malattia» | 4 canali AOUP |
+| ven 11/12 18:15 | Calendario dei diritti · Casella 11 «Visite ed esami» | 4 canali AOUP |
+| sab 12/12 18:15 | Calendario dei diritti · Casella 12 «Lutto» | 4 canali AOUP |
+| dom 13/12 18:15 | Calendario dei diritti · Casella 13 «Matrimonio» | 4 canali AOUP |
+| lun 14/12 18:15 | Calendario dei diritti · Casella 14 «Donazione di sangue» | 4 canali AOUP |
+| mar 15/12 18:15 | Calendario dei diritti · Casella 15 «Assemblea» | 4 canali AOUP |
+| mer 16/12 18:15 | Calendario dei diritti · Casella 16 «Affissione» | 4 canali AOUP |
+| gio 17/12 18:15 | Calendario dei diritti · Casella 17 «Libertà di opinione» | 4 canali AOUP |
+| ven 18/12 18:15 | Calendario dei diritti · Casella 18 «Niente discriminazioni» | 4 canali AOUP |
+| sab 19/12 18:15 | Calendario dei diritti · Casella 19 «Dispositivi di protezione» | 4 canali AOUP |
+| dom 20/12 18:15 | Calendario dei diritti · Casella 20 «Medico competente» | 4 canali AOUP |
+| lun 21/12 18:15 | Calendario dei diritti · Casella 21 «Contro le aggressioni» | 4 canali AOUP |
+| mar 22/12 18:15 | Calendario dei diritti · Casella 22 «Part-time» | 4 canali AOUP |
+| mer 23/12 18:15 | Calendario dei diritti · Casella 23 «Formazione» | 4 canali AOUP |
+| gio 24/12 18:15 | Calendario dei diritti · Casella 24 «Tredicesima» | 4 canali AOUP |
+| ven 25/12 10:15 | Calendario dei diritti · Finale «Buone feste» con Achille | 4 canali AOUP |
 
 ## Eredità Invisibili
 
@@ -197,35 +225,35 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 | Video | Uscita sui social | Indirizzo |
 |---|---|---|
-| 01 «Il traduttore aziendalese–italiano» |  | [apri](https://resource2.heygen.ai/video/512a78e773c4466687b62eaa05985557/original.mp4) |
-| 02 «Green flag, Blue-red flag» |  | [apri](https://resource2.heygen.ai/video/e16819749ee0491db1360b9dba3212f9/original.mp4) |
-| 03 «Mito da sfatare» |  | [apri](https://resource2.heygen.ai/video/8809365be12a40e1bbfab47c72761a33/original.mp4) |
-| 04 «Il calendario dell'avvento dei diritti» – montaggio unico (4:21) |  | [apri](https://resource2.heygen.ai/video/8d0789b2e1da495a869e3913a0ec9841/original.mp4) |
-| 04 · Casella 1 (1 dicembre) |  | [apri](https://resource2.heygen.ai/video/bc50299e538247cab5b8c8ae4fe43849/original.mp4) |
-| 04 · Casella 2 (2 dicembre) |  | [apri](https://resource2.heygen.ai/video/5a330619a89c48df956af306f413143d/original.mp4) |
-| 04 · Casella 3 (3 dicembre) |  | [apri](https://resource2.heygen.ai/video/ef6ec64f6b524df288408cc841167ca4/original.mp4) |
-| 04 · Casella 4 (4 dicembre) |  | [apri](https://resource2.heygen.ai/video/d157306d46614abbb49de8d95358d0c0/original.mp4) |
-| 04 · Casella 5 (5 dicembre) |  | [apri](https://resource2.heygen.ai/video/27b1b85e203649cc9f3f726eb82847e9/original.mp4) |
-| 04 · Casella 6 (6 dicembre) |  | [apri](https://resource2.heygen.ai/video/f98783a2d46542fca7605b67ebd83c24/original.mp4) |
-| 04 · Casella 7 (7 dicembre) |  | [apri](https://resource2.heygen.ai/video/8af445ad4a984d9ea933bd9735f7d957/original.mp4) |
-| 04 · Casella 8 (8 dicembre) |  | [apri](https://resource2.heygen.ai/video/e76368fafe4e4c9c8125f1745b629011/original.mp4) |
-| 04 · Casella 9 (9 dicembre) |  | [apri](https://resource2.heygen.ai/video/bac9b2c15dfd409dbacc1fd3574c22f1/original.mp4) |
-| 04 · Casella 10 (10 dicembre) |  | [apri](https://resource2.heygen.ai/video/371cf3f73db5462fab8096fdf1a45d8e/original.mp4) |
-| 04 · Casella 11 (11 dicembre) |  | [apri](https://resource2.heygen.ai/video/12c576931e0d4fc9b74cd67d4ef93d3c/original.mp4) |
-| 04 · Casella 12 (12 dicembre) |  | [apri](https://resource2.heygen.ai/video/9ec1e72aaf6c4a128acb7ac1f94f4fd1/original.mp4) |
-| 04 · Casella 13 (13 dicembre) |  | [apri](https://resource2.heygen.ai/video/0cad7dc5044a42f685922eff33198b17/original.mp4) |
-| 04 · Casella 14 (14 dicembre) |  | [apri](https://resource2.heygen.ai/video/4ce1caef23634d099805a9cc7efd582c/original.mp4) |
-| 04 · Casella 15 (15 dicembre) |  | [apri](https://resource2.heygen.ai/video/6acd18ad0f1541e29aa434d46a72ff96/original.mp4) |
-| 04 · Casella 16 (16 dicembre) |  | [apri](https://resource2.heygen.ai/video/70545129ca3d4695914c1df5532cdb02/original.mp4) |
-| 04 · Casella 17 (17 dicembre) |  | [apri](https://resource2.heygen.ai/video/2aaa6fb703eb4f5e95f2df227c208969/original.mp4) |
-| 04 · Casella 18 (18 dicembre) |  | [apri](https://resource2.heygen.ai/video/6fdd53e2130c4dedbf2ba481b5b2285d/original.mp4) |
-| 04 · Casella 19 (19 dicembre) |  | [apri](https://resource2.heygen.ai/video/236b94a4a6804a228f4a8f4b017c2334/original.mp4) |
-| 04 · Casella 20 (20 dicembre) |  | [apri](https://resource2.heygen.ai/video/60ff06e2e34846ae9b301e77f0cebfe6/original.mp4) |
-| 04 · Casella 21 (21 dicembre) |  | [apri](https://resource2.heygen.ai/video/5d68c82d42374a2db1ca35220d80bdef/original.mp4) |
-| 04 · Casella 22 (22 dicembre) |  | [apri](https://resource2.heygen.ai/video/f9cd6517df884e7f80460a306c32f2b6/original.mp4) |
-| 04 · Casella 23 (23 dicembre) |  | [apri](https://resource2.heygen.ai/video/b45302780eae46f6bc7ff306876a81b4/original.mp4) |
-| 04 · Casella 24 (24 dicembre) |  | [apri](https://resource2.heygen.ai/video/e861cc21e3dd44a6a1da191046913545/original.mp4) |
-| 04 · Finale «Buone feste» con Achille (24 dicembre) |  | [apri](https://resource2.heygen.ai/video/e03bb4873f3b497da8c0983600e501e7/original.mp4) |
+| 01 «Il traduttore aziendalese–italiano» | gio 12/11 18:15 | [apri](https://resource2.heygen.ai/video/512a78e773c4466687b62eaa05985557/original.mp4) |
+| 02 «Green flag, Blue-red flag» | gio 19/11 18:15 | [apri](https://resource2.heygen.ai/video/e16819749ee0491db1360b9dba3212f9/original.mp4) |
+| 03 «Mito da sfatare» | gio 26/11 18:15 | [apri](https://resource2.heygen.ai/video/8809365be12a40e1bbfab47c72761a33/original.mp4) |
+| 04 «Il calendario dell'avvento dei diritti» – montaggio unico (4:22) | non pubblicato (escono i 25 reel) | [apri](https://resource2.heygen.ai/video/38e0068bc54a456ead48eef12203dd94/original.mp4) |
+| 04 · Casella 1 (1 dicembre) | mar 1/12 18:15 | [apri](https://resource2.heygen.ai/video/3e29377715e14bef8327798729fcecdf/original.mp4) |
+| 04 · Casella 2 (2 dicembre) | mer 2/12 18:15 | [apri](https://resource2.heygen.ai/video/916acc3e103444e7995924f65d3cdbec/original.mp4) |
+| 04 · Casella 3 (3 dicembre) | gio 3/12 18:15 | [apri](https://resource2.heygen.ai/video/c4c9a4597ec54c7aba16906727c428f3/original.mp4) |
+| 04 · Casella 4 (4 dicembre) | ven 4/12 18:15 | [apri](https://resource2.heygen.ai/video/89b29517996e4930960726e20798fbaa/original.mp4) |
+| 04 · Casella 5 (5 dicembre) | sab 5/12 18:15 | [apri](https://resource2.heygen.ai/video/2ca1c79294f944cdb4d472f9879aa3ea/original.mp4) |
+| 04 · Casella 6 (6 dicembre) | dom 6/12 18:15 | [apri](https://resource2.heygen.ai/video/2f142f110db04847a7e872abbc34adb1/original.mp4) |
+| 04 · Casella 7 (7 dicembre) | lun 7/12 18:15 | [apri](https://resource2.heygen.ai/video/f3a04f3ce20647618cb84ce6f7a069c3/original.mp4) |
+| 04 · Casella 8 (8 dicembre) | mar 8/12 18:15 | [apri](https://resource2.heygen.ai/video/fc93072d41b74d799222e50dfbf2798d/original.mp4) |
+| 04 · Casella 9 (9 dicembre) | mer 9/12 18:15 | [apri](https://resource2.heygen.ai/video/c9515c9f270d4ac7bf3d6c1802f2e313/original.mp4) |
+| 04 · Casella 10 (10 dicembre) | gio 10/12 18:15 | [apri](https://resource2.heygen.ai/video/50c6f63c20ee451b9ec14c5389e53f81/original.mp4) |
+| 04 · Casella 11 (11 dicembre) | ven 11/12 18:15 | [apri](https://resource2.heygen.ai/video/f0d33e551c6a4e4eb2c95d350719f7ce/original.mp4) |
+| 04 · Casella 12 (12 dicembre) | sab 12/12 18:15 | [apri](https://resource2.heygen.ai/video/4a297ceb37614256b85271728d7877ee/original.mp4) |
+| 04 · Casella 13 (13 dicembre) | dom 13/12 18:15 | [apri](https://resource2.heygen.ai/video/399f1c0c42444be6b1f3e4e6187c20c4/original.mp4) |
+| 04 · Casella 14 (14 dicembre) | lun 14/12 18:15 | [apri](https://resource2.heygen.ai/video/1f2c6297a1ce45758c11a9ba70ee6bd9/original.mp4) |
+| 04 · Casella 15 (15 dicembre) | mar 15/12 18:15 | [apri](https://resource2.heygen.ai/video/a0c40254abac43058c57a8f6bdcd14ad/original.mp4) |
+| 04 · Casella 16 (16 dicembre) | mer 16/12 18:15 | [apri](https://resource2.heygen.ai/video/ae5e1c11e3704cd68ce2c8a955c72972/original.mp4) |
+| 04 · Casella 17 (17 dicembre) | gio 17/12 18:15 | [apri](https://resource2.heygen.ai/video/411ccf2cb84b45a6aa937d552d0d6248/original.mp4) |
+| 04 · Casella 18 (18 dicembre) | ven 18/12 18:15 | [apri](https://resource2.heygen.ai/video/9210841472ea4b40ae37cd83d821fe8e/original.mp4) |
+| 04 · Casella 19 (19 dicembre) | sab 19/12 18:15 | [apri](https://resource2.heygen.ai/video/7c0a140a5d6f49d59152851e7fba8301/original.mp4) |
+| 04 · Casella 20 (20 dicembre) | dom 20/12 18:15 | [apri](https://resource2.heygen.ai/video/4c64a3e016f24c82ba0bcf273ddd4a34/original.mp4) |
+| 04 · Casella 21 (21 dicembre) | lun 21/12 18:15 | [apri](https://resource2.heygen.ai/video/ca05555fc61d4d93bc67e4d2002cda63/original.mp4) |
+| 04 · Casella 22 (22 dicembre) | mar 22/12 18:15 | [apri](https://resource2.heygen.ai/video/068ed8a82e4e41cabeb4ceb49386d27e/original.mp4) |
+| 04 · Casella 23 (23 dicembre) | mer 23/12 18:15 | [apri](https://resource2.heygen.ai/video/615a3406f37c4dec8d92c910c8eccb50/original.mp4) |
+| 04 · Casella 24 (24 dicembre) | gio 24/12 18:15 | [apri](https://resource2.heygen.ai/video/c85683fd6ee0459a917a522c9d3cc8a2/original.mp4) |
+| 04 · Finale «Buone feste» con Achille (25 dicembre) | ven 25/12 10:15 | [apri](https://resource2.heygen.ai/video/e439d9fff7b9413da3cc1d15c07cb913/original.mp4) |
 
 ## PDRO · Convenzioni CISL FP (provinciale)
 

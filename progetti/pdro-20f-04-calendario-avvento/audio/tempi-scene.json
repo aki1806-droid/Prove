@@ -3,150 +3,150 @@
   "id": "S01",
   "tipo": "narratore",
   "inizio": 0.0,
-  "durata": 9.103
+  "durata": 9.412
  },
  {
   "id": "S02",
   "tipo": "narratore",
-  "inizio": 9.103,
-  "durata": 12.067
+  "inizio": 9.412,
+  "durata": 12.145
  },
  {
   "id": "S03",
   "tipo": "narratore",
-  "inizio": 21.17,
-  "durata": 9.793
+  "inizio": 21.557,
+  "durata": 9.945
  },
  {
   "id": "S04",
   "tipo": "narratore",
-  "inizio": 30.963,
-  "durata": 9.703
+  "inizio": 31.502,
+  "durata": 9.705
  },
  {
   "id": "S05",
   "tipo": "narratore",
-  "inizio": 40.666,
-  "durata": 9.858
+  "inizio": 41.207,
+  "durata": 9.903
  },
  {
   "id": "S06",
   "tipo": "narratore",
-  "inizio": 50.524,
-  "durata": 10.386
+  "inizio": 51.11,
+  "durata": 10.31
  },
  {
   "id": "S07",
   "tipo": "narratore",
-  "inizio": 60.91,
-  "durata": 9.628
+  "inizio": 61.42,
+  "durata": 10.059
  },
  {
   "id": "S08",
   "tipo": "narratore",
-  "inizio": 70.5381,
-  "durata": 10.8272
+  "inizio": 71.479,
+  "durata": 10.5667
  },
  {
   "id": "S09",
   "tipo": "narratore",
-  "inizio": 81.3653,
+  "inizio": 82.0458,
   "durata": 11.819
  },
  {
   "id": "S10",
   "tipo": "narratore",
-  "inizio": 93.1843,
+  "inizio": 93.8648,
   "durata": 11.518
  },
  {
   "id": "S11",
   "tipo": "narratore",
-  "inizio": 104.7023,
+  "inizio": 105.3828,
   "durata": 11.314
  },
  {
   "id": "S12",
   "tipo": "narratore",
-  "inizio": 116.0163,
+  "inizio": 116.6968,
   "durata": 9.517
  },
  {
   "id": "S13",
   "tipo": "narratore",
-  "inizio": 125.5333,
+  "inizio": 126.2138,
   "durata": 11.063
  },
  {
   "id": "S14",
   "tipo": "narratore",
-  "inizio": 136.5963,
+  "inizio": 137.2768,
   "durata": 9.914
  },
  {
   "id": "S15",
   "tipo": "narratore",
-  "inizio": 146.5103,
+  "inizio": 147.1907,
   "durata": 9.546
  },
  {
   "id": "S16",
   "tipo": "narratore",
-  "inizio": 156.0563,
+  "inizio": 156.7368,
   "durata": 8.8783
  },
  {
   "id": "S17",
   "tipo": "narratore",
-  "inizio": 164.9346,
+  "inizio": 165.6151,
   "durata": 10.408
  },
  {
   "id": "S18",
   "tipo": "narratore",
-  "inizio": 175.3426,
+  "inizio": 176.0231,
   "durata": 10.9
  },
  {
   "id": "S19",
   "tipo": "narratore",
-  "inizio": 186.2426,
+  "inizio": 186.9231,
   "durata": 11.107
  },
  {
   "id": "S20",
   "tipo": "narratore",
-  "inizio": 197.3496,
+  "inizio": 198.0301,
   "durata": 11.363
  },
  {
   "id": "S21",
   "tipo": "narratore",
-  "inizio": 208.7126,
+  "inizio": 209.3931,
   "durata": 10.002
  },
  {
   "id": "S22",
   "tipo": "narratore",
-  "inizio": 218.7146,
+  "inizio": 219.3951,
   "durata": 11.355
  },
  {
   "id": "S23",
   "tipo": "narratore",
-  "inizio": 230.0696,
+  "inizio": 230.7501,
   "durata": 10.403
  },
  {
   "id": "S24",
   "tipo": "narratore",
-  "inizio": 240.4727,
+  "inizio": 241.1531,
   "durata": 10.4113
  },
  {
   "id": "S25",
   "tipo": "achille",
-  "inizio": 250.884,
+  "inizio": 251.5644,
   "durata": 10.2185
  }
 ]
