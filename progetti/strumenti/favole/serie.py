@@ -829,6 +829,34 @@ ANIM[V4] = {f'S{k:02d}': pieno([P('porta', ['zoom', 0.0, 0.45], fx=[['pulsa', 0.
 ANIM[V4]['S25'] = _anim_ch20(10)
 
 
+# ---- 01 Traduttore, versione 2 (8/11, «più attrattivi»): clip HeyGen sotto, livelli a tutto schermo sopra (../venti/strati_tr.mjs)
+def _strato(id, nome):
+    return {'id': id, 'src': f'strati/{nome}.png', 'buca': False, 'm': ['alfa', 0, 0, 1080, 1920]}
+
+
+EPISODI[V1].update({
+    'S01': {'base': 'strati/s01_scrim.png', 'pezzi': [_strato('titolo', 's01_titolo'), _strato('p1', 's01_p1'), _strato('t1', 's01_t1')]},
+    'S02': {'base': 'strati/scrim.png', 'pezzi': [_strato(f'{x}{k}', f's02_{x}{k}') for k in (1, 2, 3) for x in 'pt']},
+    'S03': {'base': 'strati/scrim.png', 'pezzi': [_strato(f'{x}{k}', f's03_{x}{k}') for k in (1, 2, 3) for x in 'pt']}})
+
+
+def _coppie(voci):
+    """voci: [(entrata frase, entrata traduzione)]; ogni coppia esce quando entra la frase dopo."""
+    s = []
+    for k, (wp, wt) in enumerate(voci, 1):
+        fuori = ['fade', f'{voci[k][0]}-0.25', 0.2] if k < len(voci) else None
+        s += [P(f'p{k}', ['slideL', wp, 0.35], fuori), P(f't{k}', ['slam', wt, 0.3], fuori, fx=[['trema', f'{wt}+0.3', f'{wt}+0.8', 6]])]
+    return s
+
+
+ANIM[V1].update({
+    'S01': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
+        P('titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 5]]), P('p1', ['slideL', 'ottimizzazione-0.2', 0.35]),
+        P('t1', ['slam', 'traduzione', 0.3], fx=[['trema', 'traduzione+0.3', 'traduzione+0.9', 7]])]},
+    'S02': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': _coppie([(0.15, 'chiamiamo'), ('riorganizzazione', 'stesse'), ('questione', 'ora')])},
+    'S03': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': _coppie([(0.15, 'si'), ('valorizzazione', 'diciamo'), ('classico', 'traduzione')])}})
+
+
 def verifica(pg):
     """tutte le parole-ancora devono esistere nella voce tagliata."""
     import json

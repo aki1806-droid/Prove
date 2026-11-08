@@ -1,6 +1,6 @@
 {
 "S01": {
-"tipo": "pieno",
+"tipo": "overlay",
 "fondi": [
 [
 "fondo",
@@ -9,25 +9,49 @@
 ],
 "strati": [
 {
-"p": "a1",
+"p": "titolo",
 "in": [
-"slideL",
-"prima",
-0.4
+"slam",
+0.05,
+0.3
+],
+"fx": [
+[
+"trema",
+0.35,
+0.8,
+5
+]
 ]
 },
 {
-"p": "b1",
+"p": "p1",
 "in": [
-"wipe",
+"slideL",
+"ottimizzazione-0.2",
+0.35
+]
+},
+{
+"p": "t1",
+"in": [
+"slam",
 "traduzione",
-1.0
+0.3
+],
+"fx": [
+[
+"trema",
+"traduzione+0.3",
+"traduzione+0.9",
+7
+]
 ]
 }
 ]
 },
 "S02": {
-"tipo": "pieno",
+"tipo": "overlay",
 "fondi": [
 [
 "fondo",
@@ -36,57 +60,101 @@
 ],
 "strati": [
 {
-"p": "a1",
+"p": "p1",
 "in": [
 "slideL",
-0.2,
-0.4
+0.15,
+0.35
+],
+"out": [
+"fade",
+"riorganizzazione-0.25",
+0.2
 ]
 },
 {
-"p": "b1",
+"p": "t1",
 "in": [
-"wipe",
+"slam",
 "chiamiamo",
-0.8
+0.3
+],
+"out": [
+"fade",
+"riorganizzazione-0.25",
+0.2
+],
+"fx": [
+[
+"trema",
+"chiamiamo+0.3",
+"chiamiamo+0.8",
+6
+]
 ]
 },
 {
-"p": "a2",
+"p": "p2",
 "in": [
 "slideL",
 "riorganizzazione",
-0.4
+0.35
+],
+"out": [
+"fade",
+"questione-0.25",
+0.2
 ]
 },
 {
-"p": "b2",
+"p": "t2",
 "in": [
-"wipe",
+"slam",
 "stesse",
-0.8
+0.3
+],
+"out": [
+"fade",
+"questione-0.25",
+0.2
+],
+"fx": [
+[
+"trema",
+"stesse+0.3",
+"stesse+0.8",
+6
+]
 ]
 },
 {
-"p": "a3",
+"p": "p3",
 "in": [
 "slideL",
 "questione",
-0.4
+0.35
 ]
 },
 {
-"p": "b3",
+"p": "t3",
 "in": [
-"wipe",
+"slam",
 "ora",
-0.6
+0.3
+],
+"fx": [
+[
+"trema",
+"ora+0.3",
+"ora+0.8",
+6
+]
 ]
 }
 ]
 },
 "S03": {
-"tipo": "pieno",
+"tipo": "overlay",
 "fondi": [
 [
 "fondo",
@@ -95,51 +163,95 @@
 ],
 "strati": [
 {
-"p": "a1",
+"p": "p1",
 "in": [
 "slideL",
-0.2,
-0.4
+0.15,
+0.35
+],
+"out": [
+"fade",
+"valorizzazione-0.25",
+0.2
 ]
 },
 {
-"p": "b1",
+"p": "t1",
 "in": [
-"wipe",
+"slam",
 "si",
-0.8
+0.3
+],
+"out": [
+"fade",
+"valorizzazione-0.25",
+0.2
+],
+"fx": [
+[
+"trema",
+"si+0.3",
+"si+0.8",
+6
+]
 ]
 },
 {
-"p": "a2",
+"p": "p2",
 "in": [
 "slideL",
 "valorizzazione",
-0.4
+0.35
+],
+"out": [
+"fade",
+"classico-0.25",
+0.2
 ]
 },
 {
-"p": "b2",
+"p": "t2",
 "in": [
-"wipe",
+"slam",
 "diciamo",
-0.8
+0.3
+],
+"out": [
+"fade",
+"classico-0.25",
+0.2
+],
+"fx": [
+[
+"trema",
+"diciamo+0.3",
+"diciamo+0.8",
+6
+]
 ]
 },
 {
-"p": "a3",
+"p": "p3",
 "in": [
 "slideL",
 "classico",
-0.4
+0.35
 ]
 },
 {
-"p": "b3",
+"p": "t3",
 "in": [
-"wipe",
+"slam",
 "traduzione",
-0.8
+0.3
+],
+"fx": [
+[
+"trema",
+"traduzione+0.3",
+"traduzione+0.8",
+6
+]
 ]
 }
 ]
