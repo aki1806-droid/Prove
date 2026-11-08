@@ -22,3 +22,10 @@ PDRO_20F_03_Mito_da_sfatare_9x16 · asset HeyGen 28eb0ae167424906b8b70edafbba169
 
 ## Pubblicazione
 - Da fare: OK di Achille → Robin sui 4 canali AOUP.
+
+## Versione 2 (8/11/2026, «troppo poco attrattivi»: clip e grafiche più accattivanti; pilota approvato da Achille «Va bene così»)
+Clip HeyGen text_to_video dal connettore (9:16, 1080p): S01 infermiera nello spogliatoio col modulo d'iscrizione
+(15 s, 3c3899e923684057ac2c1f9c04b42e80), S02 aula di formazione (15 s, 20098d1dbb6a4706a9d9483adba3b22c), S03 firma
+dell'accordo (12 s, 4013040d9a3d410f9d462555ce7ff8a7). Sopra (strumenti/venti/strati_v2.mjs): «MITO N° k», il mito in
+corsivo, il timbro FALSO che cala con un colpo e trema, la realtà nel riquadro bianco. Chiusura invariata. 47,1 s, −16 LUFS.
+Uscita v2: asset HeyGen 8809365be12a40e1bbfab47c72761a33 (https://resource2.heygen.ai/video/8809365be12a40e1bbfab47c72761a33/original.mp4). La v1 resta nell'asset indicato sopra.

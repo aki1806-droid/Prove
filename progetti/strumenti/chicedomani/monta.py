@@ -82,12 +82,19 @@ def scena(t, g):
 
 
 def monta():
+    # scena per scena, buttando via subito il livello .mov con l'alfa (pesa centinaia di MB: con 24 scene il disco si riempie)
+    def una(t):
+        if os.path.exists(f"{LAV}/{t['id']}.mp4") and not os.environ.get('RIFAI'):
+            return
+        g = livello(t); scena(t, g)
+        if g.endswith('.mov'):
+            os.remove(g)
     with ThreadPoolExecutor(3) as ex:
-        gl = list(ex.map(livello, scene))
-    for t, g in zip(scene, gl):
-        scena(t, g)
+        list(ex.map(una, scene))
     open(f'{LAV}/lista.txt', 'w').write(''.join(f"file '{LAV}/{t['id']}.mp4'\n" for t in scene))
     ff('-f', 'concat', '-safe', '0', '-i', f'{LAV}/lista.txt', '-c', 'copy', f'{LAV}/fondo.mp4')
+    for t in scene:   # le scene sono già nel fondo: si liberano subito centinaia di MB
+        os.remove(f"{LAV}/{t['id']}.mp4")
     dur = sum(t['durata'] for t in scene)
     av = next(t for t in scene if t['id'] == TEMPI[-1]['id'])   # la chiusura di Achille è l'ultima scena con voce
     en = {k: '+'.join(f"between(t,{t['inizio']:.3f},{t['inizio'] + t['durata'] - 0.001:.3f})"

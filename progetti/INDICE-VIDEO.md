@@ -197,35 +197,35 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 | Video | Uscita sui social | Indirizzo |
 |---|---|---|
-| 01 «Il traduttore aziendalese–italiano» |  | [apri](https://resource2.heygen.ai/video/84b6f3d9181b45df933f09116808f6e2/original.mp4) |
-| 02 «Green flag, Blue-red flag» |  | [apri](https://resource2.heygen.ai/video/e756bf859288453d9747a46d4182271c/original.mp4) |
-| 03 «Mito da sfatare» |  | [apri](https://resource2.heygen.ai/video/28eb0ae167424906b8b70edafbba169c/original.mp4) |
-| 04 «Il calendario dell'avvento dei diritti» – montaggio unico (4:21) |  | [apri](https://resource2.heygen.ai/video/c2068c7fbf6e44be8c5b7311ca08f40c/original.mp4) |
-| 04 · Casella 1 (1 dicembre) |  | [apri](https://resource2.heygen.ai/video/847f7f7add464bc484bd606be1bcce52/original.mp4) |
-| 04 · Casella 2 (2 dicembre) |  | [apri](https://resource2.heygen.ai/video/243bec59deb044b89fb353b6ed25093e/original.mp4) |
-| 04 · Casella 3 (3 dicembre) |  | [apri](https://resource2.heygen.ai/video/433e921a12eb4c00826ab746173016a0/original.mp4) |
-| 04 · Casella 4 (4 dicembre) |  | [apri](https://resource2.heygen.ai/video/83442b46cafc43e6b246cfce3437d18f/original.mp4) |
-| 04 · Casella 5 (5 dicembre) |  | [apri](https://resource2.heygen.ai/video/16ad028827d14edc81c694ae9c8519f0/original.mp4) |
-| 04 · Casella 6 (6 dicembre) |  | [apri](https://resource2.heygen.ai/video/78d676ca05574625b687c444caa63cf2/original.mp4) |
-| 04 · Casella 7 (7 dicembre) |  | [apri](https://resource2.heygen.ai/video/d59b359e48da466c86ac3415eacbf346/original.mp4) |
-| 04 · Casella 8 (8 dicembre) |  | [apri](https://resource2.heygen.ai/video/8c43814363894d0b882824860b98dcf2/original.mp4) |
-| 04 · Casella 9 (9 dicembre) |  | [apri](https://resource2.heygen.ai/video/4daa669fbdd048f59800a17d69f89d00/original.mp4) |
-| 04 · Casella 10 (10 dicembre) |  | [apri](https://resource2.heygen.ai/video/8d516b3668704d499da686db98bcd866/original.mp4) |
-| 04 · Casella 11 (11 dicembre) |  | [apri](https://resource2.heygen.ai/video/d4884d85b7c24766a94f5bd12a46f8f7/original.mp4) |
-| 04 · Casella 12 (12 dicembre) |  | [apri](https://resource2.heygen.ai/video/498c3203945f4beea2a80a94034a27c4/original.mp4) |
-| 04 · Casella 13 (13 dicembre) |  | [apri](https://resource2.heygen.ai/video/58ad56d5e1054681b5c99e4a0cf5c8c3/original.mp4) |
-| 04 · Casella 14 (14 dicembre) |  | [apri](https://resource2.heygen.ai/video/6446bf34523442e0969f75834304cf15/original.mp4) |
-| 04 · Casella 15 (15 dicembre) |  | [apri](https://resource2.heygen.ai/video/863ad1a1e8c84294a411723888adb9f1/original.mp4) |
-| 04 · Casella 16 (16 dicembre) |  | [apri](https://resource2.heygen.ai/video/9b1c5023d17d4358a8a8b858d5b76479/original.mp4) |
-| 04 · Casella 17 (17 dicembre) |  | [apri](https://resource2.heygen.ai/video/a52d0019108b469787ba56f0e5597ae0/original.mp4) |
-| 04 · Casella 18 (18 dicembre) |  | [apri](https://resource2.heygen.ai/video/762329b846434d54bae91a91a7e8b9e8/original.mp4) |
-| 04 · Casella 19 (19 dicembre) |  | [apri](https://resource2.heygen.ai/video/d26c86f2b3da4b1f81af1144de22f047/original.mp4) |
-| 04 · Casella 20 (20 dicembre) |  | [apri](https://resource2.heygen.ai/video/38fa106d42a748ceafb34f23de5cd297/original.mp4) |
-| 04 · Casella 21 (21 dicembre) |  | [apri](https://resource2.heygen.ai/video/0259fa27499a47eeacdde760c1f94c01/original.mp4) |
-| 04 · Casella 22 (22 dicembre) |  | [apri](https://resource2.heygen.ai/video/a882972e19c640f68d183e888c2f068e/original.mp4) |
-| 04 · Casella 23 (23 dicembre) |  | [apri](https://resource2.heygen.ai/video/ed2b027d81ae4fd19dea7bc5e5bd6025/original.mp4) |
-| 04 · Casella 24 (24 dicembre) |  | [apri](https://resource2.heygen.ai/video/793a0fe1f92b4bc694e9f9a6bcbb8cca/original.mp4) |
-| 04 · Finale «Buone feste» con Achille (24 dicembre) |  | [apri](https://resource2.heygen.ai/video/1147b336a459413fac2606c6dad443cc/original.mp4) |
+| 01 «Il traduttore aziendalese–italiano» |  | [apri](https://resource2.heygen.ai/video/512a78e773c4466687b62eaa05985557/original.mp4) |
+| 02 «Green flag, Blue-red flag» |  | [apri](https://resource2.heygen.ai/video/e16819749ee0491db1360b9dba3212f9/original.mp4) |
+| 03 «Mito da sfatare» |  | [apri](https://resource2.heygen.ai/video/8809365be12a40e1bbfab47c72761a33/original.mp4) |
+| 04 «Il calendario dell'avvento dei diritti» – montaggio unico (4:21) |  | [apri](https://resource2.heygen.ai/video/8d0789b2e1da495a869e3913a0ec9841/original.mp4) |
+| 04 · Casella 1 (1 dicembre) |  | [apri](https://resource2.heygen.ai/video/bc50299e538247cab5b8c8ae4fe43849/original.mp4) |
+| 04 · Casella 2 (2 dicembre) |  | [apri](https://resource2.heygen.ai/video/5a330619a89c48df956af306f413143d/original.mp4) |
+| 04 · Casella 3 (3 dicembre) |  | [apri](https://resource2.heygen.ai/video/ef6ec64f6b524df288408cc841167ca4/original.mp4) |
+| 04 · Casella 4 (4 dicembre) |  | [apri](https://resource2.heygen.ai/video/d157306d46614abbb49de8d95358d0c0/original.mp4) |
+| 04 · Casella 5 (5 dicembre) |  | [apri](https://resource2.heygen.ai/video/27b1b85e203649cc9f3f726eb82847e9/original.mp4) |
+| 04 · Casella 6 (6 dicembre) |  | [apri](https://resource2.heygen.ai/video/f98783a2d46542fca7605b67ebd83c24/original.mp4) |
+| 04 · Casella 7 (7 dicembre) |  | [apri](https://resource2.heygen.ai/video/8af445ad4a984d9ea933bd9735f7d957/original.mp4) |
+| 04 · Casella 8 (8 dicembre) |  | [apri](https://resource2.heygen.ai/video/e76368fafe4e4c9c8125f1745b629011/original.mp4) |
+| 04 · Casella 9 (9 dicembre) |  | [apri](https://resource2.heygen.ai/video/bac9b2c15dfd409dbacc1fd3574c22f1/original.mp4) |
+| 04 · Casella 10 (10 dicembre) |  | [apri](https://resource2.heygen.ai/video/371cf3f73db5462fab8096fdf1a45d8e/original.mp4) |
+| 04 · Casella 11 (11 dicembre) |  | [apri](https://resource2.heygen.ai/video/12c576931e0d4fc9b74cd67d4ef93d3c/original.mp4) |
+| 04 · Casella 12 (12 dicembre) |  | [apri](https://resource2.heygen.ai/video/9ec1e72aaf6c4a128acb7ac1f94f4fd1/original.mp4) |
+| 04 · Casella 13 (13 dicembre) |  | [apri](https://resource2.heygen.ai/video/0cad7dc5044a42f685922eff33198b17/original.mp4) |
+| 04 · Casella 14 (14 dicembre) |  | [apri](https://resource2.heygen.ai/video/4ce1caef23634d099805a9cc7efd582c/original.mp4) |
+| 04 · Casella 15 (15 dicembre) |  | [apri](https://resource2.heygen.ai/video/6acd18ad0f1541e29aa434d46a72ff96/original.mp4) |
+| 04 · Casella 16 (16 dicembre) |  | [apri](https://resource2.heygen.ai/video/70545129ca3d4695914c1df5532cdb02/original.mp4) |
+| 04 · Casella 17 (17 dicembre) |  | [apri](https://resource2.heygen.ai/video/2aaa6fb703eb4f5e95f2df227c208969/original.mp4) |
+| 04 · Casella 18 (18 dicembre) |  | [apri](https://resource2.heygen.ai/video/6fdd53e2130c4dedbf2ba481b5b2285d/original.mp4) |
+| 04 · Casella 19 (19 dicembre) |  | [apri](https://resource2.heygen.ai/video/236b94a4a6804a228f4a8f4b017c2334/original.mp4) |
+| 04 · Casella 20 (20 dicembre) |  | [apri](https://resource2.heygen.ai/video/60ff06e2e34846ae9b301e77f0cebfe6/original.mp4) |
+| 04 · Casella 21 (21 dicembre) |  | [apri](https://resource2.heygen.ai/video/5d68c82d42374a2db1ca35220d80bdef/original.mp4) |
+| 04 · Casella 22 (22 dicembre) |  | [apri](https://resource2.heygen.ai/video/f9cd6517df884e7f80460a306c32f2b6/original.mp4) |
+| 04 · Casella 23 (23 dicembre) |  | [apri](https://resource2.heygen.ai/video/b45302780eae46f6bc7ff306876a81b4/original.mp4) |
+| 04 · Casella 24 (24 dicembre) |  | [apri](https://resource2.heygen.ai/video/e861cc21e3dd44a6a1da191046913545/original.mp4) |
+| 04 · Finale «Buone feste» con Achille (24 dicembre) |  | [apri](https://resource2.heygen.ai/video/e03bb4873f3b497da8c0983600e501e7/original.mp4) |
 
 ## PDRO · Convenzioni CISL FP (provinciale)
 

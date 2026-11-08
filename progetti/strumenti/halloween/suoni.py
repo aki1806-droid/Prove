@@ -272,10 +272,11 @@ EVENTI = {
              ('S03', 'forse', 'boing', 0.25, None), ('S04', 'rovigo', 'campanella', 0.3, None)],
     'gf20': [*[('S01', w, k, 0.3, None) for w, k in (('green', 'ding'), ('bluered', 'sbagliato'), ('green#2', 'ding'))],
              *[('S02', w, k, 0.3, None) for w, k in (('bluered', 'sbagliato'), ('green', 'ding'), ('bluered#2', 'sbagliato'))],
+             ('S01', 0.0, 'impatto', 0.35, None), *[(s, w, 'whoosh', 0.18, None) for s, w in (('S01', 'bluered'), ('S01', 'green#2'), ('S02', 'green'), ('S02', 'bluered#2'))],
              ('S03', 'rovigo', 'campanella', 0.3, None)],
-    'mito20': [*[(s, 'falso', 'timbro', 0.5, None) for s in ('S01', 'S02', 'S03')], *[(s, 0.1, 'whoosh', 0.2, None) for s in ('S01', 'S02', 'S03')],
+    'mito20': [('S01', 0.0, 'impatto', 0.35, None), *[(s, 'falso', 'timbro', 0.5, None) for s in ('S01', 'S02', 'S03')], *[(s, 0.1, 'whoosh', 0.2, None) for s in ('S01', 'S02', 'S03')],
                ('S04', 'rovigo', 'campanella', 0.3, None)],
-    'cal20': [*[(f'S{k:02d}', 0.0, 'campanelli', 0.3, 2.5) for k in range(1, 25)], ('S25', 'feste', 'campanella', 0.3, None)]}
+    'cal20': [*[(f'S{k:02d}', 0.0, 'campanelli', 0.3, 2.5) for k in range(1, 25)], *[(f'S{k:02d}', 'domani', 'whoosh', 0.15, None) for k in range(1, 25)], ('S25', 'feste', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
         'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
         'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16', 're': 'PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16',

@@ -888,6 +888,43 @@ def verifica(pg):
     return male
 
 
+# ---- 02 Green flag, 03 Mito, 04 Calendario, versione 2 (8/11): clip HeyGen sotto, livelli a tutto schermo (../venti/strati_v2.mjs)
+def _uscita(seq, k):
+    return ['fade', f'{seq[k]}-0.25', 0.2] if k < len(seq) else None
+
+
+EPISODI[V2].update({s: {'base': 'strati/scrim.png', 'pezzi': ([_strato('titolo', 's01_titolo')] if s == 'S01' else []) +
+                        [_strato(f'f{k}', f'{s.lower()}_f{k}') for k in (1, 2, 3)]} for s in ('S01', 'S02')})
+ANIM[V2].update({s: {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': ([P('titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 5]])] if s == 'S01' else []) +
+                     [P(f'f{k}', ['slideL', w, 0.35], _uscita(seq, k), fx=[['trema', f'{w}+0.35', f'{w}+0.75', 4 if 'blue' in w else 2]])
+                      for k, w in enumerate(seq, 1)]}
+                 for s, seq in (('S01', ['green', 'bluered', 'green#2']), ('S02', ['bluered', 'green', 'bluered#2']))})
+
+EPISODI[V3].update({s: {'base': 'strati/scrim.png', 'pezzi': [_strato(x, f'{s.lower()}_{x}') for x in ('titolo', 'mito', 'timbro', 'realta')]}
+                    for s in ('S01', 'S02', 'S03')})
+ANIM[V3].update({s: {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
+    P('titolo', ['slam', 0.05, 0.3]), P('mito', ['slideL', 0.25, 0.4]),
+    P('timbro', ['slam', 'falso', 0.25], fx=[['trema', 'falso+0.25', 'falso+0.9', 9]]), P('realta', ['slideU', 'falso+0.5', 0.45])]}
+    for s in ('S01', 'S02', 'S03')})
+
+
+def _caselle():
+    import json; pa = json.load(open(f'{PR}/{V4}/audio/parole.json')); t = {}
+    for k in range(1, 25):
+        w = pa[f'S{k:02d}']; i = next(j for j, x in enumerate(w) if x['w'].endswith(':')) + 1
+        f = next(j for j in range(i, len(w)) if w[j]['w'].endswith('.')) + 1
+        t[k] = (round(w[i]['a'] - 0.15, 2), round(w[f]['a'] - 0.1, 2))
+    return t
+
+
+EPISODI[V4].update({f'S{k:02d}': {'base': 'strati/scrim.png', 'pezzi': [_strato('testa', 'testa'), _strato('domani', 'domani')] +
+                                  [_strato(x, f's{k:02d}_{x}') for x in ('porta', 'nome', 'card')]} for k in range(1, 25)})
+ANIM[V4].update({f'S{k:02d}': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
+    P('testa', ['fade', 0.0, 0.3]), P('porta', ['zoom', 0.0, 0.45], fx=[['pulsa', 0.6, 0.9, 0.05]]),
+    P('nome', ['slam', tn, 0.3], fx=[['trema', tn + 0.3, tn + 0.7, 5]]), P('card', ['slideU', tc, 0.45]), P('domani', ['fade', 'domani', 0.5])]}
+    for k, (tn, tc) in _caselle().items()})
+
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

@@ -22,3 +22,10 @@ PDRO_20F_02_Green_flag_Blue_red_flag_9x16 · asset HeyGen e756bf859288453d9747a4
 
 ## Pubblicazione
 - Da fare: OK di Achille → Robin sui 4 canali AOUP.
+
+## Versione 2 (8/11/2026, «troppo poco attrattivi»: clip e grafiche più accattivanti; pilota approvato da Achille «Va bene così»)
+Clip HeyGen text_to_video dal connettore (9:16, 1080p, 15 s): S01 delegato e infermiera che controllano il cedolino
+(ea5bb49798284d5e94b70cf833e44f3a), S02 riunione con la sedia vuota (52019750677c4f808822b2b6300d3bf7). Sopra
+(strumenti/venti/strati_v2.mjs): titolo «GREEN FLAG o BLUE-RED?» e una bandiera per volta a tutto schermo, verde con la spunta,
+blu-rossa con la croce, che entra di lato e trema. Suoni: impatto, ding, sbagliato, whoosh. Chiusura invariata. 36,7 s, −16 LUFS.
+Uscita v2: asset HeyGen e16819749ee0491db1360b9dba3212f9 (https://resource2.heygen.ai/video/e16819749ee0491db1360b9dba3212f9/original.mp4). La v1 resta nell'asset indicato sopra.

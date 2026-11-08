@@ -1,6 +1,6 @@
 {
 "S01": {
-"tipo": "pieno",
+"tipo": "overlay",
 "fondi": [
 [
 "fondo",
@@ -9,17 +9,39 @@
 ],
 "strati": [
 {
+"p": "titolo",
+"in": [
+"slam",
+0.05,
+0.3
+],
+"fx": [
+[
+"trema",
+0.35,
+0.8,
+5
+]
+]
+},
+{
 "p": "f1",
 "in": [
 "slideL",
 "green",
-0.4
+0.35
+],
+"out": [
+"fade",
+"bluered-0.25",
+0.2
 ],
 "fx": [
 [
-"ondeggia",
-3,
-1
+"trema",
+"green+0.35",
+"green+0.75",
+2
 ]
 ]
 },
@@ -28,13 +50,19 @@
 "in": [
 "slideL",
 "bluered",
-0.4
+0.35
+],
+"out": [
+"fade",
+"green#2-0.25",
+0.2
 ],
 "fx": [
 [
-"ondeggia",
-3,
-1
+"trema",
+"bluered+0.35",
+"bluered+0.75",
+4
 ]
 ]
 },
@@ -43,20 +71,21 @@
 "in": [
 "slideL",
 "green#2",
-0.4
+0.35
 ],
 "fx": [
 [
-"ondeggia",
-3,
-1
+"trema",
+"green#2+0.35",
+"green#2+0.75",
+2
 ]
 ]
 }
 ]
 },
 "S02": {
-"tipo": "pieno",
+"tipo": "overlay",
 "fondi": [
 [
 "fondo",
@@ -69,13 +98,19 @@
 "in": [
 "slideL",
 "bluered",
-0.4
+0.35
+],
+"out": [
+"fade",
+"green-0.25",
+0.2
 ],
 "fx": [
 [
-"ondeggia",
-3,
-1
+"trema",
+"bluered+0.35",
+"bluered+0.75",
+4
 ]
 ]
 },
@@ -84,13 +119,19 @@
 "in": [
 "slideL",
 "green",
-0.4
+0.35
+],
+"out": [
+"fade",
+"bluered#2-0.25",
+0.2
 ],
 "fx": [
 [
-"ondeggia",
-3,
-1
+"trema",
+"green+0.35",
+"green+0.75",
+2
 ]
 ]
 },
@@ -99,13 +140,14 @@
 "in": [
 "slideL",
 "bluered#2",
-0.4
+0.35
 ],
 "fx": [
 [
-"ondeggia",
-3,
-1
+"trema",
+"bluered#2+0.35",
+"bluered#2+0.75",
+4
 ]
 ]
 }

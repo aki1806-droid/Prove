@@ -22,3 +22,11 @@ PDRO_20F_01_Il_traduttore_aziendalese_9x16 · asset HeyGen 84b6f3d9181b45df933f0
 
 ## Pubblicazione
 - Da fare: OK di Achille → Robin sui 4 canali AOUP.
+
+## Versione 2 (8/11/2026, «troppo poco attrattivi»: clip e grafiche più accattivanti; pilota approvato da Achille «Va bene così»)
+Clip HeyGen text_to_video dal connettore (9:16, 1080p): S01 dirigente alla lavagna e infermiera che alza gli occhi (10 s,
+48ff354b5b75452190cc2779d228712f), S02 corridoio affollato (15 s, 20eab9f4ce414d88b828d6b8bcb57388), S03 guardiola di notte
+(15 s, 7634988540904495842fdf988f9c288e). Sopra, livelli trasparenti di strumenti/venti/strati_tr.mjs: titolo d'aggancio
+«DALL'AZIENDALESE ALL'ITALIANO», una frase per volta nel riquadro scuro e la traduzione sull'evidenziatore giallo che cala con
+un tremolio. Suoni: impatto, whoosh, tonfo e tastiera. Chiusura S04 invariata. 47,7 s, −16,3 LUFS, labiale 0 ms.
+Uscita v2: asset HeyGen 512a78e773c4466687b62eaa05985557 (https://resource2.heygen.ai/video/512a78e773c4466687b62eaa05985557/original.mp4). La v1 resta nell'asset indicato sopra.
