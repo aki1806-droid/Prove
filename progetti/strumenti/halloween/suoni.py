@@ -276,7 +276,7 @@ EVENTI = {
              ('S03', 'rovigo', 'campanella', 0.3, None)],
     'mito20': [('S01', 0.0, 'impatto', 0.35, None), *[(s, 'falso', 'timbro', 0.5, None) for s in ('S01', 'S02', 'S03')], *[(s, 0.1, 'whoosh', 0.2, None) for s in ('S01', 'S02', 'S03')],
                ('S04', 'rovigo', 'campanella', 0.3, None)],
-    'cal20': [*[(f'S{k:02d}', 0.0, 'campanelli', 0.3, 2.5) for k in range(1, 25)], *[(f'S{k:02d}', 'domani', 'whoosh', 0.15, None) for k in range(1, 25)], ('S25', 'feste', 'campanella', 0.3, None)]}
+    'cal20': [*[(f'S{k:02d}', 0.0, 'campanelli', 0.3, 2.5) for k in range(1, 25)], *[(f'S{k:02d}', 'domani', 'whoosh', 0.15, None) for k in range(1, 25)], ('S25', 0.0, 'campanelli', 0.3, 2.5), ('S25', 0.05, 'impatto', 0.3, None), ('S25', 2.6, 'whoosh', 0.18, None), ('S25', 4.5, 'tonfo', 0.35, None), ('S25', 5.75, 'whoosh', 0.15, None), ('S25', 'feste', 'campanella', 0.3, None)]}
 NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Halloween_Fantasmi_del_cedolino_9x16',
         'turno': 'PDRO_Halloween_Il_Turno_trailer_9x16', 'sindamatch': 'PDRO_Halloween_SindaMatch_9x16',
         'cicala': 'PDRO_Favole_La_cicala_e_la_formica_9x16', 're': 'PDRO_Favole_Il_Re_e_l_accordo_invisibile_9x16',

@@ -925,6 +925,18 @@ ANIM[V4].update({f'S{k:02d}': {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'stra
     for k, (tn, tc) in _caselle().items()})
 
 
+
+# ---- 04 Calendario, finale «Buone feste» v3 (8/11, «più bello e più accattivante»): clip della festa in reparto, livelli di
+# ../venti/strati_fin.mjs. L'avatar resta in basso a destra, scoperto (le grafiche stanno sopra y 1280 o a sinistra di x 508).
+EPISODI[V4]['S25'] = {'base': 'strati/fin_scrim.png', 'pezzi': [_strato(x, f'fin_{x}') for x in
+                                                                ('titolo', 'r1', 'r2', 'r3', 'r4', 'mese', 'anno', 'qui', 'feste')]}
+_via = ['fade', 2.45, 0.25]
+ANIM[V4]['S25'] = {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
+    P('titolo', ['slam', 0.05, 0.3], _via, fx=[['trema', 0.35, 0.75, 5]]),
+    *[P(f'r{k}', ['pop', 0.35 + 0.3 * (k - 1), 0.3], _via) for k in (1, 2, 3, 4)],
+    P('mese', ['slideL', 2.6, 0.35], ['fade', 7.2, 0.25]), P('anno', ['slam', 4.5, 0.3], ['fade', 7.2, 0.25], fx=[['trema', 4.8, 5.3, 7]]),
+    P('qui', ['slideU', 5.75, 0.4]), P('feste', ['zoom', 7.35, 0.45], fx=[['pulsa', 7.9, 10.0, 0.04]])]}
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

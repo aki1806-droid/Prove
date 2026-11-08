@@ -228,7 +228,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 01 «Il traduttore aziendalese–italiano» | gio 12/11 18:15 | [apri](https://resource2.heygen.ai/video/512a78e773c4466687b62eaa05985557/original.mp4) |
 | 02 «Green flag, Blue-red flag» | gio 19/11 18:15 | [apri](https://resource2.heygen.ai/video/e16819749ee0491db1360b9dba3212f9/original.mp4) |
 | 03 «Mito da sfatare» | gio 26/11 18:15 | [apri](https://resource2.heygen.ai/video/8809365be12a40e1bbfab47c72761a33/original.mp4) |
-| 04 «Il calendario dell'avvento dei diritti» – montaggio unico (4:22) | non pubblicato (escono i 25 reel) | [apri](https://resource2.heygen.ai/video/38e0068bc54a456ead48eef12203dd94/original.mp4) |
+| 04 «Il calendario dell'avvento dei diritti» – montaggio unico (4:22) | non pubblicato (escono i 25 reel) | [apri](https://resource2.heygen.ai/video/55058c2bbe9944629833044a81ae6c07/original.mp4) |
 | 04 · Casella 1 (1 dicembre) | mar 1/12 18:15 | [apri](https://resource2.heygen.ai/video/3e29377715e14bef8327798729fcecdf/original.mp4) |
 | 04 · Casella 2 (2 dicembre) | mer 2/12 18:15 | [apri](https://resource2.heygen.ai/video/916acc3e103444e7995924f65d3cdbec/original.mp4) |
 | 04 · Casella 3 (3 dicembre) | gio 3/12 18:15 | [apri](https://resource2.heygen.ai/video/c4c9a4597ec54c7aba16906727c428f3/original.mp4) |
@@ -253,7 +253,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 04 · Casella 22 (22 dicembre) | mar 22/12 18:15 | [apri](https://resource2.heygen.ai/video/068ed8a82e4e41cabeb4ceb49386d27e/original.mp4) |
 | 04 · Casella 23 (23 dicembre) | mer 23/12 18:15 | [apri](https://resource2.heygen.ai/video/615a3406f37c4dec8d92c910c8eccb50/original.mp4) |
 | 04 · Casella 24 (24 dicembre) | gio 24/12 18:15 | [apri](https://resource2.heygen.ai/video/c85683fd6ee0459a917a522c9d3cc8a2/original.mp4) |
-| 04 · Finale «Buone feste» con Achille (25 dicembre) | ven 25/12 10:15 | [apri](https://resource2.heygen.ai/video/e439d9fff7b9413da3cc1d15c07cb913/original.mp4) |
+| 04 · Finale «Buone feste» con Achille (25 dicembre) | ven 25/12 10:15 | [apri](https://resource2.heygen.ai/video/01cabf6d3b6544259ae02d3978631df2/original.mp4) |
 
 ## PDRO · Convenzioni CISL FP (provinciale)
 

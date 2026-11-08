@@ -124,3 +124,13 @@ Uscita v2.1 (sostituisce la v2):
 
 ## Pubblicazione (v2)
 - Robin (Achille 8/11 «programma tu»): un reel al giorno, caselle 1-24 dall'1 al 24/12/2026 alle 18:15 (post 1153791-1153814), finale «Buone feste» ven 25/12 10:15 (post 1153815); 4 canali AOUP, FB reel, primo commento WhatsApp. Testo del post per casella con la cifra in numeri; casella 24 chiude con «E domani… una sorpresa». Il montaggio unico non si pubblica.
+
+## Finale v3 (8/11/2026, Achille: «Il reel 25 lo voglio più bello e più accattivante»)
+Clip HeyGen text_to_video dal connettore (12 s, df324af3d8964bffa7ce6b96551af627): brindisi del reparto davanti all'albero, neve
+alla finestra. Livelli di strumenti/venti/strati_fin.mjs a tempo con la voce: «24 CASELLE 24 DIRITTI» e la griglia delle 24
+porticine spuntate (righe che entrano una dopo l'altra), «I diritti non valgono solo a dicembre…», «VALGONO TUTTO L'ANNO»
+sull'evidenziatore, «Se ne hai bisogno, siamo qui.» con il riquadro contatti AOUP a sinistra, «BUONE FESTE!» oro che pulsa.
+Avatar invariato in basso a destra, mai coperto. Suoni: campanelli, impatto, whoosh, tonfo, campanella. −16,2 LUFS.
+- Montaggio unico v3 · asset 55058c2bbe9944629833044a81ae6c07 (https://resource2.heygen.ai/video/55058c2bbe9944629833044a81ae6c07/original.mp4)
+- PDRO_20F_04_Finale_buone_feste_9x16 v3 · asset 01cabf6d3b6544259ae02d3978631df2 (https://resource2.heygen.ai/video/01cabf6d3b6544259ae02d3978631df2/original.mp4)
+- Robin: post 1153815 (ven 25/12 10:15) con il video nuovo (replace_media).
