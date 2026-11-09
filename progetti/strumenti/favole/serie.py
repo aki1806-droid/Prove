@@ -937,6 +937,81 @@ ANIM[V4]['S25'] = {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': [
     P('mese', ['slideL', 2.6, 0.35], ['fade', 7.2, 0.25]), P('anno', ['slam', 4.5, 0.3], ['fade', 7.2, 0.25], fx=[['trema', 4.8, 5.3, 7]]),
     P('qui', ['slideU', 5.75, 0.4]), P('feste', ['zoom', 7.35, 0.45], fx=[['pulsa', 7.9, 10.0, 0.04]])]}
 
+
+# ---- 20 format, seconda tornata (9/11): 05 ASMR del cedolino, 06 Classifica dei turni, 07 Il tuo anno in corsia, 08 Microfono in
+# corsia. Clip HeyGen sotto, livelli di ../venti/strati_v3.mjs sopra; chiusure con la grafica del pacchetto e l'avatar.
+V5, V6, V7, V8 = ('pdro-20f-05-asmr-del-cedolino', 'pdro-20f-06-classifica-dei-turni', 'pdro-20f-07-il-tuo-anno-in-corsia',
+                  'pdro-20f-08-microfono-in-corsia')
+
+
+def _ov(base, nomi):
+    return {'base': f'strati/{base}.png', 'pezzi': [_strato(n, n) for n in nomi]}
+
+
+def _OV(strati):
+    return {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': strati}
+
+
+def _chiusura2(sid, righe, box=(66, 996, 644, 1254)):
+    pz = [R(f't{k}', 50, y0 - 8, min(1060, x1 + 30), y1 + 8, 'righe') for k, (y0, y1, x1) in enumerate(righe, 1)]
+    return {'base': f'grafiche/{sid}A.png', 'pezzi': pz + [C('box', *box, 24, 'righe')]}
+
+
+def _anim_ch2(n, durata):
+    return pieno([*[P(f't{k}', ['slam', 0.1 + 0.2 * (k - 1), 0.3]) for k in range(1, n + 1)], P('box', ['pop', 0.4 + 0.2 * n, 0.35])],
+                 camera=[[0, 1.0, 540, 960], [durata, 1.04, 540, 900]])
+
+
+_dolce = ['fade', 0, 0.6]
+for _pg in (V5, V6, V7, V8):
+    EPISODI.setdefault(_pg, {}); ANIM.setdefault(_pg, {})
+# 05 ASMR: ingressi lenti e morbidi
+EPISODI[V5].update({'S01': _ov('scrim', ['s01_ssh', 's01_respira', 's01_titolo']), 'S02': _ov('scrim', ['s02_base', 's02_notti']),
+                    'S03': _ov('scrim', ['s03_tredi', 's03_torna']), 'S04': _chiusura2('S04', [(337, 437, 759), (465, 529, 986), (557, 681, 415)])})
+ANIM[V5].update({
+    'S01': _OV([P('s01_ssh', ['fade', 0.05, 0.6], ['fade', 2.2, 0.4]), P('s01_respira', ['fade', 2.3, 0.6], ['fade', 3.3, 0.4]),
+                P('s01_titolo', ['slideU', 3.4, 0.9])]),
+    'S02': _OV([P('s02_base', ['slideU', 0.05, 0.8], ['fade', 5.2, 0.5]), P('s02_notti', ['slideU', 5.5, 0.8])]),
+    'S03': _OV([P('s03_tredi', ['slideU', 0.05, 0.8], ['fade', 4.9, 0.5]), P('s03_torna', ['slideU', 5.2, 0.8])]),
+    'S04': _anim_ch2(3, 9)})
+# 06 Classifica: la tabella si riempie fascia per fascia
+EPISODI[V6].update({'S01': _ov('scrim', ['s01_titolo', 's01_pill']), 'S02': _ov('scrim', ['tabella', 'rS', 'incubo', 'rA']),
+                    'S03': _ov('scrim', ['tabella', 'rS', 'rA', 'rB', 'rD', 'stella']), 'S04': _ov('scrim', ['s04_tit', 's04_c1', 's04_c2', 's04_c3']),
+                    'S05': _chiusura2('S05', [(338, 437, 553), (480, 579, 792), (610, 862, 855)])})
+ANIM[V6].update({
+    'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]]), P('s01_pill', ['pop', 'classifica', 0.3])]),
+    'S02': _OV([P('tabella', ['fade', 0.0, 0.3]), P('rS', ['slideL', 0.1, 0.35], fx=[['trema', 0.45, 0.9, 5]]), P('incubo', ['pop', 'lincubo', 0.3]),
+                P('rA', ['slideL', 'fascia#2', 0.35])]),
+    'S03': _OV([P('tabella', ['fade', 0.0, 0.01]), P('rS', ['fade', 0.0, 0.01]), P('rA', ['fade', 0.0, 0.01]),
+                P('rB', ['slideL', 0.1, 0.35]), P('rD', ['slideL', 'fascia', 0.35]), P('stella', ['pop', 'rara', 0.35], fx=[['pulsa', 'rara+0.4', 'rara+2', 0.04]])]),
+    'S04': _OV([P('s04_tit', ['slam', 0.05, 0.3]), P('s04_c1', ['slideL', 'undici', 0.35]), P('s04_c2', ['slideL', 'festivi', 0.35]),
+                P('s04_c3', ['slideL', 'cambi', 0.35])]),
+    'S05': _anim_ch2(3, 8)})
+# 07 Il tuo anno in corsia: schede del riepilogo
+EPISODI[V7].update({'S01': _ov('scrim', ['s01_arrivato', 's01_titolo']), 'S02': _ov('scrim', ['s02_notti', 's02_caffe', 's02_letto', 's02_lui']),
+                    'S03': _ov('scrim', ['s03_tit', 's03_c1', 's03_c2', 's03_c3', 's03_ins']),
+                    'S04': _ov('scrim', ['s04_tit', 's04_c1', 's04_c2', 's04_c3', 's04_c4']),
+                    'S05': _chiusura2('S05', [(337, 436, 589), (473, 556, 976), (586, 720, 758)])})
+ANIM[V7].update({
+    'S01': _OV([P('s01_arrivato', ['zoom', 0.05, 0.3], ['fade', 1.15, 0.2]), P('s01_titolo', ['slam', 1.3, 0.3], fx=[['trema', 1.6, 2.0, 6]])]),
+    'S02': _OV([P('s02_notti', ['slideL', 0.1, 0.35], fx=[['trema', 'troppe', 'troppe+0.5', 6]]), P('s02_caffe', ['slideL', 'ma', 0.35]),
+                P('s02_letto', ['slam', 'letto', 0.3], fx=[['trema', 'letto+0.3', 'letto+0.8', 7]]), P('s02_lui', ['pop', 'sempre', 0.3])]),
+    'S03': _OV([P('s03_tit', ['slideL', 0.1, 0.35]), P('s03_c1', ['pop', 'telefono', 0.3]), P('s03_c2', ['pop', 'terapia', 0.3]),
+                P('s03_c3', ['pop', 'sorriso', 0.3]), P('s03_ins', ['slam', 'tutto', 0.3])]),
+    'S04': _OV([P('s04_tit', ['slam', 0.05, 0.3]), P('s04_c1', ['slideL', 'accordi', 0.35]), P('s04_c2', ['slideL', 'corsi', 0.35]),
+                P('s04_c3', ['slideL', 'cedolini', 0.35]), P('s04_c4', ['slideL', 'segnalazioni', 0.35])]),
+    'S05': _anim_ch2(3, 8)})
+# 08 Microfono: la scritta «personaggi e risposte di fantasia» resta fissa finché ci sono risposte
+EPISODI[V8].update({'S01': _ov('scrim', ['fantasia', 's01_titolo']), 'S02': _ov('scrim', ['fantasia', 's02_dom', 's02_r1', 's02_r2', 's02_r3']),
+                    'S03': _ov('scrim', ['fantasia', 's03_dom', 's03_r1', 's03_r2', 's03_r3']),
+                    'S04': _chiusura2('S04', [(338, 436, 612), (479, 579, 482), (611, 741, 664)])})
+_R = lambda pre, t0: [P(f'{pre}_r{k}', ['slideU', t0 + 2.2 * (k - 1), 0.3], ['fade', t0 + 2.2 * k - 0.15, 0.15] if k < 3 else None) for k in (1, 2, 3)]
+ANIM[V8].update({
+    'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]]), P('fantasia', ['pop', 'abbiamo', 0.3])]),
+    'S02': _OV([P('fantasia', ['fade', 0.0, 0.01]), P('s02_dom', ['slam', 0.05, 0.3]), *_R('s02', 4.4)]),
+    'S03': _OV([P('fantasia', ['fade', 0.0, 0.01]), P('s03_dom', ['slam', 0.05, 0.3]), *_R('s03', 4.6)]),
+    'S04': _anim_ch2(3, 9)})
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

@@ -110,10 +110,24 @@ MUSICHE = {'turno': [('mus_turno', 'S01'), ('mus_turno2', 'S06')],
            'cv7': [('mus_turno', 'S01'), ('mus_cv7', 'S03')],
            'sedia': [('mus_sedia_inno', 'S01')],   # v2: inno solenne su tutto (Achille, 4/11)
            'tr20': [('mus_unboxing', 'S01')], 'gf20': [('mus_segnalazioni', 'S01')], 'mito20': [('mus_quiz', 'S01')], 'cal20': [('mus_natale', 'S01')],
+           'asmr20': [('mus_cv3', 'S01')], 'cl20': [('mus_sindamatch', 'S01')], 'an20': [('mus_cv8', 'S01')], 'mic20': [('mus_segnalazioni', 'S01')],
            # estate (ukulele da fiaba), inverno (carillon), formicaio (archi caldi)
            'cicala': [('mus_cicala_estate', 'S01'), ('mus_cicala_inverno', 'S03'), ('mus_cicala_caldo', 'S04')]}
 # (scena, ancora, effetto, volume, durata massima o None)
 EVENTI = {
+    'asmr20': [('S01', 0.05, 'pagina', 0.3, None), ('S02', 0.05, 'pagina', 0.25, None), ('S02', 'queste', 'pagina', 0.25, None),
+               ('S03', 0.05, 'pagina', 0.25, None), ('S03', 'qualcosa', 'pagina', 0.2, None), ('S04', 'rovigo', 'campanella', 0.25, None)],
+    'cl20': [('S01', 0.0, 'impatto', 0.35, None), ('S01', 'classifica', 'pop', 0.25, None), ('S02', 0.1, 'timbro', 0.35, None),
+             ('S02', 'fascia#2', 'timbro', 0.3, None), ('S03', 0.1, 'timbro', 0.3, None), ('S03', 'fascia', 'ding', 0.3, None),
+             ('S03', 'rara', 'campanella', 0.3, None), *[('S04', w, 'ding', 0.22, None) for w in ('undici', 'festivi', 'cambi')],
+             ('S05', 'rovigo', 'campanella', 0.3, None)],
+    'an20': [('S01', 0.05, 'whoosh', 0.2, None), ('S01', 1.3, 'impatto', 0.35, None), ('S02', 0.1, 'whoosh', 0.18, None), ('S02', 'ma', 'whoosh', 0.18, None),
+             ('S02', 'letto', 'tonfo', 0.35, None), ('S02', 'sempre', 'pop', 0.22, None), ('S03', 0.1, 'whoosh', 0.18, None),
+             *[('S03', w, 'pop', 0.18, None) for w in ('telefono', 'terapia', 'sorriso')], ('S03', 'tutto', 'ding', 0.25, None),
+             *[('S04', w, 'ding', 0.2, None) for w in ('accordi', 'corsi', 'cedolini', 'segnalazioni')], ('S05', 'feste', 'campanella', 0.3, None)],
+    'mic20': [('S01', 0.0, 'impatto', 0.35, None), ('S01', 'abbiamo', 'pop', 0.22, None), ('S02', 0.05, 'whoosh', 0.2, None),
+              *[('S02', x, 'whoosh', 0.15, None) for x in (4.4, 6.6, 8.8)], ('S03', 0.05, 'whoosh', 0.2, None),
+              *[('S03', x, 'whoosh', 0.15, None) for x in (4.6, 6.8, 9.0)], ('S04', 'rovigo', 'campanella', 0.3, None)],
     'jack': [('S01', 0.0, 'vento', 0.35, 5.0), ('S01', 'chiamato$+0.1', 'campanella', 0.5, None), ('S01', 'furbo', 'colpo', 0.4, None),
              ('S02', 'diavolo', 'chime', 0.45, None), ('S02', 'tasca', 'tonfo', 0.5, None), ('S02', 'tasche', 'boing', 0.3, None),
              ('S03', 'arretrati', 'tadan', 0.22, 1.0), ('S03', 'aumenti', 'tadan', 0.22, 1.0), ('S03', 'date', 'tadan', 0.22, 1.0),
@@ -284,10 +298,10 @@ NOMI = {'jack': 'PDRO_Halloween_Jack_O_Lantern_9x16', 'fantasmi': 'PDRO_Hallowee
         'meteo': 'PDRO_Originali_Il_meteo_dei_diritti_9x16', 'unboxing': 'PDRO_Originali_Unboxing_CISL_FP_9x16',
         'quiz': 'PDRO_Originali_Il_Quizzone_della_corsia_9x16', 'archeologi': 'PDRO_Originali_Gli_archeologi_del_futuro_9x16',
         'parttime': 'PDRO_Bando_Part_time_2026_AOUP_9x16', 'segnalazioni': 'PDRO_Le_tue_segnalazioni_a_che_punto_sono_9x16',
-        'librogame': 'PDRO_Scegli_il_tuo_turno_turni_12_ore_9x16', 'cv1': 'PDRO_Convenzioni_1_Colpa_grave_9x16', 'cv2': 'PDRO_Convenzioni_2_Fondo_sanitario_9x16', 'cv3': 'PDRO_Convenzioni_3_Medico_H24_9x16', 'cv4': 'PDRO_Convenzioni_4_Formazione_9x16', 'cv5': 'PDRO_Convenzioni_5_Tempo_libero_9x16', 'cv6': 'PDRO_Convenzioni_6_Acquisti_9x16', 'cv7': 'PDRO_Convenzioni_7_Digitale_9x16', 'cv8': 'PDRO_Convenzioni_8_Quanto_vale_la_tessera_9x16', 'sedia': 'RSU_AOUP_La_sedia_vuota_9x16', 'tr20': 'PDRO_20F_01_Il_traduttore_aziendalese_9x16', 'gf20': 'PDRO_20F_02_Green_flag_Blue_red_flag_9x16', 'mito20': 'PDRO_20F_03_Mito_da_sfatare_9x16', 'cal20': 'PDRO_20F_04_Calendario_avvento_diritti_9x16'}
+        'librogame': 'PDRO_Scegli_il_tuo_turno_turni_12_ore_9x16', 'cv1': 'PDRO_Convenzioni_1_Colpa_grave_9x16', 'cv2': 'PDRO_Convenzioni_2_Fondo_sanitario_9x16', 'cv3': 'PDRO_Convenzioni_3_Medico_H24_9x16', 'cv4': 'PDRO_Convenzioni_4_Formazione_9x16', 'cv5': 'PDRO_Convenzioni_5_Tempo_libero_9x16', 'cv6': 'PDRO_Convenzioni_6_Acquisti_9x16', 'cv7': 'PDRO_Convenzioni_7_Digitale_9x16', 'cv8': 'PDRO_Convenzioni_8_Quanto_vale_la_tessera_9x16', 'sedia': 'RSU_AOUP_La_sedia_vuota_9x16', 'tr20': 'PDRO_20F_01_Il_traduttore_aziendalese_9x16', 'gf20': 'PDRO_20F_02_Green_flag_Blue_red_flag_9x16', 'mito20': 'PDRO_20F_03_Mito_da_sfatare_9x16', 'cal20': 'PDRO_20F_04_Calendario_avvento_diritti_9x16', 'asmr20': 'PDRO_20F_05_ASMR_del_cedolino_9x16', 'cl20': 'PDRO_20F_06_Classifica_dei_turni_9x16', 'an20': 'PDRO_20F_07_Il_tuo_anno_in_corsia_9x16', 'mic20': 'PDRO_20F_08_Microfono_in_corsia_9x16'}
 MUSICA_VOL = 0.13
 MUSICA_VOL_V = {'sedia': 0.06}   # «La sedia vuota»: musica più bassa (Achille, 5/11)
-CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026', 'segnalazioni': 'pdro-tracciamento-segnalazioni-aoup', 'librogame': 'pdro-turni-12-ore-librogame', 'cv1': 'pdro-convenzioni-1-colpa-grave', 'cv2': 'pdro-convenzioni-2-fondo-sanitario', 'cv3': 'pdro-convenzioni-3-medico-h24', 'cv4': 'pdro-convenzioni-4-formazione', 'cv5': 'pdro-convenzioni-5-tempo-libero', 'cv6': 'pdro-convenzioni-6-acquisti', 'cv7': 'pdro-convenzioni-7-digitale', 'cv8': 'pdro-convenzioni-8-quanto-vale-la-tessera', 'sedia': 'pdro-rsu-la-sedia-vuota', 'tr20': 'pdro-20f-01-traduttore-aziendalese', 'gf20': 'pdro-20f-02-green-flag', 'mito20': 'pdro-20f-03-mito-da-sfatare', 'cal20': 'pdro-20f-04-calendario-avvento'}
+CARTELLE = {'cicala': 'pdro-favola-cicala-formica', 're': 'pdro-favola-re-e-accordo-invisibile', 'gatto': 'pdro-favola-gatto-volpe-campo-dei-miracoli', 'porcellini': 'pdro-favola-tre-porcellini-e-il-lupo', 'meteo': 'pdro-originale-meteo-dei-diritti', 'unboxing': 'pdro-originale-unboxing-cisl-fp', 'quiz': 'pdro-originale-quizzone-della-corsia', 'archeologi': 'pdro-originale-archeologi-del-futuro', 'parttime': 'pdro-bando-part-time-2026', 'segnalazioni': 'pdro-tracciamento-segnalazioni-aoup', 'librogame': 'pdro-turni-12-ore-librogame', 'cv1': 'pdro-convenzioni-1-colpa-grave', 'cv2': 'pdro-convenzioni-2-fondo-sanitario', 'cv3': 'pdro-convenzioni-3-medico-h24', 'cv4': 'pdro-convenzioni-4-formazione', 'cv5': 'pdro-convenzioni-5-tempo-libero', 'cv6': 'pdro-convenzioni-6-acquisti', 'cv7': 'pdro-convenzioni-7-digitale', 'cv8': 'pdro-convenzioni-8-quanto-vale-la-tessera', 'sedia': 'pdro-rsu-la-sedia-vuota', 'tr20': 'pdro-20f-01-traduttore-aziendalese', 'gf20': 'pdro-20f-02-green-flag', 'mito20': 'pdro-20f-03-mito-da-sfatare', 'cal20': 'pdro-20f-04-calendario-avvento', 'asmr20': 'pdro-20f-05-asmr-del-cedolino', 'cl20': 'pdro-20f-06-classifica-dei-turni', 'an20': 'pdro-20f-07-il-tuo-anno-in-corsia', 'mic20': 'pdro-20f-08-microfono-in-corsia'}
 
 
 def norm(s):
@@ -307,9 +321,13 @@ def ancora(v, parole):
     raise ValueError(f'parola {v} non trovata')
 
 
-def scarica(D):
+def scarica(D, v=None):
     os.makedirs(f'{D}/audio/sfx', exist_ok=True)
+    # solo i suoni che il video usa davvero (eventi e musiche): la cache può mancare e ogni ricerca nel catalogo costa
+    servono = None if v is None else {e[2] for e in EVENTI.get(v, [])} | {m for m, _ in MUSICHE.get(v, [(f'mus_{v}', None)])}
     for k, (tipo, q, sid) in CAT.items():
+        if servono is not None and k not in servono:
+            continue
         f = f'{D}/audio/sfx/{k}.mp3'
         if os.path.exists(f):
             continue
@@ -363,4 +381,4 @@ def mescola(v, D):
 
 if __name__ == '__main__':
     for v in sys.argv[1:]:
-        D = f"{PR}/{CARTELLE.get(v, f'pdro-halloween-{v}')}"; scarica(D); mescola(v, D)
+        D = f"{PR}/{CARTELLE.get(v, f'pdro-halloween-{v}')}"; scarica(D, v); mescola(v, D)
