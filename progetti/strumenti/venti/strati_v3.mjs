@@ -99,13 +99,13 @@ const ris = (r, chi) => `<div class="sotto"><div class="r">«${r}»</div><div cl
 P[A8] = { scrim: scrim(.45), fantasia: fant,
   s01_titolo: titolo(380, 'COSA DIRESTI<br>AL DIRETTORE<br><em>IN 5 SECONDI?</em>', '" style="top:380px;font-size:92px'),
   s02_dom: pill(330, 'DOMANDA 1') + titolo(430, '5 SECONDI<br>PER IL <em>DIRETTORE.</em>', '" style="top:430px;font-size:84px'),
-  s02_r1: ris('Venga a fare una notte con noi.', 'Infermiera, Medicina'),
-  s02_r2: ris('Più personale. Non più slide.', 'OSS, Chirurgia'),
-  s02_r3: ris('Ci ascolti, prima di decidere.', 'Tecnico di radiologia'),
+  s02_r1: ris('Venga a fare una notte con noi.', 'Reparto di Medicina'),
+  s02_r2: ris('Più personale. Non più slide.', 'Reparto di Chirurgia'),
+  s02_r3: ris('Ci ascolti, prima di decidere.', 'Radiologia'),
   s03_dom: pill(330, 'DOMANDA 2') + titolo(450, 'LA COSA PIÙ ASSURDA<br><em>IN REPARTO?</em>', '" style="top:450px;font-size:76px'),
-  s03_r1: ris('Mi hanno chiesto il menù del giorno. Alle tre di notte.', 'Infermiere, Geriatria'),
-  s03_r2: ris('Il campanello del letto 7: quaranta volte in una notte.', 'Infermiera, Medicina'),
-  s03_r3: ris('Terzo rientro del mese. «Grazie, sei flessibile!»', 'OSS, Ortopedia'),
+  s03_r1: ris('Mi hanno chiesto il menù del giorno. Alle tre di notte.', 'Reparto di Geriatria'),
+  s03_r2: ris('Il campanello del letto 7: quaranta volte in una notte.', 'Reparto di Medicina'),
+  s03_r3: ris('Terzo rientro del mese. “Grazie, sei flessibile!”', 'Reparto di Ortopedia'),
 };
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
 const pg = await b.newPage({ viewport: { width: 1080, height: 1920 } });

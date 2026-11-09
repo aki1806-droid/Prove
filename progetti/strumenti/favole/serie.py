@@ -952,9 +952,9 @@ def _OV(strati):
     return {'tipo': 'overlay', 'fondi': [['fondo', 0]], 'strati': strati}
 
 
-def _chiusura2(sid, righe, box=(66, 996, 644, 1254)):
-    pz = [R(f't{k}', 50, y0 - 8, min(1060, x1 + 30), y1 + 8, 'righe') for k, (y0, y1, x1) in enumerate(righe, 1)]
-    return {'base': f'grafiche/{sid}A.png', 'pezzi': pz + [C('box', *box, 24, 'righe')]}
+def _chiusura2(sid, righe, box=(66, 996, 644, 1254), riempi='righe'):
+    pz = [R(f't{k}', 50, y0 - 8, min(1060, x1 + 30), y1 + 8, riempi) for k, (y0, y1, x1) in enumerate(righe, 1)]
+    return {'base': f'grafiche/{sid}A.png', 'pezzi': pz + [C('box', *box, 24, riempi)]}
 
 
 def _anim_ch2(n, durata):
@@ -1004,13 +1004,13 @@ ANIM[V7].update({
 # 08 Microfono: la scritta «personaggi e risposte di fantasia» resta fissa finché ci sono risposte
 EPISODI[V8].update({'S01': _ov('scrim', ['fantasia', 's01_titolo']), 'S02': _ov('scrim', ['fantasia', 's02_dom', 's02_r1', 's02_r2', 's02_r3']),
                     'S03': _ov('scrim', ['fantasia', 's03_dom', 's03_r1', 's03_r2', 's03_r3']),
-                    'S04': _chiusura2('S04', [(338, 436, 612), (479, 579, 482), (611, 741, 664)])})
+                    'S04': {'base': 'grafiche/S04A.png', 'pezzi': []}})   # fondo sfumato: i pezzi lasciavano aloni, grafica intera
 _R = lambda pre, t0: [P(f'{pre}_r{k}', ['slideU', t0 + 2.2 * (k - 1), 0.3], ['fade', t0 + 2.2 * k - 0.15, 0.15] if k < 3 else None) for k in (1, 2, 3)]
 ANIM[V8].update({
     'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]]), P('fantasia', ['pop', 'abbiamo', 0.3])]),
     'S02': _OV([P('fantasia', ['fade', 0.0, 0.01]), P('s02_dom', ['slam', 0.05, 0.3]), *_R('s02', 4.4)]),
     'S03': _OV([P('fantasia', ['fade', 0.0, 0.01]), P('s03_dom', ['slam', 0.05, 0.3]), *_R('s03', 4.6)]),
-    'S04': _anim_ch2(3, 9)})
+    'S04': pieno([], camera=[[0, 1.06, 540, 900], [9, 1.0, 540, 960]])})
 
 if __name__ == '__main__':
     import json
