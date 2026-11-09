@@ -19,3 +19,10 @@ build/
 progetti/strumenti/convenzioni/node_modules
 progetti/strumenti/rsu/node_modules
 progetti/strumenti/venti/node_modules
+
+# Mai nel repository: video e audio non compressi (si caricano su HeyGen)
+*.mp4
+*.webm
+*.wav
+*.mov
+*.m4a
