@@ -12,7 +12,9 @@ sys.path.insert(0, os.path.dirname(QUI)); sys.path.insert(0, os.path.join(os.pat
 from voci import blocchi, scrivi, PR  # noqa: E402
 WARD, ACHILLE = 'e4bd8d8a357f41a99502309874733c16', '9b851842ce54449fb9ff501751ca0271'
 PG = {'tr': 'pdro-20f-01-traduttore-aziendalese', 'gf': 'pdro-20f-02-green-flag', 'mito': 'pdro-20f-03-mito-da-sfatare',
-      'cal': 'pdro-20f-04-calendario-avvento'}
+      'cal': 'pdro-20f-04-calendario-avvento', 'asmr': 'pdro-20f-05-asmr-del-cedolino', 'cl': 'pdro-20f-06-classifica-dei-turni',
+      'an': 'pdro-20f-07-il-tuo-anno-in-corsia', 'mic': 'pdro-20f-08-microfono-in-corsia'}
+SECONDI = ('asmr', 'cl', 'an', 'mic')   # seconda tornata (9/11): una traccia narratore per video, una traccia comune delle quattro chiusure
 B = ' <break time="1.6s"/> '
 
 
@@ -26,6 +28,8 @@ def tracce():
     n = testi('cal')[0]
     t.update({'ward-cal-a': n[:8], 'ward-cal-b': n[8:16], 'ward-cal-c': n[16:]})
     t['achille-20f'] = [testi(k)[1][0] for k in ('tr', 'gf', 'mito', 'cal')]
+    t.update({f'ward-{k}': testi(k)[0] for k in SECONDI})
+    t['achille-20f2'] = [testi(k)[1][0] for k in SECONDI]
     return t
 
 
@@ -38,9 +42,12 @@ if __name__ == '__main__':
         from heygen_api import voce
         nome = sys.argv[2]; voce(ACHILLE if nome.startswith('achille') else WARD, f'{QUI}/{nome}-testo.txt', f'{QUI}/{nome}')
     else:
-        k = sys.argv[2]; ach = blocchi('achille-20f', QUI)
-        ach = [b for b in ach if b][['tr', 'gf', 'mito', 'cal'].index(k)]
+        k = sys.argv[2]
+        if k in SECONDI:
+            ach = [b for b in blocchi('achille-20f2', QUI) if b][SECONDI.index(k)]; ach_n = 'achille-20f2'
+        else:
+            ach = [b for b in blocchi('achille-20f', QUI) if b][['tr', 'gf', 'mito', 'cal'].index(k)]; ach_n = 'achille-20f'
         nomi = ['ward-cal-a', 'ward-cal-b', 'ward-cal-c'] if k == 'cal' else [f'ward-{k}']
         w = [(n, b) for n in nomi for b in blocchi(n, QUI) if b]
         assert len(w) == len(testi(k)[0]), (len(w), len(testi(k)[0]))
-        scrivi(PG[k], [(f'{QUI}/{n}-grezzo.mp3', b, 'narratore') for n, b in w] + [(f'{QUI}/achille-20f-grezzo.mp3', ach, 'achille')])
+        scrivi(PG[k], [(f'{QUI}/{n}-grezzo.mp3', b, 'narratore') for n, b in w] + [(f'{QUI}/{ach_n}-grezzo.mp3', ach, 'achille')])

@@ -1,0 +1,100 @@
+{
+  "progetto": "PDRO_20F_07_Il_tuo_anno_in_corsia",
+  "titolo": "Il tuo anno in corsia (v2)",
+  "identita": "CISL FP Padova Rovigo",
+  "serie": "20 format attrattivi",
+  "numero_elenco": 7,
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Hook",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "È arrivato. Il riepilogo del tuo anno in corsia.",
+      "parole": 9,
+      "durata_stimata_s": 3.3,
+      "grafiche": [
+        "grafiche/S01A.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 2,
+      "titolo": "Le notti",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Le notti di quest'anno? Troppe. Ma il caffè delle quattro non ti ha mai tradito. Il campanello più suonato: letto sette. Sempre lui.",
+      "parole": 23,
+      "durata_stimata_s": 9.1,
+      "grafiche": [
+        "grafiche/S02A.png",
+        "grafiche/S02B.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 3,
+      "titolo": "Il superpotere",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il tuo superpotere? Il multitasking. Telefono, terapia e sorriso. Tutto insieme.",
+      "parole": 11,
+      "durata_stimata_s": 5.5,
+      "grafiche": [
+        "grafiche/S03A.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 4,
+      "titolo": "Il nostro anno",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "E il nostro anno? Accordi seguiti e firmati, corsi per concorsi e progressioni, cedolini controllati uno per uno, segnalazioni portate alla Direzione.",
+      "parole": 22,
+      "durata_stimata_s": 10.3,
+      "grafiche": [
+        "grafiche/S04A.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Grazie per ogni turno, per ogni notte. Il duemilaventisette lo scriviamo insieme. Buone feste da CISL FP Padova Rovigo.",
+      "parole": 19,
+      "durata_stimata_s": 7.3,
+      "grafiche": [
+        "grafiche/S05A.png"
+      ],
+      "clip": null,
+      "regia": "Avatar «Aki with a lapel microphone» in basso a destra; contatti a schermo."
+    }
+  ]
+}

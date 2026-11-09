@@ -1,0 +1,101 @@
+{
+  "progetto": "PDRO_20F_06_Classifica_dei_turni",
+  "titolo": "La classifica dei turni (v2)",
+  "identita": "CISL FP Padova Rovigo",
+  "serie": "20 format attrattivi",
+  "numero_elenco": 6,
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Hook",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Il turno peggiore di sempre? Abbiamo fatto la classifica ufficiale.",
+      "parole": 10,
+      "durata_stimata_s": 4.6,
+      "grafiche": [
+        "grafiche/S01A.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 2,
+      "titolo": "Fascia S e A",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fascia S, l'incubo assoluto: il rientro nel giorno di riposo. Fascia A: lo smonto notte con il traffico.",
+      "parole": 18,
+      "durata_stimata_s": 7.2,
+      "grafiche": [
+        "grafiche/S02A.png",
+        "grafiche/S02B.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 3,
+      "titolo": "Fascia B, C, D",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Fascia B: il cambio turno all'ultimo minuto. E fascia D, il sogno: la mattina con i colleghi al completo. Rara come una stella cadente.",
+      "parole": 24,
+      "durata_stimata_s": 9.3,
+      "grafiche": [
+        "grafiche/S03A.png",
+        "grafiche/S03B.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 4,
+      "titolo": "Le regole",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Ridere sì, ma dietro ogni turno c'è una regola: undici ore di riposo ogni ventiquattro, festivi a rotazione, cambi turno concordati.",
+      "parole": 21,
+      "durata_stimata_s": 9.1,
+      "grafiche": [
+        "grafiche/S04A.png"
+      ],
+      "clip": null,
+      "regia": "Beat A→B sulle parole chiave, ingressi a scatto, whoosh."
+    },
+    {
+      "n": 5,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "E tu, quale turno metti in fascia S? Scrivilo nei commenti. E se qualcosa non torna, chiamaci. CISL FP Padova Rovigo.",
+      "parole": 21,
+      "durata_stimata_s": 7.2,
+      "grafiche": [
+        "grafiche/S05A.png"
+      ],
+      "clip": null,
+      "regia": "Avatar «Aki with a lapel microphone» in basso a destra; contatti a schermo."
+    }
+  ]
+}
