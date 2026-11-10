@@ -20,4 +20,4 @@ Teaser (Achille 10/11): nessuna persona inventata. Testo cambiato con il suo OK:
 PDRO_20F_16_I_veterani_reagiscono_9x16 · 21,5 s · asset HeyGen 19d5a259a287483bb49d01116fc3aff8 (https://resource2.heygen.ai/video/19d5a259a287483bb49d01116fc3aff8/original.mp4)
 
 ## Pubblicazione
-- Da fare: Robin sui 4 canali AOUP dopo l'OK di Achille.
+- Robin: post 1161857, gio 11/3/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

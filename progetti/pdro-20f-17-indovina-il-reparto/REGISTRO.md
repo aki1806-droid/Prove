@@ -20,4 +20,4 @@ S01 allungata di 5,5 s (allunga.py) per l'ascolto: suoni royalty-free dal catalo
 PDRO_20F_17_Indovina_il_reparto_9x16 · 33,9 s · asset HeyGen dc003805161c49b0a16a24a1fee4fbc8 (https://resource2.heygen.ai/video/dc003805161c49b0a16a24a1fee4fbc8/original.mp4)
 
 ## Pubblicazione
-- Da fare: Robin sui 4 canali AOUP dopo l'OK di Achille.
+- Robin: post 1161858, gio 18/3/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

@@ -24,4 +24,5 @@ Lettera gigante (A, B, C) che cade con un tonfo, «come ARRETRATI / BUSTA PAGA /
 (Achille 10/11: «Tre reel separati»; tagli con strumenti/venti/taglia_episodi.py, −16 LUFS)
 
 ## Pubblicazione
-- Da fare: Robin sui 4 canali AOUP dopo l'OK di Achille.
+- Robin, 4 canali AOUP, 18:15, primo commento WhatsApp: A post 1161852 gio 11/2/2027, B post 1161854 gio 18/2/2027,
+  C post 1161855 gio 25/2/2027. Il montaggio unico non è programmato.

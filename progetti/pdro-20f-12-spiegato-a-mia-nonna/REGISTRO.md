@@ -22,4 +22,4 @@ Chiusura: grafica intera «Ha ragione la nonna.» con zoom lento. Musica mus_cv2
 PDRO_20F_12_Spiegato_a_mia_nonna_9x16 · 28,5 s · asset HeyGen 6041e9435a7e4bdd93d83082fbab6df1 (https://resource2.heygen.ai/video/6041e9435a7e4bdd93d83082fbab6df1/original.mp4).
 
 ## Pubblicazione
-- Robin: da programmare dopo l'OK di Achille.
+- Robin: post 1161851, gio 4/2/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

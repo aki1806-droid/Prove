@@ -24,4 +24,4 @@ Chiusura: grafica intera «Prossimo episodio: le ferie.» con zoom lento. Musica
 PDRO_20F_15_Reparto_7_9x16 · 43,9 s · asset HeyGen a8abd26244da4a468325f98f6e191745 (https://resource2.heygen.ai/video/a8abd26244da4a468325f98f6e191745/original.mp4).
 
 ## Pubblicazione
-- Robin: da programmare dopo l'OK di Achille.
+- Robin: post 1161856, gio 4/3/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.
