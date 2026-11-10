@@ -21,4 +21,4 @@ Clip: scrivania in disordine che si sistema (S01), busta paga nel cassetto e poi
 PDRO_20F_11_Prima_e_dopo_9x16 · 30,5 s · asset HeyGen 409c7ac5d51a46ca901870a9226611b7 (https://resource2.heygen.ai/video/409c7ac5d51a46ca901870a9226611b7/original.mp4).
 
 ## Pubblicazione
-- Da fare: Robin sui 4 canali AOUP quando Achille dice le date.
+- Robin (Achille 10/11 «Vai programma»): post 1161557, gio 28/1/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

@@ -21,4 +21,4 @@ Clip: neoassunta col badge davanti all'ospedale (S01), tutor che le mostra repar
 PDRO_20F_09_Primo_giorno_in_ospedale_9x16 · 41,3 s · asset HeyGen 18ee8777876348afa2f9699122868c64 (https://resource2.heygen.ai/video/18ee8777876348afa2f9699122868c64/original.mp4).
 
 ## Pubblicazione
-- Da fare: Robin sui 4 canali AOUP quando Achille dice le date.
+- Robin (Achille 10/11 «Vai programma»): post 1161555, gio 14/1/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

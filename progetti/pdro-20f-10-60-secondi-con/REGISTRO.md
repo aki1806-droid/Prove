@@ -21,4 +21,4 @@ Teaser (Achille 10/11): nessuna persona inventata, le delegate e i delegati veri
 PDRO_20F_10_60_secondi_con_9x16 · 25,1 s · asset HeyGen 34e89b9198e541fabc2394f1998d37b9 (https://resource2.heygen.ai/video/34e89b9198e541fabc2394f1998d37b9/original.mp4).
 
 ## Pubblicazione
-- Da fare: Robin sui 4 canali AOUP quando Achille dice le date.
+- Robin (Achille 10/11 «Vai programma»): post 1161556, gio 21/1/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

@@ -84,6 +84,9 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | gio 24/12 18:15 | Calendario dei diritti · Casella 24 «Tredicesima» | 4 canali AOUP |
 | ven 25/12 10:15 | Calendario dei diritti · Finale «Buone feste» con Achille | 4 canali AOUP |
 | gio 7/1 18:15 | 20 format · 08 «Il microfono in corsia» | 4 canali AOUP |
+| gio 14/1 18:15 | 20 format · 09 «Primo giorno in ospedale» | 4 canali AOUP |
+| gio 21/1 18:15 | 20 format · 10 «60 secondi con…» (teaser) | 4 canali AOUP |
+| gio 28/1 18:15 | 20 format · 11 «Prima e dopo» | 4 canali AOUP |
 
 ## Eredità Invisibili
 
@@ -262,9 +265,9 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 06 «La classifica dei turni» | gio 10/12 12:30 | [apri](https://resource2.heygen.ai/video/55636d5ef7d24c838abb2b88eb336dbe/original.mp4) |
 | 07 «Il tuo anno in corsia» | gio 17/12 12:30 | [apri](https://resource2.heygen.ai/video/88222cda40aa4d8688c8c5c1623e2f36/original.mp4) |
 | 08 «Il microfono in corsia» | gio 7/1 18:15 | [apri](https://resource2.heygen.ai/video/35d077beac2f4790a1c25c180ae6db13/original.mp4) |
-| 09 «Primo giorno in ospedale» |  | [apri](https://resource2.heygen.ai/video/18ee8777876348afa2f9699122868c64/original.mp4) |
-| 10 «60 secondi con…» – teaser della rubrica |  | [apri](https://resource2.heygen.ai/video/34e89b9198e541fabc2394f1998d37b9/original.mp4) |
-| 11 «Prima e dopo» |  | [apri](https://resource2.heygen.ai/video/409c7ac5d51a46ca901870a9226611b7/original.mp4) |
+| 09 «Primo giorno in ospedale» | gio 14/1 18:15 | [apri](https://resource2.heygen.ai/video/18ee8777876348afa2f9699122868c64/original.mp4) |
+| 10 «60 secondi con…» – teaser della rubrica | gio 21/1 18:15 | [apri](https://resource2.heygen.ai/video/34e89b9198e541fabc2394f1998d37b9/original.mp4) |
+| 11 «Prima e dopo» | gio 28/1 18:15 | [apri](https://resource2.heygen.ai/video/409c7ac5d51a46ca901870a9226611b7/original.mp4) |
 
 ## PDRO · Convenzioni CISL FP (provinciale)
 
