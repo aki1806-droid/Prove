@@ -1,0 +1,139 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s01_titolo",
+"in": [
+"slam",
+0.05,
+0.3
+],
+"fx": [
+[
+"trema",
+0.35,
+0.8,
+5
+]
+]
+},
+{
+"p": "s01_oggi",
+"in": [
+"pop",
+"oggi",
+0.3
+]
+}
+]
+},
+"S02": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "f_nonna1",
+"in": [
+"pop",
+0.1,
+0.3
+]
+},
+{
+"p": "f_nip1",
+"in": [
+"pop",
+"metti",
+0.3
+]
+},
+{
+"p": "c_az",
+"in": [
+"pop",
+"lazienda",
+0.3
+]
+},
+{
+"p": "c_fisco",
+"in": [
+"pop",
+"vantaggi",
+0.3
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "f_nonna2",
+"in": [
+"pop",
+0.1,
+0.3
+],
+"fx": [
+[
+"trema",
+0.4,
+0.9,
+6
+]
+]
+},
+{
+"p": "f_nonna3",
+"in": [
+"pop",
+"vai",
+0.3
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [],
+"camera": [
+[
+0,
+1.06,
+540,
+900
+],
+[
+8.5,
+1.0,
+540,
+960
+]
+]
+}
+}

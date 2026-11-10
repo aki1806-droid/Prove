@@ -8,7 +8,7 @@
 **Grafiche:** `grafiche/S01A.png` · `grafiche/S01B.png` · `grafiche/S01C.png` · `grafiche/S01D.png`
 **Regia:** Sigla da sitcom: ogni personaggio 1,5 s con 'freeze frame' e nome che entra.
 **Testo (19 parole, ~8.8s):**
-> Reparto sette. Rosa, OSS da trent'anni. Marco, appena assunto. La coordinatrice, sempre al telefono. E Giulia, delegata CISL FP.
+> Reparto sette. Rosa, operatrice socio sanitaria da trent'anni. Marco, appena assunto. La coordinatrice, sempre al telefono. E Giulia, delegata CISL FP.
 
 ### SCENA 2 · `GRAFICA` · Il guaio
 **Voce:** HeyGen · voce "Luca Ward"

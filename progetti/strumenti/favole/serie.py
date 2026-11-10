@@ -1085,6 +1085,28 @@ ANIM[V17].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], ['fade', 4.4,
                               P('diritti', ['slideU', 'ogni#2', 0.4])])})
 EPISODI[V17]['S04'], ANIM[V17]['S04'] = _chiusa('S04', 9.3)
 
+
+# 12 Spiegato a mia nonna, 15 Reparto 7 (voci a personaggi, strumenti/venti/dialoghi.py)
+V12, V15 = 'pdro-20f-12-spiegato-a-mia-nonna', 'pdro-20f-15-reparto-7-sitcom'
+for _pg in (V12, V15):
+    EPISODI.setdefault(_pg, {}); ANIM.setdefault(_pg, {})
+EPISODI[V12].update({'S01': _ov('scrim', ['s01_titolo', 's01_oggi']), 'S02': _ov('scrim', ['f_nonna1', 'f_nip1', 'c_az', 'c_fisco']),
+                     'S03': _ov('scrim', ['f_nonna2', 'f_nonna3'])})
+ANIM[V12].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 5]]), P('s01_oggi', ['pop', 'oggi', 0.3])]),
+                  'S02': _OV([P('f_nonna1', ['pop', 0.1, 0.3]), P('f_nip1', ['pop', 'metti', 0.3]), P('c_az', ['pop', 'lazienda', 0.3]),
+                              P('c_fisco', ['pop', 'vantaggi', 0.3])]),
+                  'S03': _OV([P('f_nonna2', ['pop', 0.1, 0.3], fx=[['trema', 0.4, 0.9, 6]]), P('f_nonna3', ['pop', 'vai', 0.3])])})
+EPISODI[V12]['S04'], ANIM[V12]['S04'] = _chiusa('S04', 8.5)
+EPISODI[V15].update({'S01': _ov('scrim', ['sigla', 't_rosa', 't_marco', 't_coord', 't_giulia']), 'S02': _ov('scrim', ['f_marco', 'f_rosa']),
+                     'S03': _ov('scrim', ['f_coord', 'f_giulia', 'morale'])})
+_tags = [('t_rosa', 'rosa'), ('t_marco', 'marco'), ('t_coord', 'la'), ('t_giulia', 'giulia')]
+ANIM[V15].update({'S01': _OV([P('sigla', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]])] +
+                             [P(n, ['slideL', w, 0.3], ['fade', f'{_tags[k + 1][1]}-0.2', 0.15] if k < 3 else None) for k, (n, w) in enumerate(_tags)]),
+                  'S02': _OV([P('f_marco', ['pop', 0.1, 0.3]), P('f_rosa', ['pop', 'e', 0.3], fx=[['trema', 'tesoro', 'tesoro+0.5', 5]])]),
+                  'S03': _OV([P('f_coord', ['pop', 0.1, 0.3], fx=[['trema', 'chi', 'chi+0.6', 8]]), P('f_giulia', ['slideL', 'arriva', 0.35]),
+                              P('morale', ['slam', 'cosi', 0.3])])})
+EPISODI[V15]['S04'], ANIM[V15]['S04'] = _chiusa('S04', 8.4)
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

@@ -39,7 +39,18 @@ html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:transpa
 .opz.no{opacity:.35}
 .chip{display:inline-block;background:#fff;color:#111;font:900 58px M;padding:18px 38px;border-radius:60px;box-shadow:0 12px 34px rgba(0,0,0,.5)}
 .onde{position:absolute;left:0;right:0;top:900px;text-align:center}
-.onde i{display:inline-block;width:34px;margin:0 9px;border-radius:17px;background:#ffd23f;vertical-align:middle}`;
+.onde i{display:inline-block;width:34px;margin:0 9px;border-radius:17px;background:#ffd23f;vertical-align:middle}
+.fum{position:absolute;max-width:860px;background:#fff;border-radius:40px;padding:28px 38px 32px;box-shadow:0 16px 46px rgba(0,0,0,.5)}
+.fum .chi{font:900 32px M;letter-spacing:3px;margin-bottom:8px}
+.fum .q{font:800 56px/1.15 M;color:#111}
+.fum:after{content:'';position:absolute;bottom:-34px;width:0;height:0;border:24px solid transparent;border-top:34px solid #fff}
+.fum.sx{left:50px}.fum.sx:after{left:70px}.fum.dx{right:50px}.fum.dx:after{right:70px}
+.tag{position:absolute;left:50px;top:1180px;display:flex;align-items:stretch;border-radius:22px;overflow:hidden;box-shadow:0 14px 40px rgba(0,0,0,.55)}
+.tag b{background:#ffd23f;color:#111;font:900 54px/1.6 M;padding:10px 28px;white-space:nowrap}
+.tag span{background:rgba(12,18,34,.92);color:#fff;font:800 38px M;padding:34px 26px 0;white-space:nowrap}
+.ep{position:absolute;left:0;right:0;top:250px;text-align:center}
+.ep b{display:inline-block;background:#e3132b;color:#fff;font:900 120px/1 M;padding:18px 44px;border-radius:26px;transform:rotate(-3deg);box-shadow:0 18px 50px rgba(0,0,0,.55)}
+.ep i{display:block;margin-top:30px;font:600 70px K;color:#fff;font-style:normal;text-shadow:0 4px 16px rgba(0,0,0,.8)}`;
 const scrim = (a = .5) => `<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,${a + .1}) 0%,rgba(0,0,0,${a - .2}) 40%,rgba(0,0,0,${a - .1}) 65%,rgba(0,0,0,${a + .2}) 100%)"></div>`;
 const titolo = (top, html, st = '') => `<div class="ab tit" style="top:${top}px;${st}">${html}</div>`;
 const pill = (top, testo, left = 60) => `<div style="position:absolute;left:${left}px;top:${top}px"><span class="pill">${testo}</span></div>`;
@@ -84,6 +95,31 @@ P.suono = ['pdro-20f-17-indovina-il-reparto', { scrim: scrim(.5),
   commenti: `<div class="ab" style="top:1000px"><span class="pill" style="font-size:48px">scrivi la risposta nei commenti</span></div>`,
   sA: opz(420, 'A', 'Terapia intensiva ✓', 'ok'), sB: opz(600, 'B', 'Pronto soccorso', 'no'), sC: opz(780, 'C', 'Sala operatoria', 'no'),
   diritti: titolo(1020, 'OGNI REPARTO<br>HA I SUOI <em>DIRITTI.</em>', 'font-size:76px'),
+}];
+// ---- 12 Spiegato a mia nonna: fumetti nonna/nipote
+const fum = (top, lato, chi, col, q) => `<div class="fum ${lato}" style="top:${top}px"><div class="chi" style="color:${col}">${chi}</div><div class="q">${q}</div></div>`;
+const NONNA = '#c2185b', NIP = '#1565c0';
+P.nonna = ['pdro-20f-12-spiegato-a-mia-nonna', { scrim: scrim(.4),
+  s01_titolo: titolo(380, 'SPIEGATO<br>A MIA <em>NONNA</em>'),
+  s01_oggi: pill(660, 'oggi: il fondo pensione', 80),
+  f_nonna1: fum(330, 'sx', 'NONNA', NONNA, "E cos'è questo Perseo?"),
+  f_nip1: fum(620, 'dx', 'NIPOTE', NIP, 'Metti da parte qualcosa ogni mese per la pensione.'),
+  c_az: `<div style="position:absolute;left:70px;top:1010px"><span class="pill" style="font-size:44px">+ la parte dell'Azienda</span></div>`,
+  c_fisco: `<div style="position:absolute;left:300px;top:1140px"><span class="pill" style="font-size:44px">+ vantaggi fiscali</span></div>`,
+  f_nonna2: fum(330, 'sx', 'NONNA', NONNA, "E perché non l'hai fatto prima?!"),
+  f_nonna3: fum(620, 'sx', 'NONNA', NONNA, 'Vai da quelli della CISL, che te lo spiegano bene!'),
+}];
+// ---- 15 Reparto 7: sitcom
+const tag = (n, r) => `<div class="tag"><b>${n}</b><span>${r}</span></div>`;
+P.sitcom = ['pdro-20f-15-reparto-7-sitcom', { scrim: scrim(.35),
+  sigla: `<div class="ep"><b>REPARTO 7</b><i>ep. 1 · il cambio turno</i></div>`,
+  t_rosa: tag('ROSA', 'OSS da 30 anni'), t_marco: tag('MARCO', 'appena assunto'),
+  t_coord: tag('COORDINATRICE', 'al telefono'), t_giulia: tag('GIULIA', 'delegata CISL FP'),
+  f_marco: fum(330, 'dx', 'MARCO', '#1565c0', 'Ho scambiato la domenica con un collega… su WhatsApp!'),
+  f_rosa: fum(640, 'sx', 'ROSA', '#c2185b', "E l'hai detto alla coordinatrice? Va autorizzato, tesoro."),
+  f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', 'Chi ha cambiato la domenica senza dirmelo?!'),
+  f_giulia: fum(640, 'dx', 'GIULIA · CISL FP', '#0f8a43', 'Il cambio si concorda e si fa autorizzare.'),
+  morale: `<div class="ab" style="top:1000px;text-align:center"><span class="pill" style="font-size:52px">morale: così tutti sono in regola</span></div>`,
 }];
 const scelte = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });

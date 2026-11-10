@@ -1,0 +1,460 @@
+{
+"S01": [
+{
+"w": "Se",
+"a": 0.08,
+"b": 0.2,
+"chi": "nipote"
+},
+{
+"w": "lo",
+"a": 0.24,
+"b": 0.3,
+"chi": "nipote"
+},
+{
+"w": "capisce",
+"a": 0.32,
+"b": 0.66,
+"chi": "nipote"
+},
+{
+"w": "mia",
+"a": 0.72,
+"b": 0.853,
+"chi": "nipote"
+},
+{
+"w": "nonna,",
+"a": 0.88,
+"b": 1.28,
+"chi": "nipote"
+},
+{
+"w": "lo",
+"a": 1.68,
+"b": 1.76,
+"chi": "nipote"
+},
+{
+"w": "capisci",
+"a": 1.84,
+"b": 2.16,
+"chi": "nipote"
+},
+{
+"w": "anche",
+"a": 2.28,
+"b": 2.4,
+"chi": "nipote"
+},
+{
+"w": "tu.",
+"a": 2.48,
+"b": 2.64,
+"chi": "nipote"
+},
+{
+"w": "Oggi:",
+"a": 3.09,
+"b": 3.49,
+"chi": "nipote"
+},
+{
+"w": "il",
+"a": 4.05,
+"b": 4.13,
+"chi": "nipote"
+},
+{
+"w": "fondo",
+"a": 4.21,
+"b": 4.45,
+"chi": "nipote"
+},
+{
+"w": "pensione.",
+"a": 4.53,
+"b": 5.09,
+"chi": "nipote"
+}
+],
+"S02": [
+{
+"w": "E",
+"a": 0.08,
+"b": 0.24,
+"chi": "nonna"
+},
+{
+"w": "cos'è",
+"a": 0.36,
+"b": 0.56,
+"chi": "nonna"
+},
+{
+"w": "questo",
+"a": 0.64,
+"b": 0.92,
+"chi": "nonna"
+},
+{
+"w": "Perseo?",
+"a": 0.96,
+"b": 1.52,
+"chi": "nonna"
+},
+{
+"w": "Metti",
+"a": 2.445,
+"b": 2.685,
+"chi": "nipote"
+},
+{
+"w": "da",
+"a": 2.765,
+"b": 2.845,
+"chi": "nipote"
+},
+{
+"w": "parte",
+"a": 2.925,
+"b": 3.085,
+"chi": "nipote"
+},
+{
+"w": "qualcosa",
+"a": 3.205,
+"b": 3.565,
+"chi": "nipote"
+},
+{
+"w": "ogni",
+"a": 3.645,
+"b": 3.805,
+"chi": "nipote"
+},
+{
+"w": "mese",
+"a": 3.845,
+"b": 4.045,
+"chi": "nipote"
+},
+{
+"w": "per",
+"a": 4.125,
+"b": 4.205,
+"chi": "nipote"
+},
+{
+"w": "la",
+"a": 4.245,
+"b": 4.285,
+"chi": "nipote"
+},
+{
+"w": "pensione,",
+"a": 4.365,
+"b": 4.845,
+"chi": "nipote"
+},
+{
+"w": "nonna.",
+"a": 5.005,
+"b": 5.245,
+"chi": "nipote"
+},
+{
+"w": "L'Azienda",
+"a": 5.725,
+"b": 6.205,
+"chi": "nipote"
+},
+{
+"w": "aggiunge",
+"a": 6.325,
+"b": 6.605,
+"chi": "nipote"
+},
+{
+"w": "la",
+"a": 6.645,
+"b": 6.685,
+"chi": "nipote"
+},
+{
+"w": "sua",
+"a": 6.725,
+"b": 6.845,
+"chi": "nipote"
+},
+{
+"w": "parte,",
+"a": 6.925,
+"b": 7.365,
+"chi": "nipote"
+},
+{
+"w": "e",
+"a": 7.525,
+"b": 7.565,
+"chi": "nipote"
+},
+{
+"w": "ci",
+"a": 7.645,
+"b": 7.725,
+"chi": "nipote"
+},
+{
+"w": "sono",
+"a": 7.805,
+"b": 7.885,
+"chi": "nipote"
+},
+{
+"w": "vantaggi",
+"a": 8.005,
+"b": 8.285,
+"chi": "nipote"
+},
+{
+"w": "fiscali.",
+"a": 8.365,
+"b": 8.845,
+"chi": "nipote"
+}
+],
+"S03": [
+{
+"w": "E",
+"a": 0.08,
+"b": 0.12,
+"chi": "nonna"
+},
+{
+"w": "perché",
+"a": 0.2,
+"b": 0.44,
+"chi": "nonna"
+},
+{
+"w": "non",
+"a": 0.52,
+"b": 0.6,
+"chi": "nonna"
+},
+{
+"w": "l'hai",
+"a": 0.62,
+"b": 0.68,
+"chi": "nonna"
+},
+{
+"w": "fatto",
+"a": 0.76,
+"b": 1.0,
+"chi": "nonna"
+},
+{
+"w": "prima?",
+"a": 1.08,
+"b": 1.4,
+"chi": "nonna"
+},
+{
+"w": "Vai",
+"a": 1.8,
+"b": 1.96,
+"chi": "nonna"
+},
+{
+"w": "da",
+"a": 2.0,
+"b": 2.04,
+"chi": "nonna"
+},
+{
+"w": "quelli",
+"a": 2.08,
+"b": 2.28,
+"chi": "nonna"
+},
+{
+"w": "della",
+"a": 2.36,
+"b": 2.52,
+"chi": "nonna"
+},
+{
+"w": "CISL,",
+"a": 2.56,
+"b": 3.0,
+"chi": "nonna"
+},
+{
+"w": "che",
+"a": 3.08,
+"b": 3.16,
+"chi": "nonna"
+},
+{
+"w": "te",
+"a": 3.2,
+"b": 3.24,
+"chi": "nonna"
+},
+{
+"w": "lo",
+"a": 3.28,
+"b": 3.32,
+"chi": "nonna"
+},
+{
+"w": "spiegano",
+"a": 3.4,
+"b": 3.72,
+"chi": "nonna"
+},
+{
+"w": "bene!",
+"a": 3.8,
+"b": 4.2,
+"chi": "nonna"
+}
+],
+"S04": [
+{
+"w": "Ha",
+"a": 0.069,
+"b": 0.207,
+"chi": "achille"
+},
+{
+"w": "ragione",
+"a": 0.31,
+"b": 0.552,
+"chi": "achille"
+},
+{
+"w": "la",
+"a": 0.621,
+"b": 0.69,
+"chi": "achille"
+},
+{
+"w": "nonna.",
+"a": 0.793,
+"b": 1.034,
+"chi": "achille"
+},
+{
+"w": "Per",
+"a": 1.336,
+"b": 1.405,
+"chi": "achille"
+},
+{
+"w": "gli",
+"a": 1.474,
+"b": 1.543,
+"chi": "achille"
+},
+{
+"w": "iscritti",
+"a": 1.612,
+"b": 1.957,
+"chi": "achille"
+},
+{
+"w": "CISL",
+"a": 2.026,
+"b": 2.302,
+"chi": "achille"
+},
+{
+"w": "FP",
+"a": 2.371,
+"b": 2.784,
+"chi": "achille"
+},
+{
+"w": "c'è",
+"a": 2.922,
+"b": 3.015,
+"chi": "achille"
+},
+{
+"w": "un",
+"a": 3.037,
+"b": 3.06,
+"chi": "achille"
+},
+{
+"w": "corso",
+"a": 3.129,
+"b": 3.405,
+"chi": "achille"
+},
+{
+"w": "gratuito",
+"a": 3.474,
+"b": 3.888,
+"chi": "achille"
+},
+{
+"w": "su",
+"a": 3.957,
+"b": 4.026,
+"chi": "achille"
+},
+{
+"w": "Perseo",
+"a": 4.095,
+"b": 4.509,
+"chi": "achille"
+},
+{
+"w": "Sirio,",
+"a": 4.578,
+"b": 4.853,
+"chi": "achille"
+},
+{
+"w": "spiegato",
+"a": 5.129,
+"b": 5.474,
+"chi": "achille"
+},
+{
+"w": "semplice.",
+"a": 5.543,
+"b": 6.026,
+"chi": "achille"
+},
+{
+"w": "CISL",
+"a": 6.328,
+"b": 6.603,
+"chi": "achille"
+},
+{
+"w": "FP",
+"a": 6.672,
+"b": 7.017,
+"chi": "achille"
+},
+{
+"w": "Padova",
+"a": 7.224,
+"b": 7.5,
+"chi": "achille"
+},
+{
+"w": "Rovigo.",
+"a": 7.534,
+"b": 7.914,
+"chi": "achille"
+}
+]
+}
