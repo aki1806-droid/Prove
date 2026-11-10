@@ -27,7 +27,19 @@ html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:transpa
 .news .k.r{background:#e3132b;color:#fff}
 .news .t{background:rgba(12,18,34,.92);color:#fff;font:900 78px/1.0 M;padding:26px 34px 10px}
 .news .t em{font-style:normal;color:#ffd23f}
-.news .s{background:rgba(12,18,34,.92);color:#e6e6e6;font:800 46px/1.15 M;padding:6px 34px 30px}`;
+.news .s{background:rgba(12,18,34,.92);color:#e6e6e6;font:800 46px/1.15 M;padding:6px 34px 30px}
+.lettera{position:absolute;left:0;right:0;top:300px;text-align:center;font:900 420px/1 M;color:#ffd23f;text-shadow:0 20px 60px rgba(0,0,0,.6)}
+.come{position:absolute;left:0;right:0;top:700px;text-align:center}
+.come i{display:block;font:600 72px K;color:#fff;font-style:normal;text-shadow:0 4px 16px rgba(0,0,0,.8)}
+.come b{display:inline-block;margin-top:6px;background:#fff;color:#111;font:900 92px/1.05 M;padding:14px 36px;border-radius:22px;box-shadow:0 14px 40px rgba(0,0,0,.5)}
+.opz{display:flex;gap:28px;align-items:center;border-radius:28px;padding:26px 34px;background:rgba(12,18,34,.9);border:4px solid rgba(255,255,255,.25);box-shadow:0 14px 40px rgba(0,0,0,.5)}
+.opz b{flex:0 0 100px;height:100px;border-radius:50%;background:#ffd23f;color:#111;font:900 64px/100px M;text-align:center}
+.opz span{font:900 62px M;color:#fff}
+.opz.ok{background:#0f8a43;border-color:#7dff9e}.opz.ok b{background:#fff;color:#0f8a43}
+.opz.no{opacity:.35}
+.chip{display:inline-block;background:#fff;color:#111;font:900 58px M;padding:18px 38px;border-radius:60px;box-shadow:0 12px 34px rgba(0,0,0,.5)}
+.onde{position:absolute;left:0;right:0;top:900px;text-align:center}
+.onde i{display:inline-block;width:34px;margin:0 9px;border-radius:17px;background:#ffd23f;vertical-align:middle}`;
 const scrim = (a = .5) => `<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,${a + .1}) 0%,rgba(0,0,0,${a - .2}) 40%,rgba(0,0,0,${a - .1}) 65%,rgba(0,0,0,${a + .2}) 100%)"></div>`;
 const titolo = (top, html, st = '') => `<div class="ab tit" style="top:${top}px;${st}">${html}</div>`;
 const pill = (top, testo, left = 60) => `<div style="position:absolute;left:${left}px;top:${top}px"><span class="pill">${testo}</span></div>`;
@@ -41,6 +53,37 @@ P.news = ['pdro-20f-14-corsia-news', { scrim: scrim(.4),
   n1: notizia(360, 'PRIMA NOTIZIA', 'PART-TIME:<br><em>135 POSTI.</em>', 'Domande entro il 3 dicembre.'),
   n2: notizia(360, 'SECONDA NOTIZIA', 'PERMESSI STUDIO <em>2027.</em>', "Domande entro l'11 novembre."),
   n3: notizia(360, "● ULTIM'ORA", 'TURNI DA 12 ORE:<br><em>AL TAVOLO.</em>', 'Sì alla scelta dei lavoratori, no agli automatismi.', true),
+}];
+// ---- 13 Dizionario della corsia: lettera gigante, parola, definizione
+const testa13 = `<div class="ab" style="top:240px;text-align:center"><span class="pill" style="transform:none">IL DIZIONARIO DELLA CORSIA</span></div>`;
+const voce13 = (l, w) => `<div class="lettera">${l}</div><div class="come"><i>come</i><b>${w}</b></div>`;
+const def13 = (top, t) => `<div class="ab box" style="top:${top}px"><div class="sub">${t}</div></div>`;
+P.diz = ['pdro-20f-13-dizionario-della-corsia', { scrim: scrim(.5), testa: testa13,
+  s01_voce: voce13('A', 'ARRETRATI'), s01_def: def13(1000, 'Soldi che ti spettano e arrivano dopo.'),
+  s01_nota: def13(1220, 'Senza una data scritta, sono solo una <span style="color:#ffd23f">promessa.</span>'),
+  s02_voce: voce13('B', 'BUSTA PAGA'), s02_def: def13(1000, 'Il documento più importante che ricevi ogni mese.'),
+  s02_nota: def13(1220, 'E il meno letto. <span style="color:#ffd23f">Controllala.</span>'),
+  s03_voce: voce13('C', 'COLPA GRAVE'), s03_def: def13(1000, "In caso di errore grave l'Azienda può chiederti di risarcire."),
+  s03_nota: def13(1290, 'Per questo c\'è una <span style="color:#ffd23f">polizza dedicata</span> agli iscritti CISL FP.'),
+}];
+// ---- 16 I veterani reagiscono: teaser senza persone
+const chip16 = (top, left, t) => `<div style="position:absolute;left:${left}px;top:${top}px"><span class="chip">${t}</span></div>`;
+P.vet = ['pdro-20f-16-i-veterani-reagiscono', { scrim: scrim(.5),
+  s01_titolo: titolo(380, 'I VETERANI<br><em>REAGISCONO</em>') + pill(640, '30 anni di servizio contro le novità', 80),
+  c1: chip16(380, 70, 'Turni da 12 ore'), c2: chip16(530, 190, 'Intelligenza artificiale'), c3: chip16(680, 110, "Ferie con l'app"),
+  presto: titolo(880, 'PRESTO<br>LE LORO <em>REAZIONI.</em>', 'font-size:84px'),
+  cerca: `<div class="ab" style="top:1180px"><span class="pill" style="font-size:46px">hai 25 anni di servizio? scrivici!</span></div>`,
+}];
+// ---- 17 Indovina il reparto: ascolto, tre opzioni, soluzione
+const onde = [70, 140, 220, 120, 260, 180, 90, 230, 150, 70].map(h => `<i style="height:${h}px"></i>`).join('');
+const opz = (top, l, t, cls = '') => `<div class="ab opz ${cls}" style="top:${top}px"><b>${l}</b><span>${t}</span></div>`;
+P.suono = ['pdro-20f-17-indovina-il-reparto', { scrim: scrim(.5),
+  s01_titolo: titolo(380, 'INDOVINA<br>IL <em>REPARTO</em>') + pill(640, 'alza il volume', 80),
+  ascolta: `<div class="onde">${onde}</div><div class="ab" style="top:1220px;text-align:center"><span class="pill" style="font-size:52px">ascolta…</span></div>`,
+  oA: opz(420, 'A', 'Terapia intensiva'), oB: opz(600, 'B', 'Pronto soccorso'), oC: opz(780, 'C', 'Sala operatoria'),
+  commenti: `<div class="ab" style="top:1000px"><span class="pill" style="font-size:48px">scrivi la risposta nei commenti</span></div>`,
+  sA: opz(420, 'A', 'Terapia intensiva ✓', 'ok'), sB: opz(600, 'B', 'Pronto soccorso', 'no'), sC: opz(780, 'C', 'Sala operatoria', 'no'),
+  diritti: titolo(1020, 'OGNI REPARTO<br>HA I SUOI <em>DIRITTI.</em>', 'font-size:76px'),
 }];
 const scelte = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });

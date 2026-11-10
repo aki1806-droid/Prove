@@ -1060,6 +1060,31 @@ ANIM[V14].update({'S01': _OV([P('banda', ['slideL', 0.05, 0.4]), P('live', ['pop
                   'S03': _OV(_fissi() + [P('n3', ['slam', 0.1, 0.3], fx=[['trema', 0.4, 1.0, 9]])])})
 EPISODI[V14]['S04'], ANIM[V14]['S04'] = _chiusa('S04', 6.5)
 
+
+# 13 Dizionario della corsia (tre episodi, poi tagliati in tre reel), 16 teaser dei veterani, 17 Indovina il reparto
+V13, V16, V17 = 'pdro-20f-13-dizionario-della-corsia', 'pdro-20f-16-i-veterani-reagiscono', 'pdro-20f-17-indovina-il-reparto'
+for _pg in (V13, V16, V17):
+    EPISODI.setdefault(_pg, {}); ANIM.setdefault(_pg, {})
+for _s, _nota in (('S01', 'senza'), ('S02', 5.1), ('S03', 'per')):
+    _k = _s.lower()
+    EPISODI[V13][_s] = _ov('scrim', ['testa', f'{_k}_voce', f'{_k}_def', f'{_k}_nota'])
+    ANIM[V13][_s] = _OV([P('testa', ['fade', 0.0, 0.3]), P(f'{_k}_voce', ['slam', 0.05, 0.35], fx=[['trema', 0.4, 0.9, 8]]),
+                         P(f'{_k}_def', ['slideU', 2.2, 0.4]), P(f'{_k}_nota', ['slideU', _nota, 0.4])])
+EPISODI[V13]['S04'], ANIM[V13]['S04'] = _chiusa('S04', 8.8)
+EPISODI[V16].update({'S01': _ov('scrim', ['s01_titolo']), 'S02': _ov('scrim', ['c1', 'c2', 'c3', 'presto', 'cerca'])})
+ANIM[V16].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.9, 7]])]),
+                  'S02': _OV([P('c1', ['pop', 0.1, 0.3]), P('c2', ['pop', 'intelligenza', 0.3]), P('c3', ['pop', 'ferie', 0.3]),
+                              P('presto', ['slam', 'presto', 0.3], fx=[['trema', 'presto+0.3', 'presto+0.8', 6]]), P('cerca', ['pop', 'alcune', 0.3])])})
+EPISODI[V16]['S03'], ANIM[V16]['S03'] = _chiusa('S03', 6.7)
+EPISODI[V17].update({'S01': _ov('scrim', ['s01_titolo', 'ascolta']), 'S02': _ov('scrim', ['oA', 'oB', 'oC', 'commenti']),
+                     'S03': _ov('scrim', ['sA', 'sB', 'sC', 'diritti'])})
+ANIM[V17].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], ['fade', 4.4, 0.3]), P('ascolta', ['fade', 4.6, 0.4], fx=[['pulsa', 5.0, 10.0, 0.08]])]),
+                  'S02': _OV([P('oA', ['slideL', 0.1, 0.3]), P('oB', ['slideL', 'pronto', 0.3]), P('oC', ['slideL', 'sala', 0.3]),
+                              P('commenti', ['pop', 'scrivi', 0.3])]),
+                  'S03': _OV([P('sB', ['fade', 0.0, 0.01]), P('sC', ['fade', 0.0, 0.01]), P('sA', ['slam', 'terapia', 0.3], fx=[['pulsa', 'terapia+0.3', 'terapia+2', 0.05]]),
+                              P('diritti', ['slideU', 'ogni#2', 0.4])])})
+EPISODI[V17]['S04'], ANIM[V17]['S04'] = _chiusa('S04', 9.3)
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

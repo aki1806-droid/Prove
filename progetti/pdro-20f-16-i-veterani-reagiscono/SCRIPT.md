@@ -17,7 +17,7 @@
 **Grafiche:** `grafiche/S02A.png`
 **Regia:** Montaggio delle REAZIONI REALI con cartelli tra un tema e l'altro.
 **Testo (17 parole, ~7.8s):**
-> Turni da dodici ore, intelligenza artificiale, ferie con l'app. Le loro reazioni sono vere. E alcune, impagabili.
+> Turni da dodici ore, intelligenza artificiale, ferie con l'app. Presto, le loro reazioni: vere. E alcune, impagabili.
 
 ### SCENA 3 · `GRAFICA + AVATAR` · Chiusura Achille
 **Voce:** ElevenLabs · "Achille nuovo 1 v4" (atempo 1.12) con avatar HeyGen "Aki with a lapel microphone"

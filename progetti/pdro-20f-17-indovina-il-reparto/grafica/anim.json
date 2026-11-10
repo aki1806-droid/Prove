@@ -1,0 +1,160 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s01_titolo",
+"in": [
+"slam",
+0.05,
+0.3
+],
+"out": [
+"fade",
+4.4,
+0.3
+]
+},
+{
+"p": "ascolta",
+"in": [
+"fade",
+4.6,
+0.4
+],
+"fx": [
+[
+"pulsa",
+5.0,
+10.0,
+0.08
+]
+]
+}
+]
+},
+"S02": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "oA",
+"in": [
+"slideL",
+0.1,
+0.3
+]
+},
+{
+"p": "oB",
+"in": [
+"slideL",
+"pronto",
+0.3
+]
+},
+{
+"p": "oC",
+"in": [
+"slideL",
+"sala",
+0.3
+]
+},
+{
+"p": "commenti",
+"in": [
+"pop",
+"scrivi",
+0.3
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "sB",
+"in": [
+"fade",
+0.0,
+0.01
+]
+},
+{
+"p": "sC",
+"in": [
+"fade",
+0.0,
+0.01
+]
+},
+{
+"p": "sA",
+"in": [
+"slam",
+"terapia",
+0.3
+],
+"fx": [
+[
+"pulsa",
+"terapia+0.3",
+"terapia+2",
+0.05
+]
+]
+},
+{
+"p": "diritti",
+"in": [
+"slideU",
+"ogni#2",
+0.4
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [],
+"camera": [
+[
+0,
+1.06,
+540,
+900
+],
+[
+9.3,
+1.0,
+540,
+960
+]
+]
+}
+}

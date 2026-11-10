@@ -1,0 +1,112 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s01_titolo",
+"in": [
+"slam",
+0.05,
+0.3
+],
+"fx": [
+[
+"trema",
+0.35,
+0.9,
+7
+]
+]
+}
+]
+},
+"S02": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "c1",
+"in": [
+"pop",
+0.1,
+0.3
+]
+},
+{
+"p": "c2",
+"in": [
+"pop",
+"intelligenza",
+0.3
+]
+},
+{
+"p": "c3",
+"in": [
+"pop",
+"ferie",
+0.3
+]
+},
+{
+"p": "presto",
+"in": [
+"slam",
+"presto",
+0.3
+],
+"fx": [
+[
+"trema",
+"presto+0.3",
+"presto+0.8",
+6
+]
+]
+},
+{
+"p": "cerca",
+"in": [
+"pop",
+"alcune",
+0.3
+]
+}
+]
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [],
+"camera": [
+[
+0,
+1.06,
+540,
+900
+],
+[
+6.7,
+1.0,
+540,
+960
+]
+]
+}
+}

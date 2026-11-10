@@ -14,8 +14,9 @@ WARD, ACHILLE = 'e4bd8d8a357f41a99502309874733c16', '9b851842ce54449fb9ff501751c
 PG = {'tr': 'pdro-20f-01-traduttore-aziendalese', 'gf': 'pdro-20f-02-green-flag', 'mito': 'pdro-20f-03-mito-da-sfatare',
       'cal': 'pdro-20f-04-calendario-avvento', 'asmr': 'pdro-20f-05-asmr-del-cedolino', 'cl': 'pdro-20f-06-classifica-dei-turni',
       'an': 'pdro-20f-07-il-tuo-anno-in-corsia', 'mic': 'pdro-20f-08-microfono-in-corsia', 'pg': 'pdro-20f-09-primo-giorno-in-ospedale',
-      'sec': 'pdro-20f-10-60-secondi-con', 'pd': 'pdro-20f-11-prima-e-dopo', 'news': 'pdro-20f-14-corsia-news'}
-SINGOLI = ('news',)   # video fatti da soli, con la propria traccia di chiusura (achille-<chiave>)
+      'sec': 'pdro-20f-10-60-secondi-con', 'pd': 'pdro-20f-11-prima-e-dopo', 'news': 'pdro-20f-14-corsia-news',
+      'diz': 'pdro-20f-13-dizionario-della-corsia', 'vet': 'pdro-20f-16-i-veterani-reagiscono', 'suono': 'pdro-20f-17-indovina-il-reparto'}
+SINGOLI = ('news', 'diz', 'vet', 'suono')   # video fatti da soli, con la propria traccia di chiusura (achille-<chiave>)
 SECONDI = ('asmr', 'cl', 'an', 'mic')
 TERZI = ('pg', 'sec', 'pd')   # terza tornata (10/11)   # seconda tornata (9/11): una traccia narratore per video, una traccia comune delle quattro chiusure
 B = ' <break time="1.6s"/> '

@@ -1,0 +1,1 @@
+Alza il volume. Riesci a indovinare il reparto solo dal suono? <break time="1.6s"/> Terapia intensiva, pronto soccorso o sala operatoria? Scrivi la risposta nei commenti. <break time="1.6s"/> La risposta giusta è la terapia intensiva! Ogni reparto ha i suoi suoni. E ogni reparto ha i suoi diritti.
