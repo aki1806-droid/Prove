@@ -1,0 +1,87 @@
+{
+  "progetto": "PDRO_20F_15_Reparto_7_sitcom",
+  "titolo": "Reparto 7 – ep. 1 «Il cambio turno» (v2)",
+  "identita": "CISL FP Padova Rovigo",
+  "serie": "20 format attrattivi",
+  "numero_elenco": 15,
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "I personaggi",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Reparto sette. Rosa, OSS da trent'anni. Marco, appena assunto. La coordinatrice, sempre al telefono. E Giulia, delegata CISL FP.",
+      "parole": 19,
+      "durata_stimata_s": 8.8,
+      "grafiche": [
+        "grafiche/S01A.png",
+        "grafiche/S01B.png",
+        "grafiche/S01C.png",
+        "grafiche/S01D.png"
+      ],
+      "clip": null,
+      "regia": "Sigla da sitcom: ogni personaggio 1,5 s con 'freeze frame' e nome che entra."
+    },
+    {
+      "n": 2,
+      "titolo": "Il guaio",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Rosa, ho scambiato la domenica con un collega, gli ho detto di sì su WhatsApp! E l'hai detto alla coordinatrice? Il cambio turno va autorizzato, tesoro.",
+      "parole": 26,
+      "durata_stimata_s": 10.5,
+      "grafiche": [
+        "grafiche/S02A.png",
+        "grafiche/S02B.png"
+      ],
+      "clip": null,
+      "regia": "Risata registrata dopo 'tesoro'."
+    },
+    {
+      "n": 3,
+      "titolo": "Il colpo di scena",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Un attimo che rispondo. Chi ha cambiato la domenica senza dirmelo? Arriva Giulia: il cambio si concorda e si fa autorizzare. Così tutti sono in regola.",
+      "parole": 26,
+      "durata_stimata_s": 10.4,
+      "grafiche": [
+        "grafiche/S03A.png",
+        "grafiche/S03B.png"
+      ],
+      "clip": null,
+      "regia": "Zoom drammatico comico sulla coordinatrice."
+    },
+    {
+      "n": 4,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Reparto sette torna la prossima settimana. E se nel tuo reparto succede qualcosa che merita una puntata, raccontacelo. CISL FP Padova Rovigo.",
+      "parole": 22,
+      "durata_stimata_s": 8.7,
+      "grafiche": [
+        "grafiche/S04A.png"
+      ],
+      "clip": null,
+      "regia": "Avatar «Aki with a lapel microphone» in basso a destra; contatti a schermo."
+    }
+  ]
+}

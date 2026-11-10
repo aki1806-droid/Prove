@@ -14,7 +14,8 @@ WARD, ACHILLE = 'e4bd8d8a357f41a99502309874733c16', '9b851842ce54449fb9ff501751c
 PG = {'tr': 'pdro-20f-01-traduttore-aziendalese', 'gf': 'pdro-20f-02-green-flag', 'mito': 'pdro-20f-03-mito-da-sfatare',
       'cal': 'pdro-20f-04-calendario-avvento', 'asmr': 'pdro-20f-05-asmr-del-cedolino', 'cl': 'pdro-20f-06-classifica-dei-turni',
       'an': 'pdro-20f-07-il-tuo-anno-in-corsia', 'mic': 'pdro-20f-08-microfono-in-corsia', 'pg': 'pdro-20f-09-primo-giorno-in-ospedale',
-      'sec': 'pdro-20f-10-60-secondi-con', 'pd': 'pdro-20f-11-prima-e-dopo'}
+      'sec': 'pdro-20f-10-60-secondi-con', 'pd': 'pdro-20f-11-prima-e-dopo', 'news': 'pdro-20f-14-corsia-news'}
+SINGOLI = ('news',)   # video fatti da soli, con la propria traccia di chiusura (achille-<chiave>)
 SECONDI = ('asmr', 'cl', 'an', 'mic')
 TERZI = ('pg', 'sec', 'pd')   # terza tornata (10/11)   # seconda tornata (9/11): una traccia narratore per video, una traccia comune delle quattro chiusure
 B = ' <break time="1.6s"/> '
@@ -34,6 +35,8 @@ def tracce():
     t['achille-20f2'] = [testi(k)[1][0] for k in SECONDI]
     t.update({f'ward-{k}': testi(k)[0] for k in TERZI})
     t['achille-20f3'] = [testi(k)[1][0] for k in TERZI]
+    for k in SINGOLI:
+        t[f'ward-{k}'] = testi(k)[0]; t[f'achille-{k}'] = testi(k)[1]
     return t
 
 
@@ -49,6 +52,8 @@ if __name__ == '__main__':
         k = sys.argv[2]
         if k in SECONDI:
             ach = [b for b in blocchi('achille-20f2', QUI) if b][SECONDI.index(k)]; ach_n = 'achille-20f2'
+        elif k in SINGOLI:
+            ach = [b for b in blocchi(f'achille-{k}', QUI) if b][0]; ach_n = f'achille-{k}'
         elif k in TERZI:
             ach = [b for b in blocchi('achille-20f3', QUI) if b][TERZI.index(k)]; ach_n = 'achille-20f3'
         else:

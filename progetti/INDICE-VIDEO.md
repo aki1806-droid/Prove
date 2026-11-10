@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**164 video** in 15 sezioni.
+**165 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -38,6 +38,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | lun 9/11 12:30 | Favole N° 4 · «I tre porcellini e il lupo delle riorganizzazioni» | 4 canali AOUP |
 | mar 10/11 12:30 | Format originali · «Gli archeologi del futuro» | 4 canali AOUP |
 | mar 10/11 21:00 | Sentirsi per sentire · P3 «Prendere parola» | 12 canali provinciali |
+| mer 11/11 08:30 | 20 format · 14 «Corsia News» | 4 canali AOUP |
 | gio 12/11 18:15 | 20 format · 01 «Il traduttore aziendalese–italiano» | 4 canali AOUP |
 | ven 13/11 12:30 | Convenzioni 1 · «Istruzioni di sicurezza – polizza colpa grave» | 4 canali AOUP (testo provinciale) |
 | ven 13/11 19:30 | Sentirsi per sentire · Brividi T2 «Dove sei» | 12 canali provinciali |
@@ -268,6 +269,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 09 «Primo giorno in ospedale» | gio 14/1 18:15 | [apri](https://resource2.heygen.ai/video/18ee8777876348afa2f9699122868c64/original.mp4) |
 | 10 «60 secondi con…» – teaser della rubrica | gio 21/1 18:15 | [apri](https://resource2.heygen.ai/video/34e89b9198e541fabc2394f1998d37b9/original.mp4) |
 | 11 «Prima e dopo» | gio 28/1 18:15 | [apri](https://resource2.heygen.ai/video/409c7ac5d51a46ca901870a9226611b7/original.mp4) |
+| 14 «Corsia News» | mer 11/11 08:30 | [apri](https://resource2.heygen.ai/video/6cdb5b93f3554178be1981d1a32a9730/original.mp4) |
 
 ## PDRO · Convenzioni CISL FP (provinciale)
 

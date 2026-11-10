@@ -1047,6 +1047,19 @@ ANIM[V11].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema',
                   'S03': _OV([P('s03_prima', ['slideL', 'prima', 0.35], fx=[['trema', 'prima+0.35', 'prima+0.8', 5]]), P('s03_dopo', ['slideU', 'dopo', 0.4])])})
 EPISODI[V11]['S04'], ANIM[V11]['S04'] = _chiusa('S04', 6.6)
 
+
+# ---- 20 format, quarta tornata (10/11): 12-17. Livelli di ../venti/strati_v5.mjs. 14 Corsia News: telegiornale.
+V14 = 'pdro-20f-14-corsia-news'
+EPISODI.setdefault(V14, {}); ANIM.setdefault(V14, {})
+EPISODI[V14].update({'S01': _ov('scrim', ['banda', 'live', 's01_titolo']), 'S02': _ov('scrim', ['banda', 'live', 'n1', 'n2']),
+                     'S03': _ov('scrim', ['banda', 'live', 'n3'])})
+_fissi = lambda: [P('banda', ['fade', 0.0, 0.01]), P('live', ['fade', 0.0, 0.01], fx=[['pulsa', 0.0, 12.0, 0.06]])]
+ANIM[V14].update({'S01': _OV([P('banda', ['slideL', 0.05, 0.4]), P('live', ['pop', 0.3, 0.3], fx=[['pulsa', 0.6, 6.0, 0.06]]),
+                              P('s01_titolo', ['slam', 0.1, 0.3], fx=[['trema', 0.4, 0.9, 6]])]),
+                  'S02': _OV(_fissi() + [P('n1', ['slideL', 0.1, 0.35], ['fade', 'seconda-0.25', 0.2]), P('n2', ['slideL', 'seconda', 0.35])]),
+                  'S03': _OV(_fissi() + [P('n3', ['slam', 0.1, 0.3], fx=[['trema', 0.4, 1.0, 9]])])})
+EPISODI[V14]['S04'], ANIM[V14]['S04'] = _chiusa('S04', 6.5)
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():
