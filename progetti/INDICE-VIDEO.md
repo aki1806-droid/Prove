@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**171 video** in 15 sezioni.
+**173 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -269,11 +269,13 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 09 «Primo giorno in ospedale» | gio 14/1 18:15 | [apri](https://resource2.heygen.ai/video/18ee8777876348afa2f9699122868c64/original.mp4) |
 | 10 «60 secondi con…» – teaser della rubrica | gio 21/1 18:15 | [apri](https://resource2.heygen.ai/video/34e89b9198e541fabc2394f1998d37b9/original.mp4) |
 | 11 «Prima e dopo» | gio 28/1 18:15 | [apri](https://resource2.heygen.ai/video/409c7ac5d51a46ca901870a9226611b7/original.mp4) |
+| 12 «Spiegato a mia nonna» |  | [apri](https://resource2.heygen.ai/video/6041e9435a7e4bdd93d83082fbab6df1/original.mp4) |
 | 13 «Il dizionario della corsia» – montaggio unico |  | [apri](https://resource2.heygen.ai/video/5d10d9d9cee048e59458ef90b189129d/original.mp4) |
 | 13 · Episodio A «Arretrati» |  | [apri](https://resource2.heygen.ai/video/e732561483ca4c5b99dd3233756d8e2c/original.mp4) |
 | 13 · Episodio B «Busta paga» |  | [apri](https://resource2.heygen.ai/video/26217c65c1be44038f955d3184de6201/original.mp4) |
 | 13 · Episodio C «Colpa grave» |  | [apri](https://resource2.heygen.ai/video/09fec093cd1148e08e3a9a2e7bee4abe/original.mp4) |
 | 14 «Corsia News» | mer 11/11 08:30 | [apri](https://resource2.heygen.ai/video/6cdb5b93f3554178be1981d1a32a9730/original.mp4) |
+| 15 «Reparto 7» – ep. 1 «Il cambio turno» |  | [apri](https://resource2.heygen.ai/video/a8abd26244da4a468325f98f6e191745/original.mp4) |
 | 16 «I veterani reagiscono» – teaser |  | [apri](https://resource2.heygen.ai/video/19d5a259a287483bb49d01116fc3aff8/original.mp4) |
 | 17 «Indovina il reparto» |  | [apri](https://resource2.heygen.ai/video/dc003805161c49b0a16a24a1fee4fbc8/original.mp4) |
 
