@@ -55,6 +55,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mar 1/12 12:30 | Convenzioni 6 · «Una giornata a sconto – acquisti» | 4 canali AOUP (testo provinciale) |
 | mar 1/12 18:15 | Calendario dei diritti · Casella 1 «Riposo giornaliero» | 4 canali AOUP |
 | mer 2/12 18:15 | Calendario dei diritti · Casella 2 «Riposo settimanale» | 4 canali AOUP |
+| gio 3/12 12:30 | 20 format · 05 «ASMR del cedolino» | 4 canali AOUP |
 | gio 3/12 18:15 | Calendario dei diritti · Casella 3 «Orario massimo» | 4 canali AOUP |
 | ven 4/12 12:30 | Convenzioni 7 · «Il terrore digitale – SPID e PEC» | 4 canali AOUP (testo provinciale) |
 | ven 4/12 18:15 | Calendario dei diritti · Casella 4 «Ferie» | 4 canali AOUP |
@@ -64,6 +65,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mar 8/12 12:30 | Convenzioni 8 · «Quanto vale una tessera?» | 4 canali AOUP (testo provinciale) |
 | mar 8/12 18:15 | Calendario dei diritti · Casella 8 «Congedo di paternità» | 4 canali AOUP |
 | mer 9/12 18:15 | Calendario dei diritti · Casella 9 «Allattamento» | 4 canali AOUP |
+| gio 10/12 12:30 | 20 format · 06 «La classifica dei turni» | 4 canali AOUP |
 | gio 10/12 18:15 | Calendario dei diritti · Casella 10 «Malattia» | 4 canali AOUP |
 | ven 11/12 18:15 | Calendario dei diritti · Casella 11 «Visite ed esami» | 4 canali AOUP |
 | sab 12/12 18:15 | Calendario dei diritti · Casella 12 «Lutto» | 4 canali AOUP |
@@ -71,6 +73,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | lun 14/12 18:15 | Calendario dei diritti · Casella 14 «Donazione di sangue» | 4 canali AOUP |
 | mar 15/12 18:15 | Calendario dei diritti · Casella 15 «Assemblea» | 4 canali AOUP |
 | mer 16/12 18:15 | Calendario dei diritti · Casella 16 «Affissione» | 4 canali AOUP |
+| gio 17/12 12:30 | 20 format · 07 «Il tuo anno in corsia» | 4 canali AOUP |
 | gio 17/12 18:15 | Calendario dei diritti · Casella 17 «Libertà di opinione» | 4 canali AOUP |
 | ven 18/12 18:15 | Calendario dei diritti · Casella 18 «Niente discriminazioni» | 4 canali AOUP |
 | sab 19/12 18:15 | Calendario dei diritti · Casella 19 «Dispositivi di protezione» | 4 canali AOUP |
@@ -80,6 +83,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mer 23/12 18:15 | Calendario dei diritti · Casella 23 «Formazione» | 4 canali AOUP |
 | gio 24/12 18:15 | Calendario dei diritti · Casella 24 «Tredicesima» | 4 canali AOUP |
 | ven 25/12 10:15 | Calendario dei diritti · Finale «Buone feste» con Achille | 4 canali AOUP |
+| gio 7/1 18:15 | 20 format · 08 «Il microfono in corsia» | 4 canali AOUP |
 
 ## Eredità Invisibili
 
@@ -254,10 +258,10 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 04 · Casella 23 (23 dicembre) | mer 23/12 18:15 | [apri](https://resource2.heygen.ai/video/615a3406f37c4dec8d92c910c8eccb50/original.mp4) |
 | 04 · Casella 24 (24 dicembre) | gio 24/12 18:15 | [apri](https://resource2.heygen.ai/video/c85683fd6ee0459a917a522c9d3cc8a2/original.mp4) |
 | 04 · Finale «Buone feste» con Achille (25 dicembre) | ven 25/12 10:15 | [apri](https://resource2.heygen.ai/video/01cabf6d3b6544259ae02d3978631df2/original.mp4) |
-| 05 «ASMR del cedolino» |  | [apri](https://resource2.heygen.ai/video/ee0ea1bc022043a69b57b042c2d0511a/original.mp4) |
-| 06 «La classifica dei turni» |  | [apri](https://resource2.heygen.ai/video/55636d5ef7d24c838abb2b88eb336dbe/original.mp4) |
-| 07 «Il tuo anno in corsia» |  | [apri](https://resource2.heygen.ai/video/88222cda40aa4d8688c8c5c1623e2f36/original.mp4) |
-| 08 «Il microfono in corsia» |  | [apri](https://resource2.heygen.ai/video/35d077beac2f4790a1c25c180ae6db13/original.mp4) |
+| 05 «ASMR del cedolino» | gio 3/12 12:30 | [apri](https://resource2.heygen.ai/video/ee0ea1bc022043a69b57b042c2d0511a/original.mp4) |
+| 06 «La classifica dei turni» | gio 10/12 12:30 | [apri](https://resource2.heygen.ai/video/55636d5ef7d24c838abb2b88eb336dbe/original.mp4) |
+| 07 «Il tuo anno in corsia» | gio 17/12 12:30 | [apri](https://resource2.heygen.ai/video/88222cda40aa4d8688c8c5c1623e2f36/original.mp4) |
+| 08 «Il microfono in corsia» | gio 7/1 18:15 | [apri](https://resource2.heygen.ai/video/35d077beac2f4790a1c25c180ae6db13/original.mp4) |
 
 ## PDRO · Convenzioni CISL FP (provinciale)
 

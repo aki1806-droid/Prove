@@ -22,4 +22,4 @@ Clip: infermiera sfinita contro il muro (S01), smonto notte nel traffico (S02), 
 (il caricamento dal connettore rispondeva «Not Found»).
 
 ## Pubblicazione
-- Da fare: OK di Achille → Robin sui 4 canali AOUP.
+- Robin (Achille 10/11 «Programma tutto»): post 1158277, gio 10/12/2026 12:30, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

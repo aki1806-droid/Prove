@@ -22,4 +22,4 @@ Versione di fantasia (Achille 9/11: «Fai una cosa inventata»; chiusura cambiat
 (il caricamento dal connettore rispondeva «Not Found»).
 
 ## Pubblicazione
-- Da fare: OK di Achille → Robin sui 4 canali AOUP.
+- Robin (Achille 10/11 «Programma tutto»): post 1158279, gio 7/1/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

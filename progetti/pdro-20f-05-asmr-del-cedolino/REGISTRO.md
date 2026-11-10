@@ -22,4 +22,4 @@ Clip: lume di candela, tè e busta paga (S01), dito sulle colonne e calendario d
 (il caricamento dal connettore rispondeva «Not Found»).
 
 ## Pubblicazione
-- Da fare: OK di Achille → Robin sui 4 canali AOUP.
+- Robin (Achille 10/11 «Programma tutto»): post 1158276, gio 3/12/2026 12:30, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.

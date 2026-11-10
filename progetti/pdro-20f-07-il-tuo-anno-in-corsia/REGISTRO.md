@@ -22,4 +22,4 @@ Clip: infermiera che avanza nel corridoio viola (S01), caffè delle 4 col campan
 (il caricamento dal connettore rispondeva «Not Found»).
 
 ## Pubblicazione
-- Da fare: OK di Achille → Robin sui 4 canali AOUP.
+- Robin (Achille 10/11 «Programma tutto»): post 1158278, gio 17/12/2026 12:30, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.
