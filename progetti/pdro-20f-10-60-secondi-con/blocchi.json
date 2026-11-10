@@ -1,0 +1,66 @@
+{
+  "progetto": "PDRO_20F_10_60_secondi_con",
+  "titolo": "60 secondi con... (v2)",
+  "identita": "CISL FP Padova Rovigo",
+  "serie": "20 format attrattivi",
+  "numero_elenco": 10,
+  "formato": "9:16 1080x1920",
+  "voci": {
+    "narratore": "HeyGen · voce \"Luca Ward\"",
+    "achille": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\""
+  },
+  "scene": [
+    {
+      "n": 1,
+      "titolo": "Hook",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Sessanta secondi con le persone che ci mettono la faccia, ogni giorno.",
+      "parole": 12,
+      "durata_stimata_s": 4.8,
+      "grafiche": [
+        "grafiche/S01A.png"
+      ],
+      "clip": null,
+      "regia": "Countdown 60→0 sempre visibile in alto a destra."
+    },
+    {
+      "n": 2,
+      "titolo": "Domande lampo",
+      "tipo": "GRAFICA",
+      "voce_tipo": "narratore",
+      "voce_motore": "HeyGen · voce \"Luca Ward\"",
+      "avatar": false,
+      "illustrazione": null,
+      "voce": "Cinque domande lampo, risposte senza filtri. Perché fai la delegata? E il caffè, come lo prendi?",
+      "parole": 16,
+      "durata_stimata_s": 6.6,
+      "grafiche": [
+        "grafiche/S02A.png",
+        "grafiche/S02B.png"
+      ],
+      "clip": null,
+      "regia": "RIPRESE REALI (SHOT_LIST.md) tra i cartelli; sottopancia con nome e reparto."
+    },
+    {
+      "n": 3,
+      "titolo": "Chiusura Achille",
+      "tipo": "GRAFICA + AVATAR",
+      "voce_tipo": "achille",
+      "voce_motore": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) con avatar HeyGen \"Aki with a lapel microphone\"",
+      "avatar": true,
+      "illustrazione": null,
+      "voce": "Dietro la CISL FP ci sono persone vere, nei reparti, ogni giorno. Ogni settimana ne conoscerai una. CISL FP Padova Rovigo.",
+      "parole": 21,
+      "durata_stimata_s": 7.5,
+      "grafiche": [
+        "grafiche/S03A.png"
+      ],
+      "clip": null,
+      "regia": "Avatar «Aki with a lapel microphone» in basso a destra; contatti a schermo."
+    }
+  ]
+}

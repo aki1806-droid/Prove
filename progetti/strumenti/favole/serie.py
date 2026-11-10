@@ -1012,6 +1012,41 @@ ANIM[V8].update({
     'S03': _OV([P('fantasia', ['fade', 0.0, 0.01]), P('s03_dom', ['slam', 0.05, 0.3]), *_R('s03', 4.6)]),
     'S04': pieno([], camera=[[0, 1.06, 540, 900], [9, 1.0, 540, 960]])})
 
+
+# ---- 20 format, terza tornata (10/11): 09 Primo giorno in ospedale, 10 «60 secondi con…» (teaser, nessuna persona), 11 Prima e
+# dopo. Clip HeyGen sotto, livelli di ../venti/strati_v4.mjs sopra; chiusure con la grafica intera del pacchetto e l'avatar.
+V9, V10, V11 = 'pdro-20f-09-primo-giorno-in-ospedale', 'pdro-20f-10-60-secondi-con', 'pdro-20f-11-prima-e-dopo'
+for _pg in (V9, V10, V11):
+    EPISODI.setdefault(_pg, {}); ANIM.setdefault(_pg, {})
+
+
+def _chiusa(sid, durata):
+    return {'base': f'grafiche/{sid}A.png', 'pezzi': []}, pieno([], camera=[[0, 1.06, 540, 900], [durata, 1.0, 540, 960]])
+
+
+def _uno_alla_volta(nomi, tempi):
+    return [P(n, ['slideL', t, 0.35], ['fade', f'{tempi[k + 1]}-0.2' if isinstance(tempi[k + 1], str) else tempi[k + 1] - 0.2, 0.15]
+              if k + 1 < len(nomi) else None, fx=[['trema', f'{t}+0.35' if isinstance(t, str) else t + 0.35,
+                                                    f'{t}+0.7' if isinstance(t, str) else t + 0.7, 4]]) for k, (n, t) in enumerate(zip(nomi, tempi))]
+
+
+EPISODI[V9].update({'S01': _ov('scrim', ['s01_titolo']), 'S02': _ov('scrim', ['n1', 'n2', 'n3']), 'S03': _ov('scrim', ['n4', 'n5', 'n6'])})
+ANIM[V9].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]])]),
+                 'S02': _OV(_uno_alla_volta(['n1', 'n2', 'n3'], [0.1, 'due', 'tre'])),
+                 'S03': _OV(_uno_alla_volta(['n4', 'n5', 'n6'], [0.1, 'cinque', 'sei']))})
+EPISODI[V9]['S04'], ANIM[V9]['S04'] = _chiusa('S04', 10)
+EPISODI[V10].update({'S01': _ov('scrim', ['crono', 's01_titolo']), 'S02': _ov('scrim', ['crono', 's02_tit', 'd1', 'd2', 'd3', 'd4', 'd5', 'presto'])})
+ANIM[V10].update({'S01': _OV([P('crono', ['pop', 0.05, 0.3], fx=[['pulsa', 0.4, 4.6, 0.05]]), P('s01_titolo', ['slam', 0.2, 0.3], fx=[['trema', 0.5, 0.9, 6]])]),
+                  'S02': _OV([P('crono', ['fade', 0.0, 0.01], fx=[['pulsa', 0.0, 11.5, 0.05]]), P('s02_tit', ['slam', 0.05, 0.3]),
+                              P('d1', ['pop', 'perche', 0.3]), P('d2', ['pop', 'caffe', 0.3]), P('d3', ['pop', 7.3, 0.3]),
+                              P('d4', ['pop', 8.4, 0.3]), P('d5', ['pop', 9.5, 0.3]), P('presto', ['slam', 10.6, 0.3])])})
+EPISODI[V10]['S03'], ANIM[V10]['S03'] = _chiusa('S03', 8.4)
+EPISODI[V11].update({'S01': _ov('scrim', ['s01_titolo']), 'S02': _ov('scrim', ['s02_prima', 's02_dopo']), 'S03': _ov('scrim', ['s03_prima', 's03_dopo'])})
+ANIM[V11].update({'S01': _OV([P('s01_titolo', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]])]),
+                  'S02': _OV([P('s02_prima', ['slideL', 'prima', 0.35], fx=[['trema', 'prima+0.35', 'prima+0.8', 5]]), P('s02_dopo', ['slideU', 'dopo', 0.4])]),
+                  'S03': _OV([P('s03_prima', ['slideL', 'prima', 0.35], fx=[['trema', 'prima+0.35', 'prima+0.8', 5]]), P('s03_dopo', ['slideU', 'dopo', 0.4])])})
+EPISODI[V11]['S04'], ANIM[V11]['S04'] = _chiusa('S04', 6.6)
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

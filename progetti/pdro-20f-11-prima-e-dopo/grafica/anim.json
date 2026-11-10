@@ -1,0 +1,123 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s01_titolo",
+"in": [
+"slam",
+0.05,
+0.3
+],
+"fx": [
+[
+"trema",
+0.35,
+0.8,
+6
+]
+]
+}
+]
+},
+"S02": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s02_prima",
+"in": [
+"slideL",
+"prima",
+0.35
+],
+"fx": [
+[
+"trema",
+"prima+0.35",
+"prima+0.8",
+5
+]
+]
+},
+{
+"p": "s02_dopo",
+"in": [
+"slideU",
+"dopo",
+0.4
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s03_prima",
+"in": [
+"slideL",
+"prima",
+0.35
+],
+"fx": [
+[
+"trema",
+"prima+0.35",
+"prima+0.8",
+5
+]
+]
+},
+{
+"p": "s03_dopo",
+"in": [
+"slideU",
+"dopo",
+0.4
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [],
+"camera": [
+[
+0,
+1.06,
+540,
+900
+],
+[
+6.6,
+1.0,
+540,
+960
+]
+]
+}
+}
