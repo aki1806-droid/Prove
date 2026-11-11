@@ -95,6 +95,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | gio 4/3 18:15 | 20 format · 15 «Reparto 7» – ep. 1 | 4 canali AOUP |
 | gio 11/3 18:15 | 20 format · 16 «I veterani reagiscono» (teaser) | 4 canali AOUP |
 | gio 18/3 18:15 | 20 format · 17 «Indovina il reparto» | 4 canali AOUP |
+| gio 25/3 18:15 | 20 format · 15 «Reparto 7» – ep. 2 «Le ferie» | 4 canali AOUP |
 
 ## Eredità Invisibili
 
@@ -283,7 +284,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 13 · Episodio C «Colpa grave» | gio 25/2 18:15 | [apri](https://resource2.heygen.ai/video/09fec093cd1148e08e3a9a2e7bee4abe/original.mp4) |
 | 14 «Corsia News» | mer 11/11 08:30 | [apri](https://resource2.heygen.ai/video/6cdb5b93f3554178be1981d1a32a9730/original.mp4) |
 | 15 «Reparto 7» – ep. 1 «Il cambio turno» | gio 4/3 18:15 | [apri](https://resource2.heygen.ai/video/a8abd26244da4a468325f98f6e191745/original.mp4) |
-| 15 «Reparto 7» – ep. 2 «Le ferie» |  | [apri](https://resource2.heygen.ai/video/d03e5bc19da74fc48e54e369c7bb5588/original.mp4) |
+| 15 «Reparto 7» – ep. 2 «Le ferie» | gio 25/3 18:15 | [apri](https://resource2.heygen.ai/video/d03e5bc19da74fc48e54e369c7bb5588/original.mp4) |
 | 16 «I veterani reagiscono» – teaser | gio 11/3 18:15 | [apri](https://resource2.heygen.ai/video/19d5a259a287483bb49d01116fc3aff8/original.mp4) |
 | 17 «Indovina il reparto» | gio 18/3 18:15 | [apri](https://resource2.heygen.ai/video/dc003805161c49b0a16a24a1fee4fbc8/original.mp4) |
 

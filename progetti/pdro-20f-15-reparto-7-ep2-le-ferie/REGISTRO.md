@@ -27,4 +27,4 @@ Musica mus_sindamatch bassa, boing dopo «tesoro» (suoni.py ferie20). −16,6 L
 PDRO_20F_15_Reparto_7_ep2_Le_ferie_9x16 · 41,6 s · asset HeyGen d03e5bc19da74fc48e54e369c7bb5588 (https://resource2.heygen.ai/video/d03e5bc19da74fc48e54e369c7bb5588/original.mp4).
 
 ## Pubblicazione
-- Robin: da programmare dopo l'OK di Achille (proposta: gio 25/3/2027 18:15).
+- Robin: post 1161963, gio 25/3/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp (OK di Achille 11/11).
