@@ -1,5 +1,5 @@
 // 20 format attrattivi, quarta tornata (10/11): livelli 1080x1920 sopra le clip HeyGen per 12-17. Stile di strati_v4.mjs.
-//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono; senza argomenti tutte)
+//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie; senza argomenti tutte)
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -120,6 +120,16 @@ P.sitcom = ['pdro-20f-15-reparto-7-sitcom', { scrim: scrim(.35),
   f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', 'Chi ha cambiato la domenica senza dirmelo?!'),
   f_giulia: fum(640, 'dx', 'GIULIA · CISL FP', '#0f8a43', 'Il cambio si concorda e si fa autorizzare.'),
   morale: `<div class="ab" style="top:1000px;text-align:center"><span class="pill" style="font-size:52px">morale: così tutti sono in regola</span></div>`,
+}];
+// ---- Reparto 7 ep. 2 «Le ferie» (testo di Claude approvato da Achille l'11/11)
+P.ferie = ['pdro-20f-15-reparto-7-ep2-le-ferie', { scrim: scrim(.35),
+  sigla: `<div class="ep"><b>REPARTO 7</b><i>ep. 2 · le ferie</i></div>`,
+  t_marco: tag('MARCO', 'ha già prenotato il mare'), t_rosa: tag('ROSA', 'ha già le valigie'), t_coord: tag('COORDINATRICE', 'al telefono'),
+  f_marco: fum(330, 'dx', 'MARCO', '#1565c0', 'Due settimane ad agosto! Il piano ferie? Lo chiedo dopo.'),
+  f_rosa: fum(660, 'sx', 'ROSA', '#c2185b', 'Dopo? Le ferie si chiedono per tempo, tesoro.'),
+  f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', 'Mi manca uno a Ferragosto. Ti richiamo dalle ferie?'),
+  f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', "Chieste per tempo: due settimane di fila d'estate."),
+  morale: `<div class="ab" style="top:1030px;text-align:center"><span class="pill" style="font-size:38px">richiamato? il viaggio lo paga l'Azienda</span></div>`,
 }];
 const scelte = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });

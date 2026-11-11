@@ -1,0 +1,165 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "sigla",
+"in": [
+"slam",
+0.05,
+0.3
+],
+"fx": [
+[
+"trema",
+0.35,
+0.8,
+6
+]
+]
+},
+{
+"p": "t_marco",
+"in": [
+"slideL",
+"marco",
+0.3
+],
+"out": [
+"fade",
+"rosa-0.2",
+0.15
+]
+},
+{
+"p": "t_rosa",
+"in": [
+"slideL",
+"rosa",
+0.3
+],
+"out": [
+"fade",
+"la-0.2",
+0.15
+]
+},
+{
+"p": "t_coord",
+"in": [
+"slideL",
+"la",
+0.3
+]
+}
+]
+},
+"S02": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "f_marco",
+"in": [
+"pop",
+0.1,
+0.3
+]
+},
+{
+"p": "f_rosa",
+"in": [
+"pop",
+"dopo#2",
+0.3
+],
+"fx": [
+[
+"trema",
+"tesoro",
+"tesoro+0.5",
+5
+]
+]
+}
+]
+},
+"S03": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "f_coord",
+"in": [
+"pop",
+0.1,
+0.3
+],
+"fx": [
+[
+"trema",
+"richiamo",
+"richiamo+0.6",
+8
+]
+]
+},
+{
+"p": "f_giulia",
+"in": [
+"slideL",
+"arriva",
+0.35
+]
+},
+{
+"p": "morale",
+"in": [
+"slam",
+"richiamate",
+0.3
+]
+}
+]
+},
+"S04": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [],
+"camera": [
+[
+0,
+1.06,
+540,
+900
+],
+[
+6.5,
+1.0,
+540,
+960
+]
+]
+}
+}
