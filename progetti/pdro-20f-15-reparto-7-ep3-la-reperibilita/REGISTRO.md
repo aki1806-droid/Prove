@@ -26,4 +26,4 @@ Livelli strati_v5.mjs reper; chiusura chiusa_r7.mjs «Prossimo episodio: i perme
 PDRO_20F_15_Reparto_7_ep3_La_reperibilita_9x16 · 44,2 s · asset HeyGen 10e3125dafb446fa8375a42e7aa37161 (https://resource2.heygen.ai/video/10e3125dafb446fa8375a42e7aa37161/original.mp4).
 
 ## Pubblicazione
-- Robin: da programmare dopo l'OK di Achille (proposta: gio 1/4/2027 18:15).
+- Robin: post 1163358, gio 1/4/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp (OK di Achille 11/11).
