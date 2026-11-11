@@ -13,7 +13,7 @@ from voci import blocchi, taglia, ff, dur, PR  # noqa: E402
 VOCI = {'ward': 'e4bd8d8a357f41a99502309874733c16', 'achille': '9b851842ce54449fb9ff501751ca0271', 'nonna': 'QD0T9jWnOtSiLp7pynGA',
         'nipote': 'zQDTlelC5IkNZLUKANwx', 'rosa': '0CaEdjmy45s5ORTgNRBI', 'marco': 'vw1H2Z7qp6p1pBatQwJ3', 'coord': 'NbxMtccexuT0yDzrrTij',
         'giulia': 'rW8vWrZJH2sxKav7WJVV'}
-PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie'}
+PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita'}
 SCENE = {
     'nonna': [[('nipote', 'Se lo capisce mia nonna, lo capisci anche tu. Oggi: il fondo pensione.')],
               [('nonna', "E cos'è questo Perseo?"),
@@ -31,8 +31,15 @@ SCENE = {
               [('marco', 'Rosa, ho prenotato due settimane ad agosto. Il piano ferie? Lo chiedo dopo.'),
                ('rosa', 'Dopo? Le ferie si chiedono per tempo, tesoro.')],
               [('coord', 'Marco, mi manca uno a Ferragosto. Ti richiamo dalle ferie?'), ('ward', 'Arriva Giulia:'),
-               ('giulia', "Se le chiede per tempo, due settimane di fila d'estate gli spettano. E se lo richiamate, il viaggio lo paga l'Azienda.")],
-              [('achille', 'Le tue ferie le hai già chieste? Se hai dubbi sul piano ferie, parliamone. CISL FP Padova Rovigo.')]]}
+               ('giulia', "Se le chiede, quindici giorni lavorativi di fila d'estate gli spettano. E se lo richiamate, il viaggio glielo rimborsa l'Azienda.")],
+              [('achille', 'Le tue ferie le hai già chieste? Se hai dubbi sul piano ferie, parliamone. CISL FP Padova Rovigo.')]],
+    # Reparto 7 ep. 3 (testo di Claude verificato sul CCNL, art. 31, approvato da Achille l'11/11)
+    'reper': [[('ward', "Reparto sette, episodio tre: la reperibilità. Marco è di turno, ma da casa. Rosa ne ha già fatte troppe. E la coordinatrice? Al telefono, ovviamente.")],
+              [('marco', 'Rosa, ero reperibile e mi hanno chiamato alle tre di notte. Ma quelle ore chi me le paga?'),
+               ('rosa', 'Se ti chiamano e lavori, tesoro, non è un favore.')],
+              [('coord', "Rosa, mi copri un'altra reperibilità? Sarebbe l'ottava questo mese."), ('ward', 'Arriva Giulia:'),
+               ('giulia', 'Non più di sette al mese. E se ti chiamano, le ore lavorate si pagano come straordinario, o si recuperano.')],
+              [('achille', 'Le tue reperibilità ti tornano? Se hai dubbi su turni o pagamenti, parliamone. CISL FP Padova Rovigo.')]]}
 # quali puntate: argomento 2 (es. «ferie»); senza, le prime due. Le tracce di ogni gruppo hanno un suffisso proprio.
 KK = tuple(sys.argv[2].split(',')) if len(sys.argv) > 2 else ('nonna', 'sitcom')
 SUF = '' if KK == ('nonna', 'sitcom') else '-' + '-'.join(KK)
@@ -52,7 +59,9 @@ def battute():
 if __name__ == '__main__':
     if sys.argv[1] == 'scarica':
         from heygen_api import voce
+        solo = os.environ.get('SOLO', '').split(',') if os.environ.get('SOLO') else None   # rifà solo questi personaggi
         for chi, tt in battute().items():
+            if solo and chi not in solo: continue
             f = f'{QUI}/{chi}-dlg{SUF}-testo.txt'; open(f, 'w').write(B.join(tt))
             voce(VOCI[chi], f, f'{QUI}/{chi}-dlg{SUF}')
     else:

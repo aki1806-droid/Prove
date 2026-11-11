@@ -12,11 +12,12 @@ Testo scritto da Claude e approvato da Achille l'11/11/2026 («Vai»). Stessi pe
 ### SCENA 3 · Il colpo di scena
 > **Coordinatrice:** Marco, mi manca uno a Ferragosto. Ti richiamo dalle ferie?
 > **Narratore:** Arriva Giulia:
-> **Giulia:** Se le chiede per tempo, due settimane di fila d'estate gli spettano. E se lo richiamate, il viaggio lo paga l'Azienda.
+> **Giulia:** Se le chiede, quindici giorni lavorativi di fila d'estate gli spettano. E se lo richiamate, il viaggio glielo rimborsa l'Azienda.
 
 ### SCENA 4 · Chiusura Achille (avatar in basso a destra, contatti AOUP)
 > Le tue ferie le hai già chieste? Se hai dubbi sul piano ferie, parliamone. CISL FP Padova Rovigo.
 Grafica finale: «Prossimo episodio: la reperibilità.»
 
-Fonte delle due regole di Giulia (da riscontrare sul CCNL Comparto Sanità): almeno due settimane continuative tra il 1° giugno
-e il 30 settembre se richieste; ferie interrotte per servizio: rimborso del viaggio di rientro e di ritorno.
+Verificato l'11/11 sul CCNL Comparto Sanità 2022-2024 (27/10/2025), art. 35: comma 12, a chi lo chiede almeno quindici giorni
+lavorativi continuativi tra il 1° giugno e il 30 settembre; comma 13, ferie interrotte per servizio: rimborso delle spese
+documentate di viaggio. Battuta di Giulia corretta di conseguenza (prima diceva «due settimane» e «lo paga»), OK di Achille 11/11.

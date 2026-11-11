@@ -1,5 +1,5 @@
 // 20 format attrattivi, quarta tornata (10/11): livelli 1080x1920 sopra le clip HeyGen per 12-17. Stile di strati_v4.mjs.
-//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie; senza argomenti tutte)
+//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie reper; senza argomenti tutte)
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -128,8 +128,18 @@ P.ferie = ['pdro-20f-15-reparto-7-ep2-le-ferie', { scrim: scrim(.35),
   f_marco: fum(330, 'dx', 'MARCO', '#1565c0', 'Due settimane ad agosto! Il piano ferie? Lo chiedo dopo.'),
   f_rosa: fum(660, 'sx', 'ROSA', '#c2185b', 'Dopo? Le ferie si chiedono per tempo, tesoro.'),
   f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', 'Mi manca uno a Ferragosto. Ti richiamo dalle ferie?'),
-  f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', "Chieste per tempo: due settimane di fila d'estate."),
-  morale: `<div class="ab" style="top:1030px;text-align:center"><span class="pill" style="font-size:38px">richiamato? il viaggio lo paga l'Azienda</span></div>`,
+  f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', 'Se le chiede: 15 giorni lavorativi di fila d\'estate.'),
+  morale: `<div class="ab" style="top:1030px;text-align:center"><span class="pill" style="font-size:38px">richiamato? il viaggio lo rimborsa l'Azienda</span></div>`,
+}];
+// ---- Reparto 7 ep. 3 «La reperibilità» (CCNL Comparto Sanità 2022-2024 art. 31; OK di Achille 11/11)
+P.reper = ['pdro-20f-15-reparto-7-ep3-la-reperibilita', { scrim: scrim(.35),
+  sigla: `<div class="ep"><b>REPARTO 7</b><i>ep. 3 · la reperibilità</i></div>`,
+  t_marco: tag('MARCO', 'reperibile, da casa'), t_rosa: tag('ROSA', 'ne ha fatte troppe'), t_coord: tag('COORDINATRICE', 'al telefono'),
+  f_marco: fum(330, 'dx', 'MARCO', '#1565c0', 'Chiamato alle 3 di notte… chi me le paga quelle ore?'),
+  f_rosa: fum(660, 'sx', 'ROSA', '#c2185b', 'Se ti chiamano e lavori, non è un favore, tesoro.'),
+  f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', "Mi copri un'altra reperibilità? Sarebbe l'ottava…"),
+  f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', 'Non più di 7 al mese.'),
+  morale: `<div class="ab" style="top:1000px;text-align:center"><span class="pill" style="font-size:42px">chiamato? straordinario o recupero</span></div>`,
 }];
 const scelte = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
