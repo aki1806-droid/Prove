@@ -15,6 +15,17 @@ In due righe: avatar mai scontornato e mai coperto da grafiche, e molte slide
 a piena inquadratura — una per ogni concetto e per ogni elenco, non solo per
 le frasi chiave.
 
+## HeyGen: connettore o chiave API — si chiede sempre
+
+Prima di ogni lavoro con HeyGen va chiesto ad Achille anche se usare il
+**connettore** o la **chiave API** (regola dal 26/10/2026). Con la chiave si usa
+`node strumenti/heygen/heygen_api.mjs <comando>` (guida in
+`strumenti/heygen/LEGGIMI.md`): stesse operazioni del connettore, ma si paga dal
+portafoglio in dollari, quindi va detto il saldo (`… utente`) e la spesa
+stimata. La chiave non è nel repo (pubblico): si legge dalla variabile
+d'ambiente `HEYGEN_API_KEY` dell'ambiente cloud. Se manca, chiederla ad Achille
+di impostarla su claude.ai/code, mai incollarla in un file del repo.
+
 ## La voce non ha più una risposta sola: si chiede
 
 **Ogni volta che si propone o si comincia un video, PRIMA di generare
