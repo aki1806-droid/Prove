@@ -97,6 +97,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | gio 18/3 18:15 | 20 format · 17 «Indovina il reparto» | 4 canali AOUP |
 | gio 25/3 18:15 | 20 format · 15 «Reparto 7» – ep. 2 «Le ferie» | 4 canali AOUP |
 | gio 1/4 18:15 | 20 format · 15 «Reparto 7» – ep. 3 «La reperibilità» | 4 canali AOUP |
+| gio 8/4 18:15 | 20 format · 15 «Reparto 7» – ep. 4 «I permessi» | 4 canali AOUP |
 
 ## Eredità Invisibili
 
@@ -287,7 +288,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 15 «Reparto 7» – ep. 1 «Il cambio turno» | gio 4/3 18:15 | [apri](https://resource2.heygen.ai/video/a8abd26244da4a468325f98f6e191745/original.mp4) |
 | 15 «Reparto 7» – ep. 2 «Le ferie» | gio 25/3 18:15 | [apri](https://resource2.heygen.ai/video/c688b7f4919f43f08c8b66d845ba1b0a/original.mp4) |
 | 15 «Reparto 7» – ep. 3 «La reperibilità» | gio 1/4 18:15 | [apri](https://resource2.heygen.ai/video/10e3125dafb446fa8375a42e7aa37161/original.mp4) |
-| 15 «Reparto 7» – ep. 4 «I permessi» |  | [apri](https://resource2.heygen.ai/video/9fc4d454671e407081323ff4d650d170/original.mp4) |
+| 15 «Reparto 7» – ep. 4 «I permessi» | gio 8/4 18:15 | [apri](https://resource2.heygen.ai/video/9fc4d454671e407081323ff4d650d170/original.mp4) |
 | 16 «I veterani reagiscono» – teaser | gio 11/3 18:15 | [apri](https://resource2.heygen.ai/video/19d5a259a287483bb49d01116fc3aff8/original.mp4) |
 | 17 «Indovina il reparto» | gio 18/3 18:15 | [apri](https://resource2.heygen.ai/video/dc003805161c49b0a16a24a1fee4fbc8/original.mp4) |
 

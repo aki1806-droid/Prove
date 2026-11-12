@@ -26,4 +26,4 @@ Livelli strati_v5.mjs perm; chiusura chiusa_r7.mjs «Prossimo episodio: la forma
 PDRO_20F_15_Reparto_7_ep4_I_permessi_9x16 · 43,7 s · asset HeyGen 9fc4d454671e407081323ff4d650d170 (https://resource2.heygen.ai/video/9fc4d454671e407081323ff4d650d170/original.mp4).
 
 ## Pubblicazione
-- Robin: da programmare dopo l'OK di Achille (proposta: gio 8/4/2027 18:15).
+- Robin: post 1171257, gio 8/4/2027 18:15, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp (OK di Achille 12/11).
