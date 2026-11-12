@@ -1,5 +1,5 @@
 // 20 format attrattivi, quarta tornata (10/11): livelli 1080x1920 sopra le clip HeyGen per 12-17. Stile di strati_v4.mjs.
-//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie reper; senza argomenti tutte)
+//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie reper perm; senza argomenti tutte)
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -140,6 +140,16 @@ P.reper = ['pdro-20f-15-reparto-7-ep3-la-reperibilita', { scrim: scrim(.35),
   f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', "Mi copri un'altra reperibilità? Sarebbe l'ottava…"),
   f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', 'Non più di 7 al mese.'),
   morale: `<div class="ab" style="top:1000px;text-align:center"><span class="pill" style="font-size:42px">chiamato? straordinario o recupero</span></div>`,
+}];
+// ---- Reparto 7 ep. 4 «I permessi» (CCNL 2.11.2022 art. 51; OK di Achille 12/11)
+P.perm = ['pdro-20f-15-reparto-7-ep4-i-permessi', { scrim: scrim(.35),
+  sigla: `<div class="ep"><b>REPARTO 7</b><i>ep. 4 · i permessi</i></div>`,
+  t_marco: tag('MARCO', 'ha una cosa sua'), t_rosa: tag('ROSA', 'conta le ore'), t_coord: tag('COORDINATRICE', 'al telefono'),
+  f_marco: fum(330, 'dx', 'MARCO', '#1565c0', 'Mi servono due ore. Devo inventarmi una scusa?'),
+  f_rosa: fum(640, 'sx', 'ROSA', '#c2185b', 'Nessuna scusa, tesoro. Basta chiederle.'),
+  f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', "Due ore di permesso? E la giustificazione dov'è?"),
+  f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', "18 ore l'anno per motivi personali. Senza giustificare."),
+  morale: `<div class="ab" style="top:1030px;text-align:center"><span class="pill" style="font-size:42px">si chiedono, se il servizio lo permette</span></div>`,
 }];
 const scelte = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });

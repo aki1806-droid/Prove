@@ -1133,6 +1133,19 @@ ANIM[V15C].update({'S01': _OV([P('sigla', ['slam', 0.05, 0.3], fx=[['trema', 0.3
                                P('morale', ['slam', 'se', 0.3])])})
 EPISODI[V15C]['S04'], ANIM[V15C]['S04'] = _chiusa('S04', 6.9)
 
+# Reparto 7 ep. 4 «I permessi»
+V15D = 'pdro-20f-15-reparto-7-ep4-i-permessi'
+EPISODI.setdefault(V15D, {}); ANIM.setdefault(V15D, {})
+EPISODI[V15D].update({'S01': _ov('scrim', ['sigla', 't_marco', 't_rosa', 't_coord']), 'S02': _ov('scrim', ['f_marco', 'f_rosa']),
+                      'S03': _ov('scrim', ['f_coord', 'f_giulia', 'morale'])})
+_tags4 = [('t_marco', 'marco'), ('t_rosa', 'rosa'), ('t_coord', 'la')]
+ANIM[V15D].update({'S01': _OV([P('sigla', ['slam', 0.05, 0.3], fx=[['trema', 0.35, 0.8, 6]])] +
+                              [P(n, ['slideL', w, 0.3], ['fade', f'{_tags4[k + 1][1]}-0.2', 0.15] if k < 2 else None) for k, (n, w) in enumerate(_tags4)]),
+                   'S02': _OV([P('f_marco', ['pop', 0.1, 0.3]), P('f_rosa', ['pop', 'nessuna', 0.3], fx=[['trema', 'tesoro', 'tesoro+0.5', 5]])]),
+                   'S03': _OV([P('f_coord', ['pop', 0.1, 0.3], fx=[['trema', 'giustificazione', 'giustificazione+0.6', 8]]), P('f_giulia', ['slideL', 'arriva', 0.35]),
+                               P('morale', ['slam', 'si', 0.3])])})
+EPISODI[V15D]['S04'], ANIM[V15D]['S04'] = _chiusa('S04', 6.6)
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():

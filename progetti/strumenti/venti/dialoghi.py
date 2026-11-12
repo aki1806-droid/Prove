@@ -13,7 +13,7 @@ from voci import blocchi, taglia, ff, dur, PR  # noqa: E402
 VOCI = {'ward': 'e4bd8d8a357f41a99502309874733c16', 'achille': '9b851842ce54449fb9ff501751ca0271', 'nonna': 'QD0T9jWnOtSiLp7pynGA',
         'nipote': 'zQDTlelC5IkNZLUKANwx', 'rosa': '0CaEdjmy45s5ORTgNRBI', 'marco': 'vw1H2Z7qp6p1pBatQwJ3', 'coord': 'NbxMtccexuT0yDzrrTij',
         'giulia': 'rW8vWrZJH2sxKav7WJVV'}
-PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita'}
+PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita', 'perm': 'pdro-20f-15-reparto-7-ep4-i-permessi'}
 SCENE = {
     'nonna': [[('nipote', 'Se lo capisce mia nonna, lo capisci anche tu. Oggi: il fondo pensione.')],
               [('nonna', "E cos'è questo Perseo?"),
@@ -39,7 +39,14 @@ SCENE = {
                ('rosa', 'Se ti chiamano e lavori, tesoro, non è un favore.')],
               [('coord', "Rosa, mi copri un'altra reperibilità? Sarebbe l'ottava questo mese."), ('ward', 'Arriva Giulia:'),
                ('giulia', 'Non più di sette al mese. E se ti chiamano, le ore lavorate si pagano come straordinario, o si recuperano.')],
-              [('achille', 'Le tue reperibilità ti tornano? Se hai dubbi su turni o pagamenti, parliamone. CISL FP Padova Rovigo.')]]}
+              [('achille', 'Le tue reperibilità ti tornano? Se hai dubbi su turni o pagamenti, parliamone. CISL FP Padova Rovigo.')]],
+    # Reparto 7 ep. 4 (CCNL 2.11.2022 art. 51; approvato da Achille il 12/11)
+    'perm': [[('ward', "Reparto sette, episodio quattro: i permessi. Marco deve sbrigare una cosa sua. Rosa conta le ore. E la coordinatrice? Al telefono, come sempre.")],
+             [('marco', 'Rosa, mi servono due ore per una cosa mia. Devo inventarmi una scusa?'),
+              ('rosa', 'Nessuna scusa, tesoro. Basta chiederle.')],
+             [('coord', "Marco, due ore di permesso? E la giustificazione dov'è?"), ('ward', 'Arriva Giulia:'),
+              ('giulia', "Per motivi personali ci sono diciotto ore l'anno, senza dover giustificare niente. Si chiedono, e si concedono se il servizio lo permette.")],
+             [('achille', 'Le tue diciotto ore le conosci? Se hai dubbi sui permessi, parliamone. CISL FP Padova Rovigo.')]]}
 # quali puntate: argomento 2 (es. «ferie»); senza, le prime due. Le tracce di ogni gruppo hanno un suffisso proprio.
 KK = tuple(sys.argv[2].split(',')) if len(sys.argv) > 2 else ('nonna', 'sitcom')
 SUF = '' if KK == ('nonna', 'sitcom') else '-' + '-'.join(KK)
