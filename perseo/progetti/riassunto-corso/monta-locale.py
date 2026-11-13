@@ -7,7 +7,7 @@ from pathlib import Path
 import imageio_ffmpeg
 QUI = Path(__file__).resolve().parent
 import re as _re
-LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
+LEZIONE = "riassunto"
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 TMP = QUI/"_montaggio"; TMP.mkdir(exist_ok=True)
 sh  = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)

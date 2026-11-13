@@ -6,7 +6,7 @@ from pathlib import Path
 import imageio_ffmpeg
 QUI = Path(__file__).resolve().parent
 import re as _re
-LEZIONE = (_re.search(r"-l([\d.]+)-", QUI.name) or ["","?"])[1]
+LEZIONE = "riassunto"
 FF  = imageio_ffmpeg.get_ffmpeg_exe()
 ok = lambda b: "OK  " if b else "NO  "
 DURATA_MIN = 360   # Perseo Sirio: lezioni da 6 minuti (scelta del committente, 11 ottobre 2026)
