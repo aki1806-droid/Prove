@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**176 video** in 15 sezioni.
+**177 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -98,6 +98,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | gio 25/3 18:15 | 20 format · 15 «Reparto 7» – ep. 2 «Le ferie» | 4 canali AOUP |
 | gio 1/4 18:15 | 20 format · 15 «Reparto 7» – ep. 3 «La reperibilità» | 4 canali AOUP |
 | gio 8/4 18:15 | 20 format · 15 «Reparto 7» – ep. 4 «I permessi» | 4 canali AOUP |
+| gio 15/4 18:15 | 20 format · 15 «Reparto 7» – ep. 5 «La formazione» | 4 canali AOUP |
 
 ## Eredità Invisibili
 
@@ -289,6 +290,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | 15 «Reparto 7» – ep. 2 «Le ferie» | gio 25/3 18:15 | [apri](https://resource2.heygen.ai/video/c688b7f4919f43f08c8b66d845ba1b0a/original.mp4) |
 | 15 «Reparto 7» – ep. 3 «La reperibilità» | gio 1/4 18:15 | [apri](https://resource2.heygen.ai/video/10e3125dafb446fa8375a42e7aa37161/original.mp4) |
 | 15 «Reparto 7» – ep. 4 «I permessi» | gio 8/4 18:15 | [apri](https://resource2.heygen.ai/video/9fc4d454671e407081323ff4d650d170/original.mp4) |
+| 15 «Reparto 7» – ep. 5 «La formazione» | gio 15/4 18:15 | [apri](https://resource2.heygen.ai/video/907e8cd98d4942fa9942f337216c732c/original.mp4) |
 | 16 «I veterani reagiscono» – teaser | gio 11/3 18:15 | [apri](https://resource2.heygen.ai/video/19d5a259a287483bb49d01116fc3aff8/original.mp4) |
 | 17 «Indovina il reparto» | gio 18/3 18:15 | [apri](https://resource2.heygen.ai/video/dc003805161c49b0a16a24a1fee4fbc8/original.mp4) |
 
