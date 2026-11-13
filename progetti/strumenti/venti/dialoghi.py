@@ -13,7 +13,7 @@ from voci import blocchi, taglia, ff, dur, PR  # noqa: E402
 VOCI = {'ward': 'e4bd8d8a357f41a99502309874733c16', 'achille': '9b851842ce54449fb9ff501751ca0271', 'nonna': 'QD0T9jWnOtSiLp7pynGA',
         'nipote': 'zQDTlelC5IkNZLUKANwx', 'rosa': '0CaEdjmy45s5ORTgNRBI', 'marco': 'vw1H2Z7qp6p1pBatQwJ3', 'coord': 'NbxMtccexuT0yDzrrTij',
         'giulia': 'rW8vWrZJH2sxKav7WJVV'}
-PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita', 'perm': 'pdro-20f-15-reparto-7-ep4-i-permessi'}
+PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita', 'perm': 'pdro-20f-15-reparto-7-ep4-i-permessi', 'form': 'pdro-20f-15-reparto-7-ep5-la-formazione'}
 SCENE = {
     'nonna': [[('nipote', 'Se lo capisce mia nonna, lo capisci anche tu. Oggi: il fondo pensione.')],
               [('nonna', "E cos'è questo Perseo?"),
@@ -46,7 +46,14 @@ SCENE = {
               ('rosa', 'Nessuna scusa, tesoro. Basta chiederle.')],
              [('coord', "Marco, due ore di permesso? E la giustificazione dov'è?"), ('ward', 'Arriva Giulia:'),
               ('giulia', "Per motivi personali ci sono diciotto ore l'anno, senza dover giustificare niente. Si chiedono, e si concedono se il servizio lo permette.")],
-             [('achille', 'Le tue diciotto ore le conosci? Se hai dubbi sui permessi, parliamone. CISL FP Padova Rovigo.')]]}
+             [('achille', 'Le tue diciotto ore le conosci? Se hai dubbi sui permessi, parliamone. CISL FP Padova Rovigo.')]],
+    # Reparto 7 ep. 5 (CCNL 2022-2024 art. 48; approvato da Achille il 13/11)
+    'form': [[('ward', "Reparto sette, episodio cinque: la formazione. Marco deve fare i crediti formativi. Rosa ha già fatto tutti i corsi. E la coordinatrice? Al telefono, come sempre.")],
+             [('marco', 'Rosa, il corso obbligatorio lo devo fare a casa, la sera, e magari pure pagarlo?'),
+              ('rosa', 'A casa, la sera? Tesoro, quello è lavoro.')],
+             [('coord', 'Marco, il corso fallo nel fine settimana, qui non ho nessuno.'), ('ward', 'Arriva Giulia:'),
+              ('giulia', "La formazione obbligatoria è servizio a tutti gli effetti, e i costi sono dell'Azienda. Ventiquattro ore l'anno sono garantite a tutti.")],
+             [('achille', 'I tuoi crediti formativi li hai? Se non ti mettono in condizione di farli, parliamone. CISL FP Padova Rovigo.')]]}
 # quali puntate: argomento 2 (es. «ferie»); senza, le prime due. Le tracce di ogni gruppo hanno un suffisso proprio.
 KK = tuple(sys.argv[2].split(',')) if len(sys.argv) > 2 else ('nonna', 'sitcom')
 SUF = '' if KK == ('nonna', 'sitcom') else '-' + '-'.join(KK)

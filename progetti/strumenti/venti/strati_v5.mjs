@@ -1,5 +1,5 @@
 // 20 format attrattivi, quarta tornata (10/11): livelli 1080x1920 sopra le clip HeyGen per 12-17. Stile di strati_v4.mjs.
-//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie reper perm; senza argomenti tutte)
+//   node strumenti/venti/strati_v5.mjs [chiave ...]  (chiavi: news nonna diz sitcom vet suono ferie reper perm form; senza argomenti tutte)
 import { chromium } from 'playwright';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -150,6 +150,16 @@ P.perm = ['pdro-20f-15-reparto-7-ep4-i-permessi', { scrim: scrim(.35),
   f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', "Due ore di permesso? E la giustificazione dov'è?"),
   f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', "18 ore l'anno per motivi personali. Senza giustificare."),
   morale: `<div class="ab" style="top:1030px;text-align:center"><span class="pill" style="font-size:42px">si chiedono, se il servizio lo permette</span></div>`,
+}];
+// ---- Reparto 7 ep. 5 «La formazione» (CCNL 2022-2024 art. 48; OK di Achille 13/11)
+P.form = ['pdro-20f-15-reparto-7-ep5-la-formazione', { scrim: scrim(.35),
+  sigla: `<div class="ep"><b>REPARTO 7</b><i>ep. 5 · la formazione</i></div>`,
+  t_marco: tag('MARCO', 'deve fare i crediti'), t_rosa: tag('ROSA', 'ha fatto tutti i corsi'), t_coord: tag('COORDINATRICE', 'al telefono'),
+  f_marco: fum(330, 'dx', 'MARCO', '#1565c0', 'Il corso obbligatorio a casa, la sera… e pure pagarlo?'),
+  f_rosa: fum(660, 'sx', 'ROSA', '#c2185b', 'A casa, la sera? Tesoro, quello è lavoro.'),
+  f_coord: fum(330, 'sx', 'COORDINATRICE', '#6a1b9a', 'Il corso fallo nel fine settimana, qui non ho nessuno.'),
+  f_giulia: fum(660, 'dx', 'GIULIA · CISL FP', '#0f8a43', "Formazione obbligatoria = servizio. I costi sono dell'Azienda."),
+  morale: `<div class="ab" style="top:1030px;text-align:center"><span class="pill" style="font-size:44px">24 ore l'anno garantite a tutti</span></div>`,
 }];
 const scelte = process.argv.slice(2);
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });
