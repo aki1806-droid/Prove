@@ -1,0 +1,157 @@
+{
+"S01": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s01_chip",
+"in": [
+"pop",
+0.4,
+0.4
+]
+},
+{
+"p": "s01_tit",
+"in": [
+"slam",
+"solo",
+0.3
+],
+"fx": [
+[
+"trema",
+"solo+0.3",
+"solo+0.8",
+6
+]
+]
+},
+{
+"p": "s01_mano",
+"in": [
+"wipe",
+"niente",
+0.8
+]
+}
+]
+},
+"S02": {
+"tipo": "pieno",
+"fondi": [],
+"strati": []
+},
+"S03": {
+"tipo": "pieno",
+"fondi": [],
+"strati": []
+},
+"S04": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s04_tit",
+"in": [
+"slam",
+0.1,
+0.35
+]
+},
+{
+"p": "s04_timbro",
+"in": [
+"slam",
+"consiglio",
+0.3
+],
+"fx": [
+[
+"trema",
+"consiglio+0.3",
+"consiglio+0.9",
+10
+]
+]
+},
+{
+"p": "s04_mano",
+"in": [
+"wipe",
+"sfera",
+0.9
+]
+}
+]
+},
+"S05": {
+"tipo": "overlay",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [
+{
+"p": "s05_tit",
+"in": [
+"slam",
+"differenza",
+0.3
+],
+"fx": [
+[
+"trema",
+"differenza+0.3",
+"differenza+0.8",
+6
+]
+]
+},
+{
+"p": "s05_mano",
+"in": [
+"wipe",
+"secondi",
+0.8
+]
+}
+]
+},
+"S06": {
+"tipo": "pieno",
+"fondi": [
+[
+"fondo",
+0
+]
+],
+"strati": [],
+"camera": [
+[
+0,
+1.06,
+540,
+900
+],
+[
+10.0,
+1.0,
+540,
+960
+]
+]
+}
+}

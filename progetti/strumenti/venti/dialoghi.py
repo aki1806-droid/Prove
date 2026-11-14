@@ -13,7 +13,7 @@ from voci import blocchi, taglia, ff, dur, PR  # noqa: E402
 VOCI = {'ward': 'e4bd8d8a357f41a99502309874733c16', 'achille': '9b851842ce54449fb9ff501751ca0271', 'nonna': 'QD0T9jWnOtSiLp7pynGA',
         'nipote': 'zQDTlelC5IkNZLUKANwx', 'rosa': '0CaEdjmy45s5ORTgNRBI', 'marco': 'vw1H2Z7qp6p1pBatQwJ3', 'coord': 'NbxMtccexuT0yDzrrTij',
         'giulia': 'rW8vWrZJH2sxKav7WJVV'}
-PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita', 'perm': 'pdro-20f-15-reparto-7-ep4-i-permessi', 'form': 'pdro-20f-15-reparto-7-ep5-la-formazione'}
+PG = {'nonna': 'pdro-20f-12-spiegato-a-mia-nonna', 'sitcom': 'pdro-20f-15-reparto-7-sitcom', 'ferie': 'pdro-20f-15-reparto-7-ep2-le-ferie', 'reper': 'pdro-20f-15-reparto-7-ep3-la-reperibilita', 'perm': 'pdro-20f-15-reparto-7-ep4-i-permessi', 'form': 'pdro-20f-15-reparto-7-ep5-la-formazione', 'pag11': 'pdro-aggiornamento-pagamenti-novembre-2026'}
 SCENE = {
     'nonna': [[('nipote', 'Se lo capisce mia nonna, lo capisci anche tu. Oggi: il fondo pensione.')],
               [('nonna', "E cos'è questo Perseo?"),
@@ -53,7 +53,14 @@ SCENE = {
               ('rosa', 'A casa, la sera? Tesoro, quello è lavoro.')],
              [('coord', 'Marco, il corso fallo nel fine settimana, qui non ho nessuno.'), ('ward', 'Arriva Giulia:'),
               ('giulia', "La formazione obbligatoria è servizio a tutti gli effetti, e i costi sono dell'Azienda. Ventiquattro ore l'anno sono garantite a tutti.")],
-             [('achille', 'I tuoi crediti formativi li hai? Se non ti mettono in condizione di farli, parliamone. CISL FP Padova Rovigo.')]]}
+             [('achille', 'I tuoi crediti formativi li hai? Se non ti mettono in condizione di farli, parliamone. CISL FP Padova Rovigo.')]],
+    # Aggiornamento pagamenti novembre 2026 (testo approvato da Achille il 14/11): narratore + chiusura, nessun personaggio
+    'pag11': [[('ward', 'Ultime notizie dal pianeta cedolino. Niente panico, niente sfere di cristallo: solo fatti. Ecco come stanno le cose.')],
+              [('ward', "Il conguaglio della produttività arriva con lo stipendio di novembre. Nessun miracolo e nessun colpo di scena: solo lavoro serio con l'Amministrazione.")],
+              [('ward', 'Sul contratto nazionale, la firma definitiva è attesa, presumibilmente, a dicembre. Appena ci sarà la data certa, la saprete da noi. Come sempre.')],
+              [('ward', 'E a chi nei mesi scorsi si era lanciato in previsioni che nemmeno Nostradamus, date, cifre e catastrofi assortite, un consiglio affettuoso: la sfera di cristallo rimettetela in soffitta.')],
+              [('ward', "Perché c'è una bella differenza tra chi lavora sui fatti e chi fa proclami sul nulla. I primi portano risultati. I secondi, al massimo, l'oroscopo della settimana.")],
+              [('achille', 'Noi continuiamo come sempre: poche promesse, molti fatti, e vi teniamo costantemente aggiornati. Per dubbi sul tuo cedolino, scrivici. CISL FP Padova Rovigo.')]]}
 # quali puntate: argomento 2 (es. «ferie»); senza, le prime due. Le tracce di ogni gruppo hanno un suffisso proprio.
 KK = tuple(sys.argv[2].split(',')) if len(sys.argv) > 2 else ('nonna', 'sitcom')
 SUF = '' if KK == ('nonna', 'sitcom') else '-' + '-'.join(KK)

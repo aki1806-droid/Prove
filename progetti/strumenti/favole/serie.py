@@ -1159,6 +1159,21 @@ ANIM[V15E].update({'S01': _OV([P('sigla', ['slam', 0.05, 0.3], fx=[['trema', 0.3
                                P('morale', ['slam', 'ventiquattro', 0.3])])})
 EPISODI[V15E]['S04'], ANIM[V15E]['S04'] = _chiusa('S04', 7.3)
 
+# Aggiornamento pagamenti novembre 2026 (strati da ../pagamenti/novembre.mjs; S02-S03 tabellone da ../pagamenti/tabellone_nov.mjs)
+VPAG = 'pdro-aggiornamento-pagamenti-novembre-2026'
+EPISODI.setdefault(VPAG, {}); ANIM.setdefault(VPAG, {})
+EPISODI[VPAG].update({'S01': _ov('scrim', ['s01_chip', 's01_tit', 's01_mano']), 'S04': _ov('scrim', ['s04_tit', 's04_timbro', 's04_mano']),
+                      'S05': _ov('scrim', ['s05_tit', 's05_mano'])})
+_TAB = {'tipo': 'pieno', 'fondi': [], 'strati': []}
+ANIM[VPAG].update({'S01': _OV([P('s01_chip', ['pop', 0.4, 0.4]), P('s01_tit', ['slam', 'solo', 0.3], fx=[['trema', 'solo+0.3', 'solo+0.8', 6]]),
+                               P('s01_mano', ['wipe', 'niente', 0.8])]),
+                   'S02': _TAB, 'S03': _TAB,
+                   'S04': _OV([P('s04_tit', ['slam', 0.1, 0.35]), P('s04_timbro', ['slam', 'consiglio', 0.3], fx=[['trema', 'consiglio+0.3', 'consiglio+0.9', 10]]),
+                               P('s04_mano', ['wipe', 'sfera', 0.9])]),
+                   'S05': _OV([P('s05_tit', ['slam', 'differenza', 0.3], fx=[['trema', 'differenza+0.3', 'differenza+0.8', 6]]),
+                               P('s05_mano', ['wipe', 'secondi', 0.8])])})
+EPISODI[VPAG]['S06'], ANIM[VPAG]['S06'] = _chiusa('S06', 10.0)
+
 if __name__ == '__main__':
     import json
     for pg, a in ANIM.items():
