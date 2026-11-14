@@ -1,0 +1,1808 @@
+{
+ "traccia": 9,
+ "generazione_voce": "pZcDYwcr7X7bHWc7dNyh",
+ "durata": 131.6,
+ "testo": "[warmly] E adesso le indennità, che per chi fa questo mestiere pesano più della paga base. L'indennità di specificità infermieristica non viene soppressa: viene rivalutata dal primo gennaio 2026. Per i professionisti della salute passa da 87,79 a 181,14 euro al mese. Per gli assistenti da 78,27 a 161,50. Per gli operatori da 73,41 a 151,48. Sono importi che raddoppiano. Su dodici mensilità, per un professionista della salute, fanno più di mille euro di arretrato sulla sola specificità. Stessa cosa per l'indennità di tutela del malato. E qui una notizia che riguarda un'intera professione: l'ostetrica viene equiparata ai profili infermieristici, con lo stesso valore dell'indennità, 181,14. Ma il contratto non è solo soldi, e due novità cambiano la vita di tutti i giorni. La prima: le indennità vengono riconosciute anche durante i giorni di ferie. Andare in ferie smette di costare. La seconda: i neoassunti avranno le ferie piene dal primo giorno, equiparate a chi ha più di tre anni di servizio. Finisce una disparità che si sentiva soprattutto fra colleghi dello stesso reparto. E poi nuovi permessi e congedi per patologie oncologiche; le 150 ore per il diritto allo studio utilizzabili anche per tirocini; il supporto psicologico per chi subisce un'aggressione. C'è anche, per la prima volta, una regolazione dell'intelligenza artificiale sul rapporto di lavoro, con i percorsi formativi. E una norma di garanzia sulla parità retributiva fra donne e uomini. E una cosa che non c'era mai stata: a luglio 2027 ARAN e sindacati verificheranno insieme se le retribuzioni hanno tenuto il passo dell'inflazione, sui dati ISTAT. Un contratto che si guarda allo specchio. Quando arriveranno i soldi? Quando ci sarà la firma definitiva. Da quel momento le Aziende hanno 30 giorni per applicare gli istituti automatici. Chi ti dice un mese preciso oggi, te lo sta indovinando.",
+ "parole": [
+  {
+   "text": "[warmly]",
+   "type": "word",
+   "start": 0.0,
+   "end": 0.057
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 0.069,
+   "end": 0.08
+  },
+  {
+   "text": "adesso",
+   "type": "word",
+   "start": 0.2,
+   "end": 0.48
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 0.56,
+   "end": 0.64
+  },
+  {
+   "text": "indennità,",
+   "type": "word",
+   "start": 0.72,
+   "end": 1.44
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 1.52,
+   "end": 1.6
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 1.68,
+   "end": 1.76
+  },
+  {
+   "text": "chi",
+   "type": "word",
+   "start": 1.84,
+   "end": 1.92
+  },
+  {
+   "text": "fa",
+   "type": "word",
+   "start": 1.96,
+   "end": 2.0
+  },
+  {
+   "text": "questo",
+   "type": "word",
+   "start": 2.08,
+   "end": 2.36
+  },
+  {
+   "text": "mestiere",
+   "type": "word",
+   "start": 2.4,
+   "end": 2.88
+  },
+  {
+   "text": "pesano",
+   "type": "word",
+   "start": 3.04,
+   "end": 3.44
+  },
+  {
+   "text": "più",
+   "type": "word",
+   "start": 3.52,
+   "end": 3.68
+  },
+  {
+   "text": "della",
+   "type": "word",
+   "start": 3.72,
+   "end": 3.92
+  },
+  {
+   "text": "paga",
+   "type": "word",
+   "start": 4.0,
+   "end": 4.16
+  },
+  {
+   "text": "base.",
+   "type": "word",
+   "start": 4.24,
+   "end": 4.72
+  },
+  {
+   "text": "L'indennità",
+   "type": "word",
+   "start": 5.2,
+   "end": 5.76
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 5.84,
+   "end": 5.88
+  },
+  {
+   "text": "specificità",
+   "type": "word",
+   "start": 5.92,
+   "end": 6.56
+  },
+  {
+   "text": "infermieristica",
+   "type": "word",
+   "start": 6.72,
+   "end": 7.52
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 7.68,
+   "end": 7.76
+  },
+  {
+   "text": "viene",
+   "type": "word",
+   "start": 7.84,
+   "end": 8.08
+  },
+  {
+   "text": "soppressa:",
+   "type": "word",
+   "start": 8.16,
+   "end": 9.12
+  },
+  {
+   "text": "viene",
+   "type": "word",
+   "start": 9.2,
+   "end": 9.44
+  },
+  {
+   "text": "rivalutata",
+   "type": "word",
+   "start": 9.6,
+   "end": 10.24
+  },
+  {
+   "text": "dal",
+   "type": "word",
+   "start": 10.4,
+   "end": 10.56
+  },
+  {
+   "text": "primo",
+   "type": "word",
+   "start": 10.64,
+   "end": 10.88
+  },
+  {
+   "text": "gennaio",
+   "type": "word",
+   "start": 10.96,
+   "end": 11.36
+  },
+  {
+   "text": "2026.",
+   "type": "word",
+   "start": 11.44,
+   "end": 12.88
+  },
+  {
+   "text": "Per",
+   "type": "word",
+   "start": 12.92,
+   "end": 12.96
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 13.0,
+   "end": 13.04
+  },
+  {
+   "text": "professionisti",
+   "type": "word",
+   "start": 13.12,
+   "end": 13.76
+  },
+  {
+   "text": "della",
+   "type": "word",
+   "start": 13.8,
+   "end": 13.92
+  },
+  {
+   "text": "salute",
+   "type": "word",
+   "start": 14.0,
+   "end": 14.4
+  },
+  {
+   "text": "passa",
+   "type": "word",
+   "start": 14.56,
+   "end": 14.88
+  },
+  {
+   "text": "da",
+   "type": "word",
+   "start": 14.92,
+   "end": 14.96
+  },
+  {
+   "text": "87,79",
+   "type": "word",
+   "start": 15.08,
+   "end": 15.76
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 15.84,
+   "end": 16.08
+  },
+  {
+   "text": "181,14",
+   "type": "word",
+   "start": 16.24,
+   "end": 16.88
+  },
+  {
+   "text": "euro",
+   "type": "word",
+   "start": 17.12,
+   "end": 18.453
+  },
+  {
+   "text": "al",
+   "type": "word",
+   "start": 18.56,
+   "end": 19.6
+  },
+  {
+   "text": "mese.",
+   "type": "word",
+   "start": 19.64,
+   "end": 20.4
+  },
+  {
+   "text": "Per",
+   "type": "word",
+   "start": 20.48,
+   "end": 20.56
+  },
+  {
+   "text": "gli",
+   "type": "word",
+   "start": 20.6,
+   "end": 20.64
+  },
+  {
+   "text": "assistenti",
+   "type": "word",
+   "start": 20.72,
+   "end": 21.44
+  },
+  {
+   "text": "da",
+   "type": "word",
+   "start": 21.52,
+   "end": 21.6
+  },
+  {
+   "text": "78,27",
+   "type": "word",
+   "start": 21.68,
+   "end": 22.24
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 22.4,
+   "end": 22.64
+  },
+  {
+   "text": "161,50.",
+   "type": "word",
+   "start": 22.72,
+   "end": 26.16
+  },
+  {
+   "text": "Per",
+   "type": "word",
+   "start": 26.24,
+   "end": 26.32
+  },
+  {
+   "text": "gli",
+   "type": "word",
+   "start": 26.36,
+   "end": 26.4
+  },
+  {
+   "text": "operatori",
+   "type": "word",
+   "start": 26.68,
+   "end": 27.12
+  },
+  {
+   "text": "da",
+   "type": "word",
+   "start": 27.2,
+   "end": 27.28
+  },
+  {
+   "text": "73,41",
+   "type": "word",
+   "start": 27.36,
+   "end": 28.0
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 28.08,
+   "end": 28.32
+  },
+  {
+   "text": "151,48.",
+   "type": "word",
+   "start": 28.48,
+   "end": 32.32
+  },
+  {
+   "text": "Sono",
+   "type": "word",
+   "start": 32.36,
+   "end": 32.56
+  },
+  {
+   "text": "importi",
+   "type": "word",
+   "start": 32.76,
+   "end": 33.04
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 33.08,
+   "end": 33.12
+  },
+  {
+   "text": "raddoppiano.",
+   "type": "word",
+   "start": 33.2,
+   "end": 34.24
+  },
+  {
+   "text": "Su",
+   "type": "word",
+   "start": 34.32,
+   "end": 34.4
+  },
+  {
+   "text": "dodici",
+   "type": "word",
+   "start": 34.48,
+   "end": 34.72
+  },
+  {
+   "text": "mensilità,",
+   "type": "word",
+   "start": 34.8,
+   "end": 35.573
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 35.627,
+   "end": 35.68
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 35.72,
+   "end": 35.76
+  },
+  {
+   "text": "professionista",
+   "type": "word",
+   "start": 36.0,
+   "end": 36.48
+  },
+  {
+   "text": "della",
+   "type": "word",
+   "start": 36.533,
+   "end": 36.64
+  },
+  {
+   "text": "salute,",
+   "type": "word",
+   "start": 36.72,
+   "end": 37.44
+  },
+  {
+   "text": "fanno",
+   "type": "word",
+   "start": 37.547,
+   "end": 37.76
+  },
+  {
+   "text": "più",
+   "type": "word",
+   "start": 37.8,
+   "end": 37.92
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 38.0,
+   "end": 38.08
+  },
+  {
+   "text": "mille",
+   "type": "word",
+   "start": 38.16,
+   "end": 38.4
+  },
+  {
+   "text": "euro",
+   "type": "word",
+   "start": 38.48,
+   "end": 38.72
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 38.8,
+   "end": 38.84
+  },
+  {
+   "text": "arretrato",
+   "type": "word",
+   "start": 38.88,
+   "end": 39.36
+  },
+  {
+   "text": "sulla",
+   "type": "word",
+   "start": 39.52,
+   "end": 39.76
+  },
+  {
+   "text": "sola",
+   "type": "word",
+   "start": 39.84,
+   "end": 40.0
+  },
+  {
+   "text": "specificità.",
+   "type": "word",
+   "start": 40.08,
+   "end": 41.28
+  },
+  {
+   "text": "Stessa",
+   "type": "word",
+   "start": 41.36,
+   "end": 41.68
+  },
+  {
+   "text": "cosa",
+   "type": "word",
+   "start": 41.88,
+   "end": 42.08
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 42.16,
+   "end": 42.24
+  },
+  {
+   "text": "l'indennità",
+   "type": "word",
+   "start": 42.267,
+   "end": 42.72
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 42.8,
+   "end": 42.88
+  },
+  {
+   "text": "tutela",
+   "type": "word",
+   "start": 42.96,
+   "end": 43.28
+  },
+  {
+   "text": "del",
+   "type": "word",
+   "start": 43.36,
+   "end": 43.44
+  },
+  {
+   "text": "malato.",
+   "type": "word",
+   "start": 43.52,
+   "end": 44.4
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 44.48,
+   "end": 44.56
+  },
+  {
+   "text": "qui",
+   "type": "word",
+   "start": 44.72,
+   "end": 44.88
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 44.96,
+   "end": 45.04
+  },
+  {
+   "text": "notizia",
+   "type": "word",
+   "start": 45.12,
+   "end": 45.52
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 45.56,
+   "end": 45.6
+  },
+  {
+   "text": "riguarda",
+   "type": "word",
+   "start": 45.68,
+   "end": 46.08
+  },
+  {
+   "text": "un'intera",
+   "type": "word",
+   "start": 46.12,
+   "end": 46.64
+  },
+  {
+   "text": "professione:",
+   "type": "word",
+   "start": 46.96,
+   "end": 47.76
+  },
+  {
+   "text": "l'ostetrica",
+   "type": "word",
+   "start": 47.8,
+   "end": 48.64
+  },
+  {
+   "text": "viene",
+   "type": "word",
+   "start": 48.72,
+   "end": 48.96
+  },
+  {
+   "text": "equiparata",
+   "type": "word",
+   "start": 49.12,
+   "end": 49.6
+  },
+  {
+   "text": "ai",
+   "type": "word",
+   "start": 49.68,
+   "end": 49.76
+  },
+  {
+   "text": "profili",
+   "type": "word",
+   "start": 49.88,
+   "end": 50.08
+  },
+  {
+   "text": "infermieristici,",
+   "type": "word",
+   "start": 50.24,
+   "end": 51.28
+  },
+  {
+   "text": "con",
+   "type": "word",
+   "start": 51.32,
+   "end": 51.36
+  },
+  {
+   "text": "lo",
+   "type": "word",
+   "start": 51.44,
+   "end": 51.52
+  },
+  {
+   "text": "stesso",
+   "type": "word",
+   "start": 51.6,
+   "end": 51.92
+  },
+  {
+   "text": "valore",
+   "type": "word",
+   "start": 52.04,
+   "end": 52.32
+  },
+  {
+   "text": "dell'indennità,",
+   "type": "word",
+   "start": 52.373,
+   "end": 53.28
+  },
+  {
+   "text": "181,14.",
+   "type": "word",
+   "start": 53.4,
+   "end": 55.76
+  },
+  {
+   "text": "Ma",
+   "type": "word",
+   "start": 55.8,
+   "end": 55.84
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 55.92,
+   "end": 56.0
+  },
+  {
+   "text": "contratto",
+   "type": "word",
+   "start": 56.12,
+   "end": 56.48
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 56.64,
+   "end": 56.72
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 56.8,
+   "end": 56.96
+  },
+  {
+   "text": "solo",
+   "type": "word",
+   "start": 57.0,
+   "end": 57.2
+  },
+  {
+   "text": "soldi,",
+   "type": "word",
+   "start": 57.4,
+   "end": 57.84
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 57.96,
+   "end": 58.08
+  },
+  {
+   "text": "due",
+   "type": "word",
+   "start": 58.16,
+   "end": 58.24
+  },
+  {
+   "text": "novità",
+   "type": "word",
+   "start": 58.32,
+   "end": 58.8
+  },
+  {
+   "text": "cambiano",
+   "type": "word",
+   "start": 58.88,
+   "end": 59.28
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 59.32,
+   "end": 59.36
+  },
+  {
+   "text": "vita",
+   "type": "word",
+   "start": 59.44,
+   "end": 59.6
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 59.68,
+   "end": 59.76
+  },
+  {
+   "text": "tutti",
+   "type": "word",
+   "start": 59.84,
+   "end": 60.04
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 60.08,
+   "end": 60.12
+  },
+  {
+   "text": "giorni.",
+   "type": "word",
+   "start": 60.16,
+   "end": 61.04
+  },
+  {
+   "text": "La",
+   "type": "word",
+   "start": 61.08,
+   "end": 61.12
+  },
+  {
+   "text": "prima:",
+   "type": "word",
+   "start": 61.2,
+   "end": 61.84
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 61.88,
+   "end": 61.92
+  },
+  {
+   "text": "indennità",
+   "type": "word",
+   "start": 62.0,
+   "end": 62.64
+  },
+  {
+   "text": "vengono",
+   "type": "word",
+   "start": 62.68,
+   "end": 63.04
+  },
+  {
+   "text": "riconosciute",
+   "type": "word",
+   "start": 63.12,
+   "end": 63.84
+  },
+  {
+   "text": "anche",
+   "type": "word",
+   "start": 64.0,
+   "end": 64.16
+  },
+  {
+   "text": "durante",
+   "type": "word",
+   "start": 64.24,
+   "end": 64.48
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 64.56,
+   "end": 64.6
+  },
+  {
+   "text": "giorni",
+   "type": "word",
+   "start": 64.64,
+   "end": 64.96
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 65.0,
+   "end": 65.04
+  },
+  {
+   "text": "ferie.",
+   "type": "word",
+   "start": 65.12,
+   "end": 65.84
+  },
+  {
+   "text": "Andare",
+   "type": "word",
+   "start": 65.96,
+   "end": 66.16
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 66.24,
+   "end": 66.32
+  },
+  {
+   "text": "ferie",
+   "type": "word",
+   "start": 66.4,
+   "end": 66.8
+  },
+  {
+   "text": "smette",
+   "type": "word",
+   "start": 66.88,
+   "end": 67.28
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 67.32,
+   "end": 67.36
+  },
+  {
+   "text": "costare.",
+   "type": "word",
+   "start": 67.44,
+   "end": 68.56
+  },
+  {
+   "text": "La",
+   "type": "word",
+   "start": 68.6,
+   "end": 68.64
+  },
+  {
+   "text": "seconda:",
+   "type": "word",
+   "start": 68.72,
+   "end": 69.6
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 69.64,
+   "end": 69.68
+  },
+  {
+   "text": "neoassunti",
+   "type": "word",
+   "start": 69.76,
+   "end": 70.56
+  },
+  {
+   "text": "avranno",
+   "type": "word",
+   "start": 70.64,
+   "end": 70.96
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 71.04,
+   "end": 71.12
+  },
+  {
+   "text": "ferie",
+   "type": "word",
+   "start": 71.2,
+   "end": 71.44
+  },
+  {
+   "text": "piene",
+   "type": "word",
+   "start": 71.48,
+   "end": 71.76
+  },
+  {
+   "text": "dal",
+   "type": "word",
+   "start": 71.88,
+   "end": 72.0
+  },
+  {
+   "text": "primo",
+   "type": "word",
+   "start": 72.04,
+   "end": 72.24
+  },
+  {
+   "text": "giorno,",
+   "type": "word",
+   "start": 72.4,
+   "end": 72.96
+  },
+  {
+   "text": "equiparate",
+   "type": "word",
+   "start": 73.04,
+   "end": 73.76
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 73.8,
+   "end": 73.84
+  },
+  {
+   "text": "chi",
+   "type": "word",
+   "start": 73.92,
+   "end": 74.0
+  },
+  {
+   "text": "ha",
+   "type": "word",
+   "start": 74.08,
+   "end": 74.16
+  },
+  {
+   "text": "più",
+   "type": "word",
+   "start": 74.2,
+   "end": 74.32
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 74.4,
+   "end": 74.48
+  },
+  {
+   "text": "tre",
+   "type": "word",
+   "start": 74.52,
+   "end": 74.56
+  },
+  {
+   "text": "anni",
+   "type": "word",
+   "start": 74.64,
+   "end": 74.8
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 74.88,
+   "end": 74.92
+  },
+  {
+   "text": "servizio.",
+   "type": "word",
+   "start": 74.96,
+   "end": 76.0
+  },
+  {
+   "text": "Finisce",
+   "type": "word",
+   "start": 76.08,
+   "end": 76.4
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 76.48,
+   "end": 76.64
+  },
+  {
+   "text": "disparità",
+   "type": "word",
+   "start": 76.72,
+   "end": 77.2
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 77.28,
+   "end": 77.36
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 77.44,
+   "end": 77.52
+  },
+  {
+   "text": "sentiva",
+   "type": "word",
+   "start": 77.6,
+   "end": 78.0
+  },
+  {
+   "text": "soprattutto",
+   "type": "word",
+   "start": 78.04,
+   "end": 78.72
+  },
+  {
+   "text": "fra",
+   "type": "word",
+   "start": 78.8,
+   "end": 78.88
+  },
+  {
+   "text": "colleghi",
+   "type": "word",
+   "start": 78.96,
+   "end": 79.28
+  },
+  {
+   "text": "dello",
+   "type": "word",
+   "start": 79.36,
+   "end": 79.52
+  },
+  {
+   "text": "stesso",
+   "type": "word",
+   "start": 79.6,
+   "end": 79.84
+  },
+  {
+   "text": "reparto.",
+   "type": "word",
+   "start": 79.92,
+   "end": 80.96
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 81.04,
+   "end": 81.12
+  },
+  {
+   "text": "poi",
+   "type": "word",
+   "start": 81.24,
+   "end": 81.36
+  },
+  {
+   "text": "nuovi",
+   "type": "word",
+   "start": 81.6,
+   "end": 81.84
+  },
+  {
+   "text": "permessi",
+   "type": "word",
+   "start": 81.92,
+   "end": 82.4
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 82.453,
+   "end": 82.507
+  },
+  {
+   "text": "congedi",
+   "type": "word",
+   "start": 82.56,
+   "end": 83.04
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 83.12,
+   "end": 83.2
+  },
+  {
+   "text": "patologie",
+   "type": "word",
+   "start": 83.28,
+   "end": 83.68
+  },
+  {
+   "text": "oncologiche;",
+   "type": "word",
+   "start": 83.76,
+   "end": 84.8
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 84.88,
+   "end": 84.96
+  },
+  {
+   "text": "150",
+   "type": "word",
+   "start": 85.08,
+   "end": 85.76
+  },
+  {
+   "text": "ore",
+   "type": "word",
+   "start": 85.84,
+   "end": 86.0
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 86.08,
+   "end": 86.16
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 86.24,
+   "end": 86.28
+  },
+  {
+   "text": "diritto",
+   "type": "word",
+   "start": 86.32,
+   "end": 86.64
+  },
+  {
+   "text": "allo",
+   "type": "word",
+   "start": 86.72,
+   "end": 86.8
+  },
+  {
+   "text": "studio",
+   "type": "word",
+   "start": 86.88,
+   "end": 87.28
+  },
+  {
+   "text": "utilizzabili",
+   "type": "word",
+   "start": 87.36,
+   "end": 88.16
+  },
+  {
+   "text": "anche",
+   "type": "word",
+   "start": 88.32,
+   "end": 88.48
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 88.56,
+   "end": 88.64
+  },
+  {
+   "text": "tirocini;",
+   "type": "word",
+   "start": 88.68,
+   "end": 89.76
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 89.8,
+   "end": 89.84
+  },
+  {
+   "text": "supporto",
+   "type": "word",
+   "start": 89.92,
+   "end": 90.32
+  },
+  {
+   "text": "psicologico",
+   "type": "word",
+   "start": 90.4,
+   "end": 91.12
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 91.2,
+   "end": 91.28
+  },
+  {
+   "text": "chi",
+   "type": "word",
+   "start": 91.36,
+   "end": 91.44
+  },
+  {
+   "text": "subisce",
+   "type": "word",
+   "start": 91.52,
+   "end": 91.84
+  },
+  {
+   "text": "un'aggressione.",
+   "type": "word",
+   "start": 91.92,
+   "end": 92.72
+  },
+  {
+   "text": "C'è",
+   "type": "word",
+   "start": 93.28,
+   "end": 93.48
+  },
+  {
+   "text": "anche,",
+   "type": "word",
+   "start": 93.52,
+   "end": 94.0
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 94.04,
+   "end": 94.08
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 94.16,
+   "end": 94.24
+  },
+  {
+   "text": "prima",
+   "type": "word",
+   "start": 94.28,
+   "end": 94.48
+  },
+  {
+   "text": "volta,",
+   "type": "word",
+   "start": 94.6,
+   "end": 95.2
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 95.28,
+   "end": 95.36
+  },
+  {
+   "text": "regolazione",
+   "type": "word",
+   "start": 95.44,
+   "end": 96.08
+  },
+  {
+   "text": "dell'intelligenza",
+   "type": "word",
+   "start": 96.16,
+   "end": 96.88
+  },
+  {
+   "text": "artificiale",
+   "type": "word",
+   "start": 96.96,
+   "end": 97.6
+  },
+  {
+   "text": "sul",
+   "type": "word",
+   "start": 97.68,
+   "end": 97.84
+  },
+  {
+   "text": "rapporto",
+   "type": "word",
+   "start": 97.92,
+   "end": 98.24
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 98.32,
+   "end": 98.4
+  },
+  {
+   "text": "lavoro,",
+   "type": "word",
+   "start": 98.44,
+   "end": 98.96
+  },
+  {
+   "text": "con",
+   "type": "word",
+   "start": 99.04,
+   "end": 99.12
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 99.147,
+   "end": 99.173
+  },
+  {
+   "text": "percorsi",
+   "type": "word",
+   "start": 99.2,
+   "end": 99.68
+  },
+  {
+   "text": "formativi.",
+   "type": "word",
+   "start": 99.88,
+   "end": 100.88
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 100.92,
+   "end": 100.96
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 101.04,
+   "end": 101.12
+  },
+  {
+   "text": "norma",
+   "type": "word",
+   "start": 101.2,
+   "end": 101.48
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 101.52,
+   "end": 101.56
+  },
+  {
+   "text": "garanzia",
+   "type": "word",
+   "start": 101.6,
+   "end": 102.16
+  },
+  {
+   "text": "sulla",
+   "type": "word",
+   "start": 102.32,
+   "end": 102.48
+  },
+  {
+   "text": "parità",
+   "type": "word",
+   "start": 102.56,
+   "end": 102.88
+  },
+  {
+   "text": "retributiva",
+   "type": "word",
+   "start": 102.96,
+   "end": 103.6
+  },
+  {
+   "text": "fra",
+   "type": "word",
+   "start": 103.76,
+   "end": 103.84
+  },
+  {
+   "text": "donne",
+   "type": "word",
+   "start": 104.0,
+   "end": 104.4
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 104.44,
+   "end": 104.48
+  },
+  {
+   "text": "uomini.",
+   "type": "word",
+   "start": 104.56,
+   "end": 105.04
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 105.52,
+   "end": 105.6
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 105.68,
+   "end": 105.76
+  },
+  {
+   "text": "cosa",
+   "type": "word",
+   "start": 105.84,
+   "end": 106.0
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 106.08,
+   "end": 106.16
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 106.24,
+   "end": 106.32
+  },
+  {
+   "text": "c'era",
+   "type": "word",
+   "start": 106.36,
+   "end": 106.56
+  },
+  {
+   "text": "mai",
+   "type": "word",
+   "start": 106.64,
+   "end": 106.8
+  },
+  {
+   "text": "stata:",
+   "type": "word",
+   "start": 106.88,
+   "end": 107.68
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 107.72,
+   "end": 107.76
+  },
+  {
+   "text": "luglio",
+   "type": "word",
+   "start": 107.84,
+   "end": 108.08
+  },
+  {
+   "text": "2027",
+   "type": "word",
+   "start": 108.16,
+   "end": 109.12
+  },
+  {
+   "text": "ARAN",
+   "type": "word",
+   "start": 109.44,
+   "end": 109.76
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 109.813,
+   "end": 109.867
+  },
+  {
+   "text": "sindacati",
+   "type": "word",
+   "start": 109.92,
+   "end": 110.56
+  },
+  {
+   "text": "verificheranno",
+   "type": "word",
+   "start": 110.64,
+   "end": 111.28
+  },
+  {
+   "text": "insieme",
+   "type": "word",
+   "start": 111.36,
+   "end": 111.84
+  },
+  {
+   "text": "se",
+   "type": "word",
+   "start": 112.0,
+   "end": 112.08
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 112.12,
+   "end": 112.16
+  },
+  {
+   "text": "retribuzioni",
+   "type": "word",
+   "start": 112.24,
+   "end": 112.88
+  },
+  {
+   "text": "hanno",
+   "type": "word",
+   "start": 112.96,
+   "end": 113.12
+  },
+  {
+   "text": "tenuto",
+   "type": "word",
+   "start": 113.2,
+   "end": 113.44
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 113.48,
+   "end": 113.52
+  },
+  {
+   "text": "passo",
+   "type": "word",
+   "start": 113.6,
+   "end": 113.88
+  },
+  {
+   "text": "dell'inflazione,",
+   "type": "word",
+   "start": 113.92,
+   "end": 114.96
+  },
+  {
+   "text": "sui",
+   "type": "word",
+   "start": 115.04,
+   "end": 115.2
+  },
+  {
+   "text": "dati",
+   "type": "word",
+   "start": 115.32,
+   "end": 115.52
+  },
+  {
+   "text": "ISTAT.",
+   "type": "word",
+   "start": 115.6,
+   "end": 116.16
+  },
+  {
+   "text": "Un",
+   "type": "word",
+   "start": 116.64,
+   "end": 116.72
+  },
+  {
+   "text": "contratto",
+   "type": "word",
+   "start": 116.88,
+   "end": 117.36
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 117.44,
+   "end": 117.52
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 117.6,
+   "end": 117.68
+  },
+  {
+   "text": "guarda",
+   "type": "word",
+   "start": 117.76,
+   "end": 118.0
+  },
+  {
+   "text": "allo",
+   "type": "word",
+   "start": 118.08,
+   "end": 118.16
+  },
+  {
+   "text": "specchio.",
+   "type": "word",
+   "start": 118.24,
+   "end": 118.72
+  },
+  {
+   "text": "Quando",
+   "type": "word",
+   "start": 119.2,
+   "end": 119.44
+  },
+  {
+   "text": "arriveranno",
+   "type": "word",
+   "start": 119.48,
+   "end": 119.92
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 120.0,
+   "end": 120.04
+  },
+  {
+   "text": "soldi?",
+   "type": "word",
+   "start": 120.08,
+   "end": 120.56
+  },
+  {
+   "text": "Quando",
+   "type": "word",
+   "start": 120.96,
+   "end": 121.2
+  },
+  {
+   "text": "ci",
+   "type": "word",
+   "start": 121.28,
+   "end": 121.36
+  },
+  {
+   "text": "sarà",
+   "type": "word",
+   "start": 121.44,
+   "end": 121.68
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 121.76,
+   "end": 121.92
+  },
+  {
+   "text": "firma",
+   "type": "word",
+   "start": 122.0,
+   "end": 122.16
+  },
+  {
+   "text": "definitiva.",
+   "type": "word",
+   "start": 122.24,
+   "end": 122.96
+  },
+  {
+   "text": "Da",
+   "type": "word",
+   "start": 123.36,
+   "end": 123.44
+  },
+  {
+   "text": "quel",
+   "type": "word",
+   "start": 123.52,
+   "end": 123.6
+  },
+  {
+   "text": "momento",
+   "type": "word",
+   "start": 123.68,
+   "end": 124.24
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 124.28,
+   "end": 124.32
+  },
+  {
+   "text": "Aziende",
+   "type": "word",
+   "start": 124.4,
+   "end": 124.8
+  },
+  {
+   "text": "hanno",
+   "type": "word",
+   "start": 124.84,
+   "end": 125.04
+  },
+  {
+   "text": "30",
+   "type": "word",
+   "start": 125.12,
+   "end": 125.44
+  },
+  {
+   "text": "giorni",
+   "type": "word",
+   "start": 125.52,
+   "end": 125.88
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 125.92,
+   "end": 126.08
+  },
+  {
+   "text": "applicare",
+   "type": "word",
+   "start": 126.16,
+   "end": 126.56
+  },
+  {
+   "text": "gli",
+   "type": "word",
+   "start": 126.6,
+   "end": 126.64
+  },
+  {
+   "text": "istituti",
+   "type": "word",
+   "start": 126.72,
+   "end": 127.12
+  },
+  {
+   "text": "automatici.",
+   "type": "word",
+   "start": 127.2,
+   "end": 127.92
+  },
+  {
+   "text": "Chi",
+   "type": "word",
+   "start": 128.32,
+   "end": 128.48
+  },
+  {
+   "text": "ti",
+   "type": "word",
+   "start": 128.52,
+   "end": 128.56
+  },
+  {
+   "text": "dice",
+   "type": "word",
+   "start": 128.64,
+   "end": 128.8
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 128.88,
+   "end": 128.92
+  },
+  {
+   "text": "mese",
+   "type": "word",
+   "start": 128.96,
+   "end": 129.2
+  },
+  {
+   "text": "preciso",
+   "type": "word",
+   "start": 129.28,
+   "end": 129.68
+  },
+  {
+   "text": "oggi,",
+   "type": "word",
+   "start": 129.8,
+   "end": 130.24
+  },
+  {
+   "text": "te",
+   "type": "word",
+   "start": 130.28,
+   "end": 130.32
+  },
+  {
+   "text": "lo",
+   "type": "word",
+   "start": 130.36,
+   "end": 130.4
+  },
+  {
+   "text": "sta",
+   "type": "word",
+   "start": 130.48,
+   "end": 130.64
+  },
+  {
+   "text": "indovinando.",
+   "type": "word",
+   "start": 130.72,
+   "end": 131.6
+  }
+ ]
+}

@@ -1,0 +1,1772 @@
+{
+ "traccia": 6,
+ "generazione_voce": "IvIXF4o214yl0JJpSCPa",
+ "durata": 106.48,
+ "testo": "[warmly] L'ufficio paghe fa da sostituto d'imposta: calcola ogni mese l'IRPEF che dovresti pagare e la versa allo Stato al posto tuo. Tu la vedi solo come una riga che toglie.\n\nSi parte dall'imponibile fiscale, si applicano gli scaglioni, si tolgono le detrazioni. Tre passaggi, sempre gli stessi, e il risultato è l'IRPEF netta che trovi in busta.\n\nLe detrazioni per lavoro dipendente le applica l'Azienda da sola. Quelle per familiari a carico no: quelle devi chiederle tu, e devi aggiornarle quando qualcosa cambia.\n\n[cautiously] È l'errore che costa più caro di tutti, e non è un errore dell'Azienda: non comunicare che il coniuge ha iniziato a lavorare, o che un figlio ha smesso di essere a carico. A fine anno arriva il conguaglio, e può essere salato.\n\n[warmly] Poi le addizionali, regionale e comunale. Si calcolano sul reddito dell'anno precedente e si trattengono a rate nell'anno dopo. Per questo le vedi anche in mesi in cui hai guadagnato poco: stanno pagando un anno che è già finito.\n\nL'IRPEF che trovi ogni mese è una previsione, rifatta ogni mese su quanto hai guadagnato fino a quel momento. Per questo a fine anno serve un conguaglio che rimette a posto i conti.\n\nCome si legge il conguaglio di dicembre: molto accessorio nell'anno, spesso a debito; hai lavorato meno del previsto, spesso a credito. Non è una multa: è la differenza fra la previsione e il conto vero.\n\nE se il conguaglio a debito è troppo alto, la legge consente di rateizzarlo nei mesi successivi, con un piccolo interesse. Si chiede: non arriva da solo.\n\nUltimo punto, e vale soldi veri: spese mediche, mutuo, figli, ristrutturazioni non passano dalla busta paga. Quelle si recuperano con la dichiarazione dei redditi, e il CAF della CISL le fa.",
+ "parole": [
+  {
+   "text": "[warmly]",
+   "type": "word",
+   "start": 0,
+   "end": 0.067
+  },
+  {
+   "text": "L'ufficio",
+   "type": "word",
+   "start": 0.08,
+   "end": 0.48
+  },
+  {
+   "text": "paghe",
+   "type": "word",
+   "start": 0.56,
+   "end": 0.96
+  },
+  {
+   "text": "fa",
+   "type": "word",
+   "start": 1.04,
+   "end": 1.12
+  },
+  {
+   "text": "da",
+   "type": "word",
+   "start": 1.2,
+   "end": 1.28
+  },
+  {
+   "text": "sostituto",
+   "type": "word",
+   "start": 1.32,
+   "end": 1.76
+  },
+  {
+   "text": "d'imposta:",
+   "type": "word",
+   "start": 1.84,
+   "end": 2.88
+  },
+  {
+   "text": "calcola",
+   "type": "word",
+   "start": 3,
+   "end": 3.28
+  },
+  {
+   "text": "ogni",
+   "type": "word",
+   "start": 3.36,
+   "end": 3.52
+  },
+  {
+   "text": "mese",
+   "type": "word",
+   "start": 3.56,
+   "end": 3.84
+  },
+  {
+   "text": "l'IRPEF",
+   "type": "word",
+   "start": 3.92,
+   "end": 4.48
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 4.56,
+   "end": 4.64
+  },
+  {
+   "text": "dovresti",
+   "type": "word",
+   "start": 4.667,
+   "end": 5.04
+  },
+  {
+   "text": "pagare",
+   "type": "word",
+   "start": 5.12,
+   "end": 5.52
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 5.6,
+   "end": 5.64
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 5.68,
+   "end": 5.76
+  },
+  {
+   "text": "versa",
+   "type": "word",
+   "start": 5.88,
+   "end": 6.08
+  },
+  {
+   "text": "allo",
+   "type": "word",
+   "start": 6.16,
+   "end": 6.24
+  },
+  {
+   "text": "Stato",
+   "type": "word",
+   "start": 6.32,
+   "end": 6.56
+  },
+  {
+   "text": "al",
+   "type": "word",
+   "start": 6.64,
+   "end": 6.72
+  },
+  {
+   "text": "posto",
+   "type": "word",
+   "start": 6.8,
+   "end": 6.96
+  },
+  {
+   "text": "tuo.",
+   "type": "word",
+   "start": 7.04,
+   "end": 7.76
+  },
+  {
+   "text": "Tu",
+   "type": "word",
+   "start": 7.88,
+   "end": 8
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 8.04,
+   "end": 8.08
+  },
+  {
+   "text": "vedi",
+   "type": "word",
+   "start": 8.16,
+   "end": 8.4
+  },
+  {
+   "text": "solo",
+   "type": "word",
+   "start": 8.48,
+   "end": 8.64
+  },
+  {
+   "text": "come",
+   "type": "word",
+   "start": 8.72,
+   "end": 8.8
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 8.88,
+   "end": 8.96
+  },
+  {
+   "text": "riga",
+   "type": "word",
+   "start": 9.04,
+   "end": 9.28
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 9.32,
+   "end": 9.36
+  },
+  {
+   "text": "toglie.",
+   "type": "word",
+   "start": 9.52,
+   "end": 10.4
+  },
+  {
+   "text": "Si",
+   "type": "word",
+   "start": 10.48,
+   "end": 10.56
+  },
+  {
+   "text": "parte",
+   "type": "word",
+   "start": 10.64,
+   "end": 10.88
+  },
+  {
+   "text": "dall'imponibile",
+   "type": "word",
+   "start": 10.96,
+   "end": 11.68
+  },
+  {
+   "text": "fiscale,",
+   "type": "word",
+   "start": 11.76,
+   "end": 12.56
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 12.6,
+   "end": 12.64
+  },
+  {
+   "text": "applicano",
+   "type": "word",
+   "start": 12.72,
+   "end": 13.12
+  },
+  {
+   "text": "gli",
+   "type": "word",
+   "start": 13.2,
+   "end": 13.28
+  },
+  {
+   "text": "scaglioni,",
+   "type": "word",
+   "start": 13.36,
+   "end": 14
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 14.08,
+   "end": 14.16
+  },
+  {
+   "text": "tolgono",
+   "type": "word",
+   "start": 14.24,
+   "end": 14.64
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 14.72,
+   "end": 14.8
+  },
+  {
+   "text": "detrazioni.",
+   "type": "word",
+   "start": 14.88,
+   "end": 15.92
+  },
+  {
+   "text": "Tre",
+   "type": "word",
+   "start": 16,
+   "end": 16.08
+  },
+  {
+   "text": "passaggi,",
+   "type": "word",
+   "start": 16.24,
+   "end": 16.88
+  },
+  {
+   "text": "sempre",
+   "type": "word",
+   "start": 16.96,
+   "end": 17.2
+  },
+  {
+   "text": "gli",
+   "type": "word",
+   "start": 17.28,
+   "end": 17.36
+  },
+  {
+   "text": "stessi,",
+   "type": "word",
+   "start": 17.44,
+   "end": 18.16
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 18.2,
+   "end": 18.24
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 18.28,
+   "end": 18.32
+  },
+  {
+   "text": "risultato",
+   "type": "word",
+   "start": 18.44,
+   "end": 19.04
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 19.12,
+   "end": 19.2
+  },
+  {
+   "text": "l'IRPEF",
+   "type": "word",
+   "start": 19.24,
+   "end": 19.76
+  },
+  {
+   "text": "netta",
+   "type": "word",
+   "start": 19.88,
+   "end": 20.08
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 20.16,
+   "end": 20.24
+  },
+  {
+   "text": "trovi",
+   "type": "word",
+   "start": 20.32,
+   "end": 20.48
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 20.56,
+   "end": 20.64
+  },
+  {
+   "text": "busta.",
+   "type": "word",
+   "start": 20.773,
+   "end": 21.52
+  },
+  {
+   "text": "Le",
+   "type": "word",
+   "start": 21.6,
+   "end": 21.68
+  },
+  {
+   "text": "detrazioni",
+   "type": "word",
+   "start": 21.8,
+   "end": 22.32
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 22.36,
+   "end": 22.4
+  },
+  {
+   "text": "lavoro",
+   "type": "word",
+   "start": 22.48,
+   "end": 22.76
+  },
+  {
+   "text": "dipendente",
+   "type": "word",
+   "start": 22.8,
+   "end": 23.44
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 23.6,
+   "end": 23.68
+  },
+  {
+   "text": "applica",
+   "type": "word",
+   "start": 23.76,
+   "end": 24.08
+  },
+  {
+   "text": "l'Azienda",
+   "type": "word",
+   "start": 24.12,
+   "end": 24.56
+  },
+  {
+   "text": "da",
+   "type": "word",
+   "start": 24.64,
+   "end": 24.72
+  },
+  {
+   "text": "sola.",
+   "type": "word",
+   "start": 24.8,
+   "end": 25.44
+  },
+  {
+   "text": "Quelle",
+   "type": "word",
+   "start": 25.48,
+   "end": 25.68
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 25.76,
+   "end": 25.84
+  },
+  {
+   "text": "familiari",
+   "type": "word",
+   "start": 25.88,
+   "end": 26.32
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 26.4,
+   "end": 26.48
+  },
+  {
+   "text": "carico",
+   "type": "word",
+   "start": 26.56,
+   "end": 26.96
+  },
+  {
+   "text": "no:",
+   "type": "word",
+   "start": 27.04,
+   "end": 27.52
+  },
+  {
+   "text": "quelle",
+   "type": "word",
+   "start": 27.6,
+   "end": 28
+  },
+  {
+   "text": "devi",
+   "type": "word",
+   "start": 28.08,
+   "end": 28.24
+  },
+  {
+   "text": "chiederle",
+   "type": "word",
+   "start": 28.28,
+   "end": 28.72
+  },
+  {
+   "text": "tu,",
+   "type": "word",
+   "start": 28.8,
+   "end": 29.12
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 29.16,
+   "end": 29.2
+  },
+  {
+   "text": "devi",
+   "type": "word",
+   "start": 29.28,
+   "end": 29.44
+  },
+  {
+   "text": "aggiornarle",
+   "type": "word",
+   "start": 29.52,
+   "end": 30.08
+  },
+  {
+   "text": "quando",
+   "type": "word",
+   "start": 30.12,
+   "end": 30.32
+  },
+  {
+   "text": "qualcosa",
+   "type": "word",
+   "start": 30.4,
+   "end": 30.8
+  },
+  {
+   "text": "cambia.",
+   "type": "word",
+   "start": 30.933,
+   "end": 31.6
+  },
+  {
+   "text": "[cautiously]",
+   "type": "word",
+   "start": 31.611,
+   "end": 31.669
+  },
+  {
+   "text": "È",
+   "type": "word",
+   "start": 31.68,
+   "end": 31.76
+  },
+  {
+   "text": "l'errore",
+   "type": "word",
+   "start": 31.8,
+   "end": 32.24
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 32.32,
+   "end": 32.4
+  },
+  {
+   "text": "costa",
+   "type": "word",
+   "start": 32.52,
+   "end": 32.8
+  },
+  {
+   "text": "più",
+   "type": "word",
+   "start": 32.84,
+   "end": 33.04
+  },
+  {
+   "text": "caro",
+   "type": "word",
+   "start": 33.12,
+   "end": 33.28
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 33.36,
+   "end": 33.44
+  },
+  {
+   "text": "tutti,",
+   "type": "word",
+   "start": 33.48,
+   "end": 34.16
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 34.2,
+   "end": 34.24
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 34.32,
+   "end": 34.48
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 34.56,
+   "end": 34.613
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 34.667,
+   "end": 34.72
+  },
+  {
+   "text": "errore",
+   "type": "word",
+   "start": 34.84,
+   "end": 35.12
+  },
+  {
+   "text": "dell'Azienda:",
+   "type": "word",
+   "start": 35.173,
+   "end": 36.32
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 36.4,
+   "end": 36.56
+  },
+  {
+   "text": "comunicare",
+   "type": "word",
+   "start": 36.64,
+   "end": 37.2
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 37.24,
+   "end": 37.28
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 37.36,
+   "end": 37.44
+  },
+  {
+   "text": "coniuge",
+   "type": "word",
+   "start": 37.52,
+   "end": 38
+  },
+  {
+   "text": "ha",
+   "type": "word",
+   "start": 38.04,
+   "end": 38.08
+  },
+  {
+   "text": "iniziato",
+   "type": "word",
+   "start": 38.12,
+   "end": 38.48
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 38.52,
+   "end": 38.56
+  },
+  {
+   "text": "lavorare,",
+   "type": "word",
+   "start": 38.64,
+   "end": 39.36
+  },
+  {
+   "text": "o",
+   "type": "word",
+   "start": 39.4,
+   "end": 39.44
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 39.52,
+   "end": 39.6
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 39.68,
+   "end": 39.76
+  },
+  {
+   "text": "figlio",
+   "type": "word",
+   "start": 39.84,
+   "end": 40.08
+  },
+  {
+   "text": "ha",
+   "type": "word",
+   "start": 40.12,
+   "end": 40.16
+  },
+  {
+   "text": "smesso",
+   "type": "word",
+   "start": 40.24,
+   "end": 40.48
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 40.56,
+   "end": 40.6
+  },
+  {
+   "text": "essere",
+   "type": "word",
+   "start": 40.64,
+   "end": 40.88
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 40.92,
+   "end": 40.96
+  },
+  {
+   "text": "carico.",
+   "type": "word",
+   "start": 41.04,
+   "end": 41.92
+  },
+  {
+   "text": "A",
+   "type": "word",
+   "start": 42,
+   "end": 42.08
+  },
+  {
+   "text": "fine",
+   "type": "word",
+   "start": 42.2,
+   "end": 42.32
+  },
+  {
+   "text": "anno",
+   "type": "word",
+   "start": 42.4,
+   "end": 42.72
+  },
+  {
+   "text": "arriva",
+   "type": "word",
+   "start": 42.8,
+   "end": 43.04
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 43.08,
+   "end": 43.12
+  },
+  {
+   "text": "conguaglio,",
+   "type": "word",
+   "start": 43.24,
+   "end": 44
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 44.08,
+   "end": 44.16
+  },
+  {
+   "text": "può",
+   "type": "word",
+   "start": 44.24,
+   "end": 44.32
+  },
+  {
+   "text": "essere",
+   "type": "word",
+   "start": 44.4,
+   "end": 44.64
+  },
+  {
+   "text": "salato.",
+   "type": "word",
+   "start": 44.72,
+   "end": 45.4
+  },
+  {
+   "text": "[warmly]",
+   "type": "word",
+   "start": 45.6,
+   "end": 45.653
+  },
+  {
+   "text": "Poi",
+   "type": "word",
+   "start": 45.667,
+   "end": 45.84
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 46,
+   "end": 46.08
+  },
+  {
+   "text": "addizionali,",
+   "type": "word",
+   "start": 46.16,
+   "end": 46.96
+  },
+  {
+   "text": "regionale",
+   "type": "word",
+   "start": 47.04,
+   "end": 47.68
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 47.72,
+   "end": 47.76
+  },
+  {
+   "text": "comunale.",
+   "type": "word",
+   "start": 47.84,
+   "end": 48.88
+  },
+  {
+   "text": "Si",
+   "type": "word",
+   "start": 48.96,
+   "end": 49.04
+  },
+  {
+   "text": "calcolano",
+   "type": "word",
+   "start": 49.16,
+   "end": 49.6
+  },
+  {
+   "text": "sul",
+   "type": "word",
+   "start": 49.68,
+   "end": 49.84
+  },
+  {
+   "text": "reddito",
+   "type": "word",
+   "start": 49.96,
+   "end": 50.24
+  },
+  {
+   "text": "dell'anno",
+   "type": "word",
+   "start": 50.32,
+   "end": 50.64
+  },
+  {
+   "text": "precedente",
+   "type": "word",
+   "start": 50.72,
+   "end": 51.44
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 51.52,
+   "end": 51.6
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 51.68,
+   "end": 51.76
+  },
+  {
+   "text": "trattengono",
+   "type": "word",
+   "start": 51.8,
+   "end": 52.32
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 52.36,
+   "end": 52.4
+  },
+  {
+   "text": "rate",
+   "type": "word",
+   "start": 52.48,
+   "end": 52.72
+  },
+  {
+   "text": "nell'anno",
+   "type": "word",
+   "start": 52.8,
+   "end": 53.2
+  },
+  {
+   "text": "dopo.",
+   "type": "word",
+   "start": 53.28,
+   "end": 54
+  },
+  {
+   "text": "Per",
+   "type": "word",
+   "start": 54.08,
+   "end": 54.16
+  },
+  {
+   "text": "questo",
+   "type": "word",
+   "start": 54.28,
+   "end": 54.48
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 54.52,
+   "end": 54.56
+  },
+  {
+   "text": "vedi",
+   "type": "word",
+   "start": 54.64,
+   "end": 54.84
+  },
+  {
+   "text": "anche",
+   "type": "word",
+   "start": 54.88,
+   "end": 55.04
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 55.12,
+   "end": 55.2
+  },
+  {
+   "text": "mesi",
+   "type": "word",
+   "start": 55.32,
+   "end": 55.52
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 55.56,
+   "end": 55.6
+  },
+  {
+   "text": "cui",
+   "type": "word",
+   "start": 55.68,
+   "end": 55.76
+  },
+  {
+   "text": "hai",
+   "type": "word",
+   "start": 55.84,
+   "end": 55.92
+  },
+  {
+   "text": "guadagnato",
+   "type": "word",
+   "start": 56,
+   "end": 56.4
+  },
+  {
+   "text": "poco:",
+   "type": "word",
+   "start": 56.48,
+   "end": 57.12
+  },
+  {
+   "text": "stanno",
+   "type": "word",
+   "start": 57.16,
+   "end": 57.44
+  },
+  {
+   "text": "pagando",
+   "type": "word",
+   "start": 57.52,
+   "end": 57.84
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 57.92,
+   "end": 58
+  },
+  {
+   "text": "anno",
+   "type": "word",
+   "start": 58.12,
+   "end": 58.24
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 58.32,
+   "end": 58.4
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 58.48,
+   "end": 58.56
+  },
+  {
+   "text": "già",
+   "type": "word",
+   "start": 58.6,
+   "end": 58.72
+  },
+  {
+   "text": "finito.",
+   "type": "word",
+   "start": 58.8,
+   "end": 59.52
+  },
+  {
+   "text": "L'IRPEF",
+   "type": "word",
+   "start": 59.76,
+   "end": 60.24
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 60.32,
+   "end": 60.4
+  },
+  {
+   "text": "trovi",
+   "type": "word",
+   "start": 60.48,
+   "end": 60.64
+  },
+  {
+   "text": "ogni",
+   "type": "word",
+   "start": 60.72,
+   "end": 60.92
+  },
+  {
+   "text": "mese",
+   "type": "word",
+   "start": 60.96,
+   "end": 61.36
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 61.44,
+   "end": 61.52
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 61.6,
+   "end": 61.68
+  },
+  {
+   "text": "previsione,",
+   "type": "word",
+   "start": 61.76,
+   "end": 62.56
+  },
+  {
+   "text": "rifatta",
+   "type": "word",
+   "start": 62.68,
+   "end": 63.04
+  },
+  {
+   "text": "ogni",
+   "type": "word",
+   "start": 63.12,
+   "end": 63.36
+  },
+  {
+   "text": "mese",
+   "type": "word",
+   "start": 63.44,
+   "end": 63.76
+  },
+  {
+   "text": "su",
+   "type": "word",
+   "start": 63.84,
+   "end": 63.92
+  },
+  {
+   "text": "quanto",
+   "type": "word",
+   "start": 64,
+   "end": 64.24
+  },
+  {
+   "text": "hai",
+   "type": "word",
+   "start": 64.28,
+   "end": 64.32
+  },
+  {
+   "text": "guadagnato",
+   "type": "word",
+   "start": 64.4,
+   "end": 64.88
+  },
+  {
+   "text": "fino",
+   "type": "word",
+   "start": 64.96,
+   "end": 65.12
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 65.16,
+   "end": 65.2
+  },
+  {
+   "text": "quel",
+   "type": "word",
+   "start": 65.28,
+   "end": 65.36
+  },
+  {
+   "text": "momento.",
+   "type": "word",
+   "start": 65.44,
+   "end": 66
+  },
+  {
+   "text": "Per",
+   "type": "word",
+   "start": 66.4,
+   "end": 66.48
+  },
+  {
+   "text": "questo",
+   "type": "word",
+   "start": 66.56,
+   "end": 66.84
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 66.88,
+   "end": 66.96
+  },
+  {
+   "text": "fine",
+   "type": "word",
+   "start": 67.08,
+   "end": 67.2
+  },
+  {
+   "text": "anno",
+   "type": "word",
+   "start": 67.32,
+   "end": 67.44
+  },
+  {
+   "text": "serve",
+   "type": "word",
+   "start": 67.52,
+   "end": 67.76
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 67.84,
+   "end": 67.92
+  },
+  {
+   "text": "conguaglio",
+   "type": "word",
+   "start": 68,
+   "end": 68.48
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 68.52,
+   "end": 68.56
+  },
+  {
+   "text": "rimette",
+   "type": "word",
+   "start": 68.64,
+   "end": 68.88
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 68.96,
+   "end": 69
+  },
+  {
+   "text": "posto",
+   "type": "word",
+   "start": 69.04,
+   "end": 69.307
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 69.333,
+   "end": 69.36
+  },
+  {
+   "text": "conti.",
+   "type": "word",
+   "start": 69.44,
+   "end": 69.92
+  },
+  {
+   "text": "Come",
+   "type": "word",
+   "start": 70.32,
+   "end": 70.48
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 70.56,
+   "end": 70.64
+  },
+  {
+   "text": "legge",
+   "type": "word",
+   "start": 70.76,
+   "end": 70.96
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 71,
+   "end": 71.04
+  },
+  {
+   "text": "conguaglio",
+   "type": "word",
+   "start": 71.12,
+   "end": 71.52
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 71.56,
+   "end": 71.6
+  },
+  {
+   "text": "dicembre:",
+   "type": "word",
+   "start": 71.68,
+   "end": 72.64
+  },
+  {
+   "text": "molto",
+   "type": "word",
+   "start": 72.72,
+   "end": 72.96
+  },
+  {
+   "text": "accessorio",
+   "type": "word",
+   "start": 73.16,
+   "end": 73.6
+  },
+  {
+   "text": "nell'anno,",
+   "type": "word",
+   "start": 73.68,
+   "end": 74.4
+  },
+  {
+   "text": "spesso",
+   "type": "word",
+   "start": 74.48,
+   "end": 74.8
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 74.84,
+   "end": 74.88
+  },
+  {
+   "text": "debito;",
+   "type": "word",
+   "start": 74.96,
+   "end": 75.76
+  },
+  {
+   "text": "hai",
+   "type": "word",
+   "start": 75.84,
+   "end": 75.92
+  },
+  {
+   "text": "lavorato",
+   "type": "word",
+   "start": 76,
+   "end": 76.4
+  },
+  {
+   "text": "meno",
+   "type": "word",
+   "start": 76.52,
+   "end": 76.64
+  },
+  {
+   "text": "del",
+   "type": "word",
+   "start": 76.72,
+   "end": 76.8
+  },
+  {
+   "text": "previsto,",
+   "type": "word",
+   "start": 76.88,
+   "end": 77.52
+  },
+  {
+   "text": "spesso",
+   "type": "word",
+   "start": 77.6,
+   "end": 77.92
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 77.96,
+   "end": 78
+  },
+  {
+   "text": "credito.",
+   "type": "word",
+   "start": 78.08,
+   "end": 78.96
+  },
+  {
+   "text": "Non",
+   "type": "word",
+   "start": 79.04,
+   "end": 79.12
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 79.2,
+   "end": 79.28
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 79.36,
+   "end": 79.44
+  },
+  {
+   "text": "multa:",
+   "type": "word",
+   "start": 79.52,
+   "end": 80.16
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 80.2,
+   "end": 80.24
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 80.32,
+   "end": 80.4
+  },
+  {
+   "text": "differenza",
+   "type": "word",
+   "start": 80.507,
+   "end": 81.04
+  },
+  {
+   "text": "fra",
+   "type": "word",
+   "start": 81.12,
+   "end": 81.2
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 81.28,
+   "end": 81.36
+  },
+  {
+   "text": "previsione",
+   "type": "word",
+   "start": 81.44,
+   "end": 82.08
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 82.16,
+   "end": 82.2
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 82.24,
+   "end": 82.32
+  },
+  {
+   "text": "conto",
+   "type": "word",
+   "start": 82.4,
+   "end": 82.64
+  },
+  {
+   "text": "vero.",
+   "type": "word",
+   "start": 82.72,
+   "end": 83.52
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 83.56,
+   "end": 83.6
+  },
+  {
+   "text": "se",
+   "type": "word",
+   "start": 83.68,
+   "end": 83.72
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 83.76,
+   "end": 83.84
+  },
+  {
+   "text": "conguaglio",
+   "type": "word",
+   "start": 83.92,
+   "end": 84.24
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 84.28,
+   "end": 84.32
+  },
+  {
+   "text": "debito",
+   "type": "word",
+   "start": 84.4,
+   "end": 84.773
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 84.827,
+   "end": 84.88
+  },
+  {
+   "text": "troppo",
+   "type": "word",
+   "start": 84.92,
+   "end": 85.2
+  },
+  {
+   "text": "alto,",
+   "type": "word",
+   "start": 85.28,
+   "end": 85.76
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 85.84,
+   "end": 85.92
+  },
+  {
+   "text": "legge",
+   "type": "word",
+   "start": 86,
+   "end": 86.24
+  },
+  {
+   "text": "consente",
+   "type": "word",
+   "start": 86.36,
+   "end": 86.72
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 86.8,
+   "end": 86.88
+  },
+  {
+   "text": "rateizzarlo",
+   "type": "word",
+   "start": 87,
+   "end": 87.6
+  },
+  {
+   "text": "nei",
+   "type": "word",
+   "start": 87.64,
+   "end": 87.76
+  },
+  {
+   "text": "mesi",
+   "type": "word",
+   "start": 87.84,
+   "end": 88
+  },
+  {
+   "text": "successivi,",
+   "type": "word",
+   "start": 88.08,
+   "end": 88.96
+  },
+  {
+   "text": "con",
+   "type": "word",
+   "start": 89.04,
+   "end": 89.12
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 89.16,
+   "end": 89.2
+  },
+  {
+   "text": "piccolo",
+   "type": "word",
+   "start": 89.28,
+   "end": 89.52
+  },
+  {
+   "text": "interesse.",
+   "type": "word",
+   "start": 89.6,
+   "end": 90.56
+  },
+  {
+   "text": "Si",
+   "type": "word",
+   "start": 90.64,
+   "end": 90.72
+  },
+  {
+   "text": "chiede:",
+   "type": "word",
+   "start": 90.8,
+   "end": 91.44
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 91.52,
+   "end": 91.6
+  },
+  {
+   "text": "arriva",
+   "type": "word",
+   "start": 91.72,
+   "end": 92
+  },
+  {
+   "text": "da",
+   "type": "word",
+   "start": 92.08,
+   "end": 92.16
+  },
+  {
+   "text": "solo.",
+   "type": "word",
+   "start": 92.2,
+   "end": 92.96
+  },
+  {
+   "text": "Ultimo",
+   "type": "word",
+   "start": 93.08,
+   "end": 93.36
+  },
+  {
+   "text": "punto,",
+   "type": "word",
+   "start": 93.44,
+   "end": 94
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 94.04,
+   "end": 94.08
+  },
+  {
+   "text": "vale",
+   "type": "word",
+   "start": 94.16,
+   "end": 94.4
+  },
+  {
+   "text": "soldi",
+   "type": "word",
+   "start": 94.48,
+   "end": 94.8
+  },
+  {
+   "text": "veri:",
+   "type": "word",
+   "start": 94.88,
+   "end": 95.6
+  },
+  {
+   "text": "spese",
+   "type": "word",
+   "start": 95.68,
+   "end": 96
+  },
+  {
+   "text": "mediche,",
+   "type": "word",
+   "start": 96.16,
+   "end": 96.72
+  },
+  {
+   "text": "mutuo,",
+   "type": "word",
+   "start": 96.88,
+   "end": 97.36
+  },
+  {
+   "text": "figli,",
+   "type": "word",
+   "start": 97.48,
+   "end": 97.92
+  },
+  {
+   "text": "ristrutturazioni",
+   "type": "word",
+   "start": 98.04,
+   "end": 98.96
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 99.2,
+   "end": 99.52
+  },
+  {
+   "text": "passano",
+   "type": "word",
+   "start": 99.68,
+   "end": 100
+  },
+  {
+   "text": "dalla",
+   "type": "word",
+   "start": 100.04,
+   "end": 100.24
+  },
+  {
+   "text": "busta",
+   "type": "word",
+   "start": 100.28,
+   "end": 100.56
+  },
+  {
+   "text": "paga.",
+   "type": "word",
+   "start": 100.64,
+   "end": 101.44
+  },
+  {
+   "text": "Quelle",
+   "type": "word",
+   "start": 101.48,
+   "end": 101.84
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 101.92,
+   "end": 102
+  },
+  {
+   "text": "recuperano",
+   "type": "word",
+   "start": 102.08,
+   "end": 102.64
+  },
+  {
+   "text": "con",
+   "type": "word",
+   "start": 102.72,
+   "end": 102.8
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 102.84,
+   "end": 102.88
+  },
+  {
+   "text": "dichiarazione",
+   "type": "word",
+   "start": 102.96,
+   "end": 103.52
+  },
+  {
+   "text": "dei",
+   "type": "word",
+   "start": 103.6,
+   "end": 103.72
+  },
+  {
+   "text": "redditi,",
+   "type": "word",
+   "start": 103.76,
+   "end": 104.48
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 104.52,
+   "end": 104.56
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 104.64,
+   "end": 104.72
+  },
+  {
+   "text": "CAF",
+   "type": "word",
+   "start": 104.8,
+   "end": 105.04
+  },
+  {
+   "text": "della",
+   "type": "word",
+   "start": 105.12,
+   "end": 105.28
+  },
+  {
+   "text": "CISL",
+   "type": "word",
+   "start": 105.36,
+   "end": 105.84
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 105.92,
+   "end": 106
+  },
+  {
+   "text": "fa.",
+   "type": "word",
+   "start": 106.12,
+   "end": 106.48
+  }
+ ]
+}

@@ -99,3 +99,7 @@ progetti/bustapaga-video-unico/audio/confini.json
 progetti/buste-paga-tre-comparti/copione/blocchi-*.json
 progetti/buste-paga-tre-comparti/copione/tracce-*.json
 progetti/buste-paga-tre-comparti/audio/chunk-*/
+# I confini si ricavano dagli allineamenti, e gli allineamenti restano: 316 KB
+# di parole con i tempi, che sono la PROVA di dove cade ogni taglio. L'audio no
+# (venti megabyte, e si rigenera dal copione), ma senza gli allineamenti nessuno
+# potrebbe piu' rifare il conto senza ripagare la voce.

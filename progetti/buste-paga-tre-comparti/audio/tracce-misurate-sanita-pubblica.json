@@ -1,0 +1,62 @@
+[
+ {
+  "traccia": 1,
+  "grezzo": 125.23,
+  "lavorata": 120.71,
+  "caratteri": 1894
+ },
+ {
+  "traccia": 2,
+  "grezzo": 120.27,
+  "lavorata": 116.52,
+  "caratteri": 1871
+ },
+ {
+  "traccia": 3,
+  "grezzo": 114.13,
+  "lavorata": 111.81,
+  "caratteri": 1837
+ },
+ {
+  "traccia": 4,
+  "grezzo": 168.59,
+  "lavorata": 163.92,
+  "caratteri": 2610
+ },
+ {
+  "traccia": 5,
+  "grezzo": 118.36,
+  "lavorata": 114.18,
+  "caratteri": 1832
+ },
+ {
+  "traccia": 6,
+  "grezzo": 106.45,
+  "lavorata": 102.95,
+  "caratteri": 1687
+ },
+ {
+  "traccia": 7,
+  "grezzo": 123.32,
+  "lavorata": 119.32,
+  "caratteri": 1933
+ },
+ {
+  "traccia": 8,
+  "grezzo": 161.41,
+  "lavorata": 152.8,
+  "caratteri": 2216
+ },
+ {
+  "traccia": 9,
+  "grezzo": 131.55,
+  "lavorata": 127.4,
+  "caratteri": 1862
+ },
+ {
+  "traccia": 10,
+  "grezzo": 114.91,
+  "lavorata": 111.28,
+  "caratteri": 1795
+ }
+]

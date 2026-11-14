@@ -35,18 +35,37 @@ VOCE_NOME  = "Francesca Bellucci"
 # cambiare voce — niente si eredita, e infatti qui sotto NIENTE e' ereditato.
 MODELLO    = "eleven_v4"
 
-# MISURATO il 13 novembre 2026 su 1.546 caratteri parlati e 107,08 s di grezzo,
-# con i tag dentro il testo. Non ereditato: sullo stesso timbro, ma su
-# eleven_multilingual_v2, il grezzo era 13,45 car/s. Su v4 e' il 7,4% piu'
-# veloce, e con il numero vecchio ogni video sarebbe uscito un minuto e mezzo
-# corto su venti.
+# MISURATO il 14 novembre 2026 sulle DIECI TRACCE VERE della sanita' pubblica:
+# 19.537 caratteri parlati, 1.284,2 s di grezzo. Non e' piu' la stima su un
+# campione: il campione del 13 novembre (1.546 caratteri, 107,08 s) dava 14,44
+# car/s, cioe' il 5,3% piu' lento del vero. Un campione non e' una traccia, e
+# con il numero del campione il video sarebbe uscito un minuto piu' lungo di
+# quanto esce davvero.
+#
+# Non ereditato: sullo stesso timbro, ma su eleven_multilingual_v2, il grezzo
+# era 13,45 car/s. Su v4 e' il 13% piu' veloce.
+#
+# Le dieci tracce vanno da 13,73 a 16,10 car/s, e NON e' rumore: le due piu'
+# lente sono la 8 e la 9, il capitolo del contratto nuovo, pieno di cifre e con
+# i tag [slowly] addosso. La voce rallenta dove le si e' chiesto di rallentare.
 #
 # I caratteri si contano PARLATI, cioe' senza i tag: i tag stanno nel testo
-# inviato (e si pagano) ma non si pronunciano. Contandoli, il CPS si gonfia e
-# il copione esce corto quanto i tag che contiene.
-CPS_GREZZO = 14.44
-CPS        = 15.35              # lavorato, alla soglia scelta qui sotto
-FASCIA_CPS = (8.5, 21.0)
+# inviato (e si pagano) ma non si pronunciano — parlato() in strumenti.py.
+# Contandoli, il CPS si gonfia e il copione esce corto quanto i tag contiene.
+CPS_GREZZO = 15.21
+# MISURATO anch'esso sulle dieci tracce vere, passandole per RITMO: il
+# rapporto grezzo/lavorato a -40 dB e' 1,0349, non l'1,063 del campione. Il
+# campione aveva piu' pause di una traccia intera — e' la stessa ragione per
+# cui il suo CPS era piu' lento.
+CPS        = 15.74              # lavorato, alla soglia scelta qui sotto
+# La fascia e' una rete per i tagli finiti nel posto sbagliato: un blocco molto
+# piu' lento o piu' veloce della sua traccia ha quasi sempre preso un pezzo del
+# vicino. Il limite basso era 8,5 e lo abbassa UN blocco solo, misurato: s091
+# legge ad alta voce sei importi in fila («da 87,79 a 181,14... da 78,27 a
+# 161,50... da 73,41 a 151,48») e sta a 7,6 car/s. Non e' un taglio sbagliato:
+# e' una tabella detta a voce, e le cifre costano molti secondi e pochi
+# caratteri. La prosa di questi copioni non scende mai sotto i 12.
+FASCIA_CPS = (7.0, 21.0)
 
 # La soglia di silenzio e' un parametro DELLA VOCE *e* del modello. Misurata
 # sulla stessa traccia, pause lunghe (>=0,18 s) in 107 secondi:

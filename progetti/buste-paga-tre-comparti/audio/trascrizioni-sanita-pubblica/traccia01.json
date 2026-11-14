@@ -1,0 +1,1970 @@
+{
+ "traccia": 1,
+ "generazione_voce": "Oy8brfUG1StHDYatjwrv",
+ "durata": 125.28,
+ "testo": "[warmly] Ogni mese arriva, e quasi tutti guardano una riga sola: l'ultima. Netto a pagare. Poi la busta paga si chiude e finisce in un cassetto, insieme a tutte le altre.\n\nTi capisco: sembra scritta apposta per non farsi leggere. Codici, sigle, asterischi, colonne di numeri con cinque decimali. Ma quella busta racconta tutto quello che hai fatto nel mese, e in venti minuti impari a farla parlare.\n\nNon serve essere esperti di contabilità. Serve sapere dove guardare. E serve sapere che chi lavora in sanità lavora su turni, di notte, nei festivi: sono proprio queste le voci che si sbagliano più spesso, e quelle che nessuno controlla.\n\nQualunque cedolino, di qualunque Azienda, è diviso in tre zone. In alto l'intestazione: chi sei e qual è il tuo rapporto di lavoro. In mezzo il corpo: l'elenco delle voci, una per riga. In fondo il piede: i totali, fino al netto a pagare.\n\nImpara a riconoscere queste tre zone e hai già fatto metà del lavoro. Tutto il resto è dettaglio, e il dettaglio si guarda solo quando un numero non torna.\n\nPartiamo dall'intestazione. Matricola, profilo, area di inquadramento, data di assunzione, sede, e le coordinate del conto dove ti arriva lo stipendio. Sembrano dati anagrafici. Non lo sono: sono la base su cui si calcola tutto il resto.\n\n[cautiously] Se l'area di inquadramento è sbagliata, è sbagliato lo stipendio tabellare. E se è sbagliato il tabellare, sono sbagliate anche la tredicesima, i contributi e metà delle indennità. Un errore qui non è un errore: sono dodici errori l'anno.\n\n[warmly] Controlla l'intestazione una volta sola, con calma, oggi. Poi guardala di sfuggita solo quando cambia qualcosa: una progressione, un trasferimento, un nuovo incarico. È il controllo che costa meno e rende di più.\n\nLa data di assunzione dice anche un'altra cosa: se hai il trattamento di fine rapporto o quello di fine servizio. Sono due mondi diversi per tempi e modi di pagamento, e lo vedi scritto lì.",
+ "parole": [
+  {
+   "text": "[warmly]",
+   "type": "word",
+   "start": 0,
+   "end": 0.067
+  },
+  {
+   "text": "Ogni",
+   "type": "word",
+   "start": 0.08,
+   "end": 0.24
+  },
+  {
+   "text": "mese",
+   "type": "word",
+   "start": 0.32,
+   "end": 0.56
+  },
+  {
+   "text": "arriva,",
+   "type": "word",
+   "start": 0.68,
+   "end": 1.16
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 1.28,
+   "end": 1.36
+  },
+  {
+   "text": "quasi",
+   "type": "word",
+   "start": 1.44,
+   "end": 1.76
+  },
+  {
+   "text": "tutti",
+   "type": "word",
+   "start": 1.813,
+   "end": 2.08
+  },
+  {
+   "text": "guardano",
+   "type": "word",
+   "start": 2.2,
+   "end": 2.56
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 2.64,
+   "end": 2.72
+  },
+  {
+   "text": "riga",
+   "type": "word",
+   "start": 2.8,
+   "end": 2.96
+  },
+  {
+   "text": "sola:",
+   "type": "word",
+   "start": 3.04,
+   "end": 3.76
+  },
+  {
+   "text": "l'ultima.",
+   "type": "word",
+   "start": 3.8,
+   "end": 4.56
+  },
+  {
+   "text": "Netto",
+   "type": "word",
+   "start": 4.8,
+   "end": 5.12
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 5.16,
+   "end": 5.2
+  },
+  {
+   "text": "pagare.",
+   "type": "word",
+   "start": 5.28,
+   "end": 6.04
+  },
+  {
+   "text": "Poi",
+   "type": "word",
+   "start": 6.32,
+   "end": 6.48
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 6.52,
+   "end": 6.56
+  },
+  {
+   "text": "busta",
+   "type": "word",
+   "start": 6.64,
+   "end": 6.88
+  },
+  {
+   "text": "paga",
+   "type": "word",
+   "start": 6.92,
+   "end": 7.12
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 7.2,
+   "end": 7.28
+  },
+  {
+   "text": "chiude",
+   "type": "word",
+   "start": 7.36,
+   "end": 7.68
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 7.76,
+   "end": 7.84
+  },
+  {
+   "text": "finisce",
+   "type": "word",
+   "start": 7.92,
+   "end": 8.24
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 8.28,
+   "end": 8.32
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 8.36,
+   "end": 8.4
+  },
+  {
+   "text": "cassetto,",
+   "type": "word",
+   "start": 8.48,
+   "end": 9.2
+  },
+  {
+   "text": "insieme",
+   "type": "word",
+   "start": 9.32,
+   "end": 9.52
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 9.56,
+   "end": 9.6
+  },
+  {
+   "text": "tutte",
+   "type": "word",
+   "start": 9.68,
+   "end": 9.92
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 9.96,
+   "end": 10
+  },
+  {
+   "text": "altre.",
+   "type": "word",
+   "start": 10.08,
+   "end": 10.48
+  },
+  {
+   "text": "Ti",
+   "type": "word",
+   "start": 10.88,
+   "end": 11.04
+  },
+  {
+   "text": "capisco:",
+   "type": "word",
+   "start": 11.12,
+   "end": 12
+  },
+  {
+   "text": "sembra",
+   "type": "word",
+   "start": 12.08,
+   "end": 12.24
+  },
+  {
+   "text": "scritta",
+   "type": "word",
+   "start": 12.32,
+   "end": 12.56
+  },
+  {
+   "text": "apposta",
+   "type": "word",
+   "start": 12.68,
+   "end": 13.04
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 13.12,
+   "end": 13.2
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 13.28,
+   "end": 13.36
+  },
+  {
+   "text": "farsi",
+   "type": "word",
+   "start": 13.44,
+   "end": 13.68
+  },
+  {
+   "text": "leggere.",
+   "type": "word",
+   "start": 13.76,
+   "end": 14.24
+  },
+  {
+   "text": "Codici,",
+   "type": "word",
+   "start": 14.56,
+   "end": 15.2
+  },
+  {
+   "text": "sigle,",
+   "type": "word",
+   "start": 15.36,
+   "end": 15.68
+  },
+  {
+   "text": "asterischi,",
+   "type": "word",
+   "start": 15.84,
+   "end": 16.72
+  },
+  {
+   "text": "colonne",
+   "type": "word",
+   "start": 16.8,
+   "end": 17.12
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 17.16,
+   "end": 17.2
+  },
+  {
+   "text": "numeri",
+   "type": "word",
+   "start": 17.28,
+   "end": 17.6
+  },
+  {
+   "text": "con",
+   "type": "word",
+   "start": 17.72,
+   "end": 17.84
+  },
+  {
+   "text": "cinque",
+   "type": "word",
+   "start": 17.92,
+   "end": 18.16
+  },
+  {
+   "text": "decimali.",
+   "type": "word",
+   "start": 18.24,
+   "end": 19.16
+  },
+  {
+   "text": "Ma",
+   "type": "word",
+   "start": 19.44,
+   "end": 19.52
+  },
+  {
+   "text": "quella",
+   "type": "word",
+   "start": 19.6,
+   "end": 19.84
+  },
+  {
+   "text": "busta",
+   "type": "word",
+   "start": 19.92,
+   "end": 20.32
+  },
+  {
+   "text": "racconta",
+   "type": "word",
+   "start": 20.4,
+   "end": 20.88
+  },
+  {
+   "text": "tutto",
+   "type": "word",
+   "start": 21.04,
+   "end": 21.36
+  },
+  {
+   "text": "quello",
+   "type": "word",
+   "start": 21.4,
+   "end": 21.6
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 21.68,
+   "end": 21.733
+  },
+  {
+   "text": "hai",
+   "type": "word",
+   "start": 21.787,
+   "end": 21.84
+  },
+  {
+   "text": "fatto",
+   "type": "word",
+   "start": 21.88,
+   "end": 22.08
+  },
+  {
+   "text": "nel",
+   "type": "word",
+   "start": 22.16,
+   "end": 22.32
+  },
+  {
+   "text": "mese,",
+   "type": "word",
+   "start": 22.4,
+   "end": 23.04
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 23.08,
+   "end": 23.12
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 23.2,
+   "end": 23.28
+  },
+  {
+   "text": "venti",
+   "type": "word",
+   "start": 23.36,
+   "end": 23.6
+  },
+  {
+   "text": "minuti",
+   "type": "word",
+   "start": 23.68,
+   "end": 24
+  },
+  {
+   "text": "impari",
+   "type": "word",
+   "start": 24.16,
+   "end": 24.52
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 24.56,
+   "end": 24.64
+  },
+  {
+   "text": "farla",
+   "type": "word",
+   "start": 24.72,
+   "end": 24.88
+  },
+  {
+   "text": "parlare.",
+   "type": "word",
+   "start": 24.96,
+   "end": 25.72
+  },
+  {
+   "text": "Non",
+   "type": "word",
+   "start": 26,
+   "end": 26.08
+  },
+  {
+   "text": "serve",
+   "type": "word",
+   "start": 26.16,
+   "end": 26.48
+  },
+  {
+   "text": "essere",
+   "type": "word",
+   "start": 26.56,
+   "end": 26.8
+  },
+  {
+   "text": "esperti",
+   "type": "word",
+   "start": 26.88,
+   "end": 27.2
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 27.24,
+   "end": 27.28
+  },
+  {
+   "text": "contabilità.",
+   "type": "word",
+   "start": 27.36,
+   "end": 28.08
+  },
+  {
+   "text": "Serve",
+   "type": "word",
+   "start": 28.48,
+   "end": 28.72
+  },
+  {
+   "text": "sapere",
+   "type": "word",
+   "start": 28.8,
+   "end": 29.12
+  },
+  {
+   "text": "dove",
+   "type": "word",
+   "start": 29.28,
+   "end": 29.52
+  },
+  {
+   "text": "guardare.",
+   "type": "word",
+   "start": 29.6,
+   "end": 30.24
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 30.72,
+   "end": 30.8
+  },
+  {
+   "text": "serve",
+   "type": "word",
+   "start": 30.88,
+   "end": 31.12
+  },
+  {
+   "text": "sapere",
+   "type": "word",
+   "start": 31.24,
+   "end": 31.6
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 31.68,
+   "end": 31.76
+  },
+  {
+   "text": "chi",
+   "type": "word",
+   "start": 31.84,
+   "end": 32
+  },
+  {
+   "text": "lavora",
+   "type": "word",
+   "start": 32.04,
+   "end": 32.32
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 32.36,
+   "end": 32.4
+  },
+  {
+   "text": "sanità",
+   "type": "word",
+   "start": 32.48,
+   "end": 32.96
+  },
+  {
+   "text": "lavora",
+   "type": "word",
+   "start": 33.12,
+   "end": 33.4
+  },
+  {
+   "text": "su",
+   "type": "word",
+   "start": 33.44,
+   "end": 33.6
+  },
+  {
+   "text": "turni,",
+   "type": "word",
+   "start": 33.68,
+   "end": 34.24
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 34.28,
+   "end": 34.32
+  },
+  {
+   "text": "notte,",
+   "type": "word",
+   "start": 34.4,
+   "end": 34.84
+  },
+  {
+   "text": "nei",
+   "type": "word",
+   "start": 34.88,
+   "end": 35
+  },
+  {
+   "text": "festivi:",
+   "type": "word",
+   "start": 35.04,
+   "end": 36
+  },
+  {
+   "text": "sono",
+   "type": "word",
+   "start": 36.08,
+   "end": 36.16
+  },
+  {
+   "text": "proprio",
+   "type": "word",
+   "start": 36.24,
+   "end": 36.56
+  },
+  {
+   "text": "queste",
+   "type": "word",
+   "start": 36.72,
+   "end": 36.96
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 37,
+   "end": 37.04
+  },
+  {
+   "text": "voci",
+   "type": "word",
+   "start": 37.12,
+   "end": 37.36
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 37.4,
+   "end": 37.44
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 37.52,
+   "end": 37.6
+  },
+  {
+   "text": "sbagliano",
+   "type": "word",
+   "start": 37.68,
+   "end": 38
+  },
+  {
+   "text": "più",
+   "type": "word",
+   "start": 38.08,
+   "end": 38.2
+  },
+  {
+   "text": "spesso,",
+   "type": "word",
+   "start": 38.24,
+   "end": 38.96
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 39.04,
+   "end": 39.12
+  },
+  {
+   "text": "quelle",
+   "type": "word",
+   "start": 39.24,
+   "end": 39.36
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 39.4,
+   "end": 39.44
+  },
+  {
+   "text": "nessuno",
+   "type": "word",
+   "start": 39.52,
+   "end": 39.92
+  },
+  {
+   "text": "controlla.",
+   "type": "word",
+   "start": 40.04,
+   "end": 40.88
+  },
+  {
+   "text": "Qualunque",
+   "type": "word",
+   "start": 41.2,
+   "end": 41.6
+  },
+  {
+   "text": "cedolino,",
+   "type": "word",
+   "start": 41.72,
+   "end": 42.4
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 42.44,
+   "end": 42.48
+  },
+  {
+   "text": "qualunque",
+   "type": "word",
+   "start": 42.56,
+   "end": 42.96
+  },
+  {
+   "text": "Azienda,",
+   "type": "word",
+   "start": 43.04,
+   "end": 43.68
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 43.76,
+   "end": 43.84
+  },
+  {
+   "text": "diviso",
+   "type": "word",
+   "start": 43.92,
+   "end": 44.16
+  },
+  {
+   "text": "in",
+   "type": "word",
+   "start": 44.24,
+   "end": 44.32
+  },
+  {
+   "text": "tre",
+   "type": "word",
+   "start": 44.4,
+   "end": 44.48
+  },
+  {
+   "text": "zone.",
+   "type": "word",
+   "start": 44.64,
+   "end": 45.04
+  },
+  {
+   "text": "In",
+   "type": "word",
+   "start": 45.52,
+   "end": 45.68
+  },
+  {
+   "text": "alto",
+   "type": "word",
+   "start": 45.84,
+   "end": 46
+  },
+  {
+   "text": "l'intestazione:",
+   "type": "word",
+   "start": 46.16,
+   "end": 47.44
+  },
+  {
+   "text": "chi",
+   "type": "word",
+   "start": 47.48,
+   "end": 47.52
+  },
+  {
+   "text": "sei",
+   "type": "word",
+   "start": 47.68,
+   "end": 48
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 48.08,
+   "end": 48.16
+  },
+  {
+   "text": "qual",
+   "type": "word",
+   "start": 48.24,
+   "end": 48.4
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 48.44,
+   "end": 48.48
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 48.52,
+   "end": 48.56
+  },
+  {
+   "text": "tuo",
+   "type": "word",
+   "start": 48.6,
+   "end": 48.72
+  },
+  {
+   "text": "rapporto",
+   "type": "word",
+   "start": 48.8,
+   "end": 49.12
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 49.16,
+   "end": 49.2
+  },
+  {
+   "text": "lavoro.",
+   "type": "word",
+   "start": 49.28,
+   "end": 49.76
+  },
+  {
+   "text": "In",
+   "type": "word",
+   "start": 50.24,
+   "end": 50.32
+  },
+  {
+   "text": "mezzo",
+   "type": "word",
+   "start": 50.4,
+   "end": 50.8
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 50.96,
+   "end": 51.04
+  },
+  {
+   "text": "corpo:",
+   "type": "word",
+   "start": 51.12,
+   "end": 51.92
+  },
+  {
+   "text": "l'elenco",
+   "type": "word",
+   "start": 51.947,
+   "end": 52.32
+  },
+  {
+   "text": "delle",
+   "type": "word",
+   "start": 52.36,
+   "end": 52.56
+  },
+  {
+   "text": "voci,",
+   "type": "word",
+   "start": 52.6,
+   "end": 53.12
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 53.2,
+   "end": 53.36
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 53.44,
+   "end": 53.52
+  },
+  {
+   "text": "riga.",
+   "type": "word",
+   "start": 53.6,
+   "end": 54
+  },
+  {
+   "text": "In",
+   "type": "word",
+   "start": 54.48,
+   "end": 54.56
+  },
+  {
+   "text": "fondo",
+   "type": "word",
+   "start": 54.72,
+   "end": 55.04
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 55.2,
+   "end": 55.28
+  },
+  {
+   "text": "piede:",
+   "type": "word",
+   "start": 55.44,
+   "end": 56.16
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 56.2,
+   "end": 56.24
+  },
+  {
+   "text": "totali,",
+   "type": "word",
+   "start": 56.32,
+   "end": 57.04
+  },
+  {
+   "text": "fino",
+   "type": "word",
+   "start": 57.12,
+   "end": 57.28
+  },
+  {
+   "text": "al",
+   "type": "word",
+   "start": 57.36,
+   "end": 57.44
+  },
+  {
+   "text": "netto",
+   "type": "word",
+   "start": 57.56,
+   "end": 57.72
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 57.76,
+   "end": 57.8
+  },
+  {
+   "text": "pagare.",
+   "type": "word",
+   "start": 57.84,
+   "end": 58.32
+  },
+  {
+   "text": "Impara",
+   "type": "word",
+   "start": 58.96,
+   "end": 59.28
+  },
+  {
+   "text": "a",
+   "type": "word",
+   "start": 59.32,
+   "end": 59.36
+  },
+  {
+   "text": "riconoscere",
+   "type": "word",
+   "start": 59.4,
+   "end": 59.92
+  },
+  {
+   "text": "queste",
+   "type": "word",
+   "start": 60,
+   "end": 60.24
+  },
+  {
+   "text": "tre",
+   "type": "word",
+   "start": 60.32,
+   "end": 60.48
+  },
+  {
+   "text": "zone",
+   "type": "word",
+   "start": 60.56,
+   "end": 60.88
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 61.04,
+   "end": 61.12
+  },
+  {
+   "text": "hai",
+   "type": "word",
+   "start": 61.16,
+   "end": 61.2
+  },
+  {
+   "text": "già",
+   "type": "word",
+   "start": 61.28,
+   "end": 61.36
+  },
+  {
+   "text": "fatto",
+   "type": "word",
+   "start": 61.44,
+   "end": 61.68
+  },
+  {
+   "text": "metà",
+   "type": "word",
+   "start": 61.76,
+   "end": 62
+  },
+  {
+   "text": "del",
+   "type": "word",
+   "start": 62.08,
+   "end": 62.16
+  },
+  {
+   "text": "lavoro.",
+   "type": "word",
+   "start": 62.24,
+   "end": 62.72
+  },
+  {
+   "text": "Tutto",
+   "type": "word",
+   "start": 63.12,
+   "end": 63.28
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 63.36,
+   "end": 63.4
+  },
+  {
+   "text": "resto",
+   "type": "word",
+   "start": 63.44,
+   "end": 63.707
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 63.733,
+   "end": 63.76
+  },
+  {
+   "text": "dettaglio,",
+   "type": "word",
+   "start": 63.84,
+   "end": 64.64
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 64.68,
+   "end": 64.72
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 64.76,
+   "end": 64.8
+  },
+  {
+   "text": "dettaglio",
+   "type": "word",
+   "start": 64.88,
+   "end": 65.44
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 65.6,
+   "end": 65.68
+  },
+  {
+   "text": "guarda",
+   "type": "word",
+   "start": 65.76,
+   "end": 66
+  },
+  {
+   "text": "solo",
+   "type": "word",
+   "start": 66.16,
+   "end": 66.4
+  },
+  {
+   "text": "quando",
+   "type": "word",
+   "start": 66.48,
+   "end": 66.72
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 66.76,
+   "end": 66.8
+  },
+  {
+   "text": "numero",
+   "type": "word",
+   "start": 66.88,
+   "end": 67.12
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 67.2,
+   "end": 67.36
+  },
+  {
+   "text": "torna.",
+   "type": "word",
+   "start": 67.44,
+   "end": 68.08
+  },
+  {
+   "text": "Partiamo",
+   "type": "word",
+   "start": 68.32,
+   "end": 68.72
+  },
+  {
+   "text": "dall'intestazione.",
+   "type": "word",
+   "start": 68.76,
+   "end": 69.84
+  },
+  {
+   "text": "Matricola,",
+   "type": "word",
+   "start": 70.24,
+   "end": 70.96
+  },
+  {
+   "text": "profilo,",
+   "type": "word",
+   "start": 71.24,
+   "end": 71.76
+  },
+  {
+   "text": "area",
+   "type": "word",
+   "start": 71.88,
+   "end": 72
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 72.08,
+   "end": 72.12
+  },
+  {
+   "text": "inquadramento,",
+   "type": "word",
+   "start": 72.16,
+   "end": 73.12
+  },
+  {
+   "text": "data",
+   "type": "word",
+   "start": 73.2,
+   "end": 73.44
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 73.48,
+   "end": 73.52
+  },
+  {
+   "text": "assunzione,",
+   "type": "word",
+   "start": 73.6,
+   "end": 74.56
+  },
+  {
+   "text": "sede,",
+   "type": "word",
+   "start": 74.6,
+   "end": 75.28
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 75.32,
+   "end": 75.36
+  },
+  {
+   "text": "le",
+   "type": "word",
+   "start": 75.44,
+   "end": 75.52
+  },
+  {
+   "text": "coordinate",
+   "type": "word",
+   "start": 75.6,
+   "end": 76.08
+  },
+  {
+   "text": "del",
+   "type": "word",
+   "start": 76.16,
+   "end": 76.24
+  },
+  {
+   "text": "conto",
+   "type": "word",
+   "start": 76.4,
+   "end": 76.64
+  },
+  {
+   "text": "dove",
+   "type": "word",
+   "start": 76.72,
+   "end": 76.88
+  },
+  {
+   "text": "ti",
+   "type": "word",
+   "start": 76.92,
+   "end": 76.96
+  },
+  {
+   "text": "arriva",
+   "type": "word",
+   "start": 77.04,
+   "end": 77.28
+  },
+  {
+   "text": "lo",
+   "type": "word",
+   "start": 77.32,
+   "end": 77.36
+  },
+  {
+   "text": "stipendio.",
+   "type": "word",
+   "start": 77.44,
+   "end": 78.08
+  },
+  {
+   "text": "Sembrano",
+   "type": "word",
+   "start": 78.56,
+   "end": 78.96
+  },
+  {
+   "text": "dati",
+   "type": "word",
+   "start": 79.04,
+   "end": 79.2
+  },
+  {
+   "text": "anagrafici.",
+   "type": "word",
+   "start": 79.24,
+   "end": 79.92
+  },
+  {
+   "text": "Non",
+   "type": "word",
+   "start": 80.32,
+   "end": 80.4
+  },
+  {
+   "text": "lo",
+   "type": "word",
+   "start": 80.48,
+   "end": 80.56
+  },
+  {
+   "text": "sono:",
+   "type": "word",
+   "start": 80.64,
+   "end": 81.36
+  },
+  {
+   "text": "sono",
+   "type": "word",
+   "start": 81.48,
+   "end": 81.6
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 81.68,
+   "end": 81.76
+  },
+  {
+   "text": "base",
+   "type": "word",
+   "start": 81.84,
+   "end": 82.16
+  },
+  {
+   "text": "su",
+   "type": "word",
+   "start": 82.24,
+   "end": 82.4
+  },
+  {
+   "text": "cui",
+   "type": "word",
+   "start": 82.44,
+   "end": 82.56
+  },
+  {
+   "text": "si",
+   "type": "word",
+   "start": 82.64,
+   "end": 82.72
+  },
+  {
+   "text": "calcola",
+   "type": "word",
+   "start": 82.8,
+   "end": 83.2
+  },
+  {
+   "text": "tutto",
+   "type": "word",
+   "start": 83.28,
+   "end": 83.52
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 83.56,
+   "end": 83.6
+  },
+  {
+   "text": "resto.",
+   "type": "word",
+   "start": 83.68,
+   "end": 84.16
+  },
+  {
+   "text": "[cautiously]",
+   "type": "word",
+   "start": 84.56,
+   "end": 84.674
+  },
+  {
+   "text": "Se",
+   "type": "word",
+   "start": 84.697,
+   "end": 84.72
+  },
+  {
+   "text": "l'area",
+   "type": "word",
+   "start": 84.76,
+   "end": 85.04
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 85.08,
+   "end": 85.12
+  },
+  {
+   "text": "inquadramento",
+   "type": "word",
+   "start": 85.2,
+   "end": 85.68
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 85.76,
+   "end": 85.8
+  },
+  {
+   "text": "sbagliata,",
+   "type": "word",
+   "start": 85.84,
+   "end": 86.72
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 86.76,
+   "end": 86.8
+  },
+  {
+   "text": "sbagliato",
+   "type": "word",
+   "start": 86.88,
+   "end": 87.28
+  },
+  {
+   "text": "lo",
+   "type": "word",
+   "start": 87.32,
+   "end": 87.36
+  },
+  {
+   "text": "stipendio",
+   "type": "word",
+   "start": 87.44,
+   "end": 87.84
+  },
+  {
+   "text": "tabellare.",
+   "type": "word",
+   "start": 87.92,
+   "end": 88.56
+  },
+  {
+   "text": "E",
+   "type": "word",
+   "start": 88.96,
+   "end": 89.04
+  },
+  {
+   "text": "se",
+   "type": "word",
+   "start": 89.12,
+   "end": 89.2
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 89.24,
+   "end": 89.28
+  },
+  {
+   "text": "sbagliato",
+   "type": "word",
+   "start": 89.36,
+   "end": 89.68
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 89.72,
+   "end": 89.76
+  },
+  {
+   "text": "tabellare,",
+   "type": "word",
+   "start": 89.84,
+   "end": 90.64
+  },
+  {
+   "text": "sono",
+   "type": "word",
+   "start": 90.76,
+   "end": 90.88
+  },
+  {
+   "text": "sbagliate",
+   "type": "word",
+   "start": 90.92,
+   "end": 91.36
+  },
+  {
+   "text": "anche",
+   "type": "word",
+   "start": 91.48,
+   "end": 91.6
+  },
+  {
+   "text": "la",
+   "type": "word",
+   "start": 91.68,
+   "end": 91.76
+  },
+  {
+   "text": "tredicesima,",
+   "type": "word",
+   "start": 91.8,
+   "end": 92.64
+  },
+  {
+   "text": "i",
+   "type": "word",
+   "start": 92.72,
+   "end": 92.76
+  },
+  {
+   "text": "contributi",
+   "type": "word",
+   "start": 92.8,
+   "end": 93.52
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 93.6,
+   "end": 93.68
+  },
+  {
+   "text": "metà",
+   "type": "word",
+   "start": 93.76,
+   "end": 94
+  },
+  {
+   "text": "delle",
+   "type": "word",
+   "start": 94.08,
+   "end": 94.24
+  },
+  {
+   "text": "indennità.",
+   "type": "word",
+   "start": 94.32,
+   "end": 94.96
+  },
+  {
+   "text": "Un",
+   "type": "word",
+   "start": 95.44,
+   "end": 95.52
+  },
+  {
+   "text": "errore",
+   "type": "word",
+   "start": 95.6,
+   "end": 95.92
+  },
+  {
+   "text": "qui",
+   "type": "word",
+   "start": 96.04,
+   "end": 96.16
+  },
+  {
+   "text": "non",
+   "type": "word",
+   "start": 96.4,
+   "end": 96.56
+  },
+  {
+   "text": "è",
+   "type": "word",
+   "start": 96.64,
+   "end": 96.72
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 96.76,
+   "end": 96.8
+  },
+  {
+   "text": "errore:",
+   "type": "word",
+   "start": 96.88,
+   "end": 97.6
+  },
+  {
+   "text": "sono",
+   "type": "word",
+   "start": 97.72,
+   "end": 97.84
+  },
+  {
+   "text": "dodici",
+   "type": "word",
+   "start": 98,
+   "end": 98.4
+  },
+  {
+   "text": "errori",
+   "type": "word",
+   "start": 98.48,
+   "end": 98.88
+  },
+  {
+   "text": "l'anno.",
+   "type": "word",
+   "start": 98.92,
+   "end": 99.36
+  },
+  {
+   "text": "[warmly]",
+   "type": "word",
+   "start": 99.68,
+   "end": 99.84
+  },
+  {
+   "text": "Controlla",
+   "type": "word",
+   "start": 99.88,
+   "end": 100.16
+  },
+  {
+   "text": "l'intestazione",
+   "type": "word",
+   "start": 100.2,
+   "end": 100.96
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 101.04,
+   "end": 101.2
+  },
+  {
+   "text": "volta",
+   "type": "word",
+   "start": 101.28,
+   "end": 101.52
+  },
+  {
+   "text": "sola,",
+   "type": "word",
+   "start": 101.6,
+   "end": 102.08
+  },
+  {
+   "text": "con",
+   "type": "word",
+   "start": 102.16,
+   "end": 102.24
+  },
+  {
+   "text": "calma,",
+   "type": "word",
+   "start": 102.32,
+   "end": 102.96
+  },
+  {
+   "text": "oggi.",
+   "type": "word",
+   "start": 103.04,
+   "end": 103.52
+  },
+  {
+   "text": "Poi",
+   "type": "word",
+   "start": 103.92,
+   "end": 104.08
+  },
+  {
+   "text": "guardala",
+   "type": "word",
+   "start": 104.2,
+   "end": 104.48
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 104.56,
+   "end": 104.64
+  },
+  {
+   "text": "sfuggita",
+   "type": "word",
+   "start": 104.68,
+   "end": 105.2
+  },
+  {
+   "text": "solo",
+   "type": "word",
+   "start": 105.28,
+   "end": 105.44
+  },
+  {
+   "text": "quando",
+   "type": "word",
+   "start": 105.52,
+   "end": 105.76
+  },
+  {
+   "text": "cambia",
+   "type": "word",
+   "start": 105.8,
+   "end": 106.08
+  },
+  {
+   "text": "qualcosa:",
+   "type": "word",
+   "start": 106.2,
+   "end": 106.88
+  },
+  {
+   "text": "una",
+   "type": "word",
+   "start": 106.96,
+   "end": 107.04
+  },
+  {
+   "text": "progressione,",
+   "type": "word",
+   "start": 107.12,
+   "end": 107.92
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 107.96,
+   "end": 108
+  },
+  {
+   "text": "trasferimento,",
+   "type": "word",
+   "start": 108.12,
+   "end": 108.96
+  },
+  {
+   "text": "un",
+   "type": "word",
+   "start": 109,
+   "end": 109.04
+  },
+  {
+   "text": "nuovo",
+   "type": "word",
+   "start": 109.12,
+   "end": 109.28
+  },
+  {
+   "text": "incarico.",
+   "type": "word",
+   "start": 109.36,
+   "end": 110
+  },
+  {
+   "text": "È",
+   "type": "word",
+   "start": 110.4,
+   "end": 110.48
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 110.52,
+   "end": 110.56
+  },
+  {
+   "text": "controllo",
+   "type": "word",
+   "start": 110.64,
+   "end": 111.04
+  },
+  {
+   "text": "che",
+   "type": "word",
+   "start": 111.12,
+   "end": 111.2
+  },
+  {
+   "text": "costa",
+   "type": "word",
+   "start": 111.28,
+   "end": 111.6
+  },
+  {
+   "text": "meno",
+   "type": "word",
+   "start": 111.68,
+   "end": 111.92
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 112.08,
+   "end": 112.16
+  },
+  {
+   "text": "rende",
+   "type": "word",
+   "start": 112.24,
+   "end": 112.48
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 112.56,
+   "end": 112.72
+  },
+  {
+   "text": "più.",
+   "type": "word",
+   "start": 112.76,
+   "end": 112.96
+  },
+  {
+   "text": "La",
+   "type": "word",
+   "start": 113.36,
+   "end": 113.44
+  },
+  {
+   "text": "data",
+   "type": "word",
+   "start": 113.52,
+   "end": 113.68
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 113.76,
+   "end": 113.84
+  },
+  {
+   "text": "assunzione",
+   "type": "word",
+   "start": 113.92,
+   "end": 114.56
+  },
+  {
+   "text": "dice",
+   "type": "word",
+   "start": 114.72,
+   "end": 114.96
+  },
+  {
+   "text": "anche",
+   "type": "word",
+   "start": 115.08,
+   "end": 115.2
+  },
+  {
+   "text": "un'altra",
+   "type": "word",
+   "start": 115.24,
+   "end": 115.6
+  },
+  {
+   "text": "cosa:",
+   "type": "word",
+   "start": 115.76,
+   "end": 116.4
+  },
+  {
+   "text": "se",
+   "type": "word",
+   "start": 116.48,
+   "end": 116.56
+  },
+  {
+   "text": "hai",
+   "type": "word",
+   "start": 116.64,
+   "end": 116.72
+  },
+  {
+   "text": "il",
+   "type": "word",
+   "start": 116.76,
+   "end": 116.8
+  },
+  {
+   "text": "trattamento",
+   "type": "word",
+   "start": 116.88,
+   "end": 117.36
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 117.44,
+   "end": 117.52
+  },
+  {
+   "text": "fine",
+   "type": "word",
+   "start": 117.6,
+   "end": 117.76
+  },
+  {
+   "text": "rapporto",
+   "type": "word",
+   "start": 117.88,
+   "end": 118.4
+  },
+  {
+   "text": "o",
+   "type": "word",
+   "start": 118.48,
+   "end": 118.56
+  },
+  {
+   "text": "quello",
+   "type": "word",
+   "start": 118.64,
+   "end": 118.88
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 118.92,
+   "end": 118.96
+  },
+  {
+   "text": "fine",
+   "type": "word",
+   "start": 119.04,
+   "end": 119.2
+  },
+  {
+   "text": "servizio.",
+   "type": "word",
+   "start": 119.28,
+   "end": 120.2
+  },
+  {
+   "text": "Sono",
+   "type": "word",
+   "start": 120.48,
+   "end": 120.64
+  },
+  {
+   "text": "due",
+   "type": "word",
+   "start": 120.8,
+   "end": 120.96
+  },
+  {
+   "text": "mondi",
+   "type": "word",
+   "start": 121.04,
+   "end": 121.2
+  },
+  {
+   "text": "diversi",
+   "type": "word",
+   "start": 121.28,
+   "end": 121.76
+  },
+  {
+   "text": "per",
+   "type": "word",
+   "start": 121.84,
+   "end": 122
+  },
+  {
+   "text": "tempi",
+   "type": "word",
+   "start": 122.08,
+   "end": 122.56
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 122.6,
+   "end": 122.64
+  },
+  {
+   "text": "modi",
+   "type": "word",
+   "start": 122.72,
+   "end": 122.96
+  },
+  {
+   "text": "di",
+   "type": "word",
+   "start": 123.04,
+   "end": 123.08
+  },
+  {
+   "text": "pagamento,",
+   "type": "word",
+   "start": 123.12,
+   "end": 123.92
+  },
+  {
+   "text": "e",
+   "type": "word",
+   "start": 123.96,
+   "end": 124
+  },
+  {
+   "text": "lo",
+   "type": "word",
+   "start": 124.04,
+   "end": 124.08
+  },
+  {
+   "text": "vedi",
+   "type": "word",
+   "start": 124.16,
+   "end": 124.32
+  },
+  {
+   "text": "scritto",
+   "type": "word",
+   "start": 124.4,
+   "end": 124.72
+  },
+  {
+   "text": "lì.",
+   "type": "word",
+   "start": 124.8,
+   "end": 125.28
+  }
+ ]
+}
