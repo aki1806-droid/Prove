@@ -37,30 +37,56 @@ def scene_grezze():
     return out
 
 
+# coda chiesta da Achille il 14/11 (lancio del 20 novembre, dove comprarlo, recensione onesta, citazione finale p. 64):
+# seconda passata della stessa voce (audio/coda_grezzo.mp3), sostituisce la scena 11 del pacchetto («Quelle eredità…»)
+FINE_PRINCIPALE = 60.9          # nel grezzo, dentro la pausa vera dopo «Si intitola Eredità Invisibili.»
+CODA_TAGLI = [7.6, 15.2]        # nel grezzo della coda: lancio | recensione | citazione
+CODA_PAUSE = [0.7, 0.7, 0.6, 2.5]   # dopo la scena 10, dopo la 11, dopo la 12, in fondo
+
+
 def voce():
-    """La voce resta intera (tagliarla in undici pezzi creava interruzioni, Achille 14/11): atempo 1,12 su tutto il grezzo,
-    poi due secondi di silenzio dopo la scena 4, inseriti a metà della pausa vera, e 2,2 s in coda. I confini delle scene
-    stanno a metà delle pause fra i paragrafi, così nessuna parola viene toccata."""
-    sc = scene_grezze()
-    conf = [0.0] + [(sc[i][2] + sc[i + 1][1]) / 2 for i in range(len(sc) - 1)]   # confini nel grezzo
-    tot = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{D}/audio/grezzo.mp3'],
-                               capture_output=True, text=True).stdout)
-    conf.append(tot)
-    taglio = conf[4]          # fine della scena 4
-    ff('-i', f'{D}/audio/grezzo.mp3', '-filter_complex',
-       f'[0:a]atrim=0:{taglio:.3f},asetpts=PTS-STARTPTS,atempo={AT},apad=pad_dur={PAUSE[3]}[a];'
-       f'[0:a]atrim={taglio:.3f},asetpts=PTS-STARTPTS,atempo={AT},apad=pad_dur={PAUSE[-1]}[b];[a][b]concat=n=2:v=0:a=1[o]',
-       '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
-    nuovo = lambda t: t / AT + (PAUSE[3] if t > taglio + 1e-6 else 0)
+    """La voce resta intera (tagliarla in undici pezzi creava interruzioni, Achille 14/11): atempo 1,12, due secondi di
+    silenzio dopo la scena 4 e le pause della coda inseriti dentro pause vere, così nessuna parola viene toccata."""
+    sc = scene_grezze()[:10]
+    conf = [0.0] + [(sc[i][2] + sc[i + 1][1]) / 2 for i in range(len(sc) - 1)] + [FINE_PRINCIPALE]
+    taglio = conf[4]
+    coda = json.load(open(f'{D}/audio/coda_parole_grezzo.json'))['words']
+    cd = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{D}/audio/coda_grezzo.mp3'],
+                              capture_output=True, text=True).stdout)
+    # pezzi: (sorgente, da, a, pausa dopo)
+    P = [(0, 0, taglio, PAUSE[3]), (0, taglio, FINE_PRINCIPALE, CODA_PAUSE[0]), (1, 0, CODA_TAGLI[0], CODA_PAUSE[1]),
+         (1, CODA_TAGLI[0], CODA_TAGLI[1], CODA_PAUSE[2]), (1, CODA_TAGLI[1], cd, CODA_PAUSE[3])]
+    fil = ''.join(f'[{src}:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,atempo={AT},apad=pad_dur={pd}[p{k}];' for k, (src, a, b, pd) in enumerate(P))
+    fil += ''.join(f'[p{k}]' for k in range(len(P))) + f'concat=n={len(P)}:v=0:a=1[o]'
+    ff('-i', f'{D}/audio/grezzo.mp3', '-i', f'{D}/audio/coda_grezzo.mp3', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1',
+       '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
+    inizio = []; t = 0.0
+    for (src, a, b, pd) in P:
+        inizio.append(t); t += (b - a) / AT + pd
+    def nuovo(src, x):
+        for k, (s_, a, b, pd) in enumerate(P):
+            if s_ == src and a - 1e-6 <= x <= b + 1e-6:
+                return inizio[k] + (x - a) / AT
+        raise ValueError((src, x))
+    fine_pezzo = lambda k: inizio[k] + (P[k][2] - P[k][1]) / AT + P[k][3]
     tempi, parole = [], {}
+    # scene 1-10 dalla prima passata, 11-13 dalla coda
+    bordi = [nuovo(0, c) if i not in (4,) else inizio[1] for i, c in enumerate(conf[:-1])] + [fine_pezzo(1)]
     for i, (ww, a, b) in enumerate(sc):
-        sid = f'S{i + 1:02d}'; t0 = nuovo(conf[i]) if i != 4 else conf[4] / AT + PAUSE[3]
-        t1 = (conf[i + 1] / AT + PAUSE[3]) if i == 3 else nuovo(conf[i + 1]) + (PAUSE[-1] if i == len(sc) - 1 else 0)
+        t0, t1 = bordi[i], bordi[i + 1]
+        if i == 3:
+            t1 = inizio[1]
+        tempi.append({'id': f'S{i + 1:02d}', 'inizio': round(t0, 3), 'durata': round(t1 - t0, 3)})
+        parole[f'S{i + 1:02d}'] = [{'w': x['text'], 'a': round(nuovo(0, x['start']) - t0, 3), 'b': round(nuovo(0, min(x['end'], FINE_PRINCIPALE)) - t0, 3)} for x in ww]
+    cb = [0.0] + CODA_TAGLI + [cd]
+    for k in range(3):
+        sid = f'S{11 + k:02d}'; t0, t1 = inizio[2 + k], fine_pezzo(2 + k)
+        ww = [x for x in coda if x.get('type', 'word') == 'word' and cb[k] <= x['start'] < cb[k + 1]]
         tempi.append({'id': sid, 'inizio': round(t0, 3), 'durata': round(t1 - t0, 3)})
-        parole[sid] = [{'w': x['text'], 'a': round(nuovo(x['start']) - t0, 3), 'b': round(nuovo(x['end']) - t0, 3)} for x in ww]
+        parole[sid] = [{'w': x['text'], 'a': round(nuovo(1, x['start']) - t0, 3), 'b': round(nuovo(1, min(x['end'], cb[k + 1])) - t0, 3)} for x in ww]
     json.dump(tempi, open(f'{D}/audio/tempi.json', 'w'), indent=1)
     json.dump(parole, open(f'{D}/audio/parole.json', 'w'), ensure_ascii=False, indent=0)
-    print(' '.join(f"{t['id']}:{t['durata']:.1f}" for t in tempi), f"totale {tempi[-1]['inizio'] + tempi[-1]['durata']:.1f}")
+    print(' '.join(f"{t['id']}:{t['durata']:.1f}" for t in tempi), f"totale {tempi[-1]['inizio'] + tempi[-1]['durata']:.2f}")
 
 
 XF = 0.4      # dissolvenza fra le scene
@@ -94,7 +120,7 @@ def monta():
         (d('S07'), [('c7', None)], [('q7', T('S07', 'Ti'))]),
         (d('S08'), [('c8', None)], [('q8', T('S08', 'Dobbiamo'))]),
         (d('S09'), [('c9', None)], []),
-        (d('S10', 'S11'), [('copertina', None)], []),
+        (d('S10', 'S11', 'S12', 'S13'), [('copertina', None)], []),
     ]
     os.makedirs(f'{D}/montaggio', exist_ok=True); pezzi = []
     for i, (dur, clips, testi) in enumerate(SEG):

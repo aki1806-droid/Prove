@@ -13,6 +13,16 @@ due secondi di silenzio dopo la scena 4 (inseriti a metà della pausa vera) e 2,
 ha sentito interruzioni nell'audio (14/11), rifatta così.
 Le citazioni dei figli hanno la loro pausa naturale prima (da 0,3 a 0,5 s nel grezzo).
 
+## Coda (Achille 14/11: «manca tutta la parte finale»)
+Al posto della scena 11 del pacchetto («Quelle eredità non le decidi…»), una seconda passata della stessa voce (flow N0YZ2MwkWYIrxhvx87ih,
+324 crediti, audio/coda_grezzo.mp3, parole dalla trascrizione Scribe): S11 «Esce il venti novembre. Lo trovi su Amazon, su La
+Feltrinelli, su Unilibro, e in qualsiasi libreria, su ordinazione.»; S12 «E se lo leggi, lasciami una recensione onesta. Anche due
+righe. È il modo più bello per farlo arrivare a chi ne ha bisogno.»; S13 citazione scelta da Achille fra quelle trovate nel libro:
+«I bambini non ci mostrano dove dobbiamo andare. Ci mostrano da dove siamo venuti.» (p. 64). Il 20 novembre è il giorno del lancio.
+A schermo: «Dal 20 novembre» + «Amazon · La Feltrinelli · Unilibro · in libreria»; «Lascia una recensione onesta» con cinque stelle
+che si accendono su «recensione»; la citazione grande in corsivo, poi «Eredità Invisibili / Achille Pagliaro · Edizioni Il Saggio /
+dal 20 novembre su Amazon, La Feltrinelli e in libreria». Ultimi 2,5 s senza voce.
+
 ## Clip (HeyGen text_to_video dal connettore, 9:16 1080p; mai volti di bambini: mani, spalle, oggetti)
 c1 salotto con la tenda di lenzuolo 39afb3fe3f6045adb463712b7785565f (scene 1-2) · c3a cucina al mattino cfcd493d99d046c2aae40961410919fa ·
 c3b mani che costruiscono il fortino a1af2244043e47b880e8333c2767c27d · c5a bambini di spalle nel prato 2f9054ea7af34209b9c3063cf2d8d0f9 ·
@@ -29,7 +39,8 @@ sulla copertina, dissolvenza di 2 s. −14,5 LUFS integrati (brief −14), picco
 Copertina del reel: copertina_reel.jpg (scena 4).
 
 ## Uscita (1080x1920, 30 fps, integra; fuori da git)
-Eredita_Invisibili_lancio.mp4 · 64,0 s · 45 MB · asset HeyGen d202b54c09b44cd68763b7420e53109c (https://resource2.heygen.ai/video/d202b54c09b44cd68763b7420e53109c/original.mp4).
+Eredita_Invisibili_lancio.mp4 · 79,6 s · 47 MB · asset HeyGen cda526378509405c9e27f91e84511340 (https://resource2.heygen.ai/video/cda526378509405c9e27f91e84511340/original.mp4).
+(Versione di 64 s senza la coda: asset d202b54c09b44cd68763b7420e53109c.)
 (Prima versione con le interruzioni: asset 4f363302e9df463c94c7e458e9d4d9db.)
 Testi per pubblicare: post_di_lancio.md (link Amazon, La Feltrinelli, Unilibro). Nota del pacchetto: su La Feltrinelli e Unilibro
 l'indirizzo dice «eredita-invisibile» al singolare, da controllare in scheda.
