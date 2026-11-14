@@ -44,6 +44,11 @@ progetti/*/audio/trascrizioni/*.txt
 progetti/*/slide/png/
 progetti/*/slide/mp4/
 progetti/*/slide/fotogrammi/
+# Tre comparti dallo stesso codice: le cartelle portano il suffisso, e senza
+# queste righe i PNG del primo video sarebbero entrati nel repo.
+progetti/*/slide/png-*/
+progetti/*/slide/mp4-*/
+progetti/*/slide/fotogrammi-*/
 progetti/*/slide/troppo-alte.json
 
 # il montaggio

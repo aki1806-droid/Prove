@@ -1,16 +1,22 @@
 // Renderizza i PNG fermi di tutte le scene: servono per guardarle e correggerle.
-import { chromium } from 'playwright';
+import { apri } from './browser.mjs';
 import { mkdirSync, writeFileSync, readFileSync } from 'node:fs';
 import { SCENE } from './contenuti.mjs';
 import { html } from './layout.mjs';
 
+
+// Tre video da questo stesso codice: il comparto decide quali scene si leggono
+// e dove finiscono i PNG, le clip e l'esito del traboccamento. Senza suffisso
+// il secondo comparto sovrascriverebbe in silenzio le immagini del primo.
+const COMPARTO = (process.env.COMPARTO || 'sanita-pubblica').trim().toLowerCase();
+
 // Questo video non e' una lezione numerata: la cartella non ha un «-lN-» da cui
 // ricavare l'etichetta, e la regola del nome avrebbe stampato «?» su tutte e
-// 218 le slide. Si deriva dal DATO, come dice il MASTER: il capitolo di ogni
-// scena sta in copione/blocchi.json, ed e' l'indicazione utile in un video di
-// un'ora diviso in tredici capitoli.
+// 111 le slide. Si deriva dal DATO, come dice il MASTER: il capitolo di ogni
+// scena sta in copione/blocchi-<comparto>.json, ed e' l'indicazione utile in un
+// video di venti minuti diviso in nove capitoli.
 const CAPITOLO = Object.fromEntries(JSON.parse(
-  readFileSync(new URL('../copione/blocchi.json', import.meta.url), 'utf8'))
+  readFileSync(new URL(`../copione/blocchi-${COMPARTO}.json`, import.meta.url), 'utf8'))
   .map(x => [x.id, x.capitolo]));
 const etichetta = id => CAPITOLO[id] ? `cap ${CAPITOLO[id]}` : '';
 
@@ -20,10 +26,10 @@ const etichetta = id => CAPITOLO[id] ? `cap ${CAPITOLO[id]}` : '';
 // selezione sbagliata lascia artefatti vecchi in mezzo ai nuovi.
 const SOLO = process.env.SOLO ? new Set(process.env.SOLO.split(',').map(x => x.trim())) : null;
 
-const OUT = new URL('./png/', import.meta.url).pathname;
+const OUT = new URL(`./png-${COMPARTO}/`, import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 
-const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+const b = await apri();
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
 const troppoAlte = [];
@@ -64,10 +70,10 @@ if (troppoAlte.length) {
   for (const [id, o] of troppoAlte) console.log(`  ${id}  +${o.sfora}px in altezza, +${o.largo}px in larghezza`);
 } else console.log('nessuna slide sfora la cornice');
 // L'esito del traboccamento si scrive SOLO quando si e' renderizzato tutto.
-// Con SOLO addosso riguarda tre slide su 218, e scriverlo farebbe passare il
+// Con SOLO addosso riguarda tre slide su 111, e scriverlo farebbe passare il
 // controllo 4 su un campione spacciandolo per l'intero mazzo.
 if (SOLO) {
-  console.log('SOLO: troppo-alte.json non riscritto (varrebbe solo per le scene renderizzate)');
+  console.log(`SOLO: troppo-alte-${COMPARTO}.json non riscritto (varrebbe solo per le scene renderizzate)`);
 } else {
-  writeFileSync(new URL('./troppo-alte.json', import.meta.url), JSON.stringify(troppoAlte, null, 1));
+  writeFileSync(new URL(`./troppo-alte-${COMPARTO}.json`, import.meta.url), JSON.stringify(troppoAlte, null, 1));
 }

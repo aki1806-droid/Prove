@@ -26,19 +26,25 @@
 // cambierebbe l'aspetto del testo di tutte e 218 le slide per aggiustare una
 // cosa che nessuno puo' vedere. Si scrive qui, e si smette di usare l'MD5 di
 // una clip come prova di riproducibilita': la prova buona e' il PNG.
-import { chromium } from 'playwright';
+import { apri } from './browser.mjs';
 import { mkdirSync, rmSync, existsSync, readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { SCENE } from './contenuti.mjs';
 import { html } from './layout.mjs';
 
+
+// Tre video da questo stesso codice: il comparto decide quali scene si leggono
+// e dove finiscono i PNG, le clip e l'esito del traboccamento. Senza suffisso
+// il secondo comparto sovrascriverebbe in silenzio le immagini del primo.
+const COMPARTO = (process.env.COMPARTO || 'sanita-pubblica').trim().toLowerCase();
+
 // Questo video non e' una lezione numerata: la cartella non ha un «-lN-» da cui
 // ricavare l'etichetta, e la regola del nome avrebbe stampato «?» su tutte e
-// 218 le slide. Si deriva dal DATO, come dice il MASTER: il capitolo di ogni
-// scena sta in copione/blocchi.json, ed e' l'indicazione utile in un video di
-// un'ora diviso in tredici capitoli.
+// 111 le slide. Si deriva dal DATO, come dice il MASTER: il capitolo di ogni
+// scena sta in copione/blocchi-<comparto>.json, ed e' l'indicazione utile in un
+// video di venti minuti diviso in nove capitoli.
 const CAPITOLO = Object.fromEntries(JSON.parse(
-  readFileSync(new URL('../copione/blocchi.json', import.meta.url), 'utf8'))
+  readFileSync(new URL(`../copione/blocchi-${COMPARTO}.json`, import.meta.url), 'utf8'))
   .map(x => [x.id, x.capitolo]));
 const etichetta = id => CAPITOLO[id] ? `cap ${CAPITOLO[id]}` : '';
 
@@ -51,20 +57,25 @@ const SOLO = process.env.SOLO ? new Set(process.env.SOLO.split(',').map(x => x.t
 const FPS = 25, DURATA = 1.8;              // l'ingresso finisce entro 1,3 s
 const FOTOGRAMMI = Math.round(FPS * DURATA);
 const QUI = new URL('.', import.meta.url).pathname;
-const FF = execFileSync('python3', ['-c',
-  'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())']).toString().trim();
+const FF = (() => {
+  try { return execFileSync('python3', ['-c',
+    'import imageio_ffmpeg;print(imageio_ffmpeg.get_ffmpeg_exe())']).toString().trim(); }
+  catch { /* il contenitore ha già perso imageio_ffmpeg una volta: non si mura */ }
+  try { return execFileSync('which', ['ffmpeg']).toString().trim(); }
+  catch { throw new Error('ffmpeg non trovato: né imageio_ffmpeg né ffmpeg nel PATH'); }
+})();
 
 // solo i blocchi: copertina e chiusura vanno in scena come immagini ferme
 const DA_ANIMARE = SCENE.filter(s => s.tipo !== 'copertina');
 
-mkdirSync(`${QUI}mp4`, { recursive: true });
-const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
+mkdirSync(`${QUI}mp4-${COMPARTO}`, { recursive: true });
+const b = await apri();
 const p = await b.newPage({ viewport: { width: 1920, height: 1080 }, deviceScaleFactor: 1 });
 
 for (const s of DA_ANIMARE) {
   if (SOLO && !SOLO.has(s.id)) continue;
   const i = SCENE.indexOf(s);
-  const dir = `${QUI}fotogrammi/${s.id}`;
+  const dir = `${QUI}fotogrammi-${COMPARTO}/${s.id}`;
   rmSync(dir, { recursive: true, force: true }); mkdirSync(dir, { recursive: true });
   await p.setContent(html(s, { avanzamento: i / (SCENE.length - 1), pagina: etichetta(s.id) }),
                      { waitUntil: 'load' });
@@ -76,10 +87,10 @@ for (const s of DA_ANIMARE) {
   }
   execFileSync(FF, ['-y', '-v', 'error', '-framerate', String(FPS), '-i', `${dir}/%03d.png`,
     '-c:v', 'libx264', '-preset', 'medium', '-crf', '18', '-pix_fmt', 'yuv420p',
-    '-an', `${QUI}mp4/${s.id}.mp4`]);
+    '-an', `${QUI}mp4-${COMPARTO}/${s.id}.mp4`]);
   rmSync(dir, { recursive: true, force: true });
   process.stdout.write(`${s.id} `);
 }
 await b.close();
 const scritte = SOLO ? DA_ANIMARE.filter(s => SOLO.has(s.id)).length : DA_ANIMARE.length;
-console.log(`\n${scritte} clip da ${DURATA}s scritte in mp4/` + (SOLO ? ` (SOLO; le altre ${DA_ANIMARE.length - scritte} restano com'erano)` : ''));
+console.log(`\n${scritte} clip da ${DURATA}s scritte in mp4-${COMPARTO}/` + (SOLO ? ` (SOLO; le altre ${DA_ANIMARE.length - scritte} restano com'erano)` : ''));
