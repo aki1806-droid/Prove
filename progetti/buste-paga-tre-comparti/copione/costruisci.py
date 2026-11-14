@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Legge lo script del video unico e ne ricava blocchi.json e i chunk per la voce.
+"""Legge il copione di un comparto e ne ricava i blocchi e i chunk per la voce.
 
-Questo copione NON e' stato scritto qui: arriva gia' fatto dall'utente, in
-origine/SCRIPT_VIDEO_UNICO.md, e si da' uno standard suo (60 minuti, 218 scene,
-voce «Achille nuovo 1» su eleven_multilingual_v2). Il MASTER §1 dice che in quel
-caso la durata dichiarata dal copione vince: qui non si riscrive niente, si
-estrae. Ogni carattere del parlato e' quello che l'utente ha scritto.
+Un copione per comparto, in origine/SCRIPT_<COMPARTO>.md: venti minuti, 111
+scene nella sanita' pubblica, voce Francesca Bellucci su eleven_v4. I tre
+copioni non sono lo stesso testo con numeri diversi — i tre contratti
+raccontano storie opposte, vedi FONTI.md.
 
 Una scena = un blocco = un mp3 = una clip, come nel resto del metodo.
 
@@ -20,6 +19,7 @@ import json, re, sys, pathlib
 QUI    = pathlib.Path(__file__).resolve().parent
 RADICE = QUI.parent
 sys.path.insert(0, str(RADICE))
+from strumenti import parlato
 from profilo import (CPS, MAX_CAR_CHUNK, MAX_SCENE, COPERTINA, CHIUSURA,
                      CARD_CAPITOLO, COMPARTO, DURATA_CHIESTA)
 
@@ -93,7 +93,10 @@ def chunk(parlanti):
 scene = leggi()
 parlanti = [s for s in scene if s["text"]]
 mute     = [s for s in scene if not s["text"]]
-tot = sum(len(s["text"]) for s in parlanti)
+# Due conteggi, perche' i tag si pagano ma non si pronunciano (strumenti.py):
+# i caratteri PARLATI danno la durata, quelli MANDATI il limite della richiesta.
+tot  = sum(len(parlato(s["text"])) for s in parlanti)
+tot_inviati = sum(len(s["text"]) for s in parlanti)
 
 errori, avvisi = [], []
 for g in sorted({s["segmento"] for s in scene if s["segmento"]}):
@@ -117,16 +120,16 @@ for k, t in enumerate(tracce, 1):
     c = sum(len(x["text"])+1 for x in t)
     if c > MAX_CAR_CHUNK: errori.append(f"traccia {k}: {c} car > {MAX_CAR_CHUNK}")
 
-parlato = tot/CPS
+durata_parlato = tot/CPS
 fermo   = COPERTINA + CHIUSURA + len([s for s in mute if "Card" in s["tipo"]])*CARD_CAPITOLO
-durata  = parlato + fermo
+durata  = durata_parlato + fermo
 print(f"scene      {len(scene)}   parlanti {len(parlanti)}  mute {len(mute)}")
-print(f"caratteri  {tot}   media {tot/len(parlanti):.0f} car/scena")
-print(f"parlato    {parlato/60:.1f} min   montato {durata/60:.1f} min  (stima a {CPS} car/s)")
+print(f"caratteri  {tot} parlati, {tot_inviati} mandati   media {tot/len(parlanti):.0f} car/scena")
+print(f"parlato    {durata_parlato/60:.1f} min   montato {durata/60:.1f} min  (stima a {CPS} car/s)")
 print(f"tracce     {len(tracce)}  (limite {MAX_CAR_CHUNK} car per richiesta)")
 scarto = durata - DURATA_CHIESTA
 print(f"chiesti    {DURATA_CHIESTA/60:.0f} min   scarto {scarto:+.0f} s"
-      + (f"   atempo per arrivarci: {parlato/(DURATA_CHIESTA-fermo):.3f}" if scarto > 0 else ""))
+      + (f"   atempo per arrivarci: {durata_parlato/(DURATA_CHIESTA-fermo):.3f}" if scarto > 0 else ""))
 print()
 
 reg = []
@@ -136,7 +139,8 @@ for k, t in enumerate(tracce, 1):
     intero = all(all(y["capitolo"] != cc or y in t for y in parlanti) for cc in caps)
     print(f"  traccia {k:2d}  {t[0]['id']}-{t[-1]['id']}  {len(t):3d} scene  {c:5d} car  cap {caps}")
     reg.append({"traccia": k, "da": t[0]["id"], "a": t[-1]["id"], "capitoli": caps,
-                "scene": [x["id"] for x in t], "caratteri": c})
+                "scene": [x["id"] for x in t], "caratteri": c,
+                "parlati": sum(len(parlato(x["text"]))+1 for x in t)})
 
 json.dump(scene, open(QUI/f"blocchi-{COMPARTO}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 json.dump(reg,   open(QUI/f"tracce-{COMPARTO}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)

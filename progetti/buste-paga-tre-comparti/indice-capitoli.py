@@ -18,20 +18,14 @@ from pathlib import Path
 import sys as _s; _s.path.insert(0, str(Path(__file__).resolve().parent))
 from strumenti import FFMPEG
 QUI = Path(__file__).resolve().parent
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import P_BLOCCHI_JSON, P_INDICE, P_MONTAGGIO, P_SCENE
 FF  = FFMPEG
-# VOCE=achille fa l'indice dell'altra edizione. Serve davvero: i capitoli
-# cadono agli stessi punti del COPIONE ma a minuti diversi, perche' una voce
-# corre e l'altra no. Misurato sui due indici veri: il capitolo 4 comincia a
-# 17:17 con Francesca e a 17:55 con Achille, 38 secondi di scarto, e verso la
-# fine le due si incrociano (il 13 e' a 56:23 con una e a 56:05 con l'altra).
-# Non e' uno scostamento che cresce e si puo' correggere in proporzione: e'
-# esattamente l'errore per cui la tabella dello script era inservibile.
-import os
-VOCE  = os.environ.get("VOCE", "").strip().lower()
-SUF   = f"-{VOCE}" if VOCE else ""
-SCENE = QUI/f"scene{SUF}"
-TMP   = QUI/f"_montaggio{SUF}"
-FUORI = QUI/f"indice-capitoli{SUF}.txt"
+# Un indice per comparto: i capitoli cadono agli stessi punti del COPIONE solo
+# dentro lo stesso video, e i tre copioni sono diversi. I minuti si leggono dal
+# montato vero, non dalla tabella dello script - che e' proprio l'errore per
+# cui questo strumento esiste.
+SCENE, TMP, FUORI = P_SCENE, P_MONTAGGIO, P_INDICE
 
 def durata(f):
     e = subprocess.run([FF, "-i", str(f)], capture_output=True, text=True).stderr
@@ -41,7 +35,7 @@ def durata(f):
 
 mmss = lambda t: f"{int(t//60):02d}:{int(t%60):02d}"
 
-scene = json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))
+scene = json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))
 
 # Il nome del capitolo e' quello scritto sulla SUA CARD, non quello della
 # tabella dello script: e' la parola che lo spettatore vede quando il capitolo

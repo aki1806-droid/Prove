@@ -9,8 +9,9 @@ lo dice il testo stesso: se prima del taglio sono gia' stati pronunciati K
 caratteri del blocco successivo, il taglio e' avanti di K/cps secondi.
 
 Il cps e' quello GREZZO della sua traccia, letto da tracce-misurate.json, non
-una media: e' sull'audio grezzo che si taglia, e le diciassette tracce vanno da
-14,9 a 17,3 car/s. Con una media sbagliata la correzione sbaglia in proporzione.
+una media: e' sull'audio grezzo che si taglia, e sul video da un'ora le
+diciassette tracce andavano da 14,9 a 17,3 car/s. Con una media sbagliata la
+correzione sbaglia in proporzione.
 
 Si propone SOLO dove lo spezzone sentito si ritrova per intero nel testo del
 blocco successivo. Dove il trascrittore ha reso i numeri in cifre («22,99»
@@ -21,20 +22,22 @@ import json, re, sys, unicodedata
 from pathlib import Path
 
 QUI, RADICE = Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import P_BLOCCHI_JSON, P_CONFINI, P_ESITI_CONFINI, P_MISURATE, P_PROPOSTE, P_TRACCE
 
 def parole(s):
     s = unicodedata.normalize("NFD", s.lower())
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    s = re.sub(r"\[[a-z]+\]", " ", s)
+    s = re.sub(r"\[[^\]]+\]", " ", s)
     return re.findall(r"[a-z0-9]+", s)
 piatto = lambda s: " ".join(parole(s))
 
-esiti   = json.loads((QUI/"esiti-confini.json").read_text(encoding="utf-8"))
-stato   = json.loads((QUI/"confini.json").read_text(encoding="utf-8"))
-mis     = {m["traccia"]: m for m in json.loads((QUI/"tracce-misurate.json").read_text(encoding="utf-8"))}
-tracce  = json.loads((RADICE/"copione"/"tracce.json").read_text(encoding="utf-8"))
+esiti   = json.loads(P_ESITI_CONFINI.read_text(encoding="utf-8"))
+stato   = json.loads(P_CONFINI.read_text(encoding="utf-8"))
+mis     = {m["traccia"]: m for m in json.loads(P_MISURATE.read_text(encoding="utf-8"))}
+tracce  = json.loads(P_TRACCE.read_text(encoding="utf-8"))
 testo   = {b["id"]: b["text"] for b in
-           json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8")) if b["text"]}
+           json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8")) if b["text"]}
 ordine  = {t["traccia"]: t["scene"] for t in tracce}
 dopo = {}
 for t in tracce:
@@ -60,7 +63,7 @@ for e in esiti:
     print(f"  {b} -> {succ}  traccia {k} confine {j}: {vecchio:.2f} -> {nuovo:.2f}s "
           f"({nuovo-vecchio:+.2f}s)   {K} car di {succ} gia' detti a {cps:.2f} car/s")
 
-(QUI/"proposte-confini.json").write_text(json.dumps(proposte, indent=1), encoding="utf-8")
+P_PROPOSTE.write_text(json.dumps(proposte, indent=1), encoding="utf-8")
 print(f"\ncorrezioni proposte: {sum(len(v) for v in proposte.values())} su {len(stato)} tracce")
 if saltati:
     print(f"\nnon proposti, e perche' ({len(saltati)}):")

@@ -31,8 +31,8 @@ from pathlib import Path
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
 sys.path.insert(0, str(RADICE))
-from strumenti import FFMPEG
-from profilo import FASCIA_CPS, RITMO, SOGLIA_SILENZIO
+from strumenti import FFMPEG, parlato
+from profilo import FASCIA_CPS, P_BLOCCHI_JSON, P_BLOCCHI_MP3, P_CONFINI, P_GREZZO, P_MISURATE, P_PROVA_DIR, P_PROVA_JSON, P_PROVA_MP3, P_REGISTRO, P_TRACCE, RITMO, SOGLIA_SILENZIO
 FF     = FFMPEG
 
 CPSMIN, CPSMAX = FASCIA_CPS
@@ -76,7 +76,7 @@ def pezzi_testo(gruppo):
     """Il copione spezzato alla punteggiatura: e' li' che la voce mette le pause."""
     out = []
     for x in gruppo:
-        t = re.sub(r"\[[a-z]+\]", "", x["text"]).strip()
+        t = re.sub(r"\[[^\]]+\]", "", x["text"]).strip()
         parti = [q for q in re.split(r"(?<=[.:;,])\s+", t) if q.strip()]
         for i, q in enumerate(parti):
             out.append((len(q), x["id"], i == len(parti)-1))
@@ -135,7 +135,7 @@ def quanto_male(gruppo, D, conf, rapporto):
     # Due confini sulla stessa pausa lasciano un blocco di durata zero: e' il
     # caso peggiore possibile, e come tale va pesato.
     if min(durate) < 0.30: return (10**6, 10**6)
-    cps = [len(x["text"]) / (d/rapporto) for x, d in zip(gruppo, durate)]
+    cps = [len(parlato(x["text"])) / (d/rapporto) for x, d in zip(gruppo, durate)]
     fuori = sum(not (CPSMIN <= c <= CPSMAX) for c in cps)
     medio = sum(cps) / len(cps)
     sparso = (sum((c-medio)**2 for c in cps) / len(cps))**0.5
@@ -162,9 +162,9 @@ def scegli(traccia, gruppo, rapporto):
     return D, conf, dict(pezzi=npezzi, segs=nsegs, rate=rate, dmin=dmin, fuori=voto[0])
 
 def carica():
-    scene  = json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))
-    tracce = json.loads((RADICE/"copione"/"tracce.json").read_text(encoding="utf-8"))
-    mis    = {m["traccia"]: m for m in json.loads((QUI/"tracce-misurate.json").read_text(encoding="utf-8"))}
+    scene  = json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))
+    tracce = json.loads(P_TRACCE.read_text(encoding="utf-8"))
+    mis    = {m["traccia"]: m for m in json.loads(P_MISURATE.read_text(encoding="utf-8"))}
     per_id = {s["id"]: s for s in scene}
     return [(t["traccia"], [per_id[i] for i in t["scene"]],
              mis[t["traccia"]]["grezzo"] / mis[t["traccia"]]["lavorata"]) for t in tracce]
@@ -172,7 +172,7 @@ def carica():
 def cmd_allinea():
     stato, tutti, fuori_tot = {}, [], 0
     for k, gruppo, rapporto in carica():
-        tr = QUI/"grezzo"/f"traccia{k:02d}.mp3"
+        tr = P_GREZZO/f"traccia{k:02d}.mp3"
         D, conf, info = scegli(tr, gruppo, rapporto)
         stato[str(k)] = {"durata": D, "confini": conf, "ids": [x["id"] for x in gruppo]}
         fuori_tot += info["fuori"]
@@ -181,7 +181,7 @@ def cmd_allinea():
               f"{info['rate']:5.1f} car/s grezzi · {info['fuori']} fuori fascia")
         bordi = [0.0] + conf + [D]
         tutti += [(k, x["id"], bordi[i]) for i, x in enumerate(gruppo)]
-    (QUI/"confini.json").write_text(json.dumps(stato, indent=1), encoding="utf-8")
+    P_CONFINI.write_text(json.dumps(stato, indent=1), encoding="utf-8")
     print(f"\nblocchi fuori fascia in tutto: {fuori_tot} su 203")
     fai_prova(tutti)
 
@@ -189,14 +189,14 @@ def fai_prova(tutti):
     """1,6 s presi prima di ogni taglio, separati da silenzio: la trascrizione
     li rende come frasi separate, una per confine, e dice se il taglio e' dove
     doveva essere."""
-    tmp = QUI/"_prova"; tmp.mkdir(exist_ok=True)
+    tmp = P_PROVA_DIR; tmp.mkdir(exist_ok=True)
     for p in tmp.glob("*.wav"): p.unlink()
     pezzi, elenco = [], []
     for n, (k, idb, ini) in enumerate(tutti):
         if ini <= 0.01: continue                  # inizio traccia: non e' un confine
         p = tmp/f"p{n:04d}.wav"
         sh(FF, "-y", "-v", "error", "-ss", f"{max(0, ini-PROVA_PRIMA):.3f}",
-           "-t", f"{PROVA_PRIMA:.3f}", "-i", QUI/"grezzo"/f"traccia{k:02d}.mp3",
+           "-t", f"{PROVA_PRIMA:.3f}", "-i", P_GREZZO/f"traccia{k:02d}.mp3",
            "-ar", "44100", "-ac", "1", p)
         pezzi.append(p); elenco.append({"n": len(pezzi), "traccia": k, "id": idb, "taglio": round(ini, 3)})
     sil = tmp/"sil.wav"
@@ -204,13 +204,13 @@ def fai_prova(tutti):
     lst = tmp/"lista.txt"
     lst.write_text("".join(f"file '{p}'\nfile '{sil}'\n" for p in pezzi), encoding="utf-8")
     sh(FF, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst,
-       "-c:a", "libmp3lame", "-b:a", "128k", QUI/"prova.mp3")
-    (QUI/"prova.json").write_text(json.dumps(elenco, indent=1, ensure_ascii=False), encoding="utf-8")
-    print(f"prova.mp3: {len(pezzi)} spezzoni, {durata(QUI/'prova.mp3')/60:.1f} min")
+       "-c:a", "libmp3lame", "-b:a", "128k", P_PROVA_MP3)
+    P_PROVA_JSON.write_text(json.dumps(elenco, indent=1, ensure_ascii=False), encoding="utf-8")
+    print(f"prova.mp3: {len(pezzi)} spezzoni, {durata(P_PROVA_MP3)/60:.1f} min")
 
 def cmd_applica():
-    stato = json.loads((QUI/"confini.json").read_text(encoding="utf-8"))
-    out = QUI/"blocchi"; out.mkdir(exist_ok=True)
+    stato = json.loads(P_CONFINI.read_text(encoding="utf-8"))
+    out = P_BLOCCHI_MP3; out.mkdir(exist_ok=True)
     reg = []
     for k, gruppo, _ in carica():
         st = stato[str(k)]
@@ -219,14 +219,15 @@ def cmd_applica():
             ini, fin = bordi[i], bordi[i+1]
             f = out/f"{x['id']}.mp3"
             sh(FF, "-y", "-v", "error", "-ss", f"{ini:.3f}", "-to", f"{fin:.3f}",
-               "-i", QUI/"grezzo"/f"traccia{k:02d}.mp3", "-af", RITMO,
+               "-i", P_GREZZO/f"traccia{k:02d}.mp3", "-af", RITMO,
                "-c:a", "libmp3lame", "-b:a", "192k", f)
             d = durata(f)
             reg.append({"id": x["id"], "traccia": k, "da": round(ini, 3), "a": round(fin, 3),
-                        "durata": round(d, 3), "posa": 0.0, "car": len(x["text"]),
-                        "cps": round(len(x["text"])/d, 1)})
+                        "durata": round(d, 3), "posa": 0.0,
+                        "car": len(parlato(x["text"])),
+                        "cps": round(len(parlato(x["text"]))/d, 1)})
         print(f"  traccia {k:2d}  {len(gruppo):3d} blocchi scritti")
-    (QUI/"blocchi-audio.json").write_text(json.dumps(reg, indent=1, ensure_ascii=False), encoding="utf-8")
+    P_REGISTRO.write_text(json.dumps(reg, indent=1, ensure_ascii=False), encoding="utf-8")
     tot = sum(r["durata"] for r in reg)
     fuori = [r for r in reg if not CPSMIN <= r["cps"] <= CPSMAX]
     corti = [r for r in reg if r["durata"] < 3.5]
@@ -242,7 +243,7 @@ def cmd_prova():
     Rilanciare `allinea` lo farebbe, ma ricalcolerebbe il DTW da capo e
     butterebbe via le correzioni — che e' esattamente cio' che non si vuole.
     """
-    stato = json.loads((QUI/"confini.json").read_text(encoding="utf-8"))
+    stato = json.loads(P_CONFINI.read_text(encoding="utf-8"))
     tutti = []
     for k in sorted(stato, key=int):
         st = stato[k]

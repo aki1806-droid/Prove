@@ -37,6 +37,9 @@ import json, re, sys, unicodedata
 from pathlib import Path
 
 QUI  = Path(__file__).resolve().parent
+RADICE = QUI.parent
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import P_BLOCCHI_JSON, P_ESITI_CONFINI, P_PROVA_JSON, P_TRACCE, P_TRASCRIZIONI
 CODA = 2
 
 def parole(s):
@@ -49,14 +52,14 @@ def parole(s):
     """
     s = unicodedata.normalize("NFD", s.lower())
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
-    s = re.sub(r"\[[a-z]+\]", " ", s)
+    s = re.sub(r"\[[^\]]+\]", " ", s)
     return re.findall(r"[a-z0-9]+", s)
 
-blocchi = json.loads((QUI.parent/"copione"/"blocchi.json").read_text(encoding="utf-8"))
-tracce  = json.loads((QUI.parent/"copione"/"tracce.json").read_text(encoding="utf-8"))
-elenco  = json.loads((QUI/"prova.json").read_text(encoding="utf-8"))
+blocchi = json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))
+tracce  = json.loads(P_TRACCE.read_text(encoding="utf-8"))
+elenco  = json.loads(P_PROVA_JSON.read_text(encoding="utf-8"))
 testo   = {b["id"]: b["text"] for b in blocchi if b["text"]}
-grezzo  = (QUI/"trascrizioni"/"prova-confini.txt").read_text(encoding="utf-8")
+grezzo  = (P_TRASCRIZIONI/"prova-confini.txt").read_text(encoding="utf-8")
 frammenti = [parole(x) for x in re.split(r"(?<=[.!?])\s+", grezzo) if parole(x)]
 
 # per ogni spezzone: il blocco che FINISCE li' e' quello PRIMA di `id` nella
@@ -152,6 +155,6 @@ if persi:
                   f"{d[1]}% di {b} stesso")
         else:
             print(f"    {b}  attesa «{att}»  sentito «{sent}»  (non collocata)")
-(QUI/"esiti-confini.json").write_text(json.dumps(esiti, indent=1, ensure_ascii=False),
+P_ESITI_CONFINI.write_text(json.dumps(esiti, indent=1, ensure_ascii=False),
                                       encoding="utf-8")
 sys.exit(0 if not persi else 1)

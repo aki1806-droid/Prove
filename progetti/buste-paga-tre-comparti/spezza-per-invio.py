@@ -28,25 +28,16 @@ from itertools import combinations
 
 QUI  = Path(__file__).resolve().parent
 FF   = FFMPEG
-# VOCE=achille spezza l'altra edizione. L'indice dei capitoli resta uno solo:
-# i capitoli cadono agli stessi PUNTI del copione in tutte e due, solo a minuti
-# diversi — e infatti i tagli si ricalcolano dalla durata vera del file, non
-# dall'indice in secondi. Se un giorno servisse un indice per voce, questa e'
-# la riga che se ne accorge.
-import os
-VOCE = os.environ.get("VOCE", "").strip().lower()
-SUF  = f"-{VOCE}" if VOCE else ""
-MP4  = QUI/f"montato-busta-paga-60min{SUF}.mp4"
-SRT  = MP4.with_suffix(".srt")
-IDX  = QUI/f"indice-capitoli{SUF}.txt"
-# Il nome del file consegnato porta sempre la voce, anche per l'edizione
-# corrente, che nei PERCORSI non ha suffisso. Chi riceve cinque mp4 non vede
-# ne' la cartella ne' il profilo: vede il nome, e deve poter dire quale
-# edizione sta guardando. Il nome della voce non si scrive qui: sta in
-# profilo.py, che e' il posto unico dei numeri e dei nomi di questa lezione.
+# I tagli si ricalcolano dalla durata vera del file, non dall'indice in
+# secondi: l'indice serve solo a sapere DOVE cadono i capitoli.
+# Il nome del file consegnato porta il comparto, non la voce: chi riceve i
+# pezzi non vede ne' la cartella ne' il profilo, e tre video sulla busta paga
+# si distinguono per il comparto. Il nome sta in profilo.py, posto unico dei
+# nomi e dei numeri.
 import sys as _sys; _sys.path.insert(0, str(QUI))
-from profilo import VOCE_NOME
-NOME = "-" + (VOCE or VOCE_NOME.split()[0].lower())
+from profilo import COMPARTO, P_MONTATO, P_INDICE
+MP4, SRT, IDX = P_MONTATO, P_MONTATO.with_suffix(".srt"), P_INDICE
+NOME = f"-{COMPARTO}"
 
 TETTO = 30*1024*1024        # il limite del canale di consegna, in byte
 MARGINE = 0.93              # non si consegna sul filo: 7% di aria
@@ -82,7 +73,7 @@ def indice():
     """
     if not IDX.exists():
         raise SystemExit(f"manca {IDX.name}: fallo con "
-                         f"{'VOCE='+VOCE+' ' if VOCE else ''}python3 indice-capitoli.py")
+                         f"COMPARTO={COMPARTO} python3 indice-capitoli.py")
     out = []
     for r in IDX.read_text(encoding="utf-8").splitlines():
         m = re.match(r"(\d+):(\d\d)\s+(.*)", r.strip())
@@ -140,9 +131,9 @@ def main(fuori):
         n = [x[1] for x in n if x]
         eti = f"capitoli-{n[0]}-{n[-1]}" if len(n) > 1 else (
               f"capitolo-{n[0]}" if n else "apertura")
-        # il nome porta la VOCE: due edizioni consegnate insieme, con gli
+        # il nome porta il COMPARTO: tre video consegnati insieme, con gli
         # stessi capitoli, si distinguerebbero solo dalla cartella — e una
-        # volta scaricate la cartella non c'e' piu'.
+        # volta scaricati la cartella non c'e' piu'.
         nome = f"busta-paga{NOME}-{k+1}-{eti}"
         fv = fuori/f"{nome}.mp4"
         subprocess.run([FF, "-y", "-v", "error", "-ss", hms(a), "-to", hms(z),

@@ -17,8 +17,10 @@ from pathlib import Path
 
 QUI    = Path(__file__).resolve().parent
 RADICE = QUI.parent
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import P_BLOCCHI_JSON, P_CONFINI, P_GREZZO, P_MISURATE, P_PROPOSTE
 sys.path.insert(0, str(RADICE))
-from strumenti import FFMPEG
+from strumenti import FFMPEG, parlato
 FF     = FFMPEG
 def sh(*a):
     r = subprocess.run([str(x) for x in a], capture_output=True, text=True)
@@ -33,9 +35,9 @@ def pause(f):
 SOSPETTI = [(6,"s064","s065"), (7,"s075","s076"), (13,"s164","s165"),
             (14,"s176","s177"), (16,"s194","s195")]
 
-stato = json.loads((QUI/"confini.json").read_text(encoding="utf-8"))
-scene = {s["id"]: s for s in json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
-mis   = {m["traccia"]: m for m in json.loads((QUI/"tracce-misurate.json").read_text(encoding="utf-8"))}
+stato = json.loads(P_CONFINI.read_text(encoding="utf-8"))
+scene = {s["id"]: s for s in json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))}
+mis   = {m["traccia"]: m for m in json.loads(P_MISURATE.read_text(encoding="utf-8"))}
 
 proposte = {}
 for k, ida, idb in SOSPETTI:
@@ -43,11 +45,11 @@ for k, ida, idb in SOSPETTI:
     ids = st["ids"]; i = ids.index(ida)
     bordi = [0.0] + st["confini"] + [st["durata"]]
     ini, conf, fin = bordi[i], bordi[i+1], bordi[i+2]
-    cara, carb = len(scene[ida]["text"]), len(scene[idb]["text"])
+    cara, carb = (len(parlato(scene[ida]["text"])), len(parlato(scene[idb]["text"])))
     # passo grezzo tipico della traccia: caratteri della traccia / durata grezza
-    tot_car = sum(len(scene[x]["text"]) for x in ids)
+    tot_car = sum(len(parlato(scene[x]["text"])) for x in ids)
     passo = tot_car / mis[k]["grezzo"]
-    P = pause(QUI/"grezzo"/f"traccia{k:02d}.mp3")
+    P = pause(P_GREZZO/f"traccia{k:02d}.mp3")
     vicine = [(a, b) for a, b in P if ini + 1.0 < (a+b)/2 < fin - 1.0]
     print(f"\n=== traccia {k}: confine fra {ida} e {idb} ===")
     print(f"    la traccia va a {passo:.1f} car/s grezzi; {ida} ha {cara} car, {idb} ne ha {carb}")
@@ -71,5 +73,5 @@ for k, ida, idb in SOSPETTI:
     else:
         print(f"    => il confine attuale e' gia' il migliore fra le pause vere")
 
-(QUI/"proposte-confini.json").write_text(json.dumps(proposte, indent=1), encoding="utf-8")
+P_PROPOSTE.write_text(json.dumps(proposte, indent=1), encoding="utf-8")
 print(f"\nconfini da spostare: {sum(len(v) for v in proposte.values())}")

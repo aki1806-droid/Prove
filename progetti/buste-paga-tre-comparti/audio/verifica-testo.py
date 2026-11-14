@@ -21,6 +21,8 @@ import json, re, sys, unicodedata, difflib
 from pathlib import Path
 
 QUI, RADICE = Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent
+import sys as _sys; _sys.path.insert(0, str(RADICE))
+from profilo import P_BLOCCHI_JSON, P_ESITI_TESTO, P_TRACCE, P_TRASCRIZIONI
 BUCO = 3   # da quante parole di fila in poi il salto e' sospetto
 
 UNI   = {"uno":1,"un":1,"zero":0,"due":2,"tre":3,"quattro":4,"cinque":5,
@@ -122,7 +124,7 @@ RESE = [
 ]
 
 def parole(s):
-    s = re.sub(r"\[[a-z]+\]", " ", s.lower())
+    s = re.sub(r"\[[^\]]+\]", " ", s.lower())
     s = unicodedata.normalize("NFD", s)
     s = "".join(c for c in s if unicodedata.category(c) != "Mn")
     s = s.replace("'", " ").replace("’", " ")
@@ -154,8 +156,8 @@ def centesimi(w):
         out.append(w[i]); i += 1
     return out
 
-scene  = {x["id"]: x for x in json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
-tracce = json.loads((RADICE/"copione"/"tracce.json").read_text(encoding="utf-8"))
+scene  = {x["id"]: x for x in json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))}
+tracce = json.loads(P_TRACCE.read_text(encoding="utf-8"))
 
 # Modalita' «intero»: una sola trascrizione di tutte le tracce concatenate,
 # invece di diciassette separate. Stessi minuti di audio, stesso costo, ma una
@@ -166,13 +168,13 @@ tracce = json.loads((RADICE/"copione"/"tracce.json").read_text(encoding="utf-8")
 #
 # Il blocco di ogni buco si ricava comunque, perche' la posizione nell'atteso
 # e' etichettata con l'id della scena: un buco sa sempre dire dove sta.
-INTERO = QUI/"trascrizioni"/"intero.txt"
+INTERO = P_TRASCRIZIONI/"intero.txt"
 if INTERO.exists():
     tracce = [{"traccia": 0, "scene": [i for t in tracce for i in t["scene"]]}]
 
 esiti, guai, fatte = {}, 0, 0
 for t in tracce:
-    f = INTERO if t["traccia"] == 0 else QUI/"trascrizioni"/f"traccia{t['traccia']:02d}.txt"
+    f = INTERO if t["traccia"] == 0 else P_TRASCRIZIONI/f"traccia{t['traccia']:02d}.txt"
     if not f.exists(): continue
     fatte += 1
     atteso = [(p, i) for i in t["scene"] for p in parole(scene[i]["text"])]
@@ -199,7 +201,7 @@ for t in tracce:
         print(f"      {b['blocco']}  copione: «{b['copione'][:90]}»")
         print(f"            detto: «{b['detto'][:90]}»")
 
-(QUI/"esiti-testo.json").write_text(json.dumps(esiti, ensure_ascii=False, indent=1), encoding="utf-8")
+P_ESITI_TESTO.write_text(json.dumps(esiti, ensure_ascii=False, indent=1), encoding="utf-8")
 print(f"\ntracce verificate: {fatte} su {len(tracce)}")
 print("nessun buco: la voce ha detto tutto" if not guai
       else f"ATTENZIONE: {guai} buchi da controllare a orecchio")

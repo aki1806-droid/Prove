@@ -23,15 +23,15 @@ import sys as _s; _s.path.insert(0, str(Path(__file__).resolve().parent))
 from strumenti import FFMPEG
 QUI  = Path(__file__).resolve().parent
 FF   = FFMPEG
-NOME = "busta-paga-60min"
 sys.path.insert(0, str(QUI))
-from profilo import DURATA_CHIESTA, SCARTO_DURATA_OK, FASCIA_CPS, MAX_SCENE
+from profilo import NOME_MONTATO, P_MONTATO, P_SRT, DURATA_CHIESTA, FASCIA_CPS, MAX_SCENE, P_BLOCCHI_JSON, P_CLIP, P_CONFINI, P_ESITI_CONFINI, P_ESITI_TESTO, P_GREZZO, P_PNG, P_REGISTRO, P_TRACCE, P_TROPPO_ALTE, SCARTO_DURATA_OK
+NOME = NOME_MONTATO
 CPSMIN, CPSMAX = FASCIA_CPS
 
 ok = lambda b: "OK  " if b else "NO  "
 esiti = []
 
-scene    = json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))
+scene    = json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))
 parlanti = [s for s in scene if s["text"]]
 
 # 1 · la voce ha detto tutto (trascrizione della traccia intera)
@@ -39,8 +39,8 @@ parlanti = [s for s in scene if s["text"]]
 # tracce sono altre, e un esito vecchio direbbe «tutto a posto» su un audio che
 # non esiste piu'. Ci sono cascato davvero — al cambio di voce questo controllo
 # passava sugli esiti di Achille mentre in audio/grezzo c'era gia' Francesca.
-f  = QUI/"audio"/"esiti-testo.json"
-gz = sorted((QUI/"audio"/"grezzo").glob("traccia*.mp3"))
+f  = P_ESITI_TESTO
+gz = sorted(P_GREZZO.glob("traccia*.mp3"))
 if not f.exists():
     esiti.append((False, "verifica per trascrizione: NON ESEGUITA"))
 elif gz and f.stat().st_mtime < max(g.stat().st_mtime for g in gz):
@@ -49,7 +49,7 @@ else:
     e = json.loads(f.read_text(encoding="utf-8"))
     buchi = sum(len(v["buchi"]) for v in e.values())
     perc  = min(v["percentuale"] for v in e.values())
-    tracce_attese = len(json.loads((QUI/"copione"/"tracce.json").read_text(encoding="utf-8")))
+    tracce_attese = len(json.loads(P_TRACCE.read_text(encoding="utf-8")))
     # «0» e' la chiave della modalita' intero: una trascrizione sola di tutte le
     # tracce concatenate, che copre lo stesso audio di diciassette separate.
     intero = "0" in e or 0 in e
@@ -61,25 +61,32 @@ else:
                   + f", coincidenza {perc}%, buchi nel parlato: {buchi}"))
 
 # 2 · tutti i blocchi dentro la fascia di velocita'
-reg  = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
-male = [r for r in reg if not CPSMIN <= r["cps"] <= CPSMAX]
-esiti.append((not male and len(reg) == len(parlanti),
-              f"fascia {CPSMIN}-{CPSMAX:g} car/s su {len(reg)} blocchi: " +
-              (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
+# Finche' la voce non e' stata generata il registro non esiste, e il controllo
+# dice «non ancora» invece di morire: questo strumento serve anche a sapere a
+# che punto si e', non solo a dare il via libera alla fine.
+if not P_REGISTRO.exists():
+    reg = []
+    esiti.append((False, f"fascia {CPSMIN}-{CPSMAX:g} car/s: voce non ancora tagliata in blocchi"))
+else:
+    reg  = json.loads(P_REGISTRO.read_text(encoding="utf-8"))
+    male = [r for r in reg if not CPSMIN <= r["cps"] <= CPSMAX]
+    esiti.append((not male and len(reg) == len(parlanti),
+                  f"fascia {CPSMIN}-{CPSMAX:g} car/s su {len(reg)} blocchi: " +
+                  (", ".join(f"{r['id']} a {r['cps']}" for r in male) or "tutti dentro")))
 
 # 3 · un PNG per scena — TUTTE le scene, ferme comprese
-png = sorted(Path(QUI/"slide"/"png").glob("s*.png"))
+png = sorted(P_PNG.glob("s*.png"))
 esiti.append((len(png) == len(scene),
               f"PNG renderizzati: {len(png)} su {len(scene)} scene"))
 
 # 4 · nessuna slide sfora la cornice
-sf = QUI/"slide"/"troppo-alte.json"
+sf = P_TROPPO_ALTE
 sfora = json.loads(sf.read_text(encoding="utf-8")) if sf.exists() else None
 esiti.append((sfora == [], f"nessuna slide sfora la cornice: "
               + ("non verificato" if sfora is None else f"{len(sfora)} sforano")))
 
 # 5 · una clip per blocco parlato
-clip = sorted(Path(QUI/"slide"/"mp4").glob("s*.mp4")) if (QUI/"slide"/"mp4").exists() else []
+clip = sorted(P_CLIP.glob("s*.mp4")) if (P_CLIP).exists() else []
 esiti.append((len(clip) == len(parlanti),
               f"clip animate: {len(clip)} su {len(parlanti)} scene con parlato"))
 
@@ -93,7 +100,7 @@ esiti.append((peggio <= MAX_SCENE,
               f"{len(seg)} segmenti, il piu' grande ne ha {peggio}"))
 
 # 7 · durata >= quella chiesta
-mp4 = QUI/f"montato-{NOME}.mp4"
+mp4 = P_MONTATO
 if not mp4.exists():
     esiti.append((False, "durata: montato non ancora prodotto"))
 else:
@@ -109,12 +116,12 @@ else:
                      f"{SCARTO_DURATA_OK:g})" if manca > 0 else "")))
 
 # 8 · sottotitoli, una riga per blocco parlato
-srt = QUI/f"montato-{NOME}.srt"
+srt = P_SRT
 n = len(re.findall(r"-->", srt.read_text(encoding="utf-8"))) if srt.exists() else 0
 esiti.append((n == len(parlanti), f"sottotitoli SRT: {n} righe su {len(parlanti)} blocchi"))
 
 # 9 · i confini verificati per trascrizione, sui confini ATTUALI
-cf, cc = QUI/"audio"/"esiti-confini.json", QUI/"audio"/"confini.json"
+cf, cc = P_ESITI_CONFINI, P_CONFINI
 if not cf.exists():
     esiti.append((False, "confini verificati per trascrizione: NON ESEGUITA"))
 elif cf.stat().st_mtime < cc.stat().st_mtime:

@@ -20,9 +20,11 @@ import json, re, statistics
 from pathlib import Path
 
 QUI = Path(__file__).resolve().parent
-reg   = json.loads((QUI/"audio"/"blocchi-audio.json").read_text(encoding="utf-8"))
+import sys as _sys; _sys.path.insert(0, str(QUI))
+from profilo import P_BLOCCHI_JSON, P_REGISTRO
+reg   = json.loads(P_REGISTRO.read_text(encoding="utf-8"))
 testi = {x["id"]: x["text"] for x in
-         json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
+         json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))}
 
 def peso(t):
     t = re.sub(r"\[[a-z]+\]", "", t)

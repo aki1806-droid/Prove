@@ -28,3 +28,20 @@ def _trova():
         "(pip install imageio_ffmpeg) ne' un eseguibile nel PATH.")
 
 FFMPEG = _trova()
+
+
+# --- il parlato, cioe' il testo senza i tag ----------------------------------
+#
+# I tag audio di eleven_v4 — [warmly], [cautiously] — si MANDANO e si PAGANO,
+# ma non si pronunciano. Due conteggi diversi, e confonderli sbaglia in due
+# direzioni opposte: contando i tag nella DURATA il video esce corto quanto i
+# tag che contiene; non contandoli nel LIMITE della richiesta si sfora il tetto
+# del servizio e la chiamata va in timeout. Sta qui e non in profilo.py perche'
+# e' una funzione, non una cifra: profilo.py tiene i numeri di questo video,
+# strumenti.py le cose che qualunque video userebbe allo stesso modo.
+import re as _re
+_TAG = _re.compile(r"\[[^\]]+\]\s*")
+
+def parlato(t):
+    """Il testo che la voce pronuncia davvero: senza i tag e senza doppi spazi."""
+    return _re.sub(r"\s{2,}", " ", _TAG.sub("", t)).strip()

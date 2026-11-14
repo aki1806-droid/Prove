@@ -14,9 +14,9 @@ from pathlib import Path
 
 QUI, RADICE = Path(__file__).resolve().parent, Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(RADICE))
-from strumenti import FFMPEG
+from strumenti import FFMPEG, parlato
 FF = FFMPEG
-from profilo import RITMO, FASCIA_CPS
+from profilo import FASCIA_CPS, P_BLOCCHI_JSON, P_BLOCCHI_MP3, P_CONFINI, P_GREZZO, P_PROPOSTE, P_REGISTRO, RITMO
 CPSMIN, CPSMAX = FASCIA_CPS
 
 def sh(*a):
@@ -25,10 +25,10 @@ def durata(f):
     t = re.findall(r"time=(\d+):(\d+):([\d.]+)", sh(FF,"-i",str(f),"-f","null","-"))[-1]
     return int(t[0])*3600+int(t[1])*60+float(t[2])
 
-stato    = json.loads((QUI/"confini.json").read_text(encoding="utf-8"))
-proposte = json.loads((QUI/"proposte-confini.json").read_text(encoding="utf-8"))
-scene    = {s["id"]: s for s in json.loads((RADICE/"copione"/"blocchi.json").read_text(encoding="utf-8"))}
-reg      = {r["id"]: r for r in json.loads((QUI/"blocchi-audio.json").read_text(encoding="utf-8"))}
+stato    = json.loads(P_CONFINI.read_text(encoding="utf-8"))
+proposte = json.loads(P_PROPOSTE.read_text(encoding="utf-8"))
+scene    = {s["id"]: s for s in json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))}
+reg      = {r["id"]: r for r in json.loads(P_REGISTRO.read_text(encoding="utf-8"))}
 
 da_rifare = []
 for k, mappa in proposte.items():
@@ -40,7 +40,7 @@ for k, mappa in proposte.items():
         print(f"  traccia {k}: confine {j+1}  {vecchio:.2f} -> {float(nuovo):.2f}s  ({float(nuovo)-vecchio:+.2f})")
         da_rifare += [st["ids"][j], st["ids"][j+1]]
     st["confini"].sort()
-(QUI/"confini.json").write_text(json.dumps(stato, indent=1), encoding="utf-8")
+P_CONFINI.write_text(json.dumps(stato, indent=1), encoding="utf-8")
 
 print(f"\nblocchi da riscrivere: {len(set(da_rifare))}")
 for k, st in stato.items():
@@ -48,17 +48,17 @@ for k, st in stato.items():
     for i, idb in enumerate(st["ids"]):
         if idb not in da_rifare: continue
         ini, fin = bordi[i], bordi[i+1]
-        f = QUI/"blocchi"/f"{idb}.mp3"
+        f = P_BLOCCHI_MP3/f"{idb}.mp3"
         sh(FF,"-y","-v","error","-ss",f"{ini:.3f}","-to",f"{fin:.3f}",
-           "-i",QUI/"grezzo"/f"traccia{int(k):02d}.mp3","-af",RITMO,
+           "-i",P_GREZZO/f"traccia{int(k):02d}.mp3","-af",RITMO,
            "-c:a","libmp3lame","-b:a","192k",f)
-        d = durata(f); car = len(scene[idb]["text"]); cps = round(car/d,1)
+        d = durata(f); car = len(parlato(scene[idb]["text"])); cps = round(car/d,1)
         bad = "" if CPSMIN <= cps <= CPSMAX else "   <-- ancora fuori fascia"
         print(f"   {idb}  {reg[idb]['durata']:5.2f}s -> {d:5.2f}s   {reg[idb]['cps']:5.1f} -> {cps:5.1f} car/s{bad}")
         reg[idb].update({"da":round(ini,3),"a":round(fin,3),"durata":round(d,3),"cps":cps})
 
 ordinati = sorted(reg.values(), key=lambda r: r["id"])
-(QUI/"blocchi-audio.json").write_text(json.dumps(ordinati, indent=1, ensure_ascii=False), encoding="utf-8")
+P_REGISTRO.write_text(json.dumps(ordinati, indent=1, ensure_ascii=False), encoding="utf-8")
 tot = sum(r["durata"] for r in ordinati)
 fuori = [r for r in ordinati if not CPSMIN <= r["cps"] <= CPSMAX]
 print(f"\n{len(ordinati)} blocchi · parlato {tot/60:.2f} min · fuori fascia: {len(fuori)}")

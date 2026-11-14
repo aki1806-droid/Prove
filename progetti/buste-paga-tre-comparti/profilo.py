@@ -91,3 +91,46 @@ MAX_CAR_BLOCCO_FERME = 225
 #   (1200 - 29) x 15,35 = circa 17.975 caratteri parlati a video.
 # Tre video: ~54.000 caratteri, cioe' ~54.000 crediti ElevenLabs (~$8,90).
 CARATTERI_ATTESI = round((DURATA_CHIESTA - 29) * CPS)
+
+# --- i percorsi, dichiarati qui una volta sola -------------------------------
+#
+# Non e' pignoleria: dieci strumenti si costruivano il percorso per conto loro
+# («copione/blocchi.json», «audio/grezzo», «slide/mp4»), ed erano tutti nomi
+# SENZA comparto. Il secondo video avrebbe letto i blocchi del primo e scritto
+# le sue tracce sopra le sue — in silenzio, perche' un file che esiste si apre
+# senza protestare. Il suffisso sta qui, e chi lo dimentica non puo' piu'
+# dimenticarlo in dieci posti diversi.
+#
+# Il vecchio asse VOCE (due edizioni dello stesso video) non c'e' piu': qui la
+# voce e' una sola e l'asse che conta e' il comparto.
+import pathlib
+RADICE = pathlib.Path(__file__).resolve().parent
+_S = f"-{COMPARTO}"
+
+P_BLOCCHI_JSON = RADICE/"copione"/f"blocchi{_S}.json"
+P_TRACCE       = RADICE/"copione"/f"tracce{_S}.json"
+
+P_CHUNK        = RADICE/"audio"/f"chunk{_S}"
+P_GREZZO       = RADICE/"audio"/f"grezzo{_S}"
+P_TRASCRIZIONI = RADICE/"audio"/f"trascrizioni{_S}"
+P_BLOCCHI_MP3  = RADICE/"audio"/f"blocchi{_S}"
+P_REGISTRO     = RADICE/"audio"/f"blocchi-audio{_S}.json"
+P_CONFINI      = RADICE/"audio"/f"confini{_S}.json"
+P_MISURATE     = RADICE/"audio"/f"tracce-misurate{_S}.json"
+P_ESITI_CONFINI= RADICE/"audio"/f"esiti-confini{_S}.json"
+P_ESITI_TESTO  = RADICE/"audio"/f"esiti-testo{_S}.json"
+P_PROPOSTE     = RADICE/"audio"/f"proposte-confini{_S}.json"
+P_PROVA_MP3    = RADICE/"audio"/f"prova{_S}.mp3"
+P_PROVA_JSON   = RADICE/"audio"/f"prova{_S}.json"
+P_PROVA_DIR    = RADICE/"audio"/f"_prova{_S}"
+
+P_PNG          = RADICE/"slide"/f"png{_S}"
+P_CLIP         = RADICE/"slide"/f"mp4{_S}"
+P_TROPPO_ALTE  = RADICE/"slide"/f"troppo-alte{_S}.json"
+
+P_SCENE        = RADICE/f"scene{_S}"
+P_MONTAGGIO    = RADICE/f"_montaggio{_S}"
+P_INDICE       = RADICE/f"indice-capitoli{_S}.txt"
+NOME_MONTATO   = f"busta-paga{_S}"
+P_MONTATO      = RADICE/f"montato-{NOME_MONTATO}.mp4"
+P_SRT          = RADICE/f"montato-{NOME_MONTATO}.srt"

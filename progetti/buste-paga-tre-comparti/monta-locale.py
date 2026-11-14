@@ -4,7 +4,7 @@
 
 Differenza dalla lezione seme: li' le scene ferme erano due, la copertina e la
 chiusura, e si potevano prendere come il primo e l'ultimo PNG. Qui sono QUINDICI
-- copertina, tredici card di capitolo, chiusura - e stanno sparse in mezzo al
+- copertina, nove card di capitolo, chiusura - e stanno sparse in mezzo al
 video. Prenderle per posizione non funziona piu'.
 
 Si derivano dal dato, come dice il MASTER: le scene ferme sono quelle che in
@@ -25,21 +25,13 @@ from strumenti import FFMPEG
 QUI = Path(__file__).resolve().parent
 FF  = FFMPEG
 sys.path.insert(0, str(QUI))
-from profilo import COPERTINA, CHIUSURA, CARD_CAPITOLO
+from profilo import CARD_CAPITOLO, CHIUSURA, COPERTINA, NOME_MONTATO, P_BLOCCHI_JSON, P_MONTAGGIO, P_PNG, P_REGISTRO, P_SCENE
 
-# VOCE=achille monta l'altra edizione, con i suoi blocchi e le sue scene, in
-# file che non si pestano i piedi con quelli correnti. Le scene MUTE - la
-# copertina, le tredici card, la chiusura - sono le stesse per tutte le voci
-# (sono immagine e silenzio), ma si ricostruiscono nella cartella temporanea
-# dell'edizione: costano un secondo e valgono di piu' che un ramo in piu' qui.
-import os
-VOCE = os.environ.get("VOCE", "").strip().lower()
-SUF  = f"-{VOCE}" if VOCE else ""
-NOME = f"busta-paga-60min{SUF}"
-SCENE = QUI/f"scene{SUF}"
-REG_F = (QUI/"audio"/f"grezzo{SUF}"/"blocchi-audio.json") if VOCE else \
-        (QUI/"audio"/"blocchi-audio.json")
-TMP  = QUI/f"_montaggio{SUF}"; TMP.mkdir(exist_ok=True)
+# Le scene MUTE - la copertina, le nove card di capitolo, la chiusura - sono
+# immagine e silenzio, e si ricostruiscono nella cartella temporanea del
+# comparto: costano un secondo e valgono piu' di un ramo in piu' qui.
+NOME, SCENE, REG_F, TMP = NOME_MONTATO, P_SCENE, P_REGISTRO, P_MONTAGGIO
+TMP.mkdir(exist_ok=True)
 sh   = lambda *a: subprocess.run([str(x) for x in a], capture_output=True, text=True)
 
 def durata(f):
@@ -47,11 +39,12 @@ def durata(f):
     decodificata.
 
     Non e' un'ottimizzazione, e' la misura giusta. Il `time=` che ffmpeg stampa
-    decodificando e' l'ultimo istante processato, e su 218 file resta indietro
+    decodificando e' l'ultimo istante processato, e sulle 218 scene del video
+    da un'ora dove fu misurato restava indietro
     di 1,38 s in tutto; la Duration dell'intestazione e' invece esattamente la
     quantita' con cui il demuxer concat sposta l'inizio dello spezzone
     successivo - cioe' il tempo a cui la scena comincia davvero nel montato.
-    Sommata sulle 218 scene cade a 20 ms dal montato, contro i 1.380 ms
+    Sommata su quelle 218 scene cadeva a 20 ms dal montato, contro i 1.380 ms
     dell'altra. In piu' non decodifica niente: cinque minuti diventano due
     secondi.
     """
@@ -68,7 +61,7 @@ def secondi_fermi(tipo):
     if "Chiusura" in tipo:         return CHIUSURA
     raise SystemExit(f"scena muta di tipo sconosciuto: {tipo!r}")
 
-scene = json.loads((QUI/"copione"/"blocchi.json").read_text(encoding="utf-8"))
+scene = json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))
 reg   = {r["id"]: r for r in json.loads(REG_F.read_text(encoding="utf-8"))}
 
 # --- le scene ferme: immagine + silenzio, cosi' hanno una traccia audio e la
@@ -78,7 +71,7 @@ print(f"scene ferme da costruire: {len(ferme)}")
 for s in ferme:
     sec = secondi_fermi(s["tipo"])
     sh(FF, "-y", "-v", "error", "-loop", "1", "-t", str(sec),
-       "-i", QUI/"slide"/"png"/f"{s['id']}.png",
+       "-i", P_PNG/f"{s['id']}.png",
        "-f", "lavfi", "-t", str(sec), "-i", "anullsrc=r=44100:cl=stereo",
        "-c:v", "libx264", "-preset", "veryfast", "-crf", "20",
        "-pix_fmt", "yuv420p", "-r", "25",
