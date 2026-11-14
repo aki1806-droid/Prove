@@ -7,8 +7,10 @@ Scelte di Achille (14/11): voce **ElevenLabs diretto**; account HeyGen **del con
 ## Voce
 «Achille nuovo 1» (ElevenLabs KerPEYZvLEWNATg4AARX), **eleven_v4** (regola del canale; il brief diceva eleven_multilingual_v2),
 voce.txt in una passata sola (flow ElevenLabs N0YZ2MwkWYIrxhvx87ih, 971 crediti, grezzo 67,0 s). Tempi delle parole dalla
-trascrizione Scribe dello stesso flow (audio/parole_grezzo.json). Le undici scene tagliate sui paragrafi, atempo 1,12, pause fisse
-0,6-0,7 s; due secondi di silenzio dopo la scena 4 e 2,2 s in coda per il cartello (strumenti/eredita/lancio.py voce).
+trascrizione Scribe dello stesso flow (audio/parole_grezzo.json). La voce resta intera con le sue pause naturali, atempo 1,12;
+due secondi di silenzio dopo la scena 4 (inseriti a metà della pausa vera) e 2,2 s in coda per il cartello
+(strumenti/eredita/lancio.py voce). La prima versione tagliava le undici scene e le rimetteva in fila con pause fisse: Achille
+ha sentito interruzioni nell'audio (14/11), rifatta così.
 Le citazioni dei figli hanno la loro pausa naturale prima (da 0,3 a 0,5 s nel grezzo).
 
 ## Clip (HeyGen text_to_video dal connettore, 9:16 1080p; mai volti di bambini: mani, spalle, oggetti)
@@ -27,7 +29,8 @@ sulla copertina, dissolvenza di 2 s. −14,5 LUFS integrati (brief −14), picco
 Copertina del reel: copertina_reel.jpg (scena 4).
 
 ## Uscita (1080x1920, 30 fps, integra; fuori da git)
-Eredita_Invisibili_lancio.mp4 · 69,2 s · 48 MB · asset HeyGen 4f363302e9df463c94c7e458e9d4d9db (https://resource2.heygen.ai/video/4f363302e9df463c94c7e458e9d4d9db/original.mp4).
+Eredita_Invisibili_lancio.mp4 · 64,0 s · 45 MB · asset HeyGen d202b54c09b44cd68763b7420e53109c (https://resource2.heygen.ai/video/d202b54c09b44cd68763b7420e53109c/original.mp4).
+(Prima versione con le interruzioni: asset 4f363302e9df463c94c7e458e9d4d9db.)
 Testi per pubblicare: post_di_lancio.md (link Amazon, La Feltrinelli, Unilibro). Nota del pacchetto: su La Feltrinelli e Unilibro
 l'indirizzo dice «eredita-invisibile» al singolare, da controllare in scheda.
 

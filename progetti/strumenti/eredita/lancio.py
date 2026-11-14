@@ -38,24 +38,29 @@ def scene_grezze():
 
 
 def voce():
-    sc = scene_grezze(); t0 = 0.0; tempi, parole, pezzi = [], {}, []
+    """La voce resta intera (tagliarla in undici pezzi creava interruzioni, Achille 14/11): atempo 1,12 su tutto il grezzo,
+    poi due secondi di silenzio dopo la scena 4, inseriti a metà della pausa vera, e 2,2 s in coda. I confini delle scene
+    stanno a metà delle pause fra i paragrafi, così nessuna parola viene toccata."""
+    sc = scene_grezze()
+    conf = [0.0] + [(sc[i][2] + sc[i + 1][1]) / 2 for i in range(len(sc) - 1)]   # confini nel grezzo
+    tot = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f'{D}/audio/grezzo.mp3'],
+                               capture_output=True, text=True).stdout)
+    conf.append(tot)
+    taglio = conf[4]          # fine della scena 4
+    ff('-i', f'{D}/audio/grezzo.mp3', '-filter_complex',
+       f'[0:a]atrim=0:{taglio:.3f},asetpts=PTS-STARTPTS,atempo={AT},apad=pad_dur={PAUSE[3]}[a];'
+       f'[0:a]atrim={taglio:.3f},asetpts=PTS-STARTPTS,atempo={AT},apad=pad_dur={PAUSE[-1]}[b];[a][b]concat=n=2:v=0:a=1[o]',
+       '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
+    nuovo = lambda t: t / AT + (PAUSE[3] if t > taglio + 1e-6 else 0)
+    tempi, parole = [], {}
     for i, (ww, a, b) in enumerate(sc):
-        a0, b0 = max(0, a - 0.06), b + 0.12
-        f = f'{D}/audio/_s{i + 1:02d}.wav'
-        ff('-ss', f'{a0:.3f}', '-to', f'{b0:.3f}', '-i', f'{D}/audio/grezzo.mp3', '-af', f'atempo={AT},apad=pad_dur={PAUSE[i]}',
-           '-ar', '44100', '-ac', '1', f)
-        d = (b0 - a0) / AT + PAUSE[i]
-        sid = f'S{i + 1:02d}'
-        tempi.append({'id': sid, 'inizio': round(t0, 3), 'durata': round(d, 3)})
-        parole[sid] = [{'w': x['text'], 'a': round((x['start'] - a0) / AT, 3), 'b': round((x['end'] - a0) / AT, 3)} for x in ww]
-        pezzi.append(f); t0 += d
-    open(f'{D}/audio/lista.txt', 'w').write(''.join(f"file '{p}'\n" for p in pezzi))
-    ff('-f', 'concat', '-safe', '0', '-i', f'{D}/audio/lista.txt', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
-    for p in pezzi:
-        os.remove(p)
+        sid = f'S{i + 1:02d}'; t0 = nuovo(conf[i]) if i != 4 else conf[4] / AT + PAUSE[3]
+        t1 = (conf[i + 1] / AT + PAUSE[3]) if i == 3 else nuovo(conf[i + 1]) + (PAUSE[-1] if i == len(sc) - 1 else 0)
+        tempi.append({'id': sid, 'inizio': round(t0, 3), 'durata': round(t1 - t0, 3)})
+        parole[sid] = [{'w': x['text'], 'a': round(nuovo(x['start']) - t0, 3), 'b': round(nuovo(x['end']) - t0, 3)} for x in ww]
     json.dump(tempi, open(f'{D}/audio/tempi.json', 'w'), indent=1)
     json.dump(parole, open(f'{D}/audio/parole.json', 'w'), ensure_ascii=False, indent=0)
-    print(' '.join(f"{t['id']}:{t['durata']:.1f}" for t in tempi), f'totale {t0:.1f}')
+    print(' '.join(f"{t['id']}:{t['durata']:.1f}" for t in tempi), f"totale {tempi[-1]['inizio'] + tempi[-1]['durata']:.1f}")
 
 
 XF = 0.4      # dissolvenza fra le scene

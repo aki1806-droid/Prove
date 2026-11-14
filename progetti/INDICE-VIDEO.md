@@ -131,7 +131,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | «Lettera di un padre» – Festa del papà (16:9) | [apri](https://resource2.heygen.ai/video/578c4eacd3d94827a5a9400e2a31a5c6/original.mp4) |
 | «Lettera di un padre» – Festa del papà (9:16) | [apri](https://resource2.heygen.ai/video/2978ea18fe47491d80222f1a4edfc657/original.mp4) |
 | YouTube «Perché ho scritto Eredità Invisibili» (16:9) | [apri](https://resource2.heygen.ai/video/97c0d9c36426478b8a1430bdbd122564/original.mp4) |
-| V01 «Video di lancio del libro» (9:16) | [apri](https://resource2.heygen.ai/video/4f363302e9df463c94c7e458e9d4d9db/original.mp4) |
+| V01 «Video di lancio del libro» (9:16) | [apri](https://resource2.heygen.ai/video/d202b54c09b44cd68763b7420e53109c/original.mp4) |
 
 ## Libri: «Il Volo delle Radici» e «Mappe Silenziose» (booktrailer e reel)
 

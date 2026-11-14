@@ -2,56 +2,56 @@
  {
   "id": "S01",
   "inizio": 0.0,
-  "durata": 8.664
+  "durata": 8.143
  },
  {
   "id": "S02",
-  "inizio": 8.664,
-  "durata": 1.904
+  "inizio": 8.143,
+  "durata": 1.536
  },
  {
   "id": "S03",
-  "inizio": 10.568,
-  "durata": 10.254
+  "inizio": 9.679,
+  "durata": 9.625
  },
  {
   "id": "S04",
-  "inizio": 20.821,
-  "durata": 5.089
+  "inizio": 19.304,
+  "durata": 5.268
  },
  {
   "id": "S05",
-  "inizio": 25.911,
-  "durata": 8.932
+  "inizio": 24.571,
+  "durata": 8.464
  },
  {
   "id": "S06",
-  "inizio": 34.843,
-  "durata": 6.932
+  "inizio": 33.036,
+  "durata": 6.429
  },
  {
   "id": "S07",
-  "inizio": 41.775,
-  "durata": 5.504
+  "inizio": 39.464,
+  "durata": 4.857
  },
  {
   "id": "S08",
-  "inizio": 47.279,
-  "durata": 5.004
+  "inizio": 44.321,
+  "durata": 4.286
  },
  {
   "id": "S09",
-  "inizio": 52.282,
-  "durata": 6.332
+  "inizio": 48.607,
+  "durata": 5.696
  },
  {
   "id": "S10",
-  "inizio": 58.614,
-  "durata": 3.011
+  "inizio": 54.304,
+  "durata": 2.286
  },
  {
   "id": "S11",
-  "inizio": 61.625,
-  "durata": 7.611
+  "inizio": 56.589,
+  "durata": 7.436
  }
 ]

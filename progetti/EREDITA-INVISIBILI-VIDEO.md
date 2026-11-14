@@ -4,7 +4,7 @@
 
 | # | video | formato | durata | link |
 |---|---|---|---|---|
-| V01 | Video di lancio del libro «Credevo di crescerli. Mi stavano ricrescendo.» | 9:16 | 69,2 s | [apri](https://resource2.heygen.ai/video/4f363302e9df463c94c7e458e9d4d9db/original.mp4) |
+| V01 | Video di lancio del libro «Credevo di crescerli. Mi stavano ricrescendo.» | 9:16 | 64,0 s | [apri](https://resource2.heygen.ai/video/d202b54c09b44cd68763b7420e53109c/original.mp4) |
 | R01 | Reel manifesto «Credevo di crescerli» | 9:16 | 31,5 s | [apri](https://resource2.heygen.ai/video/d5e8ec4b7f344b05b00960128bc18ca1/original.mp4) |
 | R02 | Reel «Un sasso in tasca» – lancio della sfida | 9:16 | 35,0 s | [apri](https://resource2.heygen.ai/video/d3a9fcd7c93f46f9be165214589f8dbd/original.mp4) |
 | R03 | Reel «Propositi al contrario» – Capodanno | 9:16 | 31,8 s | [apri](https://resource2.heygen.ai/video/fe2725474e264d368c6c2fbd7b50b3f7/original.mp4) |
