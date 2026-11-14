@@ -217,8 +217,81 @@ e' uscito** prima di scrivere.
 
 ## Le quattro cose da rifare prima di generare la voce
 
-1. La **firma definitiva** del comparto sanita' 2025-2027: avvenuta o no.
-2. L'esito del tavolo **RSA AIOP del 13 novembre 2026**.
-3. Il **decreto ministeriale** del comma 3 dell'art. 10 D.L. 62/2026.
-4. Le **tabelle per area** del CCNL Funzioni Locali e gli **importi delle
-   indennita'** della sanita' privata: nessuna fonte letta li riporta.
+Rifatte il **14 novembre 2026**, prima di generare la voce della sanita'
+pubblica. Tre su quattro sono chiuse; una resta aperta, e si dice aperta.
+
+### 1. Firma definitiva del comparto sanita' 2025-2027 — **ancora ipotesi**
+
+Quinto controllo, 14 novembre: nessuna firma definitiva annunciata. La prova
+resta quella per assenza descritta sopra. **Il copione lo dice cosi'**, e dice
+anche che chi promette una data sta indovinando.
+
+### 2. Tavolo AIOP/ARIS e RSA — **fermo, e peggiorato**
+
+La conciliazione al Ministero del Lavoro e' fallita il **2-3 novembre 2026**.
+Il **13 novembre** FP CGIL, CISL FP e UIL FP tornano sulla questione per un
+motivo nuovo: in Parlamento c'e' un **emendamento sul rinnovo automatico degli
+accordi con le strutture accreditate**, e i tre sindacati chiedono di
+ritirarlo — niente rinnovo automatico senza garanzie sui contratti, sugli
+organici e sulle condizioni di lavoro. Hanno dichiarato lo **stato di
+agitazione nazionale**; la data dello sciopero verra' comunicata alla
+Commissione di Garanzia, e **a oggi non risulta fissata**.
+Le datoriali subordinano l'apertura del tavolo alla copertura integrale dei
+costi del contratto da parte delle Regioni. I tavoli RSA risultano aperti
+formalmente, ma fermi.
+Fonte: [CISL FP, 03/11/2026](https://cislfp.it/2026/11/03/sanita-privata-conciliazione-fallita/) · [FP CGIL, 13/11/2026](https://fpcgil.it/2026/11/13/sanita-privata-fp-cgil-cisl-fp-uil-fp-no-al-rinnovo-automatico-degli-accordi-con-le-strutture-accreditate-senza-garanzie-sui-contratti-il-parlamento-ritiri-lemendamento)
+
+**Attenzione a una fonte vecchia che sembra nuova**: un articolo di
+Quotidiano Sanita' intitolato «Firmata preintesa tra i sindacati e Aris-Aiop,
+aumenti medi da 154 euro» esce nelle ricerche di oggi ma **non e' del 2026**:
+e' la preintesa del contratto 2016-2018. Nel video della sanita' privata non
+va usato.
+
+### 3. Decreto ministeriale dell'art. 10 comma 3 — **non risulta adottato**
+
+Il termine era di novanta giorni dall'entrata in vigore della legge di
+conversione (L. 112/2026, in Gazzetta il 27 giugno 2026): scaduto **a fine
+settembre 2026**. Nessun decreto trovato in Gazzetta ne' sul sito del
+Ministero del Lavoro. **Nel copione si dice cosi'**: la legge prevede per
+questi settori un regime separato affidato alla contrattazione collettiva
+entro il tetto del comma 2, e il decreto che deve individuare i soggetti
+**non c'e' ancora**. Non si dice «esclusi», che e' la formula sindacale, ne'
+«ci sara'», che sarebbe una previsione.
+
+Una correzione a quanto scritto sopra, da verificare sul testo vigente prima
+di usarla nel video della sanita' privata: le fonti sulla **versione
+convertita** parlano del **50%** dell'IPCA-NEI, mentre il testo originario
+diceva 30%, e il termine e' sceso da dodici a **nove mesi** dalla scadenza.
+Il copione, per ora, non cita la percentuale.
+
+### 4a. Tabelle per area del CCNL Funzioni Locali — **trovate**
+
+Incrementi tabellari lordi mensili, **cumulativi** (ogni scaglione assorbe il
+precedente). Concordi su piu' fonti indipendenti:
+
+| Area | dal 1/1/2025 | dal 1/1/2026 | dal 1/1/2027 |
+|---|---|---|---|
+| Operatori | 38,63 | 78,12 | **108,95** |
+| Operatori esperti | 40,22 | 81,33 | **113,53** |
+| Istruttori | 45,20 | 91,40 | **127,63** |
+| Funzionari ed EQ | 49,04 | 99,18 | **138,52** |
+
+Arretrati lordi stimati al 31 ottobre 2026: Operatori **973,93**, Operatori
+esperti **1.013,74**, Istruttori **1.139,13**, Funzionari ed EQ **1.235,83**.
+Dal **1° luglio 2027** cresce anche l'indennita' di comparto: +9,74 Operatori,
++11,82 Operatori esperti, +13,77 Istruttori, +15,61 Funzionari.
+Fonte: [CISL FP, 28/10/2026](https://cislfp.it/2026/10/28/ccnl-enti-locali-2025-2027-firma-definitiva/) · [Tecnico Pubblico](https://tecnicopubblico.it/aumenti-arretrati-ccnl-funzioni-locali-2025-2027.html) · [PMI.it](https://www.pmi.it/pubblica-amministrazione/pubblico-impiego/490603/contratto-enti-locali-aumenti-stipendio.html)
+
+**Da sapere prima di scrivere il copione degli enti locali**: l'ipotesi e' del
+**21 luglio 2026**, la certificazione della Corte dei conti (con osservazioni)
+del **26 ottobre**, la firma definitiva del **28 ottobre 2026**. E' la
+sequenza che alla sanita' pubblica manca ancora, ed e' il modo piu' onesto di
+spiegare, nel video del comparto pubblico, che cosa si sta aspettando.
+
+### 4b. Importi delle indennita' della sanita' privata — **ancora mancanti**
+
+Indennita' di turno, maggiorazioni notte e festivi, indennita' di
+coordinamento: **nessuna fonte letta ne riporta gli importi**. Restano
+nel contratto e negli accordi aziendali. Nel copione della sanita' privata
+**non si inventano**: si spiega dove stanno e si dice che il tabellare e'
+fermo al 1° luglio 2020.
