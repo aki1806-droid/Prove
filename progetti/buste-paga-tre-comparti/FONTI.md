@@ -49,6 +49,25 @@ La prova che tiene e' **per assenza**: il sito nazionale della CISL FP, che il
 luglio calcola gli arretrati ipotizzando l'entrata in vigore «entro il 1°
 dicembre 2026»: a luglio la davano per non ancora fatta.
 
+**Riverificato il 14 novembre 2026, quinto controllo: ancora ipotesi.** E qui
+c'e' una trappola da titolista che va conosciuta. Due testate titolano
+**«Firmato il CCNL Sanita' 2025-2027»** e **«Aran: firmato il contratto del
+comparto Sanita'»** — ma sono tutte e due del **29 luglio 2026** e nel corpo
+dicono «ipotesi di rinnovo» e «la sottoscrizione definitiva avverra' a esito
+positivo della procedura». Chi legge solo i titoli conclude il contrario del
+vero.
+Fonte: [Infermieristicamente, 29/07/2026](https://www.infermieristicamente.it/articolo/21121/firmato-il-ccnl-sanita-2025-2027:-ecco-aumenti,-ferie,-pause-e-tutte-le-novita) · [Panorama della Sanita', 29/07/2026](https://panoramadellasanita.it/site/aran-firmato-il-contratto-del-comparto-sanita-per-oltre-592mila-dipendenti/)
+
+Da Panorama, due fatti utili che le altre fonti non davano: gli arretrati hanno
+**decorrenza dal 1° gennaio 2025**, e le risorse sono **a regime dal 1° gennaio
+2027**. L'ipotesi va trasmessa «ai competenti organi di controllo per la
+certificazione della compatibilita' economico-finanziaria, ai sensi
+dell'articolo 47 del d.lgs. 165/2001».
+
+**Cifra da NON usare**: Nursing Up parla di «arretrati di circa 3.184,35 per il
+periodo 2025/26, salvo conguaglio IVC». E' una base di calcolo diversa da
+quella CISL FP e da quella ARAN, e nessuna fonte la riconcilia.
+
 > **DA RIVERIFICARE PRIMA DI GENERARE.** Se nel frattempo la firma e' arrivata,
 > cambia il tempo verbale di mezzo capitolo.
 

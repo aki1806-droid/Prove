@@ -89,3 +89,8 @@ progetti/bustapaga-video-unico/audio/trascrizioni/*.txt
 progetti/bustapaga-video-unico/audio/esiti-testo.json
 progetti/bustapaga-video-unico/audio/proposte-confini.json
 progetti/bustapaga-video-unico/audio/confini.json
+
+# i tre video sui comparti: il copione compilato e i chunk si rigenerano
+progetti/buste-paga-tre-comparti/copione/blocchi-*.json
+progetti/buste-paga-tre-comparti/copione/tracce-*.json
+progetti/buste-paga-tre-comparti/audio/chunk-*/
