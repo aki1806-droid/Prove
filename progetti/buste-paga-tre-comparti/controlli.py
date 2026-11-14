@@ -24,7 +24,7 @@ from strumenti import FFMPEG
 QUI  = Path(__file__).resolve().parent
 FF   = FFMPEG
 sys.path.insert(0, str(QUI))
-from profilo import NOME_MONTATO, P_MONTATO, P_SRT, DURATA_CHIESTA, FASCIA_CPS, MAX_SCENE, P_BLOCCHI_JSON, P_CLIP, P_CONFINI, P_ESITI_CONFINI, P_ESITI_TESTO, P_GREZZO, P_PNG, P_REGISTRO, P_TRACCE, P_TROPPO_ALTE, SCARTO_DURATA_OK
+from profilo import NOME_MONTATO, P_MONTATO, P_SRT, P_TRASCRIZIONI, DURATA_CHIESTA, FASCIA_CPS, MAX_SCENE, P_BLOCCHI_JSON, P_CLIP, P_CONFINI, P_ESITI_CONFINI, P_ESITI_TESTO, P_GREZZO, P_PNG, P_REGISTRO, P_TRACCE, P_TROPPO_ALTE, SCARTO_DURATA_OK
 NOME = NOME_MONTATO
 CPSMIN, CPSMAX = FASCIA_CPS
 
@@ -34,31 +34,45 @@ esiti = []
 scene    = json.loads(P_BLOCCHI_JSON.read_text(encoding="utf-8"))
 parlanti = [s for s in scene if s["text"]]
 
-# 1 · la voce ha detto tutto (trascrizione della traccia intera)
-# La stessa guardia del controllo 9, e per lo stesso motivo: cambiando voce le
-# tracce sono altre, e un esito vecchio direbbe «tutto a posto» su un audio che
-# non esiste piu'. Ci sono cascato davvero — al cambio di voce questo controllo
-# passava sugli esiti di Achille mentre in audio/grezzo c'era gia' Francesca.
-f  = P_ESITI_TESTO
+# 1 · la voce ha detto TUTTO il copione, parola per parola
+# Il controllo vecchio leggeva esiti-testo.json, cioe' l'esito di un confronto
+# DTW fra il copione e una trascrizione a orecchio del trascrittore. Qui la
+# prova e' piu' forte e non costa niente: l'allineamento di ogni traccia
+# contiene le PAROLE con i loro tempi, e sono le parole del copione. Se una
+# parola manca o e' diversa, il confronto se ne accorge qui, adesso, senza
+# ripagare nulla.
+#
+# La guardia sulle date resta, e per lo stesso motivo di prima: un allineamento
+# piu' vecchio delle tracce descrive un audio che non esiste piu'.
 gz = sorted(P_GREZZO.glob("traccia*.mp3"))
-if not f.exists():
-    esiti.append((False, "verifica per trascrizione: NON ESEGUITA"))
-elif gz and f.stat().st_mtime < max(g.stat().st_mtime for g in gz):
-    esiti.append((False, "verifica per trascrizione: PIU' VECCHIA delle tracce — da rifare"))
+al = sorted(P_TRASCRIZIONI.glob("traccia*.json"))
+tracce = json.loads(P_TRACCE.read_text(encoding="utf-8"))
+testo = {x["id"]: x["text"] for x in scene}
+if not al:
+    esiti.append((False, "parole allineate: NESSUN allineamento"))
+elif gz and min(a.stat().st_mtime for a in al) < max(g.stat().st_mtime for g in gz):
+    esiti.append((False, "parole allineate: PIU' VECCHIE delle tracce — da rifare"))
 else:
-    e = json.loads(f.read_text(encoding="utf-8"))
-    buchi = sum(len(v["buchi"]) for v in e.values())
-    perc  = min(v["percentuale"] for v in e.values())
-    tracce_attese = len(json.loads(P_TRACCE.read_text(encoding="utf-8")))
-    # «0» e' la chiave della modalita' intero: una trascrizione sola di tutte le
-    # tracce concatenate, che copre lo stesso audio di diciassette separate.
-    intero = "0" in e or 0 in e
-    coperte = tracce_attese if intero else len(e)
-    esiti.append((not buchi and coperte == tracce_attese,
-                  f"verifica per trascrizione: "
-                  + ("tutte le tracce in un'unica trascrizione" if intero
-                     else f"{len(e)}/{tracce_attese} tracce")
-                  + f", coincidenza {perc}%, buchi nel parlato: {buchi}"))
+    import unicodedata
+    def _pul(w):
+        w = unicodedata.normalize("NFD", w.lower())
+        w = "".join(c for c in w if unicodedata.category(c) != "Mn")
+        return re.sub(r"[^a-z0-9]", "", w)
+    diverse, tot_par, mancanti = 0, 0, []
+    for t in tracce:
+        f = P_TRASCRIZIONI/f"traccia{t['traccia']:02d}.json"
+        if not f.exists():
+            mancanti.append(t["traccia"]); continue
+        det = [_pul(w["text"]) for w in json.loads(f.read_text(encoding="utf-8"))["parole"]]
+        det = [w for w in det if w]
+        att = [_pul(w) for i in t["scene"] for w in testo[i].split()]
+        att = [w for w in att if w]
+        tot_par += len(att)
+        diverse += abs(len(att) - len(det)) + sum(1 for a, b in zip(att, det) if a != b)
+    esiti.append((not mancanti and not diverse,
+                  f"parole allineate: {tot_par} parole del copione, "
+                  f"{diverse} diverse nel parlato"
+                  + (f", {len(mancanti)} tracce senza allineamento" if mancanti else "")))
 
 # 2 · tutti i blocchi dentro la fascia di velocita'
 # Finche' la voce non e' stata generata il registro non esiste, e il controllo
@@ -120,24 +134,35 @@ srt = P_SRT
 n = len(re.findall(r"-->", srt.read_text(encoding="utf-8"))) if srt.exists() else 0
 esiti.append((n == len(parlanti), f"sottotitoli SRT: {n} righe su {len(parlanti)} blocchi"))
 
-# 9 · i confini verificati per trascrizione, sui confini ATTUALI
-cf, cc = P_ESITI_CONFINI, P_CONFINI
-if not cf.exists():
-    esiti.append((False, "confini verificati per trascrizione: NON ESEGUITA"))
-elif cf.stat().st_mtime < cc.stat().st_mtime:
-    esiti.append((False, "confini: la verifica e' PIU' VECCHIA dei confini — da rifare"))
+# 9 · i confini cadono nel silenzio fra due parole, sui confini ATTUALI
+# Il controllo vecchio chiedeva una seconda trascrizione: si tagliavano 1,6 s
+# prima di ogni confine, si montava un provino e lo si faceva trascrivere per
+# sentire se dentro c'era gia' il blocco successivo. Qui il confine viene dai
+# tempi delle parole, quindi la domanda da fare e' un'altra e si risponde da
+# sola: ogni taglio cade DAVVERO fra la fine di una parola e l'inizio della
+# successiva, e non dentro a nessuna delle due?
+if not P_CONFINI.exists():
+    esiti.append((False, "confini: non ancora calcolati"))
+elif al and P_CONFINI.stat().st_mtime < max(a.stat().st_mtime for a in al):
+    esiti.append((False, "confini: PIU' VECCHI degli allineamenti — da rifare"))
 else:
-    e = json.loads(cf.read_text(encoding="utf-8"))
-    interi  = sum(1 for x in e if x["esito"] == "intero")
-    meta    = sum(1 for x in e if x["esito"] == "parziale")
-    dubbi   = [x["blocco"] for x in e if x["esito"] == "NON TROVATA"]
-    # I dubbi non fanno fallire: sono dichiarati uno per uno nel registro, con
-    # la diagnosi. Farli fallire senza poterli risolvere renderebbe il
-    # controllo una formalita' da aggirare. Qui conta che la verifica sia stata
-    # fatta sui confini di ADESSO, non su quelli di prima delle correzioni.
-    esiti.append((interi + meta >= len(e) * 0.9,
-                  f"confini per trascrizione: {interi} chiuse ritrovate intere, "
-                  f"{meta} a meta', {len(dubbi)} da guardare su {len(e)}"))
+    stato = json.loads(P_CONFINI.read_text(encoding="utf-8"))
+    dentro, fuori, stretti = 0, [], 0
+    for t in tracce:
+        k = str(t["traccia"])
+        f = P_TRASCRIZIONI/f"traccia{t['traccia']:02d}.json"
+        if k not in stato or not f.exists(): continue
+        par = [w for w in json.loads(f.read_text(encoding="utf-8"))["parole"]
+               if not (w["text"].startswith("[") and w["text"].endswith("]"))]
+        for c in stato[k]["confini"]:
+            prima = [w for w in par if w["end"] <= c + 1e-9]
+            dopo  = [w for w in par if w["start"] >= c - 1e-9]
+            if not prima or not dopo: fuori.append((k, c)); continue
+            dentro += 1
+            if dopo[0]["start"] - prima[-1]["end"] < 0.05: stretti += 1
+    esiti.append((not fuori,
+                  f"confini nel silenzio: {dentro} su {dentro + len(fuori)} cadono fra due "
+                  f"parole ({stretti} in una pausa sotto i 50 ms)"))
 
 # 10 · il registro, con la sezione che dice cosa non e' stato giudicato
 rf = QUI/"REGISTRO.md"

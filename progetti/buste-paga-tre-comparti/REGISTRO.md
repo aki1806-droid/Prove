@@ -17,7 +17,7 @@ inquadratura e voce.
 | slide | 111, renderizzate e guardate | — | — |
 | voce | 10 tracce, fatta | — | — |
 | confini | 90 su 90, dai tempi delle parole | — | — |
-| montato | in corso | — | — |
+| montato | 21:09, fatto | — | — |
 
 ## Le cose misurate, non ereditate
 
@@ -70,9 +70,13 @@ lette da Achille.
    - `7,76 per cento` (traccia 8).
 3. **s091 sta a 7,6 car/s**, sotto la fascia di prima. Non è un taglio
    sbagliato: è la scena che legge sei importi in fila. Ascoltarla conferma.
-4. **La durata.** Il montato esce intorno ai **20:40** contro i 20 minuti
-   chiesti. Si può portare a 20:00 esatti con un `atempo` 1,034, ma la voce sta
-   già a 15,7 car/s e accelerarla si sente. Decide Achille.
+4. **La durata.** Il montato vero è **21:09** contro i 20 minuti chiesti: il
+   5,8% in più. (La stima di 20:40 che avevo scritto prima usava ancora il
+   rapporto grezzo/lavorato del campione; con quello misurato la stima era
+   21:12, e il montato è caduto lì.) Si può portare a 20:00 esatti con un
+   `atempo` 1,059, ma la voce sta già a 15,7 caratteri al secondo e
+   accelerarla del 6% si sente. **Decide Achille**: così com'è, oppure
+   stretta.
 5. **Le quattro verifiche di `FONTI.md`** prima degli altri due video: la firma
    definitiva del comparto sanità (riverificata il 14 novembre: ancora
    ipotesi), il tavolo RSA AIOP del 13 novembre, il decreto del comma 3

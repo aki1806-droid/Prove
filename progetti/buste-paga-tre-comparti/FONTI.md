@@ -148,10 +148,20 @@ non comunali; 5,78% contro 5,36% sul monte salari. **Nel copione si usa la
 cifra CISL**, che e' la fonte del committente, e non si da' la seconda cifra
 decimale come se fosse certa.
 
-**Buchi**: nessuna fonte letta riporta le tabelle per area/famiglia
-professionale, ne' l'importo della nuova indennita' di comparto. **Servono
-prima di scrivere il capitolo sugli aumenti**: stanno nel PDF del CCNL sul sito
-ARAN e sulle tabelle CISL FP, da recuperare.
+**I buchi sono stati chiusi il 14 novembre** (tabelle per area e indennita' di
+comparto: vedi il punto 4a in fondo).
+
+**E le due cifre tornano.** Sembravano in contraddizione — la tabella per area
+arriva a **138,52 €** a regime per Funzionari ed EQ, mentre il comunicato
+parla di **152 € medi nei Comuni** — e invece dicono due cose diverse:
+
+> 138,52 (tabellare a regime) + 15,61 (indennita' di comparto dal 1° luglio
+> 2027) = **154,13**
+
+La tabella e' il **tabellare**; la media del comunicato conta **anche
+l'indennita' di comparto**. Nel copione si dicono tutte e due, separate, e si
+spiega perche' non sono lo stesso numero: e' esattamente il tipo di scarto che
+fa dire «mi hanno promesso 152 e in busta ne vedo 138».
 
 ---
 
