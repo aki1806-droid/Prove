@@ -46,4 +46,7 @@ Testi per pubblicare: post_di_lancio.md (link Amazon, La Feltrinelli, Unilibro).
 l'indirizzo dice «eredita-invisibile» al singolare, da controllare in scheda.
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille, sui profili che indica.
+- Robin: post 1178345, domenica 15/11/2026 09:00 (OK di Achille 14/11), su Facebook Achille Pagliaro e La Rotta Giusta (reel),
+  YouTube Achille Pagliaro (Shorts «Credevo di crescerli. Mi stavano ricrescendo.»), Instagram cartografidellanima (reel),
+  TikTok Cartografi dell'Anima. Testo di post_di_lancio.md con «📖 Esce il 20 novembre.» in alto; commenti: la domanda
+  «Qual è la frase di un bambino che non hai più dimenticato?» e il rimando ai link (Facebook due commenti, IG e YouTube uno solo).
