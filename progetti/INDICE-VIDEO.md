@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**178 video** in 15 sezioni.
+**179 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -131,6 +131,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | «Lettera di un padre» – Festa del papà (16:9) | [apri](https://resource2.heygen.ai/video/578c4eacd3d94827a5a9400e2a31a5c6/original.mp4) |
 | «Lettera di un padre» – Festa del papà (9:16) | [apri](https://resource2.heygen.ai/video/2978ea18fe47491d80222f1a4edfc657/original.mp4) |
 | YouTube «Perché ho scritto Eredità Invisibili» (16:9) | [apri](https://resource2.heygen.ai/video/97c0d9c36426478b8a1430bdbd122564/original.mp4) |
+| V01 «Video di lancio del libro» (9:16) | [apri](https://resource2.heygen.ai/video/4f363302e9df463c94c7e458e9d4d9db/original.mp4) |
 
 ## Libri: «Il Volo delle Radici» e «Mappe Silenziose» (booktrailer e reel)
 

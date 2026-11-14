@@ -4,7 +4,7 @@
 import json, os, sys, time
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import heygen_api as h  # noqa: E402
-lavoro = [(d, s, v) for d in sys.argv[1:] for s, v in json.load(open(f'{d}/clip/id.json')).items() if s.startswith('S')]
+lavoro = [(d, s, v) for d in sys.argv[1:] for s, v in json.load(open(f'{d}/clip/id.json')).items() if s.startswith(('S', 'c'))]
 while lavoro:
     resto = []
     for d, s, v in lavoro:
