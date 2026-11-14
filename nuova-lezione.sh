@@ -15,6 +15,11 @@ NUOVA="progetti/$1"
 # Il secondo argomento scavalca la scelta quando l'ultima non e' quella giusta.
 if [ $# -eq 2 ]; then DA="progetti/$2"
 else DA=$(ls -d progetti/*-l*/ | sort -V | tail -1); fi
+# ATTENZIONE: il glob qui sopra prende solo le lezioni numerate «mN-lN.N-...».
+# Un progetto con un altro nome (per esempio un video unico) non viene mai
+# scelto da solo, anche se e' il piu' recente e il piu' avanzato: va passato
+# come secondo argomento. E' successo, e si copiava dalla lezione seme
+# perdendo sette tipi grafici e tre strumenti.
 DA=${DA%/}
 [ -d "$DA" ] || { echo "non trovo la lezione da cui copiare: $DA"; exit 1; }
 [ -e "$NUOVA" ] && { echo "$NUOVA esiste gia'"; exit 1; }
@@ -26,8 +31,15 @@ cp -r "$DA/slide/font" "$DA/slide/marchio" "$NUOVA/slide/"
 # senza, il primo `node slide/cards.mjs` della lezione nuova non parte nemmeno.
 cp "$DA/slide/layout.mjs" "$DA/slide/grafica.mjs" \
    "$DA/slide/cards.mjs" "$DA/slide/clips.mjs" "$NUOVA/slide/"
-cp "$DA/audio/tagli.py" "$DA/audio/verifica.py" "$DA/audio/verifica-testo.py" "$NUOVA/audio/"
-cp "$DA/monta-scene.py" "$DA/monta-locale.py" "$DA/controlli.py" "$DA/verifica-locale.py" "$NUOVA/"
+# Gli strumenti dell'audio e del montaggio. L'elenco era scritto a mano e si e'
+# rotto due volte: una lezione aveva sostituito verifica.py con tre strumenti
+# nuovi, e `set -e` fermava la copia a meta' lasciando una cartella monca.
+# Si copia quello che C'E', non quello che ci si ricorda.
+for s in "$DA"/audio/*.py; do [ -e "$s" ] && cp "$s" "$NUOVA/audio/"; done
+for s in "$DA"/*.py; do
+  case "${s##*/}" in profilo.py) continue;; esac
+  [ -e "$s" ] && cp "$s" "$NUOVA/"
+done
 # profilo.py si copia e si ritocca: quasi tutti i valori valgono per il corso
 # intero, e a cambiare e' STACCO. Senza, ogni strumento muore sull'import.
 cp "$DA/profilo.py" "$NUOVA/"
