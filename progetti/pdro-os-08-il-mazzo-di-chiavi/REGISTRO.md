@@ -21,7 +21,8 @@ riser prima della svolta, effetti del pacchetto. Nessun sottotitolo impresso. In
 PDRO_Oggetti_smarriti_08_il_mazzo_di_chiavi · 80.5 s · asset HeyGen 756a9f6cc3dd413f89a0e48dd67575bb (https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia, ispirata a situazioni reali».
+- Robin (OK di Achille 15/11, «programma tutto»): post 1183002, mar 12/1 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts,
+  FB reel), testo di TESTO_POST.md con «Storia di fantasia, ispirata a situazioni reali», primo commento WhatsApp.
 
 ## Revisione 15/11/2026 — audio e logo
 Achille: «problemi con l'audio, viene tagliato male» e «il rettangolo bianco del logo è tanto più grande». I tagli fra le

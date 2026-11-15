@@ -51,10 +51,12 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | ven 20/11 12:30 | Convenzioni 3 · «Le tre di notte – medico H24» | 4 canali AOUP (testo provinciale) |
 | dom 22/11 19:30 | Sentirsi per sentire · P1 «Il posto vuoto» | 12 canali provinciali |
 | mar 24/11 12:30 | Convenzioni 4 · «Il gioco della carriera – formazione» | 4 canali AOUP (testo provinciale) |
+| mar 24/11 19:00 | Oggetti smarriti · Ep. 1 «Il badge» | 4 canali AOUP |
 | gio 26/11 18:15 | 20 format · 03 «Mito da sfatare» | 4 canali AOUP |
 | ven 27/11 12:30 | Convenzioni 5 · «Cartoline dal riposo – tempo libero» | 4 canali AOUP (testo provinciale) |
 | mar 1/12 12:30 | Convenzioni 6 · «Una giornata a sconto – acquisti» | 4 canali AOUP (testo provinciale) |
 | mar 1/12 18:15 | Calendario dei diritti · Casella 1 «Riposo giornaliero» | 4 canali AOUP |
+| mar 1/12 19:00 | Oggetti smarriti · Ep. 2 «La tazza scheggiata» | 4 canali AOUP |
 | mer 2/12 18:15 | Calendario dei diritti · Casella 2 «Riposo settimanale» | 4 canali AOUP |
 | gio 3/12 12:30 | 20 format · 05 «ASMR del cedolino» | 4 canali AOUP |
 | gio 3/12 18:15 | Calendario dei diritti · Casella 3 «Orario massimo» | 4 canali AOUP |
@@ -65,6 +67,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | lun 7/12 18:15 | Calendario dei diritti · Casella 7 «Congedo parentale» | 4 canali AOUP |
 | mar 8/12 12:30 | Convenzioni 8 · «Quanto vale una tessera?» | 4 canali AOUP (testo provinciale) |
 | mar 8/12 18:15 | Calendario dei diritti · Casella 8 «Congedo di paternità» | 4 canali AOUP |
+| mar 8/12 19:00 | Oggetti smarriti · Ep. 3 «Le scarpe consumate» | 4 canali AOUP |
 | mer 9/12 18:15 | Calendario dei diritti · Casella 9 «Allattamento» | 4 canali AOUP |
 | gio 10/12 12:30 | 20 format · 06 «La classifica dei turni» | 4 canali AOUP |
 | gio 10/12 18:15 | Calendario dei diritti · Casella 10 «Malattia» | 4 canali AOUP |
@@ -73,6 +76,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | dom 13/12 18:15 | Calendario dei diritti · Casella 13 «Matrimonio» | 4 canali AOUP |
 | lun 14/12 18:15 | Calendario dei diritti · Casella 14 «Donazione di sangue» | 4 canali AOUP |
 | mar 15/12 18:15 | Calendario dei diritti · Casella 15 «Assemblea» | 4 canali AOUP |
+| mar 15/12 19:00 | Oggetti smarriti · Ep. 4 «Il libro sottolineato» | 4 canali AOUP |
 | mer 16/12 18:15 | Calendario dei diritti · Casella 16 «Affissione» | 4 canali AOUP |
 | gio 17/12 12:30 | 20 format · 07 «Il tuo anno in corsia» | 4 canali AOUP |
 | gio 17/12 18:15 | Calendario dei diritti · Casella 17 «Libertà di opinione» | 4 canali AOUP |
@@ -81,12 +85,18 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | dom 20/12 18:15 | Calendario dei diritti · Casella 20 «Medico competente» | 4 canali AOUP |
 | lun 21/12 18:15 | Calendario dei diritti · Casella 21 «Contro le aggressioni» | 4 canali AOUP |
 | mar 22/12 18:15 | Calendario dei diritti · Casella 22 «Part-time» | 4 canali AOUP |
+| mar 22/12 19:00 | Oggetti smarriti · Ep. 5 «Il disegno nell'armadietto» | 4 canali AOUP |
 | mer 23/12 18:15 | Calendario dei diritti · Casella 23 «Formazione» | 4 canali AOUP |
 | gio 24/12 18:15 | Calendario dei diritti · Casella 24 «Tredicesima» | 4 canali AOUP |
 | ven 25/12 10:15 | Calendario dei diritti · Finale «Buone feste» con Achille | 4 canali AOUP |
+| mar 29/12 19:00 | Oggetti smarriti · Ep. 6 «Il telefono delle tre» | 4 canali AOUP |
+| mar 5/1 19:00 | Oggetti smarriti · Ep. 7 «La lettera mai spedita» | 4 canali AOUP |
 | gio 7/1 18:15 | 20 format · 08 «Il microfono in corsia» | 4 canali AOUP |
+| mar 12/1 19:00 | Oggetti smarriti · Ep. 8 «Il mazzo di chiavi» | 4 canali AOUP |
 | gio 14/1 18:15 | 20 format · 09 «Primo giorno in ospedale» | 4 canali AOUP |
+| mar 19/1 19:00 | Oggetti smarriti · Ep. 9 «La penna verde» | 4 canali AOUP |
 | gio 21/1 18:15 | 20 format · 10 «60 secondi con…» (teaser) | 4 canali AOUP |
+| mar 26/1 19:00 | Oggetti smarriti · Ep. 10 «La scatola» | 4 canali AOUP |
 | gio 28/1 18:15 | 20 format · 11 «Prima e dopo» | 4 canali AOUP |
 | gio 4/2 18:15 | 20 format · 12 «Spiegato a mia nonna» | 4 canali AOUP |
 | gio 11/2 18:15 | 20 format · 13 «Il dizionario della corsia» · A «Arretrati» | 4 canali AOUP |
@@ -329,16 +339,16 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
 | PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/c7276c2d07ed4643afefbafe22373d6b/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/1b54090280894233b7b399dc6e1f5d5f/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/77078b141cbb439aada908a1315f7294/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 4 «Il libro sottolineato» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/36ff300b872049f09983497308e2718e/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 5 «Il disegno nell'armadietto» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/433421443fe74d5393de01a9488f9162/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 6 «Il telefono delle tre» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/967b9f3409144e2780d0a92179674ce4/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 7 «La lettera mai spedita» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d4f99c7a2010490a9039c467ef09f0f3/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/2eef025c6d684a1ebfa0ca6c01c2fde8/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/0faa89914724414d9fc9e6c4e772c123/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) | mar 24/11 19:00 | [apri](https://resource2.heygen.ai/video/c7276c2d07ed4643afefbafe22373d6b/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) | mar 1/12 19:00 | [apri](https://resource2.heygen.ai/video/1b54090280894233b7b399dc6e1f5d5f/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) | mar 8/12 19:00 | [apri](https://resource2.heygen.ai/video/77078b141cbb439aada908a1315f7294/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 4 «Il libro sottolineato» (reel 9:16) | mar 15/12 19:00 | [apri](https://resource2.heygen.ai/video/36ff300b872049f09983497308e2718e/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 5 «Il disegno nell'armadietto» (reel 9:16) | mar 22/12 19:00 | [apri](https://resource2.heygen.ai/video/433421443fe74d5393de01a9488f9162/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 6 «Il telefono delle tre» (reel 9:16) | mar 29/12 19:00 | [apri](https://resource2.heygen.ai/video/967b9f3409144e2780d0a92179674ce4/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 7 «La lettera mai spedita» (reel 9:16) | mar 5/1 19:00 | [apri](https://resource2.heygen.ai/video/d4f99c7a2010490a9039c467ef09f0f3/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) | mar 12/1 19:00 | [apri](https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) | mar 19/1 19:00 | [apri](https://resource2.heygen.ai/video/2eef025c6d684a1ebfa0ca6c01c2fde8/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) | mar 26/1 19:00 | [apri](https://resource2.heygen.ai/video/0faa89914724414d9fc9e6c4e772c123/original.mp4) |
 | PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille |  | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |

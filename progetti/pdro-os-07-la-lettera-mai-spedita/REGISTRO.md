@@ -21,7 +21,8 @@ riser prima della svolta, effetti del pacchetto. Nessun sottotitolo impresso. In
 PDRO_Oggetti_smarriti_07_la_lettera_mai_spedita · 81.5 s · asset HeyGen d4f99c7a2010490a9039c467ef09f0f3 (https://resource2.heygen.ai/video/d4f99c7a2010490a9039c467ef09f0f3/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia, ispirata a situazioni reali».
+- Robin (OK di Achille 15/11, «programma tutto»): post 1183001, mar 5/1 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts,
+  FB reel), testo di TESTO_POST.md con «Storia di fantasia, ispirata a situazioni reali», primo commento WhatsApp.
 
 ## Revisione 15/11/2026 — audio e logo
 Achille: «problemi con l'audio, viene tagliato male» e «il rettangolo bianco del logo è tanto più grande». I tagli fra le

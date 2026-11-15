@@ -24,8 +24,8 @@ Nessun sottotitolo impresso (regola del canale). −15,9 LUFS.
 PDRO_Oggetti_smarriti_01_il_badge · 96,5 s · asset HeyGen c7276c2d07ed4643afefbafe22373d6b (https://resource2.heygen.ai/video/c7276c2d07ed4643afefbafe22373d6b/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille sulla prova di stile e sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia,
-  ispirata a situazioni reali».
+- Robin (OK di Achille 15/11, «programma tutto»): post 1182994, mar 24/11 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts,
+  FB reel), testo di TESTO_POST.md con «Storia di fantasia, ispirata a situazioni reali», primo commento WhatsApp.
 
 ## Revisione 15/11/2026 — avatar del finale
 Achille: «l'avatar nel finale non si vede bene ed è tagliato male». Prima era un ritaglio di 580 px dal centro, alto 640:

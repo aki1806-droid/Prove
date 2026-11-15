@@ -21,7 +21,8 @@ riser prima della svolta, effetti del pacchetto. Nessun sottotitolo impresso. In
 PDRO_Oggetti_smarriti_09_la_penna_verde · 83.4 s · asset HeyGen 2eef025c6d684a1ebfa0ca6c01c2fde8 (https://resource2.heygen.ai/video/2eef025c6d684a1ebfa0ca6c01c2fde8/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia, ispirata a situazioni reali».
+- Robin (OK di Achille 15/11, «programma tutto»): post 1183003, mar 19/1 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts,
+  FB reel), testo di TESTO_POST.md con «Storia di fantasia, ispirata a situazioni reali», primo commento WhatsApp.
 
 ## Revisione 15/11/2026 — audio e logo
 Achille: «problemi con l'audio, viene tagliato male» e «il rettangolo bianco del logo è tanto più grande». I tagli fra le
