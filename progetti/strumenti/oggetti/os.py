@@ -54,6 +54,26 @@ def voce():
     print(os.path.basename(D), ' '.join(f"{x['id']}:{x['durata']:.1f}" for x in tempi), f'totale {t + da:.1f}')
 
 
+
+def motto_a_capo(src):
+    """Il motto «al tuo fianco, una persona alla volta» del frame finale corre sotto l'avatar:
+    porta «una persona alla volta» a capo, a sinistra, coprendo la riga originale col sughero di sotto."""
+    from PIL import Image, ImageFilter
+    dst = src.replace('.jpg', '_av.jpg')
+    if os.path.exists(dst):
+        return dst
+    im = Image.open(src).convert('RGB')
+    def piuma(w, h, f=10):
+        m = Image.new('L', (w, h), 0)
+        m.paste(255, (f, f, w - f, h - f))
+        return m.filter(ImageFilter.GaussianBlur(f / 2))
+    riga2 = im.crop((300, 1695, 740, 1780))
+    im.paste(im.crop((300, 1800, 740, 1885)), (300, 1695), piuma(440, 85))
+    im.paste(riga2, (45, 1752), piuma(440, 85))
+    im.save(dst, quality=95)
+    return dst
+
+
 def monta():
     tempi = json.load(open(f'{D}/audio/tempi.json')); L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
     nome = re.sub(r'[^\w]+', '_', B['titolo']).strip('_')
@@ -78,7 +98,10 @@ def monta():
         else:
             for j, f in enumerate(fr):
                 ln = sd + (XF if j + 1 < n else 0)
-                ins += ['-framerate', str(FPS), '-loop', '1', '-t', f'{ln:.3f}', '-i', f'{D}/grafiche/{f}.jpg']
+                img = f'{D}/grafiche/{f}.jpg'
+                if f.startswith('S08'):
+                    img = motto_a_capo(img)
+                ins += ['-framerate', str(FPS), '-loop', '1', '-t', f'{ln:.3f}', '-i', img]
                 fil.append(f"[{j}:v]scale=1080:1920,setsar=1,zoompan=z='1.0+0.00025*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps={FPS},"
                            f'trim=0:{ln:.3f},setpts=PTS-STARTPTS,format=yuv420p[f{j}]')
             if n == 1:
@@ -100,8 +123,10 @@ def monta():
     n = len(pezzi)
     ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{D}/audio/voce.wav']
     fil.append(f'[{acc}][{n}:v]overlay=0:0:shortest=1[l1]')
-    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=580:min(1080\\,ih):520:0,scale=-2:640:flags=lanczos[av]')
-    fil.append(f'[l1][av]overlay=716:1280:eof_action=pass,format=yuv420p[v]')
+    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,split[av][om]')
+    # mezzo busto intero (le spalle escono dal bordo destro, non da un taglio interno) con un alone chiaro che lo stacca dal sughero
+    fil.append('[om]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=16:alpha_radius=16,colorchannelmixer=aa=0.6[al]')
+    fil.append(f'[l1][al]overlay=560:1220:eof_action=pass[l2];[l2][av]overlay=560:1220:eof_action=pass,format=yuv420p[v]')
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []

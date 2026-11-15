@@ -21,8 +21,15 @@ Logo ufficiale (strumenti/oggetti/logo_card.png) sopra il marchio di riserva dei
 Nessun sottotitolo impresso (regola del canale). −15,9 LUFS.
 
 ## Uscita (1080x1920, 30 fps, integra; fuori da git)
-PDRO_Oggetti_smarriti_01_il_badge · 96,5 s · asset HeyGen 1c6f6cd800e44df58e6a2234fcc320cb (https://resource2.heygen.ai/video/1c6f6cd800e44df58e6a2234fcc320cb/original.mp4).
+PDRO_Oggetti_smarriti_01_il_badge · 96,5 s · asset HeyGen 2b2669b6e8964afb9dccd5660f89263f (https://resource2.heygen.ai/video/2b2669b6e8964afb9dccd5660f89263f/original.mp4).
 
 ## Pubblicazione
 - Robin: dopo l'OK di Achille sulla prova di stile e sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia,
   ispirata a situazioni reali».
+
+## Revisione 15/11/2026 — avatar del finale
+Achille: «l'avatar nel finale non si vede bene ed è tagliato male». Prima era un ritaglio di 580 px dal centro, alto 640:
+spalle e braccia tagliate ai lati. Ora `os.py` prende tutto il busto (1090 px da x 440), alto 700, in basso a destra
+(560,1220) con le spalle che escono dal bordo del quadro e un alone chiaro che lo stacca dal sughero. Il motto
+«al tuo fianco, una persona alla volta», che finiva sotto l'avatar, va a capo a sinistra (`motto_a_capo`, frame
+`grafiche/S08A_av.jpg`). Contatti liberi. −15,9 LUFS, integro. Nuovo asset HeyGen 2b2669b6e8964afb9dccd5660f89263f.
