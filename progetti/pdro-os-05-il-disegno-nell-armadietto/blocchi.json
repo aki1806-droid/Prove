@@ -1,0 +1,135 @@
+{
+ "titolo": "OGGETTI SMARRITI · Ep.5 – Il disegno nell'armadietto",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – L'oggetto",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Dentro un armadietto c'è un disegno. Una mamma con la divisa, una casa, un sole enorme. Sotto, a pennarello: torna presto. È per Elena.",
+   "parole": 24,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "os_09.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip dell'oggetto (già pronta in clip/). Frame A: le parole ritagliate cadono una alla volta con un \"tac\". Frame B: entra dondolando l'etichetta da bagaglio con il numero di reperto, poi il timbro rosso NON RECLAMATO con un tonfo."
+  },
+  {
+   "scena": 2,
+   "titolo": "CHI È",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Elena è infermiera e mamma di Sofia. I turni cambiano ogni settimana, l'asilo apre tardi e il primo turno comincia prima. Ogni mattina è una corsa contro l'orologio.",
+   "parole": 28,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca di sughero: la polaroid viene appuntata con la puntina, il filo rosso si tende fino alla scheda; poi compaiono i post-it uno alla volta (pop + lieve rotazione)."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL PROBLEMA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Nonni lontani, baby sitter a ore, favori chiesti alle vicine. Elena regge tutto. Ma ogni volta che Sofia le chiede perché non c'è mai, qualcosa si incrina.",
+   "parole": 27,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "os_10.png",
+   "overlay": [
+    "S03A",
+    "S03B"
+   ],
+   "regia": "Clip del personaggio (camera a mano, luce fredda). Le didascalie sono striscioline di carta battute a macchina, attaccate con lo scotch: entrano con suono di macchina da scrivere."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL PUNTO DI ROTTURA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Scegliere tra il lavoro e i figli non dovrebbe essere l'unica strada. Conciliare si può, se conosci gli strumenti.",
+   "parole": 19,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Foto del personaggio sfocata in duotono. Le parole ritagliate sbattono sullo schermo (slam 120%→100% + shake). Mezzo secondo di silenzio prima della svolta."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SVOLTA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Elena pensava che il part time fosse un privilegio per pochi. Poi, durante una pausa, ne parla con la sua delegata CISL FP.",
+   "parole": 23,
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Lo smartphone entra dal basso; i messaggi arrivano uno alla volta con il suono di notifica. Riser musicale: da qui la musica si apre."
+  },
+  {
+   "scena": 6,
+   "titolo": "COSA DICE IL CONTRATTO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Il part time ha un bando aziendale e una graduatoria, con criteri precisi. Esistono i congedi parentali e i permessi per la malattia dei figli. E chi assiste un familiare con disabilità grave ha le tutele della legge centoquattro. Conoscerli può cambiarti la vita.",
+   "parole": 44,
+   "frame": [
+    "S06A",
+    "S06B",
+    "S06C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Taccuino appuntato al sughero: ogni punto si spunta a pennarello verde e si evidenzia in giallo (animazione \"disegno a mano\"). Alla fine timbro verde DIRITTO."
+  },
+  {
+   "scena": 7,
+   "titolo": "L'OGGETTO TORNA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Il disegno è ancora nell'armadietto. Ma adesso, qualche pomeriggio, Elena quel sole lo guarda insieme a Sofia.",
+   "parole": 17,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": "os_09.png",
+   "overlay": [
+    "S07A",
+    "S07B"
+   ],
+   "regia": "Luce calda. L'etichetta verde \"RITROVATO\" entra dondolando, poi il timbro RESTITUITO. Secondo frame: la morale scritta a mano su un foglietto attaccato con lo scotch."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Conciliare lavoro e famiglia non è un favore da chiedere sottovoce: è un diritto da conoscere. Vieni da noi, guardiamo insieme la tua situazione e lo strumento giusto per te. Chiama me o Giovanna Vullo.",
+   "parole": 42,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca finale: etichetta-CTA e ricevuta con i contatti a sinistra. Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Ultimo secondo: logo CISL FP."
+  }
+ ]
+}

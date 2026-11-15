@@ -1,0 +1,138 @@
+{
+ "titolo": "OGGETTI SMARRITI · Ep.3 – Le scarpe consumate",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – L'oggetto",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Queste scarpe sono quasi nuove. Eppure sembrano aver camminato per anni. Sono di Giulia. E in un mese hanno fatto tutta la strada di chi si sente perso.",
+   "parole": 28,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "os_05.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip dell'oggetto (già pronta in clip/). Frame A: le parole ritagliate cadono una alla volta con un \"tac\". Frame B: entra dondolando l'etichetta da bagaglio con il numero di reperto, poi il timbro rosso NON RECLAMATO con un tonfo."
+  },
+  {
+   "scena": 2,
+   "titolo": "CHI È",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Giulia è appena stata assunta. Primo contratto, primo reparto, primo cedolino. È felice. E terrorizzata. Perché nessuno le ha spiegato come funziona davvero.",
+   "parole": 23,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca di sughero: la polaroid viene appuntata con la puntina, il filo rosso si tende fino alla scheda; poi compaiono i post-it uno alla volta (pop + lieve rotazione)."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL PROBLEMA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Corre da un corridoio all'altro. Non sa a chi chiedere le ferie, cosa sia il periodo di prova, perché il cedolino abbia tutte quelle voci. Ha paura di disturbare. Così non chiede niente.",
+   "parole": 33,
+   "frame": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "img_da_animare": "os_06.png",
+   "overlay": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "regia": "Clip del personaggio (camera a mano, luce fredda). Le didascalie sono striscioline di carta battute a macchina, attaccate con lo scotch: entrano con suono di macchina da scrivere."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL PUNTO DI ROTTURA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Nessuno nasce sapendo. Ma nessuno dovrebbe restare senza risposte solo perché è appena arrivato.",
+   "parole": 14,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Foto del personaggio sfocata in duotono. Le parole ritagliate sbattono sullo schermo (slam 120%→100% + shake). Mezzo secondo di silenzio prima della svolta."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SVOLTA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Al terzo giorno, nello spogliatoio, una collega le sorride: tranquilla, anch'io ero così. Vieni, ti presento chi mi ha spiegato tutto.",
+   "parole": 21,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Lo smartphone entra dal basso; i messaggi arrivano uno alla volta con il suono di notifica. Riser musicale: da qui la musica si apre."
+  },
+  {
+   "scena": 6,
+   "titolo": "COSA DICE IL CONTRATTO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "In sede ci sediamo con lei. Le spieghiamo il periodo di prova, le voci del cedolino, come si chiedono ferie e permessi, la formazione obbligatoria. Niente di segreto: sono diritti scritti nel contratto, e conoscerli è il primo modo per farli rispettare.",
+   "parole": 42,
+   "frame": [
+    "S06A",
+    "S06B",
+    "S06C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Taccuino appuntato al sughero: ogni punto si spunta a pennarello verde e si evidenzia in giallo (animazione \"disegno a mano\"). Alla fine timbro verde DIRITTO."
+  },
+  {
+   "scena": 7,
+   "titolo": "L'OGGETTO TORNA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Le scarpe continueranno a consumarsi. È il mestiere. Ma adesso Giulia sa dove sta andando.",
+   "parole": 15,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": "os_05.png",
+   "overlay": [
+    "S07A",
+    "S07B"
+   ],
+   "regia": "Luce calda. L'etichetta verde \"RITROVATO\" entra dondolando, poi il timbro RESTITUITO. Secondo frame: la morale scritta a mano su un foglietto attaccato con lo scotch."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Se sei appena arrivato in Azienda, o conosci qualcuno che lo è, mandalo da noi. Un caffè, il contratto sul tavolo e tutte le risposte che cercava. Nessuno dovrebbe iniziare da solo. Chiama me o Giovanna Vullo.",
+   "parole": 44,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca finale: etichetta-CTA e ricevuta con i contatti a sinistra. Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Ultimo secondo: logo CISL FP."
+  }
+ ]
+}

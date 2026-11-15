@@ -1,0 +1,131 @@
+{
+ "titolo": "OGGETTI SMARRITI · Ep.10 – La scatola",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – L'oggetto",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "In fondo a un corridoio c'è una scatola. La scatola degli oggetti smarriti. Dentro: un badge, una tazza scheggiata, un paio di scarpe consumate, un libro, un disegno, un telefono, una lettera, un mazzo di chiavi, una penna.",
+   "parole": 38,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "os_19.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip dell'oggetto (già pronta in clip/). Frame A: le parole ritagliate cadono una alla volta con un \"tac\". Frame B: entra dondolando l'etichetta da bagaglio con il numero di reperto, poi il timbro rosso NON RECLAMATO con un tonfo."
+  },
+  {
+   "scena": 2,
+   "titolo": "CHI È",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Ogni oggetto è una persona. Marta, che non sapeva più dire di no. Paolo, solo di notte su un intero piano. Giulia, appena arrivata e già persa. Samir, che studia rubando ore al sonno.",
+   "parole": 34,
+   "frame": [
+    "S02A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca da indagine: polaroid di Marta, Paolo, Giulia e Samir appuntate una per nome, collegate dal filo rosso."
+  },
+  {
+   "scena": 3,
+   "titolo": "CHI È (2)",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Elena, divisa tra i turni e sua figlia. Luca, svegliato alle tre del mattino. Rosa, con una lettera mai spedita. Franco, con la pensione su un foglio di conti. E Anna, che un giorno si è chiesta: perché non io?",
+   "parole": 40,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Prima la bacheca con Elena, Luca, Rosa, Franco, Anna; su \"perché non io?\" zoom sulla polaroid di Anna e post-it."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL PUNTO DI ROTTURA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Sono storie inventate. Ma se ti sei riconosciuto anche solo in una, forse non sono poi così inventate.",
+   "parole": 18,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Foto del personaggio sfocata in duotono. Le parole ritagliate sbattono sullo schermo (slam 120%→100% + shake). Mezzo secondo di silenzio prima della svolta."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SVOLTA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Hanno tutte una cosa in comune. A un certo punto qualcuno si è seduto accanto a loro e ha chiesto: come stai? Davvero?",
+   "parole": 23,
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Lo smartphone entra dal basso; i messaggi arrivano uno alla volta con il suono di notifica. Riser musicale: da qui la musica si apre."
+  },
+  {
+   "scena": 6,
+   "titolo": "FARE SINDACATO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Fare sindacato è questo. Non solo trattative e tavoli. È andare a cercare le persone prima che si perdano. Ascoltare, spiegare, accompagnare. E portare le loro storie dove si decide.",
+   "parole": 30,
+   "frame": [
+    "S06A",
+    "S06B",
+    "S06C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Taccuino appuntato al sughero: ogni punto si spunta a pennarello verde e si evidenzia in giallo (animazione \"disegno a mano\"). Alla fine timbro verde DIRITTO."
+  },
+  {
+   "scena": 7,
+   "titolo": "L'OGGETTO TORNA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Nessuno si perde, se qualcuno lo sta cercando. E noi non smettiamo di cercare.",
+   "parole": 14,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": "os_20.png",
+   "overlay": [
+    "S07A",
+    "S07B"
+   ],
+   "regia": "Luce calda. L'etichetta verde \"RITROVATO\" entra dondolando, poi il timbro RESTITUITO. Secondo frame: la morale scritta a mano su un foglietto attaccato con lo scotch."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. La serie finisce qui, ma le storie vere continuano ogni giorno nei nostri reparti. Se una di queste è anche la tua, vieni a raccontarcela. Iscriviti, partecipa, mettici la faccia. Chiama me o Giovanna Vullo. Ti stiamo cercando.",
+   "parole": 45,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca finale: etichetta-CTA e ricevuta con i contatti a sinistra. Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Ultimo secondo: logo CISL FP."
+  }
+ ]
+}

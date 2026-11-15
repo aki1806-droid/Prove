@@ -1,0 +1,135 @@
+{
+ "titolo": "OGGETTI SMARRITI · Ep.9 – La penna verde",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – L'oggetto",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Questa penna verde è stata trovata su un tavolo, dopo un'assemblea. Accanto, un quaderno pieno di appunti. E in fondo all'ultima pagina, una frase sottolineata due volte: perché non io?",
+   "parole": 30,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "os_17.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip dell'oggetto (già pronta in clip/). Frame A: le parole ritagliate cadono una alla volta con un \"tac\". Frame B: entra dondolando l'etichetta da bagaglio con il numero di reperto, poi il timbro rosso NON RECLAMATO con un tonfo."
+  },
+  {
+   "scena": 2,
+   "titolo": "CHI È",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Anna è tecnica di radiologia. Per anni si è lamentata, come tutti, alla macchinetta del caffè: turni, carichi, risposte che non arrivano. Poi, un giorno, è andata a un'assemblea.",
+   "parole": 29,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca di sughero: la polaroid viene appuntata con la puntina, il filo rosso si tende fino alla scheda; poi compaiono i post-it uno alla volta (pop + lieve rotazione)."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL PROBLEMA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Ha ascoltato. Ha preso appunti. E ha capito una cosa semplice: le cose dette alla macchinetta non arrivano da nessuna parte. Quelle portate al tavolo, sì.",
+   "parole": 26,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "os_18.png",
+   "overlay": [
+    "S03A",
+    "S03B"
+   ],
+   "regia": "Clip del personaggio (camera a mano, luce fredda). Le didascalie sono striscioline di carta battute a macchina, attaccate con lo scotch: entrano con suono di macchina da scrivere."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL PUNTO DI ROTTURA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Lamentarsi è umano. Organizzarsi è sindacato.",
+   "parole": 6,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Foto del personaggio sfocata in duotono. Le parole ritagliate sbattono sullo schermo (slam 120%→100% + shake). Mezzo secondo di silenzio prima della svolta."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SVOLTA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Alla fine dell'assemblea Anna si avvicina e chiede: come si diventa delegata? La risposta la sorprende: si comincia proprio così, facendo una domanda.",
+   "parole": 23,
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Lo smartphone entra dal basso; i messaggi arrivano uno alla volta con il suono di notifica. Riser musicale: da qui la musica si apre."
+  },
+  {
+   "scena": 6,
+   "titolo": "COSA DICE IL CONTRATTO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Un delegato ascolta i colleghi, raccoglie i problemi del reparto e li porta dove si decide. Non è mai solo: la CISL FP lo forma, lo sostiene e lo accompagna. Non servono superpoteri. Serve qualcuno che ci metta la faccia.",
+   "parole": 40,
+   "frame": [
+    "S06A",
+    "S06B",
+    "S06C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Taccuino appuntato al sughero: ogni punto si spunta a pennarello verde e si evidenzia in giallo (animazione \"disegno a mano\"). Alla fine timbro verde DIRITTO."
+  },
+  {
+   "scena": 7,
+   "titolo": "L'OGGETTO TORNA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "La penna è tornata ad Anna. Oggi la usa per scrivere le segnalazioni dei suoi colleghi. E alla macchinetta, adesso, ci va solo per il caffè.",
+   "parole": 26,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": "os_17.png",
+   "overlay": [
+    "S07A",
+    "S07B"
+   ],
+   "regia": "Luce calda. L'etichetta verde \"RITROVATO\" entra dondolando, poi il timbro RESTITUITO. Secondo frame: la morale scritta a mano su un foglietto attaccato con lo scotch."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Se anche tu, almeno una volta, ti sei chiesto perché non io, questa è la risposta. Diventa delegato: ti formiamo e ti stiamo accanto. Chiama me o Giovanna Vullo.",
+   "parole": 36,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca finale: etichetta-CTA e ricevuta con i contatti a sinistra. Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Ultimo secondo: logo CISL FP."
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "titolo": "OGGETTI SMARRITI · Ep.4 – Il libro sottolineato",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – L'oggetto",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Questo libro di anatomia è stato dimenticato in sala pausa. Ogni pagina è sottolineata. Qualcuno lo studia nei dieci minuti che non ha. È di Samir.",
+   "parole": 26,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "os_07.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip dell'oggetto (già pronta in clip/). Frame A: le parole ritagliate cadono una alla volta con un \"tac\". Frame B: entra dondolando l'etichetta da bagaglio con il numero di reperto, poi il timbro rosso NON RECLAMATO con un tonfo."
+  },
+  {
+   "scena": 2,
+   "titolo": "CHI È",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Samir è operatore socio sanitario da sei anni. Ha un sogno preciso: diventare infermiere. Si è iscritto all'università. Ma tra turni, notti e affitto, il tempo per studiare non c'è mai.",
+   "parole": 31,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca di sughero: la polaroid viene appuntata con la puntina, il filo rosso si tende fino alla scheda; poi compaiono i post-it uno alla volta (pop + lieve rotazione)."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL PROBLEMA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Studia di notte, a casa, quando gli altri dormono. Usa le ferie per dare gli esami. E ogni volta pensa di mollare.",
+   "parole": 22,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "os_08.png",
+   "overlay": [
+    "S03A",
+    "S03B"
+   ],
+   "regia": "Clip del personaggio (camera a mano, luce fredda). Le didascalie sono striscioline di carta battute a macchina, attaccate con lo scotch: entrano con suono di macchina da scrivere."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL PUNTO DI ROTTURA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Studiare mentre si lavora non dovrebbe essere un atto eroico. Dovrebbe essere un diritto. E infatti lo è.",
+   "parole": 18,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Foto del personaggio sfocata in duotono. Le parole ritagliate sbattono sullo schermo (slam 120%→100% + shake). Mezzo secondo di silenzio prima della svolta."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SVOLTA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Un giorno legge in bacheca un volantino della CISL FP: permessi retribuiti per studio. Pensa che non sia per lui. Poi, quasi per caso, chiama.",
+   "parole": 25,
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Lo smartphone entra dal basso; i messaggi arrivano uno alla volta con il suono di notifica. Riser musicale: da qui la musica si apre."
+  },
+  {
+   "scena": 6,
+   "titolo": "COSA DICE IL CONTRATTO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Il contratto prevede permessi retribuiti per il diritto allo studio, fino a centocinquanta ore l'anno, in proporzione per chi è in part time. L'Azienda apre il bando ogni anno, con scadenze precise. Noi ti aiutiamo a non perderle e a compilare la domanda senza errori.",
+   "parole": 45,
+   "frame": [
+    "S06A",
+    "S06B",
+    "S06C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Taccuino appuntato al sughero: ogni punto si spunta a pennarello verde e si evidenzia in giallo (animazione \"disegno a mano\"). Alla fine timbro verde DIRITTO."
+  },
+  {
+   "scena": 7,
+   "titolo": "L'OGGETTO TORNA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Il libro è tornato nello zaino di Samir. Sottolineato fino all'ultima pagina. Manca poco, ormai.",
+   "parole": 15,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": "os_07.png",
+   "overlay": [
+    "S07A",
+    "S07B"
+   ],
+   "regia": "Luce calda. L'etichetta verde \"RITROVATO\" entra dondolando, poi il timbro RESTITUITO. Secondo frame: la morale scritta a mano su un foglietto attaccato con lo scotch."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Se stai studiando, o vuoi ricominciare, non farlo rubando ore al sonno. Ci sono permessi, bandi e percorsi pensati per te, e ti seguiamo passo dopo passo. Chiama me o Giovanna Vullo, i numeri sono qui.",
+   "parole": 43,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca finale: etichetta-CTA e ricevuta con i contatti a sinistra. Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Ultimo secondo: logo CISL FP."
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "titolo": "OGGETTI SMARRITI · Ep.8 – Il mazzo di chiavi",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – L'oggetto",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Questo mazzo di chiavi apre armadi che nessuno ricorda più. Archivi, cassetti, porte di uffici. È di Franco. E tra qualche mese lo dovrà restituire.",
+   "parole": 25,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "os_15.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip dell'oggetto (già pronta in clip/). Frame A: le parole ritagliate cadono una alla volta con un \"tac\". Frame B: entra dondolando l'etichetta da bagaglio con il numero di reperto, poi il timbro rosso NON RECLAMATO con un tonfo."
+  },
+  {
+   "scena": 2,
+   "titolo": "CHI È",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Franco lavora in amministrazione da quasi quarant'anni. Sa dov'è ogni pratica, ogni fascicolo, ogni firma. Ma c'è una cosa che non sa: quando potrà andare in pensione. E con quanto.",
+   "parole": 30,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca di sughero: la polaroid viene appuntata con la puntina, il filo rosso si tende fino alla scheda; poi compaiono i post-it uno alla volta (pop + lieve rotazione)."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL PROBLEMA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Ha sentito voci in corridoio, cifre diverse, riforme a metà. Ogni sera fa i conti su un foglio, e ogni sera tornano diversi. Comincia ad avere paura di sbagliare.",
+   "parole": 29,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "os_16.png",
+   "overlay": [
+    "S03A",
+    "S03B"
+   ],
+   "regia": "Clip del personaggio (camera a mano, luce fredda). Le didascalie sono striscioline di carta battute a macchina, attaccate con lo scotch: entrano con suono di macchina da scrivere."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL PUNTO DI ROTTURA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Una vita di lavoro merita un'uscita chiara. Non un salto nel buio.",
+   "parole": 12,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Foto del personaggio sfocata in duotono. Le parole ritagliate sbattono sullo schermo (slam 120%→100% + shake). Mezzo secondo di silenzio prima della svolta."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SVOLTA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Un collega gli dice: io il calcolo l'ho fatto con la CISL, e il patronato mi ha seguito in tutto. Franco prende appuntamento il giorno stesso.",
+   "parole": 26,
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Lo smartphone entra dal basso; i messaggi arrivano uno alla volta con il suono di notifica. Riser musicale: da qui la musica si apre."
+  },
+  {
+   "scena": 6,
+   "titolo": "COSA DICE IL CONTRATTO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Con il patronato INAS CISL ricostruiamo la sua posizione contributiva e verifichiamo quando può uscire. Gli spieghiamo come e quando arriva il trattamento di fine servizio. E parliamo di Perseo Sirio, il fondo pensione complementare del pubblico impiego, che conviene conoscere prima, non dopo.",
+   "parole": 44,
+   "frame": [
+    "S06A",
+    "S06B",
+    "S06C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Taccuino appuntato al sughero: ogni punto si spunta a pennarello verde e si evidenzia in giallo (animazione \"disegno a mano\"). Alla fine timbro verde DIRITTO."
+  },
+  {
+   "scena": 7,
+   "titolo": "L'OGGETTO TORNA",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Le chiavi Franco le restituirà sorridendo. Perché adesso sa esattamente quale porta si aprirà dopo.",
+   "parole": 15,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": "os_15.png",
+   "overlay": [
+    "S07A",
+    "S07B"
+   ],
+   "regia": "Luce calda. L'etichetta verde \"RITROVATO\" entra dondolando, poi il timbro RESTITUITO. Secondo frame: la morale scritta a mano su un foglietto attaccato con lo scotch."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Che la pensione sia vicina o ancora lontana, non affidarti alle voci di corridoio. Prendi appuntamento con noi e con il patronato. Chiama me o Giovanna Vullo.",
+   "parole": 34,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Bacheca finale: etichetta-CTA e ricevuta con i contatti a sinistra. Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Ultimo secondo: logo CISL FP."
+  }
+ ]
+}

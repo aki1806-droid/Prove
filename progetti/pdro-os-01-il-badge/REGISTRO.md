@@ -1,0 +1,28 @@
+# PDRO · Oggetti smarriti – Ep. 1 «Il badge» – registro
+
+Pacchetto PDRO_Storie_01_Il_badge (15/11/2026), serie «Oggetti smarriti – storie di chi lavora in ospedale» (10 episodi).
+Testi del pacchetto non modificati. Scelte di Achille (15/11): voce **ElevenLabs diretto**, **solo AOUP**, account HeyGen
+**del connettore**, **prima l'ep. 1** come prova di stile, poi gli altri nove e il calendario.
+
+## Voci (ElevenLabs diretto, eleven_v4, flow N0YZ2MwkWYIrxhvx87ih)
+Narratore «Luca Ward» (ElevenLabs tVdVcJPudubxmTmAw4tE) scene 1-7 in una passata (1291 crediti), tempi delle parole dalla trascrizione
+Scribe; chiusura «Achille nuovo 1» (KerPEYZvLEWNATg4AARX, 262 crediti). Atempo 1,12 (ElevenLabs diretto); voce tagliata solo a
+metà delle pause vere fra le scene, 0,35 s in più (0,8 prima della svolta). strumenti/oggetti/os.py voce.
+
+## Clip e avatar (connettore)
+S01 clip hook del pacchetto (clip/hook_01.mp4); S03 image_to_video da img/os_02.png 5abcf6266d174df398adc0e215e3d189; S07 da
+img/os_01.png 0467b007d163442e9feb01f30ebdc8e4 (clip2/). Avatar «Aki with a lapel microphone» webm: 4f733672b258abc5b06d409bcdfa139d,
+in basso a destra (x 716) per non coprire i contatti.
+
+## Montaggio (strumenti/oggetti/os.py monta)
+Scene GRAFICA: frame A/B/C del pacchetto in sequenza con dissolvenza e zoom lento; scene CLIP: overlay A/B sulla clip animata.
+Logo ufficiale (strumenti/oggetti/logo_card.png) sopra il marchio di riserva dei frame. Musica pianoforte e archi (catalogo HeyGen
+749f4096…) bassa, più aperta dalla svolta (S05), riser prima della svolta; macchina da scrivere S03, notifiche S05, timbri S01/S06/S07.
+Nessun sottotitolo impresso (regola del canale). −15,9 LUFS.
+
+## Uscita (1080x1920, 30 fps, integra; fuori da git)
+PDRO_Oggetti_smarriti_01_il_badge · 96,5 s · asset HeyGen 1c6f6cd800e44df58e6a2234fcc320cb (https://resource2.heygen.ai/video/1c6f6cd800e44df58e6a2234fcc320cb/original.mp4).
+
+## Pubblicazione
+- Robin: dopo l'OK di Achille sulla prova di stile e sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia,
+  ispirata a situazioni reali».
