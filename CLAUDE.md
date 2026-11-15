@@ -88,8 +88,18 @@ oltre al connettore HeyGen (`mcp__Heygen__*`) e alla chiave API. **Prima di ogni
 usare**, insieme alle domande su voce e destinatari. Heygen 2 è un **account diverso**: verificato il 15/11, piano Pro con
 2.000 crediti premium (rinnovo al 30/11) più 335 aggiuntivi. **Non ha l'avatar «Aki with a lapel microphone»**
 (e6d73d660d354b94b0a50c9692b7c34e, «avatar look not found»): ha i suoi avatar privati («Achille Digital», «AKI 2»,
-«Sindacalista CISL FP» e altri). Asset, video e voci di un account non si vedono dall'altro: se si sceglie Heygen 2 per un
-video con l'avatar, va scelto e verificato un avatar di quell'account.
+«Sindacalista CISL FP» e altri). Asset, video e voci di un account non si vedono dall'altro.
+
+**Avatar da usare su Heygen 2** (indicati da Achille il 15/11, verificati: pronti, stesso gruppo 077af0c52e344e008baf027e8100f676):
+
+| look ID | com'è | formato |
+|---|---|---|
+| `29605ba211d24a55bccc96c39cb2d8b4` | maglione color crema, sfondo chiaro neutro | verticale 608×1080 |
+| `d9da868060f946c7a5b04dd81fc99938` | giacca e cravatta blu, alla scrivania, grattacieli dietro | orizzontale 1920×1080 |
+
+Sono **avatar foto** (photo_avatar), non il gemello digitale video: il video senza sfondo (webm) potrebbe non essere
+disponibile, quindi si usano con il loro sfondo, come vuole lo standard (avatar mai scontornato). Prima del primo video
+vero si fa una prova breve e si guarda il labiale.
 
 ## «OSS» a voce: sempre «operatori socio sanitari»
 
