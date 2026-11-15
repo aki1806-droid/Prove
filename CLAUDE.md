@@ -97,9 +97,9 @@ usare**, insieme alle domande su voce e destinatari. Heygen 2 è un **account di
 | `29605ba211d24a55bccc96c39cb2d8b4` | maglione color crema, sfondo chiaro neutro | verticale 608×1080 |
 | `d9da868060f946c7a5b04dd81fc99938` | giacca e cravatta blu, alla scrivania, grattacieli dietro | orizzontale 1920×1080 |
 
-Sono **avatar foto** (photo_avatar), non il gemello digitale video: il video senza sfondo (webm) potrebbe non essere
-disponibile, quindi si usano con il loro sfondo, come vuole lo standard (avatar mai scontornato). Prima del primo video
-vero si fa una prova breve e si guarda il labiale.
+Sono **avatar foto** (photo_avatar), ma secondo Achille (15/11) si usano **esattamente come sull'altro account**, compreso
+il webm senza sfondo: stesse impostazioni di «Aki with a lapel microphone» (create_video_from_avatar, audio come asset
+dello stesso account, webm, 1080p). Alla prima prova si controllano trasparenza e labiale.
 
 ## «OSS» a voce: sempre «operatori socio sanitari»
 
