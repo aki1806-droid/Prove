@@ -84,6 +84,36 @@ def dur(p):
 norm = lambda w: re.sub(r'[^\w’\']', '', w.lower()).replace("'", '’')
 
 
+def silenzi_rms(f):
+    """energia della voce in finestre di 10 ms (dB)"""
+    import numpy as np
+    a = subprocess.run(['ffmpeg', '-v', 'error', '-i', f, '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
+    x = np.frombuffer(a, np.int16).astype(float) / 32768
+    n = len(x) // 160
+    return 20 * np.log10(np.sqrt((x[:n * 160].reshape(n, 160) ** 2).mean(1)) + 1e-9)
+
+
+def pausa_vera(db, fine, inizio):
+    """Il punto di taglio fra due paragrafi: i tempi della trascrizione sbagliano di qualche decimo proprio dove le pause
+    sono brevi, e il taglio a metà finiva dentro una parola. Cerca, fra 0,6 s prima della fine dell'ultima parola e 0,6 s
+    dopo l'inizio della successiva, il tratto di silenzio (sotto −45 dB) più lungo e taglia al suo centro."""
+    import numpy as np
+    a, b = max(0, int((fine - 0.6) * 100)), min(len(db), int((inizio + 0.6) * 100))
+    zitto = db[a:b] < -45
+    best, cur, st = (0, None), 0, 0
+    for k, z in enumerate(zitto):
+        if z:
+            if cur == 0: st = k
+            cur += 1
+            if cur > best[0]: best = (cur, st)
+        else:
+            cur = 0
+    if best[0] >= 3:
+        return (a + best[1] + best[0] / 2) / 100
+    return (a + int(np.argmin(db[a:b]))) / 100
+
+
+
 def voce(n):
     c = T[n]; D = f'{PR}/{c["dir"]}'
     par = [p.split() for p in re.split(r'\n\s*\n', open(f'{D}/voce.txt').read().strip())]
@@ -95,12 +125,13 @@ def voce(n):
     assert k == len(w), (k, len(w))
     tot = dur(f'{D}/audio/grezzo.mp3')
     # tagli a metà delle pause fra paragrafi, con la pausa da aggiungere
-    tagli = [((w[i - 1]['end'] + w[i]['start']) / 2, PAUSA + c['extra'].get(j - 1, 0)) for j, i in enumerate(inizi) if j > 0]
+    db = silenzi_rms(f'{D}/audio/grezzo.mp3')
+    tagli = [(pausa_vera(db, w[i - 1]['end'], w[i]['start']), PAUSA + c['extra'].get(j - 1, 0)) for j, i in enumerate(inizi) if j > 0]
     pezzi, a = [], 0.0
     for t, p in tagli:
         pezzi.append((a, t, p)); a = t
     pezzi.append((a, tot, CODA))
-    fil = ''.join(f'[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,atempo={AT},apad=pad_dur={p}[p{k}];' for k, (a, b, p) in enumerate(pezzi))
+    fil = ''.join(f'[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,areverse,afade=t=in:d=0.015,areverse,atempo={AT},apad=pad_dur={p}[p{k}];' for k, (a, b, p) in enumerate(pezzi))
     fil += ''.join(f'[p{k}]' for k in range(len(pezzi))) + f'concat=n={len(pezzi)}:v=0:a=1[o]'
     ff('-i', f'{D}/audio/grezzo.mp3', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
     ini, t = [], 0.0
