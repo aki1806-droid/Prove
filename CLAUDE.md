@@ -81,6 +81,16 @@ eleven_v4, asset, avatar anche webm, effetti sonori dal catalogo HeyGen). La chi
 sta negli ambienti come segreto di rete di tipo **Bearer** per `api.heygen.com`, che il proxy aggiunge da
 solo; in alternativa `HEYGEN_API_KEY` o `/root/.config/heygen/api_key`.
 
+## HeyGen: tre strade, si chiede sempre quale
+
+Dal 15 novembre 2026 (Achille) c'è un terzo accesso a HeyGen, il connettore **«Heygen 2»** (strumenti `mcp__Heygen_2__*`),
+oltre al connettore HeyGen (`mcp__Heygen__*`) e alla chiave API. **Prima di ogni video si chiede ad Achille quale dei tre
+usare**, insieme alle domande su voce e destinatari. Heygen 2 è un **account diverso**: verificato il 15/11, piano Pro con
+2.000 crediti premium (rinnovo al 30/11) più 335 aggiuntivi. **Non ha l'avatar «Aki with a lapel microphone»**
+(e6d73d660d354b94b0a50c9692b7c34e, «avatar look not found»): ha i suoi avatar privati («Achille Digital», «AKI 2»,
+«Sindacalista CISL FP» e altri). Asset, video e voci di un account non si vedono dall'altro: se si sceglie Heygen 2 per un
+video con l'avatar, va scelto e verificato un avatar di quell'account.
+
 ## «OSS» a voce: sempre «operatori socio sanitari»
 
 Dal 3 novembre 2026 (Achille): nei testi parlati, **OSS si dice sempre per esteso**, «operatori socio sanitari» (al
