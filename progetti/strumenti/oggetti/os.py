@@ -140,7 +140,8 @@ def monta():
                 if f in SC[-1]['frame']:
                     img = motto_a_capo(img)
                 ins += ['-framerate', str(FPS), '-loop', '1', '-t', f'{ln:.3f}', '-i', img]
-                fil.append(f"[{j}:v]scale=1080:1920,setsar=1,zoompan=z='1.0+0.00025*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps={FPS},"
+                zz = "1" if s is SC[-1] else "min(1.05\\,1.0+0.00025*on)"  # la scena finale resta ferma: il motto in basso non deve uscire dal quadro
+                fil.append(f"[{j}:v]scale=1080:1920,setsar=1,zoompan=z='{zz}':x='225*(1-1/zoom)':y='130*(1-1/zoom)':d=1:s=1080x1920:fps={FPS},"
                            f'trim=0:{ln:.3f},setpts=PTS-STARTPTS,format=yuv420p[f{j}]')
             if n == 1:
                 fil.append('[f0]null[a]')
@@ -164,12 +165,32 @@ def monta():
     t0 = ult['inizio']
     # mezzo busto intero, spalle fuori dal bordo destro. Per integrarlo nella bacheca: tono scaldato verso il sughero,
     # ombra scura e morbida proiettata in basso a sinistra (come le foto e i fogli appuntati) e un ingresso che sale dal fondo.
-    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,'
+    # dove sta l'avatar nel webm: il gemello digitale riempie il quadro (busto x 440-1530), un avatar-foto è un ritratto
+    # stretto con le maniche tagliate dritte ai bordi della foto
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-c:v', 'libvpx-vp9', '-ss', '3', '-i', f'{D}/avatar/avatar.webm',
+                    '-frames:v', '1', f'{D}/avatar/_fotogramma.png'], check=True)
+    from PIL import Image
+    import numpy as np
+    alfa = np.array(Image.open(f'{D}/avatar/_fotogramma.png').getchannel('A'))
+    os.remove(f'{D}/avatar/_fotogramma.png')
+    col = np.where((alfa > 128).sum(0) > 20)[0]
+    x0, x1 = int(col.min()), int(col.max()) + 1
+    if x1 - x0 > 900:
+        cx, cw, H, X, Y, sfuma = 440, 1090, 700, 560, 1220, ''
+    else:
+        # avatar-foto: alto 760, lato destro 40 px fuori dal quadro, taglio sinistro sfumato su 60 px
+        cx, cw, H, Y = x0, x1 - x0, 760, 1160
+        w = round(cw * H / 1080 / 2) * 2
+        X = 1080 - w + 40
+        sfuma = f",geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='alpha(X,Y)*min(1,X/110)'"
+    t0 = ult['inizio']
+    # tono scaldato verso lo sfondo, ombra scura e morbida in basso a sinistra, ingresso che sale dal fondo
+    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={cw}:min(1080\\,ih):{cx}:0,scale=-2:{H}:flags=lanczos{sfuma},'
                f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
     fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
-    sale = f"1220+max(0\\,60*(1-(t-{t0:.3f})/0.5))"
-    fil.append(f"[l1][al]overlay=x=536:y='{sale}+14':eval=frame:eof_action=pass[l2];"
-               f"[l2][av]overlay=x=560:y='{sale}':eval=frame:eof_action=pass,format=yuv420p[v]")
+    sale = f"{Y}+max(0\\,60*(1-(t-{t0:.3f})/0.5))"
+    fil.append(f"[l1][al]overlay=x={X - 24}:y='{sale}+14':eval=frame:eof_action=pass[l2];"
+               f"[l2][av]overlay=x={X}:y='{sale}':eval=frame:eof_action=pass,format=yuv420p[v]")
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []
