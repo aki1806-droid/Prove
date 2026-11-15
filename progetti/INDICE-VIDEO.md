@@ -3,10 +3,10 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**193 video** in 15 sezioni.
+**194 video** in 15 sezioni.
 
-La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
-2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
+La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 15 novembre
+2026: fino al 15/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
 Il calendario completo, in ordine di data, è subito sotto.
 
 - `https://resource2.heygen.ai/video/<id>/original.mp4`: file originale caricato su HeyGen, si apre e si scarica direttamente.
@@ -50,6 +50,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | gio 19/11 21:00 | Sentirsi per sentire · Brividi T5 «Accendiamo una luce» | 12 canali provinciali |
 | ven 20/11 12:30 | Convenzioni 3 · «Le tre di notte – medico H24» | 4 canali AOUP (testo provinciale) |
 | dom 22/11 19:30 | Sentirsi per sentire · P1 «Il posto vuoto» | 12 canali provinciali |
+| lun 23/11 19:00 | Lettere dal futuro · Ep. 1 «Firma quel modulo» | 4 canali AOUP |
 | mar 24/11 12:30 | Convenzioni 4 · «Il gioco della carriera – formazione» | 4 canali AOUP (testo provinciale) |
 | mar 24/11 19:00 | Oggetti smarriti · Ep. 1 «Il badge» | 4 canali AOUP |
 | gio 26/11 18:15 | 20 format · 03 «Mito da sfatare» | 4 canali AOUP |
@@ -349,6 +350,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) | mar 12/1 19:00 | [apri](https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) | mar 19/1 19:00 | [apri](https://resource2.heygen.ai/video/2eef025c6d684a1ebfa0ca6c01c2fde8/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) | mar 26/1 19:00 | [apri](https://resource2.heygen.ai/video/0faa89914724414d9fc9e6c4e772c123/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 1 «Firma quel modulo» (reel 9:16, Heygen 2) | lun 23/11 19:00 | [apri](https://resource2.heygen.ai/video/70b0c82c736048d49daa9df99c78faf1/original.mp4) |
 | PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille |  | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |
