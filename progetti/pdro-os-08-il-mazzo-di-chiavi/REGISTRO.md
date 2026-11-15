@@ -18,7 +18,13 @@ Come l'ep. 1 (strumenti/oggetti/os.py monta): frame del pacchetto, overlay sulle
 riser prima della svolta, effetti del pacchetto. Nessun sottotitolo impresso. Integro, −16 LUFS.
 
 ## Uscita (1080x1920, 30 fps; fuori da git)
-PDRO_Oggetti_smarriti_08_il_mazzo_di_chiavi · 80.5 s · asset HeyGen 36f123e9c0a14a4b952de28d83e1404a (https://resource2.heygen.ai/video/36f123e9c0a14a4b952de28d83e1404a/original.mp4).
+PDRO_Oggetti_smarriti_08_il_mazzo_di_chiavi · 80.5 s · asset HeyGen 756a9f6cc3dd413f89a0e48dd67575bb (https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4).
 
 ## Pubblicazione
 - Robin: dopo l'OK di Achille sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia, ispirata a situazioni reali».
+
+## Revisione 15/11/2026 — audio e logo
+Achille: «problemi con l'audio, viene tagliato male» e «il rettangolo bianco del logo è tanto più grande». I tagli fra le
+scene cadevano a volte dentro una parola (tempi della trascrizione imprecisi nelle pause brevi): os.py ora taglia al centro
+del silenzio vero più lungo vicino al confine, con micro-dissolvenze. Card del logo rifatta della misura del marchio di
+riserva (48-402 x 68-192), senza il doppio riquadro. Rimontato, integro, −16 LUFS. Asset HeyGen 756a9f6cc3dd413f89a0e48dd67575bb (prima 36f123e9c0a14a4b952de28d83e1404a).

@@ -329,16 +329,16 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
 | PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/304418ce4a11457488aafbf5c69120c8/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/ed10651686d94ac89fe7095de95d7129/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/48f3347a8e7e4dabb227a136f4ae2254/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 4 «Il libro sottolineato» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/6aadc2d7a4dd45178ff9dbd4d5e7c341/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 5 «Il disegno nell'armadietto» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/f504f78c677b4122a16af54b8ea0f430/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 6 «Il telefono delle tre» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/6db4dc5dd67d4aed882cadd4e997b1c4/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 7 «La lettera mai spedita» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/04ec24b6be4843ba8bc451c57180a9b9/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/36f123e9c0a14a4b952de28d83e1404a/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/ef4268fe1259441c9eb3ed135d362a72/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/09997f0af7664ba7b35e513ff7f7b6d1/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/c7276c2d07ed4643afefbafe22373d6b/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/1b54090280894233b7b399dc6e1f5d5f/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/77078b141cbb439aada908a1315f7294/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 4 «Il libro sottolineato» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/36ff300b872049f09983497308e2718e/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 5 «Il disegno nell'armadietto» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/433421443fe74d5393de01a9488f9162/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 6 «Il telefono delle tre» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/967b9f3409144e2780d0a92179674ce4/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 7 «La lettera mai spedita» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d4f99c7a2010490a9039c467ef09f0f3/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/2eef025c6d684a1ebfa0ca6c01c2fde8/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/0faa89914724414d9fc9e6c4e772c123/original.mp4) |
 | PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille |  | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |
