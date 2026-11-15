@@ -111,6 +111,28 @@ def motto_a_capo(src):
     im.save(dst, quality=95)
     return dst
 
+
+def cornice(dst, B):
+    """riquadro incassato per un avatar-foto: ombra morbida, bordo bianco a sinistra e in alto, angolo arrotondato,
+    interno sfumato grigio-azzurro (il maglione chiaro ci si stacca); esce dal quadro a destra e in basso."""
+    from PIL import Image, ImageDraw, ImageFilter
+    W, H, m = 520, 900, 40
+    im = Image.new('RGBA', (W + m, H + m), (0, 0, 0, 0))
+    om = Image.new('L', im.size, 0)
+    ImageDraw.Draw(om).rounded_rectangle((m - 14, m + 10, W + m, H + m), 22, fill=150)
+    im.putalpha(0)
+    im = Image.composite(Image.new('RGBA', im.size, (10, 8, 20, 255)), im, om.filter(ImageFilter.GaussianBlur(16)))
+    d = ImageDraw.Draw(im)
+    d.rounded_rectangle((m, m, W + m + 30, H + m + 30), 20, fill=(250, 247, 240, 255))
+    g = Image.new('RGBA', (W, H))
+    for y in range(H):
+        f = y / H
+        c = (int(150 - 50 * f), int(166 - 52 * f), int(186 - 50 * f), 255)
+        ImageDraw.Draw(g).line([(0, y), (W, y)], fill=c)
+    im.paste(g, (m + B, m + B))
+    im.save(dst)
+
+
 def monta():
     tempi = json.load(open(f'{D}/audio/tempi.json')); L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
     nome = re.sub(r'[^\w]+', '_', B['titolo']).strip('_')
@@ -175,22 +197,28 @@ def monta():
     os.remove(f'{D}/avatar/_fotogramma.png')
     col = np.where((alfa > 128).sum(0) > 20)[0]
     x0, x1 = int(col.min()), int(col.max()) + 1
+    cornice_in = None
+    sale0 = f"max(0\\,60*(1-(t-{t0:.3f})/0.5))"
     if x1 - x0 > 900:
-        cx, cw, H, X, Y, sfuma = 440, 1090, 700, 560, 1220, ''
+        # gemello digitale: mezzo busto intero, spalle fuori dal bordo destro, ombra sul fondo
+        fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,'
+                   f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
+        fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
+        fil.append(f"[l1][al]overlay=x=536:y='1234+{sale0}':eval=frame:eof_action=pass[l2];"
+                   f"[l2][av]overlay=x=560:y='1220+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     else:
-        # avatar-foto: alto 760, lato destro 40 px fuori dal quadro, taglio sinistro sfumato su 60 px
-        cx, cw, H, Y = x0, x1 - x0, 760, 1160
-        w = round(cw * H / 1080 / 2) * 2
-        X = 1080 - w + 40
-        sfuma = f",geq=r='r(X,Y)':g='g(X,Y)':b='b(X,Y)':a='alpha(X,Y)*min(1,X/110)'"
-    t0 = ult['inizio']
-    # tono scaldato verso lo sfondo, ombra scura e morbida in basso a sinistra, ingresso che sale dal fondo
-    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={cw}:min(1080\\,ih):{cx}:0,scale=-2:{H}:flags=lanczos{sfuma},'
-               f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
-    fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
-    sale = f"{Y}+max(0\\,60*(1-(t-{t0:.3f})/0.5))"
-    fil.append(f"[l1][al]overlay=x={X - 24}:y='{sale}+14':eval=frame:eof_action=pass[l2];"
-               f"[l2][av]overlay=x={X}:y='{sale}':eval=frame:eof_action=pass,format=yuv420p[v]")
+        # avatar-foto: il ritratto è stretto e le braccia finiscono tagliate dritte ai bordi della foto. Va in una cornice
+        # incassata in basso a destra: il bordo bianco della cornice cade sul taglio sinistro, il destro e il fondo escono
+        # dal quadro. Scala 0,8: testa più grande che nel gemello digitale.
+        k, FX, FY, BR = 0.8, 668, 1090, 12
+        cornice(f'{D}/avatar/_cornice.png', BR)
+        cornice_in = f'{D}/avatar/_cornice.png'   # entra come ultimo input, dopo musica ed effetti
+        aw = round((x1 - x0) * k / 2) * 2
+        fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={x1 - x0}:min(1080\\,ih)-40:{x0}:40,scale={aw}:-2:flags=lanczos,'
+                   f'colorchannelmixer=rr=1.02:gg=1.0:bb=0.96,fade=in:st={t0:.3f}:d=0.45:alpha=1[av]')
+        fil.append(f'[QCORNICE:v]format=rgba,fade=in:st={t0:.3f}:d=0.45:alpha=1[cr]')
+        fil.append(f"[l1][cr]overlay=x={FX - 40}:y='{FY - 40}+{sale0}':eval=frame:enable='gte(t,{t0:.3f})'[l2];"
+                   f"[l2][av]overlay=x={FX + BR}:y='{FY + BR}+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []
@@ -217,6 +245,9 @@ def monta():
         ins += ['-i', f'{QUI}/suoni/{k}.mp3']; q = n + 4 + j
         au.append(f'[{q}:a]aformat=channel_layouts=stereo,volume={v},adelay={int(t * 1000)}|{int(t * 1000)}[e{j}]'); mix.append(f'[e{j}]')
     au.append(''.join(mix) + f'amix=inputs={len(mix)}:duration=first:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11[au]')
+    if cornice_in:
+        nin = ins.count('-i'); ins += ['-loop', '1', '-i', cornice_in]
+        fil = [x.replace('QCORNICE', str(nin)) for x in fil]
     ff(*ins, '-filter_complex', ';'.join(fil + au), '-map', '[v]', '-map', '[au]', '-t', f'{tot:.3f}', '-r', str(FPS),
        '-c:v', 'libx264', '-preset', 'slow', '-crf', '20', '-c:a', 'aac', '-b:a', '192k', '-movflags', '+faststart', f'{D}/{nome}.mp4')
     for p, _ in pezzi:
