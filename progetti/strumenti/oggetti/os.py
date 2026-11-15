@@ -112,26 +112,6 @@ def motto_a_capo(src):
     return dst
 
 
-def cornice(dst, B):
-    """riquadro incassato per un avatar-foto: ombra morbida, bordo bianco a sinistra e in alto, angolo arrotondato,
-    interno sfumato grigio-azzurro (il maglione chiaro ci si stacca); esce dal quadro a destra e in basso."""
-    from PIL import Image, ImageDraw, ImageFilter
-    W, H, m = 520, 900, 40
-    im = Image.new('RGBA', (W + m, H + m), (0, 0, 0, 0))
-    om = Image.new('L', im.size, 0)
-    ImageDraw.Draw(om).rounded_rectangle((m - 14, m + 10, W + m, H + m), 22, fill=150)
-    im.putalpha(0)
-    im = Image.composite(Image.new('RGBA', im.size, (10, 8, 20, 255)), im, om.filter(ImageFilter.GaussianBlur(16)))
-    d = ImageDraw.Draw(im)
-    d.rounded_rectangle((m, m, W + m + 30, H + m + 30), 20, fill=(250, 247, 240, 255))
-    g = Image.new('RGBA', (W, H))
-    for y in range(H):
-        f = y / H
-        c = (int(150 - 50 * f), int(166 - 52 * f), int(186 - 50 * f), 255)
-        ImageDraw.Draw(g).line([(0, y), (W, y)], fill=c)
-    im.paste(g, (m + B, m + B))
-    im.save(dst)
-
 
 def monta():
     tempi = json.load(open(f'{D}/audio/tempi.json')); L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
@@ -207,18 +187,20 @@ def monta():
         fil.append(f"[l1][al]overlay=x=536:y='1234+{sale0}':eval=frame:eof_action=pass[l2];"
                    f"[l2][av]overlay=x=560:y='1220+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     else:
-        # avatar-foto: il ritratto è stretto e le braccia finiscono tagliate dritte ai bordi della foto. Va in una cornice
-        # incassata in basso a destra: il bordo bianco della cornice cade sul taglio sinistro, il destro e il fondo escono
-        # dal quadro. Scala 0,8: testa più grande che nel gemello digitale.
-        k, FX, FY, BR = 0.8, 668, 1090, 12
-        cornice(f'{D}/avatar/_cornice.png', BR)
-        cornice_in = f'{D}/avatar/_cornice.png'   # entra come ultimo input, dopo musica ed effetti
-        aw = round((x1 - x0) * k / 2) * 2
-        fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={x1 - x0}:min(1080\\,ih)-40:{x0}:40,scale={aw}:-2:flags=lanczos,'
-                   f'colorchannelmixer=rr=1.02:gg=1.0:bb=0.96,fade=in:st={t0:.3f}:d=0.45:alpha=1[av]')
-        fil.append(f'[QCORNICE:v]format=rgba,fade=in:st={t0:.3f}:d=0.45:alpha=1[cr]')
-        fil.append(f"[l1][cr]overlay=x={FX - 40}:y='{FY - 40}+{sale0}':eval=frame:enable='gte(t,{t0:.3f})'[l2];"
-                   f"[l2][av]overlay=x={FX + BR}:y='{FY + BR}+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
+        # avatar-foto (15/11, Achille: niente cornice, avatar integrato): il ritratto è stretto e il corpo tocca i bordi
+        # della foto solo dalle spalle in giù (y ≈ 520 del webm). Si prende testa e spalle fino a y 505, scontornate sul
+        # fondo come il gemello digitale: il taglio orizzontale cade sul bordo basso dello schermo, la spalla destra esce
+        # a destra. Stessa integrazione: tono caldo, ombra morbida sul fondo, ingresso dal basso.
+        # scala 1,2 e x 520: testa al centro della colonna libera a destra; verificato al pixel su 5 fotogrammi che non
+        # tocca la card dei contatti (x 37-647, y 1119-1625) né il motto
+        cy0, cy1, X, k = 60, 505, 520, 1.2
+        w, h = round((x1 - x0) * k / 2) * 2, round((cy1 - cy0) * k / 2) * 2
+        Y = 1920 - h
+        fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={x1 - x0}:{cy1 - cy0}:{x0}:{cy0},scale={w}:{h}:flags=lanczos,'
+                   f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
+        fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
+        fil.append(f"[l1][al]overlay=x={X - 24}:y='{Y + 14}+{sale0}':eval=frame:eof_action=pass[l2];"
+                   f"[l2][av]overlay=x={X}:y='{Y}+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []
