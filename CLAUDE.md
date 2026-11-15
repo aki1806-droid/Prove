@@ -96,6 +96,9 @@ usare**, insieme alle domande su voce e destinatari. Heygen 2 è un **account di
 |---|---|---|
 | `29605ba211d24a55bccc96c39cb2d8b4` | maglione color crema, sfondo chiaro neutro | verticale 608×1080 |
 | `d9da868060f946c7a5b04dd81fc99938` | giacca e cravatta blu, alla scrivania, grattacieli dietro | orizzontale 1920×1080 |
+| `ded19f7e23e74c14b6cd70a483ea9943` | cardigan beige su maglietta bianca, mani giunte | verticale 608×1080 |
+| `690f805f4f5b4963af6b680cc3f71bc9` | maglione nero, alla scrivania, finestre della città dietro | verticale 1536×2752 |
+| `c5076ef10dd44a2b8ef08a90392e9f9d` | cardigan beige al microfono da podcast, libreria e lampada | orizzontale 2752×1536 |
 
 Sono **avatar foto** (photo_avatar), ma secondo Achille (15/11) si usano **esattamente come sull'altro account**, compreso
 il webm senza sfondo: stesse impostazioni di «Aki with a lapel microphone» (create_video_from_avatar, audio come asset
