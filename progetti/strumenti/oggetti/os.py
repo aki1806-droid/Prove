@@ -84,7 +84,8 @@ def monta():
         fr = s['frame']; out = f'{L}/{sid}.mp4'; n = len(fr); sd = d / n
         ins, fil = [], []
         if s['tipo'].startswith('CLIP'):
-            c = f'{D}/clip/hook_01.mp4' if i == 0 and os.path.exists(f'{D}/clip/hook_01.mp4') else f'{D}/clip2/{sid}.mp4'
+            hk = sorted(glob.glob(f'{D}/clip/hook_*.mp4'))
+            c = hk[0] if i == 0 and hk else f'{D}/clip2/{sid}.mp4'
             k = max(1.0, d / (dur(c) - 0.05))
             ins += ['-i', c]
             fil.append(f'[0:v]setpts=PTS*{k:.4f},fps={FPS},scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920,'
@@ -123,10 +124,15 @@ def monta():
     n = len(pezzi)
     ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{D}/audio/voce.wav']
     fil.append(f'[{acc}][{n}:v]overlay=0:0:shortest=1[l1]')
-    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,split[av][om]')
-    # mezzo busto intero (le spalle escono dal bordo destro, non da un taglio interno) con un alone chiaro che lo stacca dal sughero
-    fil.append('[om]lutrgb=r=255:g=255:b=255,boxblur=luma_radius=16:alpha_radius=16,colorchannelmixer=aa=0.6[al]')
-    fil.append(f'[l1][al]overlay=560:1220:eof_action=pass[l2];[l2][av]overlay=560:1220:eof_action=pass,format=yuv420p[v]')
+    t0 = ult['inizio']
+    # mezzo busto intero, spalle fuori dal bordo destro. Per integrarlo nella bacheca: tono scaldato verso il sughero,
+    # ombra scura e morbida proiettata in basso a sinistra (come le foto e i fogli appuntati) e un ingresso che sale dal fondo.
+    fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,'
+               f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
+    fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
+    sale = f"1220+max(0\\,60*(1-(t-{t0:.3f})/0.5))"
+    fil.append(f"[l1][al]overlay=x=536:y='{sale}+14':eval=frame:eof_action=pass[l2];"
+               f"[l2][av]overlay=x=560:y='{sale}':eval=frame:eof_action=pass,format=yuv420p[v]")
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []
