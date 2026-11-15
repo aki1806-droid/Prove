@@ -23,4 +23,6 @@ Metadati: solo titolo e autore. Immagine fissa del reel: copertina_reel.jpg.
 Trailer_3_Non_piangere.mp4 · 63.0 s · asset HeyGen 700c69b7170940c8b8e375c14144815f (https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille (il pacchetto consiglia uno ogni due o tre giorni alle 21 sulla pagina autore, YouTube Shorts il giorno dopo).
+- Robin (OK di Achille 15/11): post 1178681, sab 21/11/2026 21:00 su Facebook Achille Pagliaro e La Rotta Giusta (reel), Instagram
+  cartografidellanima (reel), TikTok Cartografi dell'Anima, testo di post.md, primo commento con il rimando ai link; post 1178682,
+  dom 22/11/2026 21:00 su YouTube Achille Pagliaro (Shorts), link in descrizione.

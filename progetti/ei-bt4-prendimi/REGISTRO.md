@@ -23,4 +23,6 @@ Metadati: solo titolo e autore. Immagine fissa del reel: copertina_reel.jpg.
 Trailer_4_Prendimi.mp4 · 58.8 s · asset HeyGen 2e1f43ce5b464677a150b044fde39356 (https://resource2.heygen.ai/video/2e1f43ce5b464677a150b044fde39356/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille (il pacchetto consiglia uno ogni due o tre giorni alle 21 sulla pagina autore, YouTube Shorts il giorno dopo).
+- Robin (OK di Achille 15/11): post 1178683, lun 23/11/2026 21:00 su Facebook Achille Pagliaro e La Rotta Giusta (reel), Instagram
+  cartografidellanima (reel), TikTok Cartografi dell'Anima, testo di post.md, primo commento con il rimando ai link; post 1178684,
+  mar 24/11/2026 21:00 su YouTube Achille Pagliaro (Shorts), link in descrizione.

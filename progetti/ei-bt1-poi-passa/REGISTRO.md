@@ -23,4 +23,6 @@ Metadati: solo titolo e autore. Immagine fissa del reel: copertina_reel.jpg.
 Trailer_1_Poi_passa.mp4 · 62.6 s · asset HeyGen 57d77a6113f54d3290f51f4675aa2a95 (https://resource2.heygen.ai/video/57d77a6113f54d3290f51f4675aa2a95/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille (il pacchetto consiglia uno ogni due o tre giorni alle 21 sulla pagina autore, YouTube Shorts il giorno dopo).
+- Robin (OK di Achille 15/11): post 1178677, mar 17/11/2026 21:00 su Facebook Achille Pagliaro e La Rotta Giusta (reel), Instagram
+  cartografidellanima (reel), TikTok Cartografi dell'Anima, testo di post.md, primo commento con il rimando ai link; post 1178678,
+  mer 18/11/2026 21:00 su YouTube Achille Pagliaro (Shorts), link in descrizione.

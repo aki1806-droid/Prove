@@ -23,4 +23,6 @@ Metadati: solo titolo e autore. Immagine fissa del reel: copertina_reel.jpg.
 Trailer_2_Sbrigati.mp4 · 55.2 s · asset HeyGen 04c19891fab047c998f70711e09d002c (https://resource2.heygen.ai/video/04c19891fab047c998f70711e09d002c/original.mp4).
 
 ## Pubblicazione
-- Robin: dopo l'OK di Achille (il pacchetto consiglia uno ogni due o tre giorni alle 21 sulla pagina autore, YouTube Shorts il giorno dopo).
+- Robin (OK di Achille 15/11): post 1178679, gio 19/11/2026 21:00 su Facebook Achille Pagliaro e La Rotta Giusta (reel), Instagram
+  cartografidellanima (reel), TikTok Cartografi dell'Anima, testo di post.md, primo commento con il rimando ai link; post 1178680,
+  ven 20/11/2026 21:00 su YouTube Achille Pagliaro (Shorts), link in descrizione.

@@ -132,10 +132,10 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | «Lettera di un padre» – Festa del papà (9:16) | [apri](https://resource2.heygen.ai/video/2978ea18fe47491d80222f1a4edfc657/original.mp4) |
 | YouTube «Perché ho scritto Eredità Invisibili» (16:9) | [apri](https://resource2.heygen.ai/video/97c0d9c36426478b8a1430bdbd122564/original.mp4) |
 | V01 «Video di lancio del libro» (9:16) – dom 15/11 09:00 | [apri](https://resource2.heygen.ai/video/cda526378509405c9e27f91e84511340/original.mp4) |
-| BT1 Book trailer «Poi passa» (9:16) | [apri](https://resource2.heygen.ai/video/57d77a6113f54d3290f51f4675aa2a95/original.mp4) |
-| BT2 Book trailer «Sbrigati» (9:16) | [apri](https://resource2.heygen.ai/video/04c19891fab047c998f70711e09d002c/original.mp4) |
-| BT3 Book trailer «Non piangere» (9:16) | [apri](https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4) |
-| BT4 Book trailer «Prendimi» (9:16) | [apri](https://resource2.heygen.ai/video/2e1f43ce5b464677a150b044fde39356/original.mp4) |
+| BT1 Book trailer «Poi passa» (9:16) – mar 17/11 21:00, YouTube mer 18/11 | [apri](https://resource2.heygen.ai/video/57d77a6113f54d3290f51f4675aa2a95/original.mp4) |
+| BT2 Book trailer «Sbrigati» (9:16) – gio 19/11 21:00, YouTube ven 20/11 | [apri](https://resource2.heygen.ai/video/04c19891fab047c998f70711e09d002c/original.mp4) |
+| BT3 Book trailer «Non piangere» (9:16) – sab 21/11 21:00, YouTube dom 22/11 | [apri](https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4) |
+| BT4 Book trailer «Prendimi» (9:16) – lun 23/11 21:00, YouTube mar 24/11 | [apri](https://resource2.heygen.ai/video/2e1f43ce5b464677a150b044fde39356/original.mp4) |
 
 ## Libri: «Il Volo delle Radici» e «Mappe Silenziose» (booktrailer e reel)
 
@@ -328,7 +328,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 |---|---|---|
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
-| PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
+| PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | lun 16/11 08:30 | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
 | PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille |  | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |

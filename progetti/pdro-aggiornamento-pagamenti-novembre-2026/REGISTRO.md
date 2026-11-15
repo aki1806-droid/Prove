@@ -29,4 +29,4 @@ Nessuna musica né effetti, come la versione di ottobre; loudnorm −16 LUFS (�
 PDRO_Aggiornamento_pagamenti_novembre_2026_9x16 · 61,0 s · asset HeyGen 1c981f12b15746588655af92366aff75 (https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4).
 
 ## Pubblicazione
-- Robin: da programmare dopo l'OK di Achille (solo AOUP). Il conguaglio è nello stipendio di novembre: conviene uscire prima.
+- Robin: post 1178685, lunedì 16/11/2026 08:30 (OK di Achille 15/11), 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), primo commento WhatsApp.
