@@ -133,9 +133,9 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | YouTube «Perché ho scritto Eredità Invisibili» (16:9) | [apri](https://resource2.heygen.ai/video/97c0d9c36426478b8a1430bdbd122564/original.mp4) |
 | V01 «Video di lancio del libro» (9:16) – dom 15/11 09:00 | [apri](https://resource2.heygen.ai/video/cda526378509405c9e27f91e84511340/original.mp4) |
 | BT1 Book trailer «Poi passa» (9:16) – mar 17/11 21:00, YouTube mer 18/11 | [apri](https://resource2.heygen.ai/video/57d77a6113f54d3290f51f4675aa2a95/original.mp4) |
-| BT2 Book trailer «Sbrigati» (9:16) – gio 19/11 21:00, YouTube ven 20/11 | [apri](https://resource2.heygen.ai/video/04c19891fab047c998f70711e09d002c/original.mp4) |
-| BT3 Book trailer «Non piangere» (9:16) – sab 21/11 21:00, YouTube dom 22/11 | [apri](https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4) |
-| BT4 Book trailer «Prendimi» (9:16) – lun 23/11 21:00, YouTube mar 24/11 | [apri](https://resource2.heygen.ai/video/2e1f43ce5b464677a150b044fde39356/original.mp4) |
+| BT2 Book trailer «Sbrigati» (9:16) – gio 19/11 21:00, YouTube ven 20/11 | [apri](https://resource2.heygen.ai/video/f73400dccedc49cebe4cf367c49548fa/original.mp4) |
+| BT3 Book trailer «Non piangere» (9:16) – sab 21/11 21:00, YouTube dom 22/11 | [apri](https://resource2.heygen.ai/video/365ce908bdef4ad086d7bc373fa2ec4a/original.mp4) |
+| BT4 Book trailer «Prendimi» (9:16) – lun 23/11 21:00, YouTube mar 24/11 | [apri](https://resource2.heygen.ai/video/f14ba99a2b194669b93f84cccf9992d7/original.mp4) |
 
 ## Libri: «Il Volo delle Radici» e «Mappe Silenziose» (booktrailer e reel)
 

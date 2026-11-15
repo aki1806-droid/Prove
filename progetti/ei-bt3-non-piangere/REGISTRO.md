@@ -20,9 +20,15 @@ su «recensione»; poi nero e la frase finale tenuta 2,5 s oltre la voce. Suoni:
 Metadati: solo titolo e autore. Immagine fissa del reel: copertina_reel.jpg.
 
 ## Uscita (1080x1920, 30 fps; fuori da git)
-Trailer_3_Non_piangere.mp4 · 63.0 s · asset HeyGen 700c69b7170940c8b8e375c14144815f (https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4).
+Trailer_3_Non_piangere.mp4 · 63.0 s · asset HeyGen 365ce908bdef4ad086d7bc373fa2ec4a (https://resource2.heygen.ai/video/365ce908bdef4ad086d7bc373fa2ec4a/original.mp4).
 
 ## Pubblicazione
 - Robin (OK di Achille 15/11): post 1178681, sab 21/11/2026 21:00 su Facebook Achille Pagliaro e La Rotta Giusta (reel), Instagram
   cartografidellanima (reel), TikTok Cartografi dell'Anima, testo di post.md, primo commento con il rimando ai link; post 1178682,
   dom 22/11/2026 21:00 su YouTube Achille Pagliaro (Shorts), link in descrizione.
+
+## Revisione 15/11/2026 — tagli della voce
+Achille: «problemi con l'audio, viene tagliato male». Alcuni tagli fra un paragrafo e l'altro cadevano dentro una parola
+(i tempi della trascrizione sbagliano di qualche decimo dove le pause sono brevi). trailer.py ora taglia al centro del
+silenzio vero più lungo vicino al confine (energia sotto −45 dB) con micro-dissolvenze. Rimontato; asset HeyGen 365ce908bdef4ad086d7bc373fa2ec4a (prima 700c69b7170940c8b8e375c14144815f).
+Robin: video sostituito nei due post, date invariate.
