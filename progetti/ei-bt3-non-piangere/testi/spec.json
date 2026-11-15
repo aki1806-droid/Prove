@@ -1,0 +1,52 @@
+{
+ "testi": [
+  {
+   "nome": "q1a",
+   "testo": "Non piangere.",
+   "cls": "n r",
+   "top": 760
+  },
+  {
+   "nome": "q1b",
+   "testo": "Dai, non è niente.",
+   "cls": "n r",
+   "top": 880
+  },
+  {
+   "nome": "q1c",
+   "testo": "Sei grande.",
+   "cls": "n r",
+   "top": 1000
+  },
+  {
+   "nome": "q4",
+   "testo": "Non ero debole. Ero finalmente vero."
+  },
+  {
+   "nome": "q6",
+   "testo": "l’eredità più tossica che gli uomini si passano tra loro"
+  },
+  {
+   "nome": "q7",
+   "testo": "Non è un uomo forte. È un uomo chiuso."
+  },
+  {
+   "nome": "q8",
+   "testo": "Non sempre ci riesco."
+  },
+  {
+   "nome": "chiusa",
+   "testo": "Non era la diga che crollava. Era il fiume che tornava.",
+   "cls": "n",
+   "size": 84,
+   "top": 760
+  }
+ ],
+ "titolo_reel": "Non piangere.",
+ "copertina": {
+  "durata": 11.393,
+  "titolo": 1.607,
+  "amazon": 4.0,
+  "recensione": 7.5
+ }
+}

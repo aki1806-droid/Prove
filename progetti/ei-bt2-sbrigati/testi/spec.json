@@ -1,0 +1,58 @@
+{
+ "testi": [
+  {
+   "nome": "q1a",
+   "testo": "Rispondi subito.",
+   "cls": "r"
+  },
+  {
+   "nome": "q1b",
+   "testo": "Decidi adesso.",
+   "cls": "r"
+  },
+  {
+   "nome": "q2",
+   "testo": "venti minuti"
+  },
+  {
+   "nome": "q4a",
+   "testo": "Sbrigati.",
+   "size": 120,
+   "cls": "n"
+  },
+  {
+   "nome": "q4b",
+   "testo": "Sbrigati.",
+   "size": 84,
+   "cls": "n"
+  },
+  {
+   "nome": "q4c",
+   "testo": "Sbrigati.",
+   "size": 52,
+   "cls": "n"
+  },
+  {
+   "nome": "q5",
+   "testo": "le ombre sui muri"
+  },
+  {
+   "nome": "q6",
+   "testo": "La lentezza dei bambini non è distrazione."
+  },
+  {
+   "nome": "chiusa",
+   "testo": "La fretta si eredita. Anche la lentezza.",
+   "cls": "n",
+   "size": 84,
+   "top": 760
+  }
+ ],
+ "titolo_reel": "Sbrigati.",
+ "copertina": {
+  "durata": 10.982000000000001,
+  "titolo": 1.339,
+  "amazon": 3.625,
+  "recensione": 7.054
+ }
+}

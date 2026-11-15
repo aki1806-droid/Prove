@@ -1,0 +1,44 @@
+{
+ "testi": [
+  {
+   "nome": "q1",
+   "testo": "Papà, perché quel signore ha una faccia triste?"
+  },
+  {
+   "nome": "q3",
+   "testo": "Oggi sono un po’ triste."
+  },
+  {
+   "nome": "q4a",
+   "testo": "Anch’io a volte sono triste.",
+   "cls": "n",
+   "top": 860
+  },
+  {
+   "nome": "q4b",
+   "testo": "Poi passa.",
+   "cls": "n",
+   "top": 860,
+   "size": 110
+  },
+  {
+   "nome": "q5",
+   "testo": "la verità è maleducata",
+   "barra_anim": 1
+  },
+  {
+   "nome": "chiusa",
+   "testo": "I bambini dicono la verità. Noi abbiamo imparato a chiamarla maleducazione.",
+   "cls": "n",
+   "size": 84,
+   "top": 760
+  }
+ ],
+ "titolo_reel": "Poi passa.",
+ "copertina": {
+  "durata": 14.0,
+  "titolo": 4.107,
+  "amazon": 6.429,
+  "recensione": 9.929
+ }
+}

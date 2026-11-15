@@ -1,0 +1,37 @@
+[
+ {
+  "id": "S1",
+  "inizio": 0.0,
+  "durata": 11.886
+ },
+ {
+  "id": "S2",
+  "inizio": 11.886,
+  "durata": 6.886
+ },
+ {
+  "id": "S3",
+  "inizio": 18.771,
+  "durata": 6.529
+ },
+ {
+  "id": "S4",
+  "inizio": 25.3,
+  "durata": 6.271
+ },
+ {
+  "id": "S5",
+  "inizio": 31.571,
+  "durata": 10.243
+ },
+ {
+  "id": "S6",
+  "inizio": 41.814,
+  "durata": 13.6
+ },
+ {
+  "id": "S7",
+  "inizio": 55.414,
+  "durata": 7.145
+ }
+]

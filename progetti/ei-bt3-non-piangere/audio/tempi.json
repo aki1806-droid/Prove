@@ -1,0 +1,52 @@
+[
+ {
+  "id": "S1",
+  "inizio": 0.0,
+  "durata": 4.557
+ },
+ {
+  "id": "S2",
+  "inizio": 4.557,
+  "durata": 3.743
+ },
+ {
+  "id": "S3",
+  "inizio": 8.3,
+  "durata": 7.921
+ },
+ {
+  "id": "S4",
+  "inizio": 16.221,
+  "durata": 4.636
+ },
+ {
+  "id": "S5",
+  "inizio": 20.857,
+  "durata": 5.743
+ },
+ {
+  "id": "S6",
+  "inizio": 26.6,
+  "durata": 8.457
+ },
+ {
+  "id": "S7",
+  "inizio": 35.057,
+  "durata": 5.564
+ },
+ {
+  "id": "S8",
+  "inizio": 40.621,
+  "durata": 5.35
+ },
+ {
+  "id": "S9",
+  "inizio": 45.971,
+  "durata": 10.993
+ },
+ {
+  "id": "S10",
+  "inizio": 56.964,
+  "durata": 6.032
+ }
+]

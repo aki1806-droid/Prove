@@ -1,0 +1,44 @@
+{
+ "testi": [
+  {
+   "nome": "q1",
+   "testo": "Senza girarsi. Senza guardare."
+  },
+  {
+   "nome": "q3",
+   "testo": "papà è lì"
+  },
+  {
+   "nome": "q4",
+   "testo": "Il sollievo. E un’invidia che mi brucia."
+  },
+  {
+   "nome": "q5",
+   "testo": "Non so fidarmi a occhi chiusi."
+  },
+  {
+   "nome": "q6",
+   "testo": "Quando è stata l’ultima volta che ho detto «prendimi»?",
+   "cls": "n",
+   "size": 84
+  },
+  {
+   "nome": "q7",
+   "testo": "Prima del controllo c’era la fiducia."
+  },
+  {
+   "nome": "chiusa",
+   "testo": "Il resto è il mondo. E il mondo, a volte, ti prende.",
+   "cls": "n",
+   "size": 84,
+   "top": 760
+  }
+ ],
+ "titolo_reel": "Prendimi.",
+ "copertina": {
+  "durata": 11.161,
+  "titolo": 1.429,
+  "amazon": 3.75,
+  "recensione": 7.25
+ }
+}

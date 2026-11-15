@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**179 video** in 15 sezioni.
+**183 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 3 novembre
 2026: fino al 3/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -132,6 +132,10 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | «Lettera di un padre» – Festa del papà (9:16) | [apri](https://resource2.heygen.ai/video/2978ea18fe47491d80222f1a4edfc657/original.mp4) |
 | YouTube «Perché ho scritto Eredità Invisibili» (16:9) | [apri](https://resource2.heygen.ai/video/97c0d9c36426478b8a1430bdbd122564/original.mp4) |
 | V01 «Video di lancio del libro» (9:16) – dom 15/11 09:00 | [apri](https://resource2.heygen.ai/video/cda526378509405c9e27f91e84511340/original.mp4) |
+| BT1 Book trailer «Poi passa» (9:16) | [apri](https://resource2.heygen.ai/video/57d77a6113f54d3290f51f4675aa2a95/original.mp4) |
+| BT2 Book trailer «Sbrigati» (9:16) | [apri](https://resource2.heygen.ai/video/04c19891fab047c998f70711e09d002c/original.mp4) |
+| BT3 Book trailer «Non piangere» (9:16) | [apri](https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4) |
+| BT4 Book trailer «Prendimi» (9:16) | [apri](https://resource2.heygen.ai/video/2e1f43ce5b464677a150b044fde39356/original.mp4) |
 
 ## Libri: «Il Volo delle Radici» e «Mappe Silenziose» (booktrailer e reel)
 

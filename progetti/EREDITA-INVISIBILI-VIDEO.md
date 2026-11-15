@@ -1,10 +1,14 @@
 # Eredità Invisibili — tutti i video
 
-28 file (21 video: il lancio del libro, 10 reel, 6 short, il teaser con i 5 giorni del conto alla rovescia, 2 video in 16:9 e 9:16, 1 video YouTube). I link sono gli originali caricati su HeyGen: si aprono e si scaricano dal browser (verificati uno per uno il 29/10/2026, tutti rispondono).
+32 file (25 video: il lancio del libro, i quattro book trailer, 10 reel, 6 short, il teaser con i 5 giorni del conto alla rovescia, 2 video in 16:9 e 9:16, 1 video YouTube). I link sono gli originali caricati su HeyGen: si aprono e si scaricano dal browser (verificati uno per uno il 29/10/2026, tutti rispondono).
 
 | # | video | formato | durata | link |
 |---|---|---|---|---|
 | V01 | Video di lancio del libro «Credevo di crescerli. Mi stavano ricrescendo.» | 9:16 | 79,6 s | [apri](https://resource2.heygen.ai/video/cda526378509405c9e27f91e84511340/original.mp4) |
+| BT1 | Book trailer «Poi passa» | 9:16 | ~60 s | [apri](https://resource2.heygen.ai/video/57d77a6113f54d3290f51f4675aa2a95/original.mp4) |
+| BT2 | Book trailer «Sbrigati» | 9:16 | ~60 s | [apri](https://resource2.heygen.ai/video/04c19891fab047c998f70711e09d002c/original.mp4) |
+| BT3 | Book trailer «Non piangere» | 9:16 | ~60 s | [apri](https://resource2.heygen.ai/video/700c69b7170940c8b8e375c14144815f/original.mp4) |
+| BT4 | Book trailer «Prendimi» | 9:16 | ~60 s | [apri](https://resource2.heygen.ai/video/2e1f43ce5b464677a150b044fde39356/original.mp4) |
 | R01 | Reel manifesto «Credevo di crescerli» | 9:16 | 31,5 s | [apri](https://resource2.heygen.ai/video/d5e8ec4b7f344b05b00960128bc18ca1/original.mp4) |
 | R02 | Reel «Un sasso in tasca» – lancio della sfida | 9:16 | 35,0 s | [apri](https://resource2.heygen.ai/video/d3a9fcd7c93f46f9be165214589f8dbd/original.mp4) |
 | R03 | Reel «Propositi al contrario» – Capodanno | 9:16 | 31,8 s | [apri](https://resource2.heygen.ai/video/fe2725474e264d368c6c2fbd7b50b3f7/original.mp4) |
