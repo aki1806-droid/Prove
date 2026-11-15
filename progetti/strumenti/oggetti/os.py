@@ -65,7 +65,7 @@ def voce():
     for p in par:
         inizi.append(k); k += len(p)
     tot = dur(f'{D}/audio/narratore_grezzo.mp3')
-    svolta = next((i for i, s in enumerate(SC) if 'SVOLTA' in s['titolo'].upper()), None)
+    svolta = next((i for i, s in enumerate(SC) if any(k in s['titolo'].upper() for k in ('SVOLTA', 'BIVIO'))), None)
     x = silenzi_rms(f'{D}/audio/narratore_grezzo.mp3')
     tagli = [(pausa_vera(x, w[i - 1]['end'], w[i]['start']), PAUSA + (0.45 if j == svolta else 0)) for j, i in enumerate(inizi) if j > 0]
     pezzi, a = [], 0.0
@@ -88,22 +88,28 @@ def voce():
 
 def motto_a_capo(src):
     """Il motto «al tuo fianco, una persona alla volta» del frame finale corre sotto l'avatar:
-    porta «una persona alla volta» a capo, a sinistra, coprendo la riga originale col sughero di sotto."""
+    porta «una persona alla volta» a capo, a sinistra, coprendo la riga originale col sughero (o lo sfondo) di sotto.
+    La riga del motto si trova da sola (testo chiaro fra y 1650 e 1850): le serie la mettono a altezze diverse."""
     from PIL import Image, ImageFilter
+    import numpy as np
     dst = src.replace('.jpg', '_av.jpg')
     if os.path.exists(dst):
         return dst
     im = Image.open(src).convert('RGB')
+    chiaro = np.asarray(im.convert('L'))[1650:1850, :760] > 215
+    righe = np.where(chiaro.sum(1) > 3)[0]
+    if not len(righe):
+        return src
+    y0 = 1650 + int(righe.min())
     def piuma(w, h, f=10):
         m = Image.new('L', (w, h), 0)
         m.paste(255, (f, f, w - f, h - f))
         return m.filter(ImageFilter.GaussianBlur(f / 2))
-    riga2 = im.crop((300, 1695, 740, 1780))
-    im.paste(im.crop((300, 1800, 740, 1885)), (300, 1695), piuma(440, 85))
-    im.paste(riga2, (45, 1752), piuma(440, 85))
+    riga2 = im.crop((300, y0 - 20, 740, y0 + 65))
+    im.paste(im.crop((300, y0 + 85, 740, min(1920, y0 + 170))).resize((440, 85)), (300, y0 - 20), piuma(440, 85))
+    im.paste(riga2, (45, y0 + 37), piuma(440, 85))
     im.save(dst, quality=95)
     return dst
-
 
 def monta():
     tempi = json.load(open(f'{D}/audio/tempi.json')); L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
@@ -131,7 +137,7 @@ def monta():
             for j, f in enumerate(fr):
                 ln = sd + (XF if j + 1 < n else 0)
                 img = f'{D}/grafiche/{f}.jpg'
-                if f.startswith('S08'):
+                if f in SC[-1]['frame']:
                     img = motto_a_capo(img)
                 ins += ['-framerate', str(FPS), '-loop', '1', '-t', f'{ln:.3f}', '-i', img]
                 fil.append(f"[{j}:v]scale=1080:1920,setsar=1,zoompan=z='1.0+0.00025*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps={FPS},"
@@ -167,7 +173,7 @@ def monta():
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []
-    sv = next((f'S{i + 1:02d}' for i, s in enumerate(SC) if 'SVOLTA' in s['titolo'].upper()), None)
+    sv = next((f'S{i + 1:02d}' for i, s in enumerate(SC) if any(k in s['titolo'].upper() for k in ('SVOLTA', 'BIVIO'))), None)
     def scena(i):
         return f'S{i:02d}'
     for i, s in enumerate(SC):
