@@ -21,7 +21,7 @@ Logo ufficiale (strumenti/oggetti/logo_card.png) sopra il marchio di riserva dei
 Nessun sottotitolo impresso (regola del canale). −15,9 LUFS.
 
 ## Uscita (1080x1920, 30 fps, integra; fuori da git)
-PDRO_Oggetti_smarriti_01_il_badge · 96,5 s · asset HeyGen 2b2669b6e8964afb9dccd5660f89263f (https://resource2.heygen.ai/video/2b2669b6e8964afb9dccd5660f89263f/original.mp4).
+PDRO_Oggetti_smarriti_01_il_badge · 96,5 s · asset HeyGen 304418ce4a11457488aafbf5c69120c8 (https://resource2.heygen.ai/video/304418ce4a11457488aafbf5c69120c8/original.mp4).
 
 ## Pubblicazione
 - Robin: dopo l'OK di Achille sulla prova di stile e sul calendario della serie (4 canali AOUP). Nel post: «Storia di fantasia,
@@ -32,4 +32,6 @@ Achille: «l'avatar nel finale non si vede bene ed è tagliato male». Prima era
 spalle e braccia tagliate ai lati. Ora `os.py` prende tutto il busto (1090 px da x 440), alto 700, in basso a destra
 (560,1220) con le spalle che escono dal bordo del quadro e un alone chiaro che lo stacca dal sughero. Il motto
 «al tuo fianco, una persona alla volta», che finiva sotto l'avatar, va a capo a sinistra (`motto_a_capo`, frame
-`grafiche/S08A_av.jpg`). Contatti liberi. −15,9 LUFS, integro. Nuovo asset HeyGen 2b2669b6e8964afb9dccd5660f89263f.
+`grafiche/S08A_av.jpg`). Contatti liberi. −15,9 LUFS, integro. Nuovo asset HeyGen 304418ce4a11457488aafbf5c69120c8.
+- 15/11, «rendi gli avatar più integrati» (Achille): tono scaldato verso il sughero, ombra scura morbida proiettata in basso
+  a sinistra al posto dell'alone bianco, ingresso che sale dal fondo (0,5 s) con dissolvenza. Asset HeyGen 304418ce4a11457488aafbf5c69120c8.
