@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**194 video** in 15 sezioni.
+**203 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 15 novembre
 2026: fino al 15/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -76,6 +76,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | sab 12/12 18:15 | Calendario dei diritti · Casella 12 «Lutto» | 4 canali AOUP |
 | dom 13/12 18:15 | Calendario dei diritti · Casella 13 «Matrimonio» | 4 canali AOUP |
 | lun 14/12 18:15 | Calendario dei diritti · Casella 14 «Donazione di sangue» | 4 canali AOUP |
+| lun 14/12 19:00 | Lettere dal futuro · Ep. 4 «Quel cedolino mai controllato» | 4 canali AOUP |
 | mar 15/12 18:15 | Calendario dei diritti · Casella 15 «Assemblea» | 4 canali AOUP |
 | mar 15/12 19:00 | Oggetti smarriti · Ep. 4 «Il libro sottolineato» | 4 canali AOUP |
 | mer 16/12 18:15 | Calendario dei diritti · Casella 16 «Affissione» | 4 canali AOUP |
@@ -85,18 +86,24 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | sab 19/12 18:15 | Calendario dei diritti · Casella 19 «Dispositivi di protezione» | 4 canali AOUP |
 | dom 20/12 18:15 | Calendario dei diritti · Casella 20 «Medico competente» | 4 canali AOUP |
 | lun 21/12 18:15 | Calendario dei diritti · Casella 21 «Contro le aggressioni» | 4 canali AOUP |
+| lun 21/12 19:00 | Lettere dal futuro · Ep. 5 «Il master rimandato» | 4 canali AOUP |
 | mar 22/12 18:15 | Calendario dei diritti · Casella 22 «Part-time» | 4 canali AOUP |
 | mar 22/12 19:00 | Oggetti smarriti · Ep. 5 «Il disegno nell'armadietto» | 4 canali AOUP |
 | mer 23/12 18:15 | Calendario dei diritti · Casella 23 «Formazione» | 4 canali AOUP |
 | gio 24/12 18:15 | Calendario dei diritti · Casella 24 «Tredicesima» | 4 canali AOUP |
 | ven 25/12 10:15 | Calendario dei diritti · Finale «Buone feste» con Achille | 4 canali AOUP |
+| lun 28/12 19:00 | Lettere dal futuro · Ep. 6 «Diciotto mesi» | 4 canali AOUP |
 | mar 29/12 19:00 | Oggetti smarriti · Ep. 6 «Il telefono delle tre» | 4 canali AOUP |
+| lun 4/1 19:00 | Lettere dal futuro · Ep. 7 «La schiena» | 4 canali AOUP |
 | mar 5/1 19:00 | Oggetti smarriti · Ep. 7 «La lettera mai spedita» | 4 canali AOUP |
 | gio 7/1 18:15 | 20 format · 08 «Il microfono in corsia» | 4 canali AOUP |
+| lun 11/1 19:00 | Lettere dal futuro · Ep. 8 «La valutazione che non ho contestato» | 4 canali AOUP |
 | mar 12/1 19:00 | Oggetti smarriti · Ep. 8 «Il mazzo di chiavi» | 4 canali AOUP |
 | gio 14/1 18:15 | 20 format · 09 «Primo giorno in ospedale» | 4 canali AOUP |
+| lun 18/1 19:00 | Lettere dal futuro · Ep. 9 «Il trasferimento mai chiesto» | 4 canali AOUP |
 | mar 19/1 19:00 | Oggetti smarriti · Ep. 9 «La penna verde» | 4 canali AOUP |
 | gio 21/1 18:15 | 20 format · 10 «60 secondi con…» (teaser) | 4 canali AOUP |
+| lun 25/1 19:00 | Lettere dal futuro · Ep. 10 «La lettera che scrivo io» | 4 canali AOUP |
 | mar 26/1 19:00 | Oggetti smarriti · Ep. 10 «La scatola» | 4 canali AOUP |
 | gio 28/1 18:15 | 20 format · 11 «Prima e dopo» | 4 canali AOUP |
 | gio 4/2 18:15 | 20 format · 12 «Spiegato a mia nonna» | 4 canali AOUP |
@@ -351,6 +358,15 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) | mar 19/1 19:00 | [apri](https://resource2.heygen.ai/video/b0a7e28bf2fa4992be21810ef1d46894/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) | mar 26/1 19:00 | [apri](https://resource2.heygen.ai/video/da8f0a83909a4c0f9cdb9baaa266bff4/original.mp4) |
 | PDRO · Lettere dal futuro – Ep. 1 «Firma quel modulo» (reel 9:16, Heygen 2) | lun 23/11 19:00 | [apri](https://resource2.heygen.ai/video/70b0c82c736048d49daa9df99c78faf1/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 2 «Il bando che non ho letto» (reel 9:16, Heygen 2) |  | [apri](https://resource2.heygen.ai/video/af79110887124e629d093fd7dd0c82de/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 3 «Le ferie che non ho preso» (reel 9:16, Heygen 2) |  | [apri](https://resource2.heygen.ai/video/346768a907ef46f7aeef69dd2378b85d/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 4 «Quel cedolino mai controllato» (reel 9:16, Heygen 2) | lun 14/12 19:00 | [apri](https://resource2.heygen.ai/video/e2ec2fc182244ff586ce7a8d8b60addd/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 5 «Il master rimandato» (reel 9:16, Heygen 2) | lun 21/12 19:00 | [apri](https://resource2.heygen.ai/video/7a35da961adf49ad9310acddc4259f08/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 6 «Diciotto mesi» (reel 9:16, Heygen 2) | lun 28/12 19:00 | [apri](https://resource2.heygen.ai/video/37a1260e2cec46859b3224d6ac3e0faa/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 7 «La schiena» (reel 9:16, Heygen 2) | lun 4/1 19:00 | [apri](https://resource2.heygen.ai/video/cc33d873e90a4f78a5894904da9cba56/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 8 «La valutazione che non ho contestato» (reel 9:16, Heygen 2) | lun 11/1 19:00 | [apri](https://resource2.heygen.ai/video/16a8eeb5320f4bcbb210b549b399c87a/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 9 «Il trasferimento mai chiesto» (reel 9:16, Heygen 2) | lun 18/1 19:00 | [apri](https://resource2.heygen.ai/video/51bbb94750df4078ae1dee1bd1e94217/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 10 «La lettera che scrivo io» (reel 9:16, Heygen 2) | lun 25/1 19:00 | [apri](https://resource2.heygen.ai/video/aa2de5cec57e48f898eff583653bb9da/original.mp4) |
 | PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 1, chiusura con Achille |  | [apri](https://resource2.heygen.ai/video/b72b618fcfa94ec5a3c189726ffa2d78/original.mp4) |
