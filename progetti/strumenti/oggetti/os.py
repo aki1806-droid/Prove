@@ -113,6 +113,46 @@ def motto_a_capo(src):
 
 
 
+
+def taglio_avatar(webm, x0, x1):
+    """inquadratura di un avatar-foto: (riga di inizio, riga di taglio, x sullo schermo, scala)"""
+    from PIL import Image
+    import numpy as np
+    maschere, colori = [], []
+    d = dur(webm)
+    for k in range(6):
+        f = f'{webm}_{k}.png'
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-c:v', 'libvpx-vp9', '-ss', f'{0.5 + k * (d - 1) / 5:.2f}', '-i', webm,
+                        '-frames:v', '1', f], check=True)
+        im = Image.open(f)
+        maschere.append(np.array(im.getchannel('A')) > 128)
+        colori.append(np.array(im.convert('RGB')).astype(float))
+        os.remove(f)
+    tutto = np.any(maschere, axis=0)
+    righe = np.where(tutto.any(1))[0]
+    cy0 = max(0, int(righe.min()) - 40)
+    tocca = [y for y in range(1080) if tutto[y].any() and (np.where(tutto[y])[0].min() <= x0 + 4 or np.where(tutto[y])[0].max() >= x1 - 5)]
+    cy1 = (min(tocca) - 15) if tocca else 1080
+    testa = tutto[righe.min():righe.min() + 120]
+    cx = int(np.where(testa.any(0))[0].mean()) - x0
+    # vestiti scuri? luminosità media del busto (dalla riga 260 sotto l'inizio della testa fino al taglio)
+    r0 = int(righe.min()) + 260
+    busto = np.concatenate([c[r0:cy1][m[r0:cy1]] for c, m in zip(colori, maschere)])
+    scuro = bool(len(busto) and busto.mean() < 70)
+    for sc in (1.3, 1.25, 1.2, 1.15, 1.1, 1.05, 1.0, 0.9, 0.8):
+        w, h = round((x1 - x0) * sc), round((cy1 - cy0) * sc)
+        X = int(870 - cx * sc); Y = 1920 - h
+        ok = True
+        for m in maschere:
+            a = np.array(Image.fromarray(m[cy0:cy1, x0:x1].astype(np.uint8) * 255).resize((w, h))) > 60
+            ys, xs = np.where(a); sx = xs + X; sy = ys + Y
+            if ((sx <= 659) & (sy <= 1637)).any() or ((sx <= 480) & (sy >= 1700)).any():
+                ok = False; break
+        if ok:
+            return cy0, cy1, X, sc, scuro
+    return cy0, cy1, 665, 0.8, scuro
+
+
 def monta():
     tempi = json.load(open(f'{D}/audio/tempi.json')); L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
     nome = re.sub(r'[^\w]+', '_', B['titolo']).strip('_')
@@ -187,19 +227,21 @@ def monta():
         fil.append(f"[l1][al]overlay=x=536:y='1234+{sale0}':eval=frame:eof_action=pass[l2];"
                    f"[l2][av]overlay=x=560:y='1220+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     else:
-        # avatar-foto (15/11, Achille: niente cornice, avatar integrato): il ritratto è stretto e il corpo tocca i bordi
-        # della foto solo dalle spalle in giù (y ≈ 520 del webm). Si prende testa e spalle fino a y 505, scontornate sul
-        # fondo come il gemello digitale: il taglio orizzontale cade sul bordo basso dello schermo, la spalla destra esce
-        # a destra. Stessa integrazione: tono caldo, ombra morbida sul fondo, ingresso dal basso.
-        # scala 1,2 e x 520: testa al centro della colonna libera a destra; verificato al pixel su 5 fotogrammi che non
-        # tocca la card dei contatti (x 37-647, y 1119-1625) né il motto
-        cy0, cy1, X, k = 60, 505, 520, 1.2
+        # avatar-foto (15/11, Achille: niente cornice, avatar integrato). Il ritratto è stretto e il corpo tocca i bordi
+        # della foto da una certa altezza in giù (le spalle): si misura su più fotogrammi, si taglia 15 px sopra e si
+        # mostra testa e spalle scontornate, col taglio sul bordo basso dello schermo. Scala: la più grande (fino a 1,3)
+        # che non tocca la card dei contatti (x <= 659, y <= 1637) né il motto (x <= 480, y >= 1700); testa a x ≈ 870.
+        cy0, cy1, X, k, scuro = taglio_avatar(f'{D}/avatar/avatar.webm', x0, x1)
         w, h = round((x1 - x0) * k / 2) * 2, round((cy1 - cy0) * k / 2) * 2
         Y = 1920 - h
         fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={x1 - x0}:{cy1 - cy0}:{x0}:{cy0},scale={w}:{h}:flags=lanczos,'
                    f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
-        fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
-        fil.append(f"[l1][al]overlay=x={X - 24}:y='{Y + 14}+{sale0}':eval=frame:eof_action=pass[l2];"
+        # vestiti scuri su fondo scuro: alone chiaro e tenue dietro la figura invece dell'ombra
+        alone = 'lutrgb=r=235:g=228:b=215,boxblur=luma_radius=26:alpha_radius=26,colorchannelmixer=aa=0.35' if scuro else \
+                'lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55'
+        dx, dy = (0, 0) if scuro else (-24, 14)
+        fil.append(f'[om]{alone}[al]')
+        fil.append(f"[l1][al]overlay=x={X + dx}:y='{Y + dy}+{sale0}':eval=frame:eof_action=pass[l2];"
                    f"[l2][av]overlay=x={X}:y='{Y}+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
