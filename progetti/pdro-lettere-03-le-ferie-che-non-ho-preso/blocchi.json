@@ -1,0 +1,118 @@
+{
+ "titolo": "LETTERE DAL FUTURO · Ep.3 – Le ferie che non ho preso",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – La busta",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Roberto ha trovato una busta infilata nel calendario della guardiola. Sul retro, a penna: non te le ridà nessuno.",
+   "parole": 19,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "a_e1.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip della busta che pulsa di luce blu (già pronta in clip/). Le parole si accendono come un'insegna; poi cadono il francobollo e il timbro postale 2036 (tonfo di timbro)."
+  },
+  {
+   "scena": 2,
+   "titolo": "LA LETTERA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Caro me del duemilaventisei. Ogni anno hai detto: quest'anno non posso, il reparto è scoperto. Le ferie le hai rimandate a tempi migliori. Te lo scrivo dai tempi migliori: non sono mai arrivati. E l'estate dei ragazzi, intanto, è passata.",
+   "parole": 40,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "La lettera si apre: le righe compaiono come scritte a mano in tempo reale (effetto \"write-on\"), con fruscio di penna."
+  },
+  {
+   "scena": 3,
+   "titolo": "OGGI",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Roberto guarda il calendario. Giorni da smaltire, li chiamano. Come se il riposo fosse un rifiuto da buttare.",
+   "parole": 18,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "a_03.png",
+   "overlay": [
+    "S03A",
+    "S03B"
+   ],
+   "regia": "Clip del protagonista nel presente (camera a mano). Didascalie stile telescrivente ambra con etichetta \"DALLA LETTERA\"."
+  },
+  {
+   "scena": 4,
+   "titolo": "IL BIVIO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Due futuri. In uno i giorni si accumulano e le estati passano. Nell'altro le ferie si programmano a inizio anno, e il reparto impara a organizzarsi.",
+   "parole": 26,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Schermo diviso: sopra il futuro \"se non fai niente\" in grigio, sotto un punto di domanda; poi il futuro \"se ti muovi\" si accende in ambra (wipe dal basso + riser)."
+  },
+  {
+   "scena": 5,
+   "titolo": "COSA PUOI FARE OGGI",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Le ferie sono un diritto irrinunciabile: servono a recuperare, e per questo vanno godute. Di regola non si trasformano in denaro. Se il tuo piano ferie viene negato o rinviato di continuo, non è un problema tuo: è un problema di organizzazione, e si può affrontare.",
+   "parole": 46,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Cartolina con bordo \"posta aerea\": i tre punti si spuntano uno alla volta. Timbro verde \"2026\" a chiudere."
+  },
+  {
+   "scena": 6,
+   "titolo": "LA LETTERA SI RISCRIVE",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Roberto prende la penna e segna due settimane ad agosto. La lettera, adesso, finisce così: quell'estate c'eri. Grazie.",
+   "parole": 18,
+   "frame": [
+    "S06A"
+   ],
+   "img_da_animare": "a_03.png",
+   "overlay": [
+    "S06A"
+   ],
+   "regia": "Luce più calda. La vecchia riga viene barrata in rosso, la nuova si scrive in verde. Timbro RISCRITTA."
+  },
+  {
+   "scena": 7,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Se le tue ferie restano sempre sulla carta, portaci il tuo piano ferie e i dinieghi che hai ricevuto. Il riposo non si rimanda all'infinito. Chiama me o Giovanna Vullo.",
+   "parole": 37,
+   "frame": [
+    "S07A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Cartolina con i contatti a sinistra."
+  }
+ ]
+}
