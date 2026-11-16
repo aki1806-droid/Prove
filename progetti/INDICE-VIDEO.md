@@ -340,16 +340,16 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
 | PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) | mar 24/11 19:00 | [apri](https://resource2.heygen.ai/video/c7276c2d07ed4643afefbafe22373d6b/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) | mar 1/12 19:00 | [apri](https://resource2.heygen.ai/video/1b54090280894233b7b399dc6e1f5d5f/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) | mar 8/12 19:00 | [apri](https://resource2.heygen.ai/video/77078b141cbb439aada908a1315f7294/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 4 «Il libro sottolineato» (reel 9:16) | mar 15/12 19:00 | [apri](https://resource2.heygen.ai/video/36ff300b872049f09983497308e2718e/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 5 «Il disegno nell'armadietto» (reel 9:16) | mar 22/12 19:00 | [apri](https://resource2.heygen.ai/video/433421443fe74d5393de01a9488f9162/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 6 «Il telefono delle tre» (reel 9:16) | mar 29/12 19:00 | [apri](https://resource2.heygen.ai/video/967b9f3409144e2780d0a92179674ce4/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 7 «La lettera mai spedita» (reel 9:16) | mar 5/1 19:00 | [apri](https://resource2.heygen.ai/video/d4f99c7a2010490a9039c467ef09f0f3/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) | mar 12/1 19:00 | [apri](https://resource2.heygen.ai/video/756a9f6cc3dd413f89a0e48dd67575bb/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) | mar 19/1 19:00 | [apri](https://resource2.heygen.ai/video/2eef025c6d684a1ebfa0ca6c01c2fde8/original.mp4) |
-| PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) | mar 26/1 19:00 | [apri](https://resource2.heygen.ai/video/0faa89914724414d9fc9e6c4e772c123/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) | mar 24/11 19:00 | [apri](https://resource2.heygen.ai/video/f6cc90aa7670436d9b2beff149b5fb21/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) | mar 1/12 19:00 | [apri](https://resource2.heygen.ai/video/9f3c050e294c4d90bb53cbf44e3ab216/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) | mar 8/12 19:00 | [apri](https://resource2.heygen.ai/video/803527370e90404aad9e3a4ccfa7552e/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 4 «Il libro sottolineato» (reel 9:16) | mar 15/12 19:00 | [apri](https://resource2.heygen.ai/video/c3d6435751bb420fae587149fff4c9e6/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 5 «Il disegno nell'armadietto» (reel 9:16) | mar 22/12 19:00 | [apri](https://resource2.heygen.ai/video/3c94e71df069489b810e1bce09fecede/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 6 «Il telefono delle tre» (reel 9:16) | mar 29/12 19:00 | [apri](https://resource2.heygen.ai/video/a0d97e49b02c4450b0fd0165784aa8b7/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 7 «La lettera mai spedita» (reel 9:16) | mar 5/1 19:00 | [apri](https://resource2.heygen.ai/video/399cd9c6cc6a49bcbceb12e7f2af002e/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 8 «Il mazzo di chiavi» (reel 9:16) | mar 12/1 19:00 | [apri](https://resource2.heygen.ai/video/341f6c5f0fb9407c8277be0a401f51ff/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) | mar 19/1 19:00 | [apri](https://resource2.heygen.ai/video/b0a7e28bf2fa4992be21810ef1d46894/original.mp4) |
+| PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) | mar 26/1 19:00 | [apri](https://resource2.heygen.ai/video/da8f0a83909a4c0f9cdb9baaa266bff4/original.mp4) |
 | PDRO · Lettere dal futuro – Ep. 1 «Firma quel modulo» (reel 9:16, Heygen 2) | lun 23/11 19:00 | [apri](https://resource2.heygen.ai/video/70b0c82c736048d49daa9df99c78faf1/original.mp4) |
 | PDRO · «In bocca al lupo OSS Azienda Zero» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/bf92910bbf844fa4949f212313b70841/original.mp4) |
 | PDRO · «Nuovo Bonus mamme 2026» (reel 9:16) – versione 2, chiusura con Brenda |  | [apri](https://resource2.heygen.ai/video/22b9d6857b944498acf0a36ef8dd5640/original.mp4) |

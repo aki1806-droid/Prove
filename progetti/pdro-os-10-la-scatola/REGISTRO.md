@@ -18,7 +18,7 @@ Come l'ep. 1 (strumenti/oggetti/os.py monta): frame del pacchetto, overlay sulle
 riser prima della svolta, effetti del pacchetto. Nessun sottotitolo impresso. Integro, −16 LUFS.
 
 ## Uscita (1080x1920, 30 fps; fuori da git)
-PDRO_Oggetti_smarriti_10_la_scatola · 90.2 s · asset HeyGen 0faa89914724414d9fc9e6c4e772c123 (https://resource2.heygen.ai/video/0faa89914724414d9fc9e6c4e772c123/original.mp4).
+PDRO_Oggetti_smarriti_10_la_scatola · 90.2 s · asset HeyGen da8f0a83909a4c0f9cdb9baaa266bff4 (https://resource2.heygen.ai/video/da8f0a83909a4c0f9cdb9baaa266bff4/original.mp4).
 
 ## Pubblicazione
 - Robin (OK di Achille 15/11, «programma tutto»): post 1183004, mar 26/1 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts,
@@ -28,4 +28,10 @@ PDRO_Oggetti_smarriti_10_la_scatola · 90.2 s · asset HeyGen 0faa89914724414d9f
 Achille: «problemi con l'audio, viene tagliato male» e «il rettangolo bianco del logo è tanto più grande». I tagli fra le
 scene cadevano a volte dentro una parola (tempi della trascrizione imprecisi nelle pause brevi): os.py ora taglia al centro
 del silenzio vero più lungo vicino al confine, con micro-dissolvenze. Card del logo rifatta della misura del marchio di
-riserva (48-402 x 68-192), senza il doppio riquadro. Rimontato, integro, −16 LUFS. Asset HeyGen 0faa89914724414d9fc9e6c4e772c123 (prima 09997f0af7664ba7b35e513ff7f7b6d1).
+riserva (48-402 x 68-192), senza il doppio riquadro. Rimontato, integro, −16 LUFS. Asset HeyGen da8f0a83909a4c0f9cdb9baaa266bff4 (prima 09997f0af7664ba7b35e513ff7f7b6d1).
+
+## Revisione 16/11/2026 — riquadro verde sotto il logo
+Nelle scene grafiche lunghe lo zoom lento del fondo (fino a 1,10, centrato sul quadro) faceva uscire da sotto la card del logo
+il marchio verde di riserva «CISL FP PADOVA ROVIGO». os.py ora centra lo zoom sul marchio e lo limita a 1,05; card del logo
+40-410 x 64-196; finale fermo. Controllo su un fotogramma al secondo: nessun verde fuori dal logo. Asset HeyGen da8f0a83909a4c0f9cdb9baaa266bff4 (prima 0faa89914724414d9fc9e6c4e772c123);
+video sostituito nel post Robin, data invariata.
