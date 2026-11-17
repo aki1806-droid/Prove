@@ -12,6 +12,10 @@ import glob, json, os, re, subprocess, sys
 QUI = os.path.dirname(os.path.abspath(__file__))
 AT, PAUSA, FPS, XF = 1.12, 0.35, 30, 0.35
 D = os.path.abspath(sys.argv[1])
+# varianti dello stesso video (altra voce, altri contatti): OS_VOCE=<nome> usa audio/<nome>/ e suoni/eventi_<nome>.json,
+# OS_FRAME=<suffisso> preferisce grafiche/<frame>_<suffisso>.jpg; il nome del file d'uscita prende i due suffissi.
+VAR = os.environ.get('OS_VOCE', ''); FSUF = os.environ.get('OS_FRAME', '')
+AUD = f'{D}/audio/{VAR}' if VAR else f'{D}/audio'
 
 
 def ff(*a):
@@ -63,16 +67,16 @@ def voce():
     if solo:
         narr = sorted(glob.glob(f'{D}/sottotitoli_senza_tag/*.txt'))
     par = [[t for t in open(f).read().split() if any(c.isalnum() for c in t)] for f in narr]
-    w = [x for x in json.load(open(f'{D}/audio/parole_grezzo.json'))['words'] if x.get('type', 'word') == 'word']
+    w = [x for x in json.load(open(f'{AUD}/parole_grezzo.json'))['words'] if x.get('type', 'word') == 'word']
     if solo:   # via i tag ([warmly], [short pause]…) e i segni senza lettere (—)
         w = [x for x in w if not x['text'].startswith('[') and not x['text'].endswith(']') and any(c.isalnum() for c in x['text'])]
     assert sum(map(len, par)) == len(w), (sum(map(len, par)), len(w))
     inizi, k = [], 0
     for p in par:
         inizi.append(k); k += len(p)
-    tot = dur(f'{D}/audio/narratore_grezzo.mp3')
+    tot = dur(f'{AUD}/narratore_grezzo.mp3')
     svolta = next((i for i, s in enumerate(SC) if any(k in s['titolo'].upper() for k in ('SVOLTA', 'BIVIO'))), None)
-    x = silenzi_rms(f'{D}/audio/narratore_grezzo.mp3')
+    x = silenzi_rms(f'{AUD}/narratore_grezzo.mp3')
     tagli = [(pausa_vera(x, w[i - 1]['end'], w[i]['start']), PAUSA + (0.45 if j == svolta else 0)) for j, i in enumerate(inizi) if j > 0]
     pezzi, a = [], 0.0
     for t, p in tagli:
@@ -81,23 +85,23 @@ def voce():
     if solo:
         fil = ''.join(f'[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,areverse,afade=t=in:d=0.015,areverse,atempo={AT},apad=pad_dur={p}[p{k}];' for k, (a, b, p) in enumerate(pezzi))
         fil += ''.join(f'[p{k}]' for k in range(len(pezzi))) + f'concat=n={len(pezzi)}:v=0:a=1[o]'
-        ff('-i', f'{D}/audio/narratore_grezzo.mp3', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
+        ff('-i', f'{AUD}/narratore_grezzo.mp3', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{AUD}/voce.wav')
         tempi, t = [], 0.0
         for k, (a, b, p) in enumerate(pezzi):
             d = (b - a) / AT + p; tempi.append({'id': f'S{k + 1:02d}', 'inizio': round(t, 3), 'durata': round(d, 3)}); t += d
-        json.dump(tempi, open(f'{D}/audio/tempi.json', 'w'), indent=1)
+        json.dump(tempi, open(f'{AUD}/tempi.json', 'w'), indent=1)
         print(os.path.basename(D), ' '.join(f"{x['id']}:{x['durata']:.1f}" for x in tempi), f'totale {t:.1f}')
         return
     fil = ''.join(f'[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,areverse,afade=t=in:d=0.015,areverse,atempo={AT},apad=pad_dur={p}[p{k}];' for k, (a, b, p) in enumerate(pezzi))
     fil += f'[1:a]aresample=44100,aformat=channel_layouts=mono,apad=pad_dur=1.0[p{len(pezzi)}];'
     fil += ''.join(f'[p{k}]' for k in range(len(pezzi) + 1)) + f'concat=n={len(pezzi) + 1}:v=0:a=1[o]'
-    ff('-i', f'{D}/audio/narratore_grezzo.mp3', '-i', f'{D}/audio/S08.wav', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
+    ff('-i', f'{AUD}/narratore_grezzo.mp3', '-i', f'{AUD}/S08.wav', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{AUD}/voce.wav')
     tempi, t = [], 0.0
     for k, (a, b, p) in enumerate(pezzi):
         d = (b - a) / AT + p; tempi.append({'id': f'S{k + 1:02d}', 'inizio': round(t, 3), 'durata': round(d, 3)}); t += d
-    da = dur(f'{D}/audio/S08.wav') + 1.0
-    tempi.append({'id': f'S{len(pezzi) + 1:02d}', 'inizio': round(t, 3), 'durata': round(da, 3), 'voce': round(dur(f'{D}/audio/S08.wav'), 3)})
-    json.dump(tempi, open(f'{D}/audio/tempi.json', 'w'), indent=1)
+    da = dur(f'{AUD}/S08.wav') + 1.0
+    tempi.append({'id': f'S{len(pezzi) + 1:02d}', 'inizio': round(t, 3), 'durata': round(da, 3), 'voce': round(dur(f'{AUD}/S08.wav'), 3)})
+    json.dump(tempi, open(f'{AUD}/tempi.json', 'w'), indent=1)
     print(os.path.basename(D), ' '.join(f"{x['id']}:{x['durata']:.1f}" for x in tempi), f'totale {t + da:.1f}')
 
 
@@ -170,9 +174,10 @@ def taglio_avatar(webm, x0, x1):
 
 
 def monta():
-    tempi = json.load(open(f'{D}/audio/tempi.json')); L = f'{D}/montaggio'; os.makedirs(L, exist_ok=True)
+    tempi = json.load(open(f'{AUD}/tempi.json')); L = f'{D}/montaggio' + ''.join(f'_{x}' for x in (FSUF, VAR) if x); os.makedirs(L, exist_ok=True)
     nome = re.sub(r'[^\w]+', '_', B['titolo']).strip('_')
     nome = os.path.basename(D).replace('pdro-os-', 'PDRO_Oggetti_smarriti_').replace('-', '_')
+    nome += ''.join(f'_{x}' for x in (FSUF, VAR) if x)
     pezzi = []
     for i, (s, t) in enumerate(zip(SC, tempi)):
         sid = f'S{i + 1:02d}'; d = t['durata'] + (XF if i + 1 < len(SC) else 0)
@@ -194,7 +199,7 @@ def monta():
         else:
             for j, f in enumerate(fr):
                 ln = sd + (XF if j + 1 < n else 0)
-                img = f'{D}/grafiche/{f}.jpg'
+                img = f'{D}/grafiche/{f}_{FSUF}.jpg' if FSUF and os.path.exists(f'{D}/grafiche/{f}_{FSUF}.jpg') else f'{D}/grafiche/{f}.jpg'
                 if HA_AVATAR and f in SC[-1]['frame']:
                     img = motto_a_capo(img)
                 ins += ['-framerate', str(FPS), '-loop', '1', '-t', f'{ln:.3f}', '-i', img]
@@ -219,9 +224,9 @@ def monta():
     tot = sum(x for _, x in pezzi); ult = tempi[-1]
     n = len(pezzi)
     if HA_AVATAR:
-        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{D}/audio/voce.wav']
+        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{AUD}/voce.wav']
     else:   # video senza avatar: segnaposto trasparente al posto del webm, così gli indici degli ingressi restano gli stessi
-        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-f', 'lavfi', '-i', 'color=black@0:s=16x16:d=1', '-i', f'{D}/audio/voce.wav']
+        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-f', 'lavfi', '-i', 'color=black@0:s=16x16:d=1', '-i', f'{AUD}/voce.wav']
     fil.append(f'[{acc}][{n}:v]overlay=0:0:shortest=1[l1]')
     cornice_in = None
     if not HA_AVATAR:
@@ -284,8 +289,9 @@ def monta():
     if sv:
         ev.append(('riser', T[sv]['inizio'] - 1.2, 0.35))
     # effetti propri del progetto: suoni/eventi.json = [[nome, scena, secondi dall'inizio della scena, volume], ...]
-    if os.path.exists(f'{D}/suoni/eventi.json'):
-        for k, sc_, dt, v in json.load(open(f'{D}/suoni/eventi.json')):
+    evf = f'{D}/suoni/eventi_{VAR}.json' if VAR and os.path.exists(f'{D}/suoni/eventi_{VAR}.json') else f'{D}/suoni/eventi.json'
+    if os.path.exists(evf):
+        for k, sc_, dt, v in json.load(open(evf)):
             ev.append((k, T[sc_]['inizio'] + dt, v))
     m0 = T[sv]['inizio'] if sv else tot
     vol = f"'0.09+0.05*gte(t,{m0:.2f})'"

@@ -37,3 +37,15 @@ Stesso montaggio; nella scena 8 lo scontrino dei contatti è rifatto con i deleg
 Voce invariata (non nomina territori né numeri). Testo social in TESTO_POST_PROVINCIALE.md. Integro, −16,3 LUFS.
 pdro_welfare_350_euro_lo_scontrino_provinciale · asset HeyGen 6d1ece789252400990662495f3300ad2
 (https://resource2.heygen.ai/video/6d1ece789252400990662495f3300ad2/original.mp4). Pubblicazione: in attesa dell'OK di Achille.
+
+## Versioni con altre voci (richiesta di Achille, 17/11)
+Stesso testo con i tag, ElevenLabs diretto, eleven_v4, una passata, due prese per voce; montaggio con
+`OS_VOCE=<voce> [OS_FRAME=provinciale] python3 strumenti/oggetti/os.py <cartella> voce|monta` (audio in audio/<voce>/,
+spunte di S07 ricalcolate con suoni/eventi_variante.py in suoni/eventi_<voce>.json). Logo finale come sopra.
+- **AOUP, voce di Achille** («Achille nuovo 1» KerPEYZvLEWNATg4AARX; presa 7Zn0keCGoimKQ8l6s8nD, Scribe DvMqK8b9hNrJsWQd6Cxa):
+  pdro_welfare_350_euro_lo_scontrino_achille, 91,1 s, −16,4 LUFS · asset HeyGen 3b6664288af24726a011b5bfaddde637
+  (https://resource2.heygen.ai/video/3b6664288af24726a011b5bfaddde637/original.mp4).
+- **Provinciale, voce Luca Ward** (tVdVcJPudubxmTmAw4tE; presa 8k1HActCNcY6wwvjmyR6, Scribe 35kxiKWPuITFfX6tIYPv), scontrino
+  finale con i delegati dei tre territori: pdro_welfare_350_euro_lo_scontrino_provinciale_ward, 91,3 s, −16,6 LUFS · asset HeyGen
+  17510179511848b5add3869345fc70a8 (https://resource2.heygen.ai/video/17510179511848b5add3869345fc70a8/original.mp4).
+Pubblicazione: in attesa dell'OK di Achille.
