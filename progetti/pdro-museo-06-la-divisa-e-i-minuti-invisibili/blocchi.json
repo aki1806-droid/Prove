@@ -1,0 +1,117 @@
+{
+ "titolo": "MUSEO DELLA SANITÀ 2126 · Ep.6 – La divisa e i minuti invisibili",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – La teca",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Museo della Sanità, anno duemilacentoventisei. Traccia sei. Nella teca: una divisa da lavoro, piegata con cura.",
+   "parole": 16,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "b_06.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip della teca: lento carrello in avanti, pulviscolo nel fascio di luce. In alto la barra \"AUDIOGUIDA · TRACCIA\" con forma d'onda che si muove sulla voce; \"bip\" di avvio traccia."
+  },
+  {
+   "scena": 2,
+   "titolo": "IL REPERTO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Per indossarla servivano alcuni minuti. Altri minuti servivano, a fine turno, per passare le consegne ai colleghi. Gli studiosi li chiamano i minuti invisibili.",
+   "parole": 24,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Il reperto in cornice dorata sotto il faretto; la targhetta si completa con la descrizione (fade + leggero zoom)."
+  },
+  {
+   "scena": 3,
+   "titolo": "ALL'EPOCA…",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Invisibili perché, secondo alcuni, quel tempo non esisteva. Ci si vestiva, ci si passava le informazioni sui pazienti, ma l'orologio, misteriosamente, non girava.",
+   "parole": 23,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "b_06.png",
+   "overlay": [
+    "S03A",
+    "S03B"
+   ],
+   "regia": "Stessa teca, angolo diverso (lento pan). Le didascalie sono targhette d'ottone avvitate: entrano con un \"clac\" metallico."
+  },
+  {
+   "scena": 4,
+   "titolo": "I VISITATORI",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "I visitatori chiedono: ma se era obbligatorio, non era lavoro? È una domanda così sensata che all'epoca veniva posta di rado.",
+   "parole": 21,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Fumetti dei visitatori del futuro, botta e risposta (pop a tempo). È il momento comico: lasciare mezzo secondo di pausa dopo l'ultima battuta."
+  },
+  {
+   "scena": 5,
+   "titolo": "IN REALTÀ, GIÀ NEL 2026",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Il contratto, in realtà, quei tempi li riconosceva. E quando si è discusso di nuovi modelli di orario, la CISL FP lo ha detto chiaramente: vestizione e consegne non si modificano in automatico. Si discutono nelle sedi di contrattazione.",
+   "parole": 39,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Qui il tono torna serio: pannello del museo con i tre punti che si accendono uno alla volta (spunta dorata)."
+  },
+  {
+   "scena": 6,
+   "titolo": "RITORNO AL 2026",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Togliete le cuffie. Duemilaventisei. La divisa è nel vostro armadietto. E quei minuti, oggi, li state lavorando voi.",
+   "parole": 18,
+   "frame": [
+    "S06A",
+    "S06B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Effetto \"cuffie tolte\": l'audio perde il riverbero del museo e diventa asciutto. Parole giganti con slam."
+  },
+  {
+   "scena": 7,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Se è lavoro, è orario. Anche quei minuti. Se nel tuo reparto spariscono, segnalacelo: è un tema che stiamo seguendo al tavolo. Chiama me o Giovanna Vullo.",
+   "parole": 34,
+   "frame": [
+    "S07A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Biglietto del museo con i contatti a sinistra."
+  }
+ ]
+}

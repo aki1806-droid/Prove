@@ -1,0 +1,122 @@
+{
+ "titolo": "CISL FP PICTURES · Ep.10 – Uniti – Il film",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – Scena d'apertura",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Un thriller. Un horror. Un western. Una storia d'amore. In ogni film c'era un protagonista diverso. Ma il finale era sempre lo stesso.",
+   "parole": 23,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "c_10.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip in formato cinema (già pronta in clip/). Voce da trailer, bassa e lenta. Colpo di grancassa (\"braam\") sulla seconda frase; entra l'etichetta del genere."
+  },
+  {
+   "scena": 2,
+   "titolo": "TITOLO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "CISL FP Pictures presenta: Uniti. Il film. Con il cast più grande di sempre.",
+   "parole": 14,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Cartello \"CISL FP PICTURES presenta\", poi il titolo del film esplode in scena (zoom-out + bagliore) e la fascia PROSSIMAMENTE scorre."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL TRAILER",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Infermieri. Operatori socio sanitari. Tecnici. Amministrativi. Ostetriche. Migliaia di persone, ognuna con la sua parte. E in mezzo alla scena, un posto ancora libero.",
+   "parole": 24,
+   "frame": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "img_da_animare": "c_10.png",
+   "overlay": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "regia": "Montaggio da trailer: tre cartelli neri alternati a stacchi rapidi sulla clip, ognuno con un colpo di percussione. Dissolvenze a nero tra un cartello e l'altro."
+  },
+  {
+   "scena": 4,
+   "titolo": "LA CRITICA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Le prime reazioni. Un iscritto: nei titoli di coda c'era il mio nome. Una delegata: è il primo film in cui il protagonista sei tu.",
+   "parole": 25,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Recensioni a cinque stelle che entrano in sequenza (le stelle si accendono una a una). Tono ironico; lasciare a schermo la dicitura \"Recensioni di fantasia\"."
+  },
+  {
+   "scena": 5,
+   "titolo": "IL COLPO DI SCENA – La tessera",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Con la tessera hai tutela individuale, consulenze sul contratto e sulla busta paga, il patronato, l'assistenza fiscale, corsi di preparazione e convenzioni. Ma soprattutto hai una squadra accanto. Ed entri a far parte del cast.",
+   "parole": 35,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Il biglietto del cinema si rivela essere la tessera. Qui la musica da trailer si ferma e resta un tappeto pulito: è il messaggio vero. I tre vantaggi si spuntano uno alla volta."
+  },
+  {
+   "scena": 6,
+   "titolo": "CLAIM FINALE",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Uniti. Il film. Manchi solo tu. E il biglietto è la tessera.",
+   "parole": 12,
+   "frame": [
+    "S06A",
+    "S06B"
+   ],
+   "img_da_animare": "c_10.png",
+   "overlay": [
+    "S06A",
+    "S06B"
+   ],
+   "regia": "Ultimo colpo da trailer: claim in due tempi, poi nero secco."
+  },
+  {
+   "scena": 7,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. I trailer erano finti. Tutto il resto è vero: i problemi, le tutele, e la differenza che fa non essere soli. Iscriviti alla CISL FP. Chiama me o Giovanna Vullo: ti aspettiamo.",
+   "parole": 39,
+   "frame": [
+    "S07A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Tono diretto: \"il film è finto, il resto è vero\"."
+  }
+ ]
+}

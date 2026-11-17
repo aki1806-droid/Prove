@@ -1,0 +1,122 @@
+{
+ "titolo": "CISL FP PICTURES · Ep.7 – Non servono superpoteri",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – Scena d'apertura",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Non volano. Non hanno un mantello. Non leggono nel pensiero. Ma hanno un potere che in questo ospedale hanno in pochi: leggono i contratti. Fino all'ultima pagina.",
+   "parole": 27,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "c_07.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip in formato cinema (già pronta in clip/). Voce da trailer, bassa e lenta. Colpo di grancassa (\"braam\") sulla seconda frase; entra l'etichetta del genere."
+  },
+  {
+   "scena": 2,
+   "titolo": "TITOLO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "CISL FP Pictures presenta: Non servono superpoteri. La storia vera di una squadra di persone normali.",
+   "parole": 16,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Cartello \"CISL FP PICTURES presenta\", poi il titolo del film esplode in scena (zoom-out + bagliore) e la fascia PROSSIMAMENTE scorre."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL TRAILER",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Un'infermiera. Un operatore socio sanitario. Un tecnico. Un'amministrativa. Di giorno lavorano accanto a te. E quando serve, si siedono a un tavolo e non si alzano finché non arriva una risposta.",
+   "parole": 31,
+   "frame": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "img_da_animare": "c_07.png",
+   "overlay": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "regia": "Montaggio da trailer: tre cartelli neri alternati a stacchi rapidi sulla clip, ognuno con un colpo di percussione. Dissolvenze a nero tra un cartello e l'altro."
+  },
+  {
+   "scena": 4,
+   "titolo": "LA CRITICA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Il pubblico li ha già adottati. Un'amministrativa: li ho riconosciuti, sono quelli del mio piano.",
+   "parole": 15,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Recensioni a cinque stelle che entrano in sequenza (le stelle si accendono una a una). Tono ironico; lasciare a schermo la dicitura \"Recensioni di fantasia\"."
+  },
+  {
+   "scena": 5,
+   "titolo": "IL COLPO DI SCENA – La tessera",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Si chiamano delegati. E dietro ognuno di loro c'è una squadra intera, che li forma e li sostiene. Da iscritto, quella squadra è alle tue spalle. E se vuoi farne parte, la porta è aperta.",
+   "parole": 35,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Il biglietto del cinema si rivela essere la tessera. Qui la musica da trailer si ferma e resta un tappeto pulito: è il messaggio vero. I tre vantaggi si spuntano uno alla volta."
+  },
+  {
+   "scena": 6,
+   "titolo": "CLAIM FINALE",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Non servono superpoteri. Serve qualcuno che ci metta la faccia. La squadra cerca nuovi eroi.",
+   "parole": 15,
+   "frame": [
+    "S06A",
+    "S06B"
+   ],
+   "img_da_animare": "c_07.png",
+   "overlay": [
+    "S06A",
+    "S06B"
+   ],
+   "regia": "Ultimo colpo da trailer: claim in due tempi, poi nero secco."
+  },
+  {
+   "scena": 7,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. I nostri delegati non hanno poteri speciali: hanno preparazione, e hanno voi. Iscriviti alla CISL FP, e se vuoi, entra in squadra. Chiama me o Giovanna Vullo.",
+   "parole": 34,
+   "frame": [
+    "S07A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Tono diretto: \"il film è finto, il resto è vero\"."
+  }
+ ]
+}

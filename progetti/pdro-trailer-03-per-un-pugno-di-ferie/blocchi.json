@@ -1,0 +1,122 @@
+{
+ "titolo": "CISL FP PICTURES · Ep.3 – Per un pugno di ferie",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – Scena d'apertura",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Agosto. Mezzogiorno. Un corridoio deserto. In fondo, appeso al muro, un solo foglio: il piano ferie. E due colleghi che vogliono le stesse due settimane.",
+   "parole": 25,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "c_03.png",
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": "Clip in formato cinema (già pronta in clip/). Voce da trailer, bassa e lenta. Colpo di grancassa (\"braam\") sulla seconda frase; entra l'etichetta del genere."
+  },
+  {
+   "scena": 2,
+   "titolo": "TITOLO",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "CISL FP Pictures presenta: Per un pugno di ferie. In questo reparto non c'è posto per tutti e due. O forse sì.",
+   "parole": 22,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Cartello \"CISL FP PICTURES presenta\", poi il titolo del film esplode in scena (zoom-out + bagliore) e la fascia PROSSIMAMENTE scorre."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL TRAILER",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Lui le ha chieste a gennaio. Lei ha i figli a casa da scuola. Il coordinatore ha un organico che non basta. E il sole picchia.",
+   "parole": 26,
+   "frame": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "img_da_animare": "c_03.png",
+   "overlay": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "regia": "Montaggio da trailer: tre cartelli neri alternati a stacchi rapidi sulla clip, ognuno con un colpo di percussione. Dissolvenze a nero tra un cartello e l'altro."
+  },
+  {
+   "scena": 4,
+   "titolo": "LA CRITICA",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "La critica applaude. Un infermiere di Ortopedia: il duello davanti al piano ferie è già un classico.",
+   "parole": 17,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Recensioni a cinque stelle che entrano in sequenza (le stelle si accendono una a una). Tono ironico; lasciare a schermo la dicitura \"Recensioni di fantasia\"."
+  },
+  {
+   "scena": 5,
+   "titolo": "IL COLPO DI SCENA – La tessera",
+   "tipo": "GRAFICA",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Ma nel nostro finale nessuno resta a terra. Le ferie sono un diritto, e il piano ferie deve avere criteri chiari e uguali per tutti. Da iscritto, se ricevi un diniego ingiusto, non lo affronti da solo: ti assistiamo noi.",
+   "parole": 40,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Il biglietto del cinema si rivela essere la tessera. Qui la musica da trailer si ferma e resta un tappeto pulito: è il messaggio vero. I tre vantaggi si spuntano uno alla volta."
+  },
+  {
+   "scena": 6,
+   "titolo": "CLAIM FINALE",
+   "tipo": "CLIP",
+   "voce": "HeyGen · voce \"Luca Ward\" (narratore fuori campo, nessun avatar)",
+   "testo_voce": "Per un pugno di ferie. Quest'estate, in tutti i reparti. Portate la crema solare.",
+   "parole": 14,
+   "frame": [
+    "S06A",
+    "S06B"
+   ],
+   "img_da_animare": "c_03.png",
+   "overlay": [
+    "S06A",
+    "S06B"
+   ],
+   "regia": "Ultimo colpo da trailer: claim in due tempi, poi nero secco."
+  },
+  {
+   "scena": 7,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Le ferie non si vincono a duello: si programmano, con regole uguali per tutti. Iscriviti alla CISL FP. Chiama me o Giovanna Vullo.",
+   "parole": 30,
+   "frame": [
+    "S07A"
+   ],
+   "img_da_animare": null,
+   "overlay": [],
+   "regia": "Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>660, y>1100). Tono diretto: \"il film è finto, il resto è vero\"."
+  }
+ ]
+}
