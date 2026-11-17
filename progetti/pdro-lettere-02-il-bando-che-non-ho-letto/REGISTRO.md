@@ -18,4 +18,6 @@ Come l'Ep. 1. Integro, −16 LUFS.
 pdro_lettere_02_il_bando_che_non_ho_letto · asset HeyGen af79110887124e629d093fd7dd0c82de (https://resource2.heygen.ai/video/af79110887124e629d093fd7dd0c82de/original.mp4).
 
 ## Pubblicazione
-- Robin: previsto lun 30/11 ore 19:00 (OK di Achille 16/11), creazione del post bloccata dal controllo dei permessi della sessione: da rifare.
+- Robin (OK di Achille 16-17/11): post 1187798, lun 30/11 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), testo di
+  TESTO_POST.md con «Storia di fantasia, ispirata a situazioni reali», primo commento WhatsApp. (Il 16/11 la creazione era stata
+  bloccata dal controllo dei permessi della sessione; rifatta il 17/11 dopo la conferma di Achille.)

@@ -18,4 +18,6 @@ Come l'Ep. 1. Integro, −16 LUFS.
 pdro_lettere_03_le_ferie_che_non_ho_preso · asset HeyGen 346768a907ef46f7aeef69dd2378b85d (https://resource2.heygen.ai/video/346768a907ef46f7aeef69dd2378b85d/original.mp4).
 
 ## Pubblicazione
-- Robin: previsto lun 7/12 ore 19:00 (OK di Achille 16/11), creazione del post bloccata dal controllo dei permessi della sessione: da rifare.
+- Robin (OK di Achille 16-17/11): post 1187799, lun 7/12 ore 19:00, 4 canali AOUP (TikTok, IG reel, YouTube Shorts, FB reel), testo di
+  TESTO_POST.md con «Storia di fantasia, ispirata a situazioni reali», primo commento WhatsApp. (Il 16/11 la creazione era stata
+  bloccata dal controllo dei permessi della sessione; rifatta il 17/11 dopo la conferma di Achille.)

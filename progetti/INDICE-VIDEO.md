@@ -5,8 +5,8 @@ progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le
 
 **203 video** in 15 sezioni.
 
-La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 15 novembre
-2026: fino al 15/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
+La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 17 novembre
+2026: fino al 17/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
 Il calendario completo, in ordine di data, è subito sotto.
 
 - `https://resource2.heygen.ai/video/<id>/original.mp4`: file originale caricato su HeyGen, si apre e si scarica direttamente.
@@ -55,6 +55,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mar 24/11 19:00 | Oggetti smarriti · Ep. 1 «Il badge» | 4 canali AOUP |
 | gio 26/11 18:15 | 20 format · 03 «Mito da sfatare» | 4 canali AOUP |
 | ven 27/11 12:30 | Convenzioni 5 · «Cartoline dal riposo – tempo libero» | 4 canali AOUP (testo provinciale) |
+| lun 30/11 19:00 | Lettere dal futuro · Ep. 2 «Il bando che non ho letto» | 4 canali AOUP |
 | mar 1/12 12:30 | Convenzioni 6 · «Una giornata a sconto – acquisti» | 4 canali AOUP (testo provinciale) |
 | mar 1/12 18:15 | Calendario dei diritti · Casella 1 «Riposo giornaliero» | 4 canali AOUP |
 | mar 1/12 19:00 | Oggetti smarriti · Ep. 2 «La tazza scheggiata» | 4 canali AOUP |
@@ -66,6 +67,7 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | sab 5/12 18:15 | Calendario dei diritti · Casella 5 «Diritto allo studio» | 4 canali AOUP |
 | dom 6/12 18:15 | Calendario dei diritti · Casella 6 «Legge 104» | 4 canali AOUP |
 | lun 7/12 18:15 | Calendario dei diritti · Casella 7 «Congedo parentale» | 4 canali AOUP |
+| lun 7/12 19:00 | Lettere dal futuro · Ep. 3 «Le ferie che non ho preso» | 4 canali AOUP |
 | mar 8/12 12:30 | Convenzioni 8 · «Quanto vale una tessera?» | 4 canali AOUP (testo provinciale) |
 | mar 8/12 18:15 | Calendario dei diritti · Casella 8 «Congedo di paternità» | 4 canali AOUP |
 | mar 8/12 19:00 | Oggetti smarriti · Ep. 3 «Le scarpe consumate» | 4 canali AOUP |
@@ -358,8 +360,8 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · Oggetti smarriti – Ep. 9 «La penna verde» (reel 9:16) | mar 19/1 19:00 | [apri](https://resource2.heygen.ai/video/b0a7e28bf2fa4992be21810ef1d46894/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 10 «La scatola» (reel 9:16) | mar 26/1 19:00 | [apri](https://resource2.heygen.ai/video/da8f0a83909a4c0f9cdb9baaa266bff4/original.mp4) |
 | PDRO · Lettere dal futuro – Ep. 1 «Firma quel modulo» (reel 9:16, Heygen 2) | lun 23/11 19:00 | [apri](https://resource2.heygen.ai/video/70b0c82c736048d49daa9df99c78faf1/original.mp4) |
-| PDRO · Lettere dal futuro – Ep. 2 «Il bando che non ho letto» (reel 9:16, Heygen 2) |  | [apri](https://resource2.heygen.ai/video/af79110887124e629d093fd7dd0c82de/original.mp4) |
-| PDRO · Lettere dal futuro – Ep. 3 «Le ferie che non ho preso» (reel 9:16, Heygen 2) |  | [apri](https://resource2.heygen.ai/video/346768a907ef46f7aeef69dd2378b85d/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 2 «Il bando che non ho letto» (reel 9:16, Heygen 2) | lun 30/11 19:00 | [apri](https://resource2.heygen.ai/video/af79110887124e629d093fd7dd0c82de/original.mp4) |
+| PDRO · Lettere dal futuro – Ep. 3 «Le ferie che non ho preso» (reel 9:16, Heygen 2) | lun 7/12 19:00 | [apri](https://resource2.heygen.ai/video/346768a907ef46f7aeef69dd2378b85d/original.mp4) |
 | PDRO · Lettere dal futuro – Ep. 4 «Quel cedolino mai controllato» (reel 9:16, Heygen 2) | lun 14/12 19:00 | [apri](https://resource2.heygen.ai/video/e2ec2fc182244ff586ce7a8d8b60addd/original.mp4) |
 | PDRO · Lettere dal futuro – Ep. 5 «Il master rimandato» (reel 9:16, Heygen 2) | lun 21/12 19:00 | [apri](https://resource2.heygen.ai/video/7a35da961adf49ad9310acddc4259f08/original.mp4) |
 | PDRO · Lettere dal futuro – Ep. 6 «Diciotto mesi» (reel 9:16, Heygen 2) | lun 28/12 19:00 | [apri](https://resource2.heygen.ai/video/37a1260e2cec46859b3224d6ac3e0faa/original.mp4) |
