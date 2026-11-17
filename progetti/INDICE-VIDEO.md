@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**203 video** in 15 sezioni.
+**204 video** in 15 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 17 novembre
 2026: fino al 17/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -349,6 +349,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
 | PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
+| PDRO · Welfare 2026 «350 euro – Lo scontrino» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/64ea8400368147b49afa9c25c5d0ef76/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 1 «Il badge» (reel 9:16) | mar 24/11 19:00 | [apri](https://resource2.heygen.ai/video/f6cc90aa7670436d9b2beff149b5fb21/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 2 «La tazza scheggiata» (reel 9:16) | mar 1/12 19:00 | [apri](https://resource2.heygen.ai/video/9f3c050e294c4d90bb53cbf44e3ab216/original.mp4) |
 | PDRO · Oggetti smarriti – Ep. 3 «Le scarpe consumate» (reel 9:16) | mar 8/12 19:00 | [apri](https://resource2.heygen.ai/video/803527370e90404aad9e3a4ccfa7552e/original.mp4) |

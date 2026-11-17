@@ -23,6 +23,7 @@ def dur(p):
 
 
 B = json.load(open(f'{D}/blocchi.json'))
+HA_AVATAR = os.path.exists(f'{D}/avatar/avatar.webm')
 SC = B['scene']
 
 
@@ -58,8 +59,13 @@ def pausa_vera(db, fine, inizio):
 
 def voce():
     narr = sorted(glob.glob(f'{D}/voce_testi/*_narratore.txt'))
-    par = [open(f).read().split() for f in narr]
+    solo = not narr   # video senza avatar: una sola voce su tutte le scene, testi puliti (senza tag) per contare le parole
+    if solo:
+        narr = sorted(glob.glob(f'{D}/sottotitoli_senza_tag/*.txt'))
+    par = [[t for t in open(f).read().split() if any(c.isalnum() for c in t)] for f in narr]
     w = [x for x in json.load(open(f'{D}/audio/parole_grezzo.json'))['words'] if x.get('type', 'word') == 'word']
+    if solo:   # via i tag ([warmly], [short pause]…) e i segni senza lettere (—)
+        w = [x for x in w if not x['text'].startswith('[') and not x['text'].endswith(']') and any(c.isalnum() for c in x['text'])]
     assert sum(map(len, par)) == len(w), (sum(map(len, par)), len(w))
     inizi, k = [], 0
     for p in par:
@@ -71,7 +77,17 @@ def voce():
     pezzi, a = [], 0.0
     for t, p in tagli:
         pezzi.append((a, t, p)); a = t
-    pezzi.append((a, tot, 0.5))
+    pezzi.append((a, tot, 1.5 if solo else 0.5))
+    if solo:
+        fil = ''.join(f'[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,areverse,afade=t=in:d=0.015,areverse,atempo={AT},apad=pad_dur={p}[p{k}];' for k, (a, b, p) in enumerate(pezzi))
+        fil += ''.join(f'[p{k}]' for k in range(len(pezzi))) + f'concat=n={len(pezzi)}:v=0:a=1[o]'
+        ff('-i', f'{D}/audio/narratore_grezzo.mp3', '-filter_complex', fil, '-map', '[o]', '-ar', '44100', '-ac', '1', '-c:a', 'pcm_s16le', f'{D}/audio/voce.wav')
+        tempi, t = [], 0.0
+        for k, (a, b, p) in enumerate(pezzi):
+            d = (b - a) / AT + p; tempi.append({'id': f'S{k + 1:02d}', 'inizio': round(t, 3), 'durata': round(d, 3)}); t += d
+        json.dump(tempi, open(f'{D}/audio/tempi.json', 'w'), indent=1)
+        print(os.path.basename(D), ' '.join(f"{x['id']}:{x['durata']:.1f}" for x in tempi), f'totale {t:.1f}')
+        return
     fil = ''.join(f'[0:a]atrim={a:.3f}:{b:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.01,areverse,afade=t=in:d=0.015,areverse,atempo={AT},apad=pad_dur={p}[p{k}];' for k, (a, b, p) in enumerate(pezzi))
     fil += f'[1:a]aresample=44100,aformat=channel_layouts=mono,apad=pad_dur=1.0[p{len(pezzi)}];'
     fil += ''.join(f'[p{k}]' for k in range(len(pezzi) + 1)) + f'concat=n={len(pezzi) + 1}:v=0:a=1[o]'
@@ -179,7 +195,7 @@ def monta():
             for j, f in enumerate(fr):
                 ln = sd + (XF if j + 1 < n else 0)
                 img = f'{D}/grafiche/{f}.jpg'
-                if f in SC[-1]['frame']:
+                if HA_AVATAR and f in SC[-1]['frame']:
                     img = motto_a_capo(img)
                 ins += ['-framerate', str(FPS), '-loop', '1', '-t', f'{ln:.3f}', '-i', img]
                 zz = "1" if s is SC[-1] else "min(1.05\\,1.0+0.00025*on)"  # la scena finale resta ferma: il motto in basso non deve uscire dal quadro
@@ -202,47 +218,54 @@ def monta():
         off += pezzi[i - 1][1]; fil.append(f'[{acc}][{i}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}[x{i}]'); acc = f'x{i}'
     tot = sum(x for _, x in pezzi); ult = tempi[-1]
     n = len(pezzi)
-    ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{D}/audio/voce.wav']
+    if HA_AVATAR:
+        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{D}/audio/voce.wav']
+    else:   # video senza avatar: segnaposto trasparente al posto del webm, così gli indici degli ingressi restano gli stessi
+        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-f', 'lavfi', '-i', 'color=black@0:s=16x16:d=1', '-i', f'{D}/audio/voce.wav']
     fil.append(f'[{acc}][{n}:v]overlay=0:0:shortest=1[l1]')
-    t0 = ult['inizio']
-    # mezzo busto intero, spalle fuori dal bordo destro. Per integrarlo nella bacheca: tono scaldato verso il sughero,
-    # ombra scura e morbida proiettata in basso a sinistra (come le foto e i fogli appuntati) e un ingresso che sale dal fondo.
-    # dove sta l'avatar nel webm: il gemello digitale riempie il quadro (busto x 440-1530), un avatar-foto è un ritratto
-    # stretto con le maniche tagliate dritte ai bordi della foto
-    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-c:v', 'libvpx-vp9', '-ss', '3', '-i', f'{D}/avatar/avatar.webm',
-                    '-frames:v', '1', f'{D}/avatar/_fotogramma.png'], check=True)
-    from PIL import Image
-    import numpy as np
-    alfa = np.array(Image.open(f'{D}/avatar/_fotogramma.png').getchannel('A'))
-    os.remove(f'{D}/avatar/_fotogramma.png')
-    col = np.where((alfa > 128).sum(0) > 20)[0]
-    x0, x1 = int(col.min()), int(col.max()) + 1
     cornice_in = None
-    sale0 = f"max(0\\,60*(1-(t-{t0:.3f})/0.5))"
-    if x1 - x0 > 900:
-        # gemello digitale: mezzo busto intero, spalle fuori dal bordo destro, ombra sul fondo
-        fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,'
-                   f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
-        fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
-        fil.append(f"[l1][al]overlay=x=536:y='1234+{sale0}':eval=frame:eof_action=pass[l2];"
-                   f"[l2][av]overlay=x=560:y='1220+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
+    if not HA_AVATAR:
+        fil.append('[l1]format=yuv420p[v]')
     else:
-        # avatar-foto (15/11, Achille: niente cornice, avatar integrato). Il ritratto è stretto e il corpo tocca i bordi
-        # della foto da una certa altezza in giù (le spalle): si misura su più fotogrammi, si taglia 15 px sopra e si
-        # mostra testa e spalle scontornate, col taglio sul bordo basso dello schermo. Scala: la più grande (fino a 1,3)
-        # che non tocca la card dei contatti (x <= 659, y <= 1637) né il motto (x <= 480, y >= 1700); testa a x ≈ 870.
-        cy0, cy1, X, k, scuro = taglio_avatar(f'{D}/avatar/avatar.webm', x0, x1)
-        w, h = round((x1 - x0) * k / 2) * 2, round((cy1 - cy0) * k / 2) * 2
-        Y = 1920 - h
-        fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={x1 - x0}:{cy1 - cy0}:{x0}:{cy0},scale={w}:{h}:flags=lanczos,'
-                   f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
-        # vestiti scuri su fondo scuro: alone chiaro e tenue dietro la figura invece dell'ombra
-        alone = 'lutrgb=r=235:g=228:b=215,boxblur=luma_radius=26:alpha_radius=26,colorchannelmixer=aa=0.35' if scuro else \
-                'lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55'
-        dx, dy = (0, 0) if scuro else (-24, 14)
-        fil.append(f'[om]{alone}[al]')
-        fil.append(f"[l1][al]overlay=x={X + dx}:y='{Y + dy}+{sale0}':eval=frame:eof_action=pass[l2];"
-                   f"[l2][av]overlay=x={X}:y='{Y}+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
+        t0 = ult['inizio']
+        # mezzo busto intero, spalle fuori dal bordo destro. Per integrarlo nella bacheca: tono scaldato verso il sughero,
+        # ombra scura e morbida proiettata in basso a sinistra (come le foto e i fogli appuntati) e un ingresso che sale dal fondo.
+        # dove sta l'avatar nel webm: il gemello digitale riempie il quadro (busto x 440-1530), un avatar-foto è un ritratto
+        # stretto con le maniche tagliate dritte ai bordi della foto
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-c:v', 'libvpx-vp9', '-ss', '3', '-i', f'{D}/avatar/avatar.webm',
+                        '-frames:v', '1', f'{D}/avatar/_fotogramma.png'], check=True)
+        from PIL import Image
+        import numpy as np
+        alfa = np.array(Image.open(f'{D}/avatar/_fotogramma.png').getchannel('A'))
+        os.remove(f'{D}/avatar/_fotogramma.png')
+        col = np.where((alfa > 128).sum(0) > 20)[0]
+        x0, x1 = int(col.min()), int(col.max()) + 1
+        cornice_in = None
+        sale0 = f"max(0\\,60*(1-(t-{t0:.3f})/0.5))"
+        if x1 - x0 > 900:
+            # gemello digitale: mezzo busto intero, spalle fuori dal bordo destro, ombra sul fondo
+            fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop=1090:min(1080\\,ih):440:0,scale=-2:700:flags=lanczos,'
+                       f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
+            fil.append('[om]lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55[al]')
+            fil.append(f"[l1][al]overlay=x=536:y='1234+{sale0}':eval=frame:eof_action=pass[l2];"
+                       f"[l2][av]overlay=x=560:y='1220+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
+        else:
+            # avatar-foto (15/11, Achille: niente cornice, avatar integrato). Il ritratto è stretto e il corpo tocca i bordi
+            # della foto da una certa altezza in giù (le spalle): si misura su più fotogrammi, si taglia 15 px sopra e si
+            # mostra testa e spalle scontornate, col taglio sul bordo basso dello schermo. Scala: la più grande (fino a 1,3)
+            # che non tocca la card dei contatti (x <= 659, y <= 1637) né il motto (x <= 480, y >= 1700); testa a x ≈ 870.
+            cy0, cy1, X, k, scuro = taglio_avatar(f'{D}/avatar/avatar.webm', x0, x1)
+            w, h = round((x1 - x0) * k / 2) * 2, round((cy1 - cy0) * k / 2) * 2
+            Y = 1920 - h
+            fil.append(f'[{n + 1}:v]fps={FPS},format=rgba,crop={x1 - x0}:{cy1 - cy0}:{x0}:{cy0},scale={w}:{h}:flags=lanczos,'
+                       f'colorchannelmixer=rr=1.03:gg=1.0:bb=0.94,fade=in:st={t0:.3f}:d=0.45:alpha=1,split[av][om]')
+            # vestiti scuri su fondo scuro: alone chiaro e tenue dietro la figura invece dell'ombra
+            alone = 'lutrgb=r=235:g=228:b=215,boxblur=luma_radius=26:alpha_radius=26,colorchannelmixer=aa=0.35' if scuro else \
+                    'lutrgb=r=20:g=12:b=6,boxblur=luma_radius=22:alpha_radius=22,colorchannelmixer=aa=0.55'
+            dx, dy = (0, 0) if scuro else (-24, 14)
+            fil.append(f'[om]{alone}[al]')
+            fil.append(f"[l1][al]overlay=x={X + dx}:y='{Y + dy}+{sale0}':eval=frame:eof_action=pass[l2];"
+                       f"[l2][av]overlay=x={X}:y='{Y}+{sale0}':eval=frame:eof_action=pass,format=yuv420p[v]")
     # audio: voce, musica (−22 dB, più aperta dalla svolta), effetti del pacchetto
     T = {x['id']: x for x in tempi}
     ev = []
@@ -260,13 +283,17 @@ def monta():
                 ev.append(('notifica', t0 + dd * j / nf + 0.3, 0.45))
     if sv:
         ev.append(('riser', T[sv]['inizio'] - 1.2, 0.35))
+    # effetti propri del progetto: suoni/eventi.json = [[nome, scena, secondi dall'inizio della scena, volume], ...]
+    if os.path.exists(f'{D}/suoni/eventi.json'):
+        for k, sc_, dt, v in json.load(open(f'{D}/suoni/eventi.json')):
+            ev.append((k, T[sc_]['inizio'] + dt, v))
     m0 = T[sv]['inizio'] if sv else tot
     vol = f"'0.09+0.05*gte(t,{m0:.2f})'"
     au = [f'[{n + 2}:a]aformat=channel_layouts=stereo[vo]', f'[{n + 3}:a]aloop=loop=-1:size=2e9,atrim=0:{tot:.3f},volume={vol}:eval=frame,afade=t=out:st={tot - 2.5:.3f}:d=2.5[mu]']
-    ins += ['-i', f'{QUI}/suoni/musica.mp3']
+    ins += ['-i', f'{D}/suoni/musica.mp3' if os.path.exists(f'{D}/suoni/musica.mp3') else f'{QUI}/suoni/musica.mp3']
     mix = ['[vo]', '[mu]']
     for j, (k, t, v) in enumerate(ev):
-        ins += ['-i', f'{QUI}/suoni/{k}.mp3']; q = n + 4 + j
+        ins += ['-i', f'{D}/suoni/{k}.mp3' if os.path.exists(f'{D}/suoni/{k}.mp3') else f'{QUI}/suoni/{k}.mp3']; q = n + 4 + j
         au.append(f'[{q}:a]aformat=channel_layouts=stereo,volume={v},adelay={int(t * 1000)}|{int(t * 1000)}[e{j}]'); mix.append(f'[e{j}]')
     au.append(''.join(mix) + f'amix=inputs={len(mix)}:duration=first:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=11[au]')
     if cornice_in:

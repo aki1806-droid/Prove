@@ -1,0 +1,126 @@
+{
+ "titolo": "WELFARE 2026 · 350 euro in buoni acquisto – \"Lo scontrino\"",
+ "formato": "9:16",
+ "avatar": null,
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – Il cartellino",
+   "tipo": "CLIP",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[warmly] C'è una novità che vale TRECENTOCINQUANTA euro. [excited] E riguarda te, se lavori nella sanità veneta! [short pause] [curious] Ecco cosa sappiamo già… [slowly] e cosa, ancora, no.",
+   "testo_sottotitoli": "C'è una novità che vale trecentocinquanta euro. E riguarda te, se lavori nella sanità veneta. Ecco cosa sappiamo già. E cosa, ancora, no.",
+   "parole": 23,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "img_da_animare": "w_1.png",
+   "regia": "Clip del buono regalo nell'armadietto (già pronta in clip/hook.mp4). Il cartellino giallo \"350 €\" entra dondolando come appeso a un filo; suono di cassa (\"ka-ching\") sul primo secondo."
+  },
+  {
+   "scena": 2,
+   "titolo": "LA DELIBERA – Lo scontrino",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[dramatically] Con la delibera numero settecentotredici dell'undici novembre, Azienda Zero ha aggiudicato alla società DoubleYou il servizio di gestione del welfare — per il personale di TUTTE le aziende e gli enti del Servizio sanitario regionale. [short pause] [happy] E l'aggiudicazione è già efficace!",
+   "testo_sottotitoli": "Con la delibera numero settecentotredici dell'undici novembre, Azienda Zero ha aggiudicato alla società DoubleYou il servizio di gestione del welfare per il personale di tutte le aziende e gli enti del Servizio sanitario regionale. E l'aggiudicazione è già efficace.",
+   "parole": 39,
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "img_da_animare": null,
+   "regia": "Lo scontrino esce dall'alto riga per riga, con il rumore della stampante di cassa. Sull'ultima riga cade il timbro verde AGGIUDICATO."
+  },
+  {
+   "scena": 3,
+   "titolo": "IL VALORE",
+   "tipo": "CLIP",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[excited] Il valore è confermato: TRECENTOCINQUANTA euro! [warmly] In buoni acquisto… per ciascun dipendente.",
+   "testo_sottotitoli": "Il valore è confermato: trecentocinquanta euro, in buoni acquisto, per ciascun dipendente.",
+   "parole": 12,
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "img_da_animare": "w_2.png",
+   "regia": "Clip dell'infermiera che guarda il telefono. Il numero sale con un contatore animato da 0 a 350 (mezzo secondo), poi entra la fascia verde."
+  },
+  {
+   "scena": 4,
+   "titolo": "LA PIATTAFORMA",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[curious] A gestirli sarà una nuova piattaforma digitale: quella di DoubleYou. [warmly] È lì che i benefici verranno resi disponibili.",
+   "testo_sottotitoli": "A gestirli sarà una nuova piattaforma digitale, quella di DoubleYou. È lì che i benefici verranno resi disponibili.",
+   "parole": 18,
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "img_da_animare": null,
+   "regia": "Lo smartphone sale dal basso; la scheda verde con il saldo si illumina, poi compaiono le tre voci \"IN ARRIVO\". Lasciare leggibile la dicitura \"schermata illustrativa\"."
+  },
+  {
+   "scena": 5,
+   "titolo": "LA SCADENZA",
+   "tipo": "CLIP",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[dramatically] La data da segnare è il QUINDICI dicembre. [short pause] [warmly] Il provvedimento prevede che, entro quel giorno, i buoni siano a disposizione di tutti i dipendenti. [happy] E proprio per rispettare questa scadenza, Azienda Zero ha autorizzato l'avvio anticipato del servizio!",
+   "testo_sottotitoli": "La data da segnare è il quindici dicembre. Il provvedimento prevede che, entro quel giorno, i buoni siano a disposizione di tutti i dipendenti. E proprio per rispettare questa scadenza, Azienda Zero ha autorizzato l'avvio anticipato del servizio.",
+   "parole": 38,
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "img_da_animare": "w_4.png",
+   "regia": "Sfondo: clip con le luci di Natale (clip/calendario.mp4), senza date nell'immagine. Il riquadro \"15 DICEMBRE 2026\" cade al centro con un tonfo; poi il timbro AVVIO ANTICIPATO."
+  },
+  {
+   "scena": 6,
+   "titolo": "COSA MANCA ANCORA",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[curious] Cosa manca ancora? [short pause] [cautiously] Tre cose… e non da poco. Come si accede alla piattaforma. Come si usano i buoni. E in quali negozi e servizi si potranno spendere. [softly] Su questo, aspettiamo le comunicazioni ufficiali.",
+   "testo_sottotitoli": "Cosa manca ancora? Tre cose, e non da poco. Come si accede alla piattaforma. Come si usano i buoni. E in quali negozi e servizi si potranno spendere. Su questo aspettiamo le comunicazioni ufficiali.",
+   "parole": 34,
+   "frame": [
+    "S06A",
+    "S06B"
+   ],
+   "img_da_animare": null,
+   "regia": "Tre barre di caricamento che avanzano e si fermano a metà: l'informazione non è ancora completa. Cambio di colore (arancio) per segnalare \"in sospeso\"."
+  },
+  {
+   "scena": 7,
+   "titolo": "LE PRIORITÀ CISL FP",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[warmly] Come CISL FP seguiamo ogni passaggio, [dramatically] con quattro priorità chiare. [short pause] Una piattaforma semplice e accessibile a TUTTI. Una rete ampia di negozi e servizi convenzionati. La possibilità di usare davvero l'INTERO valore dei buoni. [excited] E nessun ritardo, nessuna difficoltà operativa!",
+   "testo_sottotitoli": "Come CISL FP seguiamo ogni passaggio, con quattro priorità chiare. Una piattaforma semplice e accessibile a tutti. Una rete ampia di negozi e servizi convenzionati. La possibilità di usare davvero l'intero valore dei buoni. E nessun ritardo, nessuna difficoltà operativa.",
+   "parole": 40,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "img_da_animare": null,
+   "regia": "Checklist verde: le quattro priorità si spuntano a tempo con la voce. Qui la musica cresce."
+  },
+  {
+   "scena": 8,
+   "titolo": "CHIUSURA – Contatti",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8: uomo sui 40 anni, calda, carismatica, avvolgente) – fuori campo, nessun avatar",
+   "testo_voce": "[warmly] Appena arriveranno le istruzioni, te le spieghiamo noi… passo dopo passo. [happy] Seguici, e per qualsiasi dubbio scrivici o chiamaci! [short pause] [dramatically] CISL FP Padova Rovigo. [warmly] Sempre al fianco dei lavoratori.",
+   "testo_sottotitoli": "Appena arriveranno le istruzioni, te le spieghiamo noi, passo dopo passo. Seguici, e per qualsiasi dubbio scrivici o chiamaci. CISL FP Padova Rovigo. Sempre al fianco dei lavoratori.",
+   "parole": 28,
+   "frame": [
+    "S08A"
+   ],
+   "img_da_animare": null,
+   "regia": "Nessun avatar: lo scontrino finale con i contatti resta a schermo per tutta la scena. Ultimo secondo: logo CISL FP a tutto schermo."
+  }
+ ]
+}
