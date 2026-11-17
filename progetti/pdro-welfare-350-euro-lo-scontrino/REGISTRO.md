@@ -30,3 +30,10 @@ pdro_welfare_350_euro_lo_scontrino · asset HeyGen 64ea8400368147b49afa9c25c5d0e
 
 ## Pubblicazione
 In attesa dell'OK di Achille. Prima di programmare: verificare se sono uscite le modalità operative (accesso, negozi).
+
+## Versione provinciale (richiesta di Achille, 17/11)
+Stesso montaggio; nella scena 8 lo scontrino dei contatti è rifatto con i delegati dei tre territori
+(metodo/REFERENTI-CISL-FP.md): grafiche/S08A_provinciale.jpg, usata al posto di S08A.jpg solo per questo montaggio.
+Voce invariata (non nomina territori né numeri). Testo social in TESTO_POST_PROVINCIALE.md. Integro, −16,3 LUFS.
+pdro_welfare_350_euro_lo_scontrino_provinciale · asset HeyGen 6d1ece789252400990662495f3300ad2
+(https://resource2.heygen.ai/video/6d1ece789252400990662495f3300ad2/original.mp4). Pubblicazione: in attesa dell'OK di Achille.
