@@ -31,3 +31,4 @@ Contatti AOUP (Achille, Giovanna Vullo, mail provinciale).
 
 ## Pubblicazione (18/11)
 - Versione social 4:5 (img/*_social_4x5.jpg, 1080×1350) nel post Robin 1192586 (Instagram carosello + Facebook AOUP, i due volantini insieme), pubblicato subito.
+- Facebook (CISL FP - Sanità AOUP Social Club) ha rifiutato i tre post del 18/11: «flagged by Facebook» e blocco temporaneo dell'azione (OAuthException 368). Da ripubblicare più tardi.

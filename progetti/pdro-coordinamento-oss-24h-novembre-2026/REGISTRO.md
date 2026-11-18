@@ -44,3 +44,4 @@ Con il 2027 si riparte da qui: retention e valorizzazione del personale. Poche p
 
 ## Pubblicazione (18/11, «Invia tutto»)
 - Robin post 1192585, pubblicato subito sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel).
+- Facebook (CISL FP - Sanità AOUP Social Club) ha rifiutato i tre post del 18/11: «flagged by Facebook» e blocco temporaneo dell'azione (OAuthException 368). Da ripubblicare più tardi.

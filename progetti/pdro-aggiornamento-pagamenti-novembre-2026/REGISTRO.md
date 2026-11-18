@@ -45,3 +45,4 @@ Richiesta di Achille: «Inserisci anche le quote medie della produttività sul v
 
 ## Pubblicazione (18/11, «Invia tutto»)
 - Robin post 1178685 aggiornato (video v2, quote medie nel testo, mail cisl.fp@aopd.veneto.it) e pubblicato subito sui 4 canali AOUP.
+- Facebook (CISL FP - Sanità AOUP Social Club) ha rifiutato i tre post del 18/11: «flagged by Facebook» e blocco temporaneo dell'azione (OAuthException 368). Da ripubblicare più tardi.

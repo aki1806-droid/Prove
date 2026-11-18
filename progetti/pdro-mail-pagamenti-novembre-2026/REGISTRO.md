@@ -42,3 +42,4 @@ con la nota sui criteri del conguaglio. SendFox 3121759 aggiornata, prova inviat
 
 ## Invio (18/11)
 - Achille: «Invia tutto» → campagna 3121759 spedita alle 13:17 alla lista CISL FP AOUP settembre 2026 (1.378 iscritti).
+- Spedita: 1.378 su 1.378 (sent_at 13:18).
