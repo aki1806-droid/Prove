@@ -21,3 +21,7 @@ Contatti AOUP (Achille, Giovanna Vullo, mail provinciale).
 
 ## Versione 3 (18/11, «aggiungi l'aspetto legato alla retention e alla valorizzazione dei professionisti e delle competenze acquisite»)
 - Fascia 2027: «Si riparte da qui. Retention e valorizzazione dei professionisti e delle competenze acquisite.»
+
+## Versione 4 (18/11, «aggiungi anche nel 2027 l'investimento sugli incarichi professionali»)
+- Fascia 2027 a elenco: «Si riparte da qui. ✓ Investimento sugli incarichi professionali ✓ Retention e valorizzazione dei
+  professionisti ✓ Valorizzazione delle competenze acquisite».
