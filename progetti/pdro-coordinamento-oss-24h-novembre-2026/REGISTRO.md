@@ -41,3 +41,6 @@ Con il 2027 si riparte da qui: retention e valorizzazione del personale. Poche p
 - Su indicazione di Achille la mail di contatto per l'AOUP è cisl.fp@aopd.veneto.it: rifatta S06A, rimontato
   (54,0 s, integro, −16,6 LUFS). Nuovo asset 27785b043eb1478a9f737a805c128947 (il precedente 3339ea9b… è superato).
 - Nel testo del post: «📞 Achille Pagliaro 391 127 1018 · Giovanna Vullo 389 928 5301 · cisl.fp@aopd.veneto.it».
+
+## Pubblicazione (18/11, «Invia tutto»)
+- Robin post 1192585, pubblicato subito sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel).

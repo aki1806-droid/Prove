@@ -39,3 +39,6 @@ Richiesta di Achille: aggiungere retention e valorizzazione dei professionisti e
 Dopo il riquadro «Conguaglio della produttività: pagato», tabella HTML «Quote medie premialità 2025 – Quanto vale in media la
 produttività, area per area» (sei righe dalla slide aziendale, vedi pdro-volantino-produttivita-oss-novembre-2026/REGISTRO.md)
 con la nota sui criteri del conguaglio. SendFox 3121759 aggiornata, prova inviata. Il sottotitolo è di Claude.
+
+## Invio (18/11)
+- Achille: «Invia tutto» → campagna 3121759 spedita alle 13:17 alla lista CISL FP AOUP settembre 2026 (1.378 iscritti).

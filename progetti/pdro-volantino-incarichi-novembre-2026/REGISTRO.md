@@ -28,3 +28,6 @@ Contatti AOUP (Achille, Giovanna Vullo, mail provinciale).
 
 ## Correzione 18/11: mail AOUP
 - Mail di contatto: cisl.fp@aopd.veneto.it (regola di Achille per i materiali AOUP).
+
+## Pubblicazione (18/11)
+- Versione social 4:5 (img/*_social_4x5.jpg, 1080×1350) nel post Robin 1192586 (Instagram carosello + Facebook AOUP, i due volantini insieme), pubblicato subito.

@@ -37,3 +37,6 @@ Somme verificate (acconto + conguaglio = media annua) su tutte e sei le righe.
 Nota riportata: il conguaglio dipende da obiettivi di U.O. (O.I.V.), Documento di Valorizzazione Individuale, coefficiente
 di categoria, presenza e tempo pieno/parziale. Impaginazione: foto più bassa, percorso OSS in tre pillole, riquadro
 produttività con la tabella e il timbro «Pagato».
+
+## Pubblicazione (18/11)
+- Versione social 4:5 (img/*_social_4x5.jpg, 1080×1350) nel post Robin 1192586 (Instagram carosello + Facebook AOUP, i due volantini insieme), pubblicato subito.
