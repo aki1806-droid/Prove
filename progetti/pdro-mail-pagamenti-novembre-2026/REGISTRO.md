@@ -22,3 +22,12 @@ Aggiunta alla «grande vittoria» la seconda conquista: avvio della sperimentazi
 alla dichiarazione congiunta e al lavoro costante («oggi il progetto vede la luce»). Nuova immagine src/oss.html → img/mail_pag_nov_oss.jpg
 (CDN Robin, allegato 2341724). Oggetto: «✅ Produttività pagata, +1.000 € ai coordinatori e OSS H24: i fatti di novembre».
 Nuova prova inviata ad achille.pagliaro@cisl.it. Ancora in bozza.
+
+## Aggiornamento 18/11: retention e competenze acquisite
+Richiesta di Achille: aggiungere retention e valorizzazione dei professionisti e delle competenze acquisite.
+- Immagine 2027 (src/ripartenza.html → img/mail_pag_nov_ripartenza.jpg, CDN Robin allegato 2341907): tre riquadri
+  «Retention dei professionisti», «Valorizzazione dei professionisti», «Competenze acquisite, riconosciute».
+- Testo «La nostra strada»: «...sulla retention e sulla valorizzazione dei professionisti e delle competenze acquisite:
+  l'esperienza e la formazione maturate sul campo vanno riconosciute, e devono diventare una ragione in più per restare.»
+  (sostituisce la frase «far restare chi c'è e riconoscere davvero chi lavora»; la seconda metà è di Claude, da confermare).
+- SendFox 3121759 aggiornata, prova inviata a achille.pagliaro@cisl.it. Resta bozza.

@@ -18,3 +18,6 @@ Contatti AOUP (Achille, Giovanna Vullo, mail provinciale).
 - Elementi: sigillo dorato a raggiera «CISL FP ottiene +1.000 € all'anno · a testa», timbro «Ottenuto», tre card con icone
   dorate per la mappatura, fascia oro 2027 con freccia di crescita, icone telefono e mail sui contatti.
 - Testi invariati rispetto alla versione 1.
+
+## Versione 3 (18/11, «aggiungi l'aspetto legato alla retention e alla valorizzazione dei professionisti e delle competenze acquisite»)
+- Fascia 2027: «Si riparte da qui. Retention e valorizzazione dei professionisti e delle competenze acquisite.»
