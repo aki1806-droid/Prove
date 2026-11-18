@@ -34,3 +34,8 @@ Richiesta di Achille: aggiungere retention e valorizzazione dei professionisti e
 ## Correzione 18/11: mail AOUP
 - Blocco «I tuoi delegati AOUP»: mail cisl.fp@aopd.veneto.it (regola di Achille). Il piè di pagina con le sedi provinciali
   resta fp.padova.rovigo@cisl.it. SendFox 3121759 aggiornata, prova inviata.
+
+## Aggiornamento 18/11: quote medie premialità 2025
+Dopo il riquadro «Conguaglio della produttività: pagato», tabella HTML «Quote medie premialità 2025 – Quanto vale in media la
+produttività, area per area» (sei righe dalla slide aziendale, vedi pdro-volantino-produttivita-oss-novembre-2026/REGISTRO.md)
+con la nota sui criteri del conguaglio. SendFox 3121759 aggiornata, prova inviata. Il sottotitolo è di Claude.

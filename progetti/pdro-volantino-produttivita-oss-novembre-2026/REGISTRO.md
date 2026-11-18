@@ -20,3 +20,20 @@ Gemello del volantino incarichi (stesso stile, palette, piede e contatti AOUP).
 
 ## Correzione 18/11: mail AOUP
 - Mail di contatto: cisl.fp@aopd.veneto.it (regola di Achille per i materiali AOUP).
+
+## Versione 2 (18/11): quote medie premialità 2025
+Fonte: foto della slide aziendale «Quote medie premialità anno 2025» mandata da Achille (`fonti/quote_medie_premialita_2025.jpg`).
+Somme verificate (acconto + conguaglio = media annua) su tutte e sei le righe.
+
+| Area · ex cat. | Acconto mensile (valore annuo) | Quota media a conguaglio | Media annua complessiva |
+|---|---|---|---|
+| ASU ex A | 615,84 | 576,00 | 1.191,84 |
+| ASU ex B | 715,56 | 675,00 | 1.390,56 |
+| ADO ex Bs | 760,92 | 710,00 | 1.470,92 |
+| ADA ex C | 905,88 | 840,00 | 1.745,88 |
+| APSF ex D | 1.032,60 | 965,00 | 1.997,60 |
+| APSF ex Ds | 1.150,32 | 1.069,00 | 2.219,32 |
+
+Nota riportata: il conguaglio dipende da obiettivi di U.O. (O.I.V.), Documento di Valorizzazione Individuale, coefficiente
+di categoria, presenza e tempo pieno/parziale. Impaginazione: foto più bassa, percorso OSS in tre pillole, riquadro
+produttività con la tabella e il timbro «Pagato».
