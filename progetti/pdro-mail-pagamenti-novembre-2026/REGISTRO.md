@@ -16,3 +16,9 @@ da qui». Caricate sul CDN di Robin (cartella «Uploads (auto-created)», allega
 ## SendFox
 Bozza 3121759 «✅ Produttività pagata e +1.000 € ai coordinatori: i fatti di novembre», mittente CISL FP PADOVA ROVIGO,
 non pubblicata sul web. Prova inviata ad achille.pagliaro@cisl.it. **Non programmata: aspetta l'OK di Achille.**
+
+## Aggiornamento 18/11 (richiesta di Achille)
+Aggiunta alla «grande vittoria» la seconda conquista: avvio della sperimentazione degli OSS sulle 24 ore nelle Chirurgie, grazie
+alla dichiarazione congiunta e al lavoro costante («oggi il progetto vede la luce»). Nuova immagine src/oss.html → img/mail_pag_nov_oss.jpg
+(CDN Robin, allegato 2341724). Oggetto: «✅ Produttività pagata, +1.000 € ai coordinatori e OSS H24: i fatti di novembre».
+Nuova prova inviata ad achille.pagliaro@cisl.it. Ancora in bozza.
