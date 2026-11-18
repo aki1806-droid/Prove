@@ -22,3 +22,7 @@ pdro_museo_03_il_foglio_turni_a_matita · asset HeyGen ddde1a33e46240e0891ec31c5
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 2e8e2ff3d57e4701ab5fec3ad0096c43 (il precedente ddde1a33e46240e0891ec31c58a8361f è superato).
+- Robin: post 1193657, programmato sab 12/12 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

@@ -22,3 +22,7 @@ pdro_museo_10_la_teca_vuota · asset HeyGen 699e806ed37f4fb6a3a22b6dc195508f (ht
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 9e401db43ca647f698d15183ca280a1a (il precedente 699e806ed37f4fb6a3a22b6dc195508f è superato).
+- Robin: post 1193664, programmato sab 30/1 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

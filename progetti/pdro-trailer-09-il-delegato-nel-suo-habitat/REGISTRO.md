@@ -22,3 +22,7 @@ pdro_trailer_09_il_delegato_nel_suo_habitat · asset HeyGen 400065e2836a4372b752
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 01b10e4bb58642c9a86ede2179e3580d (il precedente 400065e2836a4372b752c5deee162d6c è superato).
+- Robin: post 1193653, programmato gio 21/1 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

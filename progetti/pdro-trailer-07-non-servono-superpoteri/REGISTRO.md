@@ -22,3 +22,7 @@ pdro_trailer_07_non_servono_superpoteri · asset HeyGen b8070da979974ab182ddbf97
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 333208ce68f64d78b9253578ee122b78 (il precedente b8070da979974ab182ddbf97fd29315f è superato).
+- Robin: post 1193651, programmato gio 7/1 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

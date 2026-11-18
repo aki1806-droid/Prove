@@ -22,3 +22,7 @@ pdro_museo_08_la_bacheca_strappata · asset HeyGen 7cf90d062a414ce98af2d11a9efbf
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 965af7302d1f49358fb2232dc13bedcb (il precedente 7cf90d062a414ce98af2d11a9efbfecd è superato).
+- Robin: post 1193662, programmato sab 16/1 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

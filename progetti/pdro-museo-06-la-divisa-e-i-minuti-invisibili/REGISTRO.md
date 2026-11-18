@@ -22,3 +22,7 @@ pdro_museo_06_la_divisa_e_i_minuti_invisibili · asset HeyGen e8760f7ea7ac4dd5a4
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 1001709687e2448488b0d8087f21ec02 (il precedente e8760f7ea7ac4dd5a4389d3e1e99df4e è superato).
+- Robin: post 1193660, programmato sab 2/1 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

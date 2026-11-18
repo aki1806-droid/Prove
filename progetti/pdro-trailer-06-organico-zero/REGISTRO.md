@@ -22,3 +22,7 @@ pdro_trailer_06_organico_zero · asset HeyGen f3f7d517f81c4ac8ba921da57ee55124 (
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 511cc8cc263f407baf98db3807535008 (il precedente f3f7d517f81c4ac8ba921da57ee55124 è superato).
+- Robin: post 1193650, programmato gio 31/12 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

@@ -22,3 +22,7 @@ pdro_museo_09_la_macchinetta_del_caffe · asset HeyGen 1b65e15916204599a90468440
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 88349e69975f40fda422682465726e56 (il precedente 1b65e15916204599a90468440e6fb1c6 è superato).
+- Robin: post 1193663, programmato sab 23/1 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

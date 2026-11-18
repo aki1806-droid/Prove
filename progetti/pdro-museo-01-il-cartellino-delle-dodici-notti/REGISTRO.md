@@ -22,3 +22,7 @@ pdro_museo_01_il_cartellino_delle_dodici_notti · asset HeyGen 1a5b06000a4b41228
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset f9232b76a9214a058fadf86f790377bf (il precedente 1a5b06000a4b41228d7d7022f52286e3 è superato).
+- Robin: post 1193655, programmato sab 28/11 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

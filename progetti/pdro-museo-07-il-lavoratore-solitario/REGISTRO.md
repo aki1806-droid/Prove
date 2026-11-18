@@ -22,3 +22,7 @@ pdro_museo_07_il_lavoratore_solitario · asset HeyGen 52615a8055f5463cb6a3f6c669
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 3f0ca46d4de640cabe889c8beec4e189 (il precedente 52615a8055f5463cb6a3f6c6697d315d è superato).
+- Robin: post 1193661, programmato sab 9/1 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

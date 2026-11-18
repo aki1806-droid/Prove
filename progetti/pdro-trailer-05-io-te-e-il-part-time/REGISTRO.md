@@ -22,3 +22,7 @@ pdro_trailer_05_io_te_e_il_part_time · asset HeyGen 402d4c41aff34c238ca5383c39a
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset c324fe2c5b864159b1b7a737b375aec0 (il precedente 402d4c41aff34c238ca5383c39ac088a è superato).
+- Robin: post 1193649, programmato gio 24/12 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

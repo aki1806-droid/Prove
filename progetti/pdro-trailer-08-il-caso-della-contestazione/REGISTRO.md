@@ -22,3 +22,7 @@ pdro_trailer_08_il_caso_della_contestazione · asset HeyGen d6e5da1a054a4c948804
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset a7ac68a32678444b904b473c178f6b8d (il precedente d6e5da1a054a4c948804b8845206e9f1 è superato).
+- Robin: post 1193652, programmato gio 14/1 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

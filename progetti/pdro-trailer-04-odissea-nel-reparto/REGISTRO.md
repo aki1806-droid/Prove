@@ -22,3 +22,7 @@ pdro_trailer_04_odissea_nel_reparto · asset HeyGen 0a84fc0e636d4702847fddb427d8
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset cbe55525d41e4be2926c99d8260da07a (il precedente 0a84fc0e636d4702847fddb427d85415 è superato).
+- Robin: post 1193648, programmato gio 17/12 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

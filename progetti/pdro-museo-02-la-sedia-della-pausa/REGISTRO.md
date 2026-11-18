@@ -22,3 +22,7 @@ pdro_museo_02_la_sedia_della_pausa · asset HeyGen 6631df52ffc84a538f17eae28c48c
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 06c0f93b13ca42a8b30458c79270dbc4 (il precedente 6631df52ffc84a538f17eae28c48cc6f è superato).
+- Robin: post 1193656, programmato sab 5/12 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

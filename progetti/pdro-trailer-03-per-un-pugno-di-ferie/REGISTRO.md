@@ -22,3 +22,7 @@ pdro_trailer_03_per_un_pugno_di_ferie · asset HeyGen eb28a14504e7407d9b71b10e89
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset a84b634e12304d2fa3ae61f4f052cea0 (il precedente eb28a14504e7407d9b71b10e8967c91e è superato).
+- Robin: post 1193647, programmato gio 10/12 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

@@ -346,31 +346,31 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 
 | Video | Uscita sui social | Indirizzo |
 |---|---|---|
-| PDRO · CISL FP PICTURES · Ep.1 – L'ultima riga (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/15bcbd65efe8486e910e83e5bb783365/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.2 – Il rientro (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/0fdbcc09b1844df79810d10a8b951744/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.3 – Per un pugno di ferie (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/eb28a14504e7407d9b71b10e8967c91e/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.4 – Odissea nel reparto (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/0a84fc0e636d4702847fddb427d85415/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.5 – Io, te e il part-time (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/402d4c41aff34c238ca5383c39ac088a/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.6 – Organico zero (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/f3f7d517f81c4ac8ba921da57ee55124/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.7 – Non servono superpoteri (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/b8070da979974ab182ddbf97fd29315f/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.8 – Il caso della contestazione (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/d6e5da1a054a4c948804b8845206e9f1/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.9 – Il delegato nel suo habitat (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/400065e2836a4372b752c5deee162d6c/original.mp4) |
-| PDRO · CISL FP PICTURES · Ep.10 – Uniti – Il film (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/39f878d5eb2240a8bc5c02b99325dd5e/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.1 – L'ultima riga (reel 9:16) | gio 26/11 19:00 | [apri](https://resource2.heygen.ai/video/dc8636375e0f4528887a08abbd532794/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.2 – Il rientro (reel 9:16) | gio 3/12 19:00 | [apri](https://resource2.heygen.ai/video/a432314140de422e9f3c6c89788652b4/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.3 – Per un pugno di ferie (reel 9:16) | gio 10/12 19:00 | [apri](https://resource2.heygen.ai/video/a84b634e12304d2fa3ae61f4f052cea0/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.4 – Odissea nel reparto (reel 9:16) | gio 17/12 19:00 | [apri](https://resource2.heygen.ai/video/cbe55525d41e4be2926c99d8260da07a/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.5 – Io, te e il part-time (reel 9:16) | gio 24/12 19:00 | [apri](https://resource2.heygen.ai/video/c324fe2c5b864159b1b7a737b375aec0/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.6 – Organico zero (reel 9:16) | gio 31/12 19:00 | [apri](https://resource2.heygen.ai/video/511cc8cc263f407baf98db3807535008/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.7 – Non servono superpoteri (reel 9:16) | gio 7/1 19:00 | [apri](https://resource2.heygen.ai/video/333208ce68f64d78b9253578ee122b78/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.8 – Il caso della contestazione (reel 9:16) | gio 14/1 19:00 | [apri](https://resource2.heygen.ai/video/a7ac68a32678444b904b473c178f6b8d/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.9 – Il delegato nel suo habitat (reel 9:16) | gio 21/1 19:00 | [apri](https://resource2.heygen.ai/video/01b10e4bb58642c9a86ede2179e3580d/original.mp4) |
+| PDRO · CISL FP PICTURES · Ep.10 – Uniti – Il film (reel 9:16) | gio 28/1 19:00 | [apri](https://resource2.heygen.ai/video/5e11308740554ab48b1fdba2a373ef6c/original.mp4) |
 
 ## PDRO · Museo della Sanità 2126 (solo AOUP)
 
 | Video | Uscita sui social | Indirizzo |
 |---|---|---|
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.1 – Il cartellino delle dodici notti (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1a5b06000a4b41228d7d7022f52286e3/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.2 – La sedia della pausa (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/6631df52ffc84a538f17eae28c48cc6f/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.3 – Il foglio turni a matita (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/ddde1a33e46240e0891ec31c58a8361f/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.4 – La chat di reparto (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/e961135d4b9246ddb35fdd779c64a9f4/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.5 – Il cedolino geroglifico (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/657136ac506549dd9a2af7290ad044d4/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.6 – La divisa e i minuti invisibili (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/e8760f7ea7ac4dd5a4389d3e1e99df4e/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.7 – Il lavoratore solitario (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/52615a8055f5463cb6a3f6c6697d315d/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.8 – La bacheca strappata (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/7cf90d062a414ce98af2d11a9efbfecd/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.9 – La macchinetta del caffè (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1b65e15916204599a90468440e6fb1c6/original.mp4) |
-| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.10 – La teca vuota (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/699e806ed37f4fb6a3a22b6dc195508f/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.1 – Il cartellino delle dodici notti (reel 9:16) | sab 28/11 11:00 | [apri](https://resource2.heygen.ai/video/f9232b76a9214a058fadf86f790377bf/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.2 – La sedia della pausa (reel 9:16) | sab 5/12 11:00 | [apri](https://resource2.heygen.ai/video/06c0f93b13ca42a8b30458c79270dbc4/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.3 – Il foglio turni a matita (reel 9:16) | sab 12/12 11:00 | [apri](https://resource2.heygen.ai/video/2e8e2ff3d57e4701ab5fec3ad0096c43/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.4 – La chat di reparto (reel 9:16) | sab 19/12 11:00 | [apri](https://resource2.heygen.ai/video/1d9eadfa9d30433c99dcbef7f11e7c61/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.5 – Il cedolino geroglifico (reel 9:16) | sab 26/12 11:00 | [apri](https://resource2.heygen.ai/video/6fa3c5c3802a4d969f86425b96f7fa33/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.6 – La divisa e i minuti invisibili (reel 9:16) | sab 2/1 11:00 | [apri](https://resource2.heygen.ai/video/1001709687e2448488b0d8087f21ec02/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.7 – Il lavoratore solitario (reel 9:16) | sab 9/1 11:00 | [apri](https://resource2.heygen.ai/video/3f0ca46d4de640cabe889c8beec4e189/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.8 – La bacheca strappata (reel 9:16) | sab 16/1 11:00 | [apri](https://resource2.heygen.ai/video/965af7302d1f49358fb2232dc13bedcb/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.9 – La macchinetta del caffè (reel 9:16) | sab 23/1 11:00 | [apri](https://resource2.heygen.ai/video/88349e69975f40fda422682465726e56/original.mp4) |
+| PDRO · MUSEO DELLA SANITÀ 2126 · Ep.10 – La teca vuota (reel 9:16) | sab 30/1 11:00 | [apri](https://resource2.heygen.ai/video/9e401db43ca647f698d15183ca280a1a/original.mp4) |
 
 ## PDRO · Reel informativi e campagne
 

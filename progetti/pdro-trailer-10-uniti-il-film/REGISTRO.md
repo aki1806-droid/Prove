@@ -22,3 +22,7 @@ pdro_trailer_10_uniti_il_film · asset HeyGen 39f878d5eb2240a8bc5c02b99325dd5e (
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 5e11308740554ab48b1fdba2a373ef6c (il precedente 39f878d5eb2240a8bc5c02b99325dd5e è superato).
+- Robin: post 1193654, programmato gio 28/1 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

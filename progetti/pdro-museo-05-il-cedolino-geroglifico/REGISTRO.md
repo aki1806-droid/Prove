@@ -22,3 +22,7 @@ pdro_museo_05_il_cedolino_geroglifico · asset HeyGen 657136ac506549dd9a2af7290a
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 6fa3c5c3802a4d969f86425b96f7fa33 (il precedente 657136ac506549dd9a2af7290ad044d4 è superato).
+- Robin: post 1193659, programmato sab 26/12 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

@@ -22,3 +22,7 @@ pdro_museo_04_la_chat_di_reparto · asset HeyGen e961135d4b9246ddb35fdd779c64a9f
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset 1d9eadfa9d30433c99dcbef7f11e7c61 (il precedente e961135d4b9246ddb35fdd779c64a9f4 è superato).
+- Robin: post 1193658, programmato sab 19/12 11:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).

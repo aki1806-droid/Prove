@@ -22,3 +22,7 @@ pdro_trailer_02_il_rientro · asset HeyGen 0fdbcc09b1844df79810d10a8b951744 (htt
 
 ## Pubblicazione
 In attesa dell'OK di Achille per Robin (4 canali AOUP).
+
+## Correzione 18/11: mail AOUP
+- Chiusura S07A: mail cisl.fp@aopd.veneto.it al posto di fp.padova.rovigo@cisl.it (riga riscritta sul biglietto, Montserrat 700, -2,85°), anche in TESTO_POST.md. Rimontato e controllato; nuovo asset a432314140de422e9f3c6c89788652b4 (il precedente 0fdbcc09b1844df79810d10a8b951744 è superato).
+- Robin: post 1193646, programmato gio 3/12 19:00 (Europe/Rome) sui 4 canali AOUP (YouTube, TikTok, Instagram Reel, Facebook Reel con primo commento WhatsApp).
