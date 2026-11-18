@@ -3,7 +3,7 @@
 Tutti i video finiti del repository, divisi per serie, con l'indirizzo dell'originale. Raccolti dai `REGISTRO.md` dei
 progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le precedenti sono nei registri).
 
-**227 video** in 17 sezioni.
+**228 video** in 17 sezioni.
 
 La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 17 novembre
 2026: fino al 17/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
@@ -379,6 +379,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
 | PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
+| PDRO · «Due conquiste – coordinamento e operatori socio sanitari H24» (reel 9:16, Heygen 2) | in attesa del via | [apri](https://resource2.heygen.ai/video/3339ea9b4ff8472fbc5396556e123cad/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/64ea8400368147b49afa9c25c5d0ef76/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino», versione provinciale (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/6d1ece789252400990662495f3300ad2/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino», AOUP con la voce di Achille (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/3b6664288af24726a011b5bfaddde637/original.mp4) |

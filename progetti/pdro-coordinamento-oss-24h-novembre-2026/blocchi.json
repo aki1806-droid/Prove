@@ -1,0 +1,86 @@
+{
+ "titolo": "Due conquiste – coordinamento e operatori socio sanitari H24",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "APERTURA – Due conquiste",
+   "tipo": "CLIP",
+   "testo_voce": "Ultime notizie dal pianeta CISL FP. Niente proclami, niente sfere di cristallo: due risultati concreti. Eccoli.",
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "overlay": [
+    "S01A",
+    "S01B"
+   ],
+   "regia": ""
+  },
+  {
+   "scena": 2,
+   "titolo": "COORDINAMENTO +1.000",
+   "tipo": "GRAFICA",
+   "testo_voce": "Primo risultato: gli incarichi di funzione organizzativa di coordinamento avranno mille euro in più all'anno. A testa. Un riconoscimento atteso da tempo.",
+   "frame": [
+    "S02A",
+    "S02B"
+   ],
+   "overlay": [],
+   "regia": ""
+  },
+  {
+   "scena": 3,
+   "titolo": "NUOVA MAPPATURA",
+   "tipo": "GRAFICA",
+   "testo_voce": "E non solo: arriva la nuova mappatura di tutti gli incarichi organizzativi, di posizione e professionali.",
+   "frame": [
+    "S03A",
+    "S03B"
+   ],
+   "overlay": [],
+   "regia": ""
+  },
+  {
+   "scena": 4,
+   "titolo": "OSS H24 NELLE CHIRURGIE",
+   "tipo": "CLIP",
+   "testo_voce": "Secondo risultato: parte la sperimentazione degli operatori socio sanitari sulle ventiquattro ore nelle Chirurgie. Grazie alla dichiarazione congiunta e a un lavoro costante, oggi il progetto vede la luce.",
+   "frame": [
+    "S04A",
+    "S04B"
+   ],
+   "overlay": [
+    "S04A",
+    "S04B"
+   ],
+   "regia": ""
+  },
+  {
+   "scena": 5,
+   "titolo": "FATTI, NON PROCLAMI",
+   "tipo": "CLIP",
+   "testo_voce": "Risultati così non arrivano per caso. Arrivano dal lavoro al tavolo, giorno dopo giorno. Non dall'oroscopo.",
+   "frame": [
+    "S05A",
+    "S05B"
+   ],
+   "overlay": [
+    "S05A",
+    "S05B"
+   ],
+   "regia": ""
+  },
+  {
+   "scena": 6,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "testo_voce": "Con il duemilaventisette si riparte da qui: retention e valorizzazione del personale. Poche promesse, molti fatti. Per qualsiasi dubbio, scrivici. CISL FP Padova Rovigo.",
+   "frame": [
+    "S06A"
+   ],
+   "overlay": [],
+   "regia": ""
+  }
+ ]
+}
