@@ -40,3 +40,5 @@ Richiesta di Achille: «Inserisci anche le quote medie della produttività sul v
   CWhQpQjUk9Lo1vBukpXw (206 crediti), bordi ripuliti e atempo 1,12 → 13,55 s. Testo approvato da Achille («Approvo il testo»).
 - Chiusura S06: mail dei delegati AOUP → cisl.fp@aopd.veneto.it (regola del 18/11), S06A rigenerata da novembre.mjs.
 - Durata 74,5 s (era 61,0).
+- Uscita v2: 74,5 s, integro, −16,7 LUFS, picco −1,5 dBFS; asset HeyGen 530f96eac9c54808807c7e9acbf919e4 (https://resource2.heygen.ai/video/530f96eac9c54808807c7e9acbf919e4/original.mp4), sostituisce 1c981f12…
+- Robin: il post 1178685 (bozza) ha ancora il video v1: va aggiornato col nuovo file prima del via.

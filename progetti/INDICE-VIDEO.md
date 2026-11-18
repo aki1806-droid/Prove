@@ -378,7 +378,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 |---|---|---|
 | PDRO 150 ore studio 2027 (Reel 9:16) |  | [apri](https://resource2.heygen.ai/video/d7062fd53ee64a958c91ce9b9485ecd6/original.mp4) |
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
-| PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/1c981f12b15746588655af92366aff75/original.mp4) |
+| PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/530f96eac9c54808807c7e9acbf919e4/original.mp4) |
 | PDRO · «Due conquiste – coordinamento e operatori socio sanitari H24» (reel 9:16, Heygen 2) | in attesa del via | [apri](https://resource2.heygen.ai/video/27785b043eb1478a9f737a805c128947/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/64ea8400368147b49afa9c25c5d0ef76/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino», versione provinciale (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/6d1ece789252400990662495f3300ad2/original.mp4) |

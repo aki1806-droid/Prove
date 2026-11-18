@@ -1,0 +1,7 @@
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S01.mp4'
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S02.mp4'
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S02Q.mp4'
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S03.mp4'
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S04.mp4'
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S05.mp4'
+file '/home/user/Prove/progetti/pdro-aggiornamento-pagamenti-novembre-2026/montaggio/S06.mp4'
