@@ -31,3 +31,6 @@ Richiesta di Achille: aggiungere retention e valorizzazione dei professionisti e
   l'esperienza e la formazione maturate sul campo vanno riconosciute, e devono diventare una ragione in più per restare.»
   (sostituisce la frase «far restare chi c'è e riconoscere davvero chi lavora»; la seconda metà è di Claude, da confermare).
 - SendFox 3121759 aggiornata, prova inviata a achille.pagliaro@cisl.it. Resta bozza.
+## Correzione 18/11: mail AOUP
+- Blocco «I tuoi delegati AOUP»: mail cisl.fp@aopd.veneto.it (regola di Achille). Il piè di pagina con le sedi provinciali
+  resta fp.padova.rovigo@cisl.it. SendFox 3121759 aggiornata, prova inviata.

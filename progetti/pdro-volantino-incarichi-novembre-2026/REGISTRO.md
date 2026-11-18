@@ -25,3 +25,6 @@ Contatti AOUP (Achille, Giovanna Vullo, mail provinciale).
 ## Versione 4 (18/11, «aggiungi anche nel 2027 l'investimento sugli incarichi professionali»)
 - Fascia 2027 a elenco: «Si riparte da qui. ✓ Investimento sugli incarichi professionali ✓ Retention e valorizzazione dei
   professionisti ✓ Valorizzazione delle competenze acquisite».
+
+## Correzione 18/11: mail AOUP
+- Mail di contatto: cisl.fp@aopd.veneto.it (regola di Achille per i materiali AOUP).

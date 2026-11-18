@@ -17,3 +17,6 @@ Gemello del volantino incarichi (stesso stile, palette, piede e contatti AOUP).
 - Sigillo notturno «H24 · anche di notte · nelle Chirurgie», timbro «Al via», percorso a tre tappe con icone dorate,
   cedolino illustrato con timbro «Pagato».
 - Uscite: `volantino_produttivita_oss_A4.pdf` (stampa) e `img/volantino_produttivita_oss_A4.jpg` (2481×3509).
+
+## Correzione 18/11: mail AOUP
+- Mail di contatto: cisl.fp@aopd.veneto.it (regola di Achille per i materiali AOUP).

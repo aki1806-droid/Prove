@@ -24,7 +24,7 @@ SendFox 3121759.
 - «OSS» nel parlato sempre «operatori socio sanitari».
 
 ## Uscita
-- Asset HeyGen (account 1): https://resource2.heygen.ai/video/3339ea9b4ff8472fbc5396556e123cad/original.mp4
+- Asset HeyGen (account 1): https://resource2.heygen.ai/video/27785b043eb1478a9f737a805c128947/original.mp4
 - Robin: in attesa del via di Achille.
 
 ## Testo del post (proposta)
@@ -34,5 +34,10 @@ gli incarichi organizzativi, di posizione e professionali.
 ✅ Parte la sperimentazione degli OSS sulle 24 ore nelle Chirurgie: grazie alla dichiarazione congiunta e a un lavoro
 costante, oggi il progetto vede la luce.
 Con il 2027 si riparte da qui: retention e valorizzazione del personale. Poche promesse, molti fatti.
-📞 Achille Pagliaro 391 127 1018 · Giovanna Vullo 389 928 5301 · fp.padova.rovigo@cisl.it
+📞 Achille Pagliaro 391 127 1018 · Giovanna Vullo 389 928 5301 · cisl.fp@aopd.veneto.it
 #CISLFP #AOUPadova #OSS #Coordinamento
+
+## Correzione 18/11: mail AOUP
+- Su indicazione di Achille la mail di contatto per l'AOUP è cisl.fp@aopd.veneto.it: rifatta S06A, rimontato
+  (54,0 s, integro, −16,6 LUFS). Nuovo asset 27785b043eb1478a9f737a805c128947 (il precedente 3339ea9b… è superato).
+- Nel testo del post: «📞 Achille Pagliaro 391 127 1018 · Giovanna Vullo 389 928 5301 · cisl.fp@aopd.veneto.it».

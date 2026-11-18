@@ -111,3 +111,10 @@ dello stesso account, webm, 1080p). Alla prima prova si controllano trasparenza 
 Dal 3 novembre 2026 (Achille): nei testi parlati, **OSS si dice sempre per esteso**, «operatori socio sanitari» (al
 singolare «operatore socio sanitario»), anche se il pacchetto scrive la sigla. Nelle grafiche e nei testi dei post la
 sigla OSS può restare. Prima di generare le voci si controllano i `voce_testi/` con `grep -n OSS`.
+
+## Mail di contatto per l'AOUP: cisl.fp@aopd.veneto.it
+
+Dal 18 novembre 2026 (Achille): in tutti i materiali **per l'AOUP** (video, volantini, mail, post) la mail di contatto è
+sempre **cisl.fp@aopd.veneto.it**, insieme ad Achille 391 127 1018 e Giovanna Vullo 389 928 5301.
+`fp.padova.rovigo@cisl.it` resta la mail della struttura provinciale (materiali provinciali, piè di pagina con le sedi).
+
