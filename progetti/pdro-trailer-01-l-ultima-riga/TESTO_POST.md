@@ -10,7 +10,7 @@ Un cedolino. Troppe sigle. Un solo errore.
 
 📞 Achille Pagliaro 391 127 1018
 📞 Giovanna Vullo 389 928 5301
-✉️ fp.padova.rovigo@cisl.it
+✉️ cisl.fp@aopd.veneto.it
 
 Trailer e recensioni di fantasia. I problemi, e le tutele, sono veri.
 

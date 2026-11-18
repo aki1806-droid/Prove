@@ -8,7 +8,7 @@ Il riposo è riposo. La reperibilità è un'altra cosa: deve essere prevista e v
 
 📞 Achille Pagliaro 391 127 1018
 📞 Giovanna Vullo 389 928 5301
-✉️ fp.padova.rovigo@cisl.it
+✉️ cisl.fp@aopd.veneto.it
 
 Video ironico: il museo è inventato, i problemi no.
 
