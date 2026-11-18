@@ -1,5 +1,6 @@
 file 'wav/S01.wav'
 file 'wav/S02.wav'
+file 'wav/S02Q.wav'
 file 'wav/S03.wav'
 file 'wav/S04.wav'
 file 'wav/S05.wav'

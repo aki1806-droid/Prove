@@ -43,7 +43,7 @@ const P = {
     S06A: `<div style="position:absolute;inset:0;background:url(file://${D}/grafiche/_fondo6.png)"></div>
       <div class="ab t" style="top:290px;left:62px;font-size:84px">POCHE PROMESSE,<br><em>MOLTI FATTI.</em></div>
       <div class="box"><h3>Dubbi sul cedolino?</h3><div class="s">Scrivi ai delegati CISL FP dell'AOUP Padova</div>
-      <div class="c">Achille 391 127 1018<br>Giovanna 389 928 5301</div><div class="m">fp.padova.rovigo@cisl.it</div></div>`,
+      <div class="c">Achille 391 127 1018<br>Giovanna 389 928 5301</div><div class="m">cisl.fp@aopd.veneto.it</div></div>`,
   },
 };
 const b = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium', args: ['--allow-file-access-from-files'] });

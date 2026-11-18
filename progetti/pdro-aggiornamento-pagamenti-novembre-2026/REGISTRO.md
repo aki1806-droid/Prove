@@ -30,3 +30,13 @@ PDRO_Aggiornamento_pagamenti_novembre_2026_9x16 · 61,0 s · asset HeyGen 1c981f
 
 ## Pubblicazione
 - Robin: post 1178685 (4 canali AOUP, primo commento WhatsApp) **in bozza**: Achille il 15/11 ha bloccato l'uscita del 16/11, vuole dare lui il via. Promemoria il 18/11 alle 11:30.
+
+## Versione 2 (18/11/2026): quote medie premialità 2025 e mail AOUP
+Richiesta di Achille: «Inserisci anche le quote medie della produttività sul volantino e nel video e nella mail» (slide aziendale
+«Quote medie premialità anno 2025», copia in pdro-volantino-produttivita-oss-novembre-2026/fonti/).
+- Nuova scena **S02Q** dopo «Conguaglio pagato»: tabellone scuro «QUOTE MEDIE 2025 – PREMIALITÀ», sei righe con media annua,
+  acconto e conguaglio; si accendono ex A e ex Ds, poi la nota «Sono medie…» (strumenti/pagamenti/quote_nov.mjs).
+- Voce S02Q: **ElevenLabs diretto** (scelta di Achille), Luca Ward tVdVcJPudubxmTmAw4tE, eleven_v4, generazione
+  CWhQpQjUk9Lo1vBukpXw (206 crediti), bordi ripuliti e atempo 1,12 → 13,55 s. Testo approvato da Achille («Approvo il testo»).
+- Chiusura S06: mail dei delegati AOUP → cisl.fp@aopd.veneto.it (regola del 18/11), S06A rigenerata da novembre.mjs.
+- Durata 74,5 s (era 61,0).

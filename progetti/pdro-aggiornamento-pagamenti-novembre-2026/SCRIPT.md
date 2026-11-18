@@ -9,6 +9,8 @@ Scelte: voce HeyGen passante, solo AOUP, account Connettore, Robin dopo l'OK sul
 > Ultime notizie dal pianeta cedolino. Niente panico, niente sfere di cristallo: solo fatti. Ecco come stanno le cose.
 ### SCENA 2 · tabellone: riga «Conguaglio produttività» → verde «NOVEMBRE: PAGATO»
 > Il conguaglio della produttività arriva con lo stipendio di novembre. Nessun miracolo e nessun colpo di scena: solo lavoro serio con l'Amministrazione.
+### SCENA 2Q · tabellone «QUOTE MEDIE 2025 – PREMIALITÀ»: sei righe (ASU ex A … APSF ex Ds) con la media annua, acconto + conguaglio (aggiunta il 18/11, testo approvato da Achille)
+> E quanto vale? Le quote medie della premialità 2025 vanno da circa milleduecento euro l'anno per l'ex categoria A a oltre duemiladuecento per l'ex categoria D super. Tutte le cifre, area per area, sono qui.
 ### SCENA 3 · tabellone: riga «Contratto nazionale» → arancio «FIRMA DEFINITIVA: DICEMBRE (attesa)»
 > Sul contratto nazionale, la firma definitiva è attesa, presumibilmente, a dicembre. Appena ci sarà la data certa, la saprete da noi. Come sempre.
 ### SCENA 4 · sfera di cristallo, «PREVISIONI DEL MESE» con timbro «NON PERVENUTE»
