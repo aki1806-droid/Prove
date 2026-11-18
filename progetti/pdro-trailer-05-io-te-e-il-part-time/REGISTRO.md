@@ -16,3 +16,9 @@ Musica orchestrale epica dal catalogo HeyGen (1768bf0b7d15450bb2133e0366f7cfe1),
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_trailer_05_io_te_e_il_part_time · asset HeyGen 402d4c41aff34c238ca5383c39ac088a (https://resource2.heygen.ai/video/402d4c41aff34c238ca5383c39ac088a/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

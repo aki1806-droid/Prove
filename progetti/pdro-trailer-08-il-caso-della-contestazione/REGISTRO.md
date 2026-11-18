@@ -16,3 +16,9 @@ Musica orchestrale epica dal catalogo HeyGen (1768bf0b7d15450bb2133e0366f7cfe1),
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_trailer_08_il_caso_della_contestazione · asset HeyGen d6e5da1a054a4c948804b8845206e9f1 (https://resource2.heygen.ai/video/d6e5da1a054a4c948804b8845206e9f1/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

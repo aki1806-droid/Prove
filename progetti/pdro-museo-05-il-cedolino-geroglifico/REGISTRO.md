@@ -16,3 +16,9 @@ Archi pizzicati dal catalogo HeyGen (60644c163e864e429a1de4e10e81bc46, tre giri 
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_museo_05_il_cedolino_geroglifico · asset HeyGen 657136ac506549dd9a2af7290ad044d4 (https://resource2.heygen.ai/video/657136ac506549dd9a2af7290ad044d4/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

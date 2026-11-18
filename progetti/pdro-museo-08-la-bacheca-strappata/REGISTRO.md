@@ -16,3 +16,9 @@ Archi pizzicati dal catalogo HeyGen (60644c163e864e429a1de4e10e81bc46, tre giri 
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_museo_08_la_bacheca_strappata · asset HeyGen 7cf90d062a414ce98af2d11a9efbfecd (https://resource2.heygen.ai/video/7cf90d062a414ce98af2d11a9efbfecd/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

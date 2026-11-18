@@ -16,3 +16,9 @@ Archi pizzicati dal catalogo HeyGen (60644c163e864e429a1de4e10e81bc46, tre giri 
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_museo_10_la_teca_vuota · asset HeyGen 699e806ed37f4fb6a3a22b6dc195508f (https://resource2.heygen.ai/video/699e806ed37f4fb6a3a22b6dc195508f/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

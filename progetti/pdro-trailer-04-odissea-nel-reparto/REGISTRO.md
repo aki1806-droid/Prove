@@ -16,3 +16,9 @@ Musica orchestrale epica dal catalogo HeyGen (1768bf0b7d15450bb2133e0366f7cfe1),
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_trailer_04_odissea_nel_reparto · asset HeyGen 0a84fc0e636d4702847fddb427d85415 (https://resource2.heygen.ai/video/0a84fc0e636d4702847fddb427d85415/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

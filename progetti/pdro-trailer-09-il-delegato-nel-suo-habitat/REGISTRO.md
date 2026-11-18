@@ -16,3 +16,9 @@ Musica orchestrale epica dal catalogo HeyGen (1768bf0b7d15450bb2133e0366f7cfe1),
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_trailer_09_il_delegato_nel_suo_habitat · asset HeyGen 400065e2836a4372b752c5deee162d6c (https://resource2.heygen.ai/video/400065e2836a4372b752c5deee162d6c/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

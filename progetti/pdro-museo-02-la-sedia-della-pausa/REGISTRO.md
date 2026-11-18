@@ -16,3 +16,9 @@ Archi pizzicati dal catalogo HeyGen (60644c163e864e429a1de4e10e81bc46, tre giri 
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_museo_02_la_sedia_della_pausa · asset HeyGen 6631df52ffc84a538f17eae28c48cc6f (https://resource2.heygen.ai/video/6631df52ffc84a538f17eae28c48cc6f/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

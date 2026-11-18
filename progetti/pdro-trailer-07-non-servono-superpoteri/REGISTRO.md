@@ -16,3 +16,9 @@ Musica orchestrale epica dal catalogo HeyGen (1768bf0b7d15450bb2133e0366f7cfe1),
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_trailer_07_non_servono_superpoteri · asset HeyGen b8070da979974ab182ddbf97fd29315f (https://resource2.heygen.ai/video/b8070da979974ab182ddbf97fd29315f/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

@@ -16,3 +16,9 @@ Archi pizzicati dal catalogo HeyGen (60644c163e864e429a1de4e10e81bc46, tre giri 
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_museo_07_il_lavoratore_solitario · asset HeyGen 52615a8055f5463cb6a3f6c6697d315d (https://resource2.heygen.ai/video/52615a8055f5463cb6a3f6c6697d315d/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).

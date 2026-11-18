@@ -16,3 +16,9 @@ Archi pizzicati dal catalogo HeyGen (60644c163e864e429a1de4e10e81bc46, tre giri 
 
 ## Montaggio (strumenti/oggetti/os.py)
 Come Lettere dal futuro. Integro, −16 LUFS.
+
+## Uscita (1080x1920, 30 fps; fuori da git)
+pdro_museo_01_il_cartellino_delle_dodici_notti · asset HeyGen 1a5b06000a4b41228d7d7022f52286e3 (https://resource2.heygen.ai/video/1a5b06000a4b41228d7d7022f52286e3/original.mp4).
+
+## Pubblicazione
+In attesa dell'OK di Achille per Robin (4 canali AOUP).
