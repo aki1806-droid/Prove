@@ -10,3 +10,11 @@ Contatti AOUP (Achille, Giovanna Vullo, mail provinciale).
 - Uscite: `volantino_incarichi_A4.pdf` (stampa, A4 vettoriale) e `img/volantino_incarichi_A4.jpg` (2481×3509, 300 dpi,
   per WhatsApp e social).
 - Da confermare con Achille: se l'accordo è aziendale AOUP (la testata dice «AOUP Padova · novembre 2026»).
+
+## Versione 2 (18/11, «Fallo più bello con immagini e elementi grafici di qualità»)
+- Foto di apertura generata con Higgsfield gpt_image_2_6 (job 3506a0ed-be3a-4890-89f8-d4e901685b92: coordinatrice in
+  divisa con tablet, équipe sfocata dietro; scartata la variante 36437c10). Persona inventata e generica, nessun volto reale.
+  L'upscale Higgsfield non è partito (crediti esauriti nel workspace): ingrandita in locale (Lanczos + nitidezza) in `src/hero.jpg`.
+- Elementi: sigillo dorato a raggiera «CISL FP ottiene +1.000 € all'anno · a testa», timbro «Ottenuto», tre card con icone
+  dorate per la mappatura, fascia oro 2027 con freccia di crescita, icone telefono e mail sui contatti.
+- Testi invariati rispetto alla versione 1.
