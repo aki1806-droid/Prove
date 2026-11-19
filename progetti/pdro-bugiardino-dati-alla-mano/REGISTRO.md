@@ -19,3 +19,10 @@ Pacchetto PDRO_Il_Bugiardino_Dati_alla_mano.zip mandato da Achille il 19/11/2026
 - Suoni ElevenLabs (text_to_sound_v2): flacone S1, cassetti S4, mistico S5 su «sfera», strappo S9; cassa S8 su
   «milione» (dal Welfare); timbri e macchina da scrivere. Musica ElevenLabs eleven_music_v2 (jazz pizzicato, 170 s, 900 crediti).
 - Heygen 2 in errore 503 il 19/11 pomeriggio: avatar da generare appena torna.
+- Avatar Heygen 2 maglione nero: video 2d3ea909f5d8e3ba8740aeaed0a42868 (webm 1080p, 14,7 s; voce 14,9 s).
+  Il cartellino dei contatti di S10A arriva a x 679, y 1740: zona dichiarata in avatar/zona.json (os.py ora la legge),
+  l'avatar resta in basso a destra senza toccarlo. S10A_av.jpg = S10A (niente motto da mandare a capo).
+
+## Uscita
+- 165,8 s, integro, −16,2 LUFS, picco −1,4 dBFS. Asset HeyGen (account 1): https://resource2.heygen.ai/video/f00c46223d894f4ca950f8ce15b66ba8/original.mp4
+- Robin: in attesa del via di Achille.

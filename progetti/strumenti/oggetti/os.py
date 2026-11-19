@@ -159,6 +159,11 @@ def taglio_avatar(webm, x0, x1):
     r0 = int(righe.min()) + 260
     busto = np.concatenate([c[r0:cy1][m[r0:cy1]] for c, m in zip(colori, maschere)])
     scuro = bool(len(busto) and busto.mean() < 70)
+    # zona dei contatti da non toccare: di serie x <= 659, y <= 1637 (card) e x <= 480, y >= 1700 (motto); un progetto
+    # con un cartellino diverso la dichiara in avatar/zona.json {"card": [x_max, y_max], "motto": [x_max, y_min]}
+    zc, zm = (659, 1637), (480, 1700)
+    if os.path.exists(f'{D}/avatar/zona.json'):
+        _z = json.load(open(f'{D}/avatar/zona.json')); zc = tuple(_z.get('card', zc)); zm = tuple(_z.get('motto', zm))
     for sc in (1.3, 1.25, 1.2, 1.15, 1.1, 1.05, 1.0, 0.9, 0.8):
         w, h = round((x1 - x0) * sc), round((cy1 - cy0) * sc)
         X = int(870 - cx * sc); Y = 1920 - h
@@ -166,7 +171,7 @@ def taglio_avatar(webm, x0, x1):
         for m in maschere:
             a = np.array(Image.fromarray(m[cy0:cy1, x0:x1].astype(np.uint8) * 255).resize((w, h))) > 60
             ys, xs = np.where(a); sx = xs + X; sy = ys + Y
-            if ((sx <= 659) & (sy <= 1637)).any() or ((sx <= 480) & (sy >= 1700)).any():
+            if ((sx <= zc[0]) & (sy <= zc[1])).any() or ((sx <= zm[0]) & (sy >= zm[1])).any():
                 ok = False; break
         if ok:
             return cy0, cy1, X, sc, scuro
