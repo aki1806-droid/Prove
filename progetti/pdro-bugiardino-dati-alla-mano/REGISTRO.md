@@ -26,3 +26,10 @@ Pacchetto PDRO_Il_Bugiardino_Dati_alla_mano.zip mandato da Achille il 19/11/2026
 ## Uscita
 - 165,8 s, integro, −16,2 LUFS, picco −1,4 dBFS. Asset HeyGen (account 1): https://resource2.heygen.ai/video/f00c46223d894f4ca950f8ce15b66ba8/original.mp4
 - Robin: in attesa del via di Achille.
+
+## Versione 2 (19/11): narratore Luca Ward
+- Achille: «Usa la voce Luca Ward». Narratore rigenerato con Luca Ward (tVdVcJPudubxmTmAw4tE), eleven_v4, stessi tag,
+  generazione RDyCMXwmRHZ0MQIub1Jh (2.963 crediti, 166,3 s). Trascrizione ljkqpEmOXP4GXRoDDcc8, tagli e effetti ricalcolati.
+  La versione con la «Voce calda 40 v4» è conservata in audio/voce_calda/.
+- Chiusura (voce di Achille e avatar Heygen 2) invariata.
+- Uscita: 167,6 s, integro, −16,2 LUFS, picco −1,0 dBFS. Nuovo asset b4a160cb4b224f6991196a115c468388 (il precedente f00c46223d894f4ca950f8ce15b66ba8 è superato).

@@ -380,7 +380,7 @@ I video 02-04 sono stati montati dentro HeyGen: il link apre il video nel tuo ac
 | PDRO · «Aggiornamento pagamenti ottobre 2026» (reel 9:16) |  | [apri](https://resource2.heygen.ai/video/4c5dbda0145c41ddab85a8795b3d45b5/original.mp4) |
 | PDRO · «Aggiornamento pagamenti novembre 2026» (reel 9:16) | mer 18/11 ~14:20 (subito) | [apri](https://resource2.heygen.ai/video/530f96eac9c54808807c7e9acbf919e4/original.mp4) |
 | PDRO · «Due conquiste – coordinamento e operatori socio sanitari H24» (reel 9:16, Heygen 2) | mer 18/11 ~14:20 (subito) | [apri](https://resource2.heygen.ai/video/27785b043eb1478a9f737a805c128947/original.mp4) |
-| PDRO · «Il Bugiardino® – Dati alla mano» (reel 9:16, Heygen 2) | in attesa del via | [apri](https://resource2.heygen.ai/video/f00c46223d894f4ca950f8ce15b66ba8/original.mp4) |
+| PDRO · «Il Bugiardino® – Dati alla mano» (reel 9:16, Heygen 2) | in attesa del via | [apri](https://resource2.heygen.ai/video/b4a160cb4b224f6991196a115c468388/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino» (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/64ea8400368147b49afa9c25c5d0ef76/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino», versione provinciale (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/6d1ece789252400990662495f3300ad2/original.mp4) |
 | PDRO · Welfare 2026 «350 euro – Lo scontrino», AOUP con la voce di Achille (reel 9:16) | in attesa del via | [apri](https://resource2.heygen.ai/video/3b6664288af24726a011b5bfaddde637/original.mp4) |
