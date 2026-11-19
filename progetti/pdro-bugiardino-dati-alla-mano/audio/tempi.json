@@ -2,51 +2,51 @@
  {
   "id": "S01",
   "inizio": 0.0,
-  "durata": 13.863
+  "durata": 13.774
  },
  {
   "id": "S02",
-  "inizio": 13.863,
-  "durata": 10.283
+  "inizio": 13.774,
+  "durata": 10.694
  },
  {
   "id": "S03",
-  "inizio": 24.146,
-  "durata": 14.957
+  "inizio": 24.468,
+  "durata": 14.993
  },
  {
   "id": "S04",
-  "inizio": 39.104,
-  "durata": 21.14
+  "inizio": 39.461,
+  "durata": 21.729
  },
  {
   "id": "S05",
-  "inizio": 60.244,
-  "durata": 18.953
+  "inizio": 61.19,
+  "durata": 19.31
  },
  {
   "id": "S06",
-  "inizio": 79.196,
-  "durata": 12.93
+  "inizio": 80.5,
+  "durata": 13.145
  },
  {
   "id": "S07",
-  "inizio": 92.127,
-  "durata": 18.89
+  "inizio": 93.645,
+  "durata": 19.078
  },
  {
   "id": "S08",
-  "inizio": 111.017,
-  "durata": 20.654
+  "inizio": 112.722,
+  "durata": 20.578
  },
  {
   "id": "S09",
-  "inizio": 131.671,
-  "durata": 18.312
+  "inizio": 133.3,
+  "durata": 18.455
  },
  {
   "id": "S10",
-  "inizio": 149.982,
+  "inizio": 151.755,
   "durata": 15.857,
   "voce": 14.857
  }
