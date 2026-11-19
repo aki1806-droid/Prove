@@ -222,11 +222,13 @@ def monta():
     for i in range(1, len(pezzi)):
         off += pezzi[i - 1][1]; fil.append(f'[{acc}][{i}:v]xfade=transition=fade:duration={XF}:offset={off:.3f}[x{i}]'); acc = f'x{i}'
     tot = sum(x for _, x in pezzi); ult = tempi[-1]
+    # un progetto può portare la sua scheda logo (logo_card.png nella cartella, 1080x1920 con alfa)
+    LOGO_CARD = f'{D}/logo_card.png' if os.path.exists(f'{D}/logo_card.png') else f'{QUI}/logo_card.png'
     n = len(pezzi)
     if HA_AVATAR:
-        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{AUD}/voce.wav']
+        ins += ['-loop', '1', '-i', LOGO_CARD, '-itsoffset', f"{ult['inizio']:.3f}", '-c:v', 'libvpx-vp9', '-i', f'{D}/avatar/avatar.webm', '-i', f'{AUD}/voce.wav']
     else:   # video senza avatar: segnaposto trasparente al posto del webm, così gli indici degli ingressi restano gli stessi
-        ins += ['-loop', '1', '-i', f'{QUI}/logo_card.png', '-f', 'lavfi', '-i', 'color=black@0:s=16x16:d=1', '-i', f'{AUD}/voce.wav']
+        ins += ['-loop', '1', '-i', LOGO_CARD, '-f', 'lavfi', '-i', 'color=black@0:s=16x16:d=1', '-i', f'{AUD}/voce.wav']
     fil.append(f'[{acc}][{n}:v]overlay=0:0:shortest=1[l1]')
     cornice_in = None
     if not HA_AVATAR:
