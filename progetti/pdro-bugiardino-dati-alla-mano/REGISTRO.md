@@ -35,3 +35,12 @@ Pacchetto PDRO_Il_Bugiardino_Dati_alla_mano.zip mandato da Achille il 19/11/2026
 - Uscita: 167,6 s, integro, −16,2 LUFS, picco −1,0 dBFS. Nuovo asset b4a160cb4b224f6991196a115c468388 (il precedente f00c46223d894f4ca950f8ce15b66ba8 è superato).
 - Robin: post 1197851, pubblicato subito il 19/11 alle 21:17 sui 4 canali AOUP (richiesta di Achille «Pubblicalo»).
 - Esito: YouTube pubblicato (https://www.youtube.com/watch?v=AevCaIy12SU); TikTok e Instagram in lavorazione; Facebook rifiutato di nuovo («flagged by Facebook»), come i post del 18/11.
+
+## Volantino e mail (19/11, «una mail SendFox nello stesso stile dell'ultima e un volantino chiaro»)
+- Volantino A4 (volantino/volantino.html → volantino_bugiardino_A4.pdf/.jpg): tre schede «Si è sentito dire… / I fatti»
+  con i timbri FALSO, FALSO, INESATTO; i due cassetti dei fondi, la linea del tempo del contratto, 620.000 € e oltre
+  1.400.000 €; fascia «Posologia: assemblea generale» (data e luogo a breve); contatti AOUP. Solo testi del pacchetto.
+- Mail SendFox 3125000 (bozza), lista CISL FP AOUP settembre 2026, stile della 3121759: testata, tre verifiche, assemblea,
+  banner del video (YouTube AevCaIy12SU), anteprima e download del volantino, contatti AOUP, WhatsApp. Prova inviata
+  ad achille.pagliaro@cisl.it. Oggetto «💊 Il Bugiardino: tre affermazioni, tre verifiche. Dati alla mano».
+  Immagini sul CDN Robin: allegati 2354117-2354120.

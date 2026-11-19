@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Courier+Prime:wght@700&family=Caveat:wght@700&display=block');
+@page{size:210mm 297mm;margin:0}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:794px;height:1123px}
+body{font-family:Montserrat,sans-serif;position:relative;overflow:hidden;color:#123524;
+  background:#e9f4ee;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+:root{--v:#0b6b3a;--vs:#06381f;--g:#ffd60a;--o:#f39200;--r:#d7191f}
+.fondo{position:absolute;inset:0;background:radial-gradient(70% 45% at 100% 0%,#d3ecdf 0%,rgba(233,244,238,0) 70%),
+  radial-gradient(60% 40% at 0% 100%,#d3ecdf 0%,rgba(233,244,238,0) 70%)}
+.croci{position:absolute;inset:0;opacity:.35;background-image:
+  linear-gradient(#bcdccb,#bcdccb),linear-gradient(#bcdccb,#bcdccb);background-size:14px 4px,4px 14px;
+  background-position:20px 25px,25px 20px;background-repeat:repeat;
+  -webkit-mask:repeating-linear-gradient(0deg,#000 0 0);}
+.croci{background:none}
+.croci:before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,#b9dac8 1.6px,transparent 1.8px);background-size:28px 28px;opacity:.9}
+.top{position:absolute;left:34px;right:34px;top:26px;display:flex;align-items:center;justify-content:space-between}
+.logo{background:#fff;border-radius:14px;padding:8px 14px;box-shadow:0 8px 20px rgba(6,56,31,.15)}
+.logo img{height:50px;display:block}
+.chip{display:flex;align-items:center;gap:8px;background:#fff;border:2px solid var(--v);color:var(--vs);font-weight:800;font-size:13px;letter-spacing:1.2px;padding:7px 14px;border-radius:30px}
+.chip i{font-style:normal;width:18px;height:18px;background:var(--v);color:#fff;border-radius:4px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:15px}
+.riga{position:absolute;left:34px;right:34px;top:104px;height:7px;border-radius:4px;background:var(--v)}
+.riga:after{content:"";position:absolute;left:46%;width:46px;top:0;bottom:0;background:var(--g);border-radius:4px}
+.col{position:absolute;left:34px;right:34px;top:124px;display:flex;flex-direction:column;gap:17px}
+.tit{position:relative}
+.tit .k{font-weight:800;font-size:12px;letter-spacing:2.5px;color:var(--v)}
+.tit h1{font-weight:900;font-size:40px;line-height:44px;letter-spacing:-1px;margin-top:2px}
+.tit h1 span{background:var(--g);padding:0 10px;border-radius:8px}
+.tit p{font-size:13px;line-height:18px;margin-top:5px;color:#2d4a3b;font-weight:500}
+.tit p b{color:var(--vs)}
+/* schede */
+.sch{position:relative;background:#fff;border-radius:18px;box-shadow:0 10px 26px rgba(6,56,31,.12);padding:11px 18px 12px 74px}
+.num{position:absolute;left:16px;top:14px;width:44px;height:44px;border-radius:50%;background:var(--vs);color:var(--g);font-weight:900;font-size:22px;display:flex;align-items:center;justify-content:center}
+.sd{font-weight:800;font-size:10.5px;letter-spacing:2px;color:#6b7f74}
+.q{font-family:'Courier Prime',monospace;font-weight:700;font-size:15.5px;line-height:20px;margin-top:2px;padding-right:130px}
+.timbro{position:absolute;right:18px;top:16px;border:4px solid var(--r);color:var(--r);font-weight:900;font-size:22px;padding:0 10px;border-radius:8px;transform:rotate(-8deg);letter-spacing:1.5px;background:rgba(255,255,255,.9)}
+.f{font-weight:800;font-size:10.5px;letter-spacing:2px;color:var(--v);margin-top:6px}
+.txt{font-size:13.5px;line-height:19px;margin-top:3px;color:#24392e}
+.txt b{color:var(--vs)}
+.cass{display:flex;gap:10px;margin-top:8px}
+.cas{flex:1;border-radius:10px;overflow:hidden;border:1.5px solid #d7e6dd}
+.cas .h{color:#fff;font-weight:800;font-size:11.5px;letter-spacing:.5px;padding:5px 10px;line-height:14px}
+.cas .h small{display:block;font-weight:600;font-size:9.5px;letter-spacing:.3px;opacity:.9}
+.cas ul{list-style:none;padding:5px 10px 6px;font-size:11.5px;line-height:16px;font-weight:600}
+.cas li:before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px;vertical-align:1px}
+.c1 .h{background:var(--v)}.c1 li:before{background:var(--v)}
+.c2 .h{background:var(--o)}.c2 li:before{background:var(--o)}
+.post{font-family:Caveat,cursive;font-size:18px;color:var(--vs);background:#fff3a8;padding:0 10px;border-radius:4px;display:inline-block;transform:rotate(-1.5deg);margin-left:8px;vertical-align:1px;box-shadow:0 3px 6px rgba(0,0,0,.12)}
+.tl{display:flex;align-items:flex-start;margin-top:7px;position:relative}
+.tl:before{content:"";position:absolute;left:18px;right:60px;top:9px;height:4px;background:#cfe3d7;border-radius:2px}
+.st{flex:1;position:relative}
+.st i{display:block;width:22px;height:22px;border-radius:50%;border:5px solid #9aa9a1;background:#fff}
+.st.g i{border-color:var(--v)}.st.o i{border-color:var(--o)}
+.st .a{font-weight:700;font-size:10px;letter-spacing:1px;color:#6b7f74;margin-top:5px}
+.st .b{font-weight:900;font-size:16px;line-height:18px}
+.st .c{font-weight:700;font-size:11px;color:#8a9a91}
+.st.g .c{color:var(--v)}.st.o .c{color:var(--o)}
+.nums{display:flex;gap:10px;margin-top:8px}
+.nb{flex:1;border-radius:12px;padding:6px 12px;background:#eef7f1;border:1.5px solid #cfe3d7}
+.nb .n{font-weight:900;font-size:25px;letter-spacing:-1px;color:var(--vs);line-height:30px}
+.nb .d{font-size:11.5px;line-height:15px;font-weight:600;color:#2d4a3b}
+.nb.g{background:#fff7cf;border-color:#f2df7a}
+/* assemblea */
+.ass{position:relative;height:84px;border-radius:16px;background:var(--vs);color:#fff;display:flex;align-items:center;gap:16px;padding:0 20px}
+.rx{font-family:'Courier Prime',monospace;font-weight:700;font-size:40px;color:var(--g);line-height:40px}
+.ass .t{font-weight:900;font-size:17px;line-height:21px}
+.ass .t span{color:var(--g)}
+.ass .s{font-size:12px;line-height:16px;color:#cfe9d7;margin-top:2px}
+.ass .dl{margin-left:auto;flex:none;background:var(--g);color:var(--vs);font-weight:800;font-size:12px;padding:8px 12px;border-radius:10px;text-align:center;line-height:15px}
+/* piede */
+.piede{position:absolute;left:34px;right:34px;top:1026px;display:flex;gap:14px;align-items:stretch}
+.motto{flex:1;display:flex;flex-direction:column;justify-content:center}
+.motto b{font-weight:900;font-size:22px;line-height:26px}
+.motto b span{color:var(--v)}
+.motto i{font-family:Caveat,cursive;font-style:normal;font-size:20px;color:#2d4a3b;margin-top:2px}
+.cont{flex:none;width:330px;background:#fff;border-radius:14px;padding:9px 14px;box-shadow:0 8px 20px rgba(6,56,31,.12);border-top:5px solid var(--v)}
+.cont .p{display:flex;justify-content:space-between;font-size:13.5px;line-height:20px}
+.cont .p b{font-weight:800}
+.cont .m{font-weight:700;font-size:13px;color:var(--v);margin-top:2px}
+</style></head><body>
+<div class="fondo"></div><div class="croci"></div>
+<div class="top"><div class="logo"><img src="logo.png" alt=""></div><div class="chip"><i>+</i>IL BUGIARDINO® · AOUP</div></div>
+<div class="riga"></div>
+
+<div class="col"><div class="tit"><div class="k">FOGLIETTO ILLUSTRATIVO CONTRO LA DISINFORMAZIONE</div>
+<h1>Dati alla mano. <span>Tre verifiche.</span></h1>
+<p>In questi giorni sono circolate affermazioni inesatte. Le abbiamo messe alla prova, una per una. <b>Leggere attentamente prima di credere a tutto.</b></p></div>
+
+<div class="sch">
+ <div class="num">1</div><div class="sd">SI È SENTITO DIRE…</div>
+ <div class="q">«I progetti pagati con la premialità tolgono soldi a progressioni e DEP»</div>
+ <div class="timbro">FALSO</div>
+ <div class="f">I FATTI</div>
+ <div class="txt">Sono <b>due fondi diversi</b>, ognuno con i suoi istituti. <span class="post">Aprire un cassetto non svuota l'altro.</span></div>
+ <div class="cass">
+  <div class="cas c1"><div class="h">FONDO INCARICHI<small>e progressioni</small></div><ul><li>Progressioni economiche (DEP)</li><li>Incarichi</li><li>Indennità professionali</li></ul></div>
+  <div class="cas c2"><div class="h">FONDO PREMIALITÀ<small>e condizioni di lavoro</small></div><ul><li>Produttività / performance</li><li>Progetti</li><li>Condizioni di lavoro</li></ul></div>
+ </div>
+</div>
+
+<div class="sch">
+ <div class="num">2</div><div class="sd">SI È SENTITO DIRE…</div>
+ <div class="q">«La CISL FP ha detto che il contratto è già firmato»</div>
+ <div class="timbro">FALSO</div>
+ <div class="f">I FATTI</div>
+ <div class="txt">Video, volantini e materiali hanno <b>sempre parlato di attesa</b>. La nostra linea non cambia:</div>
+ <div class="tl">
+  <div class="st"><i></i><div class="a">OGGI</div><div class="b">In attesa</div><div class="c">come sempre detto</div></div>
+  <div class="st g"><i></i><div class="a">DICEMBRE 2026</div><div class="b">Firma</div><div class="c">presumibilmente</div></div>
+  <div class="st o"><i></i><div class="a">GENNAIO 2027</div><div class="b">Arretrati</div><div class="c">previsione</div></div>
+ </div>
+</div>
+
+<div class="sch">
+ <div class="num">3</div><div class="sd">SI È SENTITO DIRE…</div>
+ <div class="q">«Sui DEP 2026 si è messo poco»</div>
+ <div class="timbro">INESATTO</div>
+ <div class="f">I FATTI</div>
+ <div class="nums">
+  <div class="nb"><div class="n">620.000 €</div><div class="d">sui DEP 2026: <b>il massimo stanziabile</b></div></div>
+  <div class="nb g"><div class="n"><small style="font-size:14px">oltre</small> 1.400.000 €</div><div class="d">di progressioni <b>in due anni</b>, con la firma CISL FP</div></div>
+ </div>
+ <div class="txt" style="margin-top:7px">La produttività complessiva è calata per una <b>legge regionale</b> che lega alcune risorse variabili al numero di dipendenti previsti. Più risorse sui DEP avrebbero voluto dire un <b>conguaglio più basso per tutti</b>.</div>
+</div>
+
+<div class="ass"><div class="rx">Rx</div>
+ <div><div class="t">Posologia: <span>assemblea generale</span> di tutto il comparto</div>
+ <div class="s">Documenti sul tavolo, ogni accordo spiegato con la sua ratio. Non la nostra verità: la verità verificabile, anche con un accesso agli atti.</div></div>
+ <div class="dl">Data e luogo<br>a breve</div></div>
+</div>
+
+<div class="piede">
+ <div class="motto"><b>Dati alla mano. <span>Sempre.</span></b><i>al tuo fianco, una persona alla volta</i></div>
+ <div class="cont"><div class="p"><span>Achille Pagliaro</span><b>391 127 1018</b></div><div class="p"><span>Giovanna Vullo</span><b>389 928 5301</b></div><div class="m">cisl.fp@aopd.veneto.it</div></div>
+</div>
+</body></html>
