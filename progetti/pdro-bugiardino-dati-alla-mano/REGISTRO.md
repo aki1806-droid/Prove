@@ -34,3 +34,4 @@ Pacchetto PDRO_Il_Bugiardino_Dati_alla_mano.zip mandato da Achille il 19/11/2026
 - Chiusura (voce di Achille e avatar Heygen 2) invariata.
 - Uscita: 167,6 s, integro, −16,2 LUFS, picco −1,0 dBFS. Nuovo asset b4a160cb4b224f6991196a115c468388 (il precedente f00c46223d894f4ca950f8ce15b66ba8 è superato).
 - Robin: post 1197851, pubblicato subito il 19/11 alle 21:17 sui 4 canali AOUP (richiesta di Achille «Pubblicalo»).
+- Esito: YouTube pubblicato (https://www.youtube.com/watch?v=AevCaIy12SU); TikTok e Instagram in lavorazione; Facebook rifiutato di nuovo («flagged by Facebook»), come i post del 18/11.
