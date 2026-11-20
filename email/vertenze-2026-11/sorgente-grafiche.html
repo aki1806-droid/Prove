@@ -1,0 +1,167 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:'Poppins',sans-serif}
+.g{width:1200px;position:relative;overflow:hidden;margin-bottom:40px}
+.anton{font-family:'Anton',sans-serif;text-transform:uppercase;letter-spacing:1px}
+.y{color:#ffd60a}.w{color:#fff}.r{color:#e2001a}
+.stripes{position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.035) 0 22px,transparent 22px 44px)}
+.pill{display:inline-block;border-radius:60px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+
+/* HERO */
+#hero{height:1060px;background:radial-gradient(circle at 85% 20%,#13994d 0%,#075029 42%,#03240f 100%);padding:56px 70px}
+#hero .top{display:flex;justify-content:space-between;align-items:center;position:relative}
+#hero .logo{background:#fff;border-radius:18px;padding:14px 20px}
+#hero .logo img{height:62px;display:block}
+#hero .tag{background:#e2001a;color:#fff;font-size:21px;padding:14px 28px;box-shadow:0 10px 30px rgba(226,0,26,.45)}
+#hero h1{position:relative;margin-top:64px;font-size:132px;line-height:1.02}
+#hero .sub{position:relative;margin-top:26px;font-size:31px;line-height:1.45;color:#d7f0de;max-width:600px;font-weight:500}
+#hero .sub b{color:#fff;font-weight:800}
+.stamp{position:absolute;right:70px;top:505px;transform:rotate(-9deg);background:rgba(4,40,20,.55);border:9px solid #ffd60a;color:#ffd60a;border-radius:26px;padding:20px 30px;text-align:center;box-shadow:0 0 0 5px rgba(255,214,10,.25)}
+.stamp .big{font-family:'Anton';font-size:78px;line-height:1.1}
+.stamp .sm{font-weight:800;font-size:20px;letter-spacing:4px}
+#hero .chips{position:absolute;left:70px;right:70px;bottom:56px;display:flex;gap:22px}
+.chip{flex:1;background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.18);border-radius:26px;padding:24px 24px;display:flex;align-items:center;gap:18px}
+.ico{width:70px;height:70px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:none}
+.chip .st{font-size:17px;font-weight:800;letter-spacing:3px}
+.chip .nm{font-size:25px;font-weight:800;color:#fff;line-height:1.15;margin-top:2px}
+
+/* TABELLONE */
+#tab{background:#f2f8f3;padding:60px 56px 64px}
+.kick{font-size:22px;font-weight:800;letter-spacing:6px;text-transform:uppercase}
+.ttl{font-size:64px;font-weight:900;color:#06381f;line-height:1.1;margin-top:6px}
+.bar{width:120px;height:10px;border-radius:10px;background:#ffd60a;margin-top:18px}
+#tab .cols{display:flex;gap:26px;margin-top:46px}
+.card{flex:1;background:#fff;border-radius:34px;box-shadow:0 18px 44px rgba(6,56,31,.13);overflow:hidden;display:flex;flex-direction:column}
+.card .head{height:200px;display:flex;align-items:center;justify-content:center;position:relative}
+.card .head .num{position:absolute;left:24px;top:14px;font-family:'Anton';font-size:60px;color:rgba(255,255,255,.22)}
+.card .body{padding:30px 30px 36px;flex:1}
+.badge{display:inline-block;color:#fff;font-weight:800;font-size:17px;letter-spacing:3px;padding:9px 18px;border-radius:40px}
+.card h3{font-size:33px;line-height:1.15;font-weight:900;color:#06381f;margin-top:18px}
+.card p{font-size:22px;line-height:1.5;color:#3a4a41;margin-top:12px}
+.prog{height:14px;border-radius:14px;background:#e3eee6;margin-top:24px;overflow:hidden}
+.prog i{display:block;height:100%;border-radius:14px}
+.plab{display:flex;justify-content:space-between;font-size:15px;font-weight:700;color:#7a8b81;margin-top:8px;letter-spacing:1px}
+
+/* STAT */
+#stat{background:linear-gradient(135deg,#fff6c2,#ffe46b);padding:64px 70px;height:660px}
+#stat .lbl{font-size:24px;font-weight:800;letter-spacing:6px;color:#8a5a00}
+#stat .money{font-family:'Anton';font-size:230px;line-height:.95;color:#06381f;margin-top:14px}
+#stat .money small{font-size:120px;margin-left:10px}
+#stat .txt{font-size:32px;line-height:1.4;color:#3d3300;font-weight:500;max-width:640px;margin-top:22px}
+#stat .txt b{color:#06381f;font-weight:900}
+.seal{position:absolute;right:80px;top:70px;width:300px;height:300px;border-radius:50%;background:#06381f;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#ffd60a;text-align:center;box-shadow:0 0 0 14px rgba(6,56,31,.15),0 24px 50px rgba(0,0,0,.25);transform:rotate(8deg)}
+.seal .n{font-family:'Anton';font-size:130px;line-height:.9}
+.seal .t{font-weight:800;font-size:23px;letter-spacing:3px;color:#fff;line-height:1.3}
+#stat .court{position:absolute;right:70px;bottom:70px;background:#06381f;color:#fff;font-weight:700;font-size:22px;padding:16px 26px;border-radius:18px}
+#stat .court b{color:#ffd60a}
+
+/* TEMPO */
+#tempo{background:#0b1f14;padding:62px 64px 60px}
+#tempo .ttl{color:#fff}
+#tempo .grid{display:grid;grid-template-columns:repeat(15,1fr);gap:12px;margin-top:46px}
+#tempo .m{height:52px;border-radius:12px;background:#00843d}
+#tempo .m.lost{background:#e2001a;position:relative;opacity:.95}
+#tempo .m.lost:after{content:'';position:absolute;left:8px;right:8px;top:50%;height:5px;background:#fff;transform:rotate(-30deg)}
+#tempo .m.risk{background:repeating-linear-gradient(135deg,#ffd60a 0 8px,#d9b200 8px 16px)}
+#tempo .leg{display:flex;gap:40px;margin-top:30px;font-size:22px;font-weight:700;color:#cfe3d6}
+#tempo .leg span{display:inline-block;width:26px;height:26px;border-radius:7px;vertical-align:-5px;margin-right:12px}
+#tempo .msg{margin-top:40px;font-size:38px;line-height:1.35;color:#fff;font-weight:800}
+#tempo .msg em{font-style:normal;color:#ffd60a}
+
+/* PASSI */
+#passi{background:#fff;padding:60px 56px 66px}
+#passi .row{display:flex;align-items:stretch;gap:0;margin-top:46px}
+.step{flex:1;background:#f2f8f3;border-radius:32px;padding:34px 28px;text-align:center;position:relative}
+.step .n{width:96px;height:96px;border-radius:50%;margin:0 auto;background:#06381f;color:#ffd60a;font-family:'Anton';font-size:58px;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 28px rgba(6,56,31,.3)}
+.step .big{font-family:'Anton';font-size:52px;color:#06381f;text-transform:uppercase;margin-top:22px;line-height:1}
+.step p{font-size:22px;line-height:1.45;color:#3a4a41;margin-top:12px}
+.arrow{width:60px;display:flex;align-items:center;justify-content:center}
+.free{margin-top:36px;background:#06381f;border-radius:26px;padding:24px 34px;display:flex;justify-content:space-around;color:#fff;font-weight:800;font-size:25px}
+.free b{color:#ffd60a}
+
+/* UNITA */
+#uniti{height:660px;background:linear-gradient(160deg,#e2001a 0%,#a3000f 100%);padding:64px 70px}
+#uniti .big{font-family:'Anton';font-size:140px;line-height:1.12;color:#fff;text-transform:uppercase;position:relative}
+#uniti .big span{color:#ffd60a}
+#uniti p{position:relative;font-size:30px;line-height:1.45;color:#ffe3e6;margin-top:22px;max-width:640px;font-weight:500}
+#uniti p b{color:#fff;font-weight:800}
+.people{position:absolute;right:60px;bottom:60px;display:grid;grid-template-columns:repeat(5,58px);gap:14px}
+.people div{width:58px;height:58px;border-radius:50%;background:rgba(255,255,255,.22)}
+.people div.on{background:#ffd60a}
+.people div.you{background:#fff;box-shadow:0 0 0 6px rgba(255,255,255,.35);display:flex;align-items:center;justify-content:center;font-weight:900;color:#e2001a;font-size:20px}
+</style></head><body>
+
+<svg width="0" height="0" style="position:absolute"><defs>
+<symbol id="check" viewBox="0 0 24 24"><path d="M4 12.5l5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="scale" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 21h10M5 7h14M12 5l0 0"/><path d="M5 7l-3 7a3.2 3.2 0 006 0L5 7zM19 7l-3 7a3.2 3.2 0 006 0l-3-7z"/></g></symbol>
+<symbol id="glass" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9"/><path d="M9 19h6l-3-3z" fill="currentColor"/></g></symbol>
+<symbol id="arr" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</defs></svg>
+
+<div class="g" id="hero"><div class="stripes"></div>
+ <div class="top"><div class="logo"><img src="https://uploads.sendfox.com/media/faTW0Qjt84APeB7o3zoPGVVQqsDoPdsaYJwOsJMq174317"></div><div class="pill tag">Vertenze collettive · AOUP</div></div>
+ <h1 class="anton"><span class="w">Tre vertenze.</span><br><span class="y">Una l'abbiamo<br>già vinta.</span></h1>
+ <div class="sub">Le altre due sono in tribunale. Manca solo un pezzo per completare il quadro: <b>tu.</b></div>
+ <div class="stamp"><div class="sm">TRIBUNALE DI PADOVA</div><div class="big">VINTA</div><div class="sm">14 · 05 · 2026</div></div>
+ <div class="chips">
+  <div class="chip"><div class="ico" style="background:#00a14b;color:#fff"><svg width="38" height="38"><use href="#check"/></svg></div><div><div class="st" style="color:#7ff0a8">VINTA</div><div class="nm">Festivo<br>infrasettimanale</div></div></div>
+  <div class="chip"><div class="ico" style="background:#f08a00;color:#fff"><svg width="40" height="40"><use href="#scale"/></svg></div><div><div class="st" style="color:#ffc061">IN CAUSA</div><div class="nm">Indennità di<br>turno in ferie</div></div></div>
+  <div class="chip"><div class="ico" style="background:#ffd60a;color:#06381f"><svg width="38" height="38"><use href="#glass"/></svg></div><div><div class="st" style="color:#ffd60a">SENTENZA A GIORNI</div><div class="nm">Buoni<br>pasto</div></div></div>
+ </div>
+</div>
+
+<div class="g" id="tab">
+ <div class="kick r">Il tabellone dei fatti</div><div class="ttl">A che punto siamo</div><div class="bar"></div>
+ <div class="cols">
+  <div class="card"><div class="head" style="background:linear-gradient(135deg,#00a14b,#00632e)"><div class="num">01</div><div class="ico" style="width:120px;height:120px;background:#fff;color:#00843d"><svg width="64" height="64"><use href="#check"/></svg></div></div>
+   <div class="body"><span class="badge" style="background:#00843d">VINTA</span><h3>Festivo infrasettimanale</h3><p>Sentenza del Tribunale di Padova del 14 maggio 2026. Ora la vertenza collettiva è aperta a tutti.</p>
+   <div class="prog"><i style="width:100%;background:#00843d"></i></div><div class="plab"><span>AVVIO</span><span>SENTENZA ✓</span></div></div></div>
+  <div class="card"><div class="head" style="background:linear-gradient(135deg,#ff9d1c,#d06a00)"><div class="num">02</div><div class="ico" style="width:120px;height:120px;background:#fff;color:#e67e00"><svg width="66" height="66"><use href="#scale"/></svg></div></div>
+   <div class="body"><span class="badge" style="background:#e67e00">IN CAUSA</span><h3>Indennità di turno in ferie</h3><p>Già in causa con l'Azienda Ospedaliera, forti della Cassazione n.&nbsp;25528/2025.</p>
+   <div class="prog"><i style="width:62%;background:#e67e00"></i></div><div class="plab"><span>AVVIO</span><span>SENTENZA</span></div></div></div>
+  <div class="card"><div class="head" style="background:linear-gradient(135deg,#0d5a30,#04351c)"><div class="num">03</div><div class="ico" style="width:120px;height:120px;background:#ffd60a;color:#06381f"><svg width="62" height="62"><use href="#glass"/></svg></div></div>
+   <div class="body"><span class="badge" style="background:#06381f">SENTENZA A GIORNI</span><h3>Buoni pasto</h3><p>Il percorso è aperto da tempo: la decisione è attesa per fine novembre.</p>
+   <div class="prog"><i style="width:92%;background:linear-gradient(90deg,#06381f,#ffd60a)"></i></div><div class="plab"><span>AVVIO</span><span>SENTENZA</span></div></div></div>
+ </div>
+</div>
+
+<div class="g" id="stat"><div class="stripes" style="background:repeating-linear-gradient(135deg,rgba(0,0,0,.025) 0 22px,transparent 22px 44px)"></div>
+ <div class="lbl" style="position:relative">LA PROVA CHE FUNZIONA</div>
+ <div class="money" style="position:relative">3.000<small>€+</small></div>
+ <div class="txt" style="position:relative">riconosciuti a un collega dal giudice. <b>Quella sentenza oggi è la strada aperta per tutti.</b></div>
+ <div class="seal"><div class="n">34</div><div class="t">GIORNATE<br>FESTIVE<br>RICONOSCIUTE</div></div>
+ <div class="court">⚖️ Tribunale di Padova · <b>14 maggio 2026</b></div>
+</div>
+
+<div class="g" id="tempo">
+ <div class="kick y">Perché non aspettare</div><div class="ttl">Il tempo lavora contro di te</div><div class="bar"></div>
+ <div class="grid" id="mesi"></div>
+ <div class="leg"><div><span style="background:#00843d"></span>Mesi che puoi ancora recuperare</div><div><span style="background:#ffd60a"></span>A rischio</div><div><span style="background:#e2001a"></span>Usciti dal conto</div></div>
+ <div class="msg">I crediti di lavoro si prescrivono in <em>5 anni</em>. Ogni mese che aspetti, il più vecchio <em>esce dal conto.</em></div>
+</div>
+
+<div class="g" id="passi">
+ <div class="kick" style="color:#00843d">Il primo passo è piccolo</div><div class="ttl">Tre passi. Il primo, due minuti.</div><div class="bar"></div>
+ <div class="row">
+  <div class="step"><div class="n">1</div><div class="big">Compili</div><p>il modulo della vertenza che ti riguarda. <b>Due minuti.</b></p></div>
+  <div class="arrow" style="color:#00843d"><svg width="44" height="44"><use href="#arr"/></svg></div>
+  <div class="step"><div class="n">2</div><div class="big">Ti richiamiamo</div><p>noi, per verificare insieme <b>la tua posizione.</b></p></div>
+  <div class="arrow" style="color:#00843d"><svg width="44" height="44"><use href="#arr"/></svg></div>
+  <div class="step" style="background:#fff6c2"><div class="n" style="background:#e2001a;color:#fff">3</div><div class="big">Pensiamo noi</div><p>al resto, con i nostri avvocati, <b>passo dopo passo.</b></p></div>
+ </div>
+ <div class="free"><span>✓ <b>Arretrati</b> fino a 5 anni</span><span>✓ Servizio <b>gratuito</b></span><span>✓ <b>Ti ricontattiamo</b> noi</span></div>
+</div>
+
+<div class="g" id="uniti"><div class="stripes"></div>
+ <div class="big">Più siamo,<br><span>più contiamo.</span></div>
+ <p>Una vertenza collettiva pesa quanto le persone che la sostengono. <b>Ogni adesione rafforza la posizione di tutti, la tua compresa.</b></p>
+ <div class="people"><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="on"></div><div class="you">TU</div></div>
+</div>
+
+<script>
+const g=document.getElementById('mesi');for(let i=0;i<60;i++){const d=document.createElement('div');d.className='m'+(i<3?' lost':i<6?' risk':'');g.appendChild(d)}
+</script>
+</body></html>
