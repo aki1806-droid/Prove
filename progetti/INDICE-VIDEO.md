@@ -5,9 +5,13 @@ progetti il 1 novembre 2026; dove ci sono più versioni è indicata l'ultima (le
 
 **229 video** in 17 sezioni.
 
-La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 17 novembre
-2026: fino al 17/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
+La colonna «Uscita sui social» riporta giorno e ora (di Roma) dei post programmati su Robin, aggiornata il 22 novembre
+2026: fino al 22/11 compreso i video sono già usciti. Vuota se il video non è programmato su Robin o se è uscito prima.
 Il calendario completo, in ordine di data, è subito sotto.
+
+**Facebook (pagina «CISL FP – Sanità AOUP Social Club»):** dal 18/11 la pagina rifiuta i post che arrivano da Robin
+(«flagged by Facebook», blocco dell'azione). Pagamenti di novembre, «Due conquiste», i volantini e il Bugiardino sono
+usciti su YouTube, TikTok e Instagram ma non su Facebook: vanno ripubblicati quando la pagina è sistemata.
 
 - `https://resource2.heygen.ai/video/<id>/original.mp4`: file originale caricato su HeyGen, si apre e si scarica direttamente.
 - `https://app.heygen.com/videos/<id>`: video montato dentro HeyGen, si apre dal tuo account.
@@ -45,16 +49,21 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | sab 14/11 21:00 | Sentirsi per sentire · Brividi T4 «Chi cura» | 12 canali provinciali |
 | lun 16/11 21:00 | Sentirsi per sentire · P5 «Padova si accende» | 12 canali provinciali |
 | mar 17/11 12:30 | Convenzioni 2 · «Lettera dal futuro – Fondo sanitario» | 4 canali AOUP (testo provinciale) |
+| mer 18/11 14:18 | «Aggiornamento pagamenti novembre 2026» (con le quote medie 2025) | 4 canali AOUP |
+| mer 18/11 14:18 | «Due conquiste – coordinamento e operatori socio sanitari H24» | 4 canali AOUP |
 | mer 18/11 19:30 | Sentirsi per sentire · P4 «Anche gli uomini» | 12 canali provinciali |
 | gio 19/11 18:15 | 20 format · 02 «Green flag, Blue-red flag» | 4 canali AOUP |
 | gio 19/11 21:00 | Sentirsi per sentire · Brividi T5 «Accendiamo una luce» | 12 canali provinciali |
+| gio 19/11 21:17 | «Il Bugiardino® – Dati alla mano» | 4 canali AOUP |
 | ven 20/11 12:30 | Convenzioni 3 · «Le tre di notte – medico H24» | 4 canali AOUP (testo provinciale) |
 | dom 22/11 19:30 | Sentirsi per sentire · P1 «Il posto vuoto» | 12 canali provinciali |
 | lun 23/11 19:00 | Lettere dal futuro · Ep. 1 «Firma quel modulo» | 4 canali AOUP |
 | mar 24/11 12:30 | Convenzioni 4 · «Il gioco della carriera – formazione» | 4 canali AOUP (testo provinciale) |
 | mar 24/11 19:00 | Oggetti smarriti · Ep. 1 «Il badge» | 4 canali AOUP |
 | gio 26/11 18:15 | 20 format · 03 «Mito da sfatare» | 4 canali AOUP |
+| gio 26/11 19:00 | CISL FP Pictures · Ep.1 «L'ultima riga» | 4 canali AOUP |
 | ven 27/11 12:30 | Convenzioni 5 · «Cartoline dal riposo – tempo libero» | 4 canali AOUP (testo provinciale) |
+| sab 28/11 11:00 | Museo della Sanità 2126 · Ep.1 «Il cartellino delle dodici notti» | 4 canali AOUP |
 | lun 30/11 19:00 | Lettere dal futuro · Ep. 2 «Il bando che non ho letto» | 4 canali AOUP |
 | mar 1/12 12:30 | Convenzioni 6 · «Una giornata a sconto – acquisti» | 4 canali AOUP (testo provinciale) |
 | mar 1/12 18:15 | Calendario dei diritti · Casella 1 «Riposo giornaliero» | 4 canali AOUP |
@@ -62,8 +71,10 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mer 2/12 18:15 | Calendario dei diritti · Casella 2 «Riposo settimanale» | 4 canali AOUP |
 | gio 3/12 12:30 | 20 format · 05 «ASMR del cedolino» | 4 canali AOUP |
 | gio 3/12 18:15 | Calendario dei diritti · Casella 3 «Orario massimo» | 4 canali AOUP |
+| gio 3/12 19:00 | CISL FP Pictures · Ep.2 «Il rientro» | 4 canali AOUP |
 | ven 4/12 12:30 | Convenzioni 7 · «Il terrore digitale – SPID e PEC» | 4 canali AOUP (testo provinciale) |
 | ven 4/12 18:15 | Calendario dei diritti · Casella 4 «Ferie» | 4 canali AOUP |
+| sab 5/12 11:00 | Museo della Sanità 2126 · Ep.2 «La sedia della pausa» | 4 canali AOUP |
 | sab 5/12 18:15 | Calendario dei diritti · Casella 5 «Diritto allo studio» | 4 canali AOUP |
 | dom 6/12 18:15 | Calendario dei diritti · Casella 6 «Legge 104» | 4 canali AOUP |
 | lun 7/12 18:15 | Calendario dei diritti · Casella 7 «Congedo parentale» | 4 canali AOUP |
@@ -74,7 +85,9 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mer 9/12 18:15 | Calendario dei diritti · Casella 9 «Allattamento» | 4 canali AOUP |
 | gio 10/12 12:30 | 20 format · 06 «La classifica dei turni» | 4 canali AOUP |
 | gio 10/12 18:15 | Calendario dei diritti · Casella 10 «Malattia» | 4 canali AOUP |
+| gio 10/12 19:00 | CISL FP Pictures · Ep.3 «Per un pugno di ferie» | 4 canali AOUP |
 | ven 11/12 18:15 | Calendario dei diritti · Casella 11 «Visite ed esami» | 4 canali AOUP |
+| sab 12/12 11:00 | Museo della Sanità 2126 · Ep.3 «Il foglio turni a matita» | 4 canali AOUP |
 | sab 12/12 18:15 | Calendario dei diritti · Casella 12 «Lutto» | 4 canali AOUP |
 | dom 13/12 18:15 | Calendario dei diritti · Casella 13 «Matrimonio» | 4 canali AOUP |
 | lun 14/12 18:15 | Calendario dei diritti · Casella 14 «Donazione di sangue» | 4 canali AOUP |
@@ -84,7 +97,9 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mer 16/12 18:15 | Calendario dei diritti · Casella 16 «Affissione» | 4 canali AOUP |
 | gio 17/12 12:30 | 20 format · 07 «Il tuo anno in corsia» | 4 canali AOUP |
 | gio 17/12 18:15 | Calendario dei diritti · Casella 17 «Libertà di opinione» | 4 canali AOUP |
+| gio 17/12 19:00 | CISL FP Pictures · Ep.4 «Odissea nel reparto» | 4 canali AOUP |
 | ven 18/12 18:15 | Calendario dei diritti · Casella 18 «Niente discriminazioni» | 4 canali AOUP |
+| sab 19/12 11:00 | Museo della Sanità 2126 · Ep.4 «La chat di reparto» | 4 canali AOUP |
 | sab 19/12 18:15 | Calendario dei diritti · Casella 19 «Dispositivi di protezione» | 4 canali AOUP |
 | dom 20/12 18:15 | Calendario dei diritti · Casella 20 «Medico competente» | 4 canali AOUP |
 | lun 21/12 18:15 | Calendario dei diritti · Casella 21 «Contro le aggressioni» | 4 canali AOUP |
@@ -93,21 +108,33 @@ Non hanno un originale online «Oncoematologia pediatrica» (pdro-oncoematologia
 | mar 22/12 19:00 | Oggetti smarriti · Ep. 5 «Il disegno nell'armadietto» | 4 canali AOUP |
 | mer 23/12 18:15 | Calendario dei diritti · Casella 23 «Formazione» | 4 canali AOUP |
 | gio 24/12 18:15 | Calendario dei diritti · Casella 24 «Tredicesima» | 4 canali AOUP |
+| gio 24/12 19:00 | CISL FP Pictures · Ep.5 «Io, te e il part-time» | 4 canali AOUP |
 | ven 25/12 10:15 | Calendario dei diritti · Finale «Buone feste» con Achille | 4 canali AOUP |
+| sab 26/12 11:00 | Museo della Sanità 2126 · Ep.5 «Il cedolino geroglifico» | 4 canali AOUP |
 | lun 28/12 19:00 | Lettere dal futuro · Ep. 6 «Diciotto mesi» | 4 canali AOUP |
 | mar 29/12 19:00 | Oggetti smarriti · Ep. 6 «Il telefono delle tre» | 4 canali AOUP |
+| gio 31/12 19:00 | CISL FP Pictures · Ep.6 «Organico zero» | 4 canali AOUP |
+| sab 2/1 11:00 | Museo della Sanità 2126 · Ep.6 «La divisa e i minuti invisibili» | 4 canali AOUP |
 | lun 4/1 19:00 | Lettere dal futuro · Ep. 7 «La schiena» | 4 canali AOUP |
 | mar 5/1 19:00 | Oggetti smarriti · Ep. 7 «La lettera mai spedita» | 4 canali AOUP |
 | gio 7/1 18:15 | 20 format · 08 «Il microfono in corsia» | 4 canali AOUP |
+| gio 7/1 19:00 | CISL FP Pictures · Ep.7 «Non servono superpoteri» | 4 canali AOUP |
+| sab 9/1 11:00 | Museo della Sanità 2126 · Ep.7 «Il lavoratore solitario» | 4 canali AOUP |
 | lun 11/1 19:00 | Lettere dal futuro · Ep. 8 «La valutazione che non ho contestato» | 4 canali AOUP |
 | mar 12/1 19:00 | Oggetti smarriti · Ep. 8 «Il mazzo di chiavi» | 4 canali AOUP |
 | gio 14/1 18:15 | 20 format · 09 «Primo giorno in ospedale» | 4 canali AOUP |
+| gio 14/1 19:00 | CISL FP Pictures · Ep.8 «Il caso della contestazione» | 4 canali AOUP |
+| sab 16/1 11:00 | Museo della Sanità 2126 · Ep.8 «La bacheca strappata» | 4 canali AOUP |
 | lun 18/1 19:00 | Lettere dal futuro · Ep. 9 «Il trasferimento mai chiesto» | 4 canali AOUP |
 | mar 19/1 19:00 | Oggetti smarriti · Ep. 9 «La penna verde» | 4 canali AOUP |
 | gio 21/1 18:15 | 20 format · 10 «60 secondi con…» (teaser) | 4 canali AOUP |
+| gio 21/1 19:00 | CISL FP Pictures · Ep.9 «Il delegato nel suo habitat» | 4 canali AOUP |
+| sab 23/1 11:00 | Museo della Sanità 2126 · Ep.9 «La macchinetta del caffè» | 4 canali AOUP |
 | lun 25/1 19:00 | Lettere dal futuro · Ep. 10 «La lettera che scrivo io» | 4 canali AOUP |
 | mar 26/1 19:00 | Oggetti smarriti · Ep. 10 «La scatola» | 4 canali AOUP |
 | gio 28/1 18:15 | 20 format · 11 «Prima e dopo» | 4 canali AOUP |
+| gio 28/1 19:00 | CISL FP Pictures · Ep.10 «Uniti – Il film» | 4 canali AOUP |
+| sab 30/1 11:00 | Museo della Sanità 2126 · Ep.10 «La teca vuota» | 4 canali AOUP |
 | gio 4/2 18:15 | 20 format · 12 «Spiegato a mia nonna» | 4 canali AOUP |
 | gio 11/2 18:15 | 20 format · 13 «Il dizionario della corsia» · A «Arretrati» | 4 canali AOUP |
 | gio 18/2 18:15 | 20 format · 13 «Il dizionario della corsia» · B «Busta paga» | 4 canali AOUP |
