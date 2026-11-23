@@ -18,7 +18,7 @@ pres.defineSlideMaster({ title: 'DARK', background: { color: K.dark },
   slideNumber: { x: 12.33, y: 6.98, w: 0.5, h: 0.3, fontFace: F, fontSize: 11, color: '9FC2B0', bold: true, align: 'right' } });
 
 let n = 0; // animation counter per slide
-const A = () => 'anim_' + String(++n).padStart(2, '0');
+const A = (k) => (k ? 'fx_' + k + '_' : 'anim_') + String(++n).padStart(2, '0');
 const shadow = () => ({ type: 'outer', color: '12402B', opacity: 0.14, blur: 8, offset: 2, angle: 90 });
 const LOGO_R = 2000 / 1018;
 
@@ -27,14 +27,14 @@ function slide(master, idx, section) {
   n = 0;
   if (!SECS.has(section)) { pres.addSection({ title: section }); SECS.add(section); }
   const s = pres.addSlide({ masterName: master, sectionTitle: section });
-  s.addNotes(notes[idx]);
+  s.addNotes(typeof idx === 'string' ? idx : notes[idx]);
   return s;
 }
 function foot(s, text, dark) {
   s.addText(text, { x: 0.6, y: 6.98, w: 10.5, h: 0.3, fontFace: F, fontSize: 11, bold: true, color: dark ? '9FC2B0' : K.soft, margin: 0, isTextBox: true });
 }
-function kick(s, text, dark, y = 0.5, w = 11.5) {
-  s.addText(text.toUpperCase(), { x: 0.6, y, w, h: 0.3, fontFace: F, fontSize: 12, bold: true, charSpacing: 3, color: dark ? K.yellow : K.green, margin: 0, isTextBox: true });
+function kick(s, text, dark, y = 0.5, w = 11.5, name) {
+  s.addText(text.toUpperCase(), { x: 0.6, y, w, objectName: name || 'kick', h: 0.3, fontFace: F, fontSize: 12, bold: true, charSpacing: 3, color: dark ? K.yellow : K.green, margin: 0, isTextBox: true });
 }
 function title(s, a, b, opt = {}) {
   const runs = [{ text: a, options: { color: opt.dark ? K.light : K.dark } }];
@@ -57,11 +57,85 @@ function pill(s, text, x, y, w, fill = K.dark, color = K.yellow) {
   s.addText(text, { shape: pres.shapes.ROUNDED_RECTANGLE, rectRadius: 0.2, x, y, w, h: 0.4, fill: { color: fill }, color, fontFace: F, fontSize: 11, bold: true, charSpacing: 2, align: 'center', valign: 'middle', margin: 0 });
 }
 const R = (t, o = {}) => ({ text: t, options: o });
+/* Slide di esempio: foto a sinistra con zoom lento, passi che entrano uno alla volta, cifra chiave che «esplode». */
+function example(o) {
+  const s = slide('LIGHT', o.notes, o.section);
+  kick(s, o.kick);
+  pill(s, 'ESEMPIO PRATICO', 10.73, 0.45, 2.0, K.orange, '2A1700');
+  title(s, o.a, o.b);
+  s.addImage({ path: IMG(o.img), x: 0.6, y: 1.8, w: 4.9, h: 4.95, sizing: { type: 'cover', w: 4.9, h: 4.95 }, objectName: A('kb') });
+  const st = o.steps, rowH = st.length > 3 ? 0.84 : 1.05;
+  st.forEach(([b, r], i) => {
+    const y = 1.85 + i * rowH;
+    dot(s, String(i + 1), 5.85, y + 0.04, 0.46, K.green, K.paper);
+    s.addText([R(b, { bold: true, color: K.dark }), R(r, { color: K.ink })], { x: 6.5, y, w: 6.2, h: rowH - 0.08, fontFace: F, fontSize: 15, margin: 0, valign: 'top', isTextBox: true, objectName: A('step') });
+  });
+  const f = o.fill || K.dark;
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 5.85, y: 5.35, w: 6.88, h: 1.4, rectRadius: 0.14, fill: { color: f }, line: { color: f, width: 0 }, shadow: shadow(), objectName: A('step') });
+  s.addText(o.big, { x: 6.1, y: 5.45, w: 2.9, h: 1.2, fontFace: F, fontSize: o.bigSize || 36, bold: true, color: f === K.dark ? K.yellow : K.dark, valign: 'middle', margin: 0, isTextBox: true, objectName: A('pop') });
+  s.addText(o.label, { x: 9.1, y: 5.45, w: 3.45, h: 1.2, fontFace: F, fontSize: 13, bold: true, color: f === K.dark ? K.pale : K.soft, valign: 'middle', margin: 0, isTextBox: true });
+  foot(s, o.foot || 'Esempio costruito sui dati presentati dall’Azienda il 18/11/2026');
+}
+const EX = {
+  E1: () => example({ section: 'Il Bugiardino', img: '7.jpg', kick: 'Esempio · I due cassetti', a: 'Un progetto si paga', b: 'da un altro cassetto.',
+    notes: 'Esempio da usare quando qualcuno dice che i progetti tolgono soldi ai DEP. Il progetto H24 da 50.000 euro è vero, dall’accordo del 15/4/2026: esce dalla premialità e non tocca i 620.000 euro dei DEP.',
+    steps: [['Cassetto verde: fondo incarichi e progressioni.', ' Paga DEP, incarichi di funzione e indennità professionali.'],
+      ['Cassetto arancione: fondo premialità.', ' Paga produttività e progetti, come l’assistenza H24 da 50.000 €.'],
+      ['Si apre il cassetto arancione per il progetto H24.', ' Il cassetto verde resta com’era.']],
+    big: '620.000 €', bigSize: 30, label: 'restano sui DEP 2026, qualunque progetto si finanzi con la premialità' }),
+  E2: () => example({ section: 'Il Bugiardino', img: '8.jpg', kick: 'Esempio · Il conguaglio in busta', a: 'Un ADA ex C:', b: 'cosa arriva a novembre.',
+    notes: 'Gli importi sono le quote medie 2025 della slide aziendale: il singolo lavoratore può avere di più o di meno. La riduzione di 213.306 euro viene dall’articolo 11 della legge regionale, calcolata sul conto annuale certificato.',
+    steps: [['Acconto già pagato: 905,88 €.', ' È la prima parte della quota media 2025.'],
+      ['Conguaglio a novembre: 840,00 €.', ' Dipende da obiettivi di U.O., valutazione, presenza e tempo pieno o parziale.'],
+      ['La legge regionale ha tolto 213.306 € al fondo.', ' In media circa 20 € lordi in meno per fascia rispetto all’anno scorso.']],
+    big: '1.745,88 €', bigSize: 30, label: 'quota media annua 2025 di un ADA ex C: una media, non l’importo di ognuno', fill: K.cream }),
+  E3: () => example({ section: 'Trattativa del 18 novembre', img: '9.jpg', kick: 'Esempio · Una coordinatrice in fascia III', a: 'Cosa cambia', b: 'in busta dal 2027.',
+    notes: 'Il calcolo mensile divide i 1.000 euro annui per 13 mensilità: va confermato con la delibera e il cedolino. Le nuove fasce III bis e IV bis sono istituite dall’accordo, in attesa del nuovo regolamento.',
+    steps: [['Oggi: 7.000 € l’anno di indennità di funzione.', ' Fascia III, coordinamento di complessità media.'],
+      ['Dal 1° gennaio 2027: 8.000 €.', ' Fascia III bis, istituita con l’accordo del 18/11.'],
+      ['In fascia IV si passa da 8.000 a 9.000 €.', ' Stesso aumento per tutti i 106 coordinatori.']],
+    big: '+1.000 €', label: 'lordi l’anno per ogni coordinatore, circa 77 € lordi al mese su 13 mensilità' }),
+  E4: () => example({ section: 'Trattativa del 18 novembre', img: '10.jpg', kick: 'Esempio · Dal master all’incarico', a: 'Il percorso di un', b: 'incarico professionale.',
+    notes: 'I numeri dei posti vengono dalla mappatura aziendale. Il passaggio sulla laurea magistrale è la nostra richiesta al tavolo, in base al nuovo CCNL: non è ancora una regola aziendale.',
+    steps: [['Mappatura:', ' l’Azienda prevede 2 posti di referente wound care (specialistico, serve il master).'],
+      ['Delibera:', ' la mappatura diventa un atto formale; poi escono i bandi.'],
+      ['Bando e selezione:', ' l’infermiere con il master in wound care si candida.'],
+      ['Tutor didattici, 30 posti:', ' chiediamo la fascia di elevata complessità per chi ha la magistrale.']],
+    big: '12 → 86', bigSize: 30, label: 'incarichi professionali: un anno e mezzo fa erano 12', fill: K.cream }),
+  E5: () => example({ section: 'Trattativa del 18 novembre', img: '13.jpg', kick: 'Esempio · Incentivi per funzioni tecniche', a: 'Chi segue un contratto', b: 'deve sapere quanto gli spetta.',
+    notes: 'Le nuove regole sugli incentivi tecniche sono in vigore dal 1° gennaio 2024 (decreto 36). L’Azienda ha bisogno del regolamento anche per rendicontare progetti finanziati: è interesse di tutti chiudere in fretta, ma con una quota giusta per il comparto.',
+    steps: [['Il DEC, direttore dell’esecuzione del contratto,', ' controlla che una fornitura o un servizio arrivino come previsto.'],
+      ['Dal 2024 l’incentivo è previsto,', ' ma senza regolamento i pagamenti restano fermi.'],
+      ['La CISL FP ha chiesto', ' una quota più alta per il DEC e i collaboratori, un’area riservata con gare, ruoli e importi, un tavolo tecnico.']],
+    big: 'Dal 2024', bigSize: 30, label: 'gli incentivi da pagare: il regolamento riformulato arriva a breve' }),
+  E6: () => example({ section: 'Trattativa del 18 novembre', img: '11.jpg', kick: 'Esempio · Una notte in Chirurgia, 7° piano', a: 'Un infermiere ogni 19 letti.', b: 'Con l’OSS cambia la notte.',
+    notes: 'Il rapporto 1:19 e lo standard 1:12-15 sono nelle slide aziendali. Le attività attribuibili all’OSS citate qui sono quelle discusse al tavolo: campanello, mobilizzazioni, trasporti notturni.',
+    steps: [['Oggi:', ' 1 infermiere ogni 19 posti letto, con il pronto soccorso H24 nella stessa area.'],
+      ['Lo standard di degenza:', ' da 1 ogni 12 a 1 ogni 15 posti letto.'],
+      ['Con l’OSS di notte:', ' mobilizzazioni, campanelli e trasporti si attribuiscono; l’infermiere resta sul piano assistenziale.'],
+      ['Per gli OSS del reparto:', ' i turni passano da M-P a M-P-N, con le preferenze raccolte prima.']],
+    big: '1:19', label: 'contro uno standard di 1:12-15: il rapporto più pesante tra le chirurgie' }),
+  E7: () => example({ section: 'Trattativa del 18 novembre', img: '12.jpg', kick: 'Esempio · Il voucher da 350 €', a: 'Attivato o no:', b: 'dove vanno i soldi.',
+    notes: 'Messaggio pratico per i reparti: ricordare la scadenza del 30 novembre. Il residuo stimato nel comparto è di circa 185.000 euro.',
+    steps: [['Se lo hai attivato:', ' hai tempo fino al 30 novembre per spenderlo.'],
+      ['Se non lo hai attivato:', ' la tua quota non torna a te.'],
+      ['Ruolo sanitario e sociosanitario:', ' il residuo va ai progetti della L. 26/2024.'],
+      ['Area PTA:', ' il residuo va alle progettualità PTA. Dal 1° dicembre parte il nuovo voucher.']],
+    big: '350 €', label: 'a testa, da attivare e spendere entro il 30 novembre', fill: K.cream }),
+  E8: () => example({ section: 'Trattativa del 18 novembre', img: '14.jpg', kick: 'Esempio · DEP 2025 sospeso?', a: 'Se sei tra gli 80,', b: 'ecco cosa controllare.',
+    notes: 'Numeri dalla comunicazione aziendale del 18/11: 752 aventi diritto in pagamento, 80 posizioni sospese, di cui 42 per ECM non raggiunti e 35 in attesa di riscontro nonostante i solleciti.',
+    steps: [['752 passaggi sono già in pagamento a novembre.', ' L’Azienda non ha fermato tutti per pochi casi.'],
+      ['42 posizioni sono ferme per gli ECM non raggiunti.', ' Controlla i tuoi crediti formativi.'],
+      ['35 sono in attesa di un riscontro.', ' Se l’Azienda ti ha scritto, rispondi: finché non lo fai la posizione resta ferma.'],
+      ['Hai un dubbio?', ' Chiama Achille o Giovanna: verifichiamo insieme.']],
+    big: '80', label: 'posizioni sospese, da chiarire caso per caso' }),
+};
+
 
 /* 1 COVER */
 {
   const s = slide('DARK', 0, 'Apertura');
-  s.addImage({ path: IMG('1.jpg'), x: 6.9, y: 0, w: 6.433, h: 7.5, sizing: { type: 'cover', w: 6.433, h: 7.5 }, objectName: 'anim_01' });
+  s.addImage({ path: IMG('1.jpg'), x: 6.9, y: 0, w: 6.433, h: 7.5, sizing: { type: 'cover', w: 6.433, h: 7.5 }, objectName: 'fx_kb_01' });
   n = 1;
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 0.5, w: 2.3, h: 1.25, rectRadius: 0.12, fill: { color: K.paper }, line: { color: K.paper, width: 0 }, objectName: A() });
   s.addImage({ path: IMG('logo.png'), x: 0.75, y: 0.65, w: 2.0, h: 2.0 / LOGO_R, objectName: 'anim_02b' });
@@ -94,7 +168,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
 {
   const s = slide('DARK', 2, 'Il Bugiardino');
   pill(s, '+ IL BUGIARDINO®', 0.6, 0.6, 2.3, K.yellow, K.dark);
-  kick(s, 'Parte prima', true, 1.4);
+  kick(s, 'Parte prima', true, 1.4, 11.5, 'trans_push');
   s.addText([R('Si è sentito dire…', { color: K.light, breakLine: true }), R('Tre verifiche.', { color: K.yellow })],
     { x: 0.6, y: 1.85, w: 7.0, h: 2.2, fontFace: F, fontSize: 48, bold: true, margin: 0, valign: 'top', isTextBox: true, objectName: A() });
   txt(s, 'Tre affermazioni circolate in assemblea, messe alla prova una per una. Effetti collaterali: confusione, rabbia e lavoratori disinformati.', { x: 0.6, y: 4.3, w: 6.6, h: 1.2, fontSize: 18, color: K.pale, objectName: A() });
@@ -109,7 +183,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
 {
   const s = slide('LIGHT', 3, 'Il Bugiardino');
   kick(s, 'Verifica 1 · Si è sentito dire…');
-  txt(s, '«I progetti pagati con la premialità tolgono soldi a progressioni e DEP»', { x: 0.6, y: 0.9, w: 9.3, h: 1.1, fontFace: 'Courier New', fontSize: 24, bold: true, objectName: A() });
+  txt(s, '«I progetti pagati con la premialità tolgono soldi a progressioni e DEP»', { x: 0.6, y: 0.9, w: 9.3, h: 1.1, fontFace: 'Courier New', fontSize: 24, bold: true, objectName: A('type') });
   stamp(s, 'FALSO');
   txt(s, 'I FATTI: SONO DUE FONDI DIVERSI, OGNUNO CON I SUOI ISTITUTI', { x: 0.6, y: 2.2, w: 12, h: 0.3, fontSize: 12, bold: true, charSpacing: 2, color: K.ink });
   [[0.6, K.dark, K.light, 'Fondo incarichi e progressioni', ['Progressioni economiche (DEP)', 'Incarichi di funzione', 'Indennità professionali']],
@@ -122,11 +196,12 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'CISL FP Padova Rovigo · Direttivo AOUP');
 }
 
+EX.E1();
 /* 5 F2 */
 {
   const s = slide('LIGHT', 4, 'Il Bugiardino');
   kick(s, 'Verifica 2 · Si è sentito dire…');
-  txt(s, '«La CISL FP ha detto che il contratto è già firmato»', { x: 0.6, y: 0.9, w: 9.3, h: 1.0, fontFace: 'Courier New', fontSize: 24, bold: true, objectName: A() });
+  txt(s, '«La CISL FP ha detto che il contratto è già firmato»', { x: 0.6, y: 0.9, w: 9.3, h: 1.0, fontFace: 'Courier New', fontSize: 24, bold: true, objectName: A('type') });
   stamp(s, 'FALSO');
   txt(s, [R('Video, volantini e materiali hanno '), R('sempre parlato di attesa', { bold: true }), R('. Semmai il mese scorso c’era chi annunciava gli arretrati a novembre. Novembre è arrivato, gli arretrati no.')], { x: 0.6, y: 2.15, w: 11, h: 0.9, fontSize: 17, color: K.soft, objectName: A() });
   [['OGGI', 'In attesa', 'come abbiamo sempre detto', K.paper, K.dark], ['DICEMBRE 2026', 'Firma', 'presumibilmente', K.paper, K.green], ['GENNAIO 2027', 'Arretrati', 'previsione, con prudenza', K.cream, K.dark]].forEach(([l, h, d, f, c], i) => {
@@ -145,12 +220,12 @@ const R = (t, o = {}) => ({ text: t, options: o });
 {
   const s = slide('LIGHT', 5, 'Il Bugiardino');
   kick(s, 'Verifica 3 · Si è sentito dire…');
-  txt(s, '«Sui DEP 2026 si è messo poco»', { x: 0.6, y: 0.9, w: 9.3, h: 0.6, fontFace: 'Courier New', fontSize: 24, bold: true, objectName: A() });
+  txt(s, '«Sui DEP 2026 si è messo poco»', { x: 0.6, y: 0.9, w: 9.3, h: 0.6, fontFace: 'Courier New', fontSize: 24, bold: true, objectName: A('type') });
   stamp(s, 'INESATTO', 3.0);
   [['620.000 €', [R('sui DEP 2026: '), R('il massimo che si poteva stanziare', { bold: true })], K.paper], ['1.400.000 €', [R('oltre', { bold: true }), R(', sulle progressioni in due anni, con la firma CISL FP')], K.cream]].forEach(([nm, d, f], i) => {
     const x = 0.6 + i * 6.17;
     card(s, x, 1.95, 5.93, 2.0, f);
-    txt(s, nm, { x: x + 0.4, y: 2.2, w: 5.2, h: 0.9, fontSize: 48, bold: true, color: K.dark });
+    txt(s, nm, { x: x + 0.4, y: 2.2, w: 5.2, h: 0.9, fontSize: 48, bold: true, color: K.dark, objectName: A('pop') });
     txt(s, d, { x: x + 0.4, y: 3.15, w: 5.2, h: 0.6, fontSize: 16, color: K.ink });
   });
   txt(s, [R('La produttività complessiva è calata per una '), R('legge regionale', { bold: true }), R(' che lega alcune risorse variabili al numero di dipendenti previsti. Più risorse sui DEP avrebbero voluto dire un '), R('conguaglio più basso per tutti', { bold: true }), R('.')], { x: 0.6, y: 4.3, w: 12, h: 1.0, fontSize: 17, color: K.soft, objectName: A() });
@@ -158,11 +233,12 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'CISL FP Padova Rovigo · Direttivo AOUP');
 }
 
+EX.E2();
 /* 7 TAVOLO divider */
 {
   const s = slide('DARK', 6, 'Trattativa del 18 novembre');
-  s.addImage({ path: IMG('5.jpg'), x: 6.9, y: 0, w: 6.433, h: 7.5, sizing: { type: 'cover', w: 6.433, h: 7.5 }, objectName: A() });
-  kick(s, 'Parte seconda', true, 1.6);
+  s.addImage({ path: IMG('5.jpg'), x: 6.9, y: 0, w: 6.433, h: 7.5, sizing: { type: 'cover', w: 6.433, h: 7.5 }, objectName: A('kb') });
+  kick(s, 'Parte seconda', true, 1.6, 11.5, 'trans_push');
   s.addText([R('18 novembre:', { color: K.light, breakLine: true }), R('le carte sul tavolo.', { color: K.yellow })], { x: 0.6, y: 2.05, w: 6.0, h: 2.0, fontFace: F, fontSize: 44, bold: true, margin: 0, valign: 'top', isTextBox: true, objectName: A() });
   txt(s, 'Cosa ha presentato l’Azienda, cosa abbiamo chiesto noi, cosa si è ottenuto. Tutti i numeri vengono dalle slide aziendali proiettate in seduta.', { x: 0.6, y: 4.3, w: 5.9, h: 1.4, fontSize: 18, color: K.pale, objectName: A() });
   foot(s, 'CISL FP Padova Rovigo · Direttivo AOUP', true);
@@ -183,7 +259,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   [['+141', 'teste stimate in più a fine 2026', K.dark, K.yellow, 'BFD8CB'], ['−26', 'infermieri: stima a ribasso, graduatorie esaurite', K.paper, K.red, K.soft], ['+69', 'OSS: il rinforzo dove mancano infermieri', K.paper, K.green, K.soft]].forEach(([nm, l, f, c, lc], i) => {
     const y = 1.8 + i * 1.45;
     card(s, 8.85, y, 3.88, 1.3, f);
-    txt(s, nm, { x: 9.15, y: y + 0.15, w: 3.3, h: 0.65, fontSize: 36, bold: true, color: c });
+    txt(s, nm, { x: 9.15, y: y + 0.15, w: 3.3, h: 0.65, fontSize: 36, bold: true, color: c, objectName: A('pop') });
     txt(s, l, { x: 9.15, y: y + 0.8, w: 3.4, h: 0.45, fontSize: 12, bold: true, color: lc });
   });
   foot(s, 'Fonte: slide aziendale «Andamento occupazionale», dati al 30/09/2026');
@@ -198,7 +274,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   s.addChart(pres.charts.BAR, [{ name: 'Variazione teste', labels: ['Infermieri', 'Dirigenti medici', 'OSS'], values: [-103, 117, 219] }], {
     x: 0.8, y: 1.95, w: 6.2, h: 4.6, barDir: 'col', chartColors: [K.red, K.green, K.orange], invertedColors: [K.red], showValue: true, dataLabelPosition: 'outEnd', dataLabelFontSize: 18, dataLabelFontBold: true, dataLabelColor: K.ink, dataLabelFormatCode: '+#,##0;−#,##0',
     catAxisLabelFontSize: 14, catAxisLabelColor: K.ink, catAxisLabelFontFace: F, catAxisLabelPos: 'low', valAxisHidden: true, valGridLine: { style: 'none' }, catGridLine: { style: 'none' }, showLegend: false, barGapWidthPct: 60,
-    showTitle: true, title: 'Saldo teste a settembre 2026 rispetto al 1° gennaio 2020', titleFontSize: 13, titleColor: K.soft, titleFontFace: F, objectName: A() });
+    showTitle: true, title: 'Saldo teste a settembre 2026 rispetto al 1° gennaio 2020', titleFontSize: 13, titleColor: K.soft, titleFontFace: F, objectName: A('wipeB') });
   s.addImage({ path: IMG('4.jpg'), x: 7.5, y: 1.8, w: 5.23, h: 2.6, sizing: { type: 'cover', w: 5.23, h: 2.6 }, objectName: A() });
   txt(s, [R('Infermieri: ', { bold: true, color: K.red }), R('picco a +220 nel 2021, minimo a −124, oggi −103.', { breakLine: true }), R('OSS: ', { bold: true, color: 'B86E00' }), R('punto più alto a +222.', { breakLine: true }), R('Medici: ', { bold: true, color: K.green }), R('crescita costante, che tiene.')], { x: 7.5, y: 4.6, w: 5.2, h: 1.2, fontSize: 15, paraSpaceAfter: 4, objectName: A() });
   txt(s, 'La crisi infermieristica è ormai, parole dell’Azienda, «uno stato di fatto».', { x: 7.5, y: 5.95, w: 5.2, h: 0.7, fontSize: 15, italic: true, bold: true, color: K.dark, objectName: A() });
@@ -215,7 +291,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
     { name: 'Assunzioni', labels: ['Infermieri', 'Altro sanitario', 'OSS', 'Amministrativo', 'Ruolo tecnico'], values: [182, 47, 92, 37, 14] },
     { name: 'Cessazioni', labels: ['Infermieri', 'Altro sanitario', 'OSS', 'Amministrativo', 'Ruolo tecnico'], values: [197, 33, 55, 26, 16] }], {
     x: 0.8, y: 1.95, w: 7.2, h: 4.6, barDir: 'col', barGrouping: 'clustered', chartColors: [K.green, K.red], showValue: true, dataLabelPosition: 'outEnd', dataLabelFontSize: 12, dataLabelColor: K.ink,
-    catAxisLabelFontSize: 12, catAxisLabelColor: K.ink, valAxisHidden: true, valGridLine: { style: 'none' }, catGridLine: { style: 'none' }, showLegend: true, legendPos: 't', legendFontSize: 12, legendColor: K.ink, barGapWidthPct: 50, objectName: A() });
+    catAxisLabelFontSize: 12, catAxisLabelColor: K.ink, valAxisHidden: true, valGridLine: { style: 'none' }, catGridLine: { style: 'none' }, showLegend: true, legendPos: 't', legendFontSize: 12, legendColor: K.ink, barGapWidthPct: 50, objectName: A('wipeB') });
   card(s, 8.5, 1.8, 4.23, 2.6);
   txt(s, 'Infermieri, dove si perde', { x: 8.8, y: 2.05, w: 3.7, h: 0.4, fontSize: 17, bold: true, color: K.dark });
   txt(s, [R('Medicina dei Sistemi  ', {}), R('53 / 62 (−9)', { bold: true, breakLine: true }), R('Staff e piastre operatorie  '), R('39 / 50 (−11)', { bold: true, breakLine: true }), R('Diagnostica integrata  '), R('3 / 7 (−4)', { bold: true, breakLine: true }), R('Saldo totale  '), R('−15', { bold: true, color: K.red })], { x: 8.8, y: 2.55, w: 3.8, h: 1.7, fontSize: 14, paraSpaceAfter: 4 });
@@ -236,7 +312,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
     txt(s, a, { x: x + 0.35, y: 2.15, w: 2.5, h: 0.3, fontSize: 12, bold: true, charSpacing: 2, color: K.soft });
     txt(s, b, { x: x + 0.35, y: 2.55, w: 2.5, h: 0.7, fontSize: 36, bold: true, color: K.soft });
     txt(s, 'diventa', { x: x + 0.35, y: 3.35, w: 2.5, h: 0.4, fontSize: 16, italic: true, bold: true, color: K.green });
-    txt(s, c, { x: x + 0.35, y: 3.85, w: 2.5, h: 0.8, fontSize: 40, bold: true, color: K.green });
+    txt(s, c, { x: x + 0.35, y: 3.85, w: 2.5, h: 0.8, fontSize: 40, bold: true, color: K.green, objectName: A('pop') });
     txt(s, d, { x: x + 0.35, y: 4.8, w: 2.5, h: 0.3, fontSize: 13, bold: true, color: K.soft });
   });
   s.addImage({ path: IMG('3.jpg'), x: 7.4, y: 1.9, w: 5.33, h: 2.25, sizing: { type: 'cover', w: 5.33, h: 2.25 }, objectName: A() });
@@ -248,6 +324,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'Fonte: bozza di accordo letta in seduta il 18/11/2026', true);
 }
 
+EX.E3();
 /* 12 MAPPA */
 {
   const s = slide('LIGHT', 11, 'Trattativa del 18 novembre');
@@ -256,13 +333,13 @@ const R = (t, o = {}) => ({ text: t, options: o });
   [['106', 'incarichi di coordinamento', K.dark, K.yellow, K.pale], ['86', 'incarichi professionali, in 19 tipologie', K.paper, K.green, K.soft], ['61', 'incarichi area professionale, tecnica e amministrativa', K.paper, K.dark, K.soft], ['22', 'incarichi organizzativi dell’area sanitaria', K.paper, K.dark, K.soft]].forEach(([nm, l, f, c, lc], i) => {
     const x = 0.6 + i * 3.075;
     card(s, x, 1.8, 2.85, 1.9, f);
-    txt(s, nm, { x: x + 0.3, y: 2.0, w: 2.3, h: 0.8, fontSize: 44, bold: true, color: c });
+    txt(s, nm, { x: x + 0.3, y: 2.0, w: 2.3, h: 0.8, fontSize: 44, bold: true, color: c, objectName: A('pop') });
     txt(s, l, { x: x + 0.3, y: 2.85, w: 2.35, h: 0.7, fontSize: 13, bold: true, color: lc });
   });
   card(s, 0.6, 4.0, 12.13, 1.85, K.cream);
   txt(s, 'UN ANNO E MEZZO FA', { x: 1.0, y: 4.25, w: 2.6, h: 0.3, fontSize: 12, bold: true, charSpacing: 2, color: K.soft });
   txt(s, '12', { x: 1.0, y: 4.6, w: 2.0, h: 1.0, fontSize: 54, bold: true, color: K.soft });
-  s.addShape(pres.shapes.RIGHT_ARROW, { x: 3.0, y: 4.85, w: 1.0, h: 0.6, fill: { color: K.green }, line: { color: K.green, width: 0 }, objectName: A() });
+  s.addShape(pres.shapes.RIGHT_ARROW, { x: 3.0, y: 4.85, w: 1.0, h: 0.6, fill: { color: K.green }, line: { color: K.green, width: 0 }, objectName: A('wipeL') });
   txt(s, 'OGGI', { x: 4.3, y: 4.25, w: 2.0, h: 0.3, fontSize: 12, bold: true, charSpacing: 2, color: K.soft });
   txt(s, '86', { x: 4.3, y: 4.6, w: 2.0, h: 1.0, fontSize: 54, bold: true, color: K.green, objectName: A() });
   txt(s, 'incarichi professionali. In aprile erano 65. La delibera di mappatura era annunciata per la settimana dopo il 18/11.', { x: 6.6, y: 4.45, w: 5.8, h: 1.1, fontSize: 16, color: K.ink });
@@ -288,6 +365,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'Fonte: slide aziendali «Inc. professionali»');
 }
 
+EX.E4();
 /* 14 CHIESTO */
 {
   const s = slide('LIGHT', 13, 'Trattativa del 18 novembre');
@@ -309,6 +387,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'Fonte: verbale della seduta del 18/11/2026');
 }
 
+EX.E5();
 /* 15 OSSDATI */
 {
   const s = slide('LIGHT', 14, 'Trattativa del 18 novembre');
@@ -325,7 +404,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   s.addChart(pres.charts.BAR, [{ name: '% UO con OSS di notte', labels: ['Area medica adulti (17/20)', 'Terapie intensive (6/9)', 'Area ostetrica (1/2)', 'Area chirurgica adulti (5/12)', 'Area pediatrica (2/6)'], values: [85, 67, 50, 42, 33] }], {
     x: 7.85, y: 1.9, w: 4.75, h: 4.0, barDir: 'bar', catAxisOrientation: 'maxMin', chartColors: [K.green, K.green, K.green, K.red, K.green], showValue: true, dataLabelPosition: 'outEnd', dataLabelFontSize: 13, dataLabelFontBold: true, dataLabelColor: K.ink, dataLabelFormatCode: '0"%"',
     catAxisLabelFontSize: 11, catAxisLabelColor: K.ink, valAxisHidden: true, valAxisMaxVal: 110, valAxisMinVal: 0, valGridLine: { style: 'none' }, catGridLine: { style: 'none' }, showLegend: false, barGapWidthPct: 45,
-    showTitle: true, title: 'Unità operative con OSS di notte', titleFontSize: 13, titleColor: K.soft, objectName: A() });
+    showTitle: true, title: 'Unità operative con OSS di notte', titleFontSize: 13, titleColor: K.soft, objectName: A('wipeL') });
   txt(s, [R('Base: la '), R('dichiarazione congiunta del 23 dicembre 2025', { bold: true }), R(', con l’autorizzazione CRITE per assunzioni extra turn-over entro il tetto di spesa.')], { x: 0.6, y: 6.2, w: 12.1, h: 0.6, fontSize: 14, color: K.soft, objectName: A() });
   foot(s, 'Fonte: slide aziendali «Analisi – Aree di degenza» e «Premesse»');
 }
@@ -339,7 +418,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
     const x = 0.6 + i * 3.075;
     card(s, x, 1.75, 2.85, 2.4);
     txt(s, l, { x: x + 0.25, y: 1.95, w: 2.4, h: 0.5, fontSize: 11, bold: true, color: K.soft });
-    txt(s, nm, { x: x + 0.25, y: 2.45, w: 2.4, h: 0.7, fontSize: 36, bold: true, color: c });
+    txt(s, nm, { x: x + 0.25, y: 2.45, w: 2.4, h: 0.7, fontSize: 36, bold: true, color: c, objectName: A('pop') });
     txt(s, d, { x: x + 0.25, y: 3.2, w: 2.4, h: 0.85, fontSize: 13, color: K.ink });
   });
   txt(s, 'Rapporto infermieri : posti letto nelle 24 ore. Standard di degenza ordinaria: da 1:12 a 1:15.', { x: 0.6, y: 4.3, w: 12, h: 0.35, fontSize: 13, color: K.soft });
@@ -353,6 +432,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'Fonte: slide aziendali «Analisi», «Sviluppi», «Azioni in atto»');
 }
 
+EX.E6();
 /* 17 PROGETTI */
 {
   const s = slide('LIGHT', 16, 'Trattativa del 18 novembre');
@@ -392,6 +472,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
   foot(s, 'Fonte: comunicazioni in seduta e slide «Progettualità specifiche»');
 }
 
+EX.E7();
 /* 19 PAGAM */
 {
   const s = slide('LIGHT', 18, 'Trattativa del 18 novembre');
@@ -405,17 +486,18 @@ const R = (t, o = {}) => ({ text: t, options: o });
   [['−213.306 €', 'sulla produttività per la legge regionale (art. 11): circa 20 € lordi in meno per fascia', K.paper, K.red, K.soft], ['752', 'passaggi DEP 2025 in pagamento, 516 tra i professionisti della salute', K.dark, K.yellow, K.pale], ['80', 'posizioni sospese: 42 senza ECM, 35 in attesa di riscontro', K.cream, K.dark, K.soft]].forEach(([nm, l, f, c, lc], i) => {
     const y = 1.8 + i * 1.65;
     card(s, 8.2, y, 4.53, 1.5, f);
-    txt(s, nm, { x: 8.5, y: y + 0.15, w: 4.0, h: 0.6, fontSize: 30, bold: true, color: c });
+    txt(s, nm, { x: 8.5, y: y + 0.15, w: 4.0, h: 0.6, fontSize: 30, bold: true, color: c, objectName: A('pop') });
     txt(s, l, { x: 8.5, y: y + 0.78, w: 4.0, h: 0.65, fontSize: 12, bold: true, color: lc });
   });
   foot(s, 'Fonte: slide aziendali e comunicazioni in seduta, 18/11/2026');
 }
 
+EX.E8();
 /* 20 MESSAGGI */
 {
   const s = slide('DARK', 19, 'Nei reparti');
-  s.addImage({ path: IMG('6.jpg'), x: 8.5, y: 0, w: 4.833, h: 7.5, sizing: { type: 'cover', w: 4.833, h: 7.5 }, objectName: A() });
-  kick(s, 'Parte terza · Posologia', true);
+  s.addImage({ path: IMG('6.jpg'), x: 8.5, y: 0, w: 4.833, h: 7.5, sizing: { type: 'cover', w: 4.833, h: 7.5 }, objectName: A('kb') });
+  kick(s, 'Parte terza · Posologia', true, 0.5, 11.5, 'trans_push');
   title(s, 'Sei frasi da portare', 'in ogni reparto.', { dark: true, w: 7.6 });
   const m = [['I fondi sono cassetti diversi.', ' I progetti non tolgono un euro ai DEP.'], ['Il contratto non è firmato', ', l’abbiamo sempre detto. La firma è attesa a dicembre.'], ['+1.000 € a tutti i coordinatori', ' dal 2027: era la nostra proposta.'], ['Incarichi professionali da 12 a 86.', ' Ora tocca ai bandi, a partire dai tutor.'], ['OSS di notte: quattro reparti individuati.', ' Vigiliamo sui tempi, uno alla volta.'], ['A novembre in busta', ' conguaglio e DEP 2025; il regolamento incentivi segue la nostra proposta.']];
   m.forEach(([b, r], i) => {
@@ -449,7 +531,7 @@ const R = (t, o = {}) => ({ text: t, options: o });
 /* 22 FINE */
 {
   const s = slide('DARK', 21, 'Nei reparti');
-  s.addImage({ path: IMG('4.jpg'), x: 7.6, y: 0, w: 5.733, h: 4.6, sizing: { type: 'cover', w: 5.733, h: 4.6 }, objectName: A() });
+  s.addImage({ path: IMG('4.jpg'), x: 7.6, y: 0, w: 5.733, h: 4.6, sizing: { type: 'cover', w: 5.733, h: 4.6 }, objectName: A('kb') });
   s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: 0.6, y: 0.5, w: 2.3, h: 1.25, rectRadius: 0.12, fill: { color: K.paper }, line: { color: K.paper, width: 0 } });
   s.addImage({ path: IMG('logo.png'), x: 0.75, y: 0.7, w: 2.0, h: 2.0 / LOGO_R });
   s.addText([R('Dati alla mano.', { color: K.light, breakLine: true }), R('Sempre.', { color: K.yellow })], { x: 0.6, y: 2.0, w: 6.8, h: 1.9, fontFace: F, fontSize: 50, bold: true, margin: 0, valign: 'top', isTextBox: true, objectName: A() });
