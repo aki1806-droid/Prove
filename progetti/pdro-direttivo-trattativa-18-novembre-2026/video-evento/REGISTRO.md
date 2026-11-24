@@ -11,3 +11,13 @@ nessun indirizzo né contatto; logo CISL FP sull'ultima schermata del finale. Te
 - Clip: 9 animazioni Kling 3.0 std (Higgsfield) dalle foto della presentazione, 5 s, senza audio.
 - Montaggio: scratchpad video/build.py + spec.py + cards.js (scritte Montserrat su PNG trasparenti, fondo con clip
   oscurate e vignettatura, musica abbassata sotto la voce, −16 LUFS). Intro 54 s, finale 55 s, 1920x1080.
+
+## Uscite (24/11/2026, fuori da git)
+| Video | Durata | Master (crf 21) | Asset HeyGen (account 1) |
+|---|---|---|---|
+| Direttivo_AOUP_INTRO_Dati_alla_mano | 54 s | 167 MB | 580a91e6cee94e7da67523b661aa2483 |
+| Direttivo_AOUP_FINALE_Sempre | 55 s | 169 MB | 9cf64c4494cf43179eee8f117e371b95 |
+Link: https://resource2.heygen.ai/video/<asset>/original.mp4 · copie d'invio da 28 MB mandate in chat.
+Prima uscita scartata: le scritte erano in un carattere di riserva (i font file:// non si caricano in setContent):
+ora cards.js incorpora il Montserrat in base64.
+Su richiesta di Achille mandato anche «Sentirsi per sentire» v3 (pdro-sps-colonna-sonora, uscite/).
