@@ -628,8 +628,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       "Dal 2027 le indennità anche in ferie", "Aggressioni: avvocato e psicologo a carico dell'Azienda"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.75 + i * 1.18;
-      card(s, 8.1, y, 4.65, 1.0, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.0, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 1.0, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.0, fontSize: 16, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Riepilogo del punto 1 prima delle domande. Arretrato medio indicato dal volantino CISL FP: circa 1.250 €.");
   }
@@ -837,7 +837,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Specificità assistenziali Hub");
-    s.addText("Un euro per ogni giorno di fatica in più", { placeholder: "title" });
+    s.addText("Qualche euro in più per ogni giorno di fatica", { placeholder: "title" });
     const q = [["4,00 €", "al giorno", "reparti ad alta complessità: semintensive, trapianti, stroke, endoscopie, piastre angiografiche"],
       ["2,50 €", "al giorno", "aree di degenza accanto alle semintensive"],
       ["7,00 €", "al giorno", "tecnici di radiologia, infermieri e OSS di Radiologia che lavorano stabilmente in Pronto Soccorso"]];
@@ -1022,7 +1022,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       s.addText(imp[i][2], { x: x + 0.85, y: y + 0.7, w: 2.6, h: 0.85, fontSize: 12, color: C.text1, margin: 0, valign: "top", isTextBox: true });
     }
     await foglio(s, "oss-notte", 7.9, 1.6, 4.8, "Dichiarazione congiunta · 23/12/2025 · pag. 3");
-    await foglio(s, "pasto-notte", 7.9, 3.45, 4.8, "pag. 4", { maxH: 2.9 });
+    await foglio(s, "pasto-notte", 7.9, 3.7, 4.8, "pag. 4", { maxH: 2.65 });
     s.addNotes("La dichiarazione del 23/12/2025 è la base di quello che è arrivato a novembre: sperimentazione OSS H24 nelle Chirurgie. Collegamenti con i punti 7 (andamenti occupazionali) e 8 (retention e benessere). Pediatria: chi è stato assegnato d'ufficio alla nuova Pediatria ha la promessa di spostamento, auspicabilmente entro il 2026 (dichiarazione 10/02/2026).");
   }
   await frontespizio("03", S2);
@@ -1034,8 +1034,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       "Notte +0,50 €/h, reperibilità 27,60 € a turno", "Part time: bando entro fine anno, 135 posti", "Ferie: 3 settimane d'estate garantite"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.75 + i * 1.18;
-      card(s, 8.1, y, 4.65, 1.0, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.35, h: 1.0, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 1.0, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.35, h: 1.0, fontSize: 16, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Riepilogo prima delle domande.");
   }
@@ -1239,8 +1239,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const cose = ["Coordinatori: +1.000 € l'anno, tutti e 106", "Più 500 € di quota premiale 2026 ai coordinatori", "Tutor didattici: bandi e nel frattempo la quota", "Dal 2027 più soldi per gli incarichi di base"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.9 + i * 1.4;
-      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 17, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 17, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
   }
   slideDomande(S3, "Il sistema degli incarichi").addNotes("Spazio domande sul punto 3.");
@@ -1311,7 +1311,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     kicker(s, "Il buono 2025 · scadenza 30 novembre", HEX.accent2);
     s.addText("I buoni non attivati non vanno persi", { placeholder: "title" });
     card(s, M, 1.6, 4.3, 4.7, "3A0A10", { bordo: "E2001A" });
-    s.addText([{ text: "185.000 €", options: { fontSize: 48, bold: true, color: HEX.accent2, breakLine: true } },
+    s.addText([{ text: "≈ 185.000 €", options: { fontSize: 44, bold: true, color: HEX.accent2, breakLine: true } },
       { text: "di buoni 2025 non utilizzati nel comparto", options: { fontSize: 17, bold: true, color: "FFFFFF", breakLine: true } },
       { text: "stima dell'Azienda: c'è chi non ha mai attivato il voucher", options: { fontSize: 13, color: "F3D6DA" } }],
       { x: M + 0.25, y: 1.8, w: 3.8, h: 4.3, align: "center", valign: "middle", margin: 0, isTextBox: true });
@@ -1351,8 +1351,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const cose = ["Piattaforma semplice e accessibile a tutti", "Tanti negozi e servizi convenzionati, anche a Padova e provincia", "Un avviso a chi non attiva il buono: zero residui", "Welfare 2027 garantito a tutto il comparto, PTA compresi"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.9 + i * 1.4;
-      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 16, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Le prime due richieste sono l'impegno CISL FP del volantino Welfare 2026. Le ultime due sono proposte da confermare con Achille.");
   }
@@ -1391,7 +1391,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addText("A che punto siamo", { placeholder: "title" });
     const v = [["VINTA", "Festivo infrasettimanale", "Tribunale di Padova, sentenza del 14 maggio 2026", HEX.accent1, "FaCheck"],
       ["IN CAUSA", "Indennità durante le ferie", "Già in causa con l'Azienda, forti della Cassazione n. 25528/2025", "F08A00", "FaBalanceScale"],
-      ["SENTENZA ATTESA", "Buoni pasto", "Percorso aperto da tempo: decisione attesa a fine novembre", HEX.dk2, "FaHourglassHalf"]];
+      ["SENTENZA ATTESA", "Buoni pasto", "Percorso aperto da tempo: la decisione è attesa a breve", HEX.dk2, "FaHourglassHalf"]];
     for (let i = 0; i < 3; i++) {
       const x = M + i * 4.1;
       card(s, x, 1.55, 3.85, 4.95, C.background2, { ombra: true });
@@ -1462,7 +1462,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       { x: M + 4.75, y: 3.4, w: 2.85, h: 2.0, fontSize: 13, color: C.text1, valign: "top", margin: 0, isTextBox: true });
     s.addText("Priorità: notti da 10 ore, festivi e weekend, quando la mensa è chiusa.", { x: M + 4.75, y: 5.45, w: 2.85, h: 1.1, fontSize: 13, bold: true, color: HEX.accent1, margin: 0, isTextBox: true });
     card(s, 8.55, 1.5, 4.2, 2.55, HEX.dk2);
-    s.addText([{ text: "In AOUP", options: { fontSize: 19, bold: true, color: HEX.accent2, breakLine: true } }, { text: "Il percorso è aperto da tempo: la decisione era attesa per fine novembre.", options: { fontSize: 14, color: "FFFFFF" } }],
+    s.addText([{ text: "In AOUP", options: { fontSize: 19, bold: true, color: HEX.accent2, breakLine: true } }, { text: "Il percorso è aperto da tempo: la decisione è attesa a breve. Vi aggiorniamo appena arriva.", options: { fontSize: 14, color: "FFFFFF" } }],
       { x: 8.75, y: 1.55, w: 3.8, h: 2.45, valign: "middle", margin: 0, isTextBox: true });
     qr(s, "buonipasto", 9.8, 4.35, 1.7, "Modulo buoni pasto");
     s.addNotes("Simulazione dal gamma CISL FP: 15 turni al mese senza buono. ⚠ Prescrizione: il gamma parla di 10 anni (natura assistenziale del buono), la mail di 5 anni per tutte e tre le vertenze: in sala dire un numero solo, da confermare con l'avvocato. ⚠ Aggiornare con l'esito della sentenza AOUP se arriva prima del 7/12. Documenti da raccogliere: cartellini dei turni di almeno 6 ore, buste paga. Modulo: form.getformly.com/f/kkwFYZ");
@@ -1700,8 +1700,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const cose = ["Scaglioni progressivi: il fondo non scende mai", "Complessità oggettiva, decisa all'inizio", "Pagamento in 30 giorni, senza vincolo del debito orario", "Tagli al massimo del 50%, prova a carico dell'Azienda", "Relazione a RSU e sindacati, arretrati dal 2023"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.65 + i * 1.16;
-      card(s, 8.1, y, 4.65, 0.98, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 0.98, fontSize: 15, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 0.98, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 0.98, fontSize: 15, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Richieste tratte dalla proposta CISL Rev 22. Da chiarire con Achille: stato della trattativa e significato della nota in fondo alla rev.5 («Non è specificato la quota 80% e 20%, le commesse di riferimento…»).");
   }
@@ -1790,8 +1790,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const cose = ["Un piano straordinario di assunzioni di infermieri", "Concorso di Azienda Zero: graduatoria subito utilizzabile", "Il tavolo bimestrale sul personale, come promesso a dicembre", "Trattenere chi c'è: carichi, turni, valorizzazione"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.9 + i * 1.4;
-      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 16, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Richieste proposte, da confermare con Achille. Il tavolo permanente bimestrale sul fabbisogno è nella dichiarazione congiunta del 23/12/2025.");
   }
@@ -1811,9 +1811,9 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       { text: "31 aree su 49", options: { fontSize: 14, color: "CFE9D8" } }],
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
   }
-  await fotoPiena(S8, "09-alba-orologio", "Le cinque del mattino: è lì che si misura un'organizzazione.", "OSS di notte, la notte di 12 ore, vestizione, ferie");
+  await fotoPiena(S8, "09-alba-orologio", "Alle cinque del mattino si misura un'organizzazione.", "OSS di notte, la notte di 12 ore, vestizione, ferie");
   await videoSlide(S8, "08-oss-notte", "Più OSS di notte");
-  await ricostruzione(S8, "23-oss-notte", "Di notte, in reparto", "Un paio di mani in più cambia la notte.", "Mobilizzare, alzare, rassicurare: di notte l'infermiere è spesso solo con troppi letti. Un OSS in più fa la differenza per i pazienti e per chi lavora.", "Collegamento con i quattro reparti individuati per l'OSS di notte.");
+  await ricostruzione(S8, "23-oss-notte", "Di notte, in reparto", "Un paio di mani in più cambia la notte.", "Mobilizzare, alzare, rassicurare: di notte l'infermiere è spesso solo con troppi letti. Un OSS in più fa la differenza per i pazienti e per chi lavora.", "Collegamento con i reparti individuati per l'OSS di notte.");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "OSS di notte · l'analisi dell'Azienda");
@@ -2022,6 +2022,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const dv = await dimensioni(vol); const hv = 5.1, wv = hv * dv.w / dv.h;
     s.addImage({ path: vol, x: W - M - wv, y: 1.4, w: wv, h: hv, altText: "Volantino CISL FP: ferie, nuove norme, tempi precisi e rischio di perdita",
       shadow: { type: "outer", color: "06381F", opacity: 0.22, blur: 14, offset: 4, angle: 90 } });
+    s.addText("📄  Il volantino fatto per l'ULSS 6 Euganea: la legge vale anche in AOUP", { x: W - M - wv - 0.3, y: 1.4 + hv + 0.08, w: wv + 0.3, h: 0.45, fontSize: 10, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
     const p = [["La norma", "Art. 1 del D.L. 144/2026, convertito dalla Legge 174/2026: nuove regole sulle ferie del personale pubblico"],
       ["Cosa cambia", "Le ferie non fruite possono andare perse alla fine del periodo di riferimento o del riporto autorizzato, con effetti anche sull'indennità quando si cessa"],
       ["Di chi è la responsabilità", "Del datore di lavoro: deve garantire, con i suoi poteri organizzativi, che le ferie si possano fare davvero"]];
@@ -2038,11 +2039,11 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S8 });
     s.addText("Cosa chiediamo", { placeholder: "title" });
     s.addText("Il punto 8 in cinque richieste", { placeholder: "body" });
-    const cose = ["OSS di notte nei quattro reparti individuati, entro un anno", "Notte di 12 ore solo con accordo scritto e verifica a 6 mesi", "Vestizione e consegne al tavolo, non per ordine di servizio", "Un piano ferie che le renda davvero fruibili", "Assunzioni: l'unica flessibilità che non pesa su chi resta"];
+    const cose = ["OSS di notte nei reparti individuati, entro un anno", "Notte di 12 ore solo con accordo scritto e verifica a 6 mesi", "Vestizione e consegne al tavolo, non per ordine di servizio", "Un piano ferie che le renda davvero fruibili", "Assunzioni: l'unica flessibilità che non pesa su chi resta"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.65 + i * 1.16;
-      card(s, 8.1, y, 4.65, 0.98, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 0.98, fontSize: 15, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 0.98, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 0.98, fontSize: 15, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Richieste da confermare con Achille.");
   }
@@ -2264,8 +2265,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const cose = ["Guarda il cedolino: c'è la voce Perseo Sirio? Sei iscritto", "Entra nell'area riservata del Fondo e controlla il profilo", "Prova il simulatore sul sito perseosirio.it", "In TFS o indeciso? Chiedici un calcolo personale con il patronato"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.9 + i * 1.4;
-      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
-      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 15, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "FFFFFF" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 15, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     }
     s.addNotes("Il calcolo personale sull'opzione TFS-TFR si fa sull'estratto conto INPS, sul cedolino e sull'anzianità: offrirlo con il patronato INAS CISL.");
   }
