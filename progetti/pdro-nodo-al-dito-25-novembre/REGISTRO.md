@@ -29,3 +29,11 @@ Pacchetto V7_UN_NODO_AL_DITO (parte 1 testi e cartelli, parte 2 immagini e clip)
 - Correzioni dopo la prima prova: foto del nodo scurita, fascia prugna dietro sottotitoli ed etichetta (9:16), etichetta a
   sinistra sul prugna nel 16:9.
 - Robin: in attesa dell'OK di Achille (oggi).
+
+## Versione 2 (25/11/2026, richiesta di Achille)
+- «Sottofondo con piano e arpa, il 1522 pronunciato "quindici, ventidue", tono della voce meno ansiogeno».
+- Voce: le 10 frasi rigenerate (Luca Ward, eleven_v4, una presa) con il tag **[warmly]** al posto di [softly] e senza le
+  [short pause] forzate; frase 9: «Il quindici, ventidue risponde, gratis, giorno e notte». Atempo solo sulle frasi 6
+  (1,12) e 9 (1,05). La versione precedente (voci, tempi, musica) resta nella storia git.
+- Musica: eleven_music_v2 YgMD9vSlt7Os5ai4ssJ7, pianoforte e arpa, sereno, l'arpa si apre da 47 s, chiusura con glissando.
+- Sottotitoli rigenerati sui nuovi tempi (il testo a schermo resta «Il 1522»).
