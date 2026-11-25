@@ -202,6 +202,11 @@ const ACCORDI = {
     "820.000 € per i differenziali economici di professionalità",
     "Si partecipa d'ufficio: 60 punti valutazione, 40 esperienza",
     "10% riservato a chi aspetta da 10 o 20 anni"]],
+  "ccnl": ["CCNL Sanità pubblica 2025-2027", "29 luglio 2026", "Ipotesi di contratto", [
+    "Aumenti in tre tranche: 2025, 2026, 2027",
+    "Specificità infermieristica e tutela del malato quasi raddoppiate dal 2026",
+    "Indennità durante le ferie, aggressioni, intelligenza artificiale"],
+    [["ARAN", "sì"], ["CISL FP", "sì"], ["FP CGIL", "sì"], ["UIL FPL", "sì"], ["FIALS", "sì"], ["Nursind, Nursing Up", "sì"]]],
   "19": ["Dichiarazione congiunta", "23 dicembre 2025", "Dichiarazione congiunta", [
     "Tre tavoli permanenti: personale, riorganizzazioni, benessere",
     "OSS nel turno di notte delle Chirurgie in 12-18 mesi",
@@ -209,7 +214,7 @@ const ACCORDI = {
 };
 
 async function frontespizio(n, sezione) {
-  const [titolo, data, tipo, cosa] = ACCORDI[n];
+  const [titolo, data, tipo, cosa, firmeProprie] = ACCORDI[n];
   const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: sezione });
   kicker(s, "L'accordo · " + tipo + " · " + data);
   s.addText(titolo, { x: M, y: 0.45, w: 7.4, h: 1.2, fontSize: 30, bold: true, color: C.text2, valign: "top", fontFace: THEME.headFontFace,
@@ -229,7 +234,7 @@ async function frontespizio(n, sezione) {
   // chi ha firmato
   s.addText("FIRME SUL DOCUMENTO", { x: M, y: 1.85, w: 7, h: 0.3, fontSize: 12, bold: true, color: C.accent1,
     charSpacing: 3, margin: 0, isTextBox: true });
-  const parti = [["Azienda", "sì"], ["RSU", FIRME[n]["RSU"]], ["CISL FP", FIRME[n]["CISL FP"]], ["FIALS", FIRME[n]["FIALS"]],
+  const parti = firmeProprie || [["Azienda", "sì"], ["RSU", FIRME[n]["RSU"]], ["CISL FP", FIRME[n]["CISL FP"]], ["FIALS", FIRME[n]["FIALS"]],
     ["Nursing Up", FIRME[n]["NURSING UP"]], ["Nursind", FIRME[n]["NURSIND"]]];
   for (let i = 0; i < parti.length; i++) {
     const x = M + (i % 3) * 2.45, y = 2.25 + Math.floor(i / 3) * 0.72;
@@ -237,7 +242,7 @@ async function frontespizio(n, sezione) {
     card(s, x, y, 2.3, 0.58, cisl ? C.accent2 : (firmato ? C.background2 : "F3F3F3"));
     s.addText([{ text: firmato ? "✔  " : "–  ", options: { color: firmato ? HEX.accent1 : "9AA5A0", bold: true } },
       { text: parti[i][0], options: { bold: true, color: firmato ? HEX.dk2 : "8A948F" } }],
-      { x: x + 0.18, y, w: 2.0, h: 0.58, fontSize: 15, valign: "middle", margin: 0, isTextBox: true });
+      { x: x + 0.18, y, w: 2.0, h: 0.58, fontSize: parti[i][0].length > 12 ? 12 : 15, valign: "middle", margin: 0, isTextBox: true });
   }
   s.addText("COSA CONTIENE", { x: M, y: 3.75, w: 7, h: 0.3, fontSize: 12, bold: true, color: C.accent1,
     charSpacing: 3, margin: 0, isTextBox: true });
@@ -248,6 +253,9 @@ async function frontespizio(n, sezione) {
       align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addText(cosa[i], { x: M + 0.6, y, w: 6.8, h: 0.6, fontSize: 16, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
   }
+  if (tipo === "Ipotesi di contratto")
+    s.addText("Ipotesi firmata all'ARAN: diventa definitiva dopo i controlli di Governo e Corte dei conti.",
+      { x: M, y: 6.55, w: 7.4, h: 0.3, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
   if (tipo === "Preintesa")
     s.addText("Una preintesa diventa efficace con il parere favorevole del Collegio sindacale.",
       { x: M, y: 6.55, w: 7.4, h: 0.3, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
@@ -295,7 +303,7 @@ async function frontespizio(n, sezione) {
     for (let i = 0; i < odg.length; i++) {
       const col = i % 5, row = Math.floor(i / 5);
       const x = M + col * (cw + gx), y = 1.6 + row * (ch + 0.25);
-      const attivo = i === 1;
+      const attivo = false;
       card(s, x, y, cw, ch, attivo ? C.accent2 : C.background2, { ombra: attivo });
       s.addText(String(i + 1).padStart(2, "0"), { x: x + 0.22, y: y + 0.15, w: 1, h: 0.5, fontSize: 24, bold: true,
         color: attivo ? C.text2 : C.accent1, margin: 0, isTextBox: true });
@@ -305,6 +313,235 @@ async function frontespizio(n, sezione) {
     }
     s.addNotes("Presentare i 10 punti. Ogni blocco si regge da solo: chi arriva o va via per i turni trova sempre un punto completo.");
   }
+
+
+  // ------------------------------------------------ 1 · CCNL 2025-2027
+  const S1 = "1 · CCNL Sanità 2025-2027";
+  const FCCNL = "Ipotesi CCNL 2025-2027 · 29/07/2026";
+  pres.addSection({ title: S1 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S1 });
+    s.addText("01", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Il nuovo CCNL Sanità 2025-2027", { placeholder: "title" });
+    s.addText("Firmato all'ARAN il 29 luglio 2026: aumenti, indennità, nuovi diritti", { placeholder: "body" });
+    card(s, 9.4, 1.4, 3.3, 4.6, "0B4D28");
+    s.addText([{ text: "≈ 240 €", options: { fontSize: 54, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "al mese in più, in media, per gli infermieri", options: { fontSize: 18, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "209 € per le altre figure · stime CISL FP", options: { fontSize: 14, color: "CFE9D8" } }],
+      { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Medie indicate dalla guida CISL FP del 29/07/2026: circa 240 € per il personale infermieristico comprese le indennità, 209 € per le altre categorie; circa 380 € cumulando i CCNL 2022-2024 e 2025-2027.");
+  }
+  await frontespizio("ccnl", S1);
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Quando arriva cosa");
+    s.addText("Tre tranche, un contratto che copre il triennio", { placeholder: "title" });
+    const t = [["1.1.2025", "Prima tranche", "decorre da quasi due anni fa: va pagata come arretrato"],
+      ["1.1.2026", "Seconda tranche", "e indennità infermieristiche e di tutela del malato raddoppiate"],
+      ["29.7.2026", "Ipotesi firmata", "all'ARAN da CISL FP e dalle altre sigle"],
+      ["Dicembre 2026", "Firma definitiva attesa", "poi 30 giorni per applicare gli aumenti automatici"],
+      ["1.1.2027", "Terza tranche", "indennità ferie, nuove regole su DEP e ferie"],
+      ["Luglio 2027", "Verifica sull'inflazione", "ARAN e sindacati confrontano stipendi e prezzi"]];
+    for (let i = 0; i < t.length; i++) {
+      const x = M + (i % 3) * 4.1, y = 1.6 + Math.floor(i / 3) * 2.6;
+      const forte = i === 3;
+      card(s, x, y, 3.85, 2.35, forte ? C.accent2 : C.background2, { ombra: forte });
+      s.addText(t[i][0], { x: x + 0.25, y: y + 0.2, w: 3.4, h: 0.6, fontSize: 26, bold: true, color: forte ? C.text2 : C.accent1, margin: 0, isTextBox: true });
+      s.addText(t[i][1], { x: x + 0.25, y: y + 0.85, w: 3.4, h: 0.45, fontSize: 18, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(t[i][2], { x: x + 0.25, y: y + 1.35, w: 3.4, h: 0.85, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    s.addNotes("Art. 2: il contratto copre 1/1/2025-31/12/2027; gli istituti economici automatici vanno applicati entro 30 giorni dalla stipulazione definitiva. La firma definitiva è attesa a dicembre (come scritto nella mail del 18/11): verificare la data prima dell'assemblea.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Tabella 1a · aumenti mensili lordi, per 13 mensilità");
+    s.addText("Quanto sale lo stipendio tabellare", { placeholder: "title" });
+    const aree = ["Supporto", "Operatori", "Assistenti", "Professionisti salute e funzionari", "Elevata qualificazione"];
+    s.addChart(pres.charts.BAR, [
+      { name: "Dal 1.1.2025", labels: aree, values: [41.4, 43.7, 46.6, 50.5, 70.2] },
+      { name: "Dal 1.1.2026", labels: aree, values: [82.8, 87.4, 93.2, 101.1, 140.5] },
+      { name: "Dal 1.1.2027", labels: aree, values: [106.7, 112.6, 120.0, 130.2, 181.0] },
+    ], { x: M, y: 1.5, w: 7.3, h: 5.3, barDir: "col", barGrouping: "clustered", chartColors: [HEX.accent6, HEX.accent1, HEX.dk2],
+      showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: "0", dataLabelFontSize: 11, dataLabelColor: HEX.dk1, dataLabelFontFace: "+mn-lt",
+      catAxisLabelFontSize: 12, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: true, legendPos: "t", legendFontSize: 13,
+      legendFontFace: "+mn-lt", legendColor: HEX.dk1, showTitle: false, barGapWidthPct: 60 });
+    await foglio(s, "ccnl-tab1a", 8.25, 1.6, 4.45, FCCNL + " · Tabella 1a");
+    card(s, 8.2, 4.35, 4.5, 2.2, C.text2);
+    s.addText([{ text: "+130,20 €", options: { fontSize: 34, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "al mese dal 2027 per infermieri, ostetriche, tecnici e funzionari", options: { fontSize: 15, color: "FFFFFF" } }],
+      { x: 8.45, y: 4.45, w: 4.0, h: 2.0, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Gli importi non si sommano: ogni colonna è il nuovo aumento rispetto al CCNL 27.10.2025 a quella data. Comprendono l'anticipazione (IVC) già in busta. Effetto su tredicesima, TFR, pensione; sullo straordinario dal mese successivo all'entrata in vigore (art. 38).");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S1 });
+    kicker(s, "Arretrati · stima CISL FP", HEX.accent2);
+    s.addText("Gli arretrati, area per area", { placeholder: "title" });
+    const arr = [["Supporto", "1.147 €"], ["Operatori", "1.210 €"], ["Assistenti", "1.290 €"], ["Professionisti salute e funzionari", "1.399 €"], ["Elevata qualificazione", "1.946 €"]];
+    for (let i = 0; i < arr.length; i++) {
+      const x = M + i * 2.45;
+      card(s, x, 1.75, 2.25, 2.35, i === 3 ? HEX.accent2 : "13301F", { bordo: i === 3 ? undefined : "1F4A31" });
+      s.addText(arr[i][1], { x: x + 0.15, y: 2.0, w: 1.95, h: 0.9, fontSize: 30, bold: true, color: i === 3 ? HEX.dk2 : HEX.accent2, align: "center", margin: 0, isTextBox: true });
+      s.addText(arr[i][0], { x: x + 0.15, y: 3.0, w: 1.95, h: 1.4, fontSize: 15, bold: true, color: i === 3 ? HEX.dk2 : "FFFFFF", align: "center", valign: "top", margin: 0, isTextBox: true });
+    }
+    card(s, M, 4.45, W - 2 * M, 1.45, "3A0A10", { bordo: "E2001A" });
+    s.addText([{ text: "Infermieri: in più ", options: { color: "FFFFFF" } }, { text: "1.027 €", options: { color: HEX.accent2, bold: true } },
+      { text: " di arretrati sulla specificità infermieristica. ", options: { color: "FFFFFF" } },
+      { text: "Si può superare i 2.000 € in totale.", options: { color: HEX.accent2, bold: true } }],
+      { x: M + 0.3, y: 4.5, w: W - 2 * M - 0.6, h: 1.35, fontSize: 20, valign: "middle", margin: 0, isTextBox: true });
+    s.addText("Stima CISL FP su tabellare 2025 × 13 e 2026 × 11 mensilità, meno l'anticipo (IVC) già in busta, con firma definitiva entro il 1° dicembre. Va ricalcolata caso per caso.",
+      { x: M, y: 6.1, w: W - 2 * M, h: 0.55, fontSize: 13, italic: true, color: "B9D3C3", margin: 0, isTextBox: true });
+    s.addNotes("Stima della guida CISL FP del 29/07/2026: tabellare 2025 × 13 mensilità + tabellare 2026 × 11 mensilità, meno l'IVC già percepita, ipotizzando l'entrata in vigore definitiva entro il 1/12/2026. Va riparametrata su data di assunzione, part time e somme già percepite. Ostetriche: 1.027 € sulla tutela del malato; tecnici e riabilitazione 769 €; OSS 644 €.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Art. 41 e 42 · dal 1° gennaio 2026");
+    s.addText("Le indennità di chi assiste quasi raddoppiano", { placeholder: "title" });
+    const r = [["Infermieri", "87,79", "181,14", HEX.accent3], ["Ostetriche", "87,79", "181,14", HEX.accent3],
+      ["Tecnici, riabilitazione, prevenzione", "51,97", "121,87", HEX.accent1], ["OSS senior", "46,40", "108,80", HEX.accent1], ["OSS", "43,51", "102,01", HEX.accent1]];
+    s.addText([{ text: "prima", options: { color: "7A8B81" } }], { x: M + 3.6, y: 1.5, w: 1.3, h: 0.35, fontSize: 13, bold: true, align: "center", margin: 0, isTextBox: true });
+    s.addText([{ text: "dal 2026", options: { color: HEX.accent1 } }], { x: M + 5.2, y: 1.5, w: 1.6, h: 0.35, fontSize: 13, bold: true, align: "center", margin: 0, isTextBox: true });
+    for (let i = 0; i < r.length; i++) {
+      const y = 1.9 + i * 0.95;
+      card(s, M, y, 6.9, 0.8, i < 2 ? "FFF4B8" : C.background2);
+      s.addText(r[i][0], { x: M + 0.2, y, w: 3.4, h: 0.8, fontSize: 16, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(r[i][1] + " €", { x: M + 3.6, y, w: 1.3, h: 0.8, fontSize: 18, color: "7A8B81", align: "center", valign: "middle", margin: 0, isTextBox: true });
+      s.addImage({ data: await icona("FaArrowRight", r[i][3]), x: M + 4.95, y: y + 0.27, w: 0.26, h: 0.26, altText: "freccia" });
+      s.addText(r[i][2] + " €", { x: M + 5.2, y, w: 1.6, h: 0.8, fontSize: 24, bold: true, color: r[i][3], align: "center", valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addText("Valori mensili lordi per 12 mensilità. Le ostetriche sono equiparate agli infermieri.", { x: M, y: 6.7, w: 6.9, h: 0.3, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+    await foglio(s, "ccnl-tab3", 7.85, 1.6, 4.85, "Tabella 3 · specificità infermieristica", { maxH: 2.6, centra: 10.275 });
+    await foglio(s, "ccnl-tab4", 7.85, 4.65, 4.85, "Tabella 4 · tutela del malato", { maxH: 1.95, centra: 10.275 });
+    s.addNotes("Valori prima: guida CISL FP (art. 65 e 66 CCNL 27.10.2025). Nuovi valori: Tabelle 3 e 4 dell'ipotesi. Assistenti (infermiere generico senior) 161,50 €, operatori (infermiere generico) 151,48 €.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S1 });
+    kicker(s, "Art. 28 · Indennità ferie · dal 1° gennaio 2027", HEX.accent2);
+    s.addText("In ferie non perdi più le indennità", { placeholder: "title" });
+    testo(s, [{ text: "Quello che chiediamo in tribunale per il passato, ", options: { color: "FFFFFF" } },
+      { text: "dal 2027 è scritto nel contratto.", options: { color: HEX.accent2, bold: true } }], M, 1.45, 7.5, 0.9, { fontSize: 22 });
+    card(s, M, 2.5, 7.5, 2.45, "13301F", { bordo: "1F4A31" });
+    s.addText("COME SI CALCOLA", { x: M + 0.3, y: 2.65, w: 7, h: 0.3, fontSize: 12, bold: true, color: HEX.accent6, charSpacing: 3, margin: 0, isTextBox: true });
+    s.addText([{ text: "indennità del semestre precedente", options: { breakLine: true } }, { text: "÷ 6 mesi ÷ 26 giorni", options: { color: HEX.accent2 } }],
+      { x: M + 0.3, y: 3.0, w: 7, h: 1.1, fontSize: 26, bold: true, color: "FFFFFF", margin: 0, isTextBox: true });
+    s.addText("= una quota per ogni giorno di ferie, se arriva almeno a 3 €", { x: M + 0.3, y: 4.2, w: 7, h: 0.5, fontSize: 16, color: "CFE9D8", margin: 0, isTextBox: true });
+    const ind = ["Turno", "Notte", "Festivo", "UO disagiate", "Pronto soccorso"];
+    for (let i = 0; i < ind.length; i++) {
+      const x = M + i * 1.52;
+      card(s, x, 5.2, 1.42, 0.75, i === 4 ? HEX.accent3 : HEX.accent1);
+      s.addText(ind[i], { x, y: 5.2, w: 1.42, h: 0.75, fontSize: 13, bold: true, color: "FFFFFF", align: "center", valign: "middle", margin: 0, isTextBox: true });
+    }
+    await foglio(s, "ccnl-indennita-ferie", 8.55, 1.5, 4.15, FCCNL + " · art. 28 c. 2", { scuro: true });
+    card(s, 8.5, 3.6, 4.25, 2.35, HEX.accent2, { ombra: true });
+    s.addText([{ text: "E la vertenza continua", options: { fontSize: 20, bold: true, breakLine: true } },
+      { text: "per gli anni prima del 2027 servono ancora la causa e la Cassazione 25528/2025: aderisci (punto 5).", options: { fontSize: 14 } }],
+      { x: 8.7, y: 3.7, w: 3.85, h: 2.15, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Art. 28 c. 2: indennità giornaliera «Indennità ferie» pari alle indennità di turno, notte, festivo, UO disagiate e pronto soccorso percepite nel semestre precedente, diviso 6 e diviso 26; spetta solo se almeno 3 € al giorno. L'articolo sostituisce l'art. 35 del CCNL 27.10.2025 dall'1/1/2027.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Art. 28 e 29 · ferie e riposi solidali");
+    s.addText("Ferie: le regole nuove", { placeholder: "title" });
+    const f = [["FaUmbrellaBeach", "28 / 32", "giorni lavorativi di ferie, su 5 o su 6 giorni settimanali"],
+      ["FaSun", "15 giorni", "di fila d'estate: 1/6-30/9, oppure 15/6-15/9 per chi ha figli in età scolare"],
+      ["FaStopwatch", "15 giorni", "al massimo per rispondere a una richiesta di ferie"],
+      ["FaCalendarAlt", "entro aprile", "il piano delle ferie estive concordato"],
+      ["FaProcedures", "sospese", "da malattia oltre 3 giorni o ricovero"],
+      ["FaHandsHelping", "solidali", "ferie cedibili anche a chi assiste un familiare dopo un'aggressione"]];
+    for (let i = 0; i < f.length; i++) {
+      const x = M + (i % 2) * 3.45, y = 1.55 + Math.floor(i / 2) * 1.72;
+      await tondo(s, f[i][0], x, y + 0.05, 0.7, i === 1 ? HEX.accent3 : HEX.accent1);
+      s.addText(f[i][1], { x: x + 0.85, y, w: 2.5, h: 0.5, fontSize: 22, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(f[i][2], { x: x + 0.85, y: y + 0.5, w: 2.45, h: 1.05, fontSize: 13, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    await foglio(s, "ccnl-ferie-giorni", 7.75, 1.6, 4.95, FCCNL + " · art. 28 c. 3-4");
+    await foglio(s, "ccnl-ferie-estate", 7.75, 3.4, 4.95, "art. 28 c. 12");
+    s.addNotes("La guida CISL FP segnala l'equiparazione delle ferie tra neoassunti e personale con più di tre anni. In AOUP l'accordo del 15/04/2026 garantisce già 3 settimane d'estate (punto 2). Le nuove regole sulle ferie valgono dall'1/1/2027.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Art. 24 e 35 · orario di lavoro");
+    s.addText("Il tempo che prima non contava", { placeholder: "title" });
+    numero(s, "10 min", "per vestizione e svestizione, dentro l'orario, se risultano dalle timbrature", M, 1.4, 3.6, { size: 44 });
+    numero(s, "15 min", "con il passaggio di consegne, nei reparti h24 · salvo accordi migliori", M + 3.85, 1.4, 3.6, { size: 44, colore: C.accent3 });
+    const o = [["12 ore", "al massimo di lavoro continuativo, a qualsiasi titolo"], ["giorno 20", "del mese prima: i turni devono essere pubblicati"],
+      ["11 ore", "di riposo: se salta per riunioni o formazione, si recupera subito"], ["10 min", "di pausa dopo sei ore, risultante dalle timbrature"]];
+    for (let i = 0; i < o.length; i++) {
+      const x = M + (i % 2) * 3.85, y = 3.85 + Math.floor(i / 2) * 1.35;
+      card(s, x, y, 3.6, 1.2, C.background2);
+      s.addText(o[i][0], { x: x + 0.2, y: y + 0.1, w: 3.2, h: 0.45, fontSize: 20, bold: true, color: C.accent1, margin: 0, isTextBox: true });
+      s.addText(o[i][1], { x: x + 0.2, y: y + 0.55, w: 3.2, h: 0.6, fontSize: 13, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    await foglio(s, "ccnl-vestizione", 8.4, 1.6, 4.3, FCCNL + " · art. 24 c. 13-14");
+    card(s, 8.35, 4.15, 4.4, 2.3, C.text2);
+    s.addText([{ text: "In AOUP si può fare meglio", options: { fontSize: 18, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "il contratto permette di alzare questi minuti con la contrattazione integrativa: è una delle nostre richieste.", options: { fontSize: 14, color: "FFFFFF" } }],
+      { x: 8.55, y: 4.25, w: 4.0, h: 2.1, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Art. 24 c. 13-14: fino a 10 minuti (vestizione) e fino a 15 minuti (vestizione + consegne) «fatti salvi gli accordi di miglior favore». Verificare con Achille cosa prevede oggi l'accordo aziendale (La Consegna n. 5 parla di fino a 22 minuti a turno). Settimana su 4 giorni solo in strutture che non erogano prestazioni sanitarie.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Art. 34 · aggressioni");
+    s.addText("Se ti aggrediscono, l'Azienda ti difende", { placeholder: "title" });
+    const a = [["FaGavel", "Avvocato pagato", "per tutti i gradi di giudizio, consulenti tecnici compresi"],
+      ["FaUserShield", "Parte civile", "l'Azienda può costituirsi accanto a te"],
+      ["FaBrain", "Supporto psicologico", "garantito, salvo tua diversa scelta"],
+      ["FaHandsHelping", "30 giorni", "di ferie solidali dei colleghi, subito dopo l'aggressione"]];
+    for (let i = 0; i < a.length; i++) {
+      const y = 1.55 + i * 1.25;
+      await tondo(s, a[i][0], M, y, 0.8, i === 0 ? HEX.accent3 : HEX.accent1);
+      s.addText(a[i][1], { x: M + 1.0, y: y - 0.02, w: 5.2, h: 0.45, fontSize: 20, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(a[i][2], { x: M + 1.0, y: y + 0.42, w: 5.2, h: 0.6, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    await foglio(s, "ccnl-aggressioni", 6.85, 1.6, 5.85, FCCNL + " · art. 34");
+    card(s, 6.8, 4.45, 5.95, 1.6, C.accent2);
+    s.addText("Lo abbiamo visto a novembre al Pronto Soccorso di Padova: queste tutele vanno chieste subito. Chiamaci.", { x: 7.05, y: 4.5, w: 5.5, h: 1.5, fontSize: 17, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Collegamento con il servizio di Antenna Tre del 23/11 sull'infermiere aggredito al PS e con il punto 8 (benessere). Art. 34 sostituisce l'art. 55 del CCNL 27.10.2025.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Art. 25 e 26 · salute");
+    s.addText("Permessi per visite e malattie gravi", { placeholder: "title" });
+    numero(s, "18 ore", "l'anno per visite, terapie ed esami, viaggio compreso", M, 1.4, 3.8, { size: 52 });
+    numero(s, "+10 ore", "per malattie oncologiche o invalidità dal 74%, anche per il genitore di un figlio minorenne", M + 4.0, 1.4, 3.8, { size: 52, colore: C.accent3 });
+    numero(s, "24 mesi", "di congedo non retribuito, anche frazionato, per malattie oncologiche o invalidanti", M, 4.05, 3.8, { size: 52 });
+    numero(s, "150 ore", "di diritto allo studio, ora anche per tirocini e stage", M + 4.0, 4.05, 3.8, { size: 52 });
+    await foglio(s, "ccnl-permessi", 8.55, 1.6, 4.15, FCCNL + " · art. 25 c. 1");
+    s.addNotes("Le ore di permesso visite (art. 25) non decurtano l'accessorio se fruite a ore; a giornata sì, come la malattia. Preavviso di 3 giorni, 24 ore se urgente. Congedo di 24 mesi: art. 26 c. 6 (L. 106/2025).");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
+    kicker(s, "Le altre novità");
+    s.addText("IA, fondi, disagio, lavoro agile", { placeholder: "title" });
+    const n = [["FaRobot", "Intelligenza artificiale", "nessuna decisione sul tuo lavoro presa solo da un algoritmo; hai diritto di sapere come funziona"],
+      ["FaCoins", "+221 € a testa nel fondo", "della produttività dal 2027: più soldi per la contrattazione in AOUP"],
+      ["FaProcedures", "5 € al giorno", "nelle UO disagiate: sale operatorie, intensive, emergenza, infettive, dialisi"],
+      ["FaFileInvoice", "3 € anche agli amministrativi", "di Risorse Umane, Bilancio e Provveditorato"],
+      ["FaLaptopHouse", "Lavoro agile per tutti", "anche a tempo determinato e part time, più giorni per chi ha tutele"],
+      ["FaUtensils", "Buoni pasto", "da rivedere nel prossimo contratto: intanto la nostra vertenza va avanti"]];
+    for (let i = 0; i < n.length; i++) {
+      const x = M + (i % 3) * 4.1, y = 1.55 + Math.floor(i / 3) * 2.65;
+      card(s, x, y, 3.85, 2.45, i === 5 ? C.accent2 : C.background2);
+      await tondo(s, n[i][0], x + 0.22, y + 0.22, 0.65, i === 0 ? HEX.accent3 : HEX.accent1);
+      s.addText(n[i][1], { x: x + 0.22, y: y + 1.0, w: 3.4, h: 0.5, fontSize: 18, bold: true, color: C.text2, margin: 0, isTextBox: true, fit: "shrink" });
+      s.addText(n[i][2], { x: x + 0.22, y: y + 1.5, w: 3.45, h: 0.85, fontSize: 13, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    s.addNotes("Art. 11-13 IA; art. 40 c. 3 (+221 € pro capite dal 1/1/2027); art. 43 indennità UO disagiate (fascia 1: 5 €, amministrativi RU/Bilancio/Provveditorato: 3 €, OTAA: 1,50 €); art. 44 lavoro agile (esclusi i lavori in turno); dichiarazione congiunta n. 2 su mensa e buoni pasto. DEP dal 2027: permanenza riducibile a 2 anni; 10-40% delle risorse dei DEP dei cessati agli incarichi di base (fino a 3.500 €), prioritariamente medicine e salute mentale.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S1 });
+    s.addText("Cosa cambia per te", { placeholder: "title" });
+    s.addText("Le cinque cose da portarsi a casa dal punto 1", { placeholder: "body" });
+    const cose = ["Arretrati: in media circa 1.250 €", "Infermieri e ostetriche: 181,14 € al mese di indennità", "+130 € di tabellare per i professionisti della salute dal 2027",
+      "Dal 2027 le indennità anche in ferie", "Aggressioni: avvocato e psicologo a carico dell'Azienda"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.75 + i * 1.18;
+      card(s, 8.1, y, 4.65, 1.0, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.0, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Riepilogo del punto 1 prima delle domande. Arretrato medio indicato dal volantino CISL FP: circa 1.250 €.");
+  }
+  slideDomande(S1, "Il nuovo CCNL Sanità 2025-2027").addNotes("Spazio domande sul punto 1.");
 
   // ------------------------------------------------ 2 · accordi decentrati
   const S2 = "2 · Accordi decentrati AOUP 2026";

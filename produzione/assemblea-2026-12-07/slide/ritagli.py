@@ -98,6 +98,28 @@ for _f in sorted(os.listdir(os.path.join(DOC, "decentrati"))):
     if _f.endswith(".pdf"):
         RITAGLI["front-" + _f[:2]] = ("decentrati/" + _f, 1, ["CISL FP:"], (0, 2000))
 
+# CCNL Sanità 2025-2027, ipotesi firmata il 29/07/2026
+RITAGLI.update({
+    "front-ccnl": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 1, ["CISL FP firmato"], (0, 2000)),
+    "ccnl-tab1a": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 82, ["PROFESSIONISTI DELLA SALUTE E DEI FUNZIONARI"], (55, 330)),
+    "ccnl-tab2a": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 83, ["PROFESSIONISTI DELLA SALUTE E DEI FUNZIONARI"], (55, 300)),
+    "ccnl-tab3": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 84, [], (50, 352)),
+    "ccnl-tab4": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 84, [], (372, 605)),
+    "ccnl-indennita-ferie": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 52, ["spetta anche una indennità giornaliera denominata “Indennità ferie” –"], None),
+    "ccnl-ferie-giorni": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 52, ["la durata delle ferie è di 28 giorni lavorativi.", "la durata"], 40),
+    "ccnl-ferie-estate": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 54, ["15 giugno - 15 settembre al fine di promuovere la conciliazione dei tempi di vita e"], 60),
+    "ccnl-vestizione": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 45, ["l’orario di lavoro riconosciuto ricomprende fino a 10 minuti complessivi e forfettari",
+                                   "sono riconosciuti fino ad un massimo di 15 minuti complessivi e forfettari tra"], 30),
+    "ccnl-aggressioni": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 62, ["ad opera di terzi, assume ogni onere di difesa per tutti i gradi del giudizio - ivi",
+                                    "supporto psicologico, salvo diversa scelta del dipendente; quest’ultimo può inoltre"], 30),
+    "ccnl-permessi": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 46, ["giornaliera che oraria, nella misura massima di 18 ore annuali, comprensive anche",
+                                 "pari o superiore al 74 per cento ha diritto di fruire, di ulteriori dieci ore annue di"], 30),
+    "ccnl-ia": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 21, ["1. L’utilizzo di sistemi di IA non può dar luogo a decisioni prevalentemente e/o"], 40),
+    "ccnl-221": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 66, ["incrementata di un importo, su base annua, pari ad Euro 221,00 pro-capite,"], 40),
+    "ccnl-uo-disagiate": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 68, [], (40, 245)),
+    "ccnl-buoni-pasto": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 85, ["della disciplina relativa a mensa e buoni pasto."], 40),
+})
+
 
 def trova(pagina, frase):
     """Rettangoli (in punti PDF) delle righe che compongono la frase."""
