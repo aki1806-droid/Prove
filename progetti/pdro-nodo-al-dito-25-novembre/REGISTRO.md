@@ -37,3 +37,6 @@ Pacchetto V7_UN_NODO_AL_DITO (parte 1 testi e cartelli, parte 2 immagini e clip)
   (1,12) e 9 (1,05). La versione precedente (voci, tempi, musica) resta nella storia git.
 - Musica: eleven_music_v2 YgMD9vSlt7Os5ai4ssJ7, pianoforte e arpa, sereno, l'arpa si apre da 47 s, chiusura con glissando.
 - Sottotitoli rigenerati sui nuovi tempi (il testo a schermo resta «Il 1522»).
+- Uscite v2: 76,0 s, −15,6 LUFS. Asset HeyGen (account 1): 16:9
+  https://resource2.heygen.ai/video/350a8832af0d4e1f8b58f95dd9354d7c/original.mp4 · 9:16
+  https://resource2.heygen.ai/video/a11b4de4e9c7472787962da00f008444/original.mp4 . Copie d'invio mandate in chat.
