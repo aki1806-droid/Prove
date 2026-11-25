@@ -176,7 +176,7 @@ async function fotoTavolo(s, nome, x, y, w, didascalia, opz = {}) {
     fontSize: 11, italic: true, color: opz.scuro ? "B9D3C3" : "5B6B62", margin: 0, isTextBox: true, objectName: "didascalia" });
   return { x, y, w, h };
 }
-const TAVOLO = "Slide dell'Azienda al tavolo sindacale";
+const TAVOLO = "Slide dell'Azienda al tavolo del 18/11/2026";
 
 // ---------------------------------------------------------------- frontespizi
 // Ogni accordo si presenta prima con la sua prima pagina, quella delle firme.
@@ -1001,6 +1001,70 @@ async function frontespizio(n, sezione) {
     await fotoTavolo(s, "incarichi-mappatura-nuova", 7.2, 4.25, 5.45, TAVOLO + " · nuova mappatura", { maxH: 2.2, centra: 9.925 });
     s.addNotes("Riepilogo della nuova mappatura proiettata dall'Azienda: ruolo sanitario 1.011.000 € (22 incarichi di organizzazione + 106 di coordinamento) e 345.000 € (86 incarichi professionali: 31 specialisti, 19 esperti, 30 tutor didattici, 6 professionali); ruolo PTA 61 incarichi per 662.500 €; accantonamento EQ e aree assistenti/operatori 167.500 €. Totale 2.032.500 € + 167.500 € = 2.200.000 € (accordo 6/9/2023). Nota dell'Azienda: area ADA, circa metà degli incarichi oggi vacanti.");
   }
+
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "I 106 coordinatori");
+    s.addText("Dove lavorano i 106 coordinatori", { placeholder: "title" });
+    const c = [["Aree di degenza", 39], ["Ambulatori e degenza diurna", 21], ["Piastra operatoria", 14], ["Terapie intensive", 9],
+      ["Servizi", 8], ["Laboratori", 5], ["Pronto soccorso e SUEM", 5], ["Radiologie", 5]].reverse();
+    s.addChart(pres.charts.BAR, [{ name: "Coordinatori", labels: c.map(x => x[0]), values: c.map(x => x[1]) }], {
+      x: M, y: 1.45, w: 6.3, h: 5.2, barDir: "bar", chartColors: [HEX.accent1], showValue: true, dataLabelPosition: "outEnd",
+      dataLabelFontSize: 13, dataLabelColor: HEX.dk1, dataLabelFontFace: "+mn-lt", catAxisLabelFontSize: 14, catAxisLabelColor: HEX.dk1,
+      catAxisLabelFontFace: "+mn-lt", valAxisHidden: true, valGridLine: { style: "none" }, catGridLine: { style: "none" },
+      showLegend: false, showTitle: false, barGapWidthPct: 45 });
+    const k = [["47%", "coordinano una sola UOC o UOSD"], ["45%", "coordinano aree omogenee"], ["88%", "coordinano un solo profilo professionale"]];
+    for (let i = 0; i < 3; i++) {
+      const x = 7.1 + i * 1.9;
+      card(s, x, 1.6, 1.75, 1.75, i === 2 ? C.accent2 : C.background2);
+      s.addText([{ text: k[i][0], options: { fontSize: 28, bold: true, color: HEX.dk2, breakLine: true } }, { text: k[i][1], options: { fontSize: 11 } }],
+        { x: x + 0.12, y: 1.65, w: 1.55, h: 1.65, color: HEX.dk1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    await fotoTavolo(s, "coord-classificazione", 7.15, 3.7, 5.55, TAVOLO, { maxH: 2.55, centra: 9.925 });
+    s.addNotes("Slide «Inc. Coordinamento» dell'Azienda: 106 incarichi per classificazione; afferenza 47% singola UOC/UOSD, 45% aree omogenee, 8% direzioni mediche ospedaliere; destinatari 88% singolo profilo, 11% due o più profili, 1% tutti i profili.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "Gli 86 incarichi professionali");
+    s.addText("19 tipi di incarico, 86 posti", { placeholder: "title" });
+    const col = [
+      ["Specialistici", "31", HEX.accent1, [["Infermiere case manager", 20], ["Specialista in terapia intensiva", 4], ["Referente wound care", 2], ["Stomaterapista", 2], ["Procurement organi e tessuti", 1], ["Elettrofisiologia", 1], ["Ecocardiografia", 1]]],
+      ["Esperti", "19", HEX.accent3, [["Governance in sala operatoria", 6], ["Accessi vascolari", 4], ["Innovazione in radiologia", 4], ["Monitoraggio neurofisiologico", 2], ["Organ care specialist", 2], ["Ricerca ed evidence-based practice", 1]]],
+      ["Professionali", "36", HEX.dk2, [["Tutor didattici dei corsi di laurea", 30], ["Sostituzione renale", 2], ["Patient Blood Management", 1], ["Accessi enterali (PEG)", 1], ["Procedure analitiche (POCT)", 1], ["Percorsi assistenziali", 1]]]];
+    for (let c = 0; c < 3; c++) {
+      const x = M + c * 4.1;
+      card(s, x, 1.5, 3.85, 0.95, col[c][2]);
+      s.addText([{ text: col[c][1] + "  ", options: { fontSize: 32, bold: true, color: HEX.accent2 } }, { text: col[c][0], options: { fontSize: 20, bold: true, color: "FFFFFF" } }],
+        { x: x + 0.25, y: 1.5, w: 3.4, h: 0.95, valign: "middle", margin: 0, isTextBox: true });
+      const r = col[c][3];
+      for (let i = 0; i < r.length; i++) {
+        const y = 2.6 + i * 0.58;
+        s.addText(String(r[i][1]), { x, y, w: 0.6, h: 0.5, fontSize: 18, bold: true, color: col[c][2], align: "right", valign: "middle", margin: 0, isTextBox: true });
+        s.addText(r[i][0], { x: x + 0.75, y, w: 3.1, h: 0.5, fontSize: 13, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+      }
+    }
+    s.addText("Valore: 4.000 € l'anno (5.000 € per un incarico professionale). I tipi di incarico: 37% specialistici, 32% esperti, 31% professionali.", { x: M, y: 6.65, w: W - 2 * M, h: 0.35, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+    s.addNotes("Elenchi «Inc. professionali – Specialistici / Esperti / Professionali» proiettati dall'Azienda. Totali: 31 specialisti, 19 esperti, 36 professionali (30 tutor + 6) = 86, coerente con la mappatura. Posizioni: 42% professionale, 36% specialistico, 22% esperto. Valori dalla tabella di mappatura (4.000 €; una riga a 5.000 €).");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "Gli incarichi organizzativi");
+    s.addText("Chi organizza: dipartimenti, direzioni, formazione", { placeholder: "title" });
+    const o = [["FaGraduationCap", "Direzione Professioni Sanitarie", "22", "13 coordinatori di lauree triennali, 6 di lauree magistrali, 3 responsabili di area (formazione, modelli organizzativi, risorse umane)"],
+      ["FaHospital", "Direzioni Mediche Ospedaliere", "12", "rischio clinico, CUP e prenotazioni, infezioni ospedaliere, sterilizzazione, pre-ricovero, logistica, servizio sociale"],
+      ["FaSitemap", "Dipartimenti e ricerca", "6", "5 coordinatori DIDAS e del dipartimento di diagnostica per immagini, 1 per le sperimentazioni cliniche di fase 1"]];
+    for (let i = 0; i < 3; i++) {
+      const y = 1.55 + i * 1.7;
+      card(s, M, y, 6.9, 1.5, i === 0 ? C.accent2 : C.background2);
+      await tondo(s, o[i][0], M + 0.2, y + 0.35, 0.8, HEX.accent1);
+      s.addText(o[i][2], { x: M + 1.15, y: y + 0.15, w: 0.9, h: 0.65, fontSize: 32, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(o[i][1], { x: M + 2.0, y: y + 0.15, w: 4.75, h: 0.5, fontSize: 17, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(o[i][3], { x: M + 1.15, y: y + 0.75, w: 5.6, h: 0.7, fontSize: 12, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+    }
+    await fotoTavolo(s, "organizzativi-dps", 7.85, 1.6, 4.85, TAVOLO, { maxH: 2.2, centra: 10.275 });
+    await fotoTavolo(s, "organizzativi-direzioni-mediche", 7.85, 4.45, 4.85, "Direzioni Mediche Ospedaliere", { maxH: 1.9, centra: 10.275 });
+    s.addNotes("Elenchi «Inc. organizzativi» dell'Azienda. La somma (40) non coincide con i 22 incarichi di organizzazione della tabella di mappatura: verificare con Achille come sono contati (ad esempio alcuni coordinamenti dei corsi di laurea potrebbero ricadere nei 106 o negli incarichi DIDAS). In rosso, sulla slide dell'Azienda, i corsi nuovi: perfusione cardiovascolare e le magistrali specialistiche in cure intensive ed emergenza e in cure neonatali e pediatriche.");
+  }
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S3 });
     kicker(s, "Coordinatori · da aprile a oggi", HEX.accent2);
@@ -1079,6 +1143,94 @@ async function frontespizio(n, sezione) {
     }
   }
   slideDomande(S3, "Il sistema degli incarichi").addNotes("Spazio domande sul punto 3.");
+
+
+  // ------------------------------------------------ 7 · andamenti occupazionali
+  const S7 = "7 · Andamenti occupazionali";
+  pres.addSection({ title: S7 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S7 });
+    s.addText("07", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Quanti entrano, quanti escono", { placeholder: "title" });
+    s.addText("Gli andamenti occupazionali presentati dall'Azienda il 18 novembre", { placeholder: "body" });
+    card(s, 9.4, 1.4, 3.3, 4.6, "3A0A10", { bordo: "E2001A" });
+    s.addText([{ text: "−103", options: { fontSize: 66, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "infermieri rispetto a gennaio 2020", options: { fontSize: 18, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "intanto +219 OSS e +117 medici", options: { fontSize: 14, color: "F3D6DA" } }],
+      { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Dal grafico «Variazione teste rispetto al 1° gennaio 2020» dell'Azienda: infermieri al massimo +220 (fine 2021), minimo −124, ultimo valore −103; OSS +219 (picco +222); dirigenti medici +117.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S7 });
+    kicker(s, "Dal 2020 a oggi", HEX.accent2);
+    s.addText("Gli infermieri sono gli unici in calo", { placeholder: "title" });
+    const n = [["+219", "OSS", HEX.accent6], ["+117", "dirigenti medici", HEX.accent6], ["−103", "infermieri", "FF4D5E"]];
+    for (let i = 0; i < 3; i++) {
+      const y = 1.6 + i * 1.6;
+      card(s, M, y, 4.2, 1.4, i === 2 ? "3A0A10" : "13301F", { bordo: i === 2 ? "E2001A" : "1F4A31" });
+      s.addText(n[i][0], { x: M + 0.25, y, w: 2.2, h: 1.4, fontSize: 46, bold: true, color: n[i][2], valign: "middle", margin: 0, isTextBox: true });
+      s.addText(n[i][1], { x: M + 2.45, y, w: 1.65, h: 1.4, fontSize: 17, bold: true, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addText("A fine 2021 gli infermieri erano 220 in più del 2020. Oggi sono 103 in meno.", { x: M, y: 6.35, w: 4.4, h: 0.6, fontSize: 13, italic: true, color: "CFE9D8", margin: 0, isTextBox: true });
+    await fotoTavolo(s, "occupazione-grafico", 5.3, 1.6, 7.4, TAVOLO + " · variazione rispetto al 1° gennaio 2020", { scuro: true });
+    s.addNotes("Messaggio: gli OSS crescono (anche grazie alla dichiarazione del 23/12/2025), ma il buco vero è sugli infermieri. Collegamento con il calo degli iscritti a Infermieristica (−20% in Veneto, dati della puntata di Tv7) e con le richieste del punto 8.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S7 });
+    kicker(s, "Le teste, profilo per profilo");
+    s.addText("Quante persone lavorano in AOUP", { placeholder: "title" });
+    const t = [["Profilo", "31/12/2025", "30/09/2026", "Stima 31/12/2026", "Differenza"],
+      ["Infermieri", "2.746", "2.757", "2.720", "−26"], ["OSS", "1.140", "1.179", "1.209", "+69"],
+      ["Tecnici e riabilitazione", "477", "493", "502", "+25"], ["Amministrativi e professionali", "463", "477", "482", "+19"],
+      ["Ruolo tecnico", "190", "184", "196", "+6"], ["Dirigenti medici", "868", "878", "902", "+34"],
+      ["Dirigenti sanitari e PTA", "103", "106", "117", "+14"], ["Totale", "5.987", "6.074", "6.128", "+141"]];
+    s.addTable(t.map((r, i) => r.map((c, j) => ({ text: c, options: {
+      bold: i === 0 || j === 0 || j === 4 || i === 8, fontSize: i === 0 ? 12 : 15,
+      color: i === 0 || i === 8 ? "FFFFFF" : (j === 4 ? (c.startsWith("−") ? HEX.accent3 : HEX.accent1) : HEX.dk1),
+      fill: { color: i === 0 || i === 8 ? HEX.dk2 : (i === 1 ? "FFF1F2" : (i % 2 ? "FFFFFF" : HEX.lt2)) },
+      align: j > 0 ? "center" : "left", valign: "middle" } }))),
+      { x: M, y: 1.55, w: 7.4, colW: [2.6, 1.15, 1.15, 1.35, 1.15], rowH: 0.5, border: { type: "solid", color: "D9EADD", pt: 1 }, margin: 0.08 });
+    s.addText("Stima a fine anno dell'Azienda: piano assunzioni di settembre (+208) meno le cessazioni previste (−154). Infermieri: 38 assunzioni contro 75 uscite.",
+      { x: M, y: 6.25, w: 7.4, h: 0.6, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+    await fotoTavolo(s, "occupazione-teste", 8.35, 1.6, 4.35, TAVOLO);
+    card(s, 8.3, 4.85, 4.45, 1.65, C.accent2);
+    s.addText([{ text: "Su 141 persone in più nel 2026, ", options: {} }, { text: "gli infermieri sono 26 in meno.", options: { bold: true } }],
+      { x: 8.5, y: 4.9, w: 4.05, h: 1.55, fontSize: 17, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Tabella «Andamento occupazionale – Teste» dell'Azienda. Dirigenti sanitari (85 → 91, +9) e dirigenti PTA (21 → 26, +5) sono sommati in una riga. Per gli infermieri il piano di settembre prevede 38 assunzioni contro 75 cessazioni stimate.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S7 });
+    kicker(s, "Gennaio-ottobre 2026 · assunzioni e cessazioni");
+    s.addText("Chi è entrato e chi è uscito", { placeholder: "title" });
+    const l = ["Infermieri", "OSS", "Tecnici e riabilitazione", "Amministrativi", "Ruolo tecnico"];
+    s.addChart(pres.charts.BAR, [{ name: "Assunzioni", labels: l, values: [182, 92, 47, 37, 14] }, { name: "Cessazioni", labels: l, values: [197, 55, 33, 26, 16] }], {
+      x: M, y: 1.45, w: 7.4, h: 5.0, barDir: "col", barGrouping: "clustered", chartColors: [HEX.accent1, HEX.accent3],
+      showValue: true, dataLabelPosition: "outEnd", dataLabelFontSize: 12, dataLabelColor: HEX.dk1, dataLabelFontFace: "+mn-lt",
+      catAxisLabelFontSize: 13, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: true, legendPos: "t", legendFontSize: 13,
+      legendFontFace: "+mn-lt", legendColor: HEX.dk1, showTitle: false, barGapWidthPct: 60 });
+    const d = [["−15", "infermieri", HEX.accent3], ["+37", "OSS", HEX.accent1], ["+14", "tecnici e riab.", HEX.accent1], ["+11", "amministrativi", HEX.accent1], ["−2", "ruolo tecnico", HEX.accent3]];
+    for (let i = 0; i < d.length; i++) {
+      const y = 1.6 + i * 0.68;
+      s.addText(d[i][0], { x: 8.4, y, w: 1.3, h: 0.6, fontSize: 26, bold: true, color: d[i][2], align: "right", valign: "middle", margin: 0, isTextBox: true });
+      s.addText(d[i][1], { x: 9.85, y, w: 2.9, h: 0.6, fontSize: 15, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    await fotoTavolo(s, "occupazione-assunzioni-cessazioni", 8.45, 5.15, 3.4, TAVOLO, { maxH: 1.45, centra: 10.6 });
+    s.addNotes("Tabelle «Assunzioni e cessazioni» gennaio-ottobre 2026. Nota dell'Azienda: non sono considerati i cambi di profilo e i passaggi da tempo determinato a indeterminato. Infermieri per dipartimento (lettura della foto, da verificare): Medicina dei sistemi −9, Chirurgia +5, Salute donna e bambino +4, Servizi in staff −11, Servizi diagnostica integrata −4.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S7 });
+    s.addText("Cosa chiediamo", { placeholder: "title" });
+    s.addText("Il punto 7 in quattro richieste", { placeholder: "body" });
+    const cose = ["Un piano straordinario di assunzioni di infermieri", "Concorso di Azienda Zero: graduatoria subito utilizzabile", "Il tavolo bimestrale sul personale, come promesso a dicembre", "Trattenere chi c'è: carichi, turni, valorizzazione"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.9 + i * 1.4;
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Richieste proposte, da confermare con Achille. Il tavolo permanente bimestrale sul fabbisogno è nella dichiarazione congiunta del 23/12/2025.");
+  }
+  slideDomande(S7, "Andamenti occupazionali").addNotes("Spazio domande sul punto 7.");
 
   // ------------------------------------------------ 8 · retention e benessere (blocco OSS di notte)
   const S8 = "8 · Retention e benessere organizzativo";

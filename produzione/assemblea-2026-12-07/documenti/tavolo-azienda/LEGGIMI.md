@@ -21,3 +21,21 @@ presentazione si rifanno con `python3 slide/foto_tavolo.py`.
 | 18 | Titolo «Sintesi economica incarichi di funzione» | — |
 | 19 | Sviluppi futuri: Mappa → Informativa → DDG → Fondo → Regolamento | 3 |
 | 20 | Nuovi incarichi professionali (30 tutor, referenti) | 3 |
+
+## Secondo invio (tavolo del 18/11/2026)
+
+| Foto | Contenuto | Usata nel punto |
+|---|---|---|
+| 21 | Incarichi professionali: esperti (19) | 3 |
+| 22 | Incarichi professionali: specialistici (31) | 3 |
+| 23 | 106 coordinatori per classificazione | 3 |
+| 24 | 19 tipologie di incarico professionale (torte) | 3 (note) |
+| 25 | Incarichi organizzativi: dipartimenti e UOSD ricerca | 3 |
+| 26 | 106 coordinatori: afferenza e destinatari | 3 |
+| 27, 29, 36 | Assunzioni e cessazioni gennaio-ottobre 2026 | 7 |
+| 28, 32 | Struttura della mappatura | — |
+| 30 | Incarichi organizzativi: Direzioni Mediche (12) | 3 |
+| 31 | Incarichi organizzativi: Direzione Professioni Sanitarie (22) | 3 |
+| 33 | Teste per profilo, stima al 31/12/2026 | 7 |
+| 34, 35 | Variazione teste rispetto al 1/1/2020 | 7 |
+| 37 | Ordine del giorno del tavolo, 18 novembre 2026 | — |

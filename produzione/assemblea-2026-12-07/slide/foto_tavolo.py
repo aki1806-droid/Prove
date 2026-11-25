@@ -27,6 +27,17 @@ TAGLI = {
     "17": ("incarichi-mappatura-14-4", (100, 600, 1126, 1330)),
     "19": ("incarichi-sviluppi-futuri", (60, 730, 1060, 1390)),
     "20": ("incarichi-professionali", (50, 610, 1080, 1250)),
+    "21": ("incarichi-esperti", (60, 540, 1080, 1170)),
+    "22": ("incarichi-specialistici", (95, 690, 1110, 1310)),
+    "23": ("coord-classificazione", (80, 700, 1110, 1345)),
+    "24": ("incarichi-professionali-torte", (30, 600, 1060, 1245)),
+    "25": ("organizzativi-dipartimenti", (240, 690, 1126, 1280)),
+    "26": ("coord-afferenza", (170, 400, 1126, 1035)),
+    "30": ("organizzativi-direzioni-mediche", (200, 440, 1126, 1055)),
+    "31": ("organizzativi-dps", (80, 350, 1060, 995)),
+    "33": ("occupazione-teste", (0, 525, 1045, 1185)),
+    "35": ("occupazione-grafico", (150, 670, 1126, 1305)),
+    "36": ("occupazione-assunzioni-cessazioni", (40, 570, 1115, 1255)),
 }
 
 if __name__ == "__main__":
