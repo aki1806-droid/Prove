@@ -162,6 +162,22 @@ function slideDomande(sez, titolo) {
   return s;
 }
 
+// Le foto scattate al tavolo: lo schermo dell'Azienda, con la didascalia.
+async function fotoTavolo(s, nome, x, y, w, didascalia, opz = {}) {
+  const file = path.join(QUI, "schermate", "tavolo-" + nome + ".jpg");
+  const d = await dimensioni(file);
+  let h = w * d.h / d.w;
+  if (opz.maxH && h > opz.maxH) { h = opz.maxH; const w2 = h * d.w / d.h; if (opz.centra) x = opz.centra - w2 / 2; w = w2; }
+  s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x - 0.1, y: y - 0.1, w: w + 0.2, h: h + 0.2, rectRadius: 0.12,
+    fill: { color: "1B2A22" }, line: { type: "none" },
+    shadow: { type: "outer", color: "06381F", opacity: 0.25, blur: 14, offset: 4, angle: 90 }, objectName: "foto-cornice" });
+  s.addImage({ path: file, x, y, w, h, altText: "Foto della slide dell'Azienda: " + didascalia, objectName: "foto-" + nome });
+  s.addText([{ text: "📷  " + didascalia }], { x: x - 0.1, y: y + h + 0.16, w: Math.max(w, 3), h: 0.3,
+    fontSize: 11, italic: true, color: opz.scuro ? "B9D3C3" : "5B6B62", margin: 0, isTextBox: true, objectName: "didascalia" });
+  return { x, y, w, h };
+}
+const TAVOLO = "Slide dell'Azienda al tavolo sindacale";
+
 // ---------------------------------------------------------------- frontespizi
 // Ogni accordo si presenta prima con la sua prima pagina, quella delle firme.
 const FIRME = JSON.parse(fs.readFileSync(path.join(QUI, "firme.json"), "utf8"));
@@ -696,6 +712,30 @@ async function frontespizio(n, sezione) {
     ], 9.25, 4.2, 3.45, 2.2, { fontSize: 15 });
     s.addNotes("Somma delle voci: 1.165.000 € (15/04) + 400.000 € (14/07) + 20.000 € dialisi 2025. Fonti: allegato 2 degli accordi del 15/04/2026 e del 14/07/2026.");
   }
+
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
+    kicker(s, "Progettualità 2026 · i tempi di pagamento");
+    s.addText("Quando arrivano i soldi", { placeholder: "title" });
+    const r = [["Specificità Hub", "ogni mese · chiusura a marzo 2027", "risorse insufficienti", HEX.accent3],
+      ["Pacchetti estivi", "ogni mese", "", HEX.accent1],
+      ["Gettoni emergenza", "ogni tre mesi · chiusura a maggio 2027", "residuo stimato 32.000 €", HEX.accent1],
+      ["H24, tecnici e amministrativi, Pediatria, coordinatori, tecnici sanitari, PS, turni tecnici, tutor, neonatale", "primi mesi del 2027", "", HEX.dk2],
+      ["Dialisi (quota 2025)", "ottobre 2026", "pagata", HEX.accent6]];
+    for (let i = 0; i < r.length; i++) {
+      const y = 1.55 + i * 1.02;
+      card(s, M, y, 6.9, 0.88, i === 0 ? "FFF1F2" : C.background2);
+      s.addShape(pres.shapes.OVAL, { x: M + 0.18, y: y + 0.3, w: 0.28, h: 0.28, fill: { color: r[i][3] }, line: { type: "none" } });
+      s.addText(r[i][0], { x: M + 0.6, y: y + 0.04, w: 3.3, h: 0.8, fontSize: i === 3 ? 12 : 15, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText([{ text: r[i][1], options: { bold: true, breakLine: !!r[i][2] } }, ...(r[i][2] ? [{ text: r[i][2], options: { color: i === 0 ? HEX.accent3 : HEX.accent1, bold: true } }] : [])],
+        { x: M + 4.0, y: y + 0.04, w: 2.8, h: 0.8, fontSize: 13, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    await fotoTavolo(s, "progettualita-pagamenti", 7.95, 1.6, 4.75, TAVOLO);
+    card(s, 7.85, 5.4, 4.95, 1.15, C.accent2);
+    s.addText("Sulla quota Hub l'Azienda stessa prevede che i 500.000 € non bastino: chiediamo l'integrazione.",
+      { x: 8.05, y: 5.43, w: 4.55, h: 1.1, fontSize: 15, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Dalla slide «Risorse disponibili» dell'Azienda: importo destinato a progettualità 2026 1.597.676,60 €. Stime di residuo: gettoni 32.000 €, altre voci 10.000 € e 5.612,69 € (la foto non permette di attribuirle con certezza: verificare). La frase sull'integrazione della quota Hub è una proposta: confermarla con Achille.");
+  }
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Specificità assistenziali Hub");
@@ -901,6 +941,220 @@ async function frontespizio(n, sezione) {
     s.addNotes("Riepilogo prima delle domande.");
   }
   slideDomande(S2, "Accordi decentrati AOUP 2026").addNotes("Spazio domande sul punto 2.");
+
+
+  // ------------------------------------------------ 3 · sistema degli incarichi
+  const S3 = "3 · Sistema degli incarichi";
+  pres.addSection({ title: S3 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S3 });
+    s.addText("03", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Il sistema degli incarichi", { placeholder: "title" });
+    s.addText("Chi coordina, chi è esperto, chi forma: quanto vale e come cambia", { placeholder: "body" });
+    card(s, 9.4, 1.4, 3.3, 4.6, "0B4D28");
+    s.addText([{ text: "+1.000 €", options: { fontSize: 50, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "l'anno a tutti i 106 coordinatori", options: { fontSize: 20, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "ad aprile l'Azienda proponeva 500 € a 45 di loro", options: { fontSize: 14, color: "CFE9D8" } }],
+      { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Il risultato annunciato nella mail del 18/11: +1.000 € annui per tutti gli incarichi di funzione organizzativa di coordinamento, con una nuova fascia nella graduazione.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "CCNL 2025-2027 · art. 15 e 17");
+    s.addText("Quanto vale un incarico: le regole del contratto", { placeholder: "title" });
+    const t = [["", "Base", "Media", "Elevata"],
+      ["Funzione organizzativa · professionisti salute e funzionari", "—", "4.000 – 9.500 €", "9.501 – 13.500 €"],
+      ["Funzione professionale · professionisti salute e funzionari", "1.000 – 3.500 €", "4.000 – 9.500 €", "9.501 – 13.500 €"],
+      ["Funzione professionale · assistenti", "930 €", "1.800 €", "3.000 €"],
+      ["Funzione professionale · operatori", "700 €", "1.500 €", "2.000 €"],
+      ["Incarico di posizione · elevata qualificazione", "—", "10.000 – 20.000 €", "—"]];
+    s.addTable(t.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: i === 0 || j === 0, fontSize: i === 0 ? 13 : 14,
+      color: i === 0 ? "FFFFFF" : (j === 0 ? HEX.dk2 : HEX.dk1), fill: { color: i === 0 ? HEX.dk2 : (j === 1 && i === 2 ? "FFF4B8" : (i % 2 ? "FFFFFF" : HEX.lt2)) },
+      align: j > 0 ? "center" : "left", valign: "middle" } }))),
+      { x: M, y: 1.6, w: 7.6, colW: [3.4, 1.4, 1.4, 1.4], rowH: [0.55, 0.75, 0.75, 0.6, 0.6, 0.6], border: { type: "solid", color: "D9EADD", pt: 1 }, margin: 0.08 });
+    card(s, 8.55, 1.6, 4.2, 2.4, C.accent2);
+    s.addText([{ text: "1.000 € automatici", options: { fontSize: 22, bold: true, breakLine: true } },
+      { text: "a ogni professionista della salute senza incarico di media o elevata complessità: è l'incarico di base. Si può alzare fino a 3.500 €.", options: { fontSize: 14 } }],
+      { x: 8.75, y: 1.7, w: 3.8, h: 2.2, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    card(s, 8.55, 4.2, 4.2, 2.3, C.text2);
+    s.addText([{ text: "Dal 2027", options: { fontSize: 22, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "tra il 10% e il 40% dei DEP di chi va in pensione finisce negli incarichi di base, prima nelle medicine e nella salute mentale (art. 39).", options: { fontSize: 14, color: "FFFFFF" } }],
+      { x: 8.75, y: 4.3, w: 3.8, h: 2.1, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Valori annui lordi complessivi (parte fissa e variabile). Incarico di base: art. 17 c. 7, 1.000 € annui comprensivi di tredicesima, incrementabile con quota variabile fino al massimo della tabella se la contrattazione integrativa trova le risorse. Le indennità di funzione sopra i 5.000 € assorbono lo straordinario. Art. 39 c. 2: dall'1/1/2027, 10-40% delle risorse dei DEP dei cessati dell'area dei professionisti della salute destinate agli incarichi di base.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "La mappatura AOUP · nuova proposta");
+    s.addText("2,2 milioni per gli incarichi: come sono divisi", { placeholder: "title" });
+    s.addChart(pres.charts.DOUGHNUT, [{ name: "Incarichi", labels: ["Coordinamento e organizzazione (sanitario)", "Incarichi professionali (sanitario)", "Ruolo professionale, tecnico, amministrativo", "Accantonamento EQ, assistenti e operatori"],
+      values: [1011000, 345000, 662500, 167500] }], { x: M, y: 1.45, w: 6.2, h: 5.2, holeSize: 55,
+      chartColors: [HEX.accent1, HEX.accent6, HEX.dk2, HEX.accent2], showPercent: false, showValue: false, showLegend: true, legendPos: "b",
+      legendFontSize: 12, legendFontFace: "+mn-lt", legendColor: HEX.dk1, showTitle: false, dataBorder: { pt: 2, color: "FFFFFF" } });
+    s.addText([{ text: "2,2 mln €", options: { fontSize: 26, bold: true, color: HEX.dk2, breakLine: true } }, { text: "accantonati nel fondo", options: { fontSize: 12, color: HEX.dk1 } }],
+      { x: M + 1.95, y: 2.75, w: 2.3, h: 1.0, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    const n = [["106", "incarichi di coordinamento"], ["22", "altri incarichi di organizzazione"], ["86", "incarichi professionali sanitari"], ["61", "incarichi nel ruolo PTA"]];
+    for (let i = 0; i < n.length; i++) {
+      const x = 7.1 + (i % 2) * 2.85, y = 1.6 + Math.floor(i / 2) * 1.25;
+      s.addText(n[i][0], { x, y, w: 2.7, h: 0.6, fontSize: 34, bold: true, color: i === 0 ? C.accent3 : C.accent1, margin: 0, isTextBox: true });
+      s.addText(n[i][1], { x, y: y + 0.6, w: 2.7, h: 0.5, fontSize: 13, color: C.text1, margin: 0, isTextBox: true });
+    }
+    await fotoTavolo(s, "incarichi-mappatura-nuova", 7.2, 4.25, 5.45, TAVOLO + " · nuova mappatura", { maxH: 2.2, centra: 9.925 });
+    s.addNotes("Riepilogo della nuova mappatura proiettata dall'Azienda: ruolo sanitario 1.011.000 € (22 incarichi di organizzazione + 106 di coordinamento) e 345.000 € (86 incarichi professionali: 31 specialisti, 19 esperti, 30 tutor didattici, 6 professionali); ruolo PTA 61 incarichi per 662.500 €; accantonamento EQ e aree assistenti/operatori 167.500 €. Totale 2.032.500 € + 167.500 € = 2.200.000 € (accordo 6/9/2023). Nota dell'Azienda: area ADA, circa metà degli incarichi oggi vacanti.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S3 });
+    kicker(s, "Coordinatori · da aprile a oggi", HEX.accent2);
+    s.addText("Da 22.500 € a 106.000 €", { placeholder: "title" });
+    card(s, M, 1.65, 3.9, 3.2, "13301F", { bordo: "1F4A31" });
+    s.addText([{ text: "APRILE 2026", options: { fontSize: 12, bold: true, color: HEX.accent6, charSpacing: 3, breakLine: true } },
+      { text: "+500 €", options: { fontSize: 54, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "solo a 45 coordinatori", options: { fontSize: 16, color: "CFE9D8", breakLine: true } },
+      { text: "22.500 € in tutto", options: { fontSize: 16, bold: true, color: "FFFFFF" } }],
+      { x: M + 0.25, y: 1.8, w: 3.4, h: 2.9, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addImage({ data: await icona("FaArrowRight", HEX.accent2), x: M + 4.05, y: 2.95, w: 0.6, h: 0.6, altText: "freccia" });
+    card(s, M + 4.8, 1.65, 3.9, 3.2, HEX.accent2, { ombra: true });
+    s.addText([{ text: "OGGI", options: { fontSize: 12, bold: true, color: HEX.dk2, charSpacing: 3, breakLine: true } },
+      { text: "+1.000 €", options: { fontSize: 54, bold: true, color: HEX.dk2, breakLine: true } },
+      { text: "a tutti i 106 coordinatori", options: { fontSize: 16, color: HEX.dk2, breakLine: true } },
+      { text: "106.000 € in tutto", options: { fontSize: 16, bold: true, color: HEX.dk2 } }],
+      { x: M + 5.05, y: 1.8, w: 3.4, h: 2.9, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    testo(s, [{ text: "Come: ", options: { bold: true, color: HEX.accent2 } },
+      { text: "una nuova fascia nella graduazione degli incarichi, pagata con 109.500 € dell'accantonamento storico. Ai coordinatori va anche la quota premiale 2026 di 500 € (accordo 14/07).", options: { color: "FFFFFF" } }],
+      M, 5.1, 8.7, 1.3, { fontSize: 16 });
+    await fotoTavolo(s, "incarichi-proposta-500", 9.75, 1.6, 2.95, "Proposta del 14/4/26", { scuro: true, maxH: 2.0, centra: 11.225 });
+    await fotoTavolo(s, "incarichi-1000-coordinatori", 9.75, 4.25, 2.95, "Nuova proposta", { scuro: true });
+    s.addNotes("Proposta del 14/4/2026 (slide dell'Azienda): incremento a 500 € per i coordinatori, impegno 22.500 € (45 incarichi di fascia IV). Nuova proposta: +1.000 € a tutti i coordinatori, 106.000 € (61 fascia III + 45 fascia IV), coperti da 109.500 € di quota parte dell'accantonamento storico meno 3.500 € di residuo negativo dell'area assistenziale. Il 50% delle risorse CCNL (237.127,80 €) è impegnato per il DEP 2026. La bozza di accordo richiama il regolamento recepito con DDG 1652 del 18/09/2023.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "Incarichi professionali");
+    s.addText("Chi forma e chi è esperto viene riconosciuto", { placeholder: "title" });
+    const p = [["30", "Tutor didattici dei corsi di laurea", "bandi promessi entro novembre 2026; intanto la quota premiale"],
+      ["2", "Referenti tecniche di sostituzione renale", ""], ["1", "Referente Patient Blood Management", ""],
+      ["1", "Referente accessi enterali (PEG)", ""], ["1", "Referente procedure analitiche (POCT)", ""], ["1", "Supporto metodologico ai percorsi assistenziali", ""]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 1.55 + i * 0.83;
+      card(s, M, y, 6.4, 0.72, i === 0 ? C.accent2 : C.background2);
+      s.addText(p[i][0], { x: M + 0.15, y, w: 0.8, h: 0.72, fontSize: 24, bold: true, color: i === 0 ? C.text2 : C.accent1, align: "center", valign: "middle", margin: 0, isTextBox: true });
+      s.addText([{ text: p[i][1], options: { bold: true, breakLine: !!p[i][2] } }, ...(p[i][2] ? [{ text: p[i][2], options: { fontSize: 11 } }] : [])],
+        { x: M + 1.05, y, w: 5.2, h: 0.72, fontSize: 14, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    await fotoTavolo(s, "incarichi-professionali", 7.45, 1.6, 5.25, TAVOLO);
+    card(s, 7.35, 5.45, 5.45, 1.1, C.text2);
+    s.addText("Più incarichi professionali? L'Azienda li valuterà nel 2027: è il prossimo terreno di trattativa.",
+      { x: 7.55, y: 5.47, w: 5.05, h: 1.05, fontSize: 15, bold: true, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Elenco dei nuovi incarichi professionali proiettato dall'Azienda. Bandi per i tutor entro novembre 2026: impegno scritto nell'accordo del 14/07/2026 (quota premiale tutor 30.000 € fino all'affidamento). Verificare se i bandi sono usciti.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
+    kicker(s, "I prossimi passi");
+    s.addText("Dalla mappa al regolamento", { placeholder: "title" });
+    const f = [["Mappa", true], ["Informativa ai sindacati", true], ["Delibera (DDG)", false], ["Fondo", false], ["Regolamento", false]];
+    for (let i = 0; i < f.length; i++) {
+      const x = M + i * 2.45;
+      s.addShape(pres.shapes.CHEVRON, { x, y: 1.9, w: 2.55, h: 1.25, fill: { color: f[i][1] ? HEX.accent3 : HEX.lt2 }, line: { color: HEX.accent3, width: 2 } });
+      s.addText(f[i][0], { x: x + 0.4, y: 1.9, w: 1.8, h: 1.25, fontSize: 15, bold: true, color: f[i][1] ? "FFFFFF" : HEX.accent3, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addText("FATTO", { x: M + 0.4, y: 3.25, w: 4.2, h: 0.35, fontSize: 12, bold: true, color: C.accent3, charSpacing: 3, align: "center", margin: 0, isTextBox: true });
+    const e = [["Copertura dei posti vacanti", "dopo la delibera: nell'area ADA circa metà degli incarichi è oggi scoperta"],
+      ["Nuovi incarichi professionali", "con il regolamento e il CCNL 2025-2027"],
+      ["Le nostre richieste", "bandi trasparenti, incarichi di base valorizzati, più incarichi professionali nelle medicine"]];
+    for (let i = 0; i < e.length; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 3.9, 3.85, 2.45, i === 2 ? C.accent2 : C.background2);
+      s.addText(e[i][0], { x: x + 0.25, y: 4.05, w: 3.4, h: 0.75, fontSize: 18, bold: true, color: C.text2, margin: 0, valign: "top", isTextBox: true });
+      s.addText(e[i][1], { x: x + 0.25, y: 4.8, w: 3.4, h: 1.4, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    s.addNotes("Schema «Sviluppi futuri» dell'Azienda: Mappa → Informativa OO.SS. (fatti) → DDG → Fondo → Regolamento, con il CCNL 2025-27 che entra a livello di fondo e regolamento; la DDG porta alla copertura dei posti vacanti, il regolamento alla proposta di nuovi incarichi professionali. Le «nostre richieste» sono una proposta da confermare con Achille.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S3 });
+    s.addText("Cosa cambia per te", { placeholder: "title" });
+    s.addText("Le quattro cose da portarsi a casa dal punto 3", { placeholder: "body" });
+    const cose = ["Coordinatori: +1.000 € l'anno, tutti e 106", "Più 500 € di quota premiale 2026 ai coordinatori", "Tutor didattici: bandi e nel frattempo la quota", "Dal 2027 più soldi per gli incarichi di base"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.9 + i * 1.4;
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 17, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+  }
+  slideDomande(S3, "Il sistema degli incarichi").addNotes("Spazio domande sul punto 3.");
+
+  // ------------------------------------------------ 8 · retention e benessere (blocco OSS di notte)
+  const S8 = "8 · Retention e benessere organizzativo";
+  pres.addSection({ title: S8 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S8 });
+    s.addText("08", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Retention e benessere", { placeholder: "title" });
+    s.addText("Restare in AOUP deve valere la pena. Si comincia dalle notti.", { placeholder: "body" });
+    card(s, 9.4, 1.4, 3.3, 4.6, "0B4D28");
+    s.addText([{ text: "63%", options: { fontSize: 66, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "delle aree di degenza ha un OSS di notte", options: { fontSize: 18, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "31 aree su 49", options: { fontSize: 14, color: "CFE9D8" } }],
+      { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "OSS di notte · l'analisi dell'Azienda");
+    s.addText("Dove c'è già un OSS di notte", { placeholder: "title" });
+    const a = ["Area medica", "Area chirurgica", "Area pediatrica", "Area ostetrica", "Terapie intensive"];
+    s.addChart(pres.charts.BAR, [{ name: "UO con OSS di notte", labels: a, values: [85, 42, 33, 50, 67] }], {
+      x: M, y: 1.5, w: 6.4, h: 4.6, barDir: "bar", chartColors: [HEX.accent1, HEX.accent3, HEX.accent3, HEX.accent1, HEX.accent1], invertedColors: [HEX.accent1],
+      showValue: true, dataLabelPosition: "outEnd", dataLabelFormatCode: '0"%"', dataLabelFontSize: 14, dataLabelColor: HEX.dk1, dataLabelFontFace: "+mn-lt",
+      catAxisLabelFontSize: 15, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true, valAxisMaxVal: 100,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, showTitle: false, barGapWidthPct: 50 });
+    s.addText("17 UO su 20 in medica · 5 su 12 in chirurgica · 2 su 6 in pediatria · 1 su 2 in ostetricia · 6 su 9 nelle intensive", { x: M, y: 6.2, w: 6.5, h: 0.5, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+    card(s, 7.3, 1.6, 2.6, 1.6, C.background2);
+    s.addText([{ text: "16", options: { fontSize: 40, bold: true, color: HEX.accent1, breakLine: true } }, { text: "aree con OSS di notte nuovo o aumentato dal 2020", options: { fontSize: 12 } }],
+      { x: 7.45, y: 1.65, w: 2.35, h: 1.5, color: HEX.dk1, valign: "middle", margin: 0, isTextBox: true });
+    card(s, 10.1, 1.6, 2.65, 1.6, "FFF1F2");
+    s.addText([{ text: "42%", options: { fontSize: 40, bold: true, color: HEX.accent3, breakLine: true } }, { text: "le chirurgie sono le più scoperte", options: { fontSize: 12 } }],
+      { x: 10.25, y: 1.65, w: 2.4, h: 1.5, color: HEX.dk1, valign: "middle", margin: 0, isTextBox: true });
+    await fotoTavolo(s, "oss-aree-degenza", 7.4, 3.5, 5.3, TAVOLO);
+    s.addNotes("Slide «Aree di degenza» dell'Azienda: 31 aree di degenza con OSS alla notte (63%); 16 aree dove l'OSS è stato neo-introdotto (12) o incrementato (4) dopo il 2020 (52%). Standard di riferimento della degenza ordinaria: 1 infermiere ogni 12-15 posti letto nelle 24 ore.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "Le chirurgie individuate");
+    s.addText("Dove un infermiere copre troppi letti", { placeholder: "title" });
+    const c = [["19", "letti per infermiere", "Chirurgia 7° piano Policlinico", "presenza del Pronto Soccorso h24"],
+      ["13,5", "letti per infermiere", "Chirurgia 6° piano Policlinico", "ricoveri urgenti h24"],
+      ["12,5", "letti per infermiere", "Neurochirurgia", "trasporti notturni verso la neuroradiologia, autogestiti"]];
+    for (let i = 0; i < c.length; i++) {
+      const y = 1.55 + i * 1.6;
+      card(s, M, y, 6.6, 1.4, i === 0 ? "FFF1F2" : C.background2);
+      s.addText(c[i][0], { x: M + 0.2, y: y + 0.1, w: 1.7, h: 0.8, fontSize: 40, bold: true, color: i === 0 ? C.accent3 : C.accent1, align: "center", margin: 0, isTextBox: true });
+      s.addText(c[i][1], { x: M + 0.2, y: y + 0.88, w: 1.7, h: 0.4, fontSize: 11, color: C.text1, align: "center", margin: 0, isTextBox: true });
+      s.addText([{ text: c[i][2], options: { bold: true, fontSize: 17, breakLine: true } }, { text: "nessun OSS di notte · " + c[i][3], options: { fontSize: 13 } }],
+        { x: M + 2.1, y: y + 0.1, w: 4.35, h: 1.2, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    card(s, M, 6.35, 6.6, 0.55, C.text2);
+    s.addText("Standard regionale della degenza: 1 infermiere ogni 12-15 letti nelle 24 ore", { x: M + 0.2, y: 6.35, w: 6.2, h: 0.55, fontSize: 13, bold: true, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true });
+    await fotoTavolo(s, "oss-area-chirurgica", 7.6, 1.6, 5.1, TAVOLO + " · area chirurgica adulti");
+    s.addNotes("Tabella «Area chirurgica adulti» dell'Azienda (rapporto infermiere:posti letto, OSS notte, note). Righe evidenziate dall'Azienda: 6° piano 13,50 (ricoveri urgenti H24), 7° piano 19,00 (presenza di PS H24), Neurochirurgia 12,50 (trasporti notturni verso neuro RX autogestiti). Nell'area medica è evidenziata l'Area degenza medica 8° piano Policlinico (18,00). Premessa: dichiarazione congiunta del 23/12/2025 → autorizzazione CRITE per assunzioni extra turn-over entro il tetto di spesa, per AOUP e Nuova Pediatria. Verificare la lettura delle righe sulla foto.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S8 });
+    kicker(s, "OSS di notte · cosa succede adesso", HEX.accent2);
+    s.addText("Più OSS di notte: tempi e regole", { placeholder: "title" });
+    const p = [["FaUserPlus", "Gradualmente", "l'Azienda si impegna ad aumentare gli OSS di notte nei reparti individuati"],
+      ["FaHourglassHalf", "Al ritmo delle assunzioni", "graduatoria AOUP esaurita, quelle di ULSS 6 e ULSS 3 quasi; a breve il concorso di Azienda Zero"],
+      ["FaBaby", "Nuova Pediatria", "OSS al PS pediatrico per la notte e una squadra trasporti interna alla Salus Pueri"]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 1.6 + i * 1.35;
+      await tondo(s, p[i][0], M, y, 0.8, HEX.accent1);
+      s.addText(p[i][1], { x: M + 1.0, y: y - 0.02, w: 6.4, h: 0.45, fontSize: 19, bold: true, color: HEX.accent2, margin: 0, isTextBox: true });
+      s.addText(p[i][2], { x: M + 1.0, y: y + 0.43, w: 6.4, h: 0.75, fontSize: 14, color: "FFFFFF", margin: 0, valign: "top", isTextBox: true });
+    }
+    card(s, M, 5.65, 7.4, 1.05, "3A0A10", { bordo: "E2001A" });
+    s.addText([{ text: "Per gli OSS già in reparto: ", options: { bold: true, color: HEX.accent2 } },
+      { text: "i turni passano da mattina-pomeriggio a mattina-pomeriggio-notte. Si raccolgono le preferenze e, se serve, si fa mobilità incrociata.", options: { color: "FFFFFF" } }],
+      { x: M + 0.2, y: 5.7, w: 7.0, h: 0.95, fontSize: 14, valign: "middle", margin: 0, isTextBox: true });
+    await fotoTavolo(s, "oss-notte-sviluppi", 8.45, 1.6, 4.25, TAVOLO, { scuro: true });
+    await fotoTavolo(s, "oss-nuova-pediatria", 8.45, 5.3, 4.25, "Nuova Pediatria", { scuro: true, maxH: 1.25, centra: 10.575 });
+    s.addNotes("Slide «Sviluppi» e «Azioni in atto – Nuova Pediatria» dell'Azienda. Punto da presidiare per il sindacato: il passaggio da due a tre turni per gli OSS già assegnati, con raccolta delle preferenze e mobilità incrociata.");
+  }
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
