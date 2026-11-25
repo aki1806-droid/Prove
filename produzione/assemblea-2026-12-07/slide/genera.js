@@ -162,6 +162,100 @@ function slideDomande(sez, titolo) {
   return s;
 }
 
+// ---------------------------------------------------------------- frontespizi
+// Ogni accordo si presenta prima con la sua prima pagina, quella delle firme.
+const FIRME = JSON.parse(fs.readFileSync(path.join(QUI, "firme.json"), "utf8"));
+const ACCORDI = {
+  "01": ["Integrazione progettualità anno 2025", "27 gennaio 2026", "Preintesa", [
+    "Quote ai trasferiti del 2025: 400 € al coordinatore, 300 o 200 € al personale",
+    "300 € ai tecnici di radiologia, 100 € all'area ambulatoriale",
+    "Trasporto neonatale 80 € a uscita, quota ai tutor didattici"]],
+  "03": ["Dichiarazione congiunta · Nuova Pediatria", "10 febbraio 2026", "Dichiarazione congiunta", [
+    "Nuove équipe per il Pronto Soccorso e le degenze del nuovo ospedale pediatrico",
+    "Criteri: preferenza, anzianità, prescrizioni, part time, competenze",
+    "Chi è stato assegnato d'ufficio ha priorità per lo spostamento, possibilmente entro il 2026"]],
+  "04": ["Risorse fondi contrattuali · Progettualità 2026", "15 aprile 2026", "Preintesa", [
+    "4.286.894 € di conguaglio della premialità 2025",
+    "1.040.000 € + 300.000 € di progetti: Hub, gettoni, H24, tecnici e amministrativi",
+    "Ferie estive: tre settimane garantite"]],
+  "08": ["Regolamento progressioni tra aree", "14 luglio 2026", "Regolamento", [
+    "20 posti per passare all'area superiore",
+    "Prove 60 punti, titoli 40",
+    "Requisiti in deroga fino al 31 dicembre 2026"]],
+  "09": ["Progettualità 2026 · integrazione", "14 luglio 2026", "Preintesa", [
+    "432.674 € in più dai residui 2025",
+    "500 € ai coordinatori, 300 € al personale tecnico sanitario",
+    "Radiologia in PS da 4 a 7 € al giorno, +0,50 €/h sui turni del ruolo tecnico"]],
+  "10": ["Legge regionale 26/2024 · risorse 2026", "14 luglio 2026", "Preintesa", [
+    "Notte +0,50 €/h, pronta disponibilità 27,60 € a turno",
+    "Aree complesse fino a 650 € l'anno",
+    "Welfare da 350 € anche ai ruoli professionale, tecnico e amministrativo"]],
+  "12": ["Rapporto di lavoro a tempo parziale · 2026", "8 settembre 2026", "Accordo", [
+    "135 posti a part time per quattro anni",
+    "Bando entro fine 2026, graduatorie entro marzo 2027",
+    "Impegno: circa 20 posti in più ogni anno"]],
+  "13": ["Regolamento lavoro agile", "25 settembre 2026", "Regolamento", [
+    "Fino a 8 giornate al mese, di norma due a settimana",
+    "Contattabilità 9-13 e 14-17, disconnessione dalle 20 alle 8",
+    "Deroghe per fragilità e tutele di legge"]],
+  "18": ["Preintesa DEP · anno 2025", "10 dicembre 2025", "Preintesa", [
+    "820.000 € per i differenziali economici di professionalità",
+    "Si partecipa d'ufficio: 60 punti valutazione, 40 esperienza",
+    "10% riservato a chi aspetta da 10 o 20 anni"]],
+  "19": ["Dichiarazione congiunta", "23 dicembre 2025", "Dichiarazione congiunta", [
+    "Tre tavoli permanenti: personale, riorganizzazioni, benessere",
+    "OSS nel turno di notte delle Chirurgie in 12-18 mesi",
+    "Pasto nei turni di notte e festivi, job description"]],
+};
+
+async function frontespizio(n, sezione) {
+  const [titolo, data, tipo, cosa] = ACCORDI[n];
+  const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: sezione });
+  kicker(s, "L'accordo · " + tipo + " · " + data);
+  s.addText(titolo, { x: M, y: 0.45, w: 7.4, h: 1.2, fontSize: 30, bold: true, color: C.text2, valign: "top", fontFace: THEME.headFontFace,
+    margin: 0, isTextBox: true, objectName: "titolo-accordo" });
+  // la pagina vera, a destra
+  const file = path.join(QUI, "schermate", "front-" + n + ".png");
+  const d = await dimensioni(file);
+  const ph = 6.45, pw = ph * d.w / d.h, px = W - M - pw + 0.1, py = 0.3;
+  s.addShape(pres.shapes.RECTANGLE, { x: px - 0.06, y: py - 0.06, w: pw + 0.12, h: ph + 0.12,
+    fill: { color: "FFFFFF" }, line: { color: "D9EADD", width: 1 },
+    shadow: { type: "outer", color: "06381F", opacity: 0.25, blur: 16, offset: 5, angle: 90 }, objectName: "frontespizio-cornice" });
+  s.addImage({ path: file, x: px, y: py, w: pw, h: ph, altText: "Frontespizio con le firme: " + titolo + ", " + data,
+    objectName: "frontespizio" });
+  s.addText("FIRMATO", { x: px + pw - 2.3, y: py + ph * 0.665, w: 2.1, h: 0.62, fontSize: 24, bold: true,
+    color: C.accent3, align: "center", valign: "middle", rotate: -12, margin: 0, isTextBox: true,
+    line: { color: HEX.accent3, width: 3 }, objectName: "timbro" });
+  // chi ha firmato
+  s.addText("FIRME SUL DOCUMENTO", { x: M, y: 1.85, w: 7, h: 0.3, fontSize: 12, bold: true, color: C.accent1,
+    charSpacing: 3, margin: 0, isTextBox: true });
+  const parti = [["Azienda", "sì"], ["RSU", FIRME[n]["RSU"]], ["CISL FP", FIRME[n]["CISL FP"]], ["FIALS", FIRME[n]["FIALS"]],
+    ["Nursing Up", FIRME[n]["NURSING UP"]], ["Nursind", FIRME[n]["NURSIND"]]];
+  for (let i = 0; i < parti.length; i++) {
+    const x = M + (i % 3) * 2.45, y = 2.25 + Math.floor(i / 3) * 0.72;
+    const firmato = !!parti[i][1], cisl = parti[i][0] === "CISL FP";
+    card(s, x, y, 2.3, 0.58, cisl ? C.accent2 : (firmato ? C.background2 : "F3F3F3"));
+    s.addText([{ text: firmato ? "✔  " : "–  ", options: { color: firmato ? HEX.accent1 : "9AA5A0", bold: true } },
+      { text: parti[i][0], options: { bold: true, color: firmato ? HEX.dk2 : "8A948F" } }],
+      { x: x + 0.18, y, w: 2.0, h: 0.58, fontSize: 15, valign: "middle", margin: 0, isTextBox: true });
+  }
+  s.addText("COSA CONTIENE", { x: M, y: 3.75, w: 7, h: 0.3, fontSize: 12, bold: true, color: C.accent1,
+    charSpacing: 3, margin: 0, isTextBox: true });
+  for (let i = 0; i < cosa.length; i++) {
+    const y = 4.15 + i * 0.78;
+    s.addShape(pres.shapes.OVAL, { x: M, y: y + 0.06, w: 0.42, h: 0.42, fill: { color: HEX.dk2 }, line: { type: "none" } });
+    s.addText(String(i + 1), { x: M, y: y + 0.06, w: 0.42, h: 0.42, fontSize: 14, bold: true, color: C.accent2,
+      align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addText(cosa[i], { x: M + 0.6, y, w: 6.8, h: 0.6, fontSize: 16, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+  }
+  if (tipo === "Preintesa")
+    s.addText("Una preintesa diventa efficace con il parere favorevole del Collegio sindacale.",
+      { x: M, y: 6.55, w: 7.4, h: 0.3, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+  s.addNotes(`Frontespizio: ${titolo}, ${tipo.toLowerCase()} del ${data}. Firme sul documento: ` +
+    parti.map(p => p[0] + (p[1] ? (p[1] === "sì" ? " sì" : " sì (" + p[1] + ")") : " no")).join(", ") + ".");
+  return s;
+}
+
 // ================================================================ SLIDE
 (async () => {
   // ------------------------------------------------ apertura
@@ -278,6 +372,7 @@ function slideDomande(sez, titolo) {
       { x: M, y: 6.25, w: W - 2 * M, h: 0.5, fontSize: 16, italic: true, color: "CFE9D8", margin: 0, isTextBox: true });
     s.addNotes("Fondi 2025 compresi gli incrementi del CCNL 2022-2024 (allegato 1 dell'accordo del 15/04/2026): 15.545.763 € e 19.648.456 €. La L.R. 26/2024 aggiunge 3.148.566 € (DGRV 1010/2025).");
   }
+  await frontespizio("04", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Premialità 2025 · pagata a novembre");
@@ -295,6 +390,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "progettualita-1mln", 6.5, 4.25, 6.2, null);
     s.addNotes("Il conguaglio è arrivato con lo stipendio di novembre. Le quote medie per area sono nella mail del 18/11 (es. ADA ex C 840 € medi a conguaglio).");
   }
+  await frontespizio("18", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Differenziali economici di professionalità · accordo 10/12/2025");
@@ -332,6 +428,7 @@ function slideDomande(sez, titolo) {
       { x: 8.45, y: 4.1, w: 4.0, h: 1.8, margin: 0, valign: "middle", color: C.text1, isTextBox: true });
     s.addNotes("Messaggio: nessuno resta indietro per sempre. Chi è fermo da 10 o 20 anni ha una corsia dedicata.");
   }
+  await frontespizio("09", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Progettualità 2026 · accordi del 15/04 e del 14/07");
@@ -425,6 +522,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "ferie-3settimane", M + 0.08, 4.75, W - 2 * M - 0.16, "Accordo progettualità 2026 · 15/04/2026 · pag. 7", { scuro: true, maxH: 1.75, centra: W / 2 });
     s.addNotes("Le ferie si contano in giorni lavorativi, senza festivi e riposi compensativi (parere ARAN).");
   }
+  await frontespizio("01", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Quote premiali 2026 · chi prende cosa");
@@ -451,6 +549,7 @@ function slideDomande(sez, titolo) {
     }
     s.addNotes("Tutte le quote annuali sono proporzionate alla presenza: 100% sopra il 60% dei giorni, 70% tra 40 e 60, 40% tra 20 e 40, nulla sotto il 20%. Coordinatori e tecnici sanitari: accordo 14/07/2026. In rosso le due novità di luglio.");
   }
+  await frontespizio("10", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Legge regionale 26/2024 · preintesa 14/07/2026");
@@ -469,6 +568,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "lr26-aree", 8.25, 3.4, 4.45, "pag. 7", { maxH: 3.0, centra: 10.475 });
     s.addNotes("Solo ruoli sanitario e sociosanitario. Previsione 2026: circa 570.000 € turni, circa 1.030.000 € aree complesse, in attesa dell'assegnazione regionale definitiva. Ruolo tecnico: +0,50 €/h su notte e pronta disponibilità con l'integrazione del 14/07 (45.000 €).");
   }
+  await frontespizio("08", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Progressioni tra aree · regolamento 14/07/2026");
@@ -485,6 +585,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "progressioni-20posti", 6.3, 1.6, 6.4, "Regolamento progressioni tra aree · 14/07/2026 · pag. 15", { maxH: 4.9 });
     s.addNotes("Requisiti in prima applicazione: titolo dell'area superiore + 5 anni nel profilo, oppure titolo dell'area di appartenenza + 10 anni. Chi vince è esonerato dal periodo di prova. Collegamento con La Consegna n. 2 (8 dicembre).");
   }
+  await frontespizio("12", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Part time · accordo 08/09/2026");
@@ -504,6 +605,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "parttime-bando", 6.2, 4.0, 6.4, "Accordo part time · 08/09/2026 · pag. 4");
     s.addNotes("Possono partecipare i dipendenti a tempo indeterminato con almeno un anno nel SSN, anche chi ha un part time in scadenza entro il 30/4/2028. Chi ha un incarico di media o elevata complessità deve rinunciarvi se vince. Collegamento con La Consegna n. 3 (15 dicembre).");
   }
+  await frontespizio("13", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Lavoro agile · regolamento 25/09/2026");
@@ -523,6 +625,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "agile-disconnessione", 6.85, 4.25, 5.85, null);
     s.addNotes("Il lavoro agile parte da un progetto della struttura: il dirigente raccoglie le domande e seleziona. Priorità a genitori di figli fino a 12 anni, disabilità, caregiver.");
   }
+  await frontespizio("19", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Dichiarazione congiunta · 23/12/2025");
@@ -546,6 +649,7 @@ function slideDomande(sez, titolo) {
     await foglio(s, "pasto-notte", 7.9, 3.45, 4.8, "pag. 4", { maxH: 2.9 });
     s.addNotes("La dichiarazione del 23/12/2025 è la base di quello che è arrivato a novembre: sperimentazione OSS H24 nelle Chirurgie. Collegamenti con i punti 7 (andamenti occupazionali) e 8 (retention e benessere). Pediatria: chi è stato assegnato d'ufficio alla nuova Pediatria ha la promessa di spostamento, auspicabilmente entro il 2026 (dichiarazione 10/02/2026).");
   }
+  await frontespizio("03", S2);
   {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S2 });
     s.addText("Cosa cambia per te", { placeholder: "title" });

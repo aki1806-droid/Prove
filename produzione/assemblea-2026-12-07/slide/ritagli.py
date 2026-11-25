@@ -92,6 +92,12 @@ RITAGLI = {
                              ["strumentazioni tecnologiche e piattaforme informatiche, che opera dalle 20:00 alle 08:00"], None),
 }
 
+# Frontespizi: la prima pagina intera di ogni accordo, con le firme e la
+# CISL FP evidenziata.
+for _f in sorted(os.listdir(os.path.join(DOC, "decentrati"))):
+    if _f.endswith(".pdf"):
+        RITAGLI["front-" + _f[:2]] = ("decentrati/" + _f, 1, ["CISL FP:"], (0, 2000))
+
 
 def trova(pagina, frase):
     """Rettangoli (in punti PDF) delle righe che compongono la frase."""

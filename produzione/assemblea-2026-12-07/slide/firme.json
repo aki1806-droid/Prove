@@ -1,0 +1,72 @@
+{
+ "01": {
+  "RSU": "s\u00ec",
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "03": {
+  "RSU": false,
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "04": {
+  "RSU": "05/05/2026",
+  "CISL FP": "s\u00ec",
+  "FIALS": "21/4/26",
+  "NURSING UP": "28/4/26",
+  "NURSIND": "s\u00ec"
+ },
+ "08": {
+  "RSU": false,
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "09": {
+  "RSU": false,
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "10": {
+  "RSU": false,
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "12": {
+  "RSU": false,
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "13": {
+  "RSU": false,
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "18": {
+  "RSU": "s\u00ec",
+  "CISL FP": "s\u00ec",
+  "FIALS": false,
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ },
+ "19": {
+  "RSU": "s\u00ec",
+  "CISL FP": "s\u00ec",
+  "FIALS": "s\u00ec",
+  "NURSING UP": "s\u00ec",
+  "NURSIND": "s\u00ec"
+ }
+}
