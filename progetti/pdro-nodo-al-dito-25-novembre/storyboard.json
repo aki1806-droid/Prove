@@ -1,0 +1,138 @@
+{
+  "progetto": "25 novembre 2026 · CISL FP Padova Rovigo",
+  "video": "Un nodo al dito",
+  "durata_s": 76,
+  "formati": [
+    "16:9",
+    "9:16"
+  ],
+  "fps": 25,
+  "risoluzione": {
+    "16:9": "1920x1080",
+    "9:16": "1080x1920"
+  },
+  "voce": "Voce narrante maschile italiana, profonda e calda, timbro baritonale da grande doppiatore; ritmo lento, pause lunghe tra le frasi, tono intimo e mai enfatico (circa 2 parole al secondo).",
+  "musica": "Pianoforte solo, poche note, molto spazio; violoncello leggero che entra a 47 s e accompagna fino alla fine. Volume −20 dB sotto la voce, −10 dB senza voce.",
+  "scene": [
+    {
+      "n": 1,
+      "inizio_s": 0,
+      "fine_s": 7,
+      "asset": "clips/c03_filo_dito_9x16.mp4",
+      "regia": "Apertura nel silenzio: la mano con il filo rosso annodato. In 16:9 la clip verticale è centrata su prugna con bordi sfumati.",
+      "testo_a_schermo": "25 NOVEMBRE",
+      "voce_fuori_campo": "Oggi, in tante città, qualcuno si è fatto un nodo al dito.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 2,
+      "inizio_s": 7,
+      "fine_s": 12,
+      "asset": "cards/01_titolo_[formato].png",
+      "regia": "Titolo. Solo pianoforte, nessuna voce: lasciare respirare.",
+      "testo_a_schermo": "Un nodo al dito.",
+      "voce_fuori_campo": "",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 3,
+      "inizio_s": 12,
+      "fine_s": 19,
+      "asset": "images/g07_il_silenzio.jpg",
+      "regia": "Ken Burns lentissimo verso il volto.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Un nodo serve a ricordare. I nomi. I volti. Le donne che non ci sono più.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 4,
+      "inizio_s": 19,
+      "fine_s": 26,
+      "asset": "images/foto_nodo_al_dito.jpg + cards/02_non_solo_ieri_[formato].png (trasparente, sovrapposto)",
+      "regia": "Lento zoom sul nodo; il cartello trasparente entra a 21 s.",
+      "testo_a_schermo": "Non serve solo a ricordare ieri.",
+      "voce_fuori_campo": "Ma un nodo al dito non serve solo a ricordare ieri. Serve a non distrarsi domani.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 5,
+      "inizio_s": 26,
+      "fine_s": 33,
+      "asset": "images/g02_l_isolamento.jpg",
+      "regia": "Ken Burns lento, leggero spostamento laterale.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Domani, quando una collega arriverà al turno con gli occhi bassi.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 6,
+      "inizio_s": 33,
+      "fine_s": 39,
+      "asset": "images/g08_la_paura.jpg",
+      "regia": "Ken Burns lento.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Quando un’amica smetterà di uscire, e ti dirà che va tutto bene.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 7,
+      "inizio_s": 39,
+      "fine_s": 47,
+      "asset": "images/g01_il_controllo.jpg → images/g03_le_parole_che_feriscono.jpg",
+      "regia": "Due opere in dissolvenza lenta (cambio a 43 s); il filo rosso animato passa da una all’altra.",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "La violenza raramente fa rumore. Comincia con un controllo, con una parola che ferisce, con un silenzio che si allarga.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 8,
+      "inizio_s": 47,
+      "fine_s": 52,
+      "asset": "cards/03_non_finisce_stasera_[formato].png",
+      "regia": "Cartello. Pausa della musica di mezzo secondo prima della frase.",
+      "testo_a_schermo": "Il 25 novembre non finisce stasera.",
+      "voce_fuori_campo": "Per questo il 25 novembre non finisce stasera.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 9,
+      "inizio_s": 52,
+      "fine_s": 59,
+      "asset": "clips/c04_donne_filo_16x9.mp4 + cards/04_ascoltala_[formato].png (trasparente, sovrapposto)",
+      "regia": "Le donne unite dal filo; in 9:16 ritaglio centrale. Il cartello entra a 54 s.",
+      "testo_a_schermo": "Ascoltala. Credile. Restale accanto.",
+      "voce_fuori_campo": "Ascoltala. Credile. Restale accanto.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 10,
+      "inizio_s": 59,
+      "fine_s": 66,
+      "asset": "images/foto_donna_cuore_hd.jpg → cards/05_non_sei_sola_1522_[formato].png",
+      "regia": "La donna con la mano sul cuore (Ken Burns lento), poi a 63 s dissolvenza sul cartello 1522.",
+      "testo_a_schermo": "Non sei sola. 1522",
+      "voce_fuori_campo": "E se quella donna sei tu: non sei sola. Il 1522 risponde, gratis, giorno e notte.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 11,
+      "inizio_s": 66,
+      "fine_s": 72,
+      "asset": "images/g11_le_altre.jpg",
+      "regia": "Il cuore tenuto dai fili: Ken Burns lentissimo all’indietro (108→100%).",
+      "testo_a_schermo": "",
+      "voce_fuori_campo": "Facciamoci un nodo al dito. Tutti. Ogni giorno.",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    },
+    {
+      "n": 12,
+      "inizio_s": 72,
+      "fine_s": 76,
+      "asset": "cards/06_chiusura_[formato].png",
+      "regia": "Chiusura: logo e 1522, musica che si spegne.",
+      "testo_a_schermo": "Facciamoci un nodo al dito. Tutti. Ogni giorno.",
+      "voce_fuori_campo": "",
+      "animazione_testo": "Testo: dissolvenza dal basso +12 px, 0,6 s, ease-out; uscita dissolvenza 0,4 s."
+    }
+  ]
+}
