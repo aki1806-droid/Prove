@@ -20,3 +20,9 @@ nessun avatar. Le cartelle del pacchetto restano in V9_SENTIRSI_PER_SENTIRE_IL_R
 - Musica: eleven_music_v2 nCyhhOjpi0HStdJtFkCZ, 250 s, pianoforte solo, violoncello da 2:12; −10 dB senza voce, −20 dB
   sotto la voce, quasi a zero sul cartello «Capitolo terzo»; uscita a −16 LUFS.
 - TESTO_POST.md scritto da Claude, provinciale, con il 1522 e i delegati dei tre territori: da far rivedere ad Achille.
+
+## Uscite (25/11/2026)
+- 16:9 1920x1080 e 9:16 1080x1920, 249,5 s, 25 fps, −16,1 LUFS. Copie d'invio da 28 MB mandate in chat.
+- Asset HeyGen (account 1): 16:9 https://resource2.heygen.ai/video/5445019568a24ff3b00dad84a6de909c/original.mp4 ·
+  9:16 https://resource2.heygen.ai/video/ed4436ba2ed14d7f8c8371b795fc1dea/original.mp4
+- Robin: in attesa dell'OK di Achille.
