@@ -45,6 +45,8 @@ def still(src, velo=0.0):
 def seg(name, d, src, z0=1.0, z1=1.08, dx=0.0, sopra=None):
     """Ken Burns lentissimo (zoom z0→z1, deriva laterale dx) su un'immagine 2x, con un'eventuale PNG trasparente sopra"""
     n = int(round(d * FPS)); o = f'{OUT}/{name}.mp4'
+    if os.path.exists(o):   # già fatto: per rifarlo si cancella il segmento
+        return o
     ch = (f"[0:v]zoompan=z='{z0}+({z1}-{z0})*on/{n}':x='(iw-iw/zoom)/2+{dx}*iw*on/{n}':y='(ih-ih/zoom)/2':d={n}:s={W}x{H}:fps={FPS},setsar=1")
     ins = ['-loop', '1', '-i', src]
     if sopra:
@@ -62,7 +64,7 @@ for i, s in enumerate(sc):
     if s['tipo'] == 'card':
         parts.append(seg(nm, d, f'{P}/{a}', 1.0, 1.02))   # cartelli: respiro appena percettibile
     elif s['tipo'] == 'overlay':
-        parts.append(seg(nm, d, still(f'{P}/foto/18_sedia_testo.jpg', 0.55), 1.08, 1.12, sopra=f'{P}/cards/q_posto_vuoto_{F}.png'))
+        parts.append(seg(nm, d, still(f'{P}/foto/18_sedia_testo.jpg', 0.70), 1.08, 1.12, sopra=f'{P}/cards/q_posto_vuoto_{F}.png'))
     elif s['tipo'] == 'foto_out':
         parts.append(seg(nm, d, still(f'{P}/{a}'), 1.08, 1.0))
     else:

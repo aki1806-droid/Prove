@@ -13,7 +13,7 @@ nessun avatar. Le cartelle del pacchetto restano in V9_SENTIRSI_PER_SENTIRE_IL_R
 - HyperFrames compose non è disponibile da Claude Code: montaggio locale con ffmpeg sullo storyboard, tempi al decimo,
   dissolvenze di 0,7 s, apertura e chiusura dal/al nero.
 - Foto: Ken Burns 100→108% (scena 34 al contrario); verticali in 16:9 intere su fondo sfocato e scurito, in 9:16 tutto
-  riempie con taglio al centro. Scena 23: velo scuro al 55% e cartello trasparente q_posto_vuoto.
+  riempie con taglio al centro. Scena 23: velo scuro al 70% (55% del pacchetto troppo poco sul foglio bianco) e cartello trasparente q_posto_vuoto.
 - Scritte sulle foto: «24 NOVEMBRE 2026 · PADOVA» (Work Sans Bold) nella scena 3 e «Quanto ci ascoltiamo davvero?»
   (Instrument Serif) nella scena 13. Sottotitoli dallo srt (Lora, avorio su fascia prugna) ridistribuiti sui tempi veri
   della voce; tolti dove il cartello dice già la stessa frase (scene 23, 35, 36, 38).
