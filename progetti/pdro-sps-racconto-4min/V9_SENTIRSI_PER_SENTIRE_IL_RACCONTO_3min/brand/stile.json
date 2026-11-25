@@ -1,0 +1,22 @@
+{
+  "palette": {
+    "prugna": "#26182A",
+    "avorio": "#F4EDE2",
+    "rosso_filo": "#B21E2C",
+    "rosa": "#D6A098",
+    "lilla": "#CDBBC9"
+  },
+  "font": {
+    "titoli": "Instrument Serif (Regular/Italic)",
+    "testi": "Lora",
+    "etichette": "Work Sans Bold, maiuscolo spaziato"
+  },
+  "regole": [
+    "Testi a schermo brevi, mai più di 7 parole per riga",
+    "Il rosso si usa SOLO per il filo e per le parole-chiave",
+    "Transizioni: dissolvenze incrociate lente (12-18 frame) o tagli sul battito del pianoforte; niente effetti flash o glitch",
+    "Movimento sulle immagini fisse: Ken Burns lentissimo (scala 100→108% in 4 s)",
+    "Nessuna immagine di violenza esplicita: la violenza si evoca, non si mostra",
+    "Ultimo fotogramma sempre: cartello prenotazione con QR per almeno 3 s"
+  ]
+}
