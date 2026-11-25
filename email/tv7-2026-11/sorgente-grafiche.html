@@ -1,0 +1,154 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,700;1,900&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#777;font-family:'Poppins',sans-serif}
+.g{width:1200px;position:relative;overflow:hidden;margin-bottom:40px}
+.anton{font-family:'Anton',sans-serif;text-transform:uppercase}
+.stripes{position:absolute;inset:0;background:repeating-linear-gradient(135deg,rgba(255,255,255,.03) 0 22px,transparent 22px 44px)}
+.kick{font-size:22px;font-weight:800;letter-spacing:6px;text-transform:uppercase}
+.ttl{font-size:62px;font-weight:900;line-height:1.08;margin-top:6px}
+.bar{width:120px;height:10px;border-radius:10px;background:#ffd60a;margin-top:18px}
+
+/* HERO */
+#hero{background:radial-gradient(circle at 80% 10%,#13994d 0%,#075029 40%,#021a0b 100%);padding:54px 70px 64px}
+#hero .top{display:flex;justify-content:space-between;align-items:center;position:relative}
+#hero .logo{background:#fff;border-radius:18px;padding:14px 20px}
+#hero .logo img{height:60px;display:block}
+.onair{display:flex;align-items:center;gap:14px;background:#e2001a;color:#fff;font-weight:800;font-size:21px;letter-spacing:3px;padding:14px 26px;border-radius:60px;box-shadow:0 10px 30px rgba(226,0,26,.45)}
+.onair i{width:16px;height:16px;border-radius:50%;background:#fff;box-shadow:0 0 0 6px rgba(255,255,255,.3)}
+#hero .pre{position:relative;margin-top:54px;color:#9be15d;font-weight:800;font-size:24px;letter-spacing:5px}
+#hero h1{position:relative;font-size:124px;line-height:1.02;margin-top:14px;color:#fff}
+#hero h1 span{color:#ffd60a}
+#hero .who{position:relative;margin-top:22px;font-size:30px;color:#d7f0de;font-weight:500}
+#hero .who b{color:#fff;font-weight:800}
+.tv{position:relative;margin-top:46px;border-radius:30px;overflow:hidden;border:10px solid #0a0a0a;box-shadow:0 30px 70px rgba(0,0,0,.55),0 0 0 3px rgba(255,214,10,.6)}
+.tv img{display:block;width:100%;height:auto;filter:saturate(1.05)}
+.tv .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.78) 100%)}
+.play{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:150px;height:150px;border-radius:50%;background:#e2001a;display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 16px rgba(226,0,26,.3),0 20px 40px rgba(0,0,0,.5)}
+.play:after{content:'';margin-left:12px;border-left:52px solid #fff;border-top:32px solid transparent;border-bottom:32px solid transparent}
+.tv .cap{position:absolute;left:36px;right:36px;bottom:28px;display:flex;justify-content:space-between;align-items:flex-end;color:#fff}
+.tv .cap .t{font-weight:900;font-size:34px;line-height:1.15;max-width:760px}
+.tv .cap .d{background:#ffd60a;color:#06381f;font-weight:900;font-size:22px;padding:12px 20px;border-radius:14px;letter-spacing:1px;white-space:nowrap}
+
+/* QUOTE */
+#quote{background:#fffbe0;padding:70px 80px 70px}
+#quote .mark{font-family:'Playfair Display';font-style:italic;font-weight:900;font-size:300px;line-height:.6;color:#ffd60a;position:absolute;left:66px;top:96px}
+#quote .q{position:relative;font-family:'Anton';text-transform:uppercase;font-size:112px;line-height:1.04;color:#06381f;margin-top:110px}
+#quote .q span{color:#e2001a}
+#quote .sig{position:relative;display:flex;align-items:center;gap:22px;margin-top:40px}
+#quote .sig .line{width:80px;height:6px;background:#06381f;border-radius:6px}
+#quote .sig div b{display:block;font-size:30px;font-weight:900;color:#06381f}
+#quote .sig div small{font-size:22px;color:#5c5a3d;font-weight:600}
+
+/* NUMERI */
+#num{background:#0b1f14;padding:62px 56px 64px}
+#num .ttl{color:#fff}
+#num .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:44px}
+.t{border-radius:28px;padding:32px 28px 30px;background:#13301f;border:2px solid #1f4a31;position:relative;overflow:hidden}
+.t .big{font-family:'Anton';font-size:92px;line-height:1;color:#ffd60a}
+.t .big small{font-size:46px}
+.t .lab{font-size:22px;line-height:1.4;color:#d7f0de;margin-top:14px;font-weight:500}
+.t .lab b{color:#fff;font-weight:800}
+.t.red{background:#e2001a;border-color:#ff4d5e}.t.red .big{color:#fff}.t.red .lab{color:#ffe3e6}
+.t.yel{background:#ffd60a;border-color:#ffe766}.t.yel .big{color:#06381f}.t.yel .lab{color:#3d3300}.t.yel .lab b{color:#06381f}
+.vs{display:flex;align-items:baseline;gap:14px}
+.vs .eu{font-family:'Anton';font-size:46px;color:#9be15d}
+#num .src{color:#7fa08c;font-size:18px;margin-top:26px;font-weight:600}
+
+/* VOCE */
+#voce{background:#fff;padding:62px 56px 66px}
+#voce .ttl{color:#06381f}
+.qc{margin-top:26px;border-radius:30px;padding:36px 44px 36px 130px;position:relative;background:#f2f8f3}
+.qc:before{content:'“';position:absolute;left:30px;top:6px;font-family:'Playfair Display';font-style:italic;font-weight:900;font-size:170px;color:#00843d;line-height:1}
+.qc p{font-size:31px;line-height:1.42;color:#1d2b23;font-weight:600}
+.qc p b{color:#00703c;font-weight:900}
+.qc.r{background:#fff1f2}.qc.r:before{color:#e2001a}.qc.r p b{color:#c20016}
+.qc.y{background:#fffbe0}.qc.y:before{color:#e0a800}.qc.y p b{color:#8a5a00}
+#voce .who{margin-top:30px;font-size:22px;color:#5b6b62;font-weight:700;letter-spacing:2px;text-transform:uppercase}
+
+/* SERVE */
+#serve{background:linear-gradient(160deg,#0e7a40 0%,#075029 50%,#03240f 100%);padding:62px 60px 66px}
+#serve .ttl{color:#fff}
+.it{display:flex;gap:28px;align-items:flex-start;margin-top:30px;position:relative}
+.it .n{flex:none;width:88px;height:88px;border-radius:50%;background:#ffd60a;color:#06381f;font-family:'Anton';font-size:52px;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 26px rgba(0,0,0,.3)}
+.it h3{font-size:36px;font-weight:900;color:#fff;line-height:1.15;margin-top:6px}
+.it p{font-size:24px;line-height:1.45;color:#cfe9d8;margin-top:6px}
+
+/* TG */
+#tg{background:#f2f8f3;padding:56px 56px 60px}
+#tg .row{display:flex;gap:34px;align-items:center;margin-top:30px}
+#tg .vid{flex:none;width:560px;border-radius:26px;overflow:hidden;position:relative;box-shadow:0 20px 44px rgba(6,56,31,.25)}
+#tg .vid img{display:block;width:100%}
+#tg .vid .play{width:110px;height:110px;top:50%}
+#tg .vid .play:after{border-left-width:38px;border-top-width:23px;border-bottom-width:23px;margin-left:9px}
+#tg .txt .tag{display:inline-block;background:#e2001a;color:#fff;font-weight:800;font-size:18px;letter-spacing:3px;padding:8px 16px;border-radius:30px}
+#tg .txt h3{font-size:44px;line-height:1.1;font-weight:900;color:#06381f;margin-top:16px}
+#tg .txt p{font-size:23px;line-height:1.45;color:#3a4a41;margin-top:14px}
+
+/* CHIUSURA */
+#fine{background:linear-gradient(160deg,#e2001a 0%,#a3000f 100%);padding:70px 70px}
+#fine .big{position:relative;font-family:'Anton';text-transform:uppercase;font-size:112px;line-height:1.08;color:#fff}
+#fine .big span{color:#ffd60a}
+#fine p{position:relative;font-size:30px;line-height:1.45;color:#ffe3e6;margin-top:26px;max-width:900px;font-weight:500}
+#fine p b{color:#fff;font-weight:800}
+</style></head><body>
+
+<div class="g" id="hero"><div class="stripes"></div>
+ <div class="top"><div class="logo"><img src="https://uploads.sendfox.com/media/faTW0Qjt84APeB7o3zoPGVVQqsDoPdsaYJwOsJMq174317"></div><div class="onair"><i></i>LA NOSTRA VOCE IN TV</div></div>
+ <div class="pre">TV7 MATCH · 20 NOVEMBRE 2026</div>
+ <h1 class="anton">Non siamo missionari.<br><span>Siamo professionisti.</span></h1>
+ <div class="who">In studio per la CISL FP <b>Achille Pagliaro</b>, infermiere dell'Azienda Ospedale-Università di Padova.</div>
+ <div class="tv"><img src="./yt-maxresdefault.jpg"><div class="shade"></div><div class="play"></div>
+  <div class="cap"><div class="t">Sanità pubblica in sciopero:<br>la crisi annunciata</div><div class="d">▶ GUARDA LA PUNTATA</div></div></div>
+</div>
+
+<div class="g" id="quote"><div class="mark">“</div>
+ <div class="q">Il servizio sanitario<br>si regge solo sul<br><span>buon senso di chi<br>ci lavora.</span></div>
+ <div class="sig"><span class="line"></span><div><b>Achille Pagliaro</b><small>Infermiere AOUP · CISL FP Padova Rovigo</small></div></div>
+</div>
+
+<div class="g" id="num">
+ <div class="kick" style="color:#ffd60a">I numeri della crisi</div><div class="ttl">Emersi in puntata</div><div class="bar"></div>
+ <div class="grid">
+  <div class="t"><div class="vs"><div class="big">6,9</div><div class="eu">vs 8,4</div></div><div class="lab"><b>infermieri ogni 1.000 abitanti</b> in Italia, contro la media europea</div></div>
+  <div class="t red"><div class="big">-20%</div><div class="lab"><b>iscritti a Infermieristica</b> in Veneto rispetto al fabbisogno</div></div>
+  <div class="t"><div class="big">2026</div><div class="lab">l'anno <b>«bomba»</b> dei pensionamenti, senza ricambio</div></div>
+  <div class="t yel"><div class="big">300<small> ore</small></div><div class="lab"><b>di straordinario non pagato</b> all'anno per ogni medico del SSN</div></div>
+  <div class="t"><div class="vs"><div class="big">2,4</div><div class="eu">mld</div></div><div class="lab">stanziati per la sanità. Ne servivano <b>5,5 secondo il Ministro</b>, 6,8 per le Regioni</div></div>
+  <div class="t red"><div class="big">5,8<small> mln</small></div><div class="lab">di italiani <b>hanno rinunciato a curarsi</b> nel 2024</div></div>
+ </div>
+ <div class="src">Dati citati durante la puntata di Tv7 Match del 20 novembre 2026 (OCSE, ISTAT, Ragioneria dello Stato, Conferenza delle Regioni).</div>
+</div>
+
+<div class="g" id="voce">
+ <div class="kick" style="color:#e2001a">Le parole di Achille</div><div class="ttl">Cosa abbiamo detto, per voi</div><div class="bar"></div>
+ <div class="qc"><p>Manca il livello base di investimento sulle professionalità che <b>tengono in piedi il Servizio Sanitario Nazionale.</b></p></div>
+ <div class="qc r"><p>Il Covid ci ha insegnato che <b>se non abbiamo i soldati, le guerre non possiamo combatterle.</b></p></div>
+ <div class="qc y"><p>Nel privato accreditato c'è chi ha <b>il contratto fermo da più di 7 anni</b>, mentre le aziende fanno utili da capogiro.</p></div>
+ <div class="qc"><p>Io stesso, da padre, oggi <b>non consiglierei a mio figlio</b> di fare l'infermiere o il medico. <i style="font-style:normal;color:#5b6b62">È questo che dobbiamo cambiare.</i></p></div>
+</div>
+
+<div class="g" id="serve"><div class="stripes"></div>
+ <div class="kick" style="color:#ffd60a;position:relative">Cosa serve davvero</div><div class="ttl" style="position:relative">Le nostre richieste</div><div class="bar" style="position:relative"></div>
+ <div class="it"><div class="n">1</div><div><h3>Assunzioni stabili, subito</h3><p>Coprire i vuoti di organico prima che il 2026 li renda incolmabili.</p></div></div>
+ <div class="it"><div class="n">2</div><div><h3>Stipendi all'altezza dell'Europa</h3><p>Per fermare la fuga verso il privato e verso l'estero.</p></div></div>
+ <div class="it"><div class="n">3</div><div><h3>Orari certi, ferie e congedi garantiti</h3><p>Basta reggere i reparti a forza di straordinari.</p></div></div>
+ <div class="it"><div class="n">4</div><div><h3>Contratti rinnovati anche nel privato accreditato</h3><p>Chi prende soldi pubblici deve rispettare chi ci lavora.</p></div></div>
+ <div class="it"><div class="n">5</div><div><h3>Una professione che torni attrattiva</h3><p>Perché i giovani scelgano di nuovo di curare.</p></div></div>
+</div>
+
+<div class="g" id="tg">
+ <div class="kick" style="color:#00843d">Anche al Tv7 Tg</div>
+ <div class="row">
+  <div class="vid"><img src="./fb.jpg"><div class="play"></div></div>
+  <div class="txt"><span class="tag">SERVIZIO TG</span><h3>Assunzioni: il mondo della sanità resta in attesa</h3><p>Mancano infermieri: paura delle aggressioni, calo delle vocazioni, poca valorizzazione. Il vuoto cresce.</p></div>
+ </div>
+</div>
+
+<div class="g" id="fine"><div class="stripes"></div>
+ <div class="big">La sanità pubblica<br>si regge su di noi.<br><span>Ora tocca alla politica.</span></div>
+ <p>Noi continuiamo a dirlo ovunque: <b>in reparto, al tavolo con l'Azienda e in televisione.</b></p>
+</div>
+</body></html>
