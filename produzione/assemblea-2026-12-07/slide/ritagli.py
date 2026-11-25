@@ -133,6 +133,12 @@ RITAGLI.update({
     "inc-cisl-rsu": ("incentivi/regolamento-V22.pdf", None, ["Organizzazioni Sindacali firmatarie entro 30 giorni dalla trasmissione alla"], 50),
 })
 
+# Punto 4 · welfare
+RITAGLI.update({
+    "lr26-welfare-350": ("decentrati/10-risorse-legge-regionale-26-2026_14-07-26.pdf", None, ["Tali quote sono stabilite nella misura fissa di euro 350,00 per ciascun dipendente"], 60),
+    "nota-welfare-pta": ("welfare/nota-cisl-02-04-2026-welfare-PTA.pdf", None, ["La CISL FP propone di estendere e rifinanziare anche per il 2026 la quota di welfare pari a € 350,"], 45),
+})
+
 
 def trova(pagina, frase):
     """Rettangoli (in punti PDF) delle righe che compongono la frase."""

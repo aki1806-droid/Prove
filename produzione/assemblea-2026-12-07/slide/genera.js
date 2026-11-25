@@ -1145,6 +1145,276 @@ async function frontespizio(n, sezione) {
   slideDomande(S3, "Il sistema degli incarichi").addNotes("Spazio domande sul punto 3.");
 
 
+  // ------------------------------------------------ 4 · welfare
+  const S4 = "4 · Welfare Regione Veneto";
+  const FLR = "Preintesa L.R. 26/2024 · risorse 2026 · 14/07/2026";
+  const T1811 = "Incontro con l'Azienda del 18/11/2026";
+  pres.addSection({ title: S4 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S4 });
+    s.addText("04", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Il welfare: 350 € a testa", { placeholder: "title" });
+    s.addText("La legge regionale 26/2024, i buoni che scadono, i residui e il nuovo buono 2026", { placeholder: "body" });
+    card(s, 9.2, 1.3, 3.5, 4.9, HEX.accent2, { ombra: true });
+    s.addText([{ text: "350 €", options: { fontSize: 64, bold: true, color: HEX.dk2, breakLine: true } },
+      { text: "per ogni dipendente, ogni anno", options: { fontSize: 18, bold: true, color: HEX.dk2, breakLine: true } },
+      { text: "2025 · 2026 · 2027", options: { fontSize: 16, color: HEX.dk2 } }],
+      { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Il welfare viene dalla L.R. 26/2024: la Regione ha messo risorse aggiuntive per il personale del SSR per il triennio 2025-2027. Una parte fissa, 350 € a testa, va in buoni acquisto.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S4 });
+    kicker(s, "Da dove arrivano i soldi");
+    s.addText("La legge regionale 26: 3,1 milioni per l'AOUP", { placeholder: "title" });
+    // flusso: legge -> totale -> due rami
+    card(s, M, 1.6, 3.2, 1.5, HEX.dk2);
+    s.addText([{ text: "L.R. 26/2024", options: { fontSize: 22, bold: true, color: HEX.accent2, breakLine: true } }, { text: "Regione Veneto · triennio 2025-2027", options: { fontSize: 13, color: "FFFFFF" } }],
+      { x: M + 0.2, y: 1.6, w: 2.8, h: 1.5, valign: "middle", margin: 0, isTextBox: true });
+    s.addShape(pres.shapes.RIGHT_ARROW, { x: M + 3.3, y: 2.1, w: 0.5, h: 0.5, fill: { color: HEX.accent1 }, line: { type: "none" } });
+    card(s, M + 3.9, 1.6, 3.1, 1.5, C.background2);
+    s.addText([{ text: "3.148.566 €", options: { fontSize: 26, bold: true, color: HEX.accent1, breakLine: true } }, { text: "all'AOUP per il 2026 (stima)", options: { fontSize: 13, color: C.text1 } }],
+      { x: M + 4.1, y: 1.6, w: 2.8, h: 1.5, valign: "middle", margin: 0, isTextBox: true });
+    const rami = [["1.548.750 €", "Welfare: buoni acquisto da 350 €", HEX.accent2, HEX.dk2], ["1.599.816 €", "Contrattazione: notti, pronta disponibilità, aree complesse (punto 2)", HEX.accent1, "FFFFFF"]];
+    for (let i = 0; i < 2; i++) {
+      const y = 3.45 + i * 1.45;
+      card(s, M, y, 7.0, 1.25, rami[i][2]);
+      s.addText(rami[i][0], { x: M + 0.25, y, w: 2.6, h: 1.25, fontSize: 24, bold: true, color: rami[i][3], valign: "middle", margin: 0, isTextBox: true });
+      s.addText(rami[i][1], { x: M + 2.9, y, w: 3.9, h: 1.25, fontSize: 15, bold: true, color: rami[i][3], valign: "middle", margin: 0, isTextBox: true });
+    }
+    await foglio(s, "lr26-welfare-350", 7.95, 1.6, 4.75, FLR + " · pag. 3");
+    card(s, 7.87, 4.0, 4.9, 2.4, "FFF8D6", { bordo: "F2DF7A" });
+    s.addText([{ text: "E i ruoli PTA?", options: { bold: true, fontSize: 18, color: HEX.dk2, breakLine: true } },
+      { text: "La Regione paga i 350 € solo a sanitari e sociosanitari. Per amministrativi, tecnici e professionali li abbiamo ottenuti in Azienda: 230.000 € accantonati dal fondo premialità.", options: { fontSize: 14, color: C.text1 } }],
+      { x: 8.07, y: 4.1, w: 4.5, h: 2.2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Tabella della preintesa del 14/07/2026: welfare su personale in servizio al 1/9/2025 1.548.750 €, perequazione 1.599.816 €, totale 3.148.566 €. Per il 2026 si usano come riferimento le risorse 2025 in attesa dell'assegnazione regionale definitiva. La quota PTA è finanziata dal fondo premialità e condizioni di lavoro (art. 64 CCNL 27/10/2025), 230.000 € da rideterminare sui presenti al 1/9/2026.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S4 });
+    kicker(s, "Anche per chi non è sanitario");
+    s.addText("Lo stesso buono per tutto il comparto", { placeholder: "title" });
+    await foglio(s, "nota-welfare-pta", M + 0.08, 1.65, 6.0, "Nota CISL FP all'Azienda · 2 aprile 2026");
+    await foglio(s, "lr26-welfare-pta", M + 0.08, 3.55, 6.0, FLR + " · pag. 4");
+    const t = [["2 apr 2026", "La CISL FP chiede per iscritto i 350 € anche per amministrativi, tecnici e professionali"], ["14 lug 2026", "Preintesa firmata: 350 € anche ai ruoli PTA in servizio al 1/9/2026"], ["Dicembre 2026", "Il buono 2026 arriva a tutti, sanitari e non"]];
+    for (let i = 0; i < t.length; i++) {
+      const y = 1.65 + i * 1.6;
+      card(s, 7.1, y, 5.65, 1.4, i === 2 ? HEX.accent1 : C.background2);
+      s.addText(t[i][0], { x: 7.3, y, w: 1.6, h: 1.4, fontSize: 15, bold: true, color: i === 2 ? HEX.accent2 : HEX.accent1, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(t[i][1], { x: 8.95, y, w: 3.6, h: 1.4, fontSize: 14, color: i === 2 ? "FFFFFF" : C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("La nota del 2/4/2026 (Pagliaro e Vullo) chiedeva di estendere e rifinanziare il welfare 2026 a tutto il comparto e di costruire un percorso di valorizzazione economica del personale non sanitario.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S4 });
+    kicker(s, "Il buono 2025 · scadenza 30 novembre", HEX.accent2);
+    s.addText("I buoni non attivati non vanno persi", { placeholder: "title" });
+    card(s, M, 1.6, 4.3, 4.7, "3A0A10", { bordo: "E2001A" });
+    s.addText([{ text: "185.000 €", options: { fontSize: 48, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "di buoni 2025 non utilizzati nel comparto", options: { fontSize: 17, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "stima dell'Azienda: c'è chi non ha mai attivato il voucher", options: { fontSize: 13, color: "F3D6DA" } }],
+      { x: M + 0.25, y: 1.8, w: 3.8, h: 4.3, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    const r = [["157.009 €", "ruolo sanitario e sociosanitario", "Tornano alle finalità della legge 26: notti e progetti nelle aree più pesanti"], ["27.408 €", "ruoli professionale, tecnico e amministrativo", "Vanno a progetti dedicati al personale PTA"]];
+    for (let i = 0; i < 2; i++) {
+      const y = 1.6 + i * 2.45;
+      card(s, 5.2, y, 7.55, 2.25, "13301F", { bordo: "1F4A31" });
+      s.addText(r[i][0], { x: 5.45, y: y + 0.15, w: 3, h: 0.8, fontSize: 32, bold: true, color: HEX.accent6, margin: 0, isTextBox: true });
+      s.addText(r[i][1].toUpperCase(), { x: 8.4, y: y + 0.15, w: 4.2, h: 0.8, fontSize: 12, bold: true, color: "B9D3C3", charSpacing: 2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(r[i][2], { x: 5.45, y: y + 1.0, w: 7.1, h: 1.1, fontSize: 17, color: "FFFFFF", valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Dati comunicati dall'Azienda al tavolo del 18/11/2026: residuo comparto 185.000,03 €; per il sanitario e sociosanitario 157.008,98 € da destinare alle medesime finalità della L.R. 26 (incremento della turnistica notturna e progettualità già individuate); per i PTA 27.408 € verso progettualità PTA. Messaggio: i soldi restano ai lavoratori, ma è meglio usarli. Dal 1° dicembre parte il nuovo buono.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S4 });
+    kicker(s, "La novità per il nuovo anno", C.accent3);
+    s.addText("Il buono 2026 cambia piattaforma: DoubleYou", { placeholder: "title" });
+    const vol = path.join(QUI, "..", "documenti", "volantini", "welfare-2026-doubleyou.jpg");
+    const dv = await dimensioni(vol); const hv = 5.0, wv = hv * dv.w / dv.h;
+    s.addImage({ path: vol, x: W - M - wv, y: 1.45, w: wv, h: hv, altText: "Volantino CISL FP Welfare 2026: buoni acquisto da 350 € su piattaforma DoubleYou",
+      shadow: { type: "outer", color: "06381F", opacity: 0.22, blur: 14, offset: 4, angle: 90 } });
+    const p = [["FaFileSignature", "Delibera n. 713 dell'11/11/2026", "Azienda Zero ha affidato a DoubleYou il welfare di tutto il personale del Servizio sanitario veneto"],
+      ["FaCalendarCheck", "Entro il 15 dicembre 2026", "i nuovi buoni da 350 € disponibili: per l'Azienda già dal 1° dicembre"],
+      ["FaHourglassHalf", "Ancora da comunicare", "come si accede, come si usano i buoni, quali negozi aderiscono"]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 1.55 + i * 1.6;
+      await tondo(s, p[i][0], M, y + 0.1, 0.8, i === 2 ? HEX.accent3 : HEX.accent1);
+      s.addText(p[i][1], { x: M + 1.05, y, w: 6.2, h: 0.5, fontSize: 19, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(p[i][2], { x: M + 1.05, y: y + 0.5, w: 6.2, h: 0.9, fontSize: 15, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Fonte: deliberazione di Azienda Zero n. 713 dell'11 novembre 2026 (aggiudicazione a DoubleYou S.r.l.), mail CISL FP del 17/11/2026 e incontro del 18/11/2026 («dal 1° dicembre sarà disponibile un nuovo voucher»). Avvisare: chi ha ancora il buono 2025 lo usi entro il 30 novembre.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S4 });
+    s.addText("Cosa chiediamo", { placeholder: "title" });
+    s.addText("Il punto 4 in quattro richieste", { placeholder: "body" });
+    const cose = ["Piattaforma semplice e accessibile a tutti", "Tanti negozi e servizi convenzionati, anche a Padova e provincia", "Un avviso a chi non attiva il buono: zero residui", "Welfare 2027 garantito a tutto il comparto, PTA compresi"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.9 + i * 1.4;
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 16, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Le prime due richieste sono l'impegno CISL FP del volantino Welfare 2026. Le ultime due sono proposte da confermare con Achille.");
+  }
+  slideDomande(S4, "Il welfare").addNotes("Spazio domande sul punto 4.");
+
+  // ------------------------------------------------ 5 · vertenze legali
+  const S5 = "5 · Vertenze legali";
+  const EV = path.join(QUI, "..", "..", "..", "email", "vertenze-2026-11");
+  const R5 = "C8102E";
+  async function immagine(s, file, x, y, w, alt, opz = {}) {
+    const d = await dimensioni(file); let h = w * d.h / d.w;
+    if (opz.maxH && h > opz.maxH) { h = opz.maxH; w = h * d.w / d.h; if (opz.centra) x = opz.centra - w / 2; }
+    s.addImage({ path: file, x, y, w, h, altText: alt, rounding: false,
+      shadow: { type: "outer", color: "06381F", opacity: 0.22, blur: 14, offset: 4, angle: 90 } });
+    return { x, y, w, h };
+  }
+  function qr(s, nome, x, y, d, etichetta, scuro) {
+    card(s, x - 0.1, y - 0.1, d + 0.2, d + 0.6, "FFFFFF", { bordo: "D9EADD" });
+    s.addImage({ path: path.join(QUI, "qr", nome + ".png"), x, y, w: d, h: d, altText: "QR code: " + etichetta });
+    s.addText(etichetta, { x: x - 0.1, y: y + d, w: d + 0.2, h: 0.45, fontSize: 12, bold: true, color: HEX.dk2, align: "center", valign: "middle", margin: 0, isTextBox: true });
+  }
+  pres.addSection({ title: S5 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S5 });
+    s.addText("05", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Tre vertenze. Una l'abbiamo già vinta.", { placeholder: "title" });
+    s.addText("Festivo infrasettimanale, indennità durante le ferie, buoni pasto", { placeholder: "body" });
+    await immagine(s, path.join(EV, "vertenze-hero.jpg"), 8.4, 0.9, 4.35, "Tre vertenze, una l'abbiamo già vinta: Tribunale di Padova, 14 maggio 2026");
+    s.addNotes("Il lavoro pesante (avvocati, cause pilota, udienze) l'abbiamo fatto noi: a chi è in sala restano due minuti per un modulo.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
+    kicker(s, "Il tabellone dei fatti");
+    s.addText("A che punto siamo", { placeholder: "title" });
+    const v = [["VINTA", "Festivo infrasettimanale", "Tribunale di Padova, sentenza del 14 maggio 2026", HEX.accent1, "FaCheck"],
+      ["IN CAUSA", "Indennità durante le ferie", "Già in causa con l'Azienda, forti della Cassazione n. 25528/2025", "F08A00", "FaBalanceScale"],
+      ["SENTENZA ATTESA", "Buoni pasto", "Percorso aperto da tempo: decisione attesa a fine novembre", HEX.dk2, "FaHourglassHalf"]];
+    for (let i = 0; i < 3; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 1.55, 3.85, 4.95, C.background2, { ombra: true });
+      s.addShape(pres.shapes.RECTANGLE, { x, y: 1.55, w: 3.85, h: 1.6, fill: { color: v[i][3] }, line: { type: "none" } });
+      await tondo(s, v[i][4], x + 1.45, 1.85, 1.0, "FFFFFF", v[i][3] === HEX.dk2 ? HEX.accent2 : v[i][3]);
+      card(s, x + 0.3, 3.4, 2.2, 0.4, v[i][3]);
+      s.addText(v[i][0], { x: x + 0.3, y: 3.4, w: 2.2, h: 0.4, fontSize: 11, bold: true, color: "FFFFFF", align: "center", valign: "middle", charSpacing: 2, margin: 0, isTextBox: true });
+      s.addText(v[i][1], { x: x + 0.3, y: 3.95, w: 3.3, h: 0.9, fontSize: 21, bold: true, color: C.text2, valign: "top", margin: 0, isTextBox: true });
+      s.addText(v[i][2], { x: x + 0.3, y: 4.85, w: 3.3, h: 1.4, fontSize: 15, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("⚠ Buoni pasto: prima del 7 dicembre verificare se la sentenza AOUP è arrivata e con quale esito, e aggiornare questa slide.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
+    kicker(s, "Vertenza 1 · vinta", HEX.accent1);
+    s.addText("Il festivo infrasettimanale va pagato a parte", { placeholder: "title" });
+    const p = [["La regola", "Art. 106 c.5 del CCNL: chi lavora un festivo infrasettimanale sceglie tra straordinario festivo (+30% di giorno, +50% di notte), riposo compensativo entro 30 giorni o banca delle ore. In più all'indennità di turno."],
+      ["Il problema in AOUP", "Le ore del festivo vengono contate nel monte orario mensile come ore normali."],
+      ["Chi lo dice", "Cassazione n. 20743/2023, parere ARAN CSAN149, e ora il Tribunale di Padova."]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 1.5 + i * 1.45;
+      card(s, M, y, 7.6, 1.3, i === 1 ? "FFF1F2" : C.background2);
+      s.addText(p[i][0], { x: M + 0.2, y, w: 1.9, h: 1.3, fontSize: 15, bold: true, color: i === 1 ? R5 : HEX.accent1, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: M + 2.1, y, w: 5.35, h: 1.3, fontSize: 13.5, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    card(s, M, 5.95, 7.6, 0.85, HEX.dk2);
+    s.addText([{ text: "«Se avete vinto, l'Azienda paga tutti?» ", options: { bold: true, color: HEX.accent2 } }, { text: "No: la sentenza vale per chi ha fatto ricorso. Gli altri devono attivarsi.", options: { color: "FFFFFF" } }],
+      { x: M + 0.2, y: 5.95, w: 7.2, h: 0.85, fontSize: 14, valign: "middle", margin: 0, isTextBox: true });
+    card(s, 8.55, 1.5, 4.2, 2.55, HEX.accent1);
+    s.addText([{ text: "34", options: { fontSize: 60, bold: true, color: HEX.accent2, breakLine: true } }, { text: "giornate festive riconosciute a un collega, dal 2019 al 2025, più interessi", options: { fontSize: 14, color: "FFFFFF" } }],
+      { x: 8.75, y: 1.55, w: 3.8, h: 2.45, valign: "middle", margin: 0, isTextBox: true });
+    qr(s, "festivo", 9.8, 4.35, 1.7, "Modulo festivo");
+    s.addNotes("Tribunale di Padova, Sezione Lavoro, 14/05/2026, r.g. 1613/2025: l'AOUP condannata a pagare lo straordinario festivo per 34 giornate (26/12/2019 - 2/6/2025) più interessi. Prescritti i crediti oltre 5 anni dalla richiesta dell'8/10/2024. Sentenza da mostrare oscurata. ⚠ La cifra «oltre 3.000 €» circolata nella mail coincide con le spese legali liquidate: non dirla finché non è verificata sulla sentenza. Vertenza collettiva a gruppi di circa 20 persone. Modulo: form.getformly.com/f/ug983Z");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
+    kicker(s, "Vertenza 2 · in causa", "C46F00");
+    s.addText("Le ferie non possono costare di meno", { placeholder: "title" });
+    card(s, M, 1.5, 7.6, 1.9, HEX.dk2);
+    s.addText([{ text: "«Rientra nella retribuzione feriale qualsiasi importo collegato all'esecuzione delle mansioni e correlato allo status personale e professionale del lavoratore.»", options: { italic: true, color: "FFFFFF", fontSize: 16, breakLine: true } },
+      { text: "Cassazione, ordinanza n. 25528 del 17 settembre 2025", options: { bold: true, color: HEX.accent2, fontSize: 13 } }],
+      { x: M + 0.25, y: 1.55, w: 7.1, h: 1.8, valign: "middle", margin: 0, isTextBox: true });
+    const p = [["Il caso", "Un infermiere turnista dell'ASL Napoli 1: vince in tribunale, in appello e in Cassazione"], ["Il principio", "L'indennità di turno paga la fatica dei turni: spetta anche in ferie, sennò le ferie «costano»"], ["Il diritto europeo", "Direttiva 2003/88: nessuna riduzione di paga che scoraggi le ferie"], ["Da ora in avanti", "Il nuovo CCNL prevede l'indennità giornaliera anche in ferie. Gli arretrati restano da recuperare"]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 3.6 + i * 0.8;
+      s.addText(p[i][0], { x: M, y, w: 2.1, h: 0.7, fontSize: 14, bold: true, color: "C46F00", valign: "middle", margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: M + 2.1, y, w: 5.5, h: 0.7, fontSize: 13.5, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    card(s, 8.55, 1.5, 4.2, 2.55, "FFF4E0", { bordo: "F2C27A" });
+    s.addText([{ text: "Controlla il cedolino", options: { fontSize: 19, bold: true, color: HEX.dk2, breakLine: true } }, { text: "Nei mesi con le ferie l'indennità di turno manca o è ridotta? Allora ti riguarda.", options: { fontSize: 14, color: C.text1 } }],
+      { x: 8.75, y: 1.55, w: 3.8, h: 2.45, valign: "middle", margin: 0, isTextBox: true });
+    qr(s, "ferie", 9.8, 4.35, 1.7, "Modulo ferie");
+    s.addNotes("Sentenze europee richiamate: Robinson-Steele, Schultz-Hoff, Williams, C-514/20. Orientamento confermato da Cass. 17443/2025. ⚠ Verificare sul testo del CCNL 2025-27 decorrenza e calcolo dell'indennità giornaliera in ferie (in Funzioni Centrali è sulle indennità di turno dell'anno prima). Modulo: form.getformly.com/f/9AYmxv");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
+    kicker(s, "Vertenza 3 · sentenza attesa", HEX.dk2);
+    s.addText("Sei ore di lavoro e niente mensa: il buono spetta", { placeholder: "title" });
+    card(s, M, 1.5, 7.6, 1.55, C.background2);
+    s.addText([{ text: "«Dopo sei ore di lavoro, in assenza di servizio mensa, il diritto al buono pasto è automatico e incondizionato.»", options: { italic: true, bold: true, color: HEX.dk2, fontSize: 16, breakLine: true } },
+      { text: "Sentenza n. 3448/2025 · causa CISL FP contro il Policlinico Umberto I di Roma", options: { color: "5B6B62", fontSize: 12 } }],
+      { x: M + 0.25, y: 1.5, w: 7.1, h: 1.55, valign: "middle", margin: 0, isTextBox: true });
+    s.addChart(pres.charts.BAR, [{ name: "Arretrati", labels: ["1 anno", "3 anni", "5 anni"], values: [743, 2229, 3715] }], {
+      x: M, y: 3.25, w: 4.6, h: 3.4, barDir: "col", chartColors: [HEX.accent1], showValue: true, dataLabelFormatCode: "#,##0 \"€\"", dataLabelPosition: "outEnd",
+      dataLabelFontSize: 14, dataLabelFontBold: true, dataLabelColor: HEX.dk1, catAxisLabelFontSize: 13, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, barGapWidthPct: 60 });
+    s.addText([{ text: "Esempio: 15 turni al mese senza buono", options: { bold: true, breakLine: true } }, { text: "Il caso di Roma: 303 turni negati, 1.251 € più interessi, circa 4 € a turno.", options: {} }],
+      { x: M + 4.75, y: 3.4, w: 2.85, h: 2.0, fontSize: 13, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+    s.addText("Priorità: notti da 10 ore, festivi e weekend, quando la mensa è chiusa.", { x: M + 4.75, y: 5.45, w: 2.85, h: 1.1, fontSize: 13, bold: true, color: HEX.accent1, margin: 0, isTextBox: true });
+    card(s, 8.55, 1.5, 4.2, 2.55, HEX.dk2);
+    s.addText([{ text: "In AOUP", options: { fontSize: 19, bold: true, color: HEX.accent2, breakLine: true } }, { text: "Il percorso è aperto da tempo: la decisione era attesa per fine novembre.", options: { fontSize: 14, color: "FFFFFF" } }],
+      { x: 8.75, y: 1.55, w: 3.8, h: 2.45, valign: "middle", margin: 0, isTextBox: true });
+    qr(s, "buonipasto", 9.8, 4.35, 1.7, "Modulo buoni pasto");
+    s.addNotes("Simulazione dal gamma CISL FP: 15 turni al mese senza buono. ⚠ Prescrizione: il gamma parla di 10 anni (natura assistenziale del buono), la mail di 5 anni per tutte e tre le vertenze: in sala dire un numero solo, da confermare con l'avvocato. ⚠ Aggiornare con l'esito della sentenza AOUP se arriva prima del 7/12. Documenti da raccogliere: cartellini dei turni di almeno 6 ore, buste paga. Modulo: form.getformly.com/f/kkwFYZ");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S5 });
+    kicker(s, "Perché non aspettare", HEX.accent2);
+    s.addText("Il tempo lavora contro di te", { placeholder: "title" });
+    await immagine(s, path.join(EV, "vertenze-tempo.jpg"), M, 1.5, 6.6, "Ogni mese che aspetti, il credito più vecchio esce dal conto");
+    s.addText([{ text: "5 anni", options: { fontSize: 54, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "poi i crediti di lavoro si prescrivono. Ogni mese che passa, il più vecchio esce dal conto.", options: { fontSize: 18, color: "FFFFFF", breakLine: true } },
+      { text: " ", options: { fontSize: 10, breakLine: true } },
+      { text: "La diffida firmata ferma l'orologio.", options: { fontSize: 18, bold: true, color: HEX.accent6 } }],
+      { x: 7.6, y: 1.6, w: 5.1, h: 4.6, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("«È come avere uno stipendio non pagato in banca: se non vai a ritirarlo entro cinque anni, sparisce.»");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
+    kicker(s, "Adesso, dal telefono");
+    s.addText("Inquadra il codice: due minuti, poi ti chiamiamo noi", { placeholder: "title" });
+    await immagine(s, path.join(EV, "vertenze-passi.jpg"), M, 1.45, 5.9, "Tre passi: compili, ti richiamiamo, pensiamo noi al resto");
+    const q = [["festivo", "Festivo infrasettimanale"], ["ferie", "Indennità durante le ferie"], ["buonipasto", "Buoni pasto"]];
+    for (let i = 0; i < 3; i++) qr(s, q[i][0], 7.0 + i * 1.95, 1.7, 1.65, q[i][1].split(" ")[0] === "Indennità" ? "Ferie" : (i === 0 ? "Festivo" : "Buoni pasto"));
+    card(s, 6.9, 4.25, 5.85, 2.25, HEX.dk2);
+    s.addText([{ text: "Tre moduli, uno per vertenza.", options: { bold: true, color: HEX.accent2, fontSize: 18, breakLine: true } },
+      { text: "Ti riguardano tutte? Compilali tutti e tre. Servizio gratuito, ti ricontattiamo noi. Più siamo, più contiamo.", options: { color: "FFFFFF", fontSize: 15 } }],
+      { x: 7.1, y: 4.3, w: 5.45, h: 2.15, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Lasciare questa slide a schermo un minuto: chi ha il telefono in mano compila adesso. Moduli: ug983Z (festivo), 9AYmxv (ferie), kkwFYZ (buoni pasto) su form.getformly.com/f/");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S5 });
+    kicker(s, "Il Bugiardino · dati alla mano", HEX.accent2);
+    s.addText("In questi giorni si sono sentite cose inesatte", { placeholder: "title" });
+    const b = [["«I progetti pagati con la premialità tolgono soldi a progressioni e DEP»", "FALSO", "Sono cassetti diversi: i DEP stanno nel fondo incarichi e progressioni, i progetti nella premialità. Aprire un cassetto non svuota l'altro."],
+      ["«La CISL FP ha detto che il contratto è già firmato»", "FALSO", "Abbiamo sempre parlato di attesa. Semmai c'era chi prometteva gli arretrati a novembre. Novembre è arrivato, gli arretrati no."],
+      ["«Sui DEP 2026 si è messo poco»", "INESATTO", "620.000 €: la somma massima possibile. Oltre 1,4 milioni di progressioni in due anni. Di più avrebbe voluto dire meno produttività per tutti."]];
+    for (let i = 0; i < 3; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 1.55, 3.85, 5.0, "13301F", { bordo: "1F4A31" });
+      s.addText("SI È SENTITO DIRE…", { x: x + 0.25, y: 1.7, w: 3.4, h: 0.3, fontSize: 10, bold: true, color: "B9D3C3", charSpacing: 2, margin: 0, isTextBox: true });
+      s.addText(b[i][0], { x: x + 0.25, y: 2.0, w: 3.4, h: 1.35, fontFace: "Courier New", fontSize: 14, bold: true, color: "FFFFFF", valign: "top", margin: 0, isTextBox: true });
+      s.addShape(pres.shapes.ROUNDED_RECTANGLE, { x: x + 0.25, y: 3.45, w: i === 2 ? 1.6 : 1.15, h: 0.45, rectRadius: 0.06, fill: { type: "none" }, line: { color: "FF4D5E", width: 2.5 }, rotate: -4 });
+      s.addText(b[i][1], { x: x + 0.25, y: 3.45, w: i === 2 ? 1.6 : 1.15, h: 0.45, fontSize: 15, bold: true, color: "FF4D5E", align: "center", valign: "middle", margin: 0, isTextBox: true, rotate: -4 });
+      s.addText("I FATTI", { x: x + 0.25, y: 4.1, w: 3.4, h: 0.3, fontSize: 10, bold: true, color: HEX.accent6, charSpacing: 2, margin: 0, isTextBox: true });
+      s.addText(b[i][2], { x: x + 0.25, y: 4.4, w: 3.4, h: 2.05, fontSize: 13.5, color: "E4F2E8", valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Dalla bozza SendFox «Il Bugiardino – Dati alla mano». Tono: nessun nome, nessuna sigla. «Non vi chiediamo di credere alla nostra verità: vi chiediamo di verificarla, anche con un accesso agli atti.» Contratto: firma definitiva presumibilmente a dicembre 2026, arretrati previsti a gennaio 2027. DEP: la produttività è scesa per una legge regionale che calcola alcune risorse variabili sul numero di dipendenti previsti; nel 2024 c'era chi alle progressioni aveva riservato un anno vuoto.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S5 });
+    s.addText("Dati alla mano. Sempre.", { placeholder: "title" });
+    s.addText("Non vi chiediamo di crederci: vi chiediamo di verificare. Anche con un accesso agli atti, in qualsiasi momento.", { placeholder: "body" });
+    s.addNotes("Chiusura del blocco: transizione verso le domande sulle vertenze.");
+  }
+  slideDomande(S5, "Le vertenze legali").addNotes("Spazio domande sul punto 5.");
+
+
   // ------------------------------------------------ 6 · incentivi funzioni tecniche
   const S6 = "6 · Incentivi funzioni tecniche";
   const FAZ = "Regolamento incentivi · proposta dell'Azienda, rev.5 dell'8/10/2026";
@@ -1491,6 +1761,175 @@ async function frontespizio(n, sezione) {
     await fotoTavolo(s, "oss-nuova-pediatria", 8.45, 5.3, 4.25, "Nuova Pediatria", { scuro: true, maxH: 1.25, centra: 10.575 });
     s.addNotes("Slide «Sviluppi» e «Azioni in atto – Nuova Pediatria» dell'Azienda. Punto da presidiare per il sindacato: il passaggio da due a tre turni per gli OSS già assegnati, con raccolta delle preferenze e mobilità incrociata.");
   }
+
+  // ---- 8 · blocco «La notte di 12 ore» (dossier CISL FP, ottobre 2026) e ferie
+  const FDOS = "Dossier CISL FP «La notte di 12 ore» · ottobre 2026";
+  const RS = "C8102E";
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S8 });
+    kicker(s, "Organizzazione del lavoro", HEX.accent2);
+    s.addText("La notte di 12 ore: decidere informati", { placeholder: "title" });
+    const t = [["", "Oggi", "Proposta", "Differenza"], ["Mattina", "6h 22'", "6h 15'", "− 7'"], ["Pomeriggio", "7h 15'", "6h 15'", "− 1 ora"], ["Notte", "11h 15'", "12h 00'", "+ 45'"],
+      ["Consegne al giorno", "52'", "30'", "− 42%"], ["Consegna per passaggio", "≈ 17'", "10'", "− 7'"]];
+    s.addTable(t.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: i === 0 || j === 0 || j === 3, fontSize: i === 0 ? 13 : 17,
+      color: i === 0 ? HEX.dk2 : (j === 3 ? (c.startsWith("+") || c.includes("%") || c.startsWith("− 7'") && i === 5 ? "FF6B7A" : HEX.accent6) : "FFFFFF"),
+      fill: { color: i === 0 ? HEX.accent2 : (i % 2 ? "13301F" : "0F2819") }, align: j ? "center" : "left", valign: "middle" } }))),
+      { x: M, y: 1.6, w: 7.6, colW: [2.8, 1.5, 1.6, 1.7], rowH: 0.62, border: { type: "solid", color: "1F4A31", pt: 1 }, margin: 0.1 });
+    card(s, 8.6, 1.6, 4.15, 3.7, "3A0A10", { bordo: "E2001A" });
+    s.addText([{ text: "«Nessun cambiamento al buio»", options: { fontSize: 20, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "Si può valutare solo con garanzie scritte su pause, consegne, debito orario, assenze improvvise, tutele per chi non deve fare notti, e una verifica condivisa a sei mesi.", options: { fontSize: 15, color: "FFFFFF" } }],
+      { x: 8.8, y: 1.75, w: 3.75, h: 3.4, valign: "middle", margin: 0, isTextBox: true });
+    s.addText("Le richieste nascono dai lavoratori per conciliare vita e lavoro: una parte del personale resterà comunque su tre turni.", { x: 8.6, y: 5.5, w: 4.15, h: 1.0, fontSize: 13, italic: true, color: "CFE9D8", margin: 0, isTextBox: true });
+    s.addNotes("Modelli discussi il 3/11/2026: base 6+6+12 (diurni da 6h15'/6h22' e notte da 12h) o turni diurni da 12h. Iter: richiesta formale di Direttore e Coordinatore dell'UO, valutazione delle Direzioni, verifica della volontarietà, informazione sindacale. Dati dal dossier CISL FP, pag. 2-3.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "Simulazione 2027 · per ogni operatore in quinta", RS);
+    s.addText("I 22 minuti persi diventano rientri", { placeholder: "title" });
+    const mesi = ["gen", "feb", "mar", "apr", "mag", "giu", "lug", "ago", "set", "ott", "nov", "dic"];
+    const att = [10.17, 5.43, 3.6, -3.2, 0.97, 0.17, -7.65, -9.48, -16.28, -18.1, -18.9, -14.73];
+    const pro = [7.9, 1.1, -3, -12, -10.1, -13.1, -23.2, -27.3, -36.3, -40.4, -43.4, -41.5];
+    s.addChart(pres.charts.LINE, [{ name: "Modello attuale", labels: mesi, values: att }, { name: "Notte di 12 ore", labels: mesi, values: pro }], {
+      x: M, y: 1.45, w: 7.6, h: 5.1, chartColors: [HEX.accent1, RS], lineSize: 3, lineDataSymbol: "circle", lineDataSymbolSize: 6,
+      catAxisLabelFontSize: 12, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisLabelFontSize: 12, valAxisLabelColor: HEX.dk1, valAxisLabelFontFace: "+mn-lt",
+      valAxisTitle: "saldo ore cumulato", showValAxisTitle: true, valAxisTitleFontSize: 12, valAxisTitleColor: "5B6B62",
+      valGridLine: { color: "E3EEE6", size: 0.5 }, catGridLine: { style: "none" }, showLegend: true, legendPos: "t", legendFontSize: 13, legendFontFace: "+mn-lt", legendColor: HEX.dk1 });
+    const n = [["15 h → 41 h", "debito orario a fine 2027", RS], ["2 → 7", "rientri di mattina all'anno per chiuderlo", RS], ["43 turni", "in più ogni 10 turnisti, da programmare", HEX.dk2]];
+    for (let i = 0; i < n.length; i++) {
+      const y = 1.6 + i * 1.65;
+      card(s, 8.55, y, 4.2, 1.45, i < 2 ? "FFF1F2" : C.background2);
+      s.addText(n[i][0], { x: 8.75, y: y + 0.1, w: 3.9, h: 0.7, fontSize: 28, bold: true, color: n[i][2], margin: 0, isTextBox: true });
+      s.addText(n[i][1], { x: 8.75, y: y + 0.8, w: 3.9, h: 0.55, fontSize: 14, color: C.text1, margin: 0, isTextBox: true });
+    }
+    s.addNotes("Calcolo del dossier: 2027 = 305 giorni feriali × 6 h = 1.830 h dovute. Ciclo in quinta, 73 cicli: oggi 24h52' a ciclo = 1.815 h programmate; proposta 24h30' = 1.788 h. 73 × 22' = 26h46' in meno. Debito ≈ 15 h oggi, ≈ 41 h con la proposta. Ipotesi lorde, senza ferie e assenze: chiediamo la simulazione ufficiale sul piano turni 2027.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "Il rischio nascosto: le assenze improvvise", RS);
+    s.addText("Con turni più corti, il doppio turno diventa possibile", { placeholder: "title" });
+    card(s, M, 1.55, 4.6, 4.95, HEX.dk2);
+    s.addText([{ text: "LA REGOLA DELLE 13 ORE", options: { fontSize: 13, bold: true, color: HEX.accent2, charSpacing: 3, breakLine: true } },
+      { text: "11 ore di riposo ogni 24 (art. 7 D.Lgs. 66/2003): al massimo 13 ore di lavoro.", options: { fontSize: 16, color: "FFFFFF", breakLine: true } },
+      { text: " ", options: { fontSize: 8, breakLine: true } },
+      { text: "Mattina + pomeriggio", options: { fontSize: 15, bold: true, color: HEX.accent6, breakLine: true } },
+      { text: "oggi 13h 15' → vietato", options: { fontSize: 22, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "domani 12h 20' → si può chiedere", options: { fontSize: 22, bold: true, color: HEX.accent2 } }],
+      { x: M + 0.25, y: 1.7, w: 4.1, h: 4.65, valign: "middle", margin: 0, isTextBox: true });
+    const r = ["Il doppio turno come soluzione standard per ogni assenza", "Pomeriggio-mattina con 11h 40' di riposo per spostare i colleghi", "La notte scoperta: restano richiami dal riposo e reperibilità", "Turni che cambiano di continuo: figli e famiglia impossibili da organizzare", "Doppi turni, rientri e notti lunghe nella stessa settimana", "«Se non vieni tu il reparto resta scoperto»"];
+    for (let i = 0; i < r.length; i++) {
+      const col = i % 2, row = Math.floor(i / 2);
+      const x = 5.5 + col * 3.65, y = 1.55 + row * 1.68;
+      card(s, x, y, 3.5, 1.5, "FFF1F2");
+      s.addText(String(i + 1), { x: x + 0.15, y: y + 0.12, w: 0.5, h: 0.5, fontSize: 22, bold: true, color: RS, margin: 0, isTextBox: true });
+      s.addText(r[i], { x: x + 0.65, y: y + 0.1, w: 2.75, h: 1.3, fontSize: 13.5, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Dossier pag. 9-10. Cosa chiediamo sulle assenze improvvise: piano di sostituzione che non pesi su chi è in turno; doppi turni e rientri rapidi solo volontari con un tetto mensile; nessun richiamo dallo smonto o dal riposo; ore in più pagate o recuperate; registro dei cambi d'urgenza verificato con la RSU. La carenza si risolve con le assunzioni.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "Guardare avanti, prima di firmare");
+    s.addText("E se le 12 ore arrivassero anche di giorno?", { placeholder: "title" });
+    const t = [["", "Oggi", "Notte di 12 h", "12 h giorno e notte"], ["Turni", "6h22' · 7h15' · 11h15'", "6h15' · 6h15' · 12h", "12h · 12h"], ["Turni nel 2027", "219", "219", "146"],
+      ["Ore lavorate nel 2027", "1.815", "1.788", "1.752"], ["Debito orario 2027", "≈ 15 h", "≈ 41 h", "≈ 78 h"], ["Rientri per chiudere l'anno", "≈ 2 mattine", "≈ 7 mattine", "≈ 7 turni da 12 h"], ["Consegne", "52' al giorno", "30' al giorno", "nessuna sovrapposizione"]];
+    s.addTable(t.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: i === 0 || j === 0, fontSize: i === 0 ? 13 : 14.5,
+      color: i === 0 ? "FFFFFF" : (j === 3 && i > 3 ? RS : HEX.dk1), fill: { color: i === 0 ? (j === 3 ? RS : HEX.dk2) : (i % 2 ? "FFFFFF" : HEX.lt2) }, align: j ? "center" : "left", valign: "middle" } }))),
+      { x: M, y: 1.55, w: 8.0, colW: [2.4, 1.85, 1.85, 1.9], rowH: 0.6, border: { type: "solid", color: "D9EADD", pt: 1 }, margin: 0.08 });
+    s.addText("Vantaggi veri: meno giorni in ospedale, riposi più lunghi, due consegne invece di tre. Ma ogni turno supera le 12 ore, e un'assenza si copre solo richiamando chi è a riposo.",
+      { x: M, y: 5.95, w: 8.0, h: 0.75, fontSize: 13, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+    card(s, 9.0, 1.55, 3.75, 5.1, C.accent2);
+    s.addText([{ text: "Nessuna estensione automatica", options: { fontSize: 20, bold: true, breakLine: true } },
+      { text: "Se si sperimenta la notte di 12 ore, l'accordo deve dire per iscritto che non è un passo verso le 12 ore di giorno. Quello servirebbe un nuovo accordo, dopo la verifica e dopo aver ascoltato il reparto.", options: { fontSize: 15 } }],
+      { x: 9.2, y: 1.7, w: 3.35, h: 4.8, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Dossier pag. 11-13. Ipotesi 12 h esatte (7-19 e 19-7) con ciclo G-N-S-R-R per tutto il 2027, stesso teorico di 6 ore per giorno feriale.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S8 });
+    kicker(s, "Cosa dicono gli studi", HEX.accent2);
+    s.addText("Più lungo il turno, più alto il rischio", { placeholder: "title" });
+    s.addChart(pres.charts.BAR, [{ name: "Rischio di incidenti rispetto a 8 ore", labels: ["8 ore", "10 ore", "12 ore"], values: [0, 13, 27.5] }], {
+      x: M, y: 1.5, w: 6.0, h: 4.6, barDir: "col", chartColors: [HEX.accent6, HEX.accent2, "FF4D5E"], varyColors: true, showValue: true, dataLabelFormatCode: "+0.0\"%\";-0.0\"%\";\"base\"", dataLabelPosition: "outEnd",
+      dataLabelFontSize: 16, dataLabelColor: "FFFFFF", dataLabelFontBold: true, catAxisLabelFontSize: 15, catAxisLabelColor: "FFFFFF", catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, barGapWidthPct: 70 });
+    s.addText("Folkard & Tucker, Occupational Medicine 2003", { x: M, y: 6.15, w: 6, h: 0.3, fontSize: 11, italic: true, color: "B9D3C3", margin: 0, isTextBox: true });
+    const st = [["31.627", "infermieri in 12 Paesi europei (RN4CAST): con turni ≥ 12 h più burnout, insoddisfazione e voglia di lasciare"], ["40% · 37%", "preferenze divise: tra 8 e 12 ore la metà degli infermieri sceglie l'una o l'altra"], ["11h15' → 12h", "da noi la notte cresce di 45 minuti: non è vietato né catastrofico, serve con contrappesi seri"]];
+    for (let i = 0; i < st.length; i++) {
+      const y = 1.55 + i * 1.6;
+      card(s, 7.0, y, 5.75, 1.42, "13301F", { bordo: "1F4A31" });
+      s.addText(st[i][0], { x: 7.2, y, w: 1.9, h: 1.42, fontSize: 20, bold: true, color: HEX.accent2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(st[i][1], { x: 9.1, y, w: 3.5, h: 1.42, fontSize: 13, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Fonti nel dossier: Dall'Ora et al., BMJ Open 2015; Griffiths et al., Medical Care 2014; Stimpfel, Sloane, Aiken 2012; Rogers et al. 2004; Folkard & Tucker 2003; American Nurses Foundation 2022 (40% preferisce 8 ore, 37% 12 ore); IARC monografia 124 (lavoro notturno 2A). Onestà intellettuale: gli studi confrontano 12 contro 8 ore, qui l'aumento è di 45 minuti.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "La piattaforma CISL FP");
+    s.addText("Le dodici condizioni per sperimentare", { placeholder: "title" });
+    const c = ["Accordo scritto, non ordine di servizio", "Prova a tempo: 6 mesi, poi si può tornare indietro", "Pausa notturna vera: 30 minuti con chi copre", "Consegne protette: 15 minuti", "Debito orario trasparente: simulazione 2027", "Tutele per chi non deve fare notti",
+      "Nessuno straordinario in coda alla notte", "Medico competente, RLS e DVR coinvolti", "Indicatori a 3 e 6 mesi, questionario anonimo", "Organici giusti, mai nei picchi stagionali", "Assenze improvvise: regole e registro con la RSU", "Nessuna estensione automatica alle 12 ore di giorno"];
+    for (let i = 0; i < c.length; i++) {
+      const col = i % 4, row = Math.floor(i / 4);
+      const x = M + col * 3.07, y = 1.5 + row * 1.68;
+      card(s, x, y, 2.9, 1.5, row === 1 ? C.background2 : (row === 0 ? "FFFFFF" : C.background2), { bordo: "D9EADD" });
+      s.addText(String(i + 1).padStart(2, "0"), { x: x + 0.15, y: y + 0.1, w: 0.7, h: 0.45, fontSize: 20, bold: true, color: HEX.accent1, margin: 0, isTextBox: true });
+      s.addText(c[i], { x: x + 0.15, y: y + 0.55, w: 2.6, h: 0.9, fontSize: 13.5, bold: true, color: C.text2, valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Dossier pag. 18. Da proporre all'assemblea di reparto: discutere, integrare, approvare. Prossimi passi: assemblea, sondaggio anonimo, tavolo con l'Azienda, ritorno in assemblea con l'esito.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "Vestizione e consegne");
+    s.addText("Flessibilità sì. Scorciatoie no.", { placeholder: "title" });
+    const vol = path.join(QUI, "..", "documenti", "volantini", "turni-12-ore-scelta.png");
+    const dv = await dimensioni(vol); const hv = 5.1, wv = hv * dv.w / dv.h;
+    s.addImage({ path: vol, x: W - M - wv, y: 1.4, w: wv, h: hv, altText: "Volantino CISL FP: turni da 12 ore, sì alla scelta dei lavoratori, no agli automatismi",
+      shadow: { type: "outer", color: "06381F", opacity: 0.22, blur: 14, offset: 4, angle: 90 } });
+    numero(s, "15 → 20-22'", "i minuti di vestizione e consegna di cui si è parlato il 3 novembre", M, 1.45, 7.5, { size: 46, colore: RS });
+    const p = [["FaCheckCircle", "Sì alla volontà dei lavoratori", "il modello si adotta se lo chiede il reparto, non per decisione unilaterale"],
+      ["FaTimesCircle", "No ad automatismi sulla vestizione", "i tempi di vestizione e consegna si decidono solo al tavolo di contrattazione"],
+      ["FaBalanceScale", "Un regolamento aziendale", "regole chiare e uguali per tutti, e la possibilità di rivedere i modelli se non funzionano"]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 3.55 + i * 1.0;
+      await tondo(s, p[i][0], M, y, 0.7, i === 1 ? RS : HEX.accent1);
+      s.addText(p[i][1], { x: M + 0.9, y: y - 0.05, w: 6.6, h: 0.4, fontSize: 17, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(p[i][2], { x: M + 0.9, y: y + 0.35, w: 6.6, h: 0.5, fontSize: 13.5, color: C.text1, margin: 0, isTextBox: true });
+    }
+    s.addNotes("Riunione del 3/11/2026: la CISL FP ha evidenziato che l'estensione dei tempi di vestizione e consegna (da 15 a 20-22 minuti) e i cambi d'orario richiedono un regolamento condiviso e il passaggio al tavolo di contrattazione. Conclusione: la disciplina sarà discussa formalmente al tavolo.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
+    kicker(s, "Ferie · nuova legge", RS);
+    s.addText("Le ferie non fatte ora si possono perdere", { placeholder: "title" });
+    const vol = path.join(QUI, "..", "documenti", "volantini", "ferie-dl-144-2026.jpg");
+    const dv = await dimensioni(vol); const hv = 5.1, wv = hv * dv.w / dv.h;
+    s.addImage({ path: vol, x: W - M - wv, y: 1.4, w: wv, h: hv, altText: "Volantino CISL FP: ferie, nuove norme, tempi precisi e rischio di perdita",
+      shadow: { type: "outer", color: "06381F", opacity: 0.22, blur: 14, offset: 4, angle: 90 } });
+    const p = [["La norma", "Art. 1 del D.L. 144/2026, convertito dalla Legge 174/2026: nuove regole sulle ferie del personale pubblico"],
+      ["Cosa cambia", "Le ferie non fruite possono andare perse alla fine del periodo di riferimento o del riporto autorizzato, con effetti anche sull'indennità quando si cessa"],
+      ["Di chi è la responsabilità", "Del datore di lavoro: deve garantire, con i suoi poteri organizzativi, che le ferie si possano fare davvero"]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 1.5 + i * 1.6;
+      card(s, M, y, 8.2, 1.42, i === 2 ? C.accent2 : (i === 1 ? "FFF1F2" : C.background2));
+      s.addText(p[i][0], { x: M + 0.25, y, w: 2.2, h: 1.42, fontSize: 17, bold: true, color: i === 1 ? RS : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: M + 2.5, y, w: 5.5, h: 1.42, fontSize: 14.5, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addText("Senza personale le ferie non si fanno: le assunzioni sono la condizione per non perderle.", { x: M, y: 6.3, w: 8.2, h: 0.4, fontSize: 14, bold: true, italic: true, color: RS, margin: 0, isTextBox: true });
+    s.addNotes("Il volantino è quello fatto per l'ULSS 6 Euganea, dove abbiamo chiesto un incontro urgente; la norma vale per tutto il pubblico impiego, quindi anche in AOUP. Posizione CISL FP: non basta richiamare direttori e coordinatori; servono iniziative organizzative concrete; distinguere ferie pregresse da ferie maturate dopo la norma; nessun diritto perso per difficoltà organizzative non imputabili ai lavoratori.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S8 });
+    s.addText("Cosa chiediamo", { placeholder: "title" });
+    s.addText("Il punto 8 in cinque richieste", { placeholder: "body" });
+    const cose = ["OSS di notte nei quattro reparti individuati, entro un anno", "Notte di 12 ore solo con accordo scritto e verifica a 6 mesi", "Vestizione e consegne al tavolo, non per ordine di servizio", "Un piano ferie che le renda davvero fruibili", "Assunzioni: l'unica flessibilità che non pesa su chi resta"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.65 + i * 1.16;
+      card(s, 8.1, y, 4.65, 0.98, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 0.98, fontSize: 15, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Richieste da confermare con Achille.");
+  }
+  slideDomande(S8, "Retention e benessere organizzativo").addNotes("Domande per l'assemblea dal dossier: preferisci il pomeriggio più corto o la notte più breve? Oggi riesci a fare una pausa di notte? 10 minuti di consegna bastano nel tuo reparto? Saresti favorevole a una sperimentazione a tempo, con verifica?");
+
+  // @@PUNTO9@@
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);
