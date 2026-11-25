@@ -120,6 +120,19 @@ RITAGLI.update({
     "ccnl-buoni-pasto": ("ccnl/ipotesi-ccnl-sanita-2025-2027_29-07-26.pdf", 85, ["della disciplina relativa a mensa e buoni pasto."], 40),
 })
 
+# Incentivi funzioni tecniche: proposta dell'Azienda (rev.5, 8/10/26) e proposta CISL (Rev 22)
+RITAGLI.update({
+    "inc-az-forniture": ("incentivi/regolamento-rev5-azienda-08-10-26.pdf", None, ["0,35% 0,75% 1,50%", "0,20% 0,40% 0,80%"], (145, 395)),
+    "inc-az-riduzioni": ("incentivi/regolamento-rev5-azienda-08-10-26.pdf", None, ["del 100% nel caso di ritardi superiori al 100% dei tempi originariamente previsti nel"], 110),
+    "inc-az-debito-orario": ("incentivi/regolamento-rev5-azienda-08-10-26.pdf", None, ["Costituisce in ogni caso presupposto del pagamento della relativa liquidazione l’assenza di debito"], 40),
+    "inc-az-31-luglio": ("incentivi/regolamento-rev5-azienda-08-10-26.pdf", None, ["Il pagamento dell’incentivo è disposto, entro il 31 luglio, dal Direttore dell’UOC Risorse Umane, fino"], 40),
+    "inc-cisl-scaglioni": ("incentivi/regolamento-V22.pdf", 14, ["Fino a € 250.000 1,00% 1,80%", "Da € 250.001 a € 750.000 0,70% 1,30%"], (75, 430)),
+    "inc-cisl-fittizie": ("incentivi/regolamento-V22.pdf", None, ["È fatto divieto di procedere a nomine formali o fittizie (ivi inclusa la designazione di"], 50),
+    "inc-cisl-30-giorni": ("incentivi/regolamento-V22.pdf", None, ["incentivi deve avvenire entro 30 giorni dall’emissione del certificato di"], 50),
+    "inc-cisl-onere-prova": ("incentivi/regolamento-V22.pdf", None, ["onere di dare espressa, puntuale e documentata evidenza dell'eventuale"], 50),
+    "inc-cisl-rsu": ("incentivi/regolamento-V22.pdf", None, ["Organizzazioni Sindacali firmatarie entro 30 giorni dalla trasmissione alla"], 50),
+})
+
 
 def trova(pagina, frase):
     """Rettangoli (in punti PDF) delle righe che compongono la frase."""

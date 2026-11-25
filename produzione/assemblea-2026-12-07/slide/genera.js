@@ -1145,6 +1145,190 @@ async function frontespizio(n, sezione) {
   slideDomande(S3, "Il sistema degli incarichi").addNotes("Spazio domande sul punto 3.");
 
 
+  // ------------------------------------------------ 6 · incentivi funzioni tecniche
+  const S6 = "6 · Incentivi funzioni tecniche";
+  const FAZ = "Regolamento incentivi · proposta dell'Azienda, rev.5 dell'8/10/2026";
+  const FCI = "Regolamento incentivi · proposta CISL FP, Rev 22";
+  const ROSSO = "C8102E";
+  // Fondo per le forniture: l'Azienda applica UNA aliquota a tutto l'importo, la CISL scaglioni progressivi.
+  const fondoAz = (v, liv) => { const t = [[221000, [0.35, 0.75, 1.5]], [750000, [0.2, 0.4, 0.8]], [2000000, [0.1, 0.2, 0.4]], [Infinity, [0.02, 0.05, 0.1]]];
+    return v * t.find(r => v <= r[0])[1][liv] / 100; };
+  const fondoCi = (v, al) => { const sc = [250000, 750000, 2000000, 10000000, Infinity]; let f = 0, da = 0;
+    for (let i = 0; i < sc.length && v > da; i++) { f += (Math.min(v, sc[i]) - da) * al[i] / 100; da = sc[i]; } return f; };
+  const G1 = [1, 0.7, 0.4, 0.2, 0.1];
+  const eur = n => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " €";
+  pres.addSection({ title: S6 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S6 });
+    s.addText("06", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("Incentivi per le funzioni tecniche", { placeholder: "title" });
+    s.addText("Il regolamento sull'art. 45 del Codice appalti: due proposte sul tavolo", { placeholder: "body" });
+    card(s, 9.2, 1.3, 3.5, 4.9, "3A0A10", { bordo: "E2001A" });
+    s.addText([{ text: "−44%", options: { fontSize: 66, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "di fondo se la fornitura passa da 220.000 a 230.000 €", options: { fontSize: 17, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "con le tabelle proposte dall'Azienda", options: { fontSize: 14, color: "F3D6DA" } }],
+      { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Chi riguarda: il personale tecnico e amministrativo che fa da RUP, DEC, direttore dei lavori, supporto e collaboratore nelle gare e nei contratti. Esempio: fornitura da 220.000 € con complessità media = 1.650 €; da 230.000 € = 920 €.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Due testi a confronto");
+    s.addText("Stessa legge, due regolamenti molto diversi", { placeholder: "title" });
+    const righe = [
+      ["Come si calcola", "Una aliquota su tutto l'importo: oltre ogni soglia il fondo crolla", "Scaglioni progressivi, come l'IRPEF: il fondo cresce sempre"],
+      ["Complessità", "3 livelli scelti dal RUP o dal Direttore", "2 gradi oggettivi, motivati e non modificabili dopo"],
+      ["Quando paghi", "Entro il 31 luglio dell'anno dopo, e solo senza debito orario", "Entro 30 giorni dal certificato, con silenzio-assenso"],
+      ["Riduzioni", "Fino al 100% per i ritardi", "Massimo 50%, e la prova tocca all'Azienda"],
+      ["Trasparenza", "Gruppo di controllo interno", "Relazione annuale a RSU e sindacati"],
+    ];
+    const x0 = M, cl = 2.4, cw = (W - 2 * M - cl - 0.3) / 2, y0 = 1.5, rh = 0.98;
+    card(s, x0 + cl + 0.15, y0 - 0.1, cw - 0.1, 0.55, ROSSO);
+    card(s, x0 + cl + 0.25 + cw, y0 - 0.1, cw - 0.1, 0.55, HEX.accent1);
+    s.addText("Proposta dell'Azienda", { x: x0 + cl + 0.15, y: y0 - 0.1, w: cw - 0.1, h: 0.55, fontSize: 17, bold: true, color: "FFFFFF", align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addText("Proposta CISL FP", { x: x0 + cl + 0.25 + cw, y: y0 - 0.1, w: cw - 0.1, h: 0.55, fontSize: 17, bold: true, color: "FFFFFF", align: "center", valign: "middle", margin: 0, isTextBox: true });
+    for (let i = 0; i < righe.length; i++) {
+      const y = y0 + 0.6 + i * rh;
+      s.addText(righe[i][0], { x: x0, y, w: cl, h: rh - 0.12, fontSize: 16, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+      card(s, x0 + cl + 0.15, y, cw - 0.1, rh - 0.12, "FFF1F2");
+      card(s, x0 + cl + 0.25 + cw, y, cw - 0.1, rh - 0.12, C.background2);
+      s.addText(righe[i][1], { x: x0 + cl + 0.3, y, w: cw - 0.4, h: rh - 0.12, fontSize: 15, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(righe[i][2], { x: x0 + cl + 0.4 + cw, y, w: cw - 0.4, h: rh - 0.12, fontSize: 15, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Azienda: rev.5 inviata alle OO.SS. l'8/10/2026, 14 articoli. CISL: bozza Rev 22, 12 articoli. Dettaglio articolo per articolo in documenti/incentivi/ANALISI-COMPARATIVA.md.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Forniture · fondo incentivi in euro", ROSSO);
+    s.addText("Più grande è la gara, meno incentivo", { placeholder: "title" });
+    const imp = []; for (let v = 100000; v <= 2500000; v += 25000) imp.push(v);
+    const lab = imp.map(v => v >= 1000000 ? (v / 1e6).toLocaleString("it-IT") + " mln" : (v / 1000) + "k");
+    s.addChart(pres.charts.LINE, [
+      { name: "Azienda · complessità media", labels: lab, values: imp.map(v => Math.round(fondoAz(v, 1))) },
+      { name: "CISL · grado 1 (il più basso)", labels: lab, values: imp.map(v => Math.round(fondoCi(v, G1))) }], {
+      x: M, y: 1.45, w: 8.3, h: 5.2, chartColors: [ROSSO, HEX.accent1], lineSize: 3, lineDataSymbol: "none",
+      catAxisLabelFrequency: 8, catAxisLabelFontSize: 12, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt",
+      valAxisLabelFontSize: 12, valAxisLabelColor: HEX.dk1, valAxisLabelFormatCode: "#,##0 €", valAxisLabelFontFace: "+mn-lt",
+      valGridLine: { color: "E3EEE6", size: 0.5 }, catGridLine: { style: "none" },
+      showLegend: true, legendPos: "t", legendFontSize: 13, legendFontFace: "+mn-lt", legendColor: HEX.dk1 });
+    const es = [[220000, "220.000 €"], [230000, "230.000 €"], [760000, "760.000 €"], [2100000, "2,1 milioni"]];
+    s.addText("Lo stesso appalto, i due calcoli", { x: 9.2, y: 1.5, w: 3.55, h: 0.4, fontSize: 14, bold: true, color: C.text2, margin: 0, isTextBox: true });
+    for (let i = 0; i < es.length; i++) {
+      const y = 2.0 + i * 1.0;
+      card(s, 9.2, y, 3.55, 0.88, i % 2 ? "FFF1F2" : C.background2);
+      s.addText(es[i][1], { x: 9.35, y, w: 1.3, h: 0.88, fontSize: 14, bold: true, color: C.text2, valign: "middle", margin: 0, isTextBox: true });
+      s.addText([{ text: eur(fondoAz(es[i][0], 1)), options: { color: ROSSO, bold: true, breakLine: true } },
+        { text: eur(fondoCi(es[i][0], G1)), options: { color: HEX.accent1, bold: true } }],
+        { x: 10.65, y, w: 1.95, h: 0.88, fontSize: 16, align: "right", valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addText("Una fornitura da 2,1 milioni prende meno di una da 220.000 €.", { x: 9.2, y: 6.05, w: 3.55, h: 0.6, fontSize: 13, italic: true, color: ROSSO, margin: 0, isTextBox: true });
+    s.addNotes("Calcolo sulle tabelle C (forniture) dei due testi, soglia europea 221.000 €. Azienda media: 0,75% fino alla soglia, 0,40% fino a 750.000 €, 0,20% fino a 2 mln, 0,05% oltre, applicata a TUTTO l'importo. CISL grado 1: 1% fino a 250.000, 0,7% fino a 750.000, 0,4% fino a 2 mln, 0,2% fino a 10 mln, 0,1% oltre, ognuna sulla sua fascia. Onestà: su alcuni lavori medio-grandi la 'complessità elevata' dell'Azienda rende più della CISL (lavori da 2 mln: 30.000 € contro 23.125 €) — ma quel livello lo decide il RUP o il Direttore.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Le tabelle originali");
+    s.addText("Una aliquota sola contro gli scaglioni", { placeholder: "title" });
+    s.addText("AZIENDA", { x: M, y: 1.4, w: 5.8, h: 0.35, fontSize: 14, bold: true, color: ROSSO, charSpacing: 3, margin: 0, isTextBox: true });
+    await foglio(s, "inc-az-forniture", M + 0.08, 1.9, 5.8, FAZ + " · Tabella C", { maxH: 3.9 });
+    s.addText("CISL FP", { x: 6.95, y: 1.4, w: 5.8, h: 0.35, fontSize: 14, bold: true, color: HEX.accent1, charSpacing: 3, margin: 0, isTextBox: true });
+    await foglio(s, "inc-cisl-scaglioni", 7.03, 1.9, 5.6, FCI + " · Tabella C", { maxH: 3.9 });
+    card(s, M, 6.1, W - 2 * M, 0.6, C.accent2);
+    s.addText("Con gli scaglioni ogni euro in più porta incentivo in più: la fascia sopra la soglia non riduce quella sotto.",
+      { x: M + 0.25, y: 6.1, w: W - 2 * M - 0.5, h: 0.6, fontSize: 15, bold: true, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("A sinistra la tabella forniture dell'Azienda (evidenziate le prime due righe: 0,35/0,75/1,50% fino alla soglia europea, poi 0,20/0,40/0,80%). A destra la tabella CISL a scaglioni.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Chi lavora davvero");
+    s.addText("Il fondo va a chi segue il contratto", { placeholder: "title" });
+    const p = [["40%", "al Direttore dei lavori con il suo ufficio (Azienda: 20% + 15%)"], ["40%", "al DEC con i collaboratori nelle forniture (Azienda: 20% + 15%)"],
+      ["60%", "minimo ai collaboratori sulla quota di ogni funzione"], ["15%", "massimo alla dirigenza nella fase di esecuzione"]];
+    for (let i = 0; i < p.length; i++) {
+      const y = 1.55 + i * 1.15;
+      card(s, M, y, 6.0, 1.0, i % 2 ? "FFFFFF" : C.background2, { bordo: i % 2 ? "D9EADD" : undefined });
+      s.addText(p[i][0], { x: M + 0.2, y, w: 1.5, h: 1.0, fontSize: 32, bold: true, color: HEX.accent1, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: M + 1.75, y, w: 4.1, h: 1.0, fontSize: 15, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    await foglio(s, "inc-cisl-fittizie", 7.15, 1.7, 5.5, FCI + " · art. 3");
+    card(s, 7.07, 3.9, 5.66, 2.4, HEX.dk2);
+    s.addText([{ text: "Basta nomine di carta", options: { fontSize: 20, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "Il DEC deve essere chi segue davvero il contratto sul campo. E una nomina arrivata in ritardo non fa perdere l'incentivo a chi il lavoro l'ha fatto.", options: { fontSize: 15, color: "FFFFFF" } }],
+      { x: 7.3, y: 4.0, w: 5.2, h: 2.2, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Ripartizione forniture CISL: supporto 18%, DEC e collaboratori 40%, flussi informativi 5%, RUP 13%. Azienda: supporto 14%, DEC 20%, collaboratori 15%, RUP 11%. Nella proposta CISL c'è anche un registro delle attività e il cumulo automatico delle quote per chi svolge più funzioni; l'assicurazione grava sul fondo solo per progettisti e verificatori.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Quando arrivano i soldi");
+    s.addText("Un anno e mezzo di attesa, o trenta giorni", { placeholder: "title" });
+    s.addText("AZIENDA", { x: M, y: 1.4, w: 5.8, h: 0.35, fontSize: 14, bold: true, color: ROSSO, charSpacing: 3, margin: 0, isTextBox: true });
+    await foglio(s, "inc-az-31-luglio", M + 0.08, 1.9, 5.8, FAZ + " · art. 9");
+    await foglio(s, "inc-az-debito-orario", M + 0.08, 3.4, 5.8, FAZ + " · art. 9");
+    card(s, M, 4.95, 5.95, 1.55, "FFF1F2", { bordo: ROSSO });
+    s.addText([{ text: "31 luglio dell'anno dopo", options: { bold: true, color: ROSSO, fontSize: 18, breakLine: true } },
+      { text: "dopo il gruppo di controllo, e niente incentivo a chi ha debito orario: anche se il lavoro è fatto.", options: { fontSize: 14, color: C.text1 } }],
+      { x: M + 0.2, y: 4.95, w: 5.55, h: 1.55, valign: "middle", margin: 0, isTextBox: true });
+    s.addText("CISL FP", { x: 6.95, y: 1.4, w: 5.8, h: 0.35, fontSize: 14, bold: true, color: HEX.accent1, charSpacing: 3, margin: 0, isTextBox: true });
+    await foglio(s, "inc-cisl-30-giorni", 7.03, 1.9, 5.6, FCI + " · art. 8");
+    const t = [["30 gg", "verifica"], ["10 gg", "nota"], ["10 gg", "autorizzazione o silenzio-assenso"], ["30 gg", "pagamento"]];
+    for (let i = 0; i < t.length; i++) {
+      const x = 6.95 + i * 1.47;
+      card(s, x, 3.55, 1.37, 2.95, i === 3 ? HEX.accent1 : C.background2);
+      s.addText(t[i][0], { x, y: 3.7, w: 1.37, h: 0.8, fontSize: 24, bold: true, color: i === 3 ? "FFFFFF" : HEX.accent1, align: "center", margin: 0, isTextBox: true });
+      s.addText(t[i][1], { x: x + 0.08, y: 4.55, w: 1.21, h: 1.8, fontSize: 13, color: i === 3 ? "FFFFFF" : C.text1, align: "center", valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("CISL: pagamento per fasi (circa 45% / 52-53% / 2-3%), con termini certi e silenzio-assenso sull'autorizzazione. Azienda: pagamento disposto dalla UOC Risorse Umane entro il 31 luglio, dopo il gruppo di controllo interno (art. 13); presupposto l'assenza di debito orario.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Se il contratto va in ritardo");
+    s.addText("Chi paga i ritardi che non dipendono da te?", { placeholder: "title" });
+    numero(s, "100%", "di taglio nella proposta dell'Azienda, se il ritardo supera il doppio dei tempi previsti", M, 1.4, 3.0, { colore: ROSSO, size: 60 });
+    numero(s, "50%", "il taglio massimo nella proposta CISL, con la prova a carico dell'Azienda", M + 3.2, 1.4, 3.0, { size: 60 });
+    await foglio(s, "inc-az-riduzioni", M + 0.08, 3.75, 5.9, FAZ + " · art. 10", { maxH: 2.6 });
+    await foglio(s, "inc-cisl-onere-prova", 7.03, 1.7, 5.6, FCI + " · art. 10");
+    card(s, 6.95, 3.55, 5.75, 2.95, C.background2);
+    s.addText([{ text: "Nella proposta CISL", options: { bold: true, color: HEX.accent1, fontSize: 17, breakLine: true } },
+      { text: "7 giorni per rispondere alla contestazione", options: { bullet: true, breakLine: true } },
+      { text: "nessun taglio per colpe dell'impresa, varianti o forza maggiore", options: { bullet: true, breakLine: true } },
+      { text: "regola chiara sugli aumenti di costo (comma 2-bis)", options: { bullet: true } }],
+      { x: 7.15, y: 3.7, w: 5.35, h: 2.65, fontSize: 15, color: C.text1, valign: "top", margin: 0, isTextBox: true, paraSpaceAfter: 8 });
+    s.addNotes("Azienda art. 10: riduzioni a scaglioni fino all'80% (ritardi tra 71% e 100%) e al 100% (oltre il 100% dei tempi previsti). CISL art. 10: massimo 50%, onere di dare evidenza documentata a carico dell'Azienda, contraddittorio di 7 giorni, esclusioni per fatti dell'operatore economico.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
+    kicker(s, "Trasparenza e risorse");
+    s.addText("I soldi degli incentivi restano dei lavoratori", { placeholder: "title" });
+    const c3 = [["FaChartBar", "Relazione annuale", "a RSU e sindacati entro 30 giorni: chi ha preso cosa, su quale appalto"],
+      ["FaLock", "Mai economie", "le risorse non usate restano vincolate agli incentivi, non tornano al bilancio"],
+      ["FaHistory", "Arretrati dal 1/7/2023", "l'Azienda deve metterli a disposizione. Nella sua proposta: «compatibilmente con l'effettiva disponibilità»"]];
+    for (let i = 0; i < 3; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 1.55, 3.85, 2.75, C.background2);
+      await tondo(s, c3[i][0], x + 0.25, 1.75, 0.7, HEX.accent1);
+      s.addText(c3[i][1], { x: x + 0.25, y: 2.55, w: 3.4, h: 0.5, fontSize: 19, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(c3[i][2], { x: x + 0.25, y: 3.05, w: 3.4, h: 1.2, fontSize: 14, color: C.text1, margin: 0, valign: "top", isTextBox: true });
+    }
+    await foglio(s, "inc-cisl-rsu", M + 0.08, 4.65, 6.6, FCI + " · art. 9");
+    card(s, 7.55, 4.55, 5.2, 1.95, "FFF1F2", { bordo: ROSSO });
+    s.addText([{ text: "Nella proposta dell'Azienda", options: { bold: true, color: ROSSO, breakLine: true } },
+      { text: "un gruppo di controllo interno e un software: nessun resoconto ai rappresentanti dei lavoratori.", options: {} }],
+      { x: 7.75, y: 4.55, w: 4.8, h: 1.95, fontSize: 15, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Azienda: art. 13 (gruppo di controllo interno) e art. 14 (utilizzo del software aziendale). CISL: relazione annuale, risorse non spese mai in economia, arretrati dal 1° luglio 2023 (data di efficacia del D.lgs. 36/2023) a carico dell'Azienda.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S6 });
+    s.addText("Cosa chiediamo", { placeholder: "title" });
+    s.addText("Il punto 6 in cinque richieste", { placeholder: "body" });
+    const cose = ["Scaglioni progressivi: il fondo non scende mai", "Complessità oggettiva, decisa all'inizio", "Pagamento in 30 giorni, senza vincolo del debito orario", "Tagli al massimo del 50%, prova a carico dell'Azienda", "Relazione a RSU e sindacati, arretrati dal 2023"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.65 + i * 1.16;
+      card(s, 8.1, y, 4.65, 0.98, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 0.98, fontSize: 15, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Richieste tratte dalla proposta CISL Rev 22. Da chiarire con Achille: stato della trattativa e significato della nota in fondo alla rev.5 («Non è specificato la quota 80% e 20%, le commesse di riferimento…»).");
+  }
+  slideDomande(S6, "Incentivi per le funzioni tecniche").addNotes("Spazio domande sul punto 6.");
+
+
   // ------------------------------------------------ 7 · andamenti occupazionali
   const S7 = "7 · Andamenti occupazionali";
   pres.addSection({ title: S7 });
