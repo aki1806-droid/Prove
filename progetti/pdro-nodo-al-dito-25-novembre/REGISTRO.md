@@ -21,3 +21,11 @@ Pacchetto V7_UN_NODO_AL_DITO (parte 1 testi e cartelli, parte 2 immagini e clip)
 - Musica ElevenLabs eleven_music_v2 edV30E4AdJuPc8OHjGVh (pianoforte, violoncello da 47 s): −10 dB senza voce, −20 dB sotto
   la voce, mezzo secondo di silenzio a 46,45 s; uscita a −16 LUFS.
 - TESTO_POST.md scritto da Claude con le frasi della voce, il 1522 e i delegati dei tre territori: da far rivedere ad Achille.
+
+## Uscite (25/11/2026)
+- 16:9 1920x1080 e 9:16 1080x1920, 76,0 s, 25 fps, −15,4 LUFS. Copie d'invio da 28 MB mandate in chat.
+- Asset HeyGen (account 1): 16:9 https://resource2.heygen.ai/video/260033e933124ac9b175ccb99e271239/original.mp4 ·
+  9:16 https://resource2.heygen.ai/video/2d52e922f1814c32b898b8166ee4d225/original.mp4
+- Correzioni dopo la prima prova: foto del nodo scurita, fascia prugna dietro sottotitoli ed etichetta (9:16), etichetta a
+  sinistra sul prugna nel 16:9.
+- Robin: in attesa dell'OK di Achille (oggi).

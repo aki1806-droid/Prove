@@ -16,8 +16,9 @@ const css = `html,body{margin:0;width:${W}px;height:${H}px;background:transparen
   text-shadow:0 2px 6px rgba(0,0,0,.85),0 0 26px rgba(20,10,22,.85)}
 .l{position:absolute;left:0;${F === '16x9' ? 'width:620px;top:470px' : 'right:0;top:330px'};text-align:center;font-family:'Work Sans';font-weight:700;
   font-size:${F === '16x9' ? 30 : 34}px;letter-spacing:12px;color:#F4EDE2;text-shadow:0 2px 14px rgba(0,0,0,.7)}
+.l b{display:inline-block;padding:14px 26px 16px 38px;border-radius:14px;background:${F === '9x16' ? 'rgba(28,15,31,.62)' : 'transparent'};font-weight:700}
 .l i{display:block;width:120px;height:3px;background:#B21E2C;margin:18px auto 0;border-radius:2px}`;
-const pagine = [['etichetta.png', '<div class="l">25 NOVEMBRE<i></i></div>']];
+const pagine = [['etichetta.png', '<div class="l"><b>25 NOVEMBRE<i></i></b></div>']];
 srt.forEach((t, i) => pagine.push([`sub_${String(i + 1).padStart(2, '0')}.png`, `<div class="s"><span>${t}</span></div>`]));
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: W, height: H } });
