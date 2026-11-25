@@ -229,7 +229,7 @@ const ACCORDI = {
     "10% riservato a chi aspetta da 10 o 20 anni"]],
   "ccnl": ["CCNL Sanità pubblica 2025-2027", "29 luglio 2026", "Ipotesi di contratto", [
     "Aumenti in tre tranche: 2025, 2026, 2027",
-    "Specificità infermieristica e tutela del malato quasi raddoppiate dal 2026",
+    "Specificità infermieristica e tutela del malato più che raddoppiate dal 2026",
     "Indennità durante le ferie, aggressioni, intelligenza artificiale"],
     [["ARAN", "sì"], ["CISL FP", "sì"], ["FP CGIL", "sì"], ["UIL FPL", "sì"], ["FIALS", "sì"], ["Nursind, Nursing Up", "sì"]]],
   "19": ["Dichiarazione congiunta", "23 dicembre 2025", "Dichiarazione congiunta", [
@@ -241,7 +241,7 @@ const ACCORDI = {
 async function frontespizio(n, sezione) {
   const [titolo, data, tipo, cosa, firmeProprie] = ACCORDI[n];
   const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: sezione });
-  kicker(s, "L'accordo · " + tipo + " · " + data);
+  kicker(s, "Il documento · " + tipo + " · " + data);
   s.addText(titolo, { x: M, y: 0.45, w: 7.4, h: 1.2, fontSize: 30, bold: true, color: C.text2, valign: "top", fontFace: THEME.headFontFace,
     margin: 0, isTextBox: true, objectName: "titolo-accordo" });
   // la pagina vera, a destra
@@ -317,7 +317,7 @@ async function videoSlide(sez, nome, titolo) {
     s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: "04351C" }, line: { type: "none" } });
     s.addText("Video in preparazione: " + nome + ".mp4", { x, y, w, h, fontSize: 20, color: "B9D3C3", align: "center", valign: "middle", margin: 0, isTextBox: true });
   }
-  s.addNotes("Mini video «" + titolo + "» (voce Luca Ward, sottotitoli in sovraimpressione). File: video/mini/" + nome + ".mp4. Se il video non parte dalla presentazione, aprire il file direttamente.");
+  s.addNotes("Mini video «" + titolo + "» (voce narrante, sottotitoli in sovraimpressione). File: video/mini/" + nome + ".mp4. Se il video non parte dalla presentazione, aprire il file direttamente.");
   return s;
 }
 
@@ -479,7 +479,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     card(s, M, 4.45, W - 2 * M, 1.45, "3A0A10", { bordo: "E2001A" });
     s.addText([{ text: "Infermieri: in più ", options: { color: "FFFFFF" } }, { text: "1.027 €", options: { color: HEX.accent2, bold: true } },
       { text: " di arretrati sulla specificità infermieristica. ", options: { color: "FFFFFF" } },
-      { text: "Si può superare i 2.000 € in totale.", options: { color: HEX.accent2, bold: true } }],
+      { text: "Si possono superare i 2.000 € in totale.", options: { color: HEX.accent2, bold: true } }],
       { x: M + 0.3, y: 4.5, w: W - 2 * M - 0.6, h: 1.35, fontSize: 20, valign: "middle", margin: 0, isTextBox: true });
     s.addText("Stima CISL FP su tabellare 2025 × 13 e 2026 × 11 mensilità, meno l'anticipo (IVC) già in busta, con firma definitiva entro il 1° dicembre. Va ricalcolata caso per caso.",
       { x: M, y: 6.1, w: W - 2 * M, h: 0.55, fontSize: 13, italic: true, color: "B9D3C3", margin: 0, isTextBox: true });
@@ -488,7 +488,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
     kicker(s, "Art. 41 e 42 · dal 1° gennaio 2026");
-    s.addText("Le indennità di chi assiste quasi raddoppiano", { placeholder: "title" });
+    s.addText("Le indennità di chi assiste più che raddoppiano", { placeholder: "title" });
     const r = [["Infermieri", "87,79", "181,14", HEX.accent3], ["Ostetriche", "87,79", "181,14", HEX.accent3],
       ["Tecnici, riabilitazione, prevenzione", "51,97", "121,87", HEX.accent1], ["OSS senior", "46,40", "108,80", HEX.accent1], ["OSS", "43,51", "102,01", HEX.accent1]];
     s.addText([{ text: "prima", options: { color: "7A8B81" } }], { x: M + 3.6, y: 1.5, w: 1.3, h: 0.35, fontSize: 13, bold: true, align: "center", margin: 0, isTextBox: true });
@@ -609,7 +609,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       ["FaCoins", "+221 € a testa nel fondo", "della produttività dal 2027: più soldi per la contrattazione in AOUP"],
       ["FaProcedures", "5 € al giorno", "nelle UO disagiate: sale operatorie, intensive, emergenza, infettive, dialisi"],
       ["FaFileInvoice", "3 € anche agli amministrativi", "di Risorse Umane, Bilancio e Provveditorato"],
-      ["FaLaptopHouse", "Lavoro agile per tutti", "anche a tempo determinato e part time, più giorni per chi ha tutele"],
+      ["FaLaptopHouse", "Lavoro agile più ampio", "anche a tempo determinato e part time, più giorni per chi ha tutele"],
       ["FaUtensils", "Buoni pasto", "da rivedere nel prossimo contratto: intanto la nostra vertenza va avanti"]];
     for (let i = 0; i < n.length; i++) {
       const x = M + (i % 3) * 4.1, y = 1.55 + Math.floor(i / 3) * 2.65;
@@ -800,7 +800,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       showLegend: false, showTitle: false, barGapWidthPct: 45,
     });
     card(s, 9.2, 1.6, 3.5, 2.35, C.text2);
-    s.addText([{ text: "1.772.674 €", options: { fontSize: 32, bold: true, color: HEX.accent2, breakLine: true } },
+    s.addText([{ text: "1.597.677 €", options: { fontSize: 32, bold: true, color: HEX.accent2, breakLine: true } },
       { text: "per progetti nel 2026", options: { fontSize: 16, color: "FFFFFF" } }],
       { x: 9.4, y: 1.75, w: 3.1, h: 2.05, margin: 0, valign: "middle", isTextBox: true });
     testo(s, [
@@ -1010,7 +1010,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       ["FaUsers", "Tavolo permanente sul personale", "ogni due mesi: assunzioni, cessazioni, piano assunzioni"],
       ["FaProjectDiagram", "Tavolo permanente sulle riorganizzazioni", "ogni riorganizzazione diventa un progetto con fasi e verifiche"],
       ["FaSmile", "Tavolo permanente sul benessere organizzativo", "con l'Organismo di Promozione e Innovazione"],
-      ["FaMoon", "OSS nel turno di notte delle Chirurgie", "cronoprogramma in 12-18 mesi: la sperimentazione H24 è partita"],
+      ["FaMoon", "OSS nel turno di notte delle Chirurgie", "cronoprogramma in 12-18 mesi per la sperimentazione H24"],
       ["FaUtensils", "Pasto nel turno di notte e festivo", "sperimentazione in due unità operative"],
       ["FaIdBadge", "Job description e mappatura delle competenze", "per valorizzare chi ha master e competenze avanzate"],
     ];
@@ -1489,7 +1489,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     for (let i = 0; i < 3; i++) qr(s, q[i][0], 7.0 + i * 1.95, 1.7, 1.65, q[i][1].split(" ")[0] === "Indennità" ? "Ferie" : (i === 0 ? "Festivo" : "Buoni pasto"));
     card(s, 6.9, 4.25, 5.85, 2.25, HEX.dk2);
     s.addText([{ text: "Tre moduli, uno per vertenza.", options: { bold: true, color: HEX.accent2, fontSize: 18, breakLine: true } },
-      { text: "Ti riguardano tutte? Compilali tutti e tre. Servizio gratuito, ti ricontattiamo noi. Più siamo, più contiamo.", options: { color: "FFFFFF", fontSize: 15 } }],
+      { text: "Ti riguardano tutte? Compilali tutti e tre. Gratuito per gli iscritti, ti ricontattiamo noi. Più siamo, più contiamo.", options: { color: "FFFFFF", fontSize: 15 } }],
       { x: 7.1, y: 4.3, w: 5.45, h: 2.15, valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Lasciare questa slide a schermo un minuto: chi ha il telefono in mano compila adesso. Moduli: ug983Z (festivo), 9AYmxv (ferie), kkwFYZ (buoni pasto) su form.getformly.com/f/");
   }
@@ -1498,9 +1498,9 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S5 });
     kicker(s, "Il Bugiardino · dati alla mano", HEX.accent2);
     s.addText("In questi giorni si sono sentite cose inesatte", { placeholder: "title" });
-    const b = [["«I progetti pagati con la premialità tolgono soldi a progressioni e DEP»", "FALSO", "Sono cassetti diversi: i DEP stanno nel fondo incarichi e progressioni, i progetti nella premialità. Aprire un cassetto non svuota l'altro."],
+    const b = [["«I progetti pagati con la premialità tolgono soldi a progressioni e DEP»", "FALSO", "I progetti 2026 usano il residuo 2025, una tantum. I DEP sono aumenti per sempre: l'accordo del 25/9 calcola il massimo disponibile in 618.004 € e ne sono stati messi 620.000."],
       ["«La CISL FP ha detto che il contratto è già firmato»", "FALSO", "Abbiamo sempre parlato di attesa. Semmai c'era chi prometteva gli arretrati a novembre. Novembre è arrivato, gli arretrati no."],
-      ["«Sui DEP 2026 si è messo poco»", "INESATTO", "620.000 €: la somma massima possibile. Oltre 1,4 milioni di progressioni in due anni. Di più avrebbe voluto dire meno produttività per tutti."]];
+      ["«Sui DEP 2026 si è messo poco»", "INESATTO", "620.000 € nel 2026 e 820.000 € nel 2025: oltre 1,4 milioni in due anni. Il limite lo fanno le regole del fondo, non la volontà di chi firma."]];
     for (let i = 0; i < 3; i++) {
       const x = M + i * 4.1;
       card(s, x, 1.55, 3.85, 5.0, "13301F", { bordo: "1F4A31" });
@@ -1511,7 +1511,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       s.addText("I FATTI", { x: x + 0.25, y: 4.1, w: 3.4, h: 0.3, fontSize: 10, bold: true, color: HEX.accent6, charSpacing: 2, margin: 0, isTextBox: true });
       s.addText(b[i][2], { x: x + 0.25, y: 4.4, w: 3.4, h: 2.05, fontSize: 13.5, color: "E4F2E8", valign: "top", margin: 0, isTextBox: true });
     }
-    s.addNotes("Dalla bozza SendFox «Il Bugiardino – Dati alla mano». Tono: nessun nome, nessuna sigla. «Non vi chiediamo di credere alla nostra verità: vi chiediamo di verificarla, anche con un accesso agli atti.» Contratto: firma definitiva presumibilmente a dicembre 2026, arretrati previsti a gennaio 2027. DEP: la produttività è scesa per una legge regionale che calcola alcune risorse variabili sul numero di dipendenti previsti; nel 2024 c'era chi alle progressioni aveva riservato un anno vuoto.");
+    s.addNotes("Dalla bozza SendFox «Il Bugiardino – Dati alla mano». Tono: nessun nome, nessuna sigla. «Non vi chiediamo di credere alla nostra verità: vi chiediamo di verificarla, anche con un accesso agli atti.» Contratto: firma definitiva presumibilmente a dicembre 2026, arretrati previsti a gennaio 2027. DEP: nell'accordo del 25/9/2026 il residuo del fondo è 1.464.714 €, meno 846.710 € di risorse variabili (art. 11 D.L. 35/2019) che non possono pagare aumenti permanenti: disponibile 618.004 €, stanziati 620.000 €. I progetti 2026 (1.040.000 €) usano il residuo 2025 del fondo incarichi, una tantum (allegato 2 dell'accordo del 15/4/2026).");
   }
   {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S5 });
@@ -1528,7 +1528,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
   const FCI = "Regolamento incentivi · proposta CISL FP, Rev 22";
   const ROSSO = "C8102E";
   // Fondo per le forniture: l'Azienda applica UNA aliquota a tutto l'importo, la CISL scaglioni progressivi.
-  const fondoAz = (v, liv) => { const t = [[221000, [0.35, 0.75, 1.5]], [750000, [0.2, 0.4, 0.8]], [2000000, [0.1, 0.2, 0.4]], [Infinity, [0.02, 0.05, 0.1]]];
+  const fondoAz = (v, liv) => { const t = [[216000, [0.35, 0.75, 1.5]], [750000, [0.2, 0.4, 0.8]], [2000000, [0.1, 0.2, 0.4]], [Infinity, [0.02, 0.05, 0.1]]];
     return v * t.find(r => v <= r[0])[1][liv] / 100; };
   const fondoCi = (v, al) => { const sc = [250000, 750000, 2000000, 10000000, Infinity]; let f = 0, da = 0;
     for (let i = 0; i < sc.length && v > da; i++) { f += (Math.min(v, sc[i]) - da) * al[i] / 100; da = sc[i]; } return f; };
@@ -1541,11 +1541,11 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addText("Incentivi per le funzioni tecniche", { placeholder: "title" });
     s.addText("Il regolamento sull'art. 45 del Codice appalti: due proposte sul tavolo", { placeholder: "body" });
     card(s, 9.2, 1.3, 3.5, 4.9, "3A0A10", { bordo: "E2001A" });
-    s.addText([{ text: "−44%", options: { fontSize: 66, bold: true, color: HEX.accent2, breakLine: true } },
-      { text: "di fondo se la fornitura passa da 220.000 a 230.000 €", options: { fontSize: 17, bold: true, color: "FFFFFF", breakLine: true } },
+    s.addText([{ text: "−45%", options: { fontSize: 66, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "di fondo se la fornitura passa da 215.000 a 220.000 €", options: { fontSize: 17, bold: true, color: "FFFFFF", breakLine: true } },
       { text: "con le tabelle proposte dall'Azienda", options: { fontSize: 14, color: "F3D6DA" } }],
       { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
-    s.addNotes("Chi riguarda: il personale tecnico e amministrativo che fa da RUP, DEC, direttore dei lavori, supporto e collaboratore nelle gare e nei contratti. Esempio: fornitura da 220.000 € con complessità media = 1.650 €; da 230.000 € = 920 €.");
+    s.addNotes("Chi riguarda: il personale tecnico e amministrativo che fa da RUP, DEC, direttore dei lavori, supporto e collaboratore nelle gare e nei contratti. Esempio con la soglia europea 2026-2027 di 216.000 € per forniture e servizi (Reg. UE 2025/2152): fornitura da 215.000 € con complessità media = 1.612,50 €; da 220.000 € = 880 € (−45%).");
   }
   await fotoPiena(S6, "07-tecnici", "Anche chi fa funzionare l'ospedale va riconosciuto.", "Il regolamento degli incentivi per le funzioni tecniche");
   await videoSlide(S6, "06-incentivi", "Incentivi tecnici: due regolamenti a confronto");
@@ -1556,7 +1556,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const righe = [
       ["Come si calcola", "Una aliquota su tutto l'importo: oltre ogni soglia il fondo crolla", "Scaglioni progressivi, come l'IRPEF: il fondo cresce sempre"],
       ["Complessità", "3 livelli scelti dal RUP o dal Direttore", "2 gradi oggettivi, motivati e non modificabili dopo"],
-      ["Quando paghi", "Entro il 31 luglio dell'anno dopo, e solo senza debito orario", "Entro 30 giorni dal certificato, con silenzio-assenso"],
+      ["Quando si viene pagati", "Entro il 31 luglio dell'anno dopo, e solo senza debito orario", "Entro 30 giorni dal certificato, con silenzio-assenso"],
       ["Riduzioni", "Fino al 100% per i ritardi", "Massimo 50%, e la prova tocca all'Azienda"],
       ["Trasparenza", "Gruppo di controllo interno", "Relazione annuale a RSU e sindacati"],
     ];
@@ -1589,7 +1589,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       valAxisLabelFontSize: 12, valAxisLabelColor: HEX.dk1, valAxisLabelFormatCode: "#,##0 €", valAxisLabelFontFace: "+mn-lt",
       valGridLine: { color: "E3EEE6", size: 0.5 }, catGridLine: { style: "none" },
       showLegend: true, legendPos: "t", legendFontSize: 13, legendFontFace: "+mn-lt", legendColor: HEX.dk1 });
-    const es = [[220000, "220.000 €"], [230000, "230.000 €"], [760000, "760.000 €"], [2100000, "2,1 milioni"]];
+    const es = [[215000, "215.000 €"], [220000, "220.000 €"], [760000, "760.000 €"], [2100000, "2,1 milioni"]];
     s.addText("Lo stesso appalto, i due calcoli", { x: 9.2, y: 1.5, w: 3.55, h: 0.4, fontSize: 14, bold: true, color: C.text2, margin: 0, isTextBox: true });
     for (let i = 0; i < es.length; i++) {
       const y = 2.0 + i * 1.0;
@@ -1599,8 +1599,8 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
         { text: eur(fondoCi(es[i][0], G1)), options: { color: HEX.accent1, bold: true } }],
         { x: 10.65, y, w: 1.95, h: 0.88, fontSize: 16, align: "right", valign: "middle", margin: 0, isTextBox: true });
     }
-    s.addText("Una fornitura da 2,1 milioni prende meno di una da 220.000 €.", { x: 9.2, y: 6.05, w: 3.55, h: 0.6, fontSize: 13, italic: true, color: ROSSO, margin: 0, isTextBox: true });
-    s.addNotes("Calcolo sulle tabelle C (forniture) dei due testi, soglia europea 221.000 €. Azienda media: 0,75% fino alla soglia, 0,40% fino a 750.000 €, 0,20% fino a 2 mln, 0,05% oltre, applicata a TUTTO l'importo. CISL grado 1: 1% fino a 250.000, 0,7% fino a 750.000, 0,4% fino a 2 mln, 0,2% fino a 10 mln, 0,1% oltre, ognuna sulla sua fascia. Onestà: su alcuni lavori medio-grandi la 'complessità elevata' dell'Azienda rende più della CISL (lavori da 2 mln: 30.000 € contro 23.125 €) — ma quel livello lo decide il RUP o il Direttore.");
+    s.addText("Una fornitura da 2,1 milioni prende meno di una da 215.000 €.", { x: 9.2, y: 6.05, w: 3.55, h: 0.6, fontSize: 13, italic: true, color: ROSSO, margin: 0, isTextBox: true });
+    s.addNotes("Calcolo sulle tabelle C (forniture) dei due testi, soglia europea 216.000 € dal 1/1/2026. Azienda media: 0,75% fino alla soglia, 0,40% fino a 750.000 €, 0,20% fino a 2 mln, 0,05% oltre, applicata a TUTTO l'importo. CISL grado 1: 1% fino a 250.000, 0,7% fino a 750.000, 0,4% fino a 2 mln, 0,2% fino a 10 mln, 0,1% oltre, ognuna sulla sua fascia. Onestà: su alcuni lavori medio-grandi la 'complessità elevata' dell'Azienda rende più della CISL (lavori da 2 mln: 30.000 € contro 23.125 €) — ma quel livello lo decide il RUP o il Direttore.");
   }
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
@@ -1620,7 +1620,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     kicker(s, "Chi lavora davvero");
     s.addText("Il fondo va a chi segue il contratto", { placeholder: "title" });
     const p = [["40%", "al Direttore dei lavori con il suo ufficio (Azienda: 20% + 15%)"], ["40%", "al DEC con i collaboratori nelle forniture (Azienda: 20% + 15%)"],
-      ["60%", "minimo ai collaboratori sulla quota di ogni funzione"], ["15%", "massimo alla dirigenza nella fase di esecuzione"]];
+      ["60%", "tetto per i collaboratori: il resto a chi ha l'incarico"], ["15%", "massimo alla dirigenza nella fase di esecuzione"]];
     for (let i = 0; i < p.length; i++) {
       const y = 1.55 + i * 1.15;
       card(s, M, y, 6.0, 1.0, i % 2 ? "FFFFFF" : C.background2, { bordo: i % 2 ? "D9EADD" : undefined });
@@ -1829,7 +1829,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addText([{ text: "16", options: { fontSize: 40, bold: true, color: HEX.accent1, breakLine: true } }, { text: "aree con OSS di notte nuovo o aumentato dal 2020", options: { fontSize: 12 } }],
       { x: 7.45, y: 1.65, w: 2.35, h: 1.5, color: HEX.dk1, valign: "middle", margin: 0, isTextBox: true });
     card(s, 10.1, 1.6, 2.65, 1.6, "FFF1F2");
-    s.addText([{ text: "42%", options: { fontSize: 40, bold: true, color: HEX.accent3, breakLine: true } }, { text: "le chirurgie sono le più scoperte", options: { fontSize: 12 } }],
+    s.addText([{ text: "7 su 12", options: { fontSize: 34, bold: true, color: HEX.accent3, breakLine: true } }, { text: "chirurgie ancora senza OSS di notte", options: { fontSize: 12 } }],
       { x: 10.25, y: 1.65, w: 2.4, h: 1.5, color: HEX.dk1, valign: "middle", margin: 0, isTextBox: true });
     await fotoTavolo(s, "oss-aree-degenza", 7.4, 3.5, 5.3, TAVOLO);
     s.addNotes("Slide «Aree di degenza» dell'Azienda: 31 aree di degenza con OSS alla notte (63%); 16 aree dove l'OSS è stato neo-introdotto (12) o incrementato (4) dopo il 2020 (52%). Standard di riferimento della degenza ordinaria: 1 infermiere ogni 12-15 posti letto nelle 24 ore.");
@@ -1837,7 +1837,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "Le chirurgie individuate");
-    s.addText("Dove un infermiere copre troppi letti", { placeholder: "title" });
+    s.addText("Dove l'OSS di notte manca", { placeholder: "title" });
     const c = [["19", "letti per infermiere", "Chirurgia 7° piano Policlinico", "presenza del Pronto Soccorso h24"],
       ["13,5", "letti per infermiere", "Chirurgia 6° piano Policlinico", "ricoveri urgenti h24"],
       ["12,5", "letti per infermiere", "Neurochirurgia", "trasporti notturni verso la neuroradiologia, autogestiti"]];
@@ -1954,7 +1954,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       { x: M, y: 5.95, w: 8.0, h: 0.75, fontSize: 13, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
     card(s, 9.0, 1.55, 3.75, 5.1, C.accent2);
     s.addText([{ text: "Nessuna estensione automatica", options: { fontSize: 20, bold: true, breakLine: true } },
-      { text: "Se si sperimenta la notte di 12 ore, l'accordo deve dire per iscritto che non è un passo verso le 12 ore di giorno. Quello servirebbe un nuovo accordo, dopo la verifica e dopo aver ascoltato il reparto.", options: { fontSize: 15 } }],
+      { text: "Se si sperimenta la notte di 12 ore, l'accordo deve dire per iscritto che non è un passo verso le 12 ore di giorno. Per quello servirebbe un nuovo accordo, dopo la verifica e dopo aver ascoltato il reparto.", options: { fontSize: 15 } }],
       { x: 9.2, y: 1.7, w: 3.35, h: 4.8, color: HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Dossier pag. 11-13. Ipotesi 12 h esatte (7-19 e 19-7) con ciclo G-N-S-R-R per tutto il 2027, stesso teorico di 6 ore per giorno feriale.");
   }
@@ -2092,7 +2092,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S9 });
     s.addText("09", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
     s.addText("La pensione che ti costruisci", { placeholder: "title" });
-    s.addText("Mini corso su Perseo Sirio, il fondo pensione del pubblico impiego: tre quiz e tre esempi veri", { placeholder: "body" });
+    s.addText("Mini corso su Perseo Sirio, il fondo pensione del pubblico impiego: tre quiz e tre esempi pratici", { placeholder: "body" });
     const t = ["Cos'è e chi mette i soldi", "Quanto rende rispetto al TFR", "Il caso di chi è in TFS", "I limiti da conoscere", "Cosa fare da domani"];
     for (let i = 0; i < t.length; i++) {
       const y = 0.85 + i * 1.15;
@@ -2262,7 +2262,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S9 });
     s.addText("Cosa fare da domani", { placeholder: "title" });
     s.addText("Quattro passi, dieci minuti", { placeholder: "body" });
-    const cose = ["Guarda il cedolino: c'è la voce Perseo Sirio? Sei iscritto", "Entra nell'area riservata del Fondo e controlla il profilo", "Prova il simulatore sul sito perseosirio.it", "In TFS o indeciso? Chiedici un calcolo personale con il patronato"];
+    const cose = ["Guarda il cedolino: c'è la voce Perseo Sirio? Sei iscritto", "Entra nell'area riservata del Fondo e controlla il profilo", "Prova il simulatore sul sito fondoperseosirio.it", "In TFS o indeciso? Chiedici un calcolo personale con il patronato"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.9 + i * 1.4;
       card(s, 8.1, y, 4.65, 1.15, i % 2 ? "FFFFFF" : HEX.accent2);

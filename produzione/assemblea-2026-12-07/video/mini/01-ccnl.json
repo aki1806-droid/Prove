@@ -135,14 +135,14 @@
  },
  {
   "id": "s09",
-  "testo": "E nuovi diritti. Se ti aggrediscono, l'Azienda paga l'avvocato e garantisce il supporto psicologico. La vestizione entra nell'orario. E nessuna decisione sul tuo lavoro presa solo da un algoritmo.",
+  "testo": "E diritti più forti. Se ti aggrediscono, oltre all'avvocato ora c'è il supporto psicologico, e fino a trenta giorni di ferie solidali. E nessuna decisione sul tuo lavoro presa solo da un algoritmo.",
   "scena": {
    "tipo": "elenco",
    "kicker": "NUOVI DIRITTI",
-   "titolo": "Non solo soldi",
+   "titolo": "Diritti più forti",
    "voci": [
-    "Aggressioni: avvocato e psicologo a carico dell'Azienda",
-    "Vestizione dentro l'orario",
+    "Aggressioni: avvocato e ora anche supporto psicologico",
+    "Fino a 30 giorni di ferie solidali dopo un'aggressione",
     "Intelligenza artificiale: decide sempre una persona"
    ]
   }

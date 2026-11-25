@@ -46,6 +46,13 @@ def tempo_ass(t):
     return f"{int(h)}:{int(m):02d}:{s:05.2f}"
 
 
+def sottotitolo(t):
+    """Sullo schermo la grafia vera, non quella scritta per la voce."""
+    for a, b in [("Cisl effe pi", "CISL FP"), ("o esse esse", "OSS"), ("erre esse u", "RSU"), ("pi ti a", "PTA"), ("qu erre", "QR")]:
+        t = re.sub(r"\b" + a + r"\b", b, t)
+    return t[0].upper() + t[1:] if t else t
+
+
 def pezzi(testo, maxc=78):
     frasi = [f.strip() for f in re.split(r"(?<=[.!?;:])\s+", testo) if f.strip()]
     out = []
@@ -109,7 +116,8 @@ def main(js, lav):
     tot = durata(grezzo)
     parole = os.path.join(lav, "parole.json")
     if os.path.exists(parole):
-        tagli = allinea(blocchi, json.load(open(parole)), tot)
+        orig = os.path.join(lav, "originale.json")   # il testo che la traccia dice davvero
+        tagli = allinea(json.load(open(orig)) if os.path.exists(orig) else blocchi, json.load(open(parole)), tot)
         # i tempi della trascrizione sono stimati: ogni taglio va nel silenzio vero piu' vicino
         sil = silenzi(grezzo, 0.12)
         for i in range(1, len(tagli) - 1):
@@ -152,7 +160,7 @@ def main(js, lav):
     righe, t0 = [], 0.0
     for i, b in enumerate(blocchi):
         parl = dur[i] - CODA
-        pz = pezzi(b["testo"])
+        pz = pezzi(sottotitolo(b["testo"]))
         tc = sum(len(p) for p in pz) or 1
         t = t0
         for p in pz:

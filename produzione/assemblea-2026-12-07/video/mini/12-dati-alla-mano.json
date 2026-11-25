@@ -20,20 +20,20 @@
  },
  {
   "id": "s03",
-  "testo": "I fondi contrattuali sono cassetti diversi. Le progressioni, i DEP, stanno nel fondo incarichi e progressioni. I progetti si pagano con la premialità. Aprire un cassetto non svuota l'altro.",
+  "testo": "I progetti del duemilaventisei usano un residuo del duemilaventicinque: soldi una tantum. I DEP sono aumenti per sempre, e l'accordo di settembre calcola il massimo disponibile: seicentodiciottomila euro. Ne abbiamo messi seicentoventimila.",
   "scena": {
    "tipo": "confronto",
-   "kicker": "I FATTI · CASSETTI DIVERSI",
-   "titolo": "Aprire un cassetto non svuota l'altro",
+   "kicker": "I FATTI · ACCORDI DEL 15/4 E DEL 25/9/2026",
+   "titolo": "Una tantum contro per sempre",
    "sinistra": {
-    "etichetta": "Fondo incarichi e progressioni",
-    "valore": "DEP",
-    "nota": "progressioni, incarichi, indennità professionali"
+    "etichetta": "Progetti 2026",
+    "valore": "1.040.000 €",
+    "nota": "dal residuo 2025: una tantum"
    },
    "destra": {
-    "etichetta": "Fondo premialità e condizioni di lavoro",
-    "valore": "Progetti",
-    "nota": "produttività, progetti, condizioni di lavoro"
+    "etichetta": "DEP 2026",
+    "valore": "620.000 €",
+    "nota": "il massimo disponibile era 618.004 €"
    }
   }
  },
@@ -92,7 +92,7 @@
  },
  {
   "id": "s09",
-  "testo": "Perché non di più? Una legge regionale calcola alcune risorse variabili sul numero di dipendenti previsti, e la produttività è scesa. Spostare altro sui DEP voleva dire meno produttività per tutti.",
+  "testo": "Perché non di più? Dal residuo del fondo vanno tolte le risorse variabili, che per legge non possono pagare aumenti permanenti. Spostare altro sui DEP voleva dire meno produttività per tutti.",
   "scena": {
    "tipo": "barre",
    "kicker": "PROGRESSIONI ECONOMICHE",

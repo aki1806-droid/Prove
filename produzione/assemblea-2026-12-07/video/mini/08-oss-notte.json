@@ -22,11 +22,11 @@
  },
  {
   "id": "s03",
-  "testo": "Ma la copertura non è uguale per tutti. In area medica ce l'hanno diciassette unità operative su venti. Nelle chirurgie, solo cinque su dodici. Sono le più scoperte.",
+  "testo": "Ma la copertura non è uguale per tutti. In area medica ce l'hanno diciassette unità operative su venti. Nelle chirurgie, solo cinque su dodici: è lì che ne mancano di più.",
   "scena": {
    "tipo": "barre",
    "kicker": "UNITÀ OPERATIVE CON OSS DI NOTTE",
-   "titolo": "Le chirurgie sono le più scoperte",
+   "titolo": "Nelle chirurgie ne mancano di più",
    "barre": [
     {
      "etichetta": "Area medica",
@@ -150,10 +150,10 @@
  },
  {
   "id": "s11",
-  "testo": "La nostra richiesta è chiara. o esse esse di notte nei quattro reparti individuati, entro un anno. Al ritmo delle assunzioni, certo. Ma con una data, non solo con una promessa.",
+  "testo": "La nostra richiesta è chiara. Gli o esse esse di notte nei reparti individuati, entro un anno. Al ritmo delle assunzioni, certo. Ma con una data, non solo con una promessa.",
   "scena": {
    "tipo": "chiusura",
-   "frase": "OSS di notte nei quattro reparti individuati, entro un anno.",
+   "frase": "OSS di notte nei reparti individuati, entro un anno.",
    "azione": "Con una data, non solo con una promessa"
   }
  }

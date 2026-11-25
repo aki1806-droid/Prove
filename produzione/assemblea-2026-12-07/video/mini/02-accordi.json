@@ -43,20 +43,20 @@
  },
  {
   "id": "s05",
-  "testo": "Terzo: le notti pagano di più. La premialità sul turno di notte sale da quattro euro a quattro e cinquanta l'ora. Il turno pieno di pronta disponibilità passa da ventuno euro e sessanta a ventisette e sessanta.",
+  "testo": "Terzo: le notti pagano di più, e la preintesa di luglio lo conferma per il duemilaventisei. Quattro euro e cinquanta l'ora sul turno di notte, ventisette euro e sessanta per il turno pieno di pronta disponibilità.",
   "scena": {
    "tipo": "confronto",
    "kicker": "LEGGE REGIONALE 26 · PREINTESA 14/07/2026",
    "titolo": "Pronta disponibilità, turno di 12 ore",
    "sinistra": {
-    "etichetta": "Prima",
+    "etichetta": "Fino al 2024",
     "valore": "21,60 €",
     "nota": "a turno"
    },
    "destra": {
-    "etichetta": "Ora",
+    "etichetta": "Dal 2025, confermato nel 2026",
     "valore": "27,60 €",
-    "nota": "a turno · e notte +0,50 €/h"
+    "nota": "a turno · e notte 4,50 €/h"
    }
   }
  },

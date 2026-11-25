@@ -27,13 +27,13 @@ D.lgs. 36/2023.
 
 ### Esempi: il fondo in euro
 
-Le soglie europee usate sono 221 mila € per beni e servizi e 5,538 milioni € per
-i lavori. Per l'Azienda i tre valori sono complessità ridotta, media ed elevata;
+Le soglie europee usate sono quelle in vigore dal 1° gennaio 2026 (Regolamento UE 2025/2152): 216.000 € per beni e servizi e 5.404.000 € per i lavori. Per l'Azienda i tre valori sono complessità ridotta, media ed elevata;
 per la CISL, grado 1 e grado 2.
 
 | Appalto | Azienda ridotta | Azienda media | Azienda elevata | CISL G1 | CISL G2 |
 |---|---:|---:|---:|---:|---:|
-| Forniture 220.000 € | 770 | 1.650 | 3.300 | 2.200 | 3.960 |
+| Forniture 215.000 € | 752,50 | 1.612,50 | 3.225 | 2.150 | 3.870 |
+| **Forniture 220.000 €** | **440** | **880** | **1.760** | 2.200 | 3.960 |
 | **Forniture 230.000 €** | **460** | **920** | **1.840** | 2.300 | 4.140 |
 | Forniture 740.000 € | 1.480 | 2.960 | 5.920 | 5.930 | 10.870 |
 | **Forniture 760.000 €** | **760** | **1.520** | **3.040** | 6.040 | 11.075 |
@@ -47,8 +47,8 @@ per la CISL, grado 1 e grado 2.
 
 Le righe in grassetto sono i salti all'indietro dell'Azienda.
 
-- Una fornitura da 230 mila € ha un fondo **dimezzato** rispetto a una da 220 mila €.
-- Una da 2,1 milioni € prende meno di una da 220 mila €.
+- Una fornitura da 220 mila € ha un fondo **quasi dimezzato** (−45%) rispetto a una da 215 mila €.
+- Una da 2,1 milioni € prende meno di una da 215 mila €.
 
 **Da dire con onestà.** Su alcuni lavori medio-grandi la «complessità elevata»
 dell'Azienda dà più della CISL: con 2 milioni € sono 30.000 € contro 23.125 €.
@@ -64,7 +64,7 @@ più e a volte di meno.
 |---|---|---|
 | Lavori, esecuzione | Direttore dei lavori 20%, ufficio di direzione 15% | Direttore dei lavori con il suo ufficio 40% |
 | Forniture | Supporto 14%, DEC 20%, collaboratori 15%, RUP 11% | Supporto 18%, DEC con collaboratori 40%, flussi informativi 5%, RUP 13% |
-| Collaboratori | nessuna tutela | Hanno almeno il 60% della quota della funzione. C'è un registro delle attività, e chi ha più funzioni ne somma le quote. |
+| Collaboratori | nessuna regola | Insieme non possono superare il 60% della quota della funzione: il resto spetta al titolare. C'è un registro delle attività, e chi ha più funzioni ne somma le quote. |
 | DEC | — | **Vietate le nomine fittizie**. Il DEC deve essere chi segue davvero il contratto. La dirigenza prende al massimo il 15% della fase di esecuzione. Una nomina tardiva non fa perdere l'incentivo. |
 | Assicurazione | a carico del fondo in generale | solo per progettisti e verificatori |
 

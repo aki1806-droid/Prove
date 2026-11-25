@@ -1,12 +1,12 @@
 [
  {
   "id": "s01",
-  "testo": "Una fornitura da duecentoventimila euro e una da duecentotrentamila. Con la proposta dell'Azienda, la seconda ha quasi la metà di incentivo in meno. Sembra un errore. È il regolamento.",
+  "testo": "Una fornitura da duecentoquindicimila euro e una da duecentoventimila. Con la proposta dell'Azienda, la seconda ha quasi la metà di incentivo in meno. Sembra un errore. È il regolamento.",
   "scena": {
    "tipo": "numero",
    "kicker": "PUNTO 6 · INCENTIVI FUNZIONI TECNICHE",
-   "numero": "−44%",
-   "etichetta": "di fondo se la fornitura passa da 220.000 a 230.000 €",
+   "numero": "−45%",
+   "etichetta": "di fondo se la fornitura passa da 215.000 a 220.000 €",
    "nota": "con le tabelle proposte dall'Azienda"
   }
  },
@@ -26,28 +26,28 @@
   "scena": {
    "tipo": "documento",
    "kicker": "LA TABELLA DELL'AZIENDA",
-   "titolo": "Una aliquota sola su tutto l'importo",
+   "titolo": "Un'aliquota sola su tutto l'importo",
    "immagine": "schermate/inc-az-forniture.png",
    "didascalia": "Proposta dell'Azienda, rev.5 dell'8/10/2026 · forniture"
   }
  },
  {
   "id": "s04",
-  "testo": "Il fondo scende da milleseicentocinquanta euro a novecentoventi. E una fornitura da due milioni e centomila euro prende meno di una da duecentoventimila: millecinquanta euro.",
+  "testo": "Il fondo scende da milleseicentododici euro a ottocentottanta. E una fornitura da due milioni e centomila euro prende meno di una da duecentoquindicimila: millecinquanta euro.",
   "scena": {
    "tipo": "barre",
    "kicker": "PROPOSTA DELL'AZIENDA · COMPLESSITÀ MEDIA",
    "titolo": "Più grande è la gara, meno incentivo",
    "barre": [
     {
-     "etichetta": "Fornitura da 220.000 €",
-     "valore": 1650,
-     "testo": "1.650 €"
+     "etichetta": "Fornitura da 215.000 €",
+     "valore": 1612.5,
+     "testo": "1.612 €"
     },
     {
-     "etichetta": "Fornitura da 230.000 €",
-     "valore": 920,
-     "testo": "920 €"
+     "etichetta": "Fornitura da 220.000 €",
+     "valore": 880,
+     "testo": "880 €"
     },
     {
      "etichetta": "Fornitura da 2,1 milioni",
@@ -127,11 +127,11 @@
  },
  {
   "id": "s09",
-  "testo": "E se il contratto va in ritardo per colpe non tue? L'Azienda arriva a tagliare fino al cento per cento. Noi diciamo al massimo il cinquanta, con la prova a carico dell'Azienda.",
+  "testo": "E se il contratto va in ritardo? Con la proposta dell'Azienda il taglio può arrivare al cento per cento. Noi diciamo al massimo il cinquanta, e la colpa la deve dimostrare l'Azienda.",
   "scena": {
    "tipo": "confronto",
    "kicker": "I TAGLI PER I RITARDI",
-   "titolo": "Chi paga i ritardi che non dipendono da te",
+   "titolo": "I tagli per i ritardi",
    "sinistra": {
     "etichetta": "Azienda",
     "valore": "fino al 100%",

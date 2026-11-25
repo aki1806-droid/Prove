@@ -14,11 +14,11 @@
   "id": "s02",
   "testo": "Per la nostra Azienda la legge vale oltre tre milioni di euro. Più di un milione e mezzo va in buoni acquisto, l'altro milione e mezzo in contrattazione: notti, pronta disponibilità, aree complesse.",
   "scena": {
-   "tipo": "documento",
+   "tipo": "numero",
    "kicker": "DA DOVE ARRIVANO I SOLDI",
-   "titolo": "3,1 milioni per l'AOUP",
-   "immagine": "schermate/lr26-welfare-350.png",
-   "didascalia": "Preintesa L.R. 26/2024 · risorse 2026 · 14/07/2026"
+   "numero": "3,1 mln €",
+   "etichetta": "dalla legge regionale 26/2024 per l'AOUP nel 2026",
+   "nota": "1,55 milioni per il welfare · 1,60 milioni per la contrattazione"
   }
  },
  {
@@ -34,11 +34,11 @@
  },
  {
   "id": "s04",
-  "testo": "Risultato: la preintesa del quattordici luglio dà i trecentocinquanta euro anche ai ruoli professionale, tecnico e amministrativo in servizio al primo settembre. Duecentotrentamila euro, dal fondo premialità.",
+  "testo": "E con la preintesa del quattordici luglio, anche quest'anno i trecentocinquanta euro vanno ai ruoli professionale, tecnico e amministrativo in servizio al primo settembre: duecentotrentamila euro dal fondo premialità.",
   "scena": {
    "tipo": "documento",
    "kicker": "OTTENUTO",
-   "titolo": "350 € anche ai ruoli PTA",
+   "titolo": "350 € ai ruoli PTA, anche nel 2026",
    "immagine": "schermate/lr26-welfare-pta.png",
    "didascalia": "Preintesa L.R. 26 · 14/07/2026"
   }
