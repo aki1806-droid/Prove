@@ -202,8 +202,10 @@ def monta():
                 fil.append(f"[{j + 1}:v]format=rgba,fade=in:st={max(0, a0 - 0.05):.3f}:d=0.3:alpha=1[o{j}];[{acc}][o{j}]overlay=0:0:shortest=1:enable='between(t,{a0:.3f},{a1:.3f})'[a{j}]")
                 acc = f'a{j}'
         else:
+            st = s.get('tagli') or [sd * j for j in range(n)]   # inizio di ogni frame (s), di serie a parti uguali
+            st = list(st) + [d]
             for j, f in enumerate(fr):
-                ln = sd + (XF if j + 1 < n else 0)
+                ln = st[j + 1] - st[j] + (XF if j + 1 < n else 0)
                 img = f'{D}/grafiche/{f}_{FSUF}.jpg' if FSUF and os.path.exists(f'{D}/grafiche/{f}_{FSUF}.jpg') else f'{D}/grafiche/{f}.jpg'
                 if HA_AVATAR and f in SC[-1]['frame']:
                     img = motto_a_capo(img)
@@ -214,9 +216,9 @@ def monta():
             if n == 1:
                 fil.append('[f0]null[a]')
             else:
-                acc, off = 'f0', sd
+                acc = 'f0'
                 for j in range(1, n):
-                    fil.append(f'[{acc}][f{j}]xfade=transition=fade:duration={XF}:offset={off:.3f}[x{j}]'); acc = f'x{j}'; off += sd
+                    fil.append(f'[{acc}][f{j}]xfade=transition=fade:duration={XF}:offset={st[j]:.3f}[x{j}]'); acc = f'x{j}'
                 fil.append(f'[{acc}]null[a]')
             acc = 'a'
         fil.append(f'[{acc}]format=yuv420p[v]')
@@ -287,7 +289,7 @@ def monta():
     for i, s in enumerate(SC):
         sid = scena(i + 1); r = s.get('regia', '').lower(); t0 = T[sid]['inizio']; dd = T[sid]['durata']; nf = len(s['frame'])
         if 'timbro' in r:
-            ev.append(('timbro', t0 + dd * (nf - 1) / nf + 0.4, 0.6))
+            ev.append(('timbro', t0 + (s['tagli'][-1] if s.get('tagli') else dd * (nf - 1) / nf) + 0.4, 0.6))
         if 'macchina da scrivere' in r:
             ev.append(('macchina', t0 + 0.3, 0.35))
         if 'notifica' in r:
@@ -301,7 +303,11 @@ def monta():
         for k, sc_, dt, v in json.load(open(evf)):
             ev.append((k, T[sc_]['inizio'] + dt, v))
     m0 = T[sv]['inizio'] if sv else tot
-    vol = f"'0.09+0.05*gte(t,{m0:.2f})'"
+    zitti = ''
+    if os.path.exists(f'{D}/suoni/silenzio.json'):
+        for sc_, dt, du in json.load(open(f'{D}/suoni/silenzio.json')):
+            a_ = T[sc_]['inizio'] + dt; zitti += f'*(1-between(t,{a_:.2f},{a_ + du:.2f}))'
+    vol = f"'(0.09+0.05*gte(t,{m0:.2f})){zitti}'"
     au = [f'[{n + 2}:a]aformat=channel_layouts=stereo[vo]', f'[{n + 3}:a]aloop=loop=-1:size=2e9,atrim=0:{tot:.3f},volume={vol}:eval=frame,afade=t=out:st={tot - 2.5:.3f}:d=2.5[mu]']
     ins += ['-i', f'{D}/suoni/musica.mp3' if os.path.exists(f'{D}/suoni/musica.mp3') else f'{QUI}/suoni/musica.mp3']
     mix = ['[vo]', '[mu]']
