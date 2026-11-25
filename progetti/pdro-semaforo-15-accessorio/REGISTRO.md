@@ -28,4 +28,4 @@ Pacchetto PDRO_Imposta_15_accessorio_Il_semaforo.zip mandato da Achille il 25/11
 - Avatar Heygen 2 rifatto in 16:9 (os.py vuole il webm orizzontale): a3bb0d181a6e83466625e908186bcfd3 (il 9:16
   b8ff7ff3… resta in avatar/avatar_9x16.webm). S09A_av.jpg = S09A (la mail della scheda non va trattata come motto).
 - Uscita: 126,2 s, −16,4 LUFS, picco −1,4 dBFS. Asset HeyGen (account 1): https://resource2.heygen.ai/video/8cfa918213dd427d8b0fbcbe0bb2326b/original.mp4
-- Robin: OK di Achille il 25/11; post 1216702 programmato alle 13:31 su YouTube 18260, TikTok 18053, Instagram 18045 (reel) e Facebook 18051 (reel).
+- Robin: OK di Achille il 25/11; post 1216702 uscito alle 13:31 su YouTube https://www.youtube.com/watch?v=bZ4rKeZ83pg, TikTok https://www.tiktok.com/@cislfpaop/video/7712085763822767382, Instagram https://www.instagram.com/reel/DgKiVEiRfBY/ ; Facebook 18051 rifiutato («flagged by Facebook»), come dal 18/11.
