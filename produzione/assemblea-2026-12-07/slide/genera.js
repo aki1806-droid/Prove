@@ -280,6 +280,29 @@ async function frontespizio(n, sezione) {
   return s;
 }
 
+
+// Mini video dell'argomento, incorporato: parte con un clic in presentazione.
+const MINI = path.join(QUI, "..", "video", "mini");
+async function videoSlide(sez, nome, titolo) {
+  const mp4 = path.join(MINI, nome + ".mp4");
+  const s = pres.addSlide({ masterName: "SCURO", sectionTitle: sez });
+  kicker(s, "▶ Video · clic per avviare", HEX.accent2, 0.2);
+  s.addText(titolo, { x: M, y: 0.45, w: W - 2 * M, h: 0.7, fontSize: 28, bold: true, color: "FFFFFF", margin: 0, isTextBox: true });
+  const w = 10.6, h = w * 9 / 16, x = (W - w) / 2, y = 1.3;
+  s.addShape(pres.shapes.RECTANGLE, { x: x - 0.06, y: y - 0.06, w: w + 0.12, h: h + 0.12, fill: { color: HEX.accent2 }, line: { type: "none" } });
+  if (fs.existsSync(mp4)) {
+    const lav = path.join(MINI, "lavoro", nome.slice(0, 2), "scene", "s01");
+    const fr = fs.existsSync(lav) ? fs.readdirSync(lav).filter(f => f.endsWith(".png")).sort().pop() : null;
+    const cover = fr ? "data:image/png;base64," + (await sharp(path.join(lav, fr)).resize(1280).png().toBuffer()).toString("base64") : undefined;
+    s.addMedia({ type: "video", path: mp4, x, y, w, h, cover });
+  } else {
+    s.addShape(pres.shapes.RECTANGLE, { x, y, w, h, fill: { color: "04351C" }, line: { type: "none" } });
+    s.addText("Video in preparazione: " + nome + ".mp4", { x, y, w, h, fontSize: 20, color: "B9D3C3", align: "center", valign: "middle", margin: 0, isTextBox: true });
+  }
+  s.addNotes("Mini video «" + titolo + "» (voce Luca Ward, sottotitoli in sovraimpressione). File: video/mini/" + nome + ".mp4. Se il video non parte dalla presentazione, aprire il file direttamente.");
+  return s;
+}
+
 // ================================================================ SLIDE
 (async () => {
   // ------------------------------------------------ apertura
@@ -347,6 +370,7 @@ async function frontespizio(n, sezione) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Medie indicate dalla guida CISL FP del 29/07/2026: circa 240 € per il personale infermieristico comprese le indennità, 209 € per le altre categorie; circa 380 € cumulando i CCNL 2022-2024 e 2025-2027.");
   }
+  await videoSlide(S1, "01-ccnl", "Il nuovo contratto in cento secondi");
   await frontespizio("ccnl", S1);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
@@ -574,6 +598,7 @@ async function frontespizio(n, sezione) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Introduzione al punto 2. In un anno abbiamo firmato dieci intese con l'Azienda. Le vediamo una per una, con il documento originale sullo schermo.");
   }
+  await videoSlide(S2, "02-accordi", "Dieci intese in un anno: cosa abbiamo firmato");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Un anno di tavolo");
@@ -958,6 +983,7 @@ async function frontespizio(n, sezione) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Il risultato annunciato nella mail del 18/11: +1.000 € annui per tutti gli incarichi di funzione organizzativa di coordinamento, con una nuova fascia nella graduazione.");
   }
+  await videoSlide(S3, "03-incarichi", "Coordinatori e incarichi professionali");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
     kicker(s, "CCNL 2025-2027 · art. 15 e 17");
@@ -1162,6 +1188,7 @@ async function frontespizio(n, sezione) {
       { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Il welfare viene dalla L.R. 26/2024: la Regione ha messo risorse aggiuntive per il personale del SSR per il triennio 2025-2027. Una parte fissa, 350 € a testa, va in buoni acquisto.");
   }
+  await videoSlide(S4, "04-welfare", "Il welfare: 350 € a testa");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S4 });
     kicker(s, "Da dove arrivano i soldi");
@@ -1280,6 +1307,7 @@ async function frontespizio(n, sezione) {
     await immagine(s, path.join(EV, "vertenze-hero.jpg"), 8.4, 0.9, 4.35, "Tre vertenze, una l'abbiamo già vinta: Tribunale di Padova, 14 maggio 2026");
     s.addNotes("Il lavoro pesante (avvocati, cause pilota, udienze) l'abbiamo fatto noi: a chi è in sala restano due minuti per un modulo.");
   }
+  await videoSlide(S5, "05-vertenze", "Tre vertenze, una già vinta");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
     kicker(s, "Il tabellone dei fatti");
@@ -1387,6 +1415,7 @@ async function frontespizio(n, sezione) {
       { x: 7.1, y: 4.3, w: 5.45, h: 2.15, valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Lasciare questa slide a schermo un minuto: chi ha il telefono in mano compila adesso. Moduli: ug983Z (festivo), 9AYmxv (ferie), kkwFYZ (buoni pasto) su form.getformly.com/f/");
   }
+  await videoSlide(S5, "12-dati-alla-mano", "Dati alla mano");
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S5 });
     kicker(s, "Il Bugiardino · dati alla mano", HEX.accent2);
@@ -1440,6 +1469,7 @@ async function frontespizio(n, sezione) {
       { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Chi riguarda: il personale tecnico e amministrativo che fa da RUP, DEC, direttore dei lavori, supporto e collaboratore nelle gare e nei contratti. Esempio: fornitura da 220.000 € con complessità media = 1.650 €; da 230.000 € = 920 €.");
   }
+  await videoSlide(S6, "06-incentivi", "Incentivi tecnici: due regolamenti a confronto");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
     kicker(s, "Due testi a confronto");
@@ -1614,6 +1644,7 @@ async function frontespizio(n, sezione) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Dal grafico «Variazione teste rispetto al 1° gennaio 2020» dell'Azienda: infermieri al massimo +220 (fine 2021), minimo −124, ultimo valore −103; OSS +219 (picco +222); dirigenti medici +117.");
   }
+  await videoSlide(S7, "07-occupazione", "Quanti entrano, quanti escono");
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S7 });
     kicker(s, "Dal 2020 a oggi", HEX.accent2);
@@ -1700,6 +1731,7 @@ async function frontespizio(n, sezione) {
       { text: "31 aree su 49", options: { fontSize: 14, color: "CFE9D8" } }],
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
   }
+  await videoSlide(S8, "08-oss-notte", "Più OSS di notte");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "OSS di notte · l'analisi dell'Azienda");
@@ -1762,6 +1794,7 @@ async function frontespizio(n, sezione) {
     s.addNotes("Slide «Sviluppi» e «Azioni in atto – Nuova Pediatria» dell'Azienda. Punto da presidiare per il sindacato: il passaggio da due a tre turni per gli OSS già assegnati, con raccolta delle preferenze e mobilità incrociata.");
   }
 
+  await videoSlide(S8, "09-notte-12-ore", "La notte di 12 ore: decidere informati");
   // ---- 8 · blocco «La notte di 12 ore» (dossier CISL FP, ottobre 2026) e ferie
   const FDOS = "Dossier CISL FP «La notte di 12 ore» · ottobre 2026";
   const RS = "C8102E";
@@ -1895,6 +1928,7 @@ async function frontespizio(n, sezione) {
     }
     s.addNotes("Riunione del 3/11/2026: la CISL FP ha evidenziato che l'estensione dei tempi di vestizione e consegna (da 15 a 20-22 minuti) e i cambi d'orario richiedono un regolamento condiviso e il passaggio al tavolo di contrattazione. Conclusione: la disciplina sarà discussa formalmente al tavolo.");
   }
+  await videoSlide(S8, "10-ferie", "Ferie: la nuova legge");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "Ferie · nuova legge", RS);
@@ -1981,6 +2015,7 @@ async function frontespizio(n, sezione) {
     }
     s.addNotes("Mini corso di circa 15 minuti. Tre quiz interattivi: si vota per alzata di mano e si clicca su una risposta per vedere la soluzione. Tutti gli esempi sono semplificati e dichiarati tali.");
   }
+  await videoSlide(S9, "11-perseo-sirio", "Perseo Sirio in due minuti");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
     kicker(s, "Lezione 1 · cos'è");

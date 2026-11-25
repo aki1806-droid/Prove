@@ -12,7 +12,7 @@ const fps = +FPS, durata = +ENTRATA, N = Math.round(fps * durata);
 const QUI = path.dirname(new URL(import.meta.url).pathname);
 const SLIDE = path.resolve(QUI, "../../slide");
 const blocchi = JSON.parse(fs.readFileSync(FILE, "utf8"));
-const titoloVideo = (blocchi[0].scena.titolo || blocchi[0].scena.frase || "").replace(/\n/g, " ");
+const titoloVideo = (blocchi.find(b => b.scena.kicker)?.scena.kicker || blocchi[0].scena.titolo || "").replace(/\n/g, " ");
 
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const img = rel => "file://" + path.resolve(SLIDE, rel);
