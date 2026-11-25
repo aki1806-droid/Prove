@@ -181,6 +181,7 @@ const TAVOLO = "Slide dell'Azienda al tavolo del 18/11/2026";
 // ---------------------------------------------------------------- frontespizi
 // Ogni accordo si presenta prima con la sua prima pagina, quella delle firme.
 const FIRME = JSON.parse(fs.readFileSync(path.join(QUI, "firme.json"), "utf8"));
+const LINK = JSON.parse(fs.readFileSync(path.join(QUI, "link-accordi.json"), "utf8"));
 const ACCORDI = {
   "01": ["Integrazione progettualità anno 2025", "27 gennaio 2026", "Preintesa", [
     "Quote ai trasferiti del 2025: 400 € al coordinatore, 300 o 200 € al personale",
@@ -214,6 +215,14 @@ const ACCORDI = {
     "Fino a 8 giornate al mese, di norma due a settimana",
     "Contattabilità 9-13 e 14-17, disconnessione dalle 20 alle 8",
     "Deroghe per fragilità e tutele di legge"]],
+  "11": ["Regolamento ferie e riposi solidali", "8 settembre 2026", "Accordo", [
+    "Si possono cedere ferie e riposi a un collega che assiste un figlio",
+    "Esteso a genitori, figli maggiorenni e coniuge, a condizioni precise",
+    "Cedibili le ferie oltre le quattro settimane annue e le festività soppresse"]],
+  "14": ["Preintesa DEP · anno 2026", "25 settembre 2026", "Preintesa", [
+    "620.000 € per i differenziali economici, dal 1° gennaio 2026",
+    "Si partecipa d'ufficio: 60 punti valutazione, 40 esperienza",
+    "Chi ha 3 anni di anzianità e nessuna progressione 2023-2025"]],
   "18": ["Preintesa DEP · anno 2025", "10 dicembre 2025", "Preintesa", [
     "820.000 € per i differenziali economici di professionalità",
     "Si partecipa d'ufficio: 60 punti valutazione, 40 esperienza",
@@ -275,7 +284,16 @@ async function frontespizio(n, sezione) {
   if (tipo === "Preintesa")
     s.addText("Una preintesa diventa efficace con il parere favorevole del Collegio sindacale.",
       { x: M, y: 6.55, w: 7.4, h: 0.3, fontSize: 12, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
-  s.addNotes(`Frontespizio: ${titolo}, ${tipo.toLowerCase()} del ${data}. Firme sul documento: ` +
+  if (LINK[n]) {
+    // il documento ufficiale: clic sul riquadro o QR dal telefono
+    const cx = px - 0.55, cy = py + ph - 2.05;
+    card(s, cx, cy, 1.7, 1.95, "FFFFFF", { bordo: HEX.accent1, ombra: true });
+    s.addImage({ path: path.join(QUI, "qr", "acc-" + n + ".png"), x: cx + 0.25, y: cy + 0.12, w: 1.2, h: 1.2, altText: "QR del documento ufficiale sul sito dell'Azienda" });
+    s.addText("ORIGINALE SUL SITO AOUP", { x: cx + 0.05, y: cy + 1.35, w: 1.6, h: 0.5, fontSize: 9, bold: true, color: HEX.accent1, align: "center", valign: "middle", charSpacing: 1, margin: 0, isTextBox: true });
+    s.addShape(pres.shapes.RECTANGLE, { x: cx, y: cy, w: 1.7, h: 1.95, fill: { color: "FFFFFF", transparency: 100 }, line: { type: "none" },
+      hyperlink: { url: LINK[n], tooltip: "Apri l'accordo originale sul sito dell'Azienda" }, objectName: "link-originale" });
+  }
+  s.addNotes(`Frontespizio: ${titolo}, ${tipo.toLowerCase()} del ${data}. ` + (LINK[n] ? `Documento ufficiale: ${LINK[n]} . ` : "") + `Firme sul documento: ` +
     parti.map(p => p[0] + (p[1] ? (p[1] === "sì" ? " sì" : " sì (" + p[1] + ")") : " no")).join(", ") + ".");
   return s;
 }
@@ -592,17 +610,17 @@ async function videoSlide(sez, nome, titolo) {
     s.addText("Accordi decentrati AOUP 2026", { placeholder: "title" });
     s.addText("Cosa abbiamo firmato qui, in Azienda: soldi, regole, impegni", { placeholder: "body" });
     card(s, 9.4, 1.4, 3.3, 4.6, "0B4D28");
-    s.addText([{ text: "10", options: { fontSize: 72, bold: true, color: HEX.accent2, breakLine: true } },
+    s.addText([{ text: "12", options: { fontSize: 72, bold: true, color: HEX.accent2, breakLine: true } },
       { text: "intese firmate", options: { fontSize: 20, bold: true, color: "FFFFFF", breakLine: true } },
       { text: "da dicembre 2025 a settembre 2026", options: { fontSize: 15, color: "CFE9D8" } }],
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
-    s.addNotes("Introduzione al punto 2. In un anno abbiamo firmato dieci intese con l'Azienda. Le vediamo una per una, con il documento originale sullo schermo.");
+    s.addNotes("Introduzione al punto 2. In un anno abbiamo firmato dodici intese con l'Azienda, tutte pubblicate sul sito aziendale. Le vediamo una per una, con il documento originale sullo schermo.");
   }
-  await videoSlide(S2, "02-accordi", "Dieci intese in un anno: cosa abbiamo firmato");
+  await videoSlide(S2, "02-accordi", "Dodici intese in un anno: cosa abbiamo firmato");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Un anno di tavolo");
-    s.addText("Dieci intese, una linea del tempo", { placeholder: "title" });
+    s.addText("Dodici intese, una linea del tempo", { placeholder: "title" });
     const tappe = [
       ["10/12/25", "DEP 2025", "820.000 € per le progressioni economiche"],
       ["23/12/25", "Dichiarazione congiunta", "3 tavoli permanenti, OSS di notte, pasto"],
@@ -613,7 +631,9 @@ async function videoSlide(sez, nome, titolo) {
       ["14/07/26", "Integrazione 2026", "+432.674 €, coordinatori, tecnici"],
       ["14/07/26", "Legge regionale 26", "Notte, pronta disponibilità, welfare"],
       ["08/09/26", "Part time", "135 posti per quattro anni"],
+      ["08/09/26", "Ferie solidali", "Cedere ferie a chi assiste un figlio"],
       ["25/09/26", "Lavoro agile", "Nuovo regolamento"],
+      ["25/09/26", "DEP 2026", "620.000 € per le progressioni"],
     ];
     const y0 = 3.55, x0 = M + 0.1, passo = (W - 2 * M - 0.2) / (tappe.length - 1);
     s.addShape(pres.shapes.LINE, { x: x0, y: y0, w: passo * (tappe.length - 1), h: 0, line: { color: HEX.accent1, width: 3 } });
@@ -625,9 +645,25 @@ async function videoSlide(sez, nome, titolo) {
       s.addText([{ text: tappe[i][0], options: { fontSize: 12, bold: true, color: HEX.accent1, breakLine: true } },
         { text: tappe[i][1], options: { fontSize: 15, bold: true, color: HEX.dk2, breakLine: true } },
         { text: tappe[i][2], options: { fontSize: 12, color: HEX.dk1 } }],
-        { x: x - 0.8, y: by, w: 1.6, h: 1.75, align: "center", valign: sopra ? "bottom" : "top", margin: 0, isTextBox: true });
+        { x: Math.min(x - 0.75, W - M - 1.4), y: by, w: 1.5, h: 1.75, align: "center", valign: sopra ? "bottom" : "top", margin: 0, isTextBox: true });
     }
-    s.addNotes("Le dieci intese in ordine di data. In rosso le due più pesanti per i soldi: progettualità 2026 e integrazione di luglio.");
+    s.addNotes("Le dodici intese in ordine di data, tutte scaricabili da www.aopd.veneto.it/art,424. In rosso le due più pesanti per i soldi: progettualità 2026 e integrazione di luglio.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S2 });
+    kicker(s, "Una sola verità: quella verificabile", HEX.accent2);
+    s.addText("Ogni accordo è pubblico. Controllatelo voi.", { placeholder: "title" });
+    s.addText([{ text: "Non vi chiediamo di credere alla nostra versione.", options: { fontSize: 26, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: " ", options: { fontSize: 10, breakLine: true } },
+      { text: "Tutti gli accordi del comparto sono sul sito dell'Azienda, con il testo completo e le firme di chi li ha sottoscritti. In ogni frontespizio di questa presentazione trovate il QR e il link al documento originale.", options: { fontSize: 19, color: "CFE9D8", breakLine: true } },
+      { text: " ", options: { fontSize: 10, breakLine: true } },
+      { text: "www.aopd.veneto.it/art,424", options: { fontSize: 22, bold: true, color: HEX.accent2, hyperlink: { url: LINK.pagina, tooltip: "Accordi sottoscritti - Comparto" } } }],
+      { x: M, y: 1.7, w: 7.4, h: 4.6, valign: "middle", margin: 0, isTextBox: true });
+    card(s, 8.75, 1.6, 4.0, 4.6, "FFFFFF", { ombra: true });
+    s.addImage({ path: path.join(QUI, "qr", "acc-pagina.png"), x: 9.15, y: 1.85, w: 3.2, h: 3.2, altText: "QR della pagina degli accordi sottoscritti sul sito AOUP" });
+    s.addText("Inquadra: tutti gli accordi firmati", { x: 8.85, y: 5.15, w: 3.8, h: 0.9, fontSize: 15, bold: true, color: HEX.dk2, align: "center", valign: "middle", margin: 0, isTextBox: true });
+    s.addShape(pres.shapes.RECTANGLE, { x: 8.75, y: 1.6, w: 4.0, h: 4.6, fill: { color: "FFFFFF", transparency: 100 }, line: { type: "none" }, hyperlink: { url: LINK.pagina, tooltip: "Apri la pagina degli accordi" } });
+    s.addNotes("Pagina ufficiale AOUP «Accordi sottoscritti» del comparto. I file pubblicati sono identici, byte per byte, a quelli mostrati in questa presentazione (verificato il 25/11/2026). Messaggio: noi raccontiamo una sola verità, quella che chiunque può controllare.");
   }
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S2 });
@@ -669,6 +705,7 @@ async function videoSlide(sez, nome, titolo) {
     s.addNotes("Il conguaglio è arrivato con lo stipendio di novembre. Le quote medie per area sono nella mail del 18/11 (es. ADA ex C 840 € medi a conguaglio).");
   }
   await frontespizio("18", S2);
+  await frontespizio("14", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
     kicker(s, "Differenziali economici di professionalità · accordo 10/12/2025");
@@ -907,6 +944,7 @@ async function videoSlide(sez, nome, titolo) {
     await foglio(s, "parttime-bando", 6.2, 4.0, 6.4, "Accordo part time · 08/09/2026 · pag. 4");
     s.addNotes("Possono partecipare i dipendenti a tempo indeterminato con almeno un anno nel SSN, anche chi ha un part time in scadenza entro il 30/4/2028. Chi ha un incarico di media o elevata complessità deve rinunciarvi se vince. Collegamento con La Consegna n. 3 (15 dicembre).");
   }
+  await frontespizio("11", S2);
   await frontespizio("13", S2);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });

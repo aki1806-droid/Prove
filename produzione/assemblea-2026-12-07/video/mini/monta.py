@@ -110,6 +110,16 @@ def main(js, lav):
     parole = os.path.join(lav, "parole.json")
     if os.path.exists(parole):
         tagli = allinea(blocchi, json.load(open(parole)), tot)
+        # i tempi della trascrizione sono stimati: ogni taglio va nel silenzio vero piu' vicino
+        sil = silenzi(grezzo, 0.12)
+        for i in range(1, len(tagli) - 1):
+            vicini = [((a + b) / 2, b - a) for a, b in sil if abs((a + b) / 2 - tagli[i]) < 0.9]
+            if vicini:
+                m = max(vicini, key=lambda x: x[1] - abs(x[0] - tagli[i]) * 0.5)
+                print(f"  taglio {i}: {tagli[i]:.2f} -> {m[0]:.2f} s (silenzio di {m[1]:.2f} s)")
+                tagli[i] = m[0]
+            else:
+                print(f"  ATTENZIONE taglio {i} a {tagli[i]:.2f} s: nessun silenzio vicino")
     else:
         sil = [(a, b) for a, b in silenzi(grezzo, SOGLIA) if a > 0.3 and b < tot - 0.3]
         if len(sil) != n - 1:
@@ -120,8 +130,12 @@ def main(js, lav):
     dur = []
     for i, b in enumerate(blocchi):
         w = os.path.join(lav, "blocchi", b["id"] + ".wav")
-        sh("ffmpeg", "-y", "-ss", f"{tagli[i]:.3f}", "-to", f"{tagli[i+1]:.3f}", "-i", grezzo,
-           "-af", FILTRO + f",apad=pad_dur={CODA}", "-ar", "48000", "-ac", "2", w)
+        sost = os.path.join(lav, "sostituisci", b["id"] + ".mp3")   # blocco rigenerato a parte
+        if os.path.exists(sost):
+            sh("ffmpeg", "-y", "-i", sost, "-af", FILTRO + f",apad=pad_dur={CODA}", "-ar", "48000", "-ac", "2", w)
+        else:
+            sh("ffmpeg", "-y", "-ss", f"{tagli[i]:.3f}", "-to", f"{tagli[i+1]:.3f}", "-i", grezzo,
+               "-af", FILTRO + f",apad=pad_dur={CODA}", "-ar", "48000", "-ac", "2", w)
         dur.append(durata(w))
     # video di ogni scena: entrata animata, poi l'ultimo fotogramma fermo
     seg = []
