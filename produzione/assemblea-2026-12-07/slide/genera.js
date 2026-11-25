@@ -321,6 +321,38 @@ async function videoSlide(sez, nome, titolo) {
   return s;
 }
 
+
+// Immagini generate con Higgsfield: foto a piena pagina e ricostruzioni.
+const IMM = path.join(QUI, "immagini");
+async function fotoPiena(sez, nome, frase, sotto) {
+  const s = pres.addSlide({ sectionTitle: sez });
+  const f = path.join(IMM, nome + ".png"), d = await dimensioni(f);
+  // riempie la slide tagliando il superfluo
+  const r = Math.max(W / d.w, H / d.h), iw = d.w * r, ih = d.h * r;
+  s.addImage({ path: f, x: (W - iw) / 2, y: (H - ih) / 2, w: iw, h: ih, altText: frase, sizing: { type: "cover", w: W, h: H } });
+  s.addShape(pres.shapes.RECTANGLE, { x: 0, y: H - 2.6, w: W, h: 2.6, fill: { color: "04351C", transparency: 18 }, line: { type: "none" } });
+  s.addShape(pres.shapes.RECTANGLE, { x: M, y: H - 2.25, w: 0.12, h: 1.5, fill: { color: HEX.accent2 }, line: { type: "none" } });
+  s.addText(frase, { x: M + 0.35, y: H - 2.35, w: W - 2 * M - 0.5, h: 1.05, fontSize: 36, bold: true, color: "FFFFFF", valign: "middle", margin: 0, isTextBox: true });
+  if (sotto) s.addText(sotto, { x: M + 0.35, y: H - 1.3, w: W - 2 * M - 0.5, h: 0.55, fontSize: 18, color: "CFE9D8", valign: "top", margin: 0, isTextBox: true });
+  s.addText("Immagine generata con IA", { x: W - 3.1, y: H - 0.42, w: 2.8, h: 0.3, fontSize: 9, italic: true, color: "9FC2AD", align: "right", margin: 0, isTextBox: true });
+  s.addNotes("Pausa visiva: lasciare la foto qualche secondo e dire la frase. Immagine generata con IA (Higgsfield), persone non reali.");
+  return s;
+}
+async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
+  const s = pres.addSlide({ masterName: "SCURO", sectionTitle: sez });
+  const f = path.join(IMM, nome + ".png"), d = await dimensioni(f);
+  const h = H, w = Math.min(h * d.w / d.h, 7.6);
+  s.addImage({ path: f, x: 0, y: 0, w, h, altText: titolo, sizing: { type: "cover", w, h } });
+  s.addText("RICOSTRUZIONE · IMMAGINE GENERATA CON IA", { x: 0.25, y: H - 0.45, w: 5, h: 0.3, fontSize: 9, bold: true, color: "FFFFFF", charSpacing: 2, margin: 0, isTextBox: true, shadow: { type: "outer", color: "000000", opacity: 0.6, blur: 4, offset: 1, angle: 90 } });
+  const x = w + 0.5, tw = W - x - M;
+  s.addText(kick.toUpperCase(), { x, y: 1.2, w: tw, h: 0.4, fontSize: 13, bold: true, color: HEX.accent2, charSpacing: 3, margin: 0, isTextBox: true });
+  s.addText(titolo, { x, y: 1.65, w: tw, h: 1.9, fontSize: 32, bold: true, color: "FFFFFF", valign: "top", margin: 0, isTextBox: true });
+  s.addShape(pres.shapes.RECTANGLE, { x, y: 3.65, w: 1.2, h: 0.09, fill: { color: HEX.accent2 }, line: { type: "none" } });
+  s.addText(testo, { x, y: 3.95, w: tw, h: 2.6, fontSize: 18, color: "CFE9D8", valign: "top", margin: 0, isTextBox: true });
+  s.addNotes((nota || "") + " Immagine generata con IA (Higgsfield): è una ricostruzione, le persone non sono reali.");
+  return s;
+}
+
 // ================================================================ SLIDE
 (async () => {
   // ------------------------------------------------ apertura
@@ -340,6 +372,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 10.3, y: 4.8, w: 2.3, h: 1.5, color: C.text2, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Accoglienza. Proiettare il video di introduzione prima di questa slide.");
   }
+  await fotoPiena("Apertura", "01-assemblea", "Oggi parliamo noi. Ma soprattutto ascoltiamo voi.", "Ogni domanda di stamattina diventa una richiesta al prossimo tavolo con l'Azienda");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: "Apertura" });
     kicker(s, "Ordine del giorno");
@@ -388,6 +421,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Medie indicate dalla guida CISL FP del 29/07/2026: circa 240 € per il personale infermieristico comprese le indennità, 209 € per le altre categorie; circa 380 € cumulando i CCNL 2022-2024 e 2025-2027.");
   }
+  await fotoPiena(S1, "02-firma", "Un contratto vale quanto la sua applicazione.", "Il nuovo CCNL Sanità 2025-2027: cosa cambia in busta paga e nei diritti");
   await videoSlide(S1, "01-ccnl", "Il nuovo contratto in cento secondi");
   await frontespizio("ccnl", S1);
   {
@@ -599,6 +633,7 @@ async function videoSlide(sez, nome, titolo) {
     }
     s.addNotes("Riepilogo del punto 1 prima delle domande. Arretrato medio indicato dal volantino CISL FP: circa 1.250 €.");
   }
+  await ricostruzione(S1, "25-cedolino", "Quando arrivano gli arretrati", "Il cedolino si controlla.", "Aumenti, indennità, arretrati: se qualcosa non torna, portaci la busta paga. La verifichiamo insieme, voce per voce.", "Chiusura del punto 1.");
   slideDomande(S1, "Il nuovo CCNL Sanità 2025-2027").addNotes("Spazio domande sul punto 1.");
 
   // ------------------------------------------------ 2 · accordi decentrati
@@ -616,6 +651,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Introduzione al punto 2. In un anno abbiamo firmato dodici intese con l'Azienda, tutte pubblicate sul sito aziendale. Le vediamo una per una, con il documento originale sullo schermo.");
   }
+  await fotoPiena(S2, "03-trattativa", "Dodici intese. Tutte firmate, tutte verificabili.", "Gli accordi decentrati: cosa abbiamo ottenuto al tavolo con l'Azienda");
   await videoSlide(S2, "02-accordi", "Dodici intese in un anno: cosa abbiamo firmato");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S2 });
@@ -1021,6 +1057,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Il risultato annunciato nella mail del 18/11: +1.000 € annui per tutti gli incarichi di funzione organizzativa di coordinamento, con una nuova fascia nella graduazione.");
   }
+  await fotoPiena(S3, "04-coordinatrice", "Responsabilità che finalmente hanno un valore.", "Coordinamenti, incarichi professionali, tutor");
   await videoSlide(S3, "03-incarichi", "Coordinatori e incarichi professionali");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S3 });
@@ -1226,6 +1263,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Il welfare viene dalla L.R. 26/2024: la Regione ha messo risorse aggiuntive per il personale del SSR per il triennio 2025-2027. Una parte fissa, 350 € a testa, va in buoni acquisto.");
   }
+  await fotoPiena(S4, "05-spesa", "350 € che devono arrivare davvero a tutti.", "Il welfare della legge regionale 26: chi, quanto, come");
   await videoSlide(S4, "04-welfare", "Il welfare: 350 € a testa");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S4 });
@@ -1345,6 +1383,7 @@ async function videoSlide(sez, nome, titolo) {
     await immagine(s, path.join(EV, "vertenze-hero.jpg"), 8.4, 0.9, 4.35, "Tre vertenze, una l'abbiamo già vinta: Tribunale di Padova, 14 maggio 2026");
     s.addNotes("Il lavoro pesante (avvocati, cause pilota, udienze) l'abbiamo fatto noi: a chi è in sala restano due minuti per un modulo.");
   }
+  await fotoPiena(S5, "06-tribunale", "Quando il contratto non viene rispettato, c'è il giudice.", "Festivo infrasettimanale, ferie, buoni pasto");
   await videoSlide(S5, "05-vertenze", "Tre vertenze, una già vinta");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S5 });
@@ -1428,6 +1467,7 @@ async function videoSlide(sez, nome, titolo) {
     qr(s, "buonipasto", 9.8, 4.35, 1.7, "Modulo buoni pasto");
     s.addNotes("Simulazione dal gamma CISL FP: 15 turni al mese senza buono. ⚠ Prescrizione: il gamma parla di 10 anni (natura assistenziale del buono), la mail di 5 anni per tutte e tre le vertenze: in sala dire un numero solo, da confermare con l'avvocato. ⚠ Aggiornare con l'esito della sentenza AOUP se arriva prima del 7/12. Documenti da raccogliere: cartellini dei turni di almeno 6 ore, buste paga. Modulo: form.getformly.com/f/kkwFYZ");
   }
+  await ricostruzione(S5, "21-pasto-corridoio", "Ore 2 di notte", "La mensa è chiusa. Il turno no.", "Dopo sei ore di lavoro, senza mensa, il buono pasto spetta: di giorno, di notte e nei festivi. È da qui che nasce la terza vertenza.", "Collegamento con la vertenza sui buoni pasto: priorità a notti, festivi e weekend.");
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S5 });
     kicker(s, "Perché non aspettare", HEX.accent2);
@@ -1507,6 +1547,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 9.4, y: 1.5, w: 3.1, h: 4.5, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Chi riguarda: il personale tecnico e amministrativo che fa da RUP, DEC, direttore dei lavori, supporto e collaboratore nelle gare e nei contratti. Esempio: fornitura da 220.000 € con complessità media = 1.650 €; da 230.000 € = 920 €.");
   }
+  await fotoPiena(S6, "07-tecnici", "Anche chi fa funzionare l'ospedale va riconosciuto.", "Il regolamento degli incentivi per le funzioni tecniche");
   await videoSlide(S6, "06-incentivi", "Incentivi tecnici: due regolamenti a confronto");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S6 });
@@ -1682,6 +1723,7 @@ async function videoSlide(sez, nome, titolo) {
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Dal grafico «Variazione teste rispetto al 1° gennaio 2020» dell'Azienda: infermieri al massimo +220 (fine 2021), minimo −124, ultimo valore −103; OSS +219 (picco +222); dirigenti medici +117.");
   }
+  await fotoPiena(S7, "08-postazione-vuota", "Dietro ogni numero c'è un turno scoperto.", "Quanti entrano, quanti escono: i dati dell'Azienda");
   await videoSlide(S7, "07-occupazione", "Quanti entrano, quanti escono");
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S7 });
@@ -1769,7 +1811,9 @@ async function videoSlide(sez, nome, titolo) {
       { text: "31 aree su 49", options: { fontSize: 14, color: "CFE9D8" } }],
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
   }
+  await fotoPiena(S8, "09-alba-orologio", "Le cinque del mattino: è lì che si misura un'organizzazione.", "OSS di notte, la notte di 12 ore, vestizione, ferie");
   await videoSlide(S8, "08-oss-notte", "Più OSS di notte");
+  await ricostruzione(S8, "23-oss-notte", "Di notte, in reparto", "Un paio di mani in più cambia la notte.", "Mobilizzare, alzare, rassicurare: di notte l'infermiere è spesso solo con troppi letti. Un OSS in più fa la differenza per i pazienti e per chi lavora.", "Collegamento con i quattro reparti individuati per l'OSS di notte.");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "OSS di notte · l'analisi dell'Azienda");
@@ -1853,6 +1897,7 @@ async function videoSlide(sez, nome, titolo) {
     s.addText("Le richieste nascono dai lavoratori per conciliare vita e lavoro: una parte del personale resterà comunque su tre turni.", { x: 8.6, y: 5.5, w: 4.15, h: 1.0, fontSize: 13, italic: true, color: "CFE9D8", margin: 0, isTextBox: true });
     s.addNotes("Modelli discussi il 3/11/2026: base 6+6+12 (diurni da 6h15'/6h22' e notte da 12h) o turni diurni da 12h. Iter: richiesta formale di Direttore e Coordinatore dell'UO, valutazione delle Direzioni, verifica della volontarietà, informazione sindacale. Dati dal dossier CISL FP, pag. 2-3.");
   }
+  await ricostruzione(S8, "24-cambio-turno", "Ore 7, cambio turno", "Dieci minuti per passare un reparto.", "Oggi il passaggio di consegne dura in media 17 minuti. Con la notte di 12 ore ne restano 10. Bastano, con i pazienti del tuo reparto?", "Dossier CISL FP sulla notte di 12 ore, pag. 2-3.");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "Simulazione 2027 · per ogni operatore in quinta", RS);
@@ -1946,6 +1991,7 @@ async function videoSlide(sez, nome, titolo) {
     }
     s.addNotes("Dossier pag. 18. Da proporre all'assemblea di reparto: discutere, integrare, approvare. Prossimi passi: assemblea, sondaggio anonimo, tavolo con l'Azienda, ritorno in assemblea con l'esito.");
   }
+  await ricostruzione(S8, "22-spogliatoio", "Ore 6:40, spogliatoio", "Vestirsi è già lavoro.", "Il contratto conta il tempo di vestizione e consegna. Il 3 novembre si è parlato di passare da 15 a 20-22 minuti: si decide al tavolo, non per ordine di servizio.", "Riunione del 3/11/2026.");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
     kicker(s, "Vestizione e consegne");
@@ -1966,6 +2012,7 @@ async function videoSlide(sez, nome, titolo) {
     }
     s.addNotes("Riunione del 3/11/2026: la CISL FP ha evidenziato che l'estensione dei tempi di vestizione e consegna (da 15 a 20-22 minuti) e i cambi d'orario richiedono un regolamento condiviso e il passaggio al tavolo di contrattazione. Conclusione: la disciplina sarà discussa formalmente al tavolo.");
   }
+  await ricostruzione(S8, "26-calendario-ferie", "Le ferie che non si fanno", "Un diritto non può scadere per colpa dell'organizzazione.", "Con la nuova legge le ferie non fruite possono andare perse. Tocca all'Azienda metterci in condizione di farle davvero.", "Introduzione al blocco ferie.");
   await videoSlide(S8, "10-ferie", "Ferie: la nuova legge");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S8 });
@@ -2053,6 +2100,7 @@ async function videoSlide(sez, nome, titolo) {
     }
     s.addNotes("Mini corso di circa 15 minuti. Tre quiz interattivi: si vota per alzata di mano e si clicca su una risposta per vedere la soluzione. Tutti gli esempi sono semplificati e dichiarati tali.");
   }
+  await fotoPiena(S9, "10-pensione-parco", "La pensione si costruisce adesso.", "Previdenza complementare: un mini corso su Perseo Sirio");
   await videoSlide(S9, "11-perseo-sirio", "Perseo Sirio in due minuti");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
@@ -2208,6 +2256,7 @@ async function videoSlide(sez, nome, titolo) {
     }
     s.addNotes("Onestà prima di tutto: il fondo conviene soprattutto per l'1% del datore e per il fisco, non è un conto corrente. Trasferimento ad altra forma possibile dopo 3 anni.");
   }
+  await ricostruzione(S9, "27-salvadanaio", "Un euro alla volta", "Il futuro si costruisce piano.", "Con l'1% tuo, l'1% dell'Azienda e il TFR, in trent'anni la differenza può superare i 40.000 € netti. Ma serve cominciare.", "Riprende l'esempio 1 del mini corso.");
   {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S9 });
     s.addText("Cosa fare da domani", { placeholder: "title" });
@@ -2238,10 +2287,12 @@ async function videoSlide(sez, nome, titolo) {
     }
     s.addNotes("Raccogliere le domande su un foglio: chi non ha tempo di parlare può scriverla e lasciarla al tavolo dei delegati.");
   }
+  await fotoPiena(S10, "11-mani-alzate", "Alzate la mano. Questa parte è vostra.", "Varie ed eventuali");
 
   // ------------------------------------------------ chiusura
   const SC = "Chiusura";
   pres.addSection({ title: SC });
+  await fotoPiena(SC, "12-corridoio-insieme", "Insieme, ogni giorno, in ogni reparto.", "CISL FP Padova Rovigo");
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: SC });
     kicker(s, "Da oggi");
