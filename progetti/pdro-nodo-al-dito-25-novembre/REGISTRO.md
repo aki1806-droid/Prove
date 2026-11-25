@@ -40,3 +40,6 @@ Pacchetto V7_UN_NODO_AL_DITO (parte 1 testi e cartelli, parte 2 immagini e clip)
 - Uscite v2: 76,0 s, −15,6 LUFS. Asset HeyGen (account 1): 16:9
   https://resource2.heygen.ai/video/350a8832af0d4e1f8b58f95dd9354d7c/original.mp4 · 9:16
   https://resource2.heygen.ai/video/a11b4de4e9c7472787962da00f008444/original.mp4 . Copie d'invio mandate in chat.
+- Pubblicati alle 14:34: YouTube Shorts 9:16 https://www.youtube.com/watch?v=ZzMsPAg7wIc · YouTube 16:9
+  https://www.youtube.com/watch?v=a7G378-6qEE · TikTok https://www.tiktok.com/@cislfpaop/video/7712101927944817942 ·
+  Instagram https://www.instagram.com/reel/DgKpfIvBU9_/ . Facebook 18051 rifiutato («flagged by Facebook»), come dal 18/11.
