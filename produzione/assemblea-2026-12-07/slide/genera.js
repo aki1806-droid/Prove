@@ -306,7 +306,7 @@ async function videoSlide(sez, nome, titolo) {
   const s = pres.addSlide({ masterName: "SCURO", sectionTitle: sez });
   kicker(s, "▶ Video · clic per avviare", HEX.accent2, 0.2);
   s.addText(titolo, { x: M, y: 0.45, w: W - 2 * M, h: 0.7, fontSize: 28, bold: true, color: "FFFFFF", margin: 0, isTextBox: true });
-  const w = 10.6, h = w * 9 / 16, x = (W - w) / 2, y = 1.3;
+  const w = 10.1, h = w * 9 / 16, x = (W - w) / 2, y = 1.25;
   s.addShape(pres.shapes.RECTANGLE, { x: x - 0.06, y: y - 0.06, w: w + 0.12, h: h + 0.12, fill: { color: HEX.accent2 }, line: { type: "none" } });
   if (fs.existsSync(mp4)) {
     const lav = path.join(MINI, "lavoro", nome.slice(0, 2), "scene", "s01");
@@ -326,7 +326,7 @@ async function videoSlide(sez, nome, titolo) {
 const IMM = path.join(QUI, "immagini");
 async function fotoPiena(sez, nome, frase, sotto) {
   const s = pres.addSlide({ sectionTitle: sez });
-  const f = path.join(IMM, nome + ".png"), d = await dimensioni(f);
+  const f = path.join(IMM, nome + ".jpg"), d = await dimensioni(f);
   // riempie la slide tagliando il superfluo
   const r = Math.max(W / d.w, H / d.h), iw = d.w * r, ih = d.h * r;
   s.addImage({ path: f, x: (W - iw) / 2, y: (H - ih) / 2, w: iw, h: ih, altText: frase, sizing: { type: "cover", w: W, h: H } });
@@ -340,7 +340,7 @@ async function fotoPiena(sez, nome, frase, sotto) {
 }
 async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
   const s = pres.addSlide({ masterName: "SCURO", sectionTitle: sez });
-  const f = path.join(IMM, nome + ".png"), d = await dimensioni(f);
+  const f = path.join(IMM, nome + ".jpg"), d = await dimensioni(f);
   const h = H, w = Math.min(h * d.w / d.h, 7.6);
   s.addImage({ path: f, x: 0, y: 0, w, h, altText: titolo, sizing: { type: "cover", w, h } });
   s.addText("RICOSTRUZIONE · IMMAGINE GENERATA CON IA", { x: 0.25, y: H - 0.45, w: 5, h: 0.3, fontSize: 9, bold: true, color: "FFFFFF", charSpacing: 2, margin: 0, isTextBox: true, shadow: { type: "outer", color: "000000", opacity: 0.6, blur: 4, offset: 1, angle: 90 } });
@@ -422,7 +422,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addNotes("Medie indicate dalla guida CISL FP del 29/07/2026: circa 240 € per il personale infermieristico comprese le indennità, 209 € per le altre categorie; circa 380 € cumulando i CCNL 2022-2024 e 2025-2027.");
   }
   await fotoPiena(S1, "02-firma", "Un contratto vale quanto la sua applicazione.", "Il nuovo CCNL Sanità 2025-2027: cosa cambia in busta paga e nei diritti");
-  await videoSlide(S1, "01-ccnl", "Il nuovo contratto in cento secondi");
+  await videoSlide(S1, "01-ccnl", "Il nuovo contratto in due minuti");
   await frontespizio("ccnl", S1);
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S1 });
