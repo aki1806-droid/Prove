@@ -28,7 +28,7 @@ Pacchetto V7_UN_NODO_AL_DITO (parte 1 testi e cartelli, parte 2 immagini e clip)
   9:16 https://resource2.heygen.ai/video/2d52e922f1814c32b898b8166ee4d225/original.mp4
 - Correzioni dopo la prima prova: foto del nodo scurita, fascia prugna dietro sottotitoli ed etichetta (9:16), etichetta a
   sinistra sul prugna nel 16:9.
-- Robin: in attesa dell'OK di Achille (oggi).
+- Robin: OK di Achille il 25/11; programmati alle 14:34 il post 1216964 (9:16 su TikTok 18053, Instagram 18045 reel, Facebook 18051 reel, YouTube 18260 Shorts) e il post 1216965 (16:9 su YouTube 18260).
 
 ## Versione 2 (25/11/2026, richiesta di Achille)
 - «Sottofondo con piano e arpa, il 1522 pronunciato "quindici, ventidue", tono della voce meno ansiogeno».
