@@ -2,46 +2,46 @@
  {
   "id": "S01",
   "inizio": 0.0,
-  "durata": 10.712
+  "durata": 11.051
  },
  {
   "id": "S02",
-  "inizio": 10.712,
-  "durata": 15.171
+  "inizio": 11.051,
+  "durata": 15.064
  },
  {
   "id": "S03",
-  "inizio": 25.883,
-  "durata": 12.515
+  "inizio": 26.115,
+  "durata": 13.185
  },
  {
   "id": "S04",
-  "inizio": 38.398,
-  "durata": 11.685
+  "inizio": 39.3,
+  "durata": 12.162
  },
  {
   "id": "S05",
-  "inizio": 50.083,
-  "durata": 9.158
+  "inizio": 51.462,
+  "durata": 9.573
  },
  {
   "id": "S06",
-  "inizio": 59.241,
-  "durata": 20.323
+  "inizio": 61.036,
+  "durata": 20.966
  },
  {
   "id": "S07",
-  "inizio": 79.564,
-  "durata": 14.337
+  "inizio": 82.002,
+  "durata": 14.877
  },
  {
   "id": "S08",
-  "inizio": 93.901,
-  "durata": 12.373
+  "inizio": 96.879,
+  "durata": 12.684
  },
  {
   "id": "S09",
-  "inizio": 106.274,
+  "inizio": 109.562,
   "durata": 16.607,
   "voce": 15.607
  }

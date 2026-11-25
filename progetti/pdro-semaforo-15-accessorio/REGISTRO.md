@@ -20,3 +20,12 @@ Pacchetto PDRO_Imposta_15_accessorio_Il_semaforo.zip mandato da Achille il 25/11
   suoni/silenzio.json per la pausa secca della musica (S5).
 - Musica ElevenLabs eleven_music_v2 XYH5a9vPbug6c71t64YC (elettronica 105 BPM, 175 s); clic 9kvJt2EbOBse2pkOB81o, bip iarPlfjn7mFHHvjg5xOF.
 - Avatar Heygen 2: audio asset d1fbae618f2e44ff80b5845d36648e4a, video b8ff7ff3962b1289bbee0a2b16a1abe4 (webm 9:16 1080p).
+
+## Versione definitiva (25/11): narratore Luca Ward
+- Achille: «la voce narrante voglio sia quella Luca Ward». Narratore rigenerato con Luca Ward (tVdVcJPudubxmTmAw4tE), stessi
+  tag, generazione 9trOeIGdLxy4tNwdeIgP (119,4 s), trascrizione j3PLagTEW2KXApRJv4Xa. La versione con la Voce calda è in
+  audio/voce_calda/. Tempi di regia ricalcolati con strumenti/semaforo/tempi_regia.py.
+- Avatar Heygen 2 rifatto in 16:9 (os.py vuole il webm orizzontale): a3bb0d181a6e83466625e908186bcfd3 (il 9:16
+  b8ff7ff3… resta in avatar/avatar_9x16.webm). S09A_av.jpg = S09A (la mail della scheda non va trattata come motto).
+- Uscita: 126,2 s, −16,4 LUFS, picco −1,4 dBFS. Asset HeyGen (account 1): https://resource2.heygen.ai/video/8cfa918213dd427d8b0fbcbe0bb2326b/original.mp4
+- Robin: da pubblicare dopo l'OK di Achille.
