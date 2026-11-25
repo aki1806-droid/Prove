@@ -1,0 +1,679 @@
+AZIENDA OSPEDALE – UNIVERSITÀ PADOVA                                   RSU E OO.SS. COMPARTO SANITÀ
+
+
+                               REGOLA M EN T O LA V ORO A GI LE
+
+
+
+
+Il giorno _25/9/26___ alle ore __15.00__, ha avuto luogo l’incontro presso l’Aula UOC Risorse
+Umane tra:
+
+LA DELEGAZIONE TRATTANTE DI PARTE                          LE DELEGAZIONI TRATTANTI DI PARTE
+PUBBLICA DELL’AZIENDA OSPEDALE-                            SINDACALE:
+UNIVERSITA’ PADOVA:
+
+
+Direttore Amministrativo                                   RSU:
+(delegato dal Direttore Generale)
+                                                           ……………………………………………………
+……(FIRMATO)…………..
+                                                           CISL FP:
+Direttore Sanitario
+                                                           ……(FIRMATO)…………..
+……(FIRMATO)…………..
+                                                           FIALS:
+Direttore
+UOC Risorse Umane, Personale Universitario in              ……(FIRMATO)…………..
+Convenzione e Rapporti con l’Università
+                                                           NURSING UP:
+……(FIRMATO)…………..
+                                                           ……(FIRMATO)…………..
+Direttore
+UOC Direzione delle Professioni Sanitarie                  NURSIND:
+
+
+……(FIRMATO)…………..                                          ……(FIRMATO)…………..
+
+
+Direttore
+UOC Direzione Medica
+
+
+……(FIRMATO)…………..
+
+
+……(FIRMATO)…………..
+
+
+……(FIRMATO)…………..
+
+
+
+
+Al termine dell’incontro le parti sottoscrivono il documento in oggetto che verrà inviata al Collegio sindacale,
+in applicazione dell’art. 55 del D.Lgs. 27 ottobre 2009 n. 150 e secondo le procedure di cui all’art.10, comma 6,
+del CCNL 27 ottobre 2025, nel testo che segue.
+
+
+
+                                                       1
+                           PERSONALE COMPARTO
+                               AREA SANITÀ
+
+
+
+                      REGOLAMENTO LAVORO AGILE
+
+
+
+
+                                                                 Padova, ___25/09/26__
+
+
+
+
+       Le parti sottoscrivono il presente verbale di confronto ad esito positivo, che
+
+rivede e sostituisce il precedente regolamento, in materia di lavoro agile, sottoscritto
+
+in data 13/12/2022.
+       L’ Amministrazione si impegna ad effettuare le opportune verifiche di fattibilità
+
+gestionale e sostenibilità al fine di integrare tale regolamento con l’eventuale utilizzo
+
+del buono pasto.
+
+
+
+
+  PER L’AMMINISTRAZIONE                                        PER LE OO.SS.
+
+     ……(FIRMATO)…………..                                      ……(FIRMATO)…………..
+
+
+
+
+                                           2
+                                                 REGOLAMENTO LAVORO AGILE
+
+
+
+
+Sommario
+1.    Finalità ...................................................................................................................................................... 2
+2.    Definizioni ................................................................................................................................................. 2
+3.    Ambito di applicazione ........................................................................................................................... 3
+4.    Progetto specifico ................................................................................................................................... 4
+5.    Dotazione tecnologica ............................................................................................................................ 4
+6.    Criteri di assegnazione del lavoro agile............................................................................................... 5
+7.    Modalità di accesso e accordo individuale ......................................................................................... 6
+8.    Trattamento giuridico ed economico .................................................................................................... 6
+9.    Modalità di svolgimento dell’attività lavorativa in modalità agile...................................................... 7
+10.      Verifiche e monitoraggio .................................................................................................................... 8
+11.      Decadenza, modalità di recesso ...................................................................................................... 9
+12.      Tutela assicurativa .............................................................................................................................. 9
+13.      Tutela della salute e sicurezza del lavoratore ................................................................................ 9
+14.      Obblighi afferenti alla riservatezza dei dati ................................................................................... 10
+15.      Norme di rinvio .................................................................................................................................. 11
+
+
+
+
+                                                                                 1
+1. Finalità
+
+   Il lavoro agile è una modalità flessibile di esecuzione della prestazione lavorativa, senza precisi
+   vincoli di orario o di luogo, basata sui principi di autonomia, responsabilità, fiducia e delega nel
+   rispetto del principio di non discriminazione e di pari opportunità.
+   Tale modello organizzativo si propone come strumento di ripensamento intelligente delle
+   modalità di lavoro in grado di innescare un profondo cambiamento culturale e di promuovere un
+   processo di innovazione nell’organizzazione del lavoro e nel funzionamento delle pubbliche
+   amministrazioni e dei servizi ai cittadini.
+   Il lavoro agile si è affermato sia come una misura di conciliazione vita-lavoro sia come una nuova
+   visione del lavoro volta a favorire una maggiore efficacia dell’azione amministrativa, una più
+   elevata produttività ed un più efficace orientamento ai risultati.
+   Ai vantaggi goduti dal lavoratore agile sul piano della conciliazione tra vita privata e professionale
+   si affiancano quelli del datore di lavoro che può vantare alle sue dipendenze lavoratori più
+   efficienti, responsabilizzati e motivati.
+   Il lavoro agile, inoltre, pone l’attenzione su temi di interesse collettivo e sviluppo economico del
+   territorio favorendo la riduzione degli spostamenti a favore di una maggiore viabilità, il
+   contenimento dei livelli di inquinamento e un abbattimento dei costi sia per il datore di lavoro che
+   per il lavoratore.
+   Sulla base di queste premesse, il lavoro agile persegue le seguenti finalità:
+             promuovere una nuova visione dell’organizzazione del lavoro volta a stimolare
+                 l’autonomia, la responsabilità e la motivazione dei lavoratori, in un’ottica di incremento
+                 della produttività e del benessere organizzativo, nonché la fiducia, la delega e la
+                 capacità di gestione del tempo in rapporto agli obiettivi specifici dell’attività lavorativa
+                 nei responsabili e nelle figure quadro;
+             consolidare, inoltre, le competenze manageriali nell’organizzazione del lavoro per
+                 obiettivi svolto dai collaboratori e nella concomitante valutazione step-by-step di tali
+                 obiettivi;
+             favorire altresì, attraverso lo sviluppo della cultura gestionale orientata al risultato,
+                 l’incremento dell’efficacia e dell’efficienza dell’azione amministrativa;
+             favorire la mobilità sostenibile tramite riduzione degli spostamenti casa-lavoro,
+                 nell’ottica di una politica ambientale sensibile alla diminuzione del traffico urbano in
+                 termini di volumi, percorrenza e inquinamento;
+             agevolare la conciliazione vita-lavoro (work-life balance) di tutti i dipendenti che lo
+                 svolgono.
+
+2. Definizioni
+
+   Ai fini della presente disciplina si intende per:
+             “Lavoro agile” o “smart-working”: una modalità flessibile di esecuzione della
+                prestazione di lavoro subordinato, la cui possibilità è concordata tra le parti. Il “lavoro
+                agile” o “smart-working” si connota in generale per le seguenti caratteristiche:
+                    o svolgimento di parte dell’attività lavorativa all’esterno delle abituali sedi di
+                        lavoro, anche con forme di organizzazione per fasi, cicli ed obiettivi entro i soli
+                        limiti di durata del tempo di lavoro giornaliero e settimanale derivanti dalla
+                        legge e dalla contrattazione collettiva;
+                    o utilizzo per il lavoro da remoto di strumenti tecnologici e informatici (ICT);
+                    o assenza di una postazione fissa durante i periodi di lavoro svolti in luogo
+                        diverso dalla sede di lavoro assegnata.
+
+
+
+                                                     2
+               “Lavoratrice agile/lavoratore agile”: il dipendente (anche in posizione di comando in
+                entrata) in servizio presso l’Amministrazione che svolge parte della propria attività
+                lavorativa in modalità agile secondo i termini stabiliti dall’accordo individuale;
+               “Accordo individuale”: l’accordo concluso tra dipendente e direttore/dirigente
+                responsabile della struttura di appartenenza del lavoratore. L’accordo è stipulato per
+                iscritto e disciplina l’esecuzione della prestazione lavorativa al di fuori dei locali
+                dell’Amministrazione. L’accordo individua, inoltre, la durata, gli obiettivi, le modalità
+                organizzative e di svolgimento dell’attività lavorativa in lavoro agile;
+               “Amministrazione” o “Ente”: Azienda Ospedale Università di Padova;
+               “Attività eseguibile da remoto”: attività che può essere espletata in modalità agile;
+               “Luogo di lavoro”: spazio, al di fuori dei locali dell’Amministrazione, nella disponibilità
+                del dipendente (propria abitazione o altro luogo prescelto e ritenuto idoneo dal
+                lavoratore in accordo con l’Amministrazione) dove svolgere l’attività lavorativa in
+                modalità agile;
+               “Sede di lavoro abituale” o “sede istituzionale”: la sede dell’ufficio presso i locali
+                dell’Amministrazione a cui il dipendente è assegnato.
+               “Direttore/Dirigente”: direttore di UOC/UOSD o responsabile di UOS non incardinata
+                in UOC.
+
+3. Ambito di applicazione
+
+    L’Amministrazione disciplina, nel presente regolamento, l’istituto del lavoro agile/smartworking
+    (d’ora in poi lavoro agile) quale forma di organizzazione e di esecuzione della prestazione
+    lavorativa volta anzitutto a promuovere, per i propri dipendenti, la conciliazione tra tempi di vita
+    e di lavoro in attuazione dell’art. 14 della legge 7 agosto 2015, n. 1241 e tenendo conto degli
+    articoli da 18 a 23 della legge 22 maggio 2017 n. 812 e degli artt. 76-79 del CCNL 19/21 personale
+    area comparto in fase di sottoscrizione.
+    Sono escluse dal novero delle attività remotizzabili quelle sanitarie, socio-assistenziali, tecnico
+    amministrative che prevedono un contatto necessariamente diretto con l’utenza, anche interna,
+    o da eseguire presso specifiche strutture di erogazione di servizi o, in generale, le attività che
+    richiedono la presenza fisica presso la sede di lavoro o che sono svolte in turno (a titolo
+    meramente esemplificativo e non esaustivo, segreterie di reparto, sportelli di pagamento,
+    prenotazione, ritiro referti, ecc.).
+    Sono considerate, altresì, non remotizzabili le attività che richiedono l’impiego di particolari
+    strumenti ed attrezzature o da effettuare necessariamente per loro natura presso la sede di
+    lavoro (esempio: magazzini, ecc.) o qualora non sia possibile la consultazione e lavorazione di
+    un’ingente quantità di documenti cartacei all’esterno della sede di lavoro.
+
+
+
+
+1
+ Legge 124/2015 art 14 Promozione della conciliazione dei tempi di vita e di lavoro nelle amministrazioni pubbliche
+2
+  Art.18 a 23 della legge 22 maggio 2017 n. 81: lavoro agile, forma e recesso, Trattamento, diritto all'apprendimento
+continuo e certificazione delle competenze del lavoratore, Potere di controllo e disciplinare, Sicurezza sul lavoro, Obblighi
+di comunicazione e assicurazione obbligatoria per gli infortuni sul lavoro e le malattie professionali)
+
+
+
+
+                                                             3
+4. Progetto specifico
+
+   Ciascun Direttore di UOC/UOSD o Responsabile di UOS non incardinata in UOC, verificata la
+   compatibilità di alcune specifiche attività con il lavoro agile, può proporre un progetto specifico
+   relativo alla propria Unità.
+
+   Il progetto specifico deve indicare:
+
+    le attività interessate;
+    gli obiettivi generali del progetto;
+    gli obiettivi specifici affidati al lavoratore, anche al fine dell’esercizio del potere di controllo;
+    le tipologie professionali e il numero di dipendenti di cui si prevede il coinvolgimento;
+    i tempi e le modalità di realizzazione;
+    i criteri di verifica;
+    le modalità organizzative;
+    le tecnologie utilizzate e i sistemi di supporto e sicurezza: in particolare, il dirigente dovrà
+     verificare con la UOC Sistemi Informativi l’accessibilità sicura da remoto alle risorse
+     indispensabili allo svolgimento dell’attività lavorativa in modalità agile;
+    i costi e dei benefici, diretti e indiretti, che si prevede di sostenere e conseguire.
+
+
+5. Dotazione tecnologica
+
+       1. Il lavoro in modalità agile è strettamente collegato agli strumenti informatici disponibili
+          che, in tale contesto, sono elementi imprescindibili nella concreta attuazione della
+          prestazione lavorativa. Le risorse informatiche funzionali allo svolgimento del lavoro agile
+          saranno rese disponibili dalla UOC Sistemi Informativi in base alle specifiche esigenze
+          lavorative e nei limiti della dotazione informatica disponibile ovvero, in alternativa, di
+          proprietà del dipendente, previo specifico accordo.
+       2. In caso vengano utilizzate risorse personali del dipendente, queste devono rispettare i
+          requisiti minimi identificati dalla UOC Sistemi Informativi. Al fine di ottimizzare il numero
+          di risorse informatiche di proprietà dell’Azienda dedicate al lavoro agile, queste ultime si
+          intendono assegnate alla Struttura e non al singolo dipendente; sarà cura di ciascun
+          Responsabile l’assegnazione della postazione di lavoro al dipendente che ne abbia
+          effettiva necessità (quando il dipendente presterà servizio in sede la postazione di lavoro
+          potrà quindi essere riassegnata ad altri collaboratori).
+       3. Il dipendente si impegna ad utilizzare la connessione internet personale, senza nulla
+          poter pretendere a titolo di ristoro dei costi. Qualora il dipendente non abbia la
+          disponibilità di una connessione personale adeguata, anche a causa della insufficiente
+          copertura territoriale, non sarà possibile dare corso alla richiesta, salvo che il
+          Responsabile ritenga il tipo di attività assegnata sia svolgibile anche off-line.
+       4. Il dipendente si impegna a custodire con la massima cura e mantenere integra la
+          strumentazione che sarà eventualmente fornita, in modo tale da evitarne il
+          danneggiamento o lo smarrimento e ad utilizzarla in conformità con le istruzioni ricevute,
+          nel rispetto delle norme sulla sicurezza e delle disposizioni contenute nel regolamento
+          informatico. I costi di fornitura, manutenzione e riparazione dei soli strumenti informatici
+          forniti dell’Azienda sono a carico della stessa; nel caso di utilizzo negligente, eventuali
+          costi di riparazione, dovuti al danneggiamento degli strumenti di lavoro forniti, potranno
+          essere addebitati direttamente al dipendente. Nel caso, invece, di utilizzo di dispositivi
+          personali, il dipendente deve in ogni caso garantire la presenza di adeguati sistemi di
+          protezione informatica (tra i quali firewall e antivirus) e in ogni caso adottare
+
+
+                                                   4
+           comportamenti consapevoli atti a garantire un livello accettabile di sicurezza conforme
+           alle indicazioni emanate dalla UOC Sistemi Informativi.
+        5. E’ fatto obbligo di attenersi alla policy password aziendale per ogni account necessario
+           allo svolgimento delle attività lavorative e in generale alle regole di sicurezza informatica
+           standard adottate. L’accesso alle risorse interne alla rete aziendale potrà avvenire
+           esclusivamente attraverso una connessione VPN adeguatamente predisposta dalla UOC
+           Sistemi Informativi in relazione alle esigenze specifiche del singolo lavoratore (es.
+           accesso consentito alle sole risorse necessarie).
+        6. Il dipendente che lavora in modalità agile si impegna, in modo particolare, a:
+                  i. non installare software proveniente da fonti/repository non sicure su pc aziendale;
+                 ii. bloccare l’accesso al sistema e/o configurare la modalità di blocco automatico
+                     quando ci si allontana dalla postazione di lavoro;
+                iii. non cliccare su link o allegati contenuti in email sospette;
+               iv. utilizzare l’accesso a connessioni Wi-Fi adeguatamente protette;
+                 v. effettuare sempre il log-out dai servizi/portali utilizzati dopo che aver concluso la
+                     sessione lavorativa.
+
+
+6. Criteri di assegnazione del lavoro agile
+
+Il progetto viene inviato alla UOC Gestione Risorse Umane, Personale Universitario in Convenzione
+e Rapporti con l’Università (di seguito RU) la quale, dopo averlo sottoposto alla direzione, acquisisce
+l’autorizzazione a procedere.
+Ottenuta l’autorizzazione della direzione di area competente, RU lo comunica al direttore/dirigente
+proponente affinché proceda a raccogliere le domande di lavoro agile per il progetto presentato.
+Il dirigente responsabile seleziona, tra le domande presentate dal personale afferente alla struttura,
+quelle che soddisfano i requisiti professionali necessari per la realizzazione del progetto, ovvero che
+corrispondono a profili di competenza ed esperienza congrui rispetto all’attività da esplicare, atteso
+l’obiettivo di mantenere perlomeno inalterato il livello quali-quantitativo delle prestazioni erogate.
+RU, ricevute le domande selezionate dal direttore/dirigente, d’intesa con il direttore/dirigente
+proponente, assegna le posizioni di lavoro agile tenendo conto dei seguenti criteri, nel caso in cui le
+richieste di accesso al lavoro agile eccedano quelle rese disponibili dal progetto stesso:
+     1. lavoratori con figli conviventi fino a 12 anni di età o senza alcun limite di età se il figlio si trova
+         in condizioni di disabilità ai sensi dell’art.3 comma 3 della legge 5 febbraio 1992, n. 104;
+     2. lavoratori con disabilità in situazione di gravità accertata ai sensi dell’art. 4 comma 1, della
+         legge 5 febbraio 1992, n. 104;
+     3. lavoratori che siano caregivers ai sensi dell’art. 1 comma 125 della legge 27 dicembre 2017
+         n. 2053
+     4. lavoratori che usufruiscono dei permessi di cui ai commi 2 e 3 dell’art. 33 legge 104/92;
+     5. distanza tra la zona di residenza o domicilio e la sede di lavoro;
+     6. numero di mezzi di trasporto utilizzati e dei relativi tempi di percorrenza, o situazioni di
+         particolare criticità nella conciliazione tra tempi di vita e di lavoro.
+
+
+
+
+3(art.1,c. 255, l. 205/2017)Si definisce caregiver familiare la persona che assiste e si prende cura
+del coniuge, dell'altra parte dell'unione civile tra persone dello stesso sesso o del convivente di
+fatto ai sensi della legge 20 maggio 2016, n. 76, di un familiare o di un affine entro il secondo
+grado, ovvero, nei soli casi indicati all'articolo 33, comma 3, della legge 5 febbraio 1992, n. 104,
+di un familiare entro il terzo grado che, a causa di malattia, infermita' o disabilita', anche croniche
+o degenerative, non sia autosufficiente e in grado di prendersi cura di se', sia riconosciuto invalido
+in quanto bisognoso di assistenza globale e continua di lunga durata ai sensi dell'articolo 3, comma
+3, della legge 5 febbraio 1992, n. 104, o sia titolare di indennita' di accompagnamento ai sensi
+della legge 11 febbraio 1980, n. 18.
+                                                      5
+In presenza di più candidati a ricoprire la medesima posizione in smartworking aventi la stessa
+priorità di accesso, il dirigente potrà valutare di applicare un criterio di rotazione in corso d’anno
+purché ciò non pregiudichi l’efficenza complessiva dell’attività lavorativa.
+
+
+7. Modalità di accesso e accordo individuale
+
+       1. L’accesso al lavoro agile avviene mediante sottoscrizione di Accordo stipulato in forma
+          scritta fra il dipendente, e il direttore/dirigente responsabile della struttura di
+          appartenenza del dipendente stesso.
+
+       2. L’accordo ha una durata coerente con i tempi di realizzazione del progetto ed in ogni
+          caso non superiore a 12 mesi rinnovabile.
+
+       3. L’autorizzazione alla stipula dell’Accordo di lavoro agile non equivale all’autorizzazione
+          all’effettiva fruizione delle giornate richieste dal dipendente, subordinata, volta per volta,
+          ai requisiti indicati all’ art. 8 del presente Regolamento.
+
+
+       4. L’Accordo ha natura generale ed è finalizzato a:
+               i. stabilire la disciplina generale per l’esecuzione dell’attività da remoto;
+              ii. legittimare la possibilità di usufruire di giornate di lavoro agile. L’Accordo non
+                  attribuisce al dipendente il diritto ad ottenere l’autorizzazione del dirigente all’
+                  effettivo numero di giornate richieste.
+
+       5. Per i motivi sopra descritti, l’accordo individuale indica:
+               i. dati anagrafici e professionali del richiedente;
+              ii. disciplina dell’esecuzione della prestazione lavorativa al di fuori dei locali
+                  aziendali, con specifico riferimento alla durata complessiva dell’accordo,
+                  indicazione della quantità massima di giornate in lavoro agile fruibili mensilmente
+                  attraverso un rinvio al presente Regolamento;
+             iii. strumenti e tecnologie di lavoro e loro impiego;
+             iv. forme di esercizio del potere direttivo del dirigente di riferimento;
+              v. disposizioni in materia di trattamento dei dati personali;
+             vi. garanzie e adempimenti circa la salute e la sicurezza sul lavoro;
+            vii. diritti e modalità di recesso;
+            viii. modalità di monitoraggio della prestazione lavorativa resa all’esterno dei locali
+                  aziendali, tenendo conto dell’articolo 4 dello Statuto dei Lavoratori (limiti e
+                  possibilità di controllo a distanza);
+             ix. fasce temporali o orario di contattabilità;
+              x. diritto di disconnessione.
+
+       6. La fruizione di giornate in lavoro agile deve essere sempre e comunque autorizzata volta
+          per volta tramite gli appositi giustificativi sul portale digitale.
+
+8. Trattamento giuridico ed economico
+
+       1. Lo svolgimento della prestazione lavorativa in modalità agile non modifica la natura del
+          rapporto di lavoro in atto. Fatti salvi gli istituti contrattuali non compatibili con la modalità
+          a distanza, il dipendente conserva i medesimi diritti e obblighi nascenti dal rapporto di
+          lavoro in presenza, ivi incluso il diritto ad un trattamento economico non inferiore a quello
+          complessivamente applicato nei confronti dei lavoratori che svolgono le medesime
+          attribuzioni esclusivamente all’interno dell’Azienda.
+
+                                                    6
+       2. L’Azienda garantisce al personale in lavoro agile le stesse opportunità rispetto alle
+          progressioni di carriera, alle progressioni economiche, alla incentivazione della
+          performance e alle iniziative formative previste per tutti i dipendenti che prestano attività
+          lavorativa in presenza.
+
+       3. Nella fascia di contattabilità (disciplinata nel successivo articolo), il lavoratore può
+          richiedere, ove ne ricorrano i relativi presupposti, la fruizione dei permessi orari previsti
+          dai contratti collettivi o dalle norme di legge quali, a titolo esemplificativo, i permessi per
+          motivi personali o familiari di cui all’art. 51 DEL CCNL (Permessi retribuiti per motivi
+          personali o familiari), i permessi sindacali di cui al CCNQ 4 dicembre 2017 e s.m.i., i
+          permessi per assemblea di cui all’art. 13 (Diritto di assemblea) e i permessi di cui all’art.
+          33 della legge n.104/1992. Il dipendente che fruisce dei suddetti permessi, per la durata
+          degli stessi, è sollevato dagli obblighi stabiliti per la fascia di contattabilità.
+
+       4. Nelle giornate in cui la prestazione lavorativa viene svolta in modalità agile non è possibile
+          effettuare lavoro straordinario, trasferte, lavoro disagiato, lavoro svolto in condizioni di
+          rischio.
+
+9. Modalità di svolgimento dell’attività lavorativa in modalità agile.
+
+       1. La prestazione di lavoro in modalità agile viene svolta per intere singole giornate ed ha
+          la durata convenzionale del normale orario teorico.
+
+       2. Sono previste fino ad un massimo di 8 giornate mensili, di norma, non più di due a
+          settimana. Il dirigente può eccezionalmente autorizzare il dipendente a fruire di un
+          numero superiore di giornate in lavoro agile rispetto a quelle consentite per venire
+          incontro a particolari esigenze, urgenze o impedimenti del lavoratore a carattere
+          temporaneo, qualora ciò comporti un evidente beneficio per l’Amministrazione.
+
+       3. Per i dipendenti in condizioni di particolare fragilità o destinatari di specifiche tutele
+          normative (a titolo esemplificativo ma non esaustivo: titolari L. 104/92 per sé stessi o per
+          familiari, donne in documentato stato di gravidanza, dipendenti che godono di benefici
+          previsti dal D.Lgs. n. 151/2001 a sostegno della genitorialità, dipendenti sottoposti a cure
+          salvavita o con patologie oncologiche o croniche con particolare connotazione di gravità
+          o con particolari esigenze di salute) è possibile derogare al criterio della prevalenza dello
+          svolgimento della prestazione lavorativa in presenza, qualora venga documentata la
+          condizione che rende necessaria tale soluzione (art. 28 CCNL Comparto Sanità 2022-
+          2024 e Direttiva della Presidenza dei Consigli dei Ministri 29 dicembre 2023). Tali
+          condizioni devono sussistere per l’intera durata dell’accordo individuale e il dipendente è
+          tenuto a segnalare tempestivamente eventuali variazioni della situazione di cui sopra.
+
+       4. Le giornate di lavoro agile fruibili dal dipendente devono essere concordate col
+          direttore/dirigente responsabile sulla base di una programmazione dell’attività lavorativa
+          della singola struttura organizzativa, prendendo in considerazione i seguenti criteri:
+
+                 i. Garantire lo svolgimento delle attività indifferibili da rendere in presenza;
+                ii. Garantire la continuità e il mantenimento dello stesso livello quanti-qualitativo
+                    delle prestazioni e dei servizi erogati dalla singola struttura;
+               iii. Tenere conto dei periodi di ferie, permessi e altri istituti di assenza del personale
+                    della singola struttura organizzativa e della ricorrenza di “picchi” lavorativi previsti
+                    o prevedibili;
+
+
+                                                    7
+              iv. Tenere conto dell’eseguibilità da remoto dell’attività lavorativa assegnata ai
+                  dipendenti della singola struttura organizzativa.
+
+       5. L’attività in lavoro agile sarà distribuita nell’arco della giornata, a discrezione del
+          dipendente e tendendo conto delle esigenze organizzative della struttura di
+          appartenenza, rispettando comunque i limiti di durata massima di tempo di lavoro
+          giornaliero. Deve essere in ogni caso garantito il mantenimento almeno del medesimo
+          livello quali-quantitativo di prestazione e di risultato che si sarebbe conseguito presso la
+          sede istituzionale.
+
+       6. I luoghi in cui espletare il lavoro agile sono individuati dal singolo dipendente e condivisi
+          con il dirigente responsabile, nel pieno rispetto di quanto indicato nelle informative sulla
+          tutela della salute e la sicurezza sui luoghi di lavoro nonché sulla riservatezza e la
+          sicurezza dei dati e delle informazioni oggetto di lavoro o di cui si dispone per ragioni di
+          ufficio. Il dipendente, altresì, deve garantire la prestazione del servizio presso la struttura
+          di appartenenza, su richiesta del dirigente, formulata nella giornata lavorativa
+          antecedente (o formulata almeno 24 ore prima) per ragioni organizzative di comprovata
+          indifferibilità.
+
+       7. Al fine di garantire un’efficace interazione con la struttura di appartenenza e un ottimale
+          svolgimento della prestazione lavorativa nonché permettere le necessarie occasioni di
+          contatto e coordinamento con i colleghi, il dipendente deve dare garanzia certa, nell’arco
+          della giornata di lavoro agile, di essere contattabile attraverso gli strumenti di
+          comunicazione a disposizione nella fascia che opera dalle ore 09.00 alle 13.00 e dalle
+          14:00 alle 17:00. Durante tale fascia di contattabilità il dipendente è tenuto a rendersi
+          raggiungibile tramite e-mail e/o telefonicamente dagli altri colleghi e responsabili. In caso
+          di reiterata mancanza di contatto, senza giustificato motivo, il direttore/dirigente può
+          procedere al recesso dall’accordo ai sensi dell’art.10 del presente Regolamento, fatta
+          salva l’eventuale applicazione di sanzioni disciplinari.
+
+       8. In ogni caso l’Ente, durante il lavoro agile, riconosce il diritto alla disconnessione dalle
+          strumentazioni tecnologiche e piattaforme informatiche, che opera dalle 20:00 alle 08:00
+          del mattino successivo.
+
+
+
+10. Verifiche e monitoraggio
+
+       1. Il monitoraggio quali-quantitativo delle prestazioni effettuate, in rapporto agli obiettivi
+          assegnati, viene effettuato da ciascun Dirigente/Responsabile secondo le modalità
+          descritte nei relativi progetti. Dell’esito di tali controlli si tiene conto per le valutazioni di
+          dirigenti e collaboratori, anche ai fini dell’eventuale rinnovo dell’accordo.
+
+       2. A scadenza di progetto dovrà essere presentata dal Dirigente/Responsabile relazione
+          finale, che costituisce presupposto necessario per l’eventuale rinnovo del progetto. Entro
+          il 31 maggio di ogni anno, ciascun direttore/responsabile dovrà dare evidenza, in
+          specifica relazione, degli esiti relativi ai progetti di lavoro agile avviati nella propria
+          struttura, evidenziandone in particolare l’impatto sull’operatività dell’UO in termini di
+          volumi quanti-qualitativi delle prestazioni erogate, efficacia complessiva dei servizi resi,
+          e costi sostenuti/benefici conseguiti. Tali relazioni saranno comunicate a RU che ne
+          curerà la raccolta e l’acquisizione del parere da parte della Direzione ad un eventuale
+          rinnovo degli stessi.
+
+
+                                                    8
+         3. Nelle UOC/UOSD/UOS che non effettuano le verifiche e non presentano le relazioni i
+            progetti di lavoro agile vengono immediatamente revocati.
+
+
+11. Decadenza, modalità di recesso
+
+         1. In caso di cambio di categoria, profilo professionale o di trasferimento ad altra Direzione
+            del dipendente, l’accordo decade d’ufficio e deve essere nuovamente stipulato.
+         2. L’accordo di lavoro agile può essere risolto:
+                 i. su richiesta scritta del dipendente;
+                ii. d’ufficio, ai sensi del comma precedente o su iniziativa del direttore/dirigente
+                    responsabile, qualora il dipendente non si attenga alla disciplina contrattuale delle
+                    prestazioni di lavoro agile o al rispetto di eventuali ulteriori prescrizioni impartite
+                    dal suo dirigente, per mancato raggiungimento degli obiettivi o omesso
+                    monitoraggio e/o invio delle relazioni alla direzione oppure per oggettive e
+                    motivate esigenze organizzative.
+
+12. Tutela assicurativa
+
+         1. Il lavoratore in regime di lavoro agile ha diritto (art. 23 L.81/2017)4 alla tutela contro gli
+            infortuni sul lavoro e le malattie professionali dipendenti da rischi connessi alla
+            prestazione lavorativa resa all’esterno dei locali aziendali e alla tutela contro gli infortuni
+            sul lavoro ‘in itinere’ che possono occorrere durante il normale percorso di andata e
+            ritorno dal luogo di abitazione a quello prescelto per lo svolgimento della prestazione
+            lavorativa all’esterno dei locali aziendali.
+         2. Il lavoratore, all’atto della sottoscrizione dell’Accordo individuale, dovrà dichiarare il/i
+            luogo/luoghi prescelti per lo svolgimento della prestazione lavorativa all’esterno dei locali
+            aziendali, impegnandosi a comunicare eventuali variazioni. In nessun caso sarà possibile
+            svolgere la prestazione lavorativa all’estero.
+         3. Il lavoratore in lavoro agile ha diritto alla stessa tutela contro gli infortuni in spostamento
+            dalla propria abitazione per un luogo prescelto per lo svolgimento della prestazione
+            lavorativa in lavoro agile, ma solo quando la scelta di tale luogo risponda a criteri di
+            ragionevolezza e sia dettata:
+            -da esigenze connesse alla prestazione stessa;
+            -dalla necessità del lavoratore di conciliare le esigenze di vita con quelle lavorative.
+         4. Nell’eventualità di un infortunio occorso durante la prestazione in modalità di lavoro agile,
+            il lavoratore deve fornire tempestiva e dettagliata informazione all’Ente, che provvede ad
+            attivare le relative procedure previste dalle disposizioni vigenti in materia di infortuni.
+
+
+13. Tutela della salute e sicurezza del lavoratore
+
+         1. Al lavoro agile si applicano le disposizioni in materia di tutela della salute e della sicurezza
+            dei lavoratori, in particolare quelle di cui al D.Lgs. n. 81/085 e ss.ii.mm. e della legge 22
+            maggio 2017, n. 816.
+
+
+
+4
+  art. 23 L.81/2017: Il lavoratore ha diritto alla tutela contro gli infortuni sul lavoro e le malattie professionali dipendenti
+da rischi connessi alla prestazione lavorativa resa all'esterno dei locali aziendali.
+5
+  D.lgs 81/2008: Attuazione dell'articolo 1 della legge 3 agosto 2007, n. 123, in materia di tutela della salute e della
+sicurezza nei luoghi di lavoro.
+6
+   Legge 81/2017: Misure per la tutela del lavoro autonomo non imprenditoriale e misure volte a favorire l'articolazione
+flessibile nei tempi e nei luoghi del lavoro subordinato.
+                                                               9
+         2. Il datore di lavoro deve fornire al lavoratore, avvalendosi della struttura competente in
+            materia di sicurezza aziendale, tutte le informazioni circa le eventuali situazioni di rischio
+            e curare un’adeguata ed esaustiva formazione in materia di sicurezza e salute sul lavoro.
+
+         3. Il lavoratore che svolge la propria prestazione in modalità di lavoro agile è comunque
+            tenuto a cooperare attivamente all’attuazione delle misure di prevenzione predisposte dal
+            datore di lavoro in base alla L. 81/2017 (art.22 comma 2)7 al fine di fronteggiare i rischi
+            connessi all’esecuzione della prestazione all’esterno dei locali aziendali.
+
+         4. L’amministrazione garantisce pertanto la salute e la sicurezza del dipendente
+            compatibilmente con l’esercizio flessibile dell’attività attenendosi ai principi e alle linee
+            guida predisposti dall’INAIL.
+
+         5. Fa parte integrante dell’accordo di lavoro agile l’informativa, accettata per presa visione,
+            che indica i rischi generali e i rischi specifici connessi alla particolare modalità di
+            esecuzione della prestazione lavorativa e fornisce in particolare ogni possibile
+            indicazione utile affinché il lavoratore possa operare una scelta consapevole e
+            ragionevole del luogo in cui espletare l’attività lavorativa in modalità agile.
+
+         6. L’Amministrazione non risponde degli infortuni verificatisi a causa della mancata
+            diligenza del dipendente nella scelta del luogo ove espletare il lavoro agile che sia ritenuto
+            irragionevole e non compatibile con quanto indicato nella informativa sulla sicurezza e la
+            vigente normativa INAIL, ed in altresì in caso di prestazione effettuata in sede non
+            concordata con l’Amministrazione.
+
+
+14. Obblighi afferenti alla riservatezza dei dati
+
+         1. Il lavoratore è tenuto a custodire con diligenza e massima riservatezza tutte le
+            informazioni aziendali ricevute anche per tramite degli strumenti informatici o telematici
+            utilizzati.
+         2. Il lavoratore è tenuto a comportarsi in modo che la riservatezza e la confidenzialità delle
+            informazioni aziendali sia mantenuta.
+         3. Il dipendente è, altresì, tenuto ad adottare tutte le precauzioni idonee a impedire la
+            visualizzazione da parte di estranei e/o la dispersione dei dati e delle informazioni trattate
+            ed è responsabile della sicurezza dei dati anche in relazione ai rischi collegati alla scelta
+            di un'adeguata postazione di lavoro.
+         4. Le strutture competenti in materia di sistemi informatici adottano soluzioni tecnologiche
+            idonee a consentire il collegamento dall'esterno alle risorse informatiche dell'ufficio
+            necessarie allo svolgimento delle attività previste, nel rispetto di standard di sicurezza
+            equivalenti a quelli garantiti alle postazioni lavorative presenti nei locali
+            dell'Amministrazione.
+         5. Le medesime strutture determinano, altresì, le prescrizioni tecniche per la protezione
+            della rete e dei dati alle quali il dipendente deve attenersi nello svolgimento dell'attività
+            fuori dalla sede di lavoro. Tali prescrizioni confluiscono in un allegato all' accordo
+            individuale, costituendone parte integrante e sostanziale.
+         6. Restano ferme le disposizioni in materia di responsabilità, infrazioni e sanzioni
+            contemplate dalle leggi, dal decreto del Presidente della Repubblica 16 aprile 2013 , n.
+            62, recante il codice di comportamento dei dipendenti pubblici e dalla delibera del
+
+7
+ L. 81/2017 (art.22 comma 2)Il lavoratore è tenuto a cooperare all'attuazione delle misure di prevenzione predisposte dal
+datore di lavoro per fronteggiare i rischi connessi all'esecuzione della prestazione all'esterno dei locali aziendali.
+
+                                                          10
+           Direttore Generale n. 1848 del 2/12/2020, recante il codice di comportamento aziendale,
+           che trovano integrale applicazione anche ai lavoratori agili.
+
+
+15. Norme di rinvio
+
+       1. Per quanto non specificamente disciplinato nel presente Regolamento, anche in
+          relazione agli obblighi del dipendente ed ai doveri discendenti dal codice di
+          comportamento dei dipendenti delle Pubbliche Amministrazioni, trovano applicazione i
+          contenuti del CCNL vigente, del contratto individuale in essere, nonché le altre norme di
+          riferimento per quanto compatibili.
+
+
+
+
+                                                11
+Modulo per l’utilizzo di risorse informatiche durante lo svolgimento di attività
+lavorativa in modalità agile
+Il/La sottoscritto/a _________________________________ nato/a a _________________ il ____________
+residente a _____________________________________________________________________________
+dipendente/collaboratore dell’Azienda Ospedale - Università Padova (AOUP) presso la struttura
+_______________________________________________________________________________________
+consapevole delle sanzioni penali, nel caso di dichiarazioni non veritiere, di formazione o uso di atti falsi,
+richiamate dall’art. 76 del D.P.R. 445 del 28 dicembre 2000
+
+                                                   DICHIARA
+
+di adottare comportamenti consapevoli atti a garantire un livello di sicurezza conforme alle indicazioni
+emanate dalla U.O.C. Sistemi Informativi e alle regole contenute nel “Regolamento per l’utilizzo degli
+strumenti informatici, posta elettronica e Internet” di AOUP e, nel caso specifico, di rispettare quanto
+indicato nel Regolamento lavoro agile con particolare riferimento all’Art. 5 - Dotazione tecnologica.
+Inoltre il sottoscritto si impegna in ogni caso a:
+    • Utilizzare esclusivamente una connessione VPN adeguatamente predisposta dal Servizio Informatica
+         per l’accesso alle risorse aziendali;
+    • Rispettare la policy password aziendale per ogni account necessario allo svolgimento delle attività
+         lavorative;
+    • Non aprire file allegati e non cliccare su link contenuti in email sospette o provenienti da mittenti non
+         sicuri e affidabili;
+    • Utilizzare esclusivamente dispositivi con sistemi antivirus correttamente configurati e aggiornati;
+    • Utilizzare esclusivamente dispositivi collegati a reti sicure (es. rete WiFi protetta) e dotate di adeguati
+         sistemi di protezione (firewall);
+    • Non installare software proveniente da fonti/repository non sicuri sul dispositivo in uso;
+    • Bloccare l’accesso al sistema e/o configurare la modalità di blocco automatico sul dispositivo in uso;
+    • Effettuare sempre il log-out dai servizi/portali utilizzati dopo aver concluso la sessione lavorativa.
+
+In caso di utilizzo di un dispositivo personale il sottoscritto si impegna inoltre a:
+    • Utilizzare esclusivamente dispositivi con sistema operativo Microsoft Windows 10 o superiore;
+    • Utilizzare un profilo utente, protetto da password, non condiviso e dedicato esclusivamente allo
+        svolgimento dell’attività lavorativa in modalità agile;
+    • Eliminare eventuali file scaricati sul dispositivo personale durante la sessione lavorativa (nel
+        dispositivo personale non dovranno rimanere memorizzati file e dati riservati o di proprietà
+        dell’Azienda).
+
+
+Data ______________
+
+
+Firma leggibile del dichiarante
+______________________________
+
+
+
+                                                       12
+
