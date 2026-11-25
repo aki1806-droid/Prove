@@ -1,0 +1,132 @@
+[
+ {
+  "id": "s01",
+  "testo": "Il Bugiardino. Avvertenze: in questi giorni sono circolate affermazioni ad alto contenuto di inesattezze. Prima di crederci, leggete attentamente il foglietto illustrativo.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "IL BUGIARDINO",
+   "titolo": "Tre affermazioni, tre verifiche",
+   "sotto": "Leggere attentamente il foglietto illustrativo"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Effetti collaterali: confusione, rabbia, lavoratori disinformati. Prima affermazione: i progetti pagati con la premialità tolgono soldi a progressioni e DEP. Falso.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "«I progetti pagati con la premialità tolgono soldi a progressioni e DEP» · FALSO",
+   "fonte": "Si è sentito dire…"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "I fondi contrattuali sono cassetti diversi. Le progressioni, i DEP, stanno nel fondo incarichi e progressioni. I progetti si pagano con la premialità. Aprire un cassetto non svuota l'altro.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "I FATTI · CASSETTI DIVERSI",
+   "titolo": "Aprire un cassetto non svuota l'altro",
+   "sinistra": {
+    "etichetta": "Fondo incarichi e progressioni",
+    "valore": "DEP",
+    "nota": "progressioni, incarichi, indennità professionali"
+   },
+   "destra": {
+    "etichetta": "Fondo premialità e condizioni di lavoro",
+    "valore": "Progetti",
+    "nota": "produttività, progetti, condizioni di lavoro"
+   }
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Seconda: la Cisl effe pi avrebbe detto che il contratto è già firmato. Falso. Video, volantini, materiali: abbiamo sempre e solo parlato di attesa.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "«La CISL FP ha detto che il contratto è già firmato» · FALSO",
+   "fonte": "Si è sentito dire…"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Semmai, il mese scorso, c'era chi faceva previsioni da sfera di cristallo: arretrati già a novembre. Novembre è arrivato. Gli arretrati, no.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Novembre è arrivato. Gli arretrati, no.",
+   "fonte": "Il Bugiardino · dati alla mano"
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "La sequenza, con la prudenza di sempre. Oggi: in attesa. Firma, presumibilmente, a dicembre duemilaventisei. Arretrati previsti a gennaio duemilaventisette.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "IL CONTRATTO · SENZA SFERE DI CRISTALLO",
+   "titolo": "A che punto siamo",
+   "voci": [
+    "Oggi: in attesa, come sempre detto",
+    "Dicembre 2026: firma, presumibilmente",
+    "Gennaio 2027: arretrati, previsione"
+   ]
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Terza: sui DEP duemilaventisei si è messo poco. Inesatto. Seicentoventimila euro: la somma massima che si poteva stanziare. Non un euro di meno.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "DEP 2026 · INESATTO",
+   "numero": "620.000 €",
+   "etichetta": "la somma massima che si poteva stanziare"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "L'anno prima, per i DEP duemilaventicinque, ne erano stati destinati ottocentoventimila. In due anni, oltre un milione e quattrocentomila euro di progressioni, con la nostra firma.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "PREINTESA DEP 2025 · 10/12/2025",
+   "titolo": "Oltre 1,4 milioni in due anni",
+   "immagine": "schermate/dep-820mila.png",
+   "didascalia": "820.000 € ai DEP 2025, poi 620.000 € ai DEP 2026"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "Perché non di più? Una legge regionale calcola alcune risorse variabili sul numero di dipendenti previsti, e la produttività è scesa. Spostare altro sui DEP voleva dire meno produttività per tutti.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "PROGRESSIONI ECONOMICHE",
+   "titolo": "Due anni di DEP",
+   "barre": [
+    {
+     "etichetta": "DEP 2025",
+     "valore": 820000,
+     "testo": "820.000 €"
+    },
+    {
+     "etichetta": "DEP 2026",
+     "valore": 620000,
+     "testo": "620.000 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "La coperta è quella: si decide dove metterla. Non vi chiediamo di credere alla nostra verità. Vi chiediamo di verificarla, anche con un accesso agli atti, in qualsiasi momento.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Non vi chiediamo di crederci: vi chiediamo di verificare.",
+   "fonte": "CISL FP"
+  }
+ },
+ {
+  "id": "s11",
+  "testo": "Documenti sul tavolo, ogni accordo spiegato con la sua ragione. È così che lavoriamo, ed è così che continueremo a lavorare. Dati alla mano. Sempre.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Dati alla mano. Sempre.",
+   "azione": "Verifica, anche con un accesso agli atti"
+  }
+ }
+]

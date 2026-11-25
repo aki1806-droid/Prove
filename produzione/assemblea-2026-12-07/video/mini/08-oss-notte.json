@@ -1,0 +1,160 @@
+[
+ {
+  "id": "s01",
+  "testo": "Di notte, in reparto, un o esse esse fa la differenza. Tra un campanello e l'altro, tra un paziente da girare e un trasporto urgente. Ma oggi, di notte, non c'è dappertutto.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "PUNTO 8 · RETENTION E BENESSERE",
+   "titolo": "OSS di notte",
+   "sotto": "Dove ci sono, dove mancano, quando arrivano"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Secondo l'analisi dell'Azienda, l'o esse esse di notte c'è in trentuno aree di degenza su quarantanove. Il sessantatré per cento. E in sedici aree è arrivato, o è aumentato, dopo il duemilaventi.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "OSS DI NOTTE · L'ANALISI DELL'AZIENDA",
+   "numero": "31 su 49",
+   "etichetta": "aree di degenza con un OSS di notte (63%)",
+   "nota": "16 aree con OSS nuovo o aumentato dal 2020"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Ma la copertura non è uguale per tutti. In area medica ce l'hanno diciassette unità operative su venti. Nelle chirurgie, solo cinque su dodici. Sono le più scoperte.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "UNITÀ OPERATIVE CON OSS DI NOTTE",
+   "titolo": "Le chirurgie sono le più scoperte",
+   "barre": [
+    {
+     "etichetta": "Area medica",
+     "valore": 85,
+     "testo": "17 su 20"
+    },
+    {
+     "etichetta": "Terapie intensive",
+     "valore": 67,
+     "testo": "6 su 9"
+    },
+    {
+     "etichetta": "Area ostetrica",
+     "valore": 50,
+     "testo": "1 su 2"
+    },
+    {
+     "etichetta": "Area chirurgica",
+     "valore": 42,
+     "testo": "5 su 12"
+    },
+    {
+     "etichetta": "Area pediatrica",
+     "valore": 33,
+     "testo": "2 su 6"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Come si sceglie dove andare prima? Con il rapporto tra infermieri e posti letto. Lo standard regionale della degenza è un infermiere ogni dodici, quindici letti, nelle ventiquattro ore.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Standard regionale: 1 infermiere ogni 12-15 posti letto nelle 24 ore",
+   "fonte": "Degenza ordinaria · analisi dell'Azienda"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Tra i reparti individuati ci sono tre chirurgie, oggi senza o esse esse di notte. Al settimo piano del Policlinico, diciannove letti per infermiere, con il Pronto Soccorso aperto giorno e notte.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA SLIDE DELL'AZIENDA",
+   "titolo": "Area chirurgica adulti",
+   "immagine": "schermate/tavolo-oss-area-chirurgica.jpg",
+   "didascalia": "Chirurgia 7° piano Policlinico: 19 letti per infermiere"
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Al sesto piano, tredici letti e mezzo per infermiere, con ricoveri urgenti a tutte le ore. In Neurochirurgia, dodici e mezzo, e i trasporti notturni verso la neuroradiologia da gestire da soli.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "LE CHIRURGIE INDIVIDUATE",
+   "titolo": "Nessun OSS di notte",
+   "voci": [
+    "7° piano Policlinico · 19 letti per infermiere",
+    "6° piano Policlinico · 13,5 letti per infermiere",
+    "Neurochirurgia · 12,5 letti per infermiere"
+   ]
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "L'Azienda si è impegnata ad aumentare gli o esse esse di notte nei reparti individuati, in modo progressivo. Ma i tempi, ha detto, dipendono da quante persone riuscirà ad assumere.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "L'IMPEGNO DELL'AZIENDA",
+   "titolo": "Sviluppi",
+   "immagine": "schermate/tavolo-oss-notte-sviluppi.jpg",
+   "didascalia": "Incremento progressivo, al ritmo delle assunzioni"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "E qui sta il nodo. La graduatoria dell'Azienda è esaurita, quelle delle Ulss vicine quasi. Si aspetta la conclusione del concorso di Azienda Zero, prevista a breve.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "AL RITMO DELLE ASSUNZIONI",
+   "titolo": "Le graduatorie",
+   "voci": [
+    "Graduatoria AOUP esaurita",
+    "ULSS 6 e ULSS 3 quasi esaurite",
+    "Concorso di Azienda Zero in arrivo"
+   ]
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "C'è poi un punto da presidiare. Per gli o esse esse già in reparto i turni passano da due, mattina e pomeriggio, a tre, con la notte. Si raccolgono le preferenze e, se serve, si fa mobilità incrociata.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "PER GLI OSS GIÀ IN REPARTO",
+   "titolo": "Da due turni a tre",
+   "sinistra": {
+    "etichetta": "Oggi",
+    "valore": "M-P",
+    "nota": "mattina e pomeriggio"
+   },
+   "destra": {
+    "etichetta": "Domani",
+    "valore": "M-P-N",
+    "nota": "preferenze raccolte, mobilità incrociata se serve"
+   }
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Noi vigileremo perché sia un passaggio rispettoso. Preferenze ascoltate davvero, nessuno spostato senza motivo, regole chiare e uguali per tutti.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "CISL FP",
+   "titolo": "Un passaggio rispettoso",
+   "voci": [
+    "Preferenze ascoltate davvero",
+    "Nessuno spostato senza motivo",
+    "Regole chiare e uguali per tutti"
+   ]
+  }
+ },
+ {
+  "id": "s11",
+  "testo": "La nostra richiesta è chiara. o esse esse di notte nei quattro reparti individuati, entro un anno. Al ritmo delle assunzioni, certo. Ma con una data, non solo con una promessa.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "OSS di notte nei quattro reparti individuati, entro un anno.",
+   "azione": "Con una data, non solo con una promessa"
+  }
+ }
+]

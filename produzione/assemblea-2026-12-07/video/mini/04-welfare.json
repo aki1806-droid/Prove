@@ -1,0 +1,120 @@
+[
+ {
+  "id": "s01",
+  "testo": "Trecentocinquanta euro a testa, ogni anno. Non è un premio: è welfare, previsto dalla legge regionale ventisei del duemilaventiquattro per il triennio dal duemilaventicinque al duemilaventisette.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "PUNTO 4 · WELFARE REGIONE VENETO",
+   "numero": "350 €",
+   "etichetta": "a testa, ogni anno, in buoni acquisto",
+   "nota": "L.R. 26/2024 · 2025 · 2026 · 2027"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Per la nostra Azienda la legge vale oltre tre milioni di euro. Più di un milione e mezzo va in buoni acquisto, l'altro milione e mezzo in contrattazione: notti, pronta disponibilità, aree complesse.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "DA DOVE ARRIVANO I SOLDI",
+   "titolo": "3,1 milioni per l'AOUP",
+   "immagine": "schermate/lr26-welfare-350.png",
+   "didascalia": "Preintesa L.R. 26/2024 · risorse 2026 · 14/07/2026"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Ma la Regione paga i buoni solo a sanitari e sociosanitari. E gli amministrativi, i tecnici, i professionali? Il due aprile abbiamo chiesto per iscritto all'Azienda lo stesso buono per tutto il comparto.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "ANCHE PER CHI NON È SANITARIO",
+   "titolo": "La nostra richiesta scritta",
+   "immagine": "schermate/nota-welfare-pta.png",
+   "didascalia": "Nota CISL FP all'Azienda · 2 aprile 2026"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Risultato: la preintesa del quattordici luglio dà i trecentocinquanta euro anche ai ruoli professionale, tecnico e amministrativo in servizio al primo settembre. Duecentotrentamila euro, dal fondo premialità.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "OTTENUTO",
+   "titolo": "350 € anche ai ruoli PTA",
+   "immagine": "schermate/lr26-welfare-pta.png",
+   "didascalia": "Preintesa L.R. 26 · 14/07/2026"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Il buono duemilaventicinque è scaduto il trenta novembre. E c'è chi non l'ha mai attivato: nel comparto sono rimasti circa centottantacinquemila euro di buoni non usati.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "IL BUONO 2025 · SCADUTO IL 30 NOVEMBRE",
+   "numero": "≈ 185.000 €",
+   "etichetta": "di buoni 2025 non utilizzati nel comparto",
+   "nota": "Dati dell'Azienda, tavolo del 18/11/2026"
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Ma quei soldi non vanno persi: restano ai lavoratori. Centocinquantasettemila euro del ruolo sanitario e sociosanitario tornano alle finalità della legge ventisei: notti e progetti nelle aree più pesanti.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "DOVE VANNO I RESIDUI",
+   "titolo": "Tornano ai lavoratori",
+   "barre": [
+    {
+     "etichetta": "Sanitario e sociosanitario · finalità L.R. 26",
+     "valore": 157009,
+     "testo": "157.009 €"
+    },
+    {
+     "etichetta": "Professionale, tecnico, amministrativo · progetti PTA",
+     "valore": 27408,
+     "testo": "27.408 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Gli altri ventisettemila e quattrocento euro, quelli dei ruoli professionale, tecnico e amministrativo, vanno a progetti dedicati proprio al personale pi ti a. Nemmeno un euro torna indietro.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "I buoni non attivati non vanno persi: tornano a chi lavora.",
+   "fonte": "Incontro con l'Azienda del 18 novembre 2026"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Ora la novità. Con la delibera settecentotredici dell'undici novembre, Azienda Zero ha affidato a DoubleYou il welfare di tutto il personale del Servizio sanitario veneto.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "LA NOVITÀ",
+   "titolo": "Il buono 2026 cambia piattaforma: DoubleYou",
+   "sotto": "Azienda Zero · delibera n. 713 dell'11/11/2026"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "Il nuovo buono duemilaventisei da trecentocinquanta euro sarà disponibile entro il quindici dicembre. Come si accede, come si usa e quali negozi aderiscono deve ancora essere comunicato.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "IL BUONO 2026",
+   "titolo": "Cosa sappiamo e cosa no",
+   "voci": [
+    "350 € su piattaforma DoubleYou",
+    "Disponibile entro il 15 dicembre 2026",
+    "Accesso, uso e negozi: ancora da comunicare"
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Noi chiediamo una piattaforma semplice e accessibile a tutti, tanti negozi convenzionati anche a Padova e provincia, e un avviso a chi non attiva il buono. Quando arriva, attivalo subito: sono soldi tuoi.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Il buono è tuo: non lasciarlo scadere.",
+   "azione": "Attiva il buono 2026 appena arriva"
+  }
+ }
+]

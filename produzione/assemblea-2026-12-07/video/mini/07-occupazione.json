@@ -1,0 +1,155 @@
+[
+ {
+  "id": "s01",
+  "testo": "Dal duemilaventi a oggi, in Azienda Ospedale-Università di Padova, c'è un solo profilo che ha perso persone. Non sono i medici. Non sono gli o esse esse. Sono gli infermieri.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "PUNTO 7 · ANDAMENTI OCCUPAZIONALI",
+   "titolo": "Quanti entrano, quanti escono",
+   "sotto": "I numeri presentati dall'Azienda il 18 novembre 2026"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Lo dicono i dati che l'Azienda ha portato al tavolo del diciotto novembre. Rispetto a gennaio duemilaventi, gli infermieri sono centotré in meno. Centotré.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "DAL 1° GENNAIO 2020 A OGGI",
+   "numero": "−103",
+   "etichetta": "infermieri",
+   "nota": "Fonte: grafico dell'Azienda, tavolo del 18/11/2026"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Nello stesso periodo gli o esse esse sono cresciuti di duecentodiciannove unità, anche grazie alla dichiarazione congiunta di dicembre. I dirigenti medici di centodiciassette.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "VARIAZIONE RISPETTO AL 2020",
+   "titolo": "Gli infermieri sono gli unici in calo",
+   "barre": [
+    {
+     "etichetta": "OSS",
+     "valore": 219,
+     "testo": "+219"
+    },
+    {
+     "etichetta": "Dirigenti medici",
+     "valore": 117,
+     "testo": "+117"
+    },
+    {
+     "etichetta": "Infermieri",
+     "valore": -103,
+     "testo": "−103"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "E la curva fa ancora più male. A fine duemilaventuno gli infermieri erano duecentoventi in più del duemilaventi. Da lì è cominciata una discesa che non si è più fermata.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA SLIDE DELL'AZIENDA",
+   "titolo": "Variazione teste rispetto al 1° gennaio 2020",
+   "immagine": "schermate/tavolo-occupazione-grafico.jpg",
+   "didascalia": "Infermieri: +220 a fine 2021, oggi −103"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Da gennaio a ottobre di quest'anno sono entrati centottantadue infermieri. Ne sono usciti centonovantasette. Quindici in meno: si assume, ma non basta nemmeno a pareggiare.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "GENNAIO-OTTOBRE 2026 · INFERMIERI",
+   "titolo": "Chi è entrato e chi è uscito",
+   "sinistra": {
+    "etichetta": "Cessazioni",
+    "valore": "197",
+    "nota": "usciti in dieci mesi"
+   },
+   "destra": {
+    "etichetta": "Assunzioni",
+    "valore": "182",
+    "nota": "entrati in dieci mesi"
+   }
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Guardiamo la stima di fine anno. Nel duemilaventisei l'Azienda avrà centoquarantuno persone in più rispetto a dicembre scorso. Ma gli infermieri saranno ventisei in meno.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "STIMA AL 31/12/2026",
+   "numero": "+141",
+   "etichetta": "persone in più in AOUP",
+   "nota": "ma gli infermieri sono 26 in meno"
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Il motivo è semplice. Il piano assunzioni di settembre prevede, per gli infermieri, trentotto ingressi contro settantacinque uscite stimate. I conti non tornano.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "PIANO ASSUNZIONI DI SETTEMBRE · INFERMIERI",
+   "titolo": "Fino a fine anno",
+   "sinistra": {
+    "etichetta": "Uscite stimate",
+    "valore": "75",
+    "nota": "cessazioni previste"
+   },
+   "destra": {
+    "etichetta": "Assunzioni",
+    "valore": "38",
+    "nota": "ingressi previsti"
+   }
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Meno infermieri vuol dire più letti a testa, più rientri, ferie più difficili da fare. E chi resta si stanca. E prima o poi, stanco, se ne va anche lui.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Meno infermieri: più letti a testa, più rientri, meno ferie.",
+   "fonte": "CISL FP"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "Per questo chiediamo quattro cose. Un piano straordinario di assunzioni di infermieri. E la graduatoria del concorso di Azienda Zero, subito utilizzabile.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "COSA CHIEDIAMO · 1",
+   "titolo": "Assumere",
+   "voci": [
+    "Piano straordinario di assunzioni di infermieri",
+    "Graduatoria di Azienda Zero subito utilizzabile"
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Il tavolo bimestrale sul personale, come previsto dalla dichiarazione di dicembre. E trattenere chi c'è già: carichi giusti, turni sostenibili, valorizzazione vera.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "COSA CHIEDIAMO · 2",
+   "titolo": "Trattenere",
+   "voci": [
+    "Tavolo bimestrale sul personale",
+    "Carichi di lavoro giusti",
+    "Turni sostenibili",
+    "Valorizzazione"
+   ]
+  }
+ },
+ {
+  "id": "s11",
+  "testo": "Gli o esse esse crescono, ed è un bene. Ora tocca agli infermieri: senza di loro un ospedale non sta in piedi. E noi lo ripeteremo a ogni tavolo, numeri alla mano.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Senza infermieri un ospedale non sta in piedi.",
+   "azione": "Numeri alla mano, a ogni tavolo"
+  }
+ }
+]

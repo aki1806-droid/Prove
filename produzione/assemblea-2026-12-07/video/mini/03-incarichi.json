@@ -1,0 +1,140 @@
+[
+ {
+  "id": "s01",
+  "testo": "Ad aprile l'Azienda proponeva cinquecento euro in più, e solo a quarantacinque coordinatori. Oggi sul tavolo ci sono mille euro l'anno in più, per tutti e centosei. Ecco com'è andata.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "PUNTO 3 · SISTEMA DEGLI INCARICHI",
+   "titolo": "Coordinatori: da aprile a oggi",
+   "sinistra": {
+    "etichetta": "Proposta di aprile",
+    "valore": "+500 €",
+    "nota": "solo a 45 coordinatori"
+   },
+   "destra": {
+    "etichetta": "Oggi",
+    "valore": "+1.000 €",
+    "nota": "a tutti i 106 coordinatori"
+   }
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "La prima proposta valeva ventiduemilacinquecento euro in tutto. Non bastava: il lavoro di coordinamento è cresciuto per tutti, con unità più grandi e piastre condivise, non per pochi.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA PROPOSTA DEL 14 APRILE",
+   "titolo": "500 € a 45 coordinatori",
+   "immagine": "schermate/tavolo-incarichi-proposta-500.jpg",
+   "didascalia": "Slide dell'Azienda al tavolo"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "La nuova proposta vale centoseimila euro, con una nuova fascia nella graduazione degli incarichi. È pagata con centonovemilacinquecento euro dell'accantonamento storico del fondo.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA NUOVA PROPOSTA",
+   "titolo": "+1.000 € a tutti i 106 coordinatori",
+   "immagine": "schermate/tavolo-incarichi-1000-coordinatori.jpg",
+   "didascalia": "Slide dell'Azienda al tavolo del 18/11/2026"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "L'aumento parte dal primo gennaio duemilaventisette. E intanto, per il duemilaventisei, ai coordinatori va la quota premiale di cinquecento euro prevista dall'accordo di luglio.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "COORDINATORI",
+   "numero": "+1.000 €",
+   "etichetta": "l'anno, dal 1° gennaio 2027",
+   "nota": "e nel 2026 la quota premiale di 500 €"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Poi ci sono gli incarichi professionali, per chi è esperto e per chi forma. Nella nuova mappatura sono ottantasei: trentuno specialisti, diciannove esperti, trenta tutor didattici e sei professionali.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "GLI 86 INCARICHI PROFESSIONALI",
+   "titolo": "Chi forma e chi è esperto",
+   "barre": [
+    {
+     "etichetta": "Specialisti",
+     "valore": 31,
+     "testo": "31"
+    },
+    {
+     "etichetta": "Tutor didattici",
+     "valore": 30,
+     "testo": "30"
+    },
+    {
+     "etichetta": "Esperti",
+     "valore": 19,
+     "testo": "19"
+    },
+    {
+     "etichetta": "Professionali",
+     "valore": 6,
+     "testo": "6"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Diciannove tipi diversi: terapia intensiva, wound care, accessi vascolari, procurement di organi, ricerca. Di norma valgono quattromila euro l'anno. Le competenze avanzate hanno un nome e un valore.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "19 TIPI DI INCARICO",
+   "titolo": "Le competenze che contano",
+   "voci": [
+    "Specialista in terapia intensiva",
+    "Wound care e accessi vascolari",
+    "Procurement di organi e tessuti",
+    "Ricerca ed evidence-based practice"
+   ]
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Per i tutor dei corsi di laurea, l'accordo di luglio ha messo per iscritto i bandi entro novembre duemilaventisei. Fino all'affidamento resta la quota premiale. Vigiliamo perché i tempi siano rispettati.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Tutor didattici: bandi entro novembre 2026, e nel frattempo la quota premiale.",
+   "fonte": "Integrazione progettualità 2026 · 14 luglio 2026"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "E adesso? La mappa è stata presentata ai sindacati. Ora servono la delibera, il fondo e il regolamento. Con la delibera si potranno coprire i posti oggi vacanti.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "I PROSSIMI PASSI",
+   "titolo": "Dalla mappa al regolamento",
+   "immagine": "schermate/tavolo-incarichi-sviluppi-futuri.jpg",
+   "didascalia": "Slide dell'Azienda · sviluppi futuri"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "Il nuovo contratto nazionale prevede l'incarico di base: mille euro a ogni professionista della salute senza incarico di media o elevata complessità. Dal duemilaventisette ci va anche parte dei DEP di chi va in pensione.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "CCNL 2025-2027 · INCARICO DI BASE",
+   "numero": "1.000 €",
+   "etichetta": "l'anno a ogni professionista della salute senza incarico di media o elevata complessità",
+   "nota": "incrementabile fino a 3.500 €"
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Le nostre richieste sono chiare: bandi trasparenti, incarichi di base valorizzati, più incarichi professionali anche nelle medicine. Il prossimo terreno di trattativa è il duemilaventisette. Ci saremo.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Bandi trasparenti, incarichi di base valorizzati, più incarichi professionali.",
+   "azione": "Il 2027 si tratta: fatti sentire con noi"
+  }
+ }
+]

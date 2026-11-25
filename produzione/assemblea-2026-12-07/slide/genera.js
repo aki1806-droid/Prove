@@ -1929,7 +1929,277 @@ async function frontespizio(n, sezione) {
   }
   slideDomande(S8, "Retention e benessere organizzativo").addNotes("Domande per l'assemblea dal dossier: preferisci il pomeriggio più corto o la notte più breve? Oggi riesci a fare una pausa di notte? 10 minuti di consegna bastano nel tuo reparto? Saresti favorevole a una sperimentazione a tempo, con verifica?");
 
-  // @@PUNTO9@@
+  // ------------------------------------------------ 9 · previdenza: mini corso Perseo Sirio
+  const S9 = "9 · Situazione previdenziale";
+  const FPS9 = "Fonti: Nota informativa e Statuto Perseo Sirio, COVIP, INPS · ricerca CISL FP 25/11/2026";
+  const BLU = "123C6B";
+  pres.addSection({ title: S9 });
+  // quiz: la domanda porta alla risposta con un clic su qualunque opzione
+  async function quiz(n, domanda, opzioni, giusta, spiegazione, titoloRisp) {
+    const q = pres.addSlide({ masterName: "SCURO", sectionTitle: S9 });
+    const numRisposta = pres.slides.length + 1;
+    kicker(q, `Quiz ${n} di 3 · tocca una risposta`, HEX.accent2);
+    q.addText(domanda, { placeholder: "title" });
+    const lettere = ["A", "B", "C"];
+    for (let i = 0; i < opzioni.length; i++) {
+      const x = M + i * 4.1;
+      q.addShape(pres.shapes.ROUNDED_RECTANGLE, { x, y: 2.0, w: 3.85, h: 3.6, rectRadius: 0.2, fill: { color: "13301F" }, line: { color: HEX.accent2, width: 2 } });
+      q.addText([{ text: lettere[i], options: { fontSize: 54, bold: true, color: HEX.accent2, breakLine: true } }, { text: opzioni[i], options: { fontSize: 21, bold: true, color: "FFFFFF" } }],
+        { x: x + 0.25, y: 2.1, w: 3.35, h: 3.4, align: "center", valign: "middle", margin: 0, isTextBox: true });
+      // velo trasparente sopra la scheda: tutto il riquadro è cliccabile, il testo non viene sottolineato
+      q.addShape(pres.shapes.RECTANGLE, { x, y: 2.0, w: 3.85, h: 3.6, fill: { color: "FFFFFF", transparency: 100 }, line: { type: "none" },
+        hyperlink: { slide: numRisposta, tooltip: "Scopri la risposta" }, objectName: "quiz-clic" });
+    }
+    q.addText("In sala: alzata di mano per A, B o C. Poi un clic su una risposta.", { x: M, y: 6.0, w: 10, h: 0.4, fontSize: 14, italic: true, color: "CFE9D8", margin: 0, isTextBox: true });
+    q.addNotes("Far votare la sala per alzata di mano, poi cliccare su un riquadro qualunque per passare alla risposta.");
+    const r = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(r, `Quiz ${n} · la risposta`, HEX.accent1);
+    r.addText(titoloRisp, { placeholder: "title" });
+    for (let i = 0; i < opzioni.length; i++) {
+      const x = M + i * 4.1, ok = i === giusta;
+      card(r, x, 1.55, 3.85, 1.6, ok ? HEX.accent1 : "F1F1F1", { ombra: ok });
+      r.addText([{ text: lettere[i] + "  ", options: { bold: true } }, { text: opzioni[i], options: {} }], { x: x + 0.2, y: 1.55, w: 3.0, h: 1.6, fontSize: 20, color: ok ? "FFFFFF" : "8A9690", bold: ok, valign: "middle", margin: 0, isTextBox: true });
+      if (ok) await tondo(r, "FaCheck", x + 3.05, 1.95, 0.65, HEX.accent2, HEX.dk2);
+    }
+    if (spiegazione) {
+      card(r, M, 3.5, W - 2 * M, 2.9, C.background2);
+      await tondo(r, "FaLightbulb", M + 0.35, 3.85, 1.0, HEX.accent2, HEX.dk2);
+      r.addText(spiegazione, { x: M + 1.65, y: 3.6, w: W - 2 * M - 2.0, h: 2.7, fontSize: 19, color: C.text1, valign: "middle", margin: 0, isTextBox: true, paraSpaceAfter: 6 });
+    }
+    return r;
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S9 });
+    s.addText("09", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("La pensione che ti costruisci", { placeholder: "title" });
+    s.addText("Mini corso su Perseo Sirio, il fondo pensione del pubblico impiego: tre quiz e tre esempi veri", { placeholder: "body" });
+    const t = ["Cos'è e chi mette i soldi", "Quanto rende rispetto al TFR", "Il caso di chi è in TFS", "I limiti da conoscere", "Cosa fare da domani"];
+    for (let i = 0; i < t.length; i++) {
+      const y = 0.85 + i * 1.15;
+      card(s, 8.6, y, 4.15, 0.95, i % 2 ? "0B4D28" : "13301F", { bordo: "1F4A31" });
+      s.addText([{ text: `${i + 1}  `, options: { color: HEX.accent2, bold: true } }, { text: t[i], options: { color: "FFFFFF", bold: true } }], { x: 8.85, y, w: 3.8, h: 0.95, fontSize: 16, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Mini corso di circa 15 minuti. Tre quiz interattivi: si vota per alzata di mano e si clicca su una risposta per vedere la soluzione. Tutti gli esempi sono semplificati e dichiarati tali.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Lezione 1 · cos'è");
+    s.addText("Un salvadanaio con tre mani dentro", { placeholder: "title" });
+    const ing = [["TFR", "6,91%", "il tuo TFR, se assunto dopo il 2000: va tutto al Fondo", HEX.accent1], ["TU", "1%", "della retribuzione utile al TFR, e puoi versare di più", BLU], ["L'AZIENDA", "1%", "lo versa solo se aderisci: altrimenti lo perdi", "C8102E"]];
+    for (let i = 0; i < 3; i++) {
+      const y = 1.5 + i * 1.65;
+      card(s, M, y, 6.3, 1.45, C.background2);
+      s.addShape(pres.shapes.OVAL, { x: M + 0.2, y: y + 0.17, w: 1.1, h: 1.1, fill: { color: ing[i][3] }, line: { type: "none" } });
+      s.addText(ing[i][1], { x: M + 0.2, y: y + 0.17, w: 1.1, h: 1.1, fontSize: 18, bold: true, color: "FFFFFF", align: "center", valign: "middle", margin: 0, isTextBox: true });
+      s.addText(ing[i][0], { x: M + 1.5, y: y + 0.12, w: 4.6, h: 0.45, fontSize: 18, bold: true, color: ing[i][3], margin: 0, isTextBox: true });
+      s.addText(ing[i][2], { x: M + 1.5, y: y + 0.55, w: 4.6, h: 0.8, fontSize: 14, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addShape(pres.shapes.RIGHT_ARROW, { x: 7.05, y: 3.45, w: 0.7, h: 0.7, fill: { color: HEX.accent2 }, line: { type: "none" } });
+    card(s, 7.95, 1.5, 4.8, 4.75, HEX.dk2);
+    s.addText([{ text: "Perseo Sirio", options: { fontSize: 26, bold: true, color: HEX.accent2, breakLine: true } },
+      { text: "il fondo pensione negoziale di chi lavora nella pubblica amministrazione e nella sanità", options: { fontSize: 15, color: "FFFFFF", breakLine: true } },
+      { text: " ", options: { fontSize: 8, breakLine: true } },
+      { text: "Alla pensione: almeno metà in rendita mensile, il resto anche in capitale.", options: { fontSize: 15, color: HEX.accent6, bold: true, breakLine: true } },
+      { text: " ", options: { fontSize: 8, breakLine: true } },
+      { text: "Quota associativa: 13 € l'anno.", options: { fontSize: 14, color: "CFE9D8" } }],
+      { x: 8.2, y: 1.6, w: 4.3, h: 4.55, valign: "middle", margin: 0, isTextBox: true });
+    s.addText(FPS9, { x: M, y: 6.45, w: 12, h: 0.3, fontSize: 10, italic: true, color: "7A8B81", margin: 0, isTextBox: true });
+    s.addNotes("Aliquote per i dipendenti pubblici in regime TFR: 100% del TFR (6,91% della retribuzione utile), 1% lavoratore, 1% datore. Il contributo del datore nella Sanità resta all'1%: il CCNL 2022-2024 non contiene novità sulla previdenza complementare. Possono aderire i dipendenti a tempo indeterminato e i determinati di almeno 3 mesi.");
+  }
+  (await quiz(1, "Se non ti iscrivi, che fine fa l'1% che l'Azienda verserebbe per te?", ["Ti arriva in busta paga", "Resta all'Azienda: lo perdi", "Va nel TFR"], 1,
+    "L'1% dell'Azienda si aggiunge al tuo 1% solo se sei iscritto e versi. In 30 anni, per uno stipendio da 30.000 €, sono più di 12.000 € regalati, più i rendimenti. E se sospendi il tuo contributo, l'Azienda smette di versare il suo.", "Lo perdi: esiste solo per chi aderisce")).addNotes("Il contributo del datore è dovuto solo agli iscritti che versano anche il proprio 1%. Se si sospende il proprio contributo, si perde anche quello del datore.");
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Esempio 1 · infermiera di 30 anni, 30.000 € lordi");
+    s.addText("Dentro o fuori: la differenza dopo 30 anni", { placeholder: "title" });
+    s.addChart(pres.charts.BAR, [{ name: "Netto finale", labels: ["Resta fuori (TFR all'INPS)", "Aderisce · Fondo al 2,5%", "Aderisce · Fondo al 4,5%"], values: [97500, 141600, 195400] }], {
+      x: M, y: 1.45, w: 7.6, h: 4.9, barDir: "col", chartColors: ["9AA6A0", HEX.accent1, "0B4D28"], varyColors: true, showValue: true, dataLabelFormatCode: "#,##0 \"€\"", dataLabelPosition: "outEnd",
+      dataLabelFontSize: 16, dataLabelFontBold: true, dataLabelColor: HEX.dk1, catAxisLabelFontSize: 13, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, barGapWidthPct: 55 });
+    card(s, 8.55, 1.5, 4.2, 2.3, HEX.accent1);
+    s.addText([{ text: "+44.000 €", options: { fontSize: 40, bold: true, color: HEX.accent2, breakLine: true } }, { text: "netti anche nello scenario prudente", options: { fontSize: 15, color: "FFFFFF" } }],
+      { x: 8.75, y: 1.55, w: 3.8, h: 2.2, valign: "middle", margin: 0, isTextBox: true });
+    const p = [["Perché?", "12.170 € messi dall'Azienda, più i rendimenti"], ["E le tasse?", "10,5% all'uscita, contro circa il 25% sul TFR"], ["Quanto le costa", "300 € lordi il primo anno: circa 201 € netti"]];
+    for (let i = 0; i < 3; i++) {
+      const y = 4.0 + i * 0.85;
+      s.addText(p[i][0], { x: 8.55, y, w: 1.6, h: 0.75, fontSize: 14, bold: true, color: HEX.accent1, valign: "middle", margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: 10.15, y, w: 2.6, h: 0.75, fontSize: 13, color: C.text1, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addText("Esempio semplificato: inflazione e stipendi +2% l'anno, TFR rivalutato al 2,49% netto, Fondo al 2,5% o 4,5% netto. Non è una proiezione ufficiale.", { x: M, y: 6.4, w: 12, h: 0.35, fontSize: 10.5, italic: true, color: "7A8B81", margin: 0, isTextBox: true });
+    s.addNotes("Versato in 30 anni: TFR 84.100 € + 1% proprio 12.170 € + 1% datore 12.170 €. Capitale lordo: 118.500 € fuori, 153.000 € al 2,5%, 206.800 € al 4,5%. In più circa 4.000 € di IRPEF risparmiata. Verifica COVIP: 2.500 €/anno per 37 anni danno 138.336 € nel Garantito e 198.612 € nell'Azionario (in termini reali, lordi). Ma: almeno il 50% in rendita, soldi bloccati, rendimento non garantito.");
+  }
+  (await quiz(2, "Versi 1.000 € in più al Fondo. Con l'IRPEF al 33%, quanto ti costano davvero?", ["1.000 €", "670 €", "330 €"], 1, "Quello che versi si toglie dal reddito su cui paghi l'IRPEF, fino a 5.300 € l'anno: al 33% risparmi 330 € ogni 1.000. All'uscita pagherai tra il 15% e il 9%: tra 150 e 90 €. Guadagno fiscale netto: da 180 a 240 € ogni 1.000 €, rendimenti esclusi.", "670 €: 330 li recuperi in meno tasse")).addNotes("Deducibilità fino a 5.300 € l'anno dal 2026, contributo del datore compreso (TFR e 1,5% esclusi). All'uscita si paga il 15%, che scende dello 0,30% per ogni anno oltre il 15° fino al 9%: su 1.000 € sono 150, 105 o 90 €. Guadagno fiscale netto da 180 a 240 € ogni 1.000 €, senza contare i rendimenti. Con aliquota marginale al 23% il risparmio scende a 230 €.");
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Lezione 2 · le tasse");
+    s.addText("Più resti, meno paghi", { placeholder: "title" });
+    s.addChart(pres.charts.LINE, [{ name: "Tassa sulla prestazione", labels: ["fino a 15 anni", "20 anni", "25 anni", "30 anni", "35 anni"], values: [15, 13.5, 12, 10.5, 9] }], {
+      x: M, y: 1.45, w: 7.4, h: 4.8, chartColors: [HEX.accent1], lineSize: 4, lineDataSymbol: "circle", lineDataSymbolSize: 10, showValue: true, dataLabelFormatCode: "0.0\"%\"", dataLabelPosition: "t",
+      dataLabelFontSize: 15, dataLabelFontBold: true, dataLabelColor: HEX.dk2, catAxisLabelFontSize: 13, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisMinVal: 0, valAxisMaxVal: 20, valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false });
+    const p = [["Fondo", "dal 15% al 9%", HEX.accent1], ["TFR e TFS", "circa 23-25%, con la tassazione separata", "C8102E"], ["Rendimenti", "20% dentro il Fondo, 12,5% sui titoli di Stato", HEX.dk2]];
+    for (let i = 0; i < 3; i++) {
+      const y = 1.6 + i * 1.6;
+      card(s, 8.35, y, 4.4, 1.4, i === 1 ? "FFF1F2" : C.background2);
+      s.addText(p[i][0], { x: 8.55, y: y + 0.1, w: 4, h: 0.5, fontSize: 17, bold: true, color: p[i][2], margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: 8.55, y: y + 0.6, w: 4, h: 0.7, fontSize: 14, color: C.text1, margin: 0, isTextBox: true });
+    }
+    s.addNotes("Prestazioni maturate dal 2018: 15% ridotto di 0,30 punti per ogni anno di iscrizione oltre il 15°, fino al 9%. Anticipazioni per casa o formazione e riscatti volontari: 23%. Il 23-25% su TFR/TFS è una stima: dipende dal reddito di riferimento.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Lezione 3 · chi è stato assunto prima del 2001");
+    s.addText("In TFS? Puoi passare al TFR, ma fai i conti", { placeholder: "title" });
+    card(s, M, 1.5, 6.0, 4.95, C.background2);
+    s.addText([{ text: "Se scegli l'opzione", options: { fontSize: 19, bold: true, color: HEX.accent1, breakLine: true } },
+      { text: "Il TFS maturato si «congela» alla data di oggi e da lì cresce come il TFR", options: { bullet: true, breakLine: true } },
+      { text: "Al Fondo vanno il 2% di TFR, l'1% tuo, l'1% dell'Azienda e un 1,2% in più dello Stato", options: { bullet: true, breakLine: true } },
+      { text: "Il 2,5% in busta sparisce, ma il netto non cambia", options: { bullet: true, breakLine: true } },
+      { text: "Non si torna indietro", options: { bullet: true, bold: true, color: "C8102E" } }],
+      { x: M + 0.25, y: 1.6, w: 5.5, h: 4.75, fontSize: 15, color: C.text1, valign: "middle", margin: 0, isTextBox: true, paraSpaceAfter: 10 });
+    const t = [["Esempio 2 · OSS di 50 anni, 26.000 €", "Netto"], ["Resta in TFS", "≈ 63.500 €"], ["Passa al TFR e aderisce (Fondo 2,5%)", "≈ 99.900 €"], ["Passa al TFR e aderisce (Fondo 4,0%)", "≈ 104.100 €"]];
+    s.addTable(t.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: i === 0 || j === 1, fontSize: i === 0 ? 13 : 15, color: i === 0 ? "FFFFFF" : (j === 1 && i > 1 ? HEX.accent1 : HEX.dk1),
+      fill: { color: i === 0 ? HEX.dk2 : (i % 2 ? "FFFFFF" : HEX.lt2) }, align: j ? "center" : "left", valign: "middle" } }))),
+      { x: 6.95, y: 1.5, w: 5.8, colW: [4.0, 1.8], rowH: 0.62, border: { type: "solid", color: "D9EADD", pt: 1 }, margin: 0.1 });
+    card(s, 6.95, 4.25, 5.8, 2.2, "FFF8D6", { bordo: "F2DF7A" });
+    s.addText([{ text: "Può non convenire se:", options: { bold: true, color: HEX.dk2, breakLine: true } },
+      { text: "l'ultimo stipendio sale molto (progressioni, incarichi) · mancano pochi anni · ti serve tutto in contanti. Serve un calcolo personale sull'estratto INPS.", options: { color: C.text1 } }],
+      { x: 7.15, y: 4.3, w: 5.4, h: 2.1, fontSize: 14, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Esempio semplificato: 26 anni di servizio e 17 alla pensione, TFS di tipo IPS (1/15 dell'80% dell'ultima retribuzione per anno, DA VERIFICARE sull'estratto INPS), stipendi +2%. TFS congelato circa 36.000 € che diventano circa 54.800 € in 17 anni. Con stipendi +3%: 74.900 € contro 104.200-108.600 €. Il carattere irrevocabile dell'opzione va confermato su fonte primaria. Non dire «conviene sempre».");
+  }
+  {
+    const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S9 });
+    kicker(s, "Lo sapevi? I tempi dell'INPS", HEX.accent2);
+    s.addText("TFS e TFR non arrivano subito", { placeholder: "title" });
+    const t = [["12 + 3 mesi", "dopo la pensione per limiti di età o di servizio", "9 + 3 per chi matura i requisiti dal 2027"], ["24 + 3 mesi", "se ti dimetti o vai in pensione anticipata", ""], ["Fino a 3 rate", "una sola fino a 50.000 €, due fino a 100.000 €, tre oltre", ""]];
+    for (let i = 0; i < 3; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 1.6, 3.85, 4.3, "13301F", { bordo: "1F4A31" });
+      s.addText(t[i][0], { x: x + 0.25, y: 1.8, w: 3.4, h: 1.2, fontSize: 34, bold: true, color: HEX.accent2, margin: 0, isTextBox: true });
+      s.addText(t[i][1], { x: x + 0.25, y: 3.05, w: 3.4, h: 1.3, fontSize: 16, color: "FFFFFF", valign: "top", margin: 0, isTextBox: true });
+      if (t[i][2]) s.addText(t[i][2], { x: x + 0.25, y: 4.6, w: 3.4, h: 1.1, fontSize: 13, italic: true, color: HEX.accent6, valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addText("Il Fondo invece paga la sua parte con i suoi tempi. Ma la quota «virtuale» del TFR passa comunque dall'INPS: 12-15 mesi.", { x: M, y: 6.1, w: 12, h: 0.6, fontSize: 13, italic: true, color: "CFE9D8", margin: 0, isTextBox: true });
+    s.addNotes("Riduzione a 9+3 mesi per chi matura i requisiti dal 2027: L. 199/2025 c. 198, circolare INPS 30/2026 (letta nella sintesi di EC News, da verificare sul testo). Il ddl di bilancio 2027 con tempi ancora più brevi è solo una proposta: non citarlo come fatto.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Lezione 4 · scegliere il profilo");
+    s.addText("Il comparto Garantito non è sempre il più sicuro", { placeholder: "title" });
+    s.addChart(pres.charts.BAR, [{ name: "Rendimento medio annuo a 10 anni", labels: ["Garantito Perseo Sirio", "TFR lasciato all'INPS"], values: [1.12, 2.5] }], {
+      x: M, y: 1.45, w: 5.6, h: 4.6, barDir: "col", chartColors: ["9AA6A0", HEX.accent1], varyColors: true, showValue: true, dataLabelFormatCode: "0.00\"%\"", dataLabelPosition: "outEnd",
+      dataLabelFontSize: 18, dataLabelFontBold: true, dataLabelColor: HEX.dk1, catAxisLabelFontSize: 13, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
+      valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, barGapWidthPct: 60 });
+    s.addText("Rendimenti netti al 31/12/2025", { x: M, y: 6.05, w: 5.6, h: 0.3, fontSize: 11, italic: true, color: "7A8B81", margin: 0, isTextBox: true });
+    const c = [["Garantito", "2,70% nel 2025 · −5,06% nel 2022", "dove finisce chi è iscritto in silenzio"], ["Obbligazionario", "1,84% nel 2024 · 2,17% nel 2025", "attivo dal dicembre 2023"], ["Azionario", "12,26% nel 2024 · 6,29% nel 2025", "più oscillazioni, più rendimento nel lungo periodo"]];
+    for (let i = 0; i < 3; i++) {
+      const y = 1.5 + i * 1.6;
+      card(s, 6.6, y, 6.15, 1.42, i === 2 ? C.background2 : "FFFFFF", { bordo: "D9EADD" });
+      s.addText(c[i][0], { x: 6.8, y: y + 0.1, w: 2.4, h: 0.5, fontSize: 18, bold: true, color: HEX.accent1, margin: 0, isTextBox: true });
+      s.addText(c[i][1], { x: 9.2, y: y + 0.1, w: 3.4, h: 0.5, fontSize: 14, bold: true, color: HEX.dk2, margin: 0, isTextBox: true });
+      s.addText(c[i][2], { x: 6.8, y: y + 0.65, w: 5.8, h: 0.6, fontSize: 13, color: C.text1, margin: 0, isTextBox: true });
+    }
+    s.addText("Regola semplice: più anni mancano alla pensione, più ha senso una linea con azioni, o il percorso Life Cycle che si fa più prudente con l'età.", { x: 6.6, y: 6.3, w: 6.15, h: 0.6, fontSize: 12.5, bold: true, color: HEX.dk2, margin: 0, isTextBox: true });
+    s.addNotes("Tre comparti (Garantito, Obbligazionario, Azionario) combinati in sei profili, compreso il Life Cycle. Garantito: 0,90% a 5 anni e 1,12% a 10 anni contro TFR 3,44% e 2,50%. Costi ISC a 10 anni: Garantito 0,60%, Obbligazionario 0,27%, Azionario 0,31%. I rendimenti passati non garantiscono quelli futuri. Fonte dei rendimenti medi: media ripresa da Sky TG24 perché il sito COVIP non era raggiungibile, da ricontrollare. Dal 1/1/2026 anche il TFR «virtuale» rende come il profilo scelto.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Neoassunti dal 2019");
+    s.addText("Il silenzio-assenso: chi tace è iscritto", { placeholder: "title" });
+    const p = [["6 mesi", "dall'assunzione a tempo indeterminato per decidere"], ["Dal mese dopo", "se non scegli, sei iscritto nel comparto Garantito"], ["30 giorni", "per ripensarci, dalla lettera del Fondo"]];
+    for (let i = 0; i < 3; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 1.6, 3.85, 2.6, i === 1 ? HEX.accent1 : C.background2);
+      s.addText(p[i][0], { x: x + 0.25, y: 1.75, w: 3.4, h: 1.0, fontSize: 30, bold: true, color: i === 1 ? HEX.accent2 : HEX.accent1, margin: 0, isTextBox: true });
+      s.addText(p[i][1], { x: x + 0.25, y: 2.75, w: 3.4, h: 1.3, fontSize: 15, color: i === 1 ? "FFFFFF" : C.text1, valign: "top", margin: 0, isTextBox: true });
+    }
+    card(s, M, 4.5, 12.15, 1.9, "FFF8D6", { bordo: "F2DF7A" });
+    s.addText([{ text: "Il consiglio: ", options: { bold: true, color: HEX.dk2 } }, { text: "non lasciare che decida il silenzio. Se sei iscritto d'ufficio, sei nel Garantito: guarda se è il profilo giusto per la tua età. Vale per chi è assunto a tempo indeterminato dal 1° gennaio 2019, non per chi arriva in mobilità né per chi è in TFS.", options: { color: C.text1 } }],
+      { x: M + 0.3, y: 4.55, w: 11.6, h: 1.8, fontSize: 16, valign: "middle", margin: 0, isTextBox: true });
+    s.addNotes("Accordo ARAN del 16/09/2021. Nel 2025 è uscito l'8,67% degli iscritti in silenzio-assenso. Le novità della legge di bilancio 2026 sull'adesione automatica (60 giorni, capitale al 60%, Life Cycle di default) valgono solo per il privato: per noi restano 6 mesi e capitale al 50%.");
+  }
+  (await quiz(3, "Iscritto da 10 anni, ti serve liquidità per cambiare l'auto. Puoi chiedere un anticipo al Fondo?", ["Sì, il 30% per qualsiasi motivo", "No, per i pubblici solo sanità, prima casa e formazione", "Sì, ma solo il TFR"], 1, "Per i dipendenti pubblici l'anticipo si chiede dopo 8 anni di iscrizione e solo per spese sanitarie, prima casa (acquisto o ristrutturazione) o congedi formativi, sui contributi «veri»: il tuo, quello dell'Azienda e i rendimenti. L'anticipo del 30% «per qualsiasi motivo» vale solo per i lavoratori privati.",
+    "No: per i pubblici solo tre motivi")).addNotes("Per i dipendenti pubblici: anticipazioni dopo 8 anni di iscrizione (anche per le spese sanitarie), solo per spese sanitarie, acquisto o ristrutturazione della prima casa e congedi formativi; fino al 100% dei soli contributi «reali» (lavoratore, datore, rendimenti), esclusi TFR virtuale e 1,5%. L'anticipo del 30% per «ulteriori esigenze» vale solo nel privato. Fonte: Documento anticipazioni depositato in COVIP il 16/07/2026.");
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
+    kicker(s, "Lezione 5 · i limiti, detti chiaramente", "C8102E");
+    s.addText("Prima di firmare, sappi che…", { placeholder: "title" });
+    const l = [["FaLock", "I soldi restano bloccati", "anticipi solo dopo 8 anni e solo per salute, casa, formazione; riscatto non in servizio"], ["FaChartLine", "Il rendimento non è garantito", "nel 2022 il Garantito ha perso il 5%: il fondo è un investimento di lungo periodo"], ["FaCoins", "Almeno metà in rendita", "alla pensione il capitale si può prendere al massimo per il 50%"], ["FaUserClock", "Se sospendi, perdi l'1% dell'Azienda", "e il TFR continua comunque ad andare al Fondo"]];
+    for (let i = 0; i < 4; i++) {
+      const col = i % 2, row = Math.floor(i / 2);
+      const x = M + col * 6.15, y = 1.55 + row * 2.45;
+      card(s, x, y, 5.95, 2.25, row ? C.background2 : "FFF1F2");
+      await tondo(s, l[i][0], x + 0.25, y + 0.3, 0.85, row ? HEX.accent1 : "C8102E");
+      s.addText(l[i][1], { x: x + 1.3, y: y + 0.25, w: 4.5, h: 0.6, fontSize: 18, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(l[i][2], { x: x + 1.3, y: y + 0.85, w: 4.5, h: 1.25, fontSize: 14, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Onestà prima di tutto: il fondo conviene soprattutto per l'1% del datore e per il fisco, non è un conto corrente. Trasferimento ad altra forma possibile dopo 3 anni.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S9 });
+    s.addText("Cosa fare da domani", { placeholder: "title" });
+    s.addText("Quattro passi, dieci minuti", { placeholder: "body" });
+    const cose = ["Guarda il cedolino: c'è la voce Perseo Sirio? Sei iscritto", "Entra nell'area riservata del Fondo e controlla il profilo", "Prova il simulatore sul sito perseosirio.it", "In TFS o indeciso? Chiedici un calcolo personale con il patronato"];
+    for (let i = 0; i < cose.length; i++) {
+      const y = 0.9 + i * 1.4;
+      card(s, 8.1, y, 4.65, 1.15, i % 2 ? "0B4D28" : HEX.accent2);
+      s.addText(cose[i], { x: 8.35, y, w: 4.25, h: 1.15, fontSize: 15, bold: true, color: i % 2 ? "FFFFFF" : HEX.dk2, valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Il calcolo personale sull'opzione TFS-TFR si fa sull'estratto conto INPS, sul cedolino e sull'anzianità: offrirlo con il patronato INAS CISL.");
+  }
+  slideDomande(S9, "La previdenza complementare").addNotes("Spazio domande sul punto 9.");
+
+  // ------------------------------------------------ 10 · varie ed eventuali
+  const S10 = "10 · Varie ed eventuali";
+  pres.addSection({ title: S10 });
+  {
+    const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S10 });
+    s.addText("10", { x: M, y: 0.7, w: 4, h: 2.2, fontSize: 150, bold: true, color: C.accent2, margin: 0, isTextBox: true });
+    s.addText("La parola a voi", { placeholder: "title" });
+    s.addText("Varie ed eventuali: ogni domanda di oggi diventa una richiesta al prossimo tavolo", { placeholder: "body" });
+    const t = ["Busta paga e arretrati", "Turni, notti e reperibilità", "Ferie e permessi", "Part time e lavoro agile", "Incarichi e progressioni", "Sicurezza e aggressioni"];
+    for (let i = 0; i < t.length; i++) {
+      const y = 0.75 + i * 0.98;
+      card(s, 8.6, y, 4.15, 0.8, i % 2 ? "0B4D28" : "13301F", { bordo: "1F4A31" });
+      s.addText(t[i], { x: 8.85, y, w: 3.8, h: 0.8, fontSize: 16, bold: true, color: i % 2 ? HEX.accent2 : "FFFFFF", valign: "middle", margin: 0, isTextBox: true });
+    }
+    s.addNotes("Raccogliere le domande su un foglio: chi non ha tempo di parlare può scriverla e lasciarla al tavolo dei delegati.");
+  }
+
+  // ------------------------------------------------ chiusura
+  const SC = "Chiusura";
+  pres.addSection({ title: SC });
+  {
+    const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: SC });
+    kicker(s, "Da oggi");
+    s.addText("Tre cose da fare uscendo da qui", { placeholder: "title" });
+    const c = [["1", "Aderisci alle vertenze", "Due minuti dal telefono: un modulo per vertenza", "festivo", "Festivo"], ["2", "Segui il canale WhatsApp", "Gli aggiornamenti arrivano prima lì", "whatsapp", "WhatsApp CISL FP"], ["3", "Porta un collega", "Chi oggi non c'era: passagli la voce, o portalo alla prossima"]];
+    for (let i = 0; i < 3; i++) {
+      const x = M + i * 4.1;
+      card(s, x, 1.55, 3.85, 5.0, i === 2 ? HEX.accent2 : C.background2, { ombra: true });
+      s.addText(c[i][0], { x: x + 0.3, y: 1.7, w: 1, h: 0.9, fontSize: 48, bold: true, color: i === 2 ? HEX.dk2 : HEX.accent1, margin: 0, isTextBox: true });
+      s.addText(c[i][1], { x: x + 0.3, y: 2.6, w: 3.3, h: 0.6, fontSize: 21, bold: true, color: C.text2, margin: 0, isTextBox: true });
+      s.addText(c[i][2], { x: x + 0.3, y: 3.2, w: 3.3, h: 0.8, fontSize: 14, color: C.text1, valign: "top", margin: 0, isTextBox: true });
+      if (c[i][3]) qr(s, c[i][3], x + 1.0, 4.15, 1.65, c[i][4]);
+      else await tondo(s, "FaUserFriends", x + 1.0, 4.2, 1.75, HEX.dk2, HEX.accent2);
+    }
+    s.addText("I QR dei moduli ferie e buoni pasto sono nel punto 5.", { x: M, y: 6.65, w: 8, h: 0.3, fontSize: 11, italic: true, color: "5B6B62", margin: 0, isTextBox: true });
+    s.addNotes("Le tre azioni del video di chiusura. Da confermare con Achille se aggiungere l'iscrizione alla CISL FP.");
+  }
+  {
+    const s = pres.addSlide({ masterName: "COPERTINA", sectionTitle: SC });
+    card(s, M, 0.5, 2.0, 1.0, "FFFFFF");
+    s.addImage({ path: logo, x: M + 0.15, y: 0.55, w: 1.7, h: 1.7 / 2.06, altText: "CISL FP Padova Rovigo" });
+    s.addText([{ text: "Più siamo, ", options: {} }, { text: "più contiamo.", options: { color: C.accent2 } }], { placeholder: "title" });
+    s.addText("Grazie per il lavoro di ogni giorno e per il tempo di oggi. Ci vediamo in reparto.", { placeholder: "body" });
+    card(s, 9.2, 0.5, 3.55, 2.6, "FFFFFF", { ombra: true });
+    s.addText([{ text: "I TUOI DELEGATI AOUP", options: { fontSize: 11, bold: true, color: HEX.accent1, charSpacing: 2, breakLine: true } },
+      { text: "Achille · 391 127 1018", options: { fontSize: 16, bold: true, color: HEX.dk2, breakLine: true } },
+      { text: "Giovanna · 389 928 5301", options: { fontSize: 16, bold: true, color: HEX.dk2, breakLine: true } },
+      { text: "cisl.fp@aopd.veneto.it", options: { fontSize: 14, color: HEX.accent1 } }],
+      { x: 9.4, y: 0.6, w: 3.15, h: 2.4, valign: "middle", margin: 0, isTextBox: true, paraSpaceAfter: 6 });
+    s.addNotes("Proiettare il video di chiusura dopo questa slide.");
+  }
 
   await pres.writeFile({ fileName: OUT });
   await applyTheme(OUT, THEME);

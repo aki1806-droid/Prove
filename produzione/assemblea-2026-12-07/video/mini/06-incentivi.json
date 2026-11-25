@@ -1,0 +1,167 @@
+[
+ {
+  "id": "s01",
+  "testo": "Una fornitura da duecentoventimila euro e una da duecentotrentamila. Con la proposta dell'Azienda, la seconda ha quasi la metà di incentivo in meno. Sembra un errore. È il regolamento.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "PUNTO 6 · INCENTIVI FUNZIONI TECNICHE",
+   "numero": "−44%",
+   "etichetta": "di fondo se la fornitura passa da 220.000 a 230.000 €",
+   "nota": "con le tabelle proposte dall'Azienda"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Parliamo degli incentivi per le funzioni tecniche: spettano a chi fa da RUP, DEC, direttore dei lavori o collaboratore nelle gare. Sul tavolo ci sono due regolamenti: il loro e il nostro.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "PUNTO 6 · INCENTIVI FUNZIONI TECNICHE",
+   "titolo": "Stessa legge, due regolamenti",
+   "sotto": "Proposta dell'Azienda contro proposta CISL FP"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "L'Azienda applica una sola aliquota a tutto l'importo. Superata la soglia, l'intero appalto ricade sull'aliquota più bassa. E più la gara cresce, peggio va.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA TABELLA DELL'AZIENDA",
+   "titolo": "Una aliquota sola su tutto l'importo",
+   "immagine": "schermate/inc-az-forniture.png",
+   "didascalia": "Proposta dell'Azienda, rev.5 dell'8/10/2026 · forniture"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Il fondo scende da milleseicentocinquanta euro a novecentoventi. E una fornitura da due milioni e centomila euro prende meno di una da duecentoventimila: millecinquanta euro.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "PROPOSTA DELL'AZIENDA · COMPLESSITÀ MEDIA",
+   "titolo": "Più grande è la gara, meno incentivo",
+   "barre": [
+    {
+     "etichetta": "Fornitura da 220.000 €",
+     "valore": 1650,
+     "testo": "1.650 €"
+    },
+    {
+     "etichetta": "Fornitura da 230.000 €",
+     "valore": 920,
+     "testo": "920 €"
+    },
+    {
+     "etichetta": "Fornitura da 2,1 milioni",
+     "valore": 1050,
+     "testo": "1.050 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "La nostra proposta usa gli scaglioni progressivi, come l'IRPEF. Ogni fascia ha la sua aliquota, e quella sopra non toglie niente a quella sotto. Così il fondo non scende mai.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA PROPOSTA CISL FP",
+   "titolo": "Scaglioni progressivi, come l'IRPEF",
+   "immagine": "schermate/inc-cisl-scaglioni.png",
+   "didascalia": "Proposta CISL FP · Rev 22"
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Con le nostre tabelle, anche al grado più basso, la fornitura da due milioni e centomila euro porta undicimiladuecento euro di fondo. Non millecinquanta.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "FORNITURA DA 2,1 MILIONI",
+   "titolo": "Lo stesso appalto, i due calcoli",
+   "sinistra": {
+    "etichetta": "Azienda",
+    "valore": "1.050 €",
+    "nota": "complessità media"
+   },
+   "destra": {
+    "etichetta": "CISL FP",
+    "valore": "11.200 €",
+    "nota": "grado 1, il più basso"
+   }
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Per onestà: su alcuni lavori, al livello alto di complessità, l'Azienda dà di più. Ma quel livello lo sceglie il RUP o il Direttore. Noi chiediamo due gradi oggettivi, motivati e fissati all'inizio.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "LA COMPLESSITÀ",
+   "titolo": "Chi decide quanto vale il lavoro",
+   "sinistra": {
+    "etichetta": "Azienda",
+    "valore": "3 livelli",
+    "nota": "scelti dal RUP o dal Direttore"
+   },
+   "destra": {
+    "etichetta": "CISL FP",
+    "valore": "2 gradi",
+    "nota": "oggettivi, motivati, fissati all'inizio"
+   }
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Poi i tempi. L'Azienda paga entro il trentuno luglio dell'anno dopo, e niente a chi ha debito orario, anche a lavoro fatto. Noi chiediamo trenta giorni dal certificato, con silenzio assenso.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "QUANDO ARRIVANO I SOLDI",
+   "titolo": "Un anno e mezzo, o trenta giorni",
+   "sinistra": {
+    "etichetta": "Azienda",
+    "valore": "31 luglio",
+    "nota": "dell'anno dopo, e mai con debito orario"
+   },
+   "destra": {
+    "etichetta": "CISL FP",
+    "valore": "30 giorni",
+    "nota": "dal certificato, con silenzio-assenso"
+   }
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "E se il contratto va in ritardo per colpe non tue? L'Azienda arriva a tagliare fino al cento per cento. Noi diciamo al massimo il cinquanta, con la prova a carico dell'Azienda.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "I TAGLI PER I RITARDI",
+   "titolo": "Chi paga i ritardi che non dipendono da te",
+   "sinistra": {
+    "etichetta": "Azienda",
+    "valore": "fino al 100%",
+    "nota": "di taglio"
+   },
+   "destra": {
+    "etichetta": "CISL FP",
+    "valore": "massimo 50%",
+    "nota": "e la prova tocca all'Azienda"
+   }
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Infine la trasparenza: una relazione annuale a erre esse u e sindacati su chi ha preso cosa. I soldi non usati restano agli incentivi. E gli arretrati dal primo luglio duemilaventitré.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "TRASPARENZA",
+   "titolo": "I soldi degli incentivi restano dei lavoratori",
+   "immagine": "schermate/inc-cisl-rsu.png",
+   "didascalia": "Proposta CISL FP · Rev 22"
+  }
+ },
+ {
+  "id": "s11",
+  "testo": "Stessa legge, due regolamenti molto diversi. Noi vogliamo che chi lavora davvero sulle gare venga pagato, in tempi certi e alla luce del sole. Sostieni la nostra proposta.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Più lavoro deve voler dire più incentivo. Sempre.",
+   "azione": "Sostieni la proposta CISL FP al tavolo"
+  }
+ }
+]

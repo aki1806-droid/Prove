@@ -1,0 +1,134 @@
+[
+ {
+  "id": "s01",
+  "testo": "Dieci intese firmate in un anno, qui, nella nostra Azienda. Non promesse: documenti con le firme sopra. Vediamo i risultati che pesano di più, nella busta paga e nella vita di reparto.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "PUNTO 2 · ACCORDI DECENTRATI AOUP",
+   "numero": "10",
+   "etichetta": "intese firmate con l'Azienda",
+   "nota": "da dicembre 2025 a settembre 2026"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Primo: quasi quattro milioni e trecentomila euro di conguaglio della produttività duemilaventicinque, pagati con lo stipendio di novembre. Dentro c'è un milione e seicentomila euro spostato dal fondo incarichi.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "PREMIALITÀ 2025 · PAGATA A NOVEMBRE",
+   "titolo": "4,29 milioni di conguaglio",
+   "immagine": "schermate/premialita-4mln.png",
+   "didascalia": "Accordo progettualità 2026 · 15/04/2026"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Secondo: le progressioni economiche. Ottocentoventimila euro per i differenziali di professionalità. Si partecipa in automatico, senza domanda, e il dieci per cento è riservato a chi aspetta da più tempo.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "DEP 2025 · ACCORDO 10/12/2025",
+   "numero": "820.000 €",
+   "etichetta": "di progressioni economiche",
+   "nota": "Nessuna domanda: si partecipa d'ufficio"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Chi è fermo da dieci anni senza progressioni, o da venti con al massimo due, ha una corsia dedicata. Questa clausola l'abbiamo voluta noi: nessuno deve restare indietro per sempre.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Il 10% è riservato a chi aspetta da più tempo.",
+   "fonte": "Preintesa DEP 2025 · 10 dicembre 2025"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Terzo: le notti pagano di più. La premialità sul turno di notte sale da quattro euro a quattro e cinquanta l'ora. Il turno pieno di pronta disponibilità passa da ventuno euro e sessanta a ventisette e sessanta.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "LEGGE REGIONALE 26 · PREINTESA 14/07/2026",
+   "titolo": "Pronta disponibilità, turno di 12 ore",
+   "sinistra": {
+    "etichetta": "Prima",
+    "valore": "21,60 €",
+    "nota": "a turno"
+   },
+   "destra": {
+    "etichetta": "Ora",
+    "valore": "27,60 €",
+    "nota": "a turno · e notte +0,50 €/h"
+   }
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Per chi lavora nelle aree più pesanti c'è una quota annua: fino a seicentocinquanta euro nelle degenze mediche, chirurgiche e pediatriche, fino a quattrocento nelle intensive e nella piastra ostetrica.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "AREE COMPLESSE · QUOTA MASSIMA ANNUA",
+   "titolo": "Chi lavora dove pesa di più",
+   "barre": [
+    {
+     "etichetta": "Degenze mediche, chirurgiche, pediatriche",
+     "valore": 650,
+     "testo": "650 €"
+    },
+    {
+     "etichetta": "Degenze con indennità CCNL o quota Hub",
+     "valore": 400,
+     "testo": "400 €"
+    },
+    {
+     "etichetta": "Intensive e piastra ostetrica",
+     "valore": 400,
+     "testo": "400 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Quarto: le ferie d'estate. Il contratto nazionale garantisce quindici giorni lavorativi consecutivi. In Azienda Ospedale Università abbiamo scritto tre settimane, di cui due consecutive, anche per chi lavora su sei giorni.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "FERIE ESTIVE · ACCORDO 15/04/2026",
+   "titolo": "Tre settimane d'estate, nero su bianco",
+   "immagine": "schermate/ferie-3settimane.png",
+   "didascalia": "Accordo progettualità 2026 · 15/04/2026 · pag. 7"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Quinto: il part time. Centotrentacinque posti, per quattro anni. Il bando esce entro la fine del duemilaventisei e le graduatorie entro marzo duemilaventisette.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "PART TIME · ACCORDO 08/09/2026",
+   "titolo": "135 posti per quattro anni",
+   "immagine": "schermate/parttime-bando.png",
+   "didascalia": "Bando entro fine 2026 · graduatorie entro marzo 2027"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "E poi venti posti per salire di area senza concorso, fino a otto giornate al mese di lavoro agile, e per la Radiologia che lavora stabilmente in pronto soccorso da quattro a sette euro al giorno.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "E NON SOLO",
+   "titolo": "Gli altri risultati",
+   "voci": [
+    "Progressioni tra aree: 20 posti",
+    "Lavoro agile: fino a 8 giornate al mese",
+    "Radiologia in PS: da 4 a 7 € al giorno"
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Ogni accordo che vedete l'abbiamo letto, discusso e firmato. Le firme contano, ma conta di più farle rispettare. Se un accordo non viene applicato nel tuo reparto, diccelo: interveniamo.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Gli accordi si firmano. Poi si fanno rispettare.",
+   "azione": "Non viene applicato nel tuo reparto? Diccelo"
+  }
+ }
+]

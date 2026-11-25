@@ -1,0 +1,149 @@
+[
+ {
+  "id": "s01",
+  "testo": "Ti hanno mai detto che c'è un pezzo di stipendio che stai lasciando sul tavolo? Si chiama Perseo Sirio. È il fondo pensione di chi lavora nella sanità pubblica. E vale la pena capirlo, in due minuti.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "Punto 9 · Previdenza",
+   "titolo": "Perseo Sirio in due minuti",
+   "sotto": "Il fondo pensione di chi lavora nella sanità pubblica"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Funziona come un salvadanaio con tre mani dentro. La prima è il tuo trattamento di fine rapporto. La seconda è l'uno per cento del tuo stipendio. La terza è l'uno per cento messo dall'Azienda.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "Chi mette i soldi",
+   "titolo": "Tre mani nel salvadanaio",
+   "voci": [
+    "Il tuo TFR: 6,91%",
+    "Il tuo contributo: 1%",
+    "Il contributo dell'Azienda: 1%"
+   ]
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Ed è proprio la terza mano che fa la differenza. Quell'uno per cento l'Azienda lo versa soltanto a chi si iscrive. Chi resta fuori non lo riceve in busta paga: semplicemente lo perde.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "Il punto che pochi sanno",
+   "numero": "1%",
+   "etichetta": "lo versa l'Azienda, ma solo a chi aderisce",
+   "nota": "Chi resta fuori lo perde"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Facciamo un esempio. Un'infermiera di trent'anni, trentamila euro lordi, trent'anni di lavoro. Se resta fuori, porta a casa circa novantasettemila euro netti di trattamento di fine rapporto. Se aderisce, anche con un rendimento prudente, circa centoquarantunomila.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "Esempio · infermiera di 30 anni",
+   "titolo": "Dentro o fuori, dopo 30 anni",
+   "barre": [
+    {
+     "etichetta": "Resta fuori",
+     "valore": 97500,
+     "testo": "≈ 97.500 €"
+    },
+    {
+     "etichetta": "Aderisce · 2,5%",
+     "valore": 141600,
+     "testo": "≈ 141.600 €"
+    },
+    {
+     "etichetta": "Aderisce · 4,5%",
+     "valore": 195400,
+     "testo": "≈ 195.400 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Da dove arriva la differenza? Dai soldi dell'Azienda, più i rendimenti. E dalle tasse: sul fondo, all'uscita, si paga tra il quindici e il nove per cento. Sul trattamento di fine rapporto, intorno al venticinque.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "Le tasse all'uscita",
+   "titolo": "Più resti, meno paghi",
+   "sinistra": {
+    "etichetta": "TFR e TFS",
+    "valore": "≈ 25%",
+    "nota": "tassazione separata, stima"
+   },
+   "destra": {
+    "etichetta": "Fondo",
+    "valore": "15% → 9%",
+    "nota": "scende con gli anni di iscrizione"
+   }
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "E c'è un regalo anche oggi. Quello che versi si toglie dal reddito su cui paghi le tasse. Con l'aliquota al trentatré per cento, mille euro versati ti costano davvero seicentosettanta.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "Il vantaggio fiscale",
+   "numero": "670 €",
+   "etichetta": "il costo vero di 1.000 € versati, con IRPEF al 33%",
+   "nota": "Deducibili fino a 5.300 € l'anno"
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Se invece sei stato assunto prima del duemilauno, hai il vecchio trattamento di fine servizio. Puoi passare al nuovo sistema e aderire: spesso conviene, ma non sempre. Se il tuo ultimo stipendio salirà molto, o mancano pochi anni, va fatto un conto personale.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "Assunto prima del 2001?",
+   "titolo": "In TFS: fai prima i conti",
+   "voci": [
+    "Spesso conviene, non sempre",
+    "Non si torna indietro",
+    "Serve un calcolo personale"
+   ]
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Diciamolo con onestà, perché il fondo non è un conto corrente. I soldi restano bloccati fino alla pensione: l'anticipo si chiede dopo otto anni, solo per salute, prima casa o formazione. E almeno metà arriverà come pensione mensile.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "I limiti, detti chiaramente",
+   "titolo": "Prima di firmare, sappi che…",
+   "voci": [
+    "Soldi bloccati: anticipi solo dopo 8 anni",
+    "Solo per salute, prima casa, formazione",
+    "Almeno metà in rendita mensile"
+   ]
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "Ultima cosa: il profilo. Chi viene iscritto in silenzio finisce nel comparto Garantito, che negli ultimi dieci anni ha reso meno del trattamento di fine rapporto. Se hai tanti anni davanti, valuta una linea più dinamica.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "Scegli il profilo giusto",
+   "titolo": "Garantito non vuol dire migliore",
+   "sinistra": {
+    "etichetta": "Garantito · 10 anni",
+    "valore": "1,12%",
+    "nota": "rendimento medio annuo"
+   },
+   "destra": {
+    "etichetta": "TFR · 10 anni",
+    "valore": "2,50%",
+    "nota": "rivalutazione media annua"
+   }
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Allora, da domani: guarda il cedolino e controlla se sei iscritto. Prova il simulatore del fondo. E se hai dubbi, vieni da noi: ti facciamo il calcolo sulla tua situazione. La pensione si costruisce adesso.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "La pensione si costruisce adesso.",
+   "azione": "Chiedici il tuo calcolo personale"
+  }
+ }
+]

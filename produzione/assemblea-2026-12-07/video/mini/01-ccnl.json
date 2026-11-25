@@ -1,0 +1,159 @@
+[
+ {
+  "id": "s01",
+  "testo": "Quanto vale davvero il nuovo contratto della sanità? Per un infermiere, in media, circa duecentoquaranta euro lordi al mese in più, indennità comprese. È una stima Cisl effe pi: vediamo da dove arriva.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "PUNTO 1 · CCNL SANITÀ 2025-2027",
+   "numero": "≈ 240 €",
+   "etichetta": "al mese in più, in media, per gli infermieri",
+   "nota": "209 € per le altre figure · stima CISL FP"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Il ventinove luglio duemilaventisei abbiamo firmato all'ARAN l'ipotesi di contratto nazionale. Ipotesi, attenzione: diventa definitiva solo dopo i controlli del Governo e della Corte dei conti.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "LA FIRMA",
+   "titolo": "Ipotesi di contratto, 29 luglio 2026",
+   "immagine": "schermate/front-ccnl.png",
+   "didascalia": "Definitiva dopo i controlli di Governo e Corte dei conti"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "La firma definitiva è attesa a dicembre. Da quel giorno ci sono trenta giorni per applicare gli aumenti automatici. E il contratto copre tutto il triennio, dal duemilaventicinque al duemilaventisette.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "I TEMPI",
+   "titolo": "Quando arriva cosa",
+   "voci": [
+    "29/7/2026 · ipotesi firmata all'ARAN",
+    "Dicembre 2026 · firma definitiva attesa",
+    "Poi 30 giorni per gli aumenti automatici"
+   ]
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Lo stipendio tabellare sale in tre tranche. Per infermieri, ostetriche, tecnici e funzionari, dal primo gennaio duemilaventisette l'aumento arriva a centotrenta euro e venti al mese.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "TABELLA 1A · PROFESSIONISTI DELLA SALUTE E FUNZIONARI",
+   "titolo": "Aumento mensile lordo del tabellare",
+   "barre": [
+    {
+     "etichetta": "Dal 1/1/2025",
+     "valore": 50.5,
+     "testo": "50,50 €"
+    },
+    {
+     "etichetta": "Dal 1/1/2026",
+     "valore": 101.1,
+     "testo": "101,10 €"
+    },
+    {
+     "etichetta": "Dal 1/1/2027",
+     "valore": 130.2,
+     "testo": "130,20 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "La prima tranche decorre dal duemilaventicinque, quindi ci sono gli arretrati: in media circa milleduecentocinquanta euro. Per gli infermieri, con la specificità, si possono superare i duemila euro.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "ARRETRATI · STIMA CISL FP",
+   "numero": "≈ 1.250 €",
+   "etichetta": "di arretrati, in media",
+   "nota": "Infermieri: si possono superare i 2.000 €"
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Poi le indennità di chi assiste, che dal primo gennaio duemilaventisei quasi raddoppiano. Infermieri e ostetriche passano da ottantasette euro e settantanove a centottantuno euro e quattordici al mese.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "ART. 41 E 42 · DAL 1° GENNAIO 2026",
+   "titolo": "Infermieri e ostetriche",
+   "sinistra": {
+    "etichetta": "Prima",
+    "valore": "87,79 €",
+    "nota": "al mese"
+   },
+   "destra": {
+    "etichetta": "Ora",
+    "valore": "181,14 €",
+    "nota": "al mese, per 12 mensilità"
+   }
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Crescono anche le altre. Tecnici, riabilitazione e prevenzione arrivano a centoventuno euro e ottantasette. Gli o esse esse a centodue euro e un centesimo. Tutto lordo, al mese, per dodici mensilità.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "LE INDENNITÀ DAL 2026",
+   "titolo": "Quanto al mese, lordo",
+   "barre": [
+    {
+     "etichetta": "Infermieri e ostetriche",
+     "valore": 181.14,
+     "testo": "181,14 €"
+    },
+    {
+     "etichetta": "Tecnici, riabilitazione, prevenzione",
+     "valore": 121.87,
+     "testo": "121,87 €"
+    },
+    {
+     "etichetta": "OSS senior",
+     "valore": 108.8,
+     "testo": "108,80 €"
+    },
+    {
+     "etichetta": "OSS",
+     "valore": 102.01,
+     "testo": "102,01 €"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "E una novità che aspettavamo: dal duemilaventisette, in ferie non perdi più le indennità. Turno, notte, festivo, pronto soccorso: una quota per ogni giorno di ferie, calcolata sul semestre prima.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "ART. 28 · DAL 1° GENNAIO 2027",
+   "titolo": "In ferie non perdi più le indennità",
+   "immagine": "schermate/ccnl-indennita-ferie.png",
+   "didascalia": "Ipotesi CCNL 2025-2027 · art. 28 c. 2"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "E nuovi diritti. Se ti aggrediscono, l'Azienda paga l'avvocato e garantisce il supporto psicologico. La vestizione entra nell'orario. E nessuna decisione sul tuo lavoro presa solo da un algoritmo.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "NUOVI DIRITTI",
+   "titolo": "Non solo soldi",
+   "voci": [
+    "Aggressioni: avvocato e psicologo a carico dell'Azienda",
+    "Vestizione dentro l'orario",
+    "Intelligenza artificiale: decide sempre una persona"
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Un contratto è il risultato di una trattativa, e va fatto applicare. Quando arrivano gli arretrati, controlla il cedolino. Se qualcosa non torna, vieni da noi: lo verifichiamo insieme.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Il contratto si firma. Poi si fa rispettare.",
+   "azione": "Controlla il cedolino: se non torna, passa da noi"
+  }
+ }
+]

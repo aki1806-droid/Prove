@@ -1,0 +1,135 @@
+[
+ {
+  "id": "s01",
+  "testo": "Notte di dodici ore: sì o no? Prima di rispondere, guardiamo i numeri. Perché un cambio d'orario non è un dettaglio: tocca il sonno, la famiglia, la sicurezza dei pazienti.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "PUNTO 8 · ORGANIZZAZIONE DEL LAVORO",
+   "titolo": "La notte di 12 ore",
+   "sotto": "Decidere informati, non al buio"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Oggi la mattina dura sei ore e ventidue, il pomeriggio sette e un quarto, la notte undici e un quarto. La proposta: sei e un quarto, sei e un quarto, e una notte di dodici ore.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "I DUE MODELLI",
+   "titolo": "Mattina · pomeriggio · notte",
+   "sinistra": {
+    "etichetta": "Oggi",
+    "valore": "6h22' · 7h15' · 11h15'",
+    "nota": "somma 24h 52'"
+   },
+   "destra": {
+    "etichetta": "Proposta",
+    "valore": "6h15' · 6h15' · 12h",
+    "nota": "somma 24h 30'"
+   }
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Il pomeriggio si accorcia di un'ora, la notte cresce di quarantacinque minuti. Ma sommando i tre turni, ogni ciclo perde ventidue minuti. Sembrano pochi. Non lo sono.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "A OGNI CICLO",
+   "numero": "−22'",
+   "etichetta": "di lavoro programmato",
+   "nota": "pomeriggio −1 ora, notte +45 minuti"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Nel duemilaventisette quei minuti diventano ore. Il debito orario di ognuno passa da circa quindici a circa quarantuno ore. E si chiude con i rientri: da due a circa sette mattine l'anno.",
+  "scena": {
+   "tipo": "barre",
+   "kicker": "SIMULAZIONE 2027 · PER OGNI OPERATORE",
+   "titolo": "I 22 minuti diventano rientri",
+   "barre": [
+    {
+     "etichetta": "Debito oggi",
+     "valore": 15,
+     "testo": "≈ 15 h · 2 rientri"
+    },
+    {
+     "etichetta": "Debito con la notte di 12 h",
+     "valore": 41,
+     "testo": "≈ 41 h · 7 rientri"
+    }
+   ]
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "E c'è un rischio nascosto. Con i turni di giorno più corti, mattina più pomeriggio fa dodici ore e venti, e si può chiedere. Il doppio turno rischia di diventare la toppa per ogni assenza improvvisa.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "ASSENZE IMPROVVISE",
+   "titolo": "Mattina + pomeriggio",
+   "sinistra": {
+    "etichetta": "Domani",
+    "valore": "12h 20'",
+    "nota": "si può chiedere"
+   },
+   "destra": {
+    "etichetta": "Oggi",
+    "valore": "13h 15'",
+    "nota": "vietato: 11 ore di riposo ogni 24"
+   }
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Cosa dicono gli studi? Con onestà: confrontano dodici ore con otto. Qui la notte cresce di quarantacinque minuti. Non è una catastrofe, ma va fatto con contrappesi seri.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Gli studi confrontano 12 ore con 8. Qui la notte cresce di 45 minuti: servono contrappesi seri.",
+   "fonte": "Dossier CISL FP «La notte di 12 ore», ottobre 2026"
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Poi vestizione e consegne. Il nuovo contratto nazionale riconosce fino a quindici minuti. Il tre novembre si è parlato di venti, ventidue. Si può alzare, ma solo al tavolo di contrattazione.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "VESTIZIONE E CONSEGNE",
+   "titolo": "Da 15 a 20-22 minuti? Solo al tavolo",
+   "immagine": "schermate/ccnl-vestizione.png",
+   "didascalia": "Ipotesi CCNL Sanità 2025-2027 · art. 24: fino a 15 minuti, innalzabili con la contrattazione integrativa"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "E un punto fermo. Se si sperimenta la notte di dodici ore, l'accordo deve dire per iscritto che non è un passo verso le dodici ore di giorno. Nessuna estensione automatica.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Nessuna estensione automatica alle 12 ore di giorno.",
+   "fonte": "Piattaforma CISL FP"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "Le nostre condizioni. Accordo scritto, non ordine di servizio. Prova di sei mesi, con la possibilità di tornare indietro. Pausa notturna vera, con chi copre. Doppi turni solo volontari.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "LE CONDIZIONI CISL FP",
+   "titolo": "Per sperimentare",
+   "voci": [
+    "Accordo scritto, non ordine di servizio",
+    "Prova di 6 mesi, si può tornare indietro",
+    "Pausa notturna vera: 30 minuti con chi copre",
+    "Doppi turni solo volontari"
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Il modello si adotta se lo chiede il reparto, non per decisione dall'alto. Nessun cambiamento al buio: prima i numeri, poi le garanzie, poi la scelta. Insieme.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Nessun cambiamento al buio.",
+   "azione": "Prima i numeri, poi le garanzie, poi la scelta"
+  }
+ }
+]

@@ -1,0 +1,122 @@
+[
+ {
+  "id": "s01",
+  "testo": "Le ferie che non fai, adesso, le puoi perdere. Non è una minaccia: è una legge nuova, che vale per tutto il pubblico impiego. Quindi anche per chi lavora qui, in Azienda.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "PUNTO 8 · FERIE",
+   "titolo": "Le ferie non fatte ora si possono perdere",
+   "sotto": "Cosa dice la nuova legge e cosa chiediamo"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "È l'articolo uno del decreto legge centoquarantaquattro del duemilaventisei, convertito dalla legge centosettantaquattro. Cambia le regole sulle ferie del personale pubblico.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "LA NORMA",
+   "numero": "D.L. 144/2026",
+   "etichetta": "art. 1, convertito dalla Legge 174/2026",
+   "nota": "Nuove regole sulle ferie del personale pubblico"
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Cosa cambia? Le ferie non godute possono andare perse alla fine del periodo di riferimento, o del riporto autorizzato. Con effetti anche sull'indennità, quando si lascia il lavoro.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "COSA CAMBIA",
+   "titolo": "Il rischio di perderle",
+   "voci": [
+    "Perse a fine periodo di riferimento",
+    "…o a fine del riporto autorizzato",
+    "Effetti sull'indennità alla cessazione"
+   ]
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Ma la stessa legge dice un'altra cosa, importante. La responsabilità è del datore di lavoro: deve garantire, con i suoi poteri organizzativi, che le ferie si possano fare davvero.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Il datore di lavoro deve garantire che le ferie si possano fare davvero.",
+   "fonte": "Art. 1 D.L. 144/2026"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Tradotto: non basta richiamare per iscritto direttori e coordinatori al rispetto delle scadenze. Servono iniziative organizzative concrete, che permettano a ciascuno di andare in ferie sul serio.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "LA POSIZIONE CISL FP",
+   "titolo": "Non basta una circolare",
+   "sinistra": {
+    "etichetta": "Non basta",
+    "valore": "Richiami formali",
+    "nota": "a direttori e coordinatori"
+   },
+   "destra": {
+    "etichetta": "Servono",
+    "valore": "Scelte organizzative",
+    "nota": "concrete e coerenti"
+   }
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "E poi due punti fermi. Primo: distinguere le ferie arretrate da quelle maturate dopo la nuova norma. Secondo: nessun diritto perso per problemi organizzativi che non dipendono da chi lavora.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "LA POSIZIONE CISL FP",
+   "titolo": "Due punti fermi",
+   "voci": [
+    "Ferie pregresse distinte da quelle nuove",
+    "Nessun diritto perso per colpe organizzative"
+   ]
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Qui in Azienda una base c'è già. L'accordo del quindici aprile duemilaventisei garantisce tre settimane di ferie estive, di cui almeno due consecutive, anche a chi lavora su sei giorni.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "IN AOUP · ACCORDO DEL 15/04/2026",
+   "titolo": "Tre settimane d'estate, nero su bianco",
+   "immagine": "schermate/ferie-3settimane.png",
+   "didascalia": "Accordo progettualità 2026 · pag. 7"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Ma la verità è una sola. Senza personale, le ferie non si fanno. Le assunzioni sono la condizione per non perderle. Non un favore da chiedere: una condizione.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Senza personale le ferie non si fanno: le assunzioni sono la condizione per non perderle.",
+   "fonte": "CISL FP"
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "All'Ulss sei Euganea, dove vale la stessa legge, abbiamo già chiesto un incontro urgente. Qui chiediamo un piano ferie che le renda davvero fruibili, con regole chiare e uguali per tutti.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "COSA CHIEDIAMO",
+   "titolo": "Un piano ferie vero",
+   "voci": [
+    "Regole applicative chiare",
+    "Soluzioni organizzative uniformi",
+    "Ferie fatte nei tempi previsti",
+    "Assunzioni di personale"
+   ]
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "Intanto, controlla quante ferie hai da parte, e chiedile per tempo, per iscritto. Le ferie sono un diritto fondamentale. E un diritto non si perde per colpa di altri.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Le ferie sono un diritto. Non si perdono per colpa di altri.",
+   "azione": "Controlla le tue ferie e chiedile per tempo"
+  }
+ }
+]

@@ -1,0 +1,112 @@
+[
+ {
+  "id": "s01",
+  "testo": "Tre vertenze. Una l'abbiamo già vinta. Il quattordici maggio duemilaventisei il Tribunale di Padova ha dato ragione a un collega contro l'Azienda, sul festivo infrasettimanale.",
+  "scena": {
+   "tipo": "titolo",
+   "kicker": "PUNTO 5 · VERTENZE LEGALI",
+   "titolo": "Tre vertenze. Una l'abbiamo già vinta.",
+   "sotto": "Festivo infrasettimanale · indennità in ferie · buoni pasto"
+  }
+ },
+ {
+  "id": "s02",
+  "testo": "Il problema: nella nostra Azienda le ore lavorate in un festivo infrasettimanale vengono contate nel monte orario come ore normali. Ma il contratto dice che vanno pagate a parte, oltre all'indennità di turno.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "VERTENZA 1 · FESTIVO INFRASETTIMANALE",
+   "titolo": "Il festivo va pagato a parte",
+   "sinistra": {
+    "etichetta": "Oggi in AOUP",
+    "valore": "Ore normali",
+    "nota": "contate nel monte orario"
+   },
+   "destra": {
+    "etichetta": "Il contratto",
+    "valore": "Pagate a parte",
+    "nota": "straordinario festivo, riposo o banca ore"
+   }
+  }
+ },
+ {
+  "id": "s03",
+  "testo": "Straordinario festivo, riposo compensativo entro trenta giorni o banca delle ore: la scelta è tua. Il giudice ha condannato l'Azienda a pagare trentaquattro giornate, più gli interessi.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "TRIBUNALE DI PADOVA · 14 MAGGIO 2026",
+   "numero": "34",
+   "etichetta": "giornate di festivo da pagare, più interessi",
+   "nota": "VINTA"
+  }
+ },
+ {
+  "id": "s04",
+  "testo": "Attenzione però: la sentenza vale per chi ha fatto ricorso. Gli altri non ricevono niente in automatico. Chi ha lavorato nei festivi infrasettimanali deve attivarsi.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "«Se avete vinto, l'Azienda paga tutti?» No: la sentenza vale per chi ha fatto ricorso.",
+   "fonte": "Gli altri devono attivarsi"
+  }
+ },
+ {
+  "id": "s05",
+  "testo": "Seconda vertenza: l'indennità durante le ferie. Siamo già in causa con l'Azienda, e dalla nostra c'è la Cassazione, ordinanza venticinquemilacinquecentoventotto del duemilaventicinque.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "«Rientra nella retribuzione feriale qualsiasi importo collegato all'esecuzione delle mansioni.»",
+   "fonte": "Cassazione, ordinanza n. 25528/2025"
+  }
+ },
+ {
+  "id": "s06",
+  "testo": "Il principio è semplice: l'indennità di turno paga la fatica dei turni, e spetta anche in ferie. Il nuovo contratto la prevede dal duemilaventisette, ma gli arretrati vanno recuperati.",
+  "scena": {
+   "tipo": "documento",
+   "kicker": "VERTENZA 2 · IN CAUSA",
+   "titolo": "Dal 2027 nel contratto. E prima?",
+   "immagine": "schermate/ccnl-indennita-ferie.png",
+   "didascalia": "Ipotesi CCNL 2025-2027 · art. 28 · dal 1/1/2027"
+  }
+ },
+ {
+  "id": "s07",
+  "testo": "Terza vertenza: i buoni pasto. Dopo sei ore di lavoro, se la mensa non c'è, il buono spetta. A Roma, in una nostra causa, il giudice lo ha già riconosciuto. Per la nostra Azienda aspettiamo la sentenza.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "«Dopo sei ore di lavoro, in assenza di servizio mensa, il diritto al buono pasto è automatico.»",
+   "fonte": "Sentenza n. 3448/2025 · causa CISL FP, Roma"
+  }
+ },
+ {
+  "id": "s08",
+  "testo": "Controlla il cedolino. Nei mesi di ferie l'indennità di turno manca o è ridotta? Hai fatto turni di almeno sei ore senza mensa e senza buono? Allora queste vertenze ti riguardano.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "TI RIGUARDA?",
+   "titolo": "Controlla il cedolino",
+   "voci": [
+    "Festivi infrasettimanali contati come ore normali",
+    "Indennità di turno ridotta nei mesi di ferie",
+    "Turni da 6 ore senza mensa e senza buono"
+   ]
+  }
+ },
+ {
+  "id": "s09",
+  "testo": "E non aspettare. I crediti di lavoro si prescrivono in cinque anni: ogni mese che passa, il credito più vecchio esce dal conto. La diffida firmata ferma l'orologio.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Ogni mese che aspetti, il credito più vecchio esce dal conto.",
+   "fonte": "La diffida firmata ferma l'orologio"
+  }
+ },
+ {
+  "id": "s10",
+  "testo": "In sala trovi tre codici qu erre, uno per vertenza. Inquadrali adesso: due minuti per compilare, poi ti richiamiamo noi. Ti riguardano tutte? Compilali tutti e tre. Più siamo, più contiamo.",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Tre moduli, uno per vertenza. Più siamo, più contiamo.",
+   "azione": "Inquadra i QR in sala: due minuti, poi ti chiamiamo noi"
+  }
+ }
+]
