@@ -1,0 +1,48 @@
+<title>01 Retribuita</title>
+<style>
+.big{font-weight:700;letter-spacing:-.03em;white-space:nowrap}
+.chk{position:absolute;left:-300px;display:flex;align-items:center;gap:24px;font-size:46px;font-weight:600;color:var(--ink);white-space:nowrap}
+.bx{width:60px;height:60px;border-radius:18px;display:grid;place-items:center;background:var(--accent)}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lpill"><div class="row big" style="transform:translate(-50%,-50%);color:var(--on-strong);font-size:44px;font-weight:600">Assemblea · 7 dicembre</div></div>
+  <div class="L" id="Ltog">
+    <div class="a big" style="left:-300px;top:-34px;font-size:60px;color:var(--ink)">Retribuita</div>
+    <div class="a" id="trk" style="left:130px;top:-46px;width:170px;height:92px;border-radius:46px">
+      <div id="knob" style="position:absolute;top:8px;width:76px;height:76px;border-radius:38px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.25)"></div>
+    </div>
+  </div>
+  <div class="L" id="Lchi">
+    <div class="a" style="left:-300px;top:-210px;font-size:34px;font-weight:500;color:var(--muted);white-space:nowrap">Vale per</div>
+    <div class="chk" id="c0" style="top:-130px"><span class="bx" id="b0"></span>Tutto il comparto</div>
+    <div class="chk" id="c1" style="top:-10px"><span class="bx" id="b1"></span>Ogni reparto</div>
+    <div class="chk" id="c2" style="top:110px"><span class="bx" id="b2"></span>Ogni servizio</div>
+  </div>
+  <div class="L" id="Lzero">
+    <div class="row" id="z0" style="left:-310px;top:-200px;gap:28px"><span class="big" style="font-size:150px;color:var(--accent)">0</span><span style="font-size:48px;font-weight:600;color:var(--on-strong);white-space:nowrap">giorni di ferie</span></div>
+    <div class="row" id="z1" style="left:-310px;top:10px;gap:28px"><span class="big" style="font-size:150px;color:var(--accent)">0 €</span><span style="font-size:48px;font-weight:600;color:var(--on-strong);white-space:nowrap">di tasca tua</span></div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.0;
+const CK=[3.5,5.2,6.4], ON=1.2;
+const knob=M.track(8,[[ON,86,M.FAST]]), trk=M.ctrack(BRAND.muted,[[ON,BRAND.strong]]);
+M.scene({
+  W:1080,H:1920,T:11.3,bg:BRAND.canvas,center:[540,800],intro:0.05,
+  SH:{pill:{w:600,h:112,r:56,bg:BRAND.strong,cam:1.5*K},
+      tog:{w:720,h:200,r:48,bg:BRAND.surface,cam:1.3*K},
+      chi:{w:720,h:520,r:44,bg:BRAND.surface,cam:1.2*K},
+      zero:{w:780,h:480,r:48,bg:BRAND.strong,cam:1.18*K}},
+  start:'pill',SEQ:[[0.85,'tog'],[2.4,'chi'],[7.45,'zero']],
+  layers:[
+    {el:'Lpill',tin:0.05,tout:0.85},
+    {el:'Ltog',tin:0.85,tout:2.4,update:t=>{$('knob').style.left=knob(t).toFixed(1)+'px';$('trk').style.background=trk(t);}},
+    {el:'Lchi',tin:2.4,tout:7.45,update:t=>{CK.forEach((c,i)=>{M.apply($('c'+i),M.vis(t,c-0.45,null,{din:0,lin:0.3}));
+       const on=M.S(t-c,22,0.8),b=$('b'+i);b.innerHTML=on>0.02?M.icon('check',36,BRAND.on_accent,3):'';
+       b.style.background=on>0.5?BRAND.accent:BRAND.panel;b.firstChild&&(b.firstChild.style.transform=`scale(${Math.max(0,on).toFixed(3)})`);});}},
+    {el:'Lzero',tin:7.45,tout:null,update:t=>{M.apply($('z0'),M.vis(t,8.2,null,{din:0,lin:0.3}));M.apply($('z1'),M.vis(t,10.05,null,{din:0,lin:0.3}));}},
+  ],
+  cursor:{size:48,clicks:[ON,CK[0],CK[1],CK[2]],keys:[[0,520,300],[0.8,520,260],[1.05,175,0],[1.25,175,0],[2.6,420,260],[3.15,-270,-100],[3.55,-270,-100],[4.9,-270,20],[5.25,-270,20],[6.1,-270,140],[6.45,-270,140],[7.3,500,330],[11.3,520,340]]},
+});
+</script>

@@ -1,0 +1,135 @@
+[
+ {
+  "id": "b01",
+  "tipo": "avatar",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Lunedì sette dicembre ti pagano per sapere quanto ti spetta davvero. [pause] Sì, hai capito bene.",
+  "testo": "Lunedì sette dicembre ti pagano per sapere quanto ti spetta davvero. Sì, hai capito bene.",
+  "scena": {}
+ },
+ {
+  "id": "b02",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "L'assemblea è retribuita. Vale per tutto il personale del comparto, di ogni reparto e di ogni servizio. Non ti costa un giorno di ferie. Non ti costa un euro.",
+  "testo": "L'assemblea è retribuita. Vale per tutto il personale del comparto, di ogni reparto e di ogni servizio. Non ti costa un giorno di ferie. Non ti costa un euro.",
+  "scena": {}
+ },
+ {
+  "id": "b03",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Infermieri, o esse esse, tecnici, ostetriche, amministrativi. Vieni, e non perdi un minuto.",
+  "testo": "Infermieri, o esse esse, tecnici, ostetriche, amministrativi. Vieni, e non perdi un minuto.",
+  "scena": {}
+ },
+ {
+  "id": "b04",
+  "tipo": "avatar",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "[whispering] E lì ti dico quello che in reparto non ti dice nessuno: quanti soldi ti spettano.",
+  "testo": "E lì ti dico quello che in reparto non ti dice nessuno: quanti soldi ti spettano.",
+  "scena": {}
+ },
+ {
+  "id": "b05",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Gli arretrati del nuovo contratto. I trecentocinquanta euro di welfare. E il festivo infrasettimanale, che il giudice ha stabilito va pagato a parte.",
+  "testo": "Gli arretrati del nuovo contratto. I trecentocinquanta euro di welfare. E il festivo infrasettimanale, che il giudice ha stabilito va pagato a parte.",
+  "scena": {}
+ },
+ {
+  "id": "b05b",
+  "tipo": "clip",
+  "versioni": [
+   90
+  ],
+  "voce": "E poi le notti da dodici ore, gli o esse esse di notte, la pensione integrativa. [pause] Cosa cambia davvero, e cosa puoi pretendere.",
+  "scena": {
+   "clip": "corridoio-alba"
+  },
+  "testo": "E poi le notti da dodici ore, gli o esse esse di notte, la pensione integrativa. Cosa cambia davvero, e cosa puoi pretendere."
+ },
+ {
+  "id": "b06",
+  "tipo": "motion",
+  "versioni": [
+   90
+  ],
+  "voce": "Non sono chiacchiere: porto gli accordi originali, con le firme sopra. Dodici, tutti verificabili. Sono pubblicati sul sito dell'Azienda: chiunque può controllarli.",
+  "testo": "Non sono chiacchiere: porto gli accordi originali, con le firme sopra. Dodici, tutti verificabili. Sono pubblicati sul sito dell'Azienda: chiunque può controllarli.",
+  "scena": {}
+ },
+ {
+  "id": "b07",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "E se non vieni? Con la nuova legge, le ferie non fatte possono andare perse. I crediti scadono. [pause] Chi non sa, perde.",
+  "testo": "E se non vieni? Con la nuova legge, le ferie non fatte possono andare perse. I crediti scadono. Chi non sa, perde.",
+  "scena": {}
+ },
+ {
+  "id": "b08",
+  "tipo": "clip",
+  "versioni": [
+   90
+  ],
+  "voce": "Saremo in tanti. E più siamo, più pesa la nostra voce al prossimo tavolo con l'Azienda. Ogni domanda che farai diventa una nostra richiesta.",
+  "testo": "Saremo in tanti. E più siamo, più pesa la nostra voce al prossimo tavolo con l'Azienda. Ogni domanda che farai diventa una nostra richiesta.",
+  "scena": {
+   "clip": "sala-piena"
+  }
+ },
+ {
+  "id": "b09",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Dalle sette e mezza all'una, in Aula Magna. Vieni quando il turno te lo permette: ogni punto si regge da solo.",
+  "testo": "Dalle sette e mezza all'una, in Aula Magna. Vieni quando il turno te lo permette: ogni punto si regge da solo.",
+  "scena": {}
+ },
+ {
+  "id": "b10",
+  "tipo": "avatar",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "[laughs softly] E porta il collega che si lamenta sempre in pausa caffè. Lunedì è il suo giorno.",
+  "testo": "E porta il collega che si lamenta sempre in pausa caffè. Lunedì è il suo giorno.",
+  "scena": {}
+ },
+ {
+  "id": "b11",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Scrivimi: ci sono. Io ci sarò. Ci vediamo lunedì.",
+  "testo": "Scrivimi: ci sono. Io ci sarò. Ci vediamo lunedì.",
+  "scena": {}
+ }
+]

@@ -1,0 +1,31 @@
+<title>03 Quanto ti spetta</title>
+<style>
+.rw{position:absolute;left:-340px;width:680px;height:110px;display:flex;align-items:center;gap:24px;white-space:nowrap}
+.ic{width:76px;height:76px;border-radius:22px;background:var(--strong);display:grid;place-items:center;flex:none}
+.lb{font-size:42px;font-weight:600;color:var(--ink);letter-spacing:-.01em}
+.tag{margin-left:auto;padding:12px 24px;border-radius:40px;font-size:36px;font-weight:700}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lr">
+    <div class="a" style="left:-340px;top:34px;font-size:32px;font-weight:500;color:var(--muted);white-space:nowrap">Quanto ti spetta</div>
+    <div class="rw" id="r0" style="top:84px"><span class="ic" id="ic0"></span><span class="lb">Arretrati</span><span class="tag" style="background:var(--panel);color:var(--strong)">nuovo CCNL</span></div>
+    <div class="rw" id="r1" style="top:214px"><span class="ic" id="ic1"></span><span class="lb">Welfare</span><span class="tag" style="background:var(--strong);color:var(--on-strong)">350 €</span></div>
+    <div class="rw" id="r2" style="top:344px"><span class="ic" id="ic2"></span><span class="lb">Festivo infrasettimanale</span></div>
+    <div class="a" id="bd" style="left:-240px;top:470px;padding:14px 28px;border-radius:40px;background:var(--accent);color:var(--on-accent);font-size:36px;font-weight:700;white-space:nowrap"><span id="bdt"></span></div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.0;
+$('ic0').innerHTML=M.icon('file',40,BRAND.on_strong);$('ic1').innerHTML=M.icon('coin',40,BRAND.on_strong);$('ic2').innerHTML=M.icon('clock',40,BRAND.on_strong);
+const R=[0.3,2.35,4.75];
+M.scene({
+  W:1920,H:1080,T:9.1,bg:BRAND.canvas,center:[960,470],intro:0.02,
+  SH:{a:{w:780,h:224,r:44,bg:BRAND.surface,cam:1.25*K},b:{w:780,h:354,r:44,bg:BRAND.surface,cam:1.2*K},c:{w:780,h:484,r:44,bg:BRAND.surface,cam:1.15*K},d:{w:780,h:590,r:44,bg:BRAND.surface,cam:1.1*K}},
+  start:'a',SEQ:[[R[1],'b'],[R[2],'c'],[6.4,'d']],
+  layers:[
+    {el:'Lr',tin:0.02,tout:null,anchor:'t',update:t=>{R.forEach((c,i)=>M.apply($('r'+i),M.vis(t,c,null,{din:0,lin:0.3})));
+      M.apply($('bd'),M.vis(t,6.45,null,{din:0,lin:0.3}));M.setText($('bdt'),t<7.55?'Vinta in tribunale':'Vinta · pagato a parte');}},
+  ],
+});
+</script>

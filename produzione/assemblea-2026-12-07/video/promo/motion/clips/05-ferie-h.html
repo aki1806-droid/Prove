@@ -1,0 +1,36 @@
+<title>05 Ferie perse</title>
+<style>
+.d{position:absolute;width:70px;height:70px;border-radius:18px;display:grid;place-items:center}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lq"><div class="row" style="transform:translate(-50%,-50%);font-size:52px;font-weight:700;color:var(--on-strong)">E se non vieni?</div></div>
+  <div class="L" id="Lcal">
+    <div class="a" style="left:-300px;top:34px;font-size:46px;font-weight:700;color:var(--ink);white-space:nowrap">Le tue ferie</div>
+    <div class="a" id="lg" style="left:-300px;top:96px;font-size:30px;color:var(--muted);white-space:nowrap">con la nuova legge</div>
+    <div id="cal"></div>
+    <div class="row" id="cr" style="left:-300px;top:520px;gap:20px;font-size:38px;font-weight:600;color:var(--ink)"><span id="clk"></span>Crediti<span style="position:relative;width:300px;height:22px;border-radius:11px;background:var(--panel);margin-left:16px"><span id="cb" style="position:absolute;left:0;top:0;height:22px;border-radius:11px;background:var(--strong)"></span></span></div>
+  </div>
+  <div class="L" id="Lend"><div class="row" style="transform:translate(-50%,-50%);font-size:76px;font-weight:800;letter-spacing:-.03em;color:var(--on-accent)">Chi non sa, perde.</div></div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.0;
+$('clk').innerHTML=M.icon('clock',44,BRAND.strong);
+const C=$('cal'), HI=[3,4,10,11,12,17,18,24,25];
+for(let i=0;i<28;i++){const x=(i%7)*86-300,y=Math.floor(i/7)*86+160;C.insertAdjacentHTML('beforeend',`<div class="d" id="d${i}" style="left:${x}px;top:${y}px"></div>`);}
+const bar=M.track(300,[[5.4,40,M.SLOW]]);
+M.scene({
+  W:1920,H:1080,T:8.8,bg:BRAND.canvas,center:[960,470],intro:0.1,
+  SH:{q:{w:520,h:120,r:60,bg:BRAND.strong,cam:1.55*K},cal:{w:680,h:610,r:44,bg:BRAND.surface,cam:1.1*K},end:{w:780,h:180,r:90,bg:BRAND.accent,cam:1.15*K}},
+  start:'q',SEQ:[[1.5,'cal'],[6.75,'end']],
+  layers:[
+    {el:'Lq',tin:0.1,tout:1.5},
+    {el:'Lcal',tin:1.5,tout:6.75,anchor:'t',update:t=>{for(let i=0;i<28;i++){const e=$('d'+i),h=HI.includes(i);
+        const lit=h&&t>2.75+HI.indexOf(i)*0.05, lost=h&&t>4.2+HI.indexOf(i)*0.06;
+        e.style.background=lost?BRAND.muted:(lit?BRAND.strong:BRAND.panel);e.style.opacity=lost?0.45:1;
+        e.innerHTML=lost?M.icon('x',34,BRAND.surface,3):'';}
+      M.apply($('cr'),M.vis(t,4.95,null,{din:0,lin:0.3}));$('cb').style.width=Math.max(0,bar(t)).toFixed(1)+'px';}},
+    {el:'Lend',tin:6.75,tout:null},
+  ],
+});
+</script>

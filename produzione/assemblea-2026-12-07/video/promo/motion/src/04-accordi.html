@@ -1,0 +1,43 @@
+<title>04 Accordi firmati</title>
+<style>
+.tile{position:absolute;width:150px;height:130px;border-radius:22px;background:var(--panel);display:grid;place-items:center}
+.ck{position:absolute;right:-10px;top:-10px;width:48px;height:48px;border-radius:24px;background:var(--accent);display:grid;place-items:center}
+.bar{position:absolute;left:-330px;top:-54px;width:660px;height:108px;border-radius:54px;background:var(--panel);display:flex;align-items:center;gap:22px;padding-left:34px;box-sizing:border-box;font-size:44px;font-weight:600;color:var(--ink);white-space:nowrap}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lfold">
+    <div class="a" id="fic" style="left:-290px;top:-150px"></div>
+    <div class="a" style="left:-120px;top:-140px;font-size:54px;font-weight:700;letter-spacing:-.02em;color:var(--ink);white-space:nowrap">Accordi AOUP</div>
+    <div class="a" style="left:-120px;top:-66px;font-size:34px;color:var(--muted);white-space:nowrap">originali</div>
+    <svg class="a" style="left:-250px;top:20px" width="500" height="120" viewBox="0 0 500 120"><path id="firma" d="M10 80 C 60 10, 90 110, 130 60 S 190 20, 210 70 S 260 100, 290 50 S 350 30, 370 75 C 390 100, 430 40, 490 55" fill="none" stroke="var(--strong)" stroke-width="7" stroke-linecap="round"/></svg>
+    <div class="a" style="left:-250px;top:150px;width:500px;height:3px;background:var(--muted);opacity:.4"></div>
+    <div class="a" id="fl" style="left:-250px;top:162px;font-size:30px;color:var(--muted);white-space:nowrap">con le firme sopra</div>
+  </div>
+  <div class="L" id="Lgrid"><div id="g"></div></div>
+  <div class="L" id="Lsito">
+    <div class="bar" style="top:-140px"><span id="sic"></span><span class="mono" id="url"></span><span id="car" style="width:3px;height:48px;background:var(--ink)"></span></div>
+    <div class="row" id="res" style="left:-330px;top:60px;gap:22px;font-size:46px;font-weight:700;color:var(--ink)"><span id="rck" style="width:64px;height:64px;border-radius:32px;background:var(--accent);display:grid;place-items:center"></span>Chiunque può controllarli</div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=__K__;
+$('fic').innerHTML=M.icon('folder',140,BRAND.strong,1.6);$('sic').innerHTML=M.icon('search',40,BRAND.muted);
+const G=$('g');
+for(let i=0;i<12;i++){const x=(i%4)*180-345,y=Math.floor(i/4)*160-225;
+  G.insertAdjacentHTML('beforeend',`<div class="tile" id="t${i}" style="left:${x}px;top:${y}px">${M.icon('file',58,BRAND.strong,1.8)}<div class="ck" id="k${i}">${M.icon('check',28,BRAND.on_accent,3.2)}</div></div>`);}
+const URL='aopd.veneto.it';
+const firma=$('firma');const FL=firma.getTotalLength();firma.style.strokeDasharray=FL;
+M.scene({
+  W:__W__,H:__H__,T:10.8,bg:BRAND.canvas,center:[__CX__,__CY__],intro:0.05,
+  SH:{fold:{w:680,h:420,r:44,bg:BRAND.surface,cam:1.3*K},grid:{w:800,h:560,r:44,bg:BRAND.surface,cam:1.12*K},sito:{w:820,h:420,r:44,bg:BRAND.surface,cam:1.2*K}},
+  start:'fold',SEQ:[[4.3,'grid'],[6.55,'sito']],
+  layers:[
+    {el:'Lfold',tin:0.05,tout:4.3,update:t=>{firma.style.strokeDashoffset=(FL*(1-M.clamp((t-2.9)/0.9,0,1))).toFixed(1);M.apply($('fl'),M.vis(t,3.2,null,{din:0,lin:0.3}));}},
+    {el:'Lgrid',tin:4.3,tout:6.55,update:t=>{for(let i=0;i<12;i++){const v=M.vis(t,4.35+i*0.05,null,{din:0,lin:0.22});M.apply($('t'+i),v);
+       const on=M.S(t-(5.5+i*0.04),24,0.75);$('k'+i).style.transform=`scale(${Math.max(0,on).toFixed(3)})`;}}},
+    {el:'Lsito',tin:6.55,tout:null,update:t=>{const n=Math.round(M.clamp((t-7.0)/1.0,0,1)*URL.length);M.setText($('url'),URL.slice(0,n));
+       $('car').style.opacity=(t>8.3||Math.floor(t*2.5)%2)?0:1;M.apply($('res'),M.vis(t,8.85,null,{din:0,lin:0.3}));$('rck').innerHTML=M.icon('check',34,BRAND.on_accent,3.2);}},
+  ],
+});
+</script>

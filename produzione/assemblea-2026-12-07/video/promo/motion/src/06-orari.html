@@ -1,0 +1,36 @@
+<title>06 Quando e dove</title>
+<style>
+.sg{position:absolute;top:0;height:40px;border-radius:12px}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lt">
+    <div class="a" style="left:-320px;top:40px;font-size:34px;font-weight:600;color:var(--muted);white-space:nowrap">Lunedì 7 dicembre</div>
+    <div class="row" id="o" style="left:-320px;top:90px;gap:24px;font-size:96px;font-weight:800;letter-spacing:-.04em;color:var(--strong)"><span>7:30</span><span id="ar"></span><span id="o2">13:00</span></div>
+    <div class="row" id="lu" style="left:-320px;top:232px;gap:16px;font-size:40px;font-weight:600;color:var(--ink)"><span style="width:22px;height:22px;border-radius:11px;background:var(--accent);border:5px solid var(--strong)"></span>Aula Magna · 2° piano</div>
+    <div class="a" id="tl" style="left:-320px;top:340px;width:640px;height:40px">
+      <div id="segs"></div>
+      <div id="win" style="position:absolute;top:-10px;height:60px;border-radius:16px;border:5px solid var(--accent);box-sizing:border-box"></div>
+    </div>
+    <div class="a" id="pl" style="left:-320px;top:404px;font-size:32px;color:var(--muted);white-space:nowrap"><span id="plt">Vieni quando il turno te lo permette</span></div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=__K__;
+$('ar').innerHTML=M.icon('arrow',64,BRAND.strong,1.6);
+const S=$('segs');for(let i=0;i<10;i++)S.insertAdjacentHTML('beforeend',`<div class="sg" id="s${i}" style="left:${i*64+3}px;width:58px"></div>`);
+const wx=M.track(0,[[3.3,256,M.SOFT],[4.1,384,M.SOFT]]);
+M.scene({
+  W:__W__,H:__H__,T:7.0,bg:BRAND.canvas,center:[__CX__,__CY__],intro:0.02,
+  SH:{a:{w:740,h:210,r:44,bg:BRAND.surface,cam:1.3*K},b:{w:740,h:310,r:44,bg:BRAND.surface,cam:1.25*K},c:{w:740,h:470,r:44,bg:BRAND.surface,cam:1.15*K}},
+  start:'a',SEQ:[[1.85,'b'],[2.85,'c']],
+  layers:[
+    {el:'Lt',tin:0.02,tout:null,anchor:'t',update:t=>{M.apply($('o2'),M.vis(t,1.1,null,{din:0,lin:0.25}));M.apply($('ar'),M.vis(t,0.9,null,{din:0,lin:0.25}));
+      M.apply($('lu'),M.vis(t,1.85,null,{din:0,lin:0.3}));M.apply($('tl'),M.vis(t,2.9,null,{din:0,lin:0.3}));M.apply($('pl'),M.vis(t,3.0,null,{din:0,lin:0.3}));
+      M.setText($('plt'),t<4.85?'Vieni quando il turno te lo permette':'Ogni punto si regge da solo');
+      for(let i=0;i<10;i++){const on=t>4.9+i*0.12;$('s'+i).style.background=on?BRAND.strong:BRAND.panel;}
+      const w=$('win');w.style.left=(wx(t)-6).toFixed(1)+'px';w.style.width='204px';w.style.opacity=t<4.85?1:Math.max(0,1-(t-4.85)*4);}},
+  ],
+  cursor:{size:46,drags:[[3.2,4.2]],keys:[[0,520,420],[2.9,420,420],[3.15,-180,300],[3.3,-180,300],[3.8,80,300],[4.2,200,300],[5.0,480,520],[7.0,500,540]]},
+});
+</script>

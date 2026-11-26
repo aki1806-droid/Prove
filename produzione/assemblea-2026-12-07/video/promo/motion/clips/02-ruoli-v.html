@@ -1,0 +1,34 @@
+<title>02 Ruoli</title>
+<style>
+.it{position:absolute;left:-280px;display:flex;align-items:center;gap:26px;font-size:46px;font-weight:600;letter-spacing:-.01em;white-space:nowrap;color:var(--ink)}
+.bx{width:60px;height:60px;border-radius:18px;display:grid;place-items:center}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Llist">
+    <div class="it" id="i0" style="top:-290px"><span class="bx" id="b0"></span>Infermieri</div>
+    <div class="it" id="i1" style="top:-160px"><span class="bx" id="b1"></span>OSS</div>
+    <div class="it" id="i2" style="top:-30px"><span class="bx" id="b2"></span>Tecnici</div>
+    <div class="it" id="i3" style="top:100px"><span class="bx" id="b3"></span>Ostetriche</div>
+    <div class="it" id="i4" style="top:230px"><span class="bx" id="b4"></span>Amministrativi</div>
+  </div>
+  <div class="L" id="Lpill">
+    <div class="row" id="p0" style="transform:translate(-50%,-50%);font-size:58px;font-weight:700;letter-spacing:-.02em;color:var(--on-accent)">Vieni. Non perdi un minuto.</div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.0;
+const CK=[0.45,1.6,2.45,3.33,4.13];
+M.scene({
+  W:1080,H:1920,T:7.6,bg:BRAND.canvas,center:[540,800],intro:0.05,
+  SH:{list:{w:680,h:700,r:44,bg:BRAND.surface,cam:1.08*K},pill:{w:900,h:160,r:80,bg:BRAND.accent,cam:1.0*K}},
+  start:'list',SEQ:[[5.3,'pill']],
+  layers:[
+    {el:'Llist',tin:0.05,tout:5.3,update:t=>{CK.forEach((c,i)=>{M.apply($('i'+i),M.vis(t,c-0.4,null,{din:0,lin:0.25}));
+      const on=M.S(t-c,22,0.8),b=$('b'+i);b.style.background=on>0.5?BRAND.accent:BRAND.panel;
+      b.innerHTML=on>0.02?M.icon('check',36,BRAND.on_accent,3):'';b.firstChild&&(b.firstChild.style.transform=`scale(${Math.max(0,on).toFixed(3)})`);});}},
+    {el:'Lpill',tin:5.3,tout:null},
+  ],
+  cursor:{size:48,clicks:CK,keys:[[0,420,-300],[0.3,-250,-260],[0.5,-250,-260],[1.45,-250,-130],[1.65,-250,-130],[2.3,-250,0],[2.5,-250,0],[3.2,-250,130],[3.4,-250,130],[4.0,-250,260],[4.2,-250,260],[5.2,480,330],[7.6,500,340]]},
+});
+</script>

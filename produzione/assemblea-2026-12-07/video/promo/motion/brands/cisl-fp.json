@@ -1,0 +1,15 @@
+{
+ "name": "CISL FP Padova Rovigo",
+ "canvas": "#06381F",
+ "surface": "#FFFFFF",
+ "ink": "#10261A",
+ "strong": "#0B6B3A",
+ "on_strong": "#FFFFFF",
+ "accent": "#FFD60A",
+ "on_accent": "#06381F",
+ "muted": "#5B6B62",
+ "panel": "#F4FAF5",
+ "font": null,
+ "font_mono": null,
+ "logo": "cisl-fp/logo-cisl-fp.png"
+}
