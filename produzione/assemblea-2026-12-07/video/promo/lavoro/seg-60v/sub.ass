@@ -1,0 +1,51 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Inter ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H00163806,&H96000000,1,0,0,0,100,100,0,0,3,10,0,2,70,70,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.88,S,,0,0,0,,Sono le sette.
+Dialogue: 0,0:00:00.88,0:00:02.58,S,,0,0,0,,Hai appena finito la notte.
+Dialogue: 0,0:00:02.58,0:00:03.27,S,,0,0,0,,Sei stanca.
+Dialogue: 0,0:00:03.27,0:00:05.72,S,,0,0,0,,E qualcuno ti chiede di fermarti ancora
+Dialogue: 0,0:00:05.72,0:00:06.15,S,,0,0,0,,un'ora.
+Dialogue: 0,0:00:06.45,0:00:06.85,S,,0,0,0,,Lo so.
+Dialogue: 0,0:00:06.85,0:00:08.37,S,,0,0,0,,Te lo chiedo lo stesso.
+Dialogue: 0,0:00:08.37,0:00:10.22,S,,0,0,0,,Sono Achille, della CISL FP.
+Dialogue: 0,0:00:10.22,0:00:12.85,S,,0,0,0,,Lunedì sette dicembre, in Aula Magna, ti
+Dialogue: 0,0:00:12.85,0:00:15.30,S,,0,0,0,,racconto come stanno davvero le cose.
+Dialogue: 0,0:00:15.60,0:00:17.87,S,,0,0,0,,Il nuovo contratto e gli arretrati.
+Dialogue: 0,0:00:17.87,0:00:20.21,S,,0,0,0,,I trecentocinquanta euro di welfare.
+Dialogue: 0,0:00:20.21,0:00:22.48,S,,0,0,0,,Le notti, i turni da dodici ore, la
+Dialogue: 0,0:00:22.48,0:00:23.07,S,,0,0,0,,pensione.
+Dialogue: 0,0:00:23.07,0:00:25.21,S,,0,0,0,,Cosa ti spetta, e come ottenerlo.
+Dialogue: 0,0:00:25.51,0:00:26.29,S,,0,0,0,,Ma attenzione:
+Dialogue: 0,0:00:26.29,0:00:28.19,S,,0,0,0,,ogni mese che passa un credito può
+Dialogue: 0,0:00:28.19,0:00:30.31,S,,0,0,0,,scadere, e con la nuova legge anche le
+Dialogue: 0,0:00:30.31,0:00:32.38,S,,0,0,0,,ferie non fatte possono andare perse.
+Dialogue: 0,0:00:32.38,0:00:33.38,S,,0,0,0,,Chi non sa, perde.
+Dialogue: 0,0:00:33.68,0:00:35.76,S,,0,0,0,,Non ti chiedo di credermi sulla parola.
+Dialogue: 0,0:00:35.76,0:00:37.74,S,,0,0,0,,Ti porto i documenti originali, sullo
+Dialogue: 0,0:00:37.74,0:00:38.85,S,,0,0,0,,schermo, uno per uno.
+Dialogue: 0,0:00:38.85,0:00:39.71,S,,0,0,0,,Una sola verità:
+Dialogue: 0,0:00:39.71,0:00:41.20,S,,0,0,0,,quella che puoi controllare.
+Dialogue: 0,0:00:41.50,0:00:42.98,S,,0,0,0,,Dalle sette e mezza all'una.
+Dialogue: 0,0:00:42.98,0:00:45.15,S,,0,0,0,,Puoi venire anche solo per un'ora, tra un
+Dialogue: 0,0:00:45.15,0:00:45.99,S,,0,0,0,,turno e l'altro:
+Dialogue: 0,0:00:45.99,0:00:47.47,S,,0,0,0,,ogni punto si regge da solo.
+Dialogue: 0,0:00:47.77,0:00:48.81,S,,0,0,0,,E porta un collega.
+Dialogue: 0,0:00:48.81,0:00:49.30,S,,0,0,0,,Uno solo.
+Dialogue: 0,0:00:49.30,0:00:51.25,S,,0,0,0,,Quello che in pausa caffè si lamenta
+Dialogue: 0,0:00:51.25,0:00:51.63,S,,0,0,0,,sempre:
+Dialogue: 0,0:00:51.63,0:00:53.32,S,,0,0,0,,è proprio lui che deve sentire.
+Dialogue: 0,0:00:53.62,0:00:56.22,S,,0,0,0,,Lunedì sette dicembre, Aula Magna, secondo
+Dialogue: 0,0:00:56.22,0:00:58.32,S,,0,0,0,,piano della palazzina dei servizi.
+Dialogue: 0,0:00:58.32,0:00:59.62,S,,0,0,0,,Scrivimi su WhatsApp:
+Dialogue: 0,0:00:59.62,0:01:00.12,S,,0,0,0,,ci sono.
+Dialogue: 0,0:01:00.12,0:01:00.80,S,,0,0,0,,Io ci sarò.
+Dialogue: 0,0:01:00.80,0:01:01.11,S,,0,0,0,,E tu?

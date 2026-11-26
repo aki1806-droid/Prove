@@ -1,0 +1,8 @@
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b01.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b02.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b04.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b06.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b07.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b09.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b11.mp4'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/seg-60h/b12.mp4'

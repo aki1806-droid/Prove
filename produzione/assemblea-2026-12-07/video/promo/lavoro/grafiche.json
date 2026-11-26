@@ -1,0 +1,76 @@
+[
+ {
+  "id": "b03",
+  "testo": "In un anno abbiamo firmato dodici accordi con l'Azienda. Tutti pubblicati, con le firme, sul sito aziendale. Verificabili da chiunque.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "Accordi decentrati AOUP",
+   "numero": "12",
+   "etichetta": "accordi firmati in un anno",
+   "nota": "tutti pubblicati sul sito dell'Azienda, con le firme"
+  }
+ },
+ {
+  "id": "b04",
+  "testo": "Il nuovo contratto e gli arretrati. I trecentocinquanta euro di welfare. Le notti, i turni da dodici ore, la pensione. Cosa ti spetta, e come ottenerlo.",
+  "scena": {
+   "tipo": "elenco",
+   "kicker": "7 dicembre · di cosa parliamo",
+   "titolo": "Cosa ti spetta",
+   "voci": [
+    "Contratto nuovo e arretrati",
+    "350 € di welfare",
+    "Notti, turni da 12 ore, ferie",
+    "Pensione e Perseo Sirio"
+   ]
+  }
+ },
+ {
+  "id": "b06",
+  "testo": "Ma attenzione: ogni mese che passa un credito può scadere, e con la nuova legge anche le ferie non fatte possono andare perse. Chi non sa, perde.",
+  "scena": {
+   "tipo": "frase",
+   "frase": "Chi non sa, perde.",
+   "fonte": "Crediti che scadono, ferie che si possono perdere"
+  }
+ },
+ {
+  "id": "b09",
+  "testo": "Dalle sette e mezza all'una. Puoi venire anche solo per un'ora, tra un turno e l'altro: ogni punto si regge da solo.",
+  "scena": {
+   "tipo": "confronto",
+   "kicker": "Lunedì 7 dicembre · Aula Magna",
+   "titolo": "Vieni quando puoi",
+   "sinistra": {
+    "etichetta": "Dalle",
+    "valore": "7:30",
+    "nota": "accoglienza e firme"
+   },
+   "destra": {
+    "etichetta": "Alle",
+    "valore": "13:00",
+    "nota": "anche solo per un'ora"
+   }
+  }
+ },
+ {
+  "id": "b10",
+  "testo": "Dieci punti, cinque ore e mezza, e alla fine la parola è vostra. Ogni domanda diventa una richiesta al prossimo tavolo con l'Azienda.",
+  "scena": {
+   "tipo": "numero",
+   "kicker": "Ordine del giorno",
+   "numero": "10",
+   "etichetta": "punti, e alla fine la parola a voi",
+   "nota": "ogni domanda diventa una richiesta al prossimo tavolo"
+  }
+ },
+ {
+  "id": "b12",
+  "testo": "Lunedì sette dicembre, Aula Magna, secondo piano della palazzina dei servizi. Scrivimi su WhatsApp: ci sono. Io ci sarò. E tu?",
+  "scena": {
+   "tipo": "chiusura",
+   "frase": "Lunedì 7 dicembre · Aula Magna · 7:30–13:00",
+   "azione": "Scrivi «ci sono» al 391 127 1018"
+  }
+ }
+]

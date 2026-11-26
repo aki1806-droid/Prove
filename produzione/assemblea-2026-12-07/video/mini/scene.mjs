@@ -12,11 +12,34 @@ const fps = +FPS, durata = +ENTRATA, N = Math.round(fps * durata);
 const QUI = path.dirname(new URL(import.meta.url).pathname);
 const SLIDE = path.resolve(QUI, "../../slide");
 const blocchi = JSON.parse(fs.readFileSync(FILE, "utf8"));
-const titoloVideo = (blocchi.find(b => b.scena.kicker)?.scena.kicker || blocchi[0].scena.titolo || "").replace(/\n/g, " ");
+const titoloVideo = process.env.TITOLO || (blocchi.find(b => b.scena.kicker)?.scena.kicker || blocchi[0].scena.titolo || "").replace(/\n/g, " ");
 
 const esc = s => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const img = rel => "file://" + path.resolve(SLIDE, rel);
 
+const V = process.env.ORIENT === "v";
+const VW = V ? 1080 : 1920, VH = V ? 1920 : 1080;
+const CSS_V = `
+body{width:1080px;height:1920px}
+.wrap{padding:230px 80px 380px 80px}
+.titolo{font-size:86px!important}
+.num{font-size:190px}
+.etichetta{font-size:50px}
+.frase{font-size:78px}
+.due{flex-direction:column;gap:36px}
+.lato{min-height:0;padding:38px 44px}
+.lato .val{font-size:104px}
+.testata{left:80px;right:80px;flex-direction:column;align-items:flex-start;gap:16px;font-size:20px}
+.sub{height:230px;padding:0 70px;font-size:44px}
+.prog{bottom:230px}
+.riga .et{flex:0 0 250px;font-size:32px}
+.doc{flex-direction:column;gap:40px}
+.doc .foglio{max-width:920px}
+.doc .foglio img{max-width:884px}
+.voce{font-size:40px;padding:26px 32px}
+.chiude .frase{font-size:82px}
+.azione{font-size:40px}
+`;
 const CSS = `
 *{box-sizing:border-box;margin:0;padding:0}
 body{width:1920px;height:1080px;overflow:hidden;font-family:Inter,sans-serif;color:#1B2A22;background:#F4FAF5}
@@ -97,7 +120,7 @@ function scenaHTML(b, i, tot) {
   else if (t === "documento") h = `<div class="doc"><div class="foglio an" data-a="zoom" data-d=".05"><img src="${img(sc.immagine)}"></div><div class="lt">${k}<div class="titolo an" data-a="su" data-d=".3">${esc(sc.titolo)}</div>${sc.didascalia ? `<div class="sotto an" data-a="su" data-d=".5">${esc(sc.didascalia)}</div>` : ""}</div></div>`;
   else if (t === "chiusura") h = `<div class="frase an" data-a="zoom" data-d=".05">${esc(sc.frase)}</div>${sc.azione ? `<div><div class="azione an" data-a="su" data-d=".45">${esc(sc.azione)}</div></div>` : ""}`;
   const logo = "file://" + path.resolve(SLIDE, "logo-cisl-fp.png");
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body class="${tema}">
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}${V ? CSS_V : ""}</style></head><body class="${tema}">
 <div class="testata"><img class="logo" src="${logo}"><span>Assemblea AOUP · 7 dicembre 2026 · ${esc(titoloVideo)}</span></div>
 <div class="wrap ${t === "chiusura" ? "chiude" : ""}">${h}</div>
 <div class="prog" style="width:${(100 * (i + 1) / tot).toFixed(2)}%"></div>
@@ -128,7 +151,7 @@ function applica(t) {
 }
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
+const page = await browser.newPage({ viewport: { width: VW, height: VH } });
 for (let i = 0; i < blocchi.length; i++) {
   const b = blocchi[i];
   const dir = path.join(OUT, b.id);

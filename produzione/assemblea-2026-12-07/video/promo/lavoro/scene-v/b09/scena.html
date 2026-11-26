@@ -1,0 +1,85 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1920px;height:1080px;overflow:hidden;font-family:Inter,sans-serif;color:#1B2A22;background:#F4FAF5}
+.scuro{background:radial-gradient(120% 120% at 15% 10%,#0E7A40 0%,#075029 45%,#04351C 100%);color:#fff}
+.chiaro{background:linear-gradient(160deg,#FFFFFF 0%,#F2F8F3 60%,#E4F2E8 100%)}
+.giallo{background:#FFD60A;color:#06381F}
+.wrap{position:absolute;inset:0;padding:120px 150px 210px 150px;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-weight:800;font-size:30px;letter-spacing:.32em;color:#E2001A;text-transform:uppercase;margin-bottom:26px}
+.scuro .kicker{color:#FFD60A}
+.titolo{font-family:"Inter Display",Inter;font-weight:900;font-size:104px;line-height:1.02;letter-spacing:-.02em;color:#06381F}
+.scuro .titolo{color:#fff}
+.sotto{font-size:42px;font-weight:500;margin-top:34px;color:#3A4A41;max-width:1400px;line-height:1.25}
+.scuro .sotto{color:#CFE9D8}
+.barra{width:150px;height:14px;border-radius:7px;background:#FFD60A;margin-top:40px}
+.num{font-family:"Inter Display",Inter;font-weight:900;font-size:250px;line-height:.95;letter-spacing:-.03em;color:#00843D}
+.scuro .num{color:#FFD60A}
+.etichetta{font-size:54px;font-weight:700;margin-top:24px;max-width:1450px;line-height:1.15}
+.nota{font-size:34px;margin-top:22px;color:#5B6B62;max-width:1400px}
+.scuro .nota{color:#B9D3C3}
+.frase{font-family:"Inter Display",Inter;font-weight:800;font-size:86px;line-height:1.12;max-width:1600px}
+.virg{font-family:Georgia,serif;font-size:260px;line-height:.6;color:#FFD60A;height:120px}
+.fonte{font-size:34px;margin-top:40px;font-weight:600;color:#9BE15D}
+.voci{margin-top:44px;display:flex;flex-direction:column;gap:26px}
+.voce{display:flex;align-items:center;gap:34px;background:#fff;border-radius:28px;padding:30px 40px;box-shadow:0 10px 30px rgba(6,56,31,.10);font-size:46px;font-weight:700;color:#06381F}
+.scuro .voce{background:rgba(255,255,255,.08);color:#fff;box-shadow:none;border:2px solid rgba(255,255,255,.12)}
+.pallino{flex:0 0 74px;height:74px;border-radius:50%;background:#00843D;color:#fff;display:flex;align-items:center;justify-content:center;font-size:38px;font-weight:900}
+.scuro .pallino{background:#FFD60A;color:#06381F}
+.due{display:flex;gap:60px;margin-top:50px}
+.lato{flex:1;border-radius:36px;padding:44px 50px;min-height:420px;display:flex;flex-direction:column;justify-content:center}
+.lato.r{background:#FFF1F2;border:4px solid #E2001A}
+.lato.v{background:#00843D;color:#fff}
+.lato .et{font-size:32px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+.lato.r .et{color:#C8102E}.lato.v .et{color:#FFD60A}
+.lato .val{font-family:"Inter Display",Inter;font-weight:900;font-size:118px;line-height:1;margin-top:20px}
+.lato.r .val{color:#C8102E}
+.lato .nt{font-size:36px;margin-top:20px;line-height:1.2}
+.barre{margin-top:50px;display:flex;flex-direction:column;gap:30px}
+.riga{display:flex;align-items:center;gap:30px}
+.riga .et{flex:0 0 380px;font-size:40px;font-weight:700;text-align:right}
+.riga .tr{flex:1;height:84px;background:rgba(6,56,31,.07);border-radius:16px;position:relative}
+.scuro .riga .tr{background:rgba(255,255,255,.08)}
+.riga .pi{position:absolute;left:0;top:0;bottom:0;border-radius:16px;background:#00843D}
+.scuro .riga .pi{background:#FFD60A}
+.riga .tx{position:absolute;top:50%;transform:translateY(-50%);font-size:42px;font-weight:900;white-space:nowrap}
+.doc{display:flex;gap:70px;align-items:center;margin-top:40px}
+.doc .foglio{flex:0 0 auto;max-width:1050px;max-height:620px;background:#fff;padding:18px;border-radius:10px;box-shadow:0 24px 60px rgba(6,56,31,.30);transform:rotate(-1.2deg)}
+.doc .foglio img{display:block;max-width:1014px;max-height:584px}
+.doc .lt{flex:1}
+.doc .lt .titolo{font-size:70px}
+.doc .lt .sotto{font-size:36px}
+.chiude{text-align:center;align-items:center}
+.chiude .frase{font-size:96px;margin:0 auto}
+.azione{margin-top:60px;display:inline-block;background:#E2001A;color:#fff;font-weight:900;font-size:46px;padding:28px 56px;border-radius:999px;box-shadow:0 14px 34px rgba(226,0,26,.35)}
+.testata{position:absolute;left:150px;right:150px;top:46px;display:flex;justify-content:space-between;align-items:center;font-size:24px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#5B6B62}
+.scuro .testata{color:#B9D3C3}
+.logo{height:62px;background:#fff;border-radius:12px;padding:6px 12px}
+.sub{position:absolute;left:0;right:0;bottom:0;height:150px;background:rgba(4,30,16,.92);color:#fff;display:flex;align-items:center;justify-content:center;padding:0 170px;text-align:center;font-size:40px;font-weight:600;line-height:1.25}
+.giallo .sub{background:rgba(6,56,31,.95)}
+.prog{position:absolute;left:0;bottom:150px;height:8px;background:#FFD60A}
+.an{opacity:0}
+
+body{width:1080px;height:1920px}
+.wrap{padding:230px 80px 380px 80px}
+.titolo{font-size:86px!important}
+.num{font-size:190px}
+.etichetta{font-size:50px}
+.frase{font-size:78px}
+.due{flex-direction:column;gap:36px}
+.lato{min-height:0;padding:38px 44px}
+.lato .val{font-size:104px}
+.testata{left:80px;right:80px;flex-direction:column;align-items:flex-start;gap:16px;font-size:20px}
+.sub{height:230px;padding:0 70px;font-size:44px}
+.prog{bottom:230px}
+.riga .et{flex:0 0 250px;font-size:32px}
+.doc{flex-direction:column;gap:40px}
+.doc .foglio{max-width:920px}
+.doc .foglio img{max-width:884px}
+.voce{font-size:40px;padding:26px 32px}
+.chiude .frase{font-size:82px}
+.azione{font-size:40px}
+</style></head><body class="chiaro">
+<div class="testata"><img class="logo" src="file:///home/user/Prove/produzione/assemblea-2026-12-07/slide/logo-cisl-fp.png"><span>Assemblea AOUP · 7 dicembre 2026 · Assemblea generale</span></div>
+<div class="wrap "><div class="kicker an" data-a="su" data-d="0">Lunedì 7 dicembre · Aula Magna</div><div class="titolo an" data-a="su" data-d=".08" style="font-size:76px">Vieni quando puoi</div><div class="due"><div class="lato r an" data-a="sx" data-d=".3"><div class="et">Dalle</div><div class="val">7:30</div><div class="nt">accoglienza e firme</div></div><div class="lato v an" data-a="dx" data-d=".5"><div class="et">Alle</div><div class="val">13:00</div><div class="nt">anche solo per un'ora</div></div></div></div>
+<div class="prog" style="width:66.67%"></div>
+<div class="sub" id="sub"></div></body></html>

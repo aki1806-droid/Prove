@@ -1,0 +1,69 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: S,Inter ExtraBold,64,&H00FFFFFF,&H00FFFFFF,&H00163806,&H96000000,1,0,0,0,100,100,0,0,3,10,0,2,70,70,330,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.88,S,,0,0,0,,Sono le sette.
+Dialogue: 0,0:00:00.88,0:00:02.58,S,,0,0,0,,Hai appena finito la notte.
+Dialogue: 0,0:00:02.58,0:00:03.27,S,,0,0,0,,Sei stanca.
+Dialogue: 0,0:00:03.27,0:00:05.72,S,,0,0,0,,E qualcuno ti chiede di fermarti ancora
+Dialogue: 0,0:00:05.72,0:00:06.15,S,,0,0,0,,un'ora.
+Dialogue: 0,0:00:06.45,0:00:06.85,S,,0,0,0,,Lo so.
+Dialogue: 0,0:00:06.85,0:00:08.37,S,,0,0,0,,Te lo chiedo lo stesso.
+Dialogue: 0,0:00:08.37,0:00:10.22,S,,0,0,0,,Sono Achille, della CISL FP.
+Dialogue: 0,0:00:10.22,0:00:12.85,S,,0,0,0,,Lunedì sette dicembre, in Aula Magna, ti
+Dialogue: 0,0:00:12.85,0:00:15.30,S,,0,0,0,,racconto come stanno davvero le cose.
+Dialogue: 0,0:00:15.60,0:00:17.99,S,,0,0,0,,In un anno abbiamo firmato dodici accordi
+Dialogue: 0,0:00:17.99,0:00:18.81,S,,0,0,0,,con l'Azienda.
+Dialogue: 0,0:00:18.81,0:00:21.15,S,,0,0,0,,Tutti pubblicati, con le firme, sul sito
+Dialogue: 0,0:00:21.15,0:00:21.73,S,,0,0,0,,aziendale.
+Dialogue: 0,0:00:21.73,0:00:23.19,S,,0,0,0,,Verificabili da chiunque.
+Dialogue: 0,0:00:23.49,0:00:25.77,S,,0,0,0,,Il nuovo contratto e gli arretrati.
+Dialogue: 0,0:00:25.77,0:00:28.11,S,,0,0,0,,I trecentocinquanta euro di welfare.
+Dialogue: 0,0:00:28.11,0:00:30.38,S,,0,0,0,,Le notti, i turni da dodici ore, la
+Dialogue: 0,0:00:30.38,0:00:30.97,S,,0,0,0,,pensione.
+Dialogue: 0,0:00:30.97,0:00:33.11,S,,0,0,0,,Cosa ti spetta, e come ottenerlo.
+Dialogue: 0,0:00:33.41,0:00:35.42,S,,0,0,0,,E una vertenza l'abbiamo già vinta in
+Dialogue: 0,0:00:35.42,0:00:35.96,S,,0,0,0,,tribunale:
+Dialogue: 0,0:00:35.96,0:00:38.08,S,,0,0,0,,il festivo infrasettimanale va pagato a
+Dialogue: 0,0:00:38.08,0:00:38.40,S,,0,0,0,,parte.
+Dialogue: 0,0:00:38.40,0:00:39.87,S,,0,0,0,,Le altre due sono in corso.
+Dialogue: 0,0:00:40.17,0:00:40.95,S,,0,0,0,,Ma attenzione:
+Dialogue: 0,0:00:40.95,0:00:42.85,S,,0,0,0,,ogni mese che passa un credito può
+Dialogue: 0,0:00:42.85,0:00:44.97,S,,0,0,0,,scadere, e con la nuova legge anche le
+Dialogue: 0,0:00:44.97,0:00:47.03,S,,0,0,0,,ferie non fatte possono andare perse.
+Dialogue: 0,0:00:47.03,0:00:48.04,S,,0,0,0,,Chi non sa, perde.
+Dialogue: 0,0:00:48.34,0:00:50.42,S,,0,0,0,,Non ti chiedo di credermi sulla parola.
+Dialogue: 0,0:00:50.42,0:00:52.39,S,,0,0,0,,Ti porto i documenti originali, sullo
+Dialogue: 0,0:00:52.39,0:00:53.51,S,,0,0,0,,schermo, uno per uno.
+Dialogue: 0,0:00:53.51,0:00:54.36,S,,0,0,0,,Una sola verità:
+Dialogue: 0,0:00:54.36,0:00:55.86,S,,0,0,0,,quella che puoi controllare.
+Dialogue: 0,0:00:56.16,0:00:58.19,S,,0,0,0,,Più di mille colleghi leggono le nostre
+Dialogue: 0,0:00:58.19,0:00:58.45,S,,0,0,0,,mail.
+Dialogue: 0,0:00:58.45,0:01:00.38,S,,0,0,0,,Il sette dicembre vogliamo vederli in
+Dialogue: 0,0:01:00.38,0:01:01.73,S,,0,0,0,,faccia, in una sala piena.
+Dialogue: 0,0:01:02.03,0:01:03.51,S,,0,0,0,,Dalle sette e mezza all'una.
+Dialogue: 0,0:01:03.51,0:01:05.68,S,,0,0,0,,Puoi venire anche solo per un'ora, tra un
+Dialogue: 0,0:01:05.68,0:01:06.52,S,,0,0,0,,turno e l'altro:
+Dialogue: 0,0:01:06.52,0:01:08.01,S,,0,0,0,,ogni punto si regge da solo.
+Dialogue: 0,0:01:08.31,0:01:10.29,S,,0,0,0,,Dieci punti, cinque ore e mezza, e alla
+Dialogue: 0,0:01:10.29,0:01:11.52,S,,0,0,0,,fine la parola è vostra.
+Dialogue: 0,0:01:11.52,0:01:13.40,S,,0,0,0,,Ogni domanda diventa una richiesta al
+Dialogue: 0,0:01:13.40,0:01:14.93,S,,0,0,0,,prossimo tavolo con l'Azienda.
+Dialogue: 0,0:01:15.23,0:01:16.27,S,,0,0,0,,E porta un collega.
+Dialogue: 0,0:01:16.27,0:01:16.76,S,,0,0,0,,Uno solo.
+Dialogue: 0,0:01:16.76,0:01:18.71,S,,0,0,0,,Quello che in pausa caffè si lamenta
+Dialogue: 0,0:01:18.71,0:01:19.09,S,,0,0,0,,sempre:
+Dialogue: 0,0:01:19.09,0:01:20.78,S,,0,0,0,,è proprio lui che deve sentire.
+Dialogue: 0,0:01:21.08,0:01:23.68,S,,0,0,0,,Lunedì sette dicembre, Aula Magna, secondo
+Dialogue: 0,0:01:23.68,0:01:25.78,S,,0,0,0,,piano della palazzina dei servizi.
+Dialogue: 0,0:01:25.78,0:01:27.08,S,,0,0,0,,Scrivimi su WhatsApp:
+Dialogue: 0,0:01:27.08,0:01:27.57,S,,0,0,0,,ci sono.
+Dialogue: 0,0:01:27.57,0:01:28.26,S,,0,0,0,,Io ci sarò.
+Dialogue: 0,0:01:28.26,0:01:28.56,S,,0,0,0,,E tu?

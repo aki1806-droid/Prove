@@ -1,0 +1,3 @@
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/blocchi/b02.wav'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/blocchi/b07.wav'
+file '/home/user/Prove/produzione/assemblea-2026-12-07/video/promo/lavoro/blocchi/b11.wav'
