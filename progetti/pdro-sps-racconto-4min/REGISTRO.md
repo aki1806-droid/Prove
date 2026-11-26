@@ -26,3 +26,6 @@ nessun avatar. Le cartelle del pacchetto restano in V9_SENTIRSI_PER_SENTIRE_IL_R
 - Asset HeyGen (account 1): 16:9 https://resource2.heygen.ai/video/5445019568a24ff3b00dad84a6de909c/original.mp4 ·
   9:16 https://resource2.heygen.ai/video/ed4436ba2ed14d7f8c8371b795fc1dea/original.mp4
 - Robin: OK di Achille il 26/11; programmati alle 9:20 il post 1220017 (9:16 su TikTok 18053, Instagram 18045 reel, Facebook 18051 reel, YouTube 18260) e il post 1220019 (16:9 su YouTube 18260).
+- Pubblicati alle 9:20 del 26/11: YouTube 16:9 https://www.youtube.com/watch?v=k577hbEHJfk · YouTube 9:16
+  https://www.youtube.com/watch?v=X-vFgdEgk-M · TikTok https://www.tiktok.com/@cislfpaop/video/7712392093385100566 ·
+  Instagram https://www.instagram.com/reel/DgMqY3gBRbh/ . Facebook 18051 rifiutato («flagged by Facebook»), come dal 18/11.
