@@ -1,0 +1,21 @@
+<title>10 Annuncio</title>
+<style>.big{font-weight:900;letter-spacing:-.04em;white-space:nowrap;line-height:1.02}</style>
+<div data-slot="shape">
+  <div class="L" id="La"><div class="row big" style="transform:translate(-50%,-50%);font-size:130px;color:var(--on-accent)">ANNUNCIO</div></div>
+  <div class="L" id="Lb">
+    <div class="a big" style="left:-400px;top:-150px;font-size:44px;font-weight:700;letter-spacing:.08em;color:var(--accent)">ASSEMBLEA GENERALE</div>
+    <div class="a big" id="t1" style="left:-400px;top:-80px;font-size:76px;color:var(--on-strong)">Per tutto il personale</div>
+    <div class="a big" id="t2" style="left:-400px;top:14px;font-size:76px;color:var(--on-strong)">del comparto</div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.22;
+M.scene({
+  W:1920,H:1080,T:3.5,bg:BRAND.canvas,center:[960,470],intro:0.0,
+  SH:{a:{w:760,h:220,r:110,bg:BRAND.accent,cam:(1920<1080?1.15:1.4)*K},b:{w:900,h:400,r:48,bg:BRAND.strong,cam:(1920<1080?1.0:1.3)*K}},
+  start:'a',SEQ:[[0.6,'b']],
+  layers:[{el:'La',tin:0.0,tout:0.6,o:{din:0,lin:0.08}},
+    {el:'Lb',tin:0.6,tout:null,update:t=>{M.apply($('t1'),M.vis(t,0.62,null,{din:0,lin:0.2}));M.apply($('t2'),M.vis(t,1.75,null,{din:0,lin:0.2}));}}],
+});
+</script>

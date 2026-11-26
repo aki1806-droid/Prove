@@ -8,8 +8,8 @@ QUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(QUI, "..", "mini"))
 from monta import allinea, silenzi, durata, norm  # noqa: E402
 
-LAV = os.path.join(QUI, "lavoro2")
-bl = json.load(open(os.path.join(QUI, "copione2.json")))
+LAV = os.path.join(QUI, sys.argv[1] if len(sys.argv) > 1 else "lavoro2")
+bl = json.load(open(os.path.join(QUI, sys.argv[2] if len(sys.argv) > 2 else "copione2.json")))
 g = os.path.join(LAV, "grezzo.mp3"); tot = durata(g)
 dati = json.load(open(os.path.join(LAV, "parole.json")))
 tagli = allinea(bl, dati, tot)
@@ -19,7 +19,7 @@ for i in range(1, len(tagli) - 1):
     if vic:
         tagli[i] = max(vic, key=lambda x: x[1] - abs(x[0] - tagli[i]) * 0.5)[0]
 # a mano, dopo aver ascoltato: la risata di b10 comincia a 82,04 s, il taglio va nel silenzio prima
-FORZA = {"b10": 81.82}
+FORZA = {"b10": 81.82} if LAV.endswith("lavoro2") else {}
 for i, b in enumerate(bl):
     if b["id"] in FORZA: tagli[i] = FORZA[b["id"]]
 parole = [w for w in dati["words"] if w["type"] == "word" and not w["text"].startswith("[") and not w["text"].endswith("]")]

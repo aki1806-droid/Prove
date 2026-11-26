@@ -1,0 +1,111 @@
+[
+ {
+  "id": "b01",
+  "tipo": "avatar",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Annuncio per tutto il personale del comparto. [pause] Lunedì sette dicembre la Cisl effe pi Padova Rovigo convoca l'assemblea generale dell'Azienda Ospedale-Università di Padova.",
+  "testo": "Annuncio per tutto il personale del comparto. Lunedì 7 dicembre la CISL FP Padova Rovigo convoca l'assemblea generale dell'Azienda Ospedale-Università di Padova.",
+  "scena": {}
+ },
+ {
+  "id": "b02",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Dalle sette e mezza all'una, in Aula Magna, al secondo piano della palazzina dei servizi. L'assemblea è retribuita: vale per tutti, di ogni reparto e di ogni servizio. Non perdi un minuto.",
+  "testo": "Dalle 7:30 alle 13, in Aula Magna, al secondo piano della palazzina dei servizi. L'assemblea è retribuita: vale per tutti, di ogni reparto e di ogni servizio. Non perdi un minuto.",
+  "scena": {}
+ },
+ {
+  "id": "b03",
+  "tipo": "motion",
+  "versioni": [
+   90
+  ],
+  "voce": "Infermieri, operatori socio sanitari, tecnici, ostetriche, amministrativi: l'invito è per ognuno di voi.",
+  "testo": "Infermieri, operatori socio sanitari, tecnici, ostetriche, amministrativi: l'invito è per ognuno di voi.",
+  "scena": {}
+ },
+ {
+  "id": "b04",
+  "tipo": "avatar",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Ecco l'ordine del giorno: dieci punti.",
+  "testo": "Ecco l'ordine del giorno: dieci punti.",
+  "scena": {}
+ },
+ {
+  "id": "b05",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Uno, il nuovo contratto della sanità duemilaventicinque, duemilaventisette. Due, gli accordi decentrati dell'Azienda per il duemilaventisei. Tre, il sistema degli incarichi. Quattro, il welfare della Regione Veneto. Cinque, le vertenze legali: buono pasto, festivo infrasettimanale e indennità di ferie.",
+  "testo": "Uno, il nuovo contratto della sanità 2025-2027. Due, gli accordi decentrati dell'Azienda per il 2026. Tre, il sistema degli incarichi. Quattro, il welfare della Regione Veneto. Cinque, le vertenze legali: buono pasto, festivo infrasettimanale e indennità di ferie.",
+  "scena": {}
+ },
+ {
+  "id": "b06",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Sei, gli incentivi per le funzioni tecniche. Sette, gli andamenti occupazionali. Otto, retention e benessere organizzativo. Nove, la situazione previdenziale. Dieci, varie ed eventuali.",
+  "testo": "Sei, gli incentivi per le funzioni tecniche. Sette, gli andamenti occupazionali. Otto, retention e benessere organizzativo. Nove, la situazione previdenziale. Dieci, varie ed eventuali.",
+  "scena": {}
+ },
+ {
+  "id": "b07",
+  "tipo": "motion",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Tratteremo ogni punto nel dettaglio, con i documenti alla mano: il contratto, gli accordi firmati, le sentenze. Tutto verificabile.",
+  "testo": "Tratteremo ogni punto nel dettaglio, con i documenti alla mano: il contratto, gli accordi firmati, le sentenze. Tutto verificabile.",
+  "scena": {}
+ },
+ {
+  "id": "b08",
+  "tipo": "avatar",
+  "versioni": [
+   90
+  ],
+  "voce": "[serious] Non vi raccontiamo la nostra verità: vi mostriamo le carte. E ogni domanda che farete diventa una nostra richiesta al prossimo tavolo con l'Azienda.",
+  "testo": "Non vi raccontiamo la nostra verità: vi mostriamo le carte. E ogni domanda che farete diventa una nostra richiesta al prossimo tavolo con l'Azienda.",
+  "scena": {}
+ },
+ {
+  "id": "b09",
+  "tipo": "clip",
+  "versioni": [
+   90
+  ],
+  "voce": "Vieni quando il turno te lo permette: ogni punto si regge da solo.",
+  "testo": "Vieni quando il turno te lo permette: ogni punto si regge da solo.",
+  "scena": {
+   "clip": "corridoio-alba"
+  }
+ },
+ {
+  "id": "b10",
+  "tipo": "avatar",
+  "versioni": [
+   60,
+   90
+  ],
+  "voce": "Lunedì sette dicembre, in Aula Magna. Ci vediamo lì.",
+  "testo": "Lunedì 7 dicembre, in Aula Magna. Ci vediamo lì.",
+  "scena": {}
+ }
+]

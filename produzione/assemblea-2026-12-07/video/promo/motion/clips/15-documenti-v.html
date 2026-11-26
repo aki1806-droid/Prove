@@ -1,0 +1,29 @@
+<title>15 Documenti alla mano</title>
+<style>
+.doc{position:absolute;top:-160px;width:225px;height:290px;border-radius:24px;background:var(--panel);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;font-size:34px;font-weight:700;color:var(--ink);text-align:center;line-height:1.15}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lp"><div class="row" style="transform:translate(-50%,-50%);font-size:56px;font-weight:800;letter-spacing:-.02em;color:var(--on-strong)">Ogni punto, nel dettaglio</div></div>
+  <div class="L" id="Ld">
+    <div class="a" style="left:-350px;top:-230px;font-size:34px;font-weight:700;color:var(--muted);white-space:nowrap">Con i documenti alla mano</div>
+    <div class="doc" id="d0" style="left:-350px"><span id="i0"></span>Contratto</div>
+    <div class="doc" id="d1" style="left:-112px"><span id="i1"></span>Accordi<br>firmati</div>
+    <div class="doc" id="d2" style="left:126px"><span id="i2"></span>Sentenze</div>
+    <div class="a" id="st" style="left:-230px;top:165px"><div style="padding:16px 34px;border-radius:44px;background:var(--accent);color:var(--on-accent);font-size:44px;font-weight:800;white-space:nowrap;display:flex;align-items:center;gap:14px"><span id="ck" style="display:grid;place-items:center"></span>Tutto verificabile</div></div>
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.05;
+['file','file','file'].forEach((n,i)=>$('i'+i).innerHTML=M.icon(n,70,BRAND.strong,1.6));$('ck').innerHTML=M.icon('check',40,BRAND.on_accent,3.2);
+const D=[4.0,4.9,6.1];
+M.scene({
+  W:1080,H:1920,T:8.9,bg:BRAND.canvas,center:[540,820],intro:0.02,
+  SH:{p:{w:880,h:150,r:75,bg:BRAND.strong,cam:1.0*K},d:{w:820,h:600,r:44,bg:BRAND.surface,cam:1.05*K}},
+  start:'p',SEQ:[[2.5,'d']],
+  layers:[{el:'Lp',tin:0.02,tout:2.5},
+    {el:'Ld',tin:2.5,tout:null,update:t=>{D.forEach((c,i)=>{const v=M.vis(t,c,null,{din:0,lin:0.25});M.apply($('d'+i),v);
+        const s=1+0.08*Math.exp(-Math.max(0,t-c)*7)*(t>=c?1:0);$('d'+i).style.transform=`scale(${s.toFixed(3)})`;});
+      const v=M.vis(t,7.05,null,{din:0,lin:0.2});M.apply($('st'),v);}}],
+});
+</script>

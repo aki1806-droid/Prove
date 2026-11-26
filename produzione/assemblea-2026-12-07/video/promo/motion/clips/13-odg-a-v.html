@@ -1,0 +1,37 @@
+<title>13 OdG 1-5</title>
+<style>
+.rw{position:absolute;left:-380px;width:760px;height:104px;display:flex;align-items:center;gap:26px;white-space:nowrap}
+.nm{width:76px;height:76px;border-radius:38px;display:grid;place-items:center;font-size:38px;font-weight:800;flex:none}
+.tx{font-size:42px;font-weight:700;letter-spacing:-.01em;color:var(--ink)}
+.sb{font-size:28px;color:var(--muted);font-weight:500}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lo">
+    <div class="a" style="left:-380px;top:34px;font-size:30px;font-weight:700;letter-spacing:.08em;color:var(--muted);white-space:nowrap">ORDINE DEL GIORNO · 1–5 DI 10</div>
+    <div class="rw" id="r0" style="top:96px"><span class="nm" id="n0"></span><div><div class="tx">Nuovo CCNL Sanità 2025-2027</div></div></div>
+    <div class="rw" id="r1" style="top:206px"><span class="nm" id="n1"></span><div><div class="tx">Accordi decentrati AOUP 2026</div></div></div>
+    <div class="rw" id="r2" style="top:316px"><span class="nm" id="n2"></span><div><div class="tx">Sistema degli incarichi</div></div></div>
+    <div class="rw" id="r3" style="top:426px"><span class="nm" id="n3"></span><div><div class="tx">Welfare Regione Veneto</div></div></div>
+    <div class="rw" id="r4" style="top:536px"><span class="nm" id="n4"></span><div><div class="tx">Vertenze legali</div><div class="sb">buono pasto · festivo · indennità di ferie</div></div></div>
+
+  </div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.05;
+const T=[0.32, 5.4, 9.72, 12.16, 15.04], N=1;
+M.scene({
+  W:1080,H:1920,T:21.0,bg:BRAND.canvas,center:[540,820],intro:0.02,
+  SH:{a:{w:840,h:660,r:44,bg:BRAND.surface,cam:1.02*K}},
+  start:'a',SEQ:[],
+  layers:[{el:'Lo',tin:0.02,tout:null,anchor:'t',update:t=>{
+    let cur=-1;T.forEach((c,i)=>{if(t>=c-0.05)cur=i;});
+    T.forEach((c,i)=>{const r=$('r'+i),n=$('n'+i);M.apply(r,M.vis(t,c-0.25,null,{din:0,lin:0.22}));
+      const act=i===cur, done=i<cur;
+      n.style.background=act?BRAND.accent:(done?BRAND.strong:BRAND.panel);n.style.color=act?BRAND.on_accent:(done?BRAND.on_strong:BRAND.ink);
+      M.setText(n,String(N+i));
+      const s=act?1+0.06*Math.exp(-(t-c)*6):1; r.style.transform=`scale(${s.toFixed(3)})`;r.style.transformOrigin='0 50%';
+      r.querySelector('.tx').style.opacity=(act||i>cur)?1:0.55;});
+  }}],
+});
+</script>

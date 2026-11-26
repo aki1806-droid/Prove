@@ -1,0 +1,32 @@
+<title>12 Ruoli</title>
+<style>
+.it{position:absolute;left:-330px;display:flex;align-items:center;gap:26px;font-size:46px;font-weight:600;letter-spacing:-.01em;white-space:nowrap;color:var(--ink)}
+.bx{width:60px;height:60px;border-radius:18px;display:grid;place-items:center}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Llist">
+    <div class="it" id="i0" style="top:-290px"><span class="bx" id="b0"></span>Infermieri</div>
+    <div class="it" id="i1" style="top:-160px"><span class="bx" id="b1"></span>Operatori socio sanitari</div>
+    <div class="it" id="i2" style="top:-30px"><span class="bx" id="b2"></span>Tecnici</div>
+    <div class="it" id="i3" style="top:100px"><span class="bx" id="b3"></span>Ostetriche</div>
+    <div class="it" id="i4" style="top:230px"><span class="bx" id="b4"></span>Amministrativi</div>
+  </div>
+  <div class="L" id="Lpill"><div class="row" style="transform:translate(-50%,-50%);font-size:56px;font-weight:800;letter-spacing:-.02em;color:var(--on-accent)">L’invito è per ognuno di voi</div></div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.05;
+const CK=[0.4,1.55,2.95,3.7,4.5];
+M.scene({
+  W:1080,H:1920,T:7.9,bg:BRAND.canvas,center:[540,820],intro:0.02,
+  SH:{list:{w:780,h:700,r:44,bg:BRAND.surface,cam:1.0*K},pill:{w:960,h:160,r:80,bg:BRAND.accent,cam:0.95*K}},
+  start:'list',SEQ:[[5.6,'pill']],
+  layers:[
+    {el:'Llist',tin:0.02,tout:5.6,update:t=>{CK.forEach((c,i)=>{M.apply($('i'+i),M.vis(t,c-0.35,null,{din:0,lin:0.22}));
+      const on=M.S(t-c,22,0.8),b=$('b'+i);b.style.background=on>0.5?BRAND.accent:BRAND.panel;
+      b.innerHTML=on>0.02?M.icon('check',36,BRAND.on_accent,3):'';b.firstChild&&(b.firstChild.style.transform=`scale(${Math.max(0,on).toFixed(3)})`);});}},
+    {el:'Lpill',tin:5.6,tout:null},
+  ],
+  cursor:{size:48,clicks:CK,keys:[[0,470,-300],[0.25,-300,-260],[0.45,-300,-260],[1.4,-300,-130],[1.6,-300,-130],[2.8,-300,0],[3.0,-300,0],[3.55,-300,130],[3.75,-300,130],[4.35,-300,260],[4.55,-300,260],[5.5,520,330],[7.9,540,340]]},
+});
+</script>

@@ -78,3 +78,26 @@ Stessa voce e stesso copione, nessun credito speso.
 - **Effetti sonori:** sintetizzati con ffmpeg (`sfx/`: click, pop, tick, whoosh, hit), messi sui
   clic, le spunte, la scrittura e le frasi chiave secondo `motion/sfx.json`.
 - **Sottotitoli:** più grandi, entrano con uno scatto; musica a 0,24 invece di 0,18.
+
+---
+
+# Terza versione (26/11/2026): annuncio chiaro e ordine del giorno completo
+
+Cosa ha chiesto Achille: un annuncio iniziale più chiaro, «operatori socio sanitari» e non «OSS»,
+tutto l'ordine del giorno, e dire che tratteremo ogni punto nel dettaglio con i documenti alla mano.
+
+- **Copione:** `copione3.json` (60 s: 1.028 caratteri; 90 s: 1.346), approvato da Achille.
+  I 10 punti sono quelli della richiesta di assemblea del 19/11 (vedi `PIANO.md`).
+- **Voce:** ElevenLabs diretto (scelta di Achille), «Achille nuovo 1», eleven_v4, 94,3 s,
+  1.421 crediti (nodo laPu21EkFqyy7i7QiJxp); trascrizione Scribe gratuita.
+- **Tagli:** `python3 taglia2.py lavoro3 copione3.json`.
+- **Avatar:** HeyGen secondo account, audio da «Lunedì sette dicembre» (b01 dopo 3,45 s) + b04 + b08 + b10
+  (asset 3680965597914a14b67167028a66e123); 16:9 video 6ed45372110ba2c9ac3074ac010edc6b,
+  9:16 video 8a4cd457ad6fb766d2266fd6dd8ebb2b.
+- **Grafiche:** 10 annuncio («ANNUNCIO» → «Assemblea generale · per tutto il personale del comparto»),
+  11 invito (Lunedì 7 dicembre, 7:30 → 13:00, Aula Magna, 2° piano palazzina dei servizi, interruttore
+  «Retribuita», tutti/ogni reparto/ogni servizio), 12 ruoli (con «Operatori socio sanitari»),
+  13 e 14 ordine del giorno (1–5 e 6–10, il punto detto si accende), 15 documenti alla mano
+  (contratto, accordi firmati, sentenze, «Tutto verificabile»). Su b09 la clip del corridoio.
+- **Montaggio:** `promo3.py <60|90> <h|v>`; velocità al massimo ×1,12, quindi la versione «da 60»
+  dura circa 67 s (l'ordine del giorno da solo prende 34 s).

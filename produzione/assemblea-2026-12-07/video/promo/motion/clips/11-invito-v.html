@@ -1,0 +1,48 @@
+<title>11 Invito</title>
+<style>
+.chk{position:absolute;left:-300px;display:flex;align-items:center;gap:24px;font-size:48px;font-weight:600;color:var(--ink);white-space:nowrap}
+.bx{width:60px;height:60px;border-radius:18px;display:grid;place-items:center;background:var(--accent)}
+</style>
+<div data-slot="shape">
+  <div class="L" id="Lt">
+    <div class="a" style="left:-340px;top:40px;font-size:34px;font-weight:800;letter-spacing:.08em;color:var(--muted);white-space:nowrap">LUNEDÌ 7 DICEMBRE</div>
+    <div class="row" id="o" style="left:-340px;top:90px;gap:24px;font-size:110px;font-weight:800;letter-spacing:-.04em;color:var(--strong)"><span>7:30</span><span id="ar"></span><span id="o2">13:00</span></div>
+    <div class="row" id="lu" style="left:-340px;top:250px;gap:18px;font-size:46px;font-weight:700;color:var(--ink)"><span style="width:24px;height:24px;border-radius:12px;background:var(--accent);border:5px solid var(--strong)"></span>Aula Magna</div>
+    <div class="a" id="lu2" style="left:-298px;top:316px;font-size:36px;color:var(--muted);white-space:nowrap">2° piano · palazzina dei servizi</div>
+  </div>
+  <div class="L" id="Ltog">
+    <div class="a" style="left:-300px;top:-38px;font-size:66px;font-weight:800;letter-spacing:-.02em;color:var(--ink);white-space:nowrap">Retribuita</div>
+    <div class="a" id="trk" style="left:130px;top:-46px;width:170px;height:92px;border-radius:46px"><div id="knob" style="position:absolute;top:8px;width:76px;height:76px;border-radius:38px;background:#fff;box-shadow:0 2px 6px rgba(0,0,0,.25)"></div></div>
+  </div>
+  <div class="L" id="Lchi">
+    <div class="a" style="left:-300px;top:-210px;font-size:34px;font-weight:600;color:var(--muted);white-space:nowrap">Vale per</div>
+    <div class="chk" id="c0" style="top:-140px"><span class="bx" id="b0"></span>Tutti</div>
+    <div class="chk" id="c1" style="top:-20px"><span class="bx" id="b1"></span>Ogni reparto</div>
+    <div class="chk" id="c2" style="top:100px"><span class="bx" id="b2"></span>Ogni servizio</div>
+  </div>
+  <div class="L" id="Lp"><div class="row" style="transform:translate(-50%,-50%);font-size:64px;font-weight:800;letter-spacing:-.02em;color:var(--on-accent)">Non perdi un minuto.</div></div>
+</div><!--/shape-->
+<script>
+const $=id=>document.getElementById(id);
+const K=1.05;
+$('ar').innerHTML=M.icon('arrow',72,BRAND.strong,1.6);
+const ON=6.75, CK=[8.3,9.34,10.46];
+const knob=M.track(8,[[ON,86,M.FAST]]), trk=M.ctrack(BRAND.muted,[[ON,BRAND.strong]]);
+M.scene({
+  W:1080,H:1920,T:13.0,bg:BRAND.canvas,center:[540,820],intro:0.02,
+  SH:{a:{w:780,h:250,r:44,bg:BRAND.surface,cam:1.15*K},b:{w:780,h:390,r:44,bg:BRAND.surface,cam:1.1*K},
+      tog:{w:720,h:200,r:48,bg:BRAND.surface,cam:1.2*K},chi:{w:720,h:500,r:44,bg:BRAND.surface,cam:1.1*K},
+      p:{w:820,h:170,r:85,bg:BRAND.accent,cam:1.05*K}},
+  start:'a',SEQ:[[2.0,'b'],[5.7,'tog'],[7.7,'chi'],[11.4,'p']],
+  layers:[
+    {el:'Lt',tin:0.02,tout:5.7,anchor:'t',update:t=>{M.apply($('ar'),M.vis(t,1.0,null,{din:0,lin:0.2}));M.apply($('o2'),M.vis(t,1.3,null,{din:0,lin:0.2}));
+       M.apply($('lu'),M.vis(t,2.06,null,{din:0,lin:0.25}));M.apply($('lu2'),M.vis(t,3.0,null,{din:0,lin:0.25}));}},
+    {el:'Ltog',tin:5.7,tout:7.7,update:t=>{$('knob').style.left=knob(t).toFixed(1)+'px';$('trk').style.background=trk(t);}},
+    {el:'Lchi',tin:7.7,tout:11.4,update:t=>{CK.forEach((c,i)=>{M.apply($('c'+i),M.vis(t,c-0.35,null,{din:0,lin:0.25}));
+       const on=M.S(t-c,22,0.8),b=$('b'+i);b.innerHTML=on>0.02?M.icon('check',36,BRAND.on_accent,3):'';
+       b.style.background=on>0.5?BRAND.accent:BRAND.panel;b.firstChild&&(b.firstChild.style.transform=`scale(${Math.max(0,on).toFixed(3)})`);});}},
+    {el:'Lp',tin:11.4,tout:null},
+  ],
+  cursor:{size:48,clicks:[ON,...CK],keys:[[0,560,420],[5.9,520,260],[6.5,175,0],[6.75,175,0],[7.6,420,300],[8.1,-270,-110],[8.3,-270,-110],[9.15,-270,10],[9.35,-270,10],[10.25,-270,130],[10.45,-270,130],[11.3,500,330],[13,520,340]]},
+});
+</script>
