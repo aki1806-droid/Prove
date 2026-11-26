@@ -253,7 +253,7 @@ async function frontespizio(n, sezione) {
     shadow: { type: "outer", color: "06381F", opacity: 0.25, blur: 16, offset: 5, angle: 90 }, objectName: "frontespizio-cornice" });
   s.addImage({ path: file, x: px, y: py, w: pw, h: ph, altText: "Frontespizio con le firme: " + titolo + ", " + data,
     objectName: "frontespizio" });
-  s.addText("FIRMATO", { x: px + pw - 2.3, y: py + ph * 0.665, w: 2.1, h: 0.62, fontSize: 24, bold: true,
+  s.addText(tipo === "Ipotesi di contratto" ? "IPOTESI FIRMATA" : "FIRMATO", { x: px + pw - 2.3, y: py + ph * 0.665, w: 2.1, h: 0.62, fontSize: tipo === "Ipotesi di contratto" ? 15 : 24, bold: true,
     color: C.accent3, align: "center", valign: "middle", rotate: -12, margin: 0, isTextBox: true,
     line: { color: HEX.accent3, width: 3 }, objectName: "timbro" });
   // chi ha firmato
