@@ -16,11 +16,11 @@
 </div><!--/shape-->
 <script>
 const $=id=>document.getElementById(id);
-const K=1.0;
+const K=1.05;
 $('ic0').innerHTML=M.icon('file',40,BRAND.on_strong);$('ic1').innerHTML=M.icon('coin',40,BRAND.on_strong);$('ic2').innerHTML=M.icon('clock',40,BRAND.on_strong);
 const R=[0.3,2.35,4.75];
 M.scene({
-  W:1080,H:1920,T:9.1,bg:BRAND.canvas,center:[540,800],intro:0.02,
+  W:1080,H:1920,T:9.1,bg:BRAND.canvas,center:[540,820],intro:0.02,
   SH:{a:{w:780,h:224,r:44,bg:BRAND.surface,cam:1.25*K},b:{w:780,h:354,r:44,bg:BRAND.surface,cam:1.2*K},c:{w:780,h:484,r:44,bg:BRAND.surface,cam:1.15*K},d:{w:780,h:590,r:44,bg:BRAND.surface,cam:1.1*K}},
   start:'a',SEQ:[[R[1],'b'],[R[2],'c'],[6.4,'d']],
   layers:[

@@ -25,13 +25,13 @@
 </div><!--/shape-->
 <script>
 const $=id=>document.getElementById(id);
-const K=1.0;
+const K=1.22;
 const CK=[3.5,5.2,6.4], ON=1.2;
 const knob=M.track(8,[[ON,86,M.FAST]]), trk=M.ctrack(BRAND.muted,[[ON,BRAND.strong]]);
 M.scene({
   W:1920,H:1080,T:11.3,bg:BRAND.canvas,center:[960,470],intro:0.05,
   SH:{pill:{w:600,h:112,r:56,bg:BRAND.strong,cam:1.5*K},
-      tog:{w:720,h:200,r:48,bg:BRAND.surface,cam:1.3*K},
+      tog:{w:720,h:200,r:48,bg:BRAND.surface,cam:1.2*K},
       chi:{w:720,h:520,r:44,bg:BRAND.surface,cam:1.2*K},
       zero:{w:780,h:480,r:48,bg:BRAND.strong,cam:1.18*K}},
   start:'pill',SEQ:[[0.85,'tog'],[2.4,'chi'],[7.45,'zero']],

@@ -19,11 +19,11 @@
 </div><!--/shape-->
 <script>
 const $=id=>document.getElementById(id);
-const K=1.0;
+const K=1.05;
 $('snd').innerHTML=M.icon('arrow',44,BRAND.on_strong,2.2);
 const TX='ci sono';
 M.scene({
-  W:1080,H:1920,T:4.5,bg:BRAND.canvas,center:[540,800],intro:0.02,
+  W:1080,H:1920,T:4.5,bg:BRAND.canvas,center:[540,820],intro:0.02,
   SH:{c:{w:680,h:580,r:44,bg:BRAND.surface,cam:1.15*K},f:{w:780,h:380,r:48,bg:BRAND.strong,cam:1.15*K}},
   start:'c',SEQ:[[2.95,'f']],
   layers:[

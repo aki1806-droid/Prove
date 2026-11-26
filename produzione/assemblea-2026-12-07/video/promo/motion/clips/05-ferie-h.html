@@ -14,7 +14,7 @@
 </div><!--/shape-->
 <script>
 const $=id=>document.getElementById(id);
-const K=1.0;
+const K=1.22;
 $('clk').innerHTML=M.icon('clock',44,BRAND.strong);
 const C=$('cal'), HI=[3,4,10,11,12,17,18,24,25];
 for(let i=0;i<28;i++){const x=(i%7)*86-300,y=Math.floor(i/7)*86+160;C.insertAdjacentHTML('beforeend',`<div class="d" id="d${i}" style="left:${x}px;top:${y}px"></div>`);}

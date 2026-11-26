@@ -22,7 +22,7 @@ const S=$('segs');for(let i=0;i<10;i++)S.insertAdjacentHTML('beforeend',`<div cl
 const wx=M.track(0,[[3.3,256,M.SOFT],[4.1,384,M.SOFT]]);
 M.scene({
   W:__W__,H:__H__,T:7.0,bg:BRAND.canvas,center:[__CX__,__CY__],intro:0.02,
-  SH:{a:{w:740,h:210,r:44,bg:BRAND.surface,cam:1.3*K},b:{w:740,h:310,r:44,bg:BRAND.surface,cam:1.25*K},c:{w:740,h:470,r:44,bg:BRAND.surface,cam:1.15*K}},
+  SH:{a:{w:740,h:210,r:44,bg:BRAND.surface,cam:1.2*K},b:{w:740,h:310,r:44,bg:BRAND.surface,cam:1.18*K},c:{w:740,h:470,r:44,bg:BRAND.surface,cam:1.15*K}},
   start:'a',SEQ:[[1.85,'b'],[2.85,'c']],
   layers:[
     {el:'Lt',tin:0.02,tout:null,anchor:'t',update:t=>{M.apply($('o2'),M.vis(t,1.1,null,{din:0,lin:0.25}));M.apply($('ar'),M.vis(t,0.9,null,{din:0,lin:0.25}));

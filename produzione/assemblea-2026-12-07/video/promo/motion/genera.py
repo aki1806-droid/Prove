@@ -2,7 +2,7 @@
 """Dalle clip in src/ (segnaposto __W__ __H__ __CX__ __CY__ __K__) scrive clips/NN-nome-h.html e -v.html."""
 import glob, os
 QUI = os.path.dirname(os.path.abspath(__file__))
-F = {"h": dict(W=1920, H=1080, CX=960, CY=470, K=1.0), "v": dict(W=1080, H=1920, CX=540, CY=800, K=1.0)}
+F = {"h": dict(W=1920, H=1080, CX=960, CY=470, K=1.22), "v": dict(W=1080, H=1920, CX=540, CY=820, K=1.05)}
 os.makedirs(os.path.join(QUI, "clips"), exist_ok=True)
 for src in sorted(glob.glob(os.path.join(QUI, "src", "*.html"))):
     s0 = open(src).read()

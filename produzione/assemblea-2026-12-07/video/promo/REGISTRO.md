@@ -65,3 +65,16 @@ l'avatar **non sempre**: c'è solo in tre momenti (aggancio, sussurro, battuta),
 Niente numeri nuovi: 350 €, 12 accordi, orari, piano e telefono sono quelli già verificati nella presentazione.
 Le 12 caselle e i 10 segmenti delle grafiche corrispondono ai 12 accordi e ai 10 punti
 dell'ordine del giorno; il calendario delle ferie è illustrativo.
+
+## Terza passata: «più ritmo e impatto» (26/11/2026)
+
+Stessa voce e stesso copione, nessun credito speso.
+- **Apertura:** «LUNEDÌ» → «7 DICEMBRE» a tutto schermo (clip `00-apertura`) sulle prime parole,
+  poi l'avatar da «ti pagano».
+- **Avatar:** zoom secco su «Sì, hai capito bene» (×1,3) e su «Lunedì è il suo giorno» (×1,28),
+  spinta lenta durante il sussurro. Solo ritaglio dell'inquadratura: niente sopra il volto.
+- **Grafiche:** più grandi (camera ×1,22 in 16:9, ×1,05 in 9:16), piccolo scatto in avanti sui colpi.
+- **Tagli:** lampo bianco di 0,12 s e «whoosh» a ogni cambio di blocco; lenta spinta in avanti sulle clip.
+- **Effetti sonori:** sintetizzati con ffmpeg (`sfx/`: click, pop, tick, whoosh, hit), messi sui
+  clic, le spunte, la scrittura e le frasi chiave secondo `motion/sfx.json`.
+- **Sottotitoli:** più grandi, entrano con uno scatto; musica a 0,24 invece di 0,18.

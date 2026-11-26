@@ -14,13 +14,13 @@
 </div><!--/shape-->
 <script>
 const $=id=>document.getElementById(id);
-const K=1.0;
+const K=1.05;
 $('clk').innerHTML=M.icon('clock',44,BRAND.strong);
 const C=$('cal'), HI=[3,4,10,11,12,17,18,24,25];
 for(let i=0;i<28;i++){const x=(i%7)*86-300,y=Math.floor(i/7)*86+160;C.insertAdjacentHTML('beforeend',`<div class="d" id="d${i}" style="left:${x}px;top:${y}px"></div>`);}
 const bar=M.track(300,[[5.4,40,M.SLOW]]);
 M.scene({
-  W:1080,H:1920,T:8.8,bg:BRAND.canvas,center:[540,800],intro:0.1,
+  W:1080,H:1920,T:8.8,bg:BRAND.canvas,center:[540,820],intro:0.1,
   SH:{q:{w:520,h:120,r:60,bg:BRAND.strong,cam:1.55*K},cal:{w:680,h:610,r:44,bg:BRAND.surface,cam:1.1*K},end:{w:780,h:180,r:90,bg:BRAND.accent,cam:1.15*K}},
   start:'q',SEQ:[[1.5,'cal'],[6.75,'end']],
   layers:[
