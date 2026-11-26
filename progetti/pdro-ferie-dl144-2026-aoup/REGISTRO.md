@@ -19,3 +19,4 @@ Montaggio: strumenti/ferie/render.js (legge variante.json) e monta.py.
 - Nuova scena 8 «DICCI LA TUA» con QR code (verificato: si legge https://forms.gle/BgTcWb8KuUgcusv38), il link a schermo e
   la frase di Luca Ward «E dicci la tua: compila il sondaggio, trovi il link qui sotto.» (YysGEsbfrlPMPxzBhs7q, approvata).
   Scheda dei contatti 3,8 s, QR 6,5 s. Link anche nel TESTO_POST.md. Tempi con strumenti/ferie/tempi.py.
+- Uscita con il sondaggio: 73,7 s, −16,6 LUFS, QR letto dal video finito. Asset HeyGen: https://resource2.heygen.ai/video/d97f79efd8424670834bd331bffaa221/original.mp4

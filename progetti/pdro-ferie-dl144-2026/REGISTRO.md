@@ -26,3 +26,4 @@ convertito dalla L. 174/2026). Testo della voce scritto da Claude in 7 frasi e a
 - Nuova scena 8 «DICCI LA TUA» con QR code (verificato: si legge https://forms.gle/BgTcWb8KuUgcusv38), il link a schermo e
   la frase di Luca Ward «E dicci la tua: compila il sondaggio, trovi il link qui sotto.» (YysGEsbfrlPMPxzBhs7q, approvata).
   Scheda dei contatti 3,8 s, QR 6,5 s. Link anche nel TESTO_POST.md. Tempi con strumenti/ferie/tempi.py.
+- Uscita con il sondaggio: 73,0 s, −16,5 LUFS, QR letto dal video finito. Asset HeyGen: https://resource2.heygen.ai/video/f453bc178508462fafc81dbfc8802657/original.mp4
