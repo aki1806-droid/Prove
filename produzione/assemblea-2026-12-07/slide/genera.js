@@ -417,7 +417,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     card(s, 9.4, 1.4, 3.3, 4.6, "0B4D28");
     s.addText([{ text: "≈ 240 €", options: { fontSize: 54, bold: true, color: HEX.accent2, breakLine: true } },
       { text: "al mese in più, in media, per gli infermieri", options: { fontSize: 18, bold: true, color: "FFFFFF", breakLine: true } },
-      { text: "209 € per le altre figure · stime CISL FP", options: { fontSize: 14, color: "CFE9D8" } }],
+      { text: "209 € per le altre figure · guida CISL FP del 29/7/2026", options: { fontSize: 14, color: "CFE9D8" } }],
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addNotes("Medie indicate dalla guida CISL FP del 29/07/2026: circa 240 € per il personale infermieristico comprese le indennità, 209 € per le altre categorie; circa 380 € cumulando i CCNL 2022-2024 e 2025-2027.");
   }
@@ -481,7 +481,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       { text: " di arretrati sulla specificità infermieristica. ", options: { color: "FFFFFF" } },
       { text: "Si possono superare i 2.000 € in totale.", options: { color: HEX.accent2, bold: true } }],
       { x: M + 0.3, y: 4.5, w: W - 2 * M - 0.6, h: 1.35, fontSize: 20, valign: "middle", margin: 0, isTextBox: true });
-    s.addText("Stima CISL FP su tabellare 2025 × 13 e 2026 × 11 mensilità, meno l'anticipo (IVC) già in busta, con firma definitiva entro il 1° dicembre. Va ricalcolata caso per caso.",
+    s.addText("Stima CISL FP su tabellare 2025 × 13 e 2026 × 11 mensilità, meno l'anticipo (IVC) già in busta, con firma definitiva a dicembre. Va ricalcolata caso per caso.",
       { x: M, y: 6.1, w: W - 2 * M, h: 0.55, fontSize: 13, italic: true, color: "B9D3C3", margin: 0, isTextBox: true });
     s.addNotes("Stima della guida CISL FP del 29/07/2026: tabellare 2025 × 13 mensilità + tabellare 2026 × 11 mensilità, meno l'IVC già percepita, ipotizzando l'entrata in vigore definitiva entro il 1/12/2026. Va riparametrata su data di assunzione, part time e somme già percepite. Ostetriche: 1.027 € sulla tutela del malato; tecnici e riabilitazione 769 €; OSS 644 €.");
   }
@@ -910,7 +910,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       ["FaBroom", "3 € al giorno", "Ausiliari e OTAA", "servizi disagiati (art. 68 c. 2)"],
       ["FaClock", "30 € l'ora", "Assistenza continuativa H24", "NPI, psichiatria fuori SPDC, medicina protetta"],
       ["FaBaby", "80 € a uscita", "Trasporto neonatale", "infermieri, ogni uscita dall'Azienda"],
-      ["FaChalkboardTeacher", "quota annua", "Tutor didattici", "fino ai nuovi incarichi: bandi entro novembre 2026"],
+      ["FaChalkboardTeacher", "quota annua", "Tutor didattici", "fino ai nuovi incarichi: bandi promessi entro novembre 2026"],
     ];
     const cw = 2.9, ch = 2.45;
     for (let i = 0; i < q.length; i++) {
@@ -1052,10 +1052,10 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addText("Chi coordina, chi è esperto, chi forma: quanto vale e come cambia", { placeholder: "body" });
     card(s, 9.4, 1.4, 3.3, 4.6, "0B4D28");
     s.addText([{ text: "+1.000 €", options: { fontSize: 50, bold: true, color: HEX.accent2, breakLine: true } },
-      { text: "l'anno a tutti i 106 coordinatori", options: { fontSize: 20, bold: true, color: "FFFFFF", breakLine: true } },
-      { text: "ad aprile l'Azienda proponeva 500 € a 45 di loro", options: { fontSize: 14, color: "CFE9D8" } }],
+      { text: "l'anno a tutti i 106 coordinatori, dal 2027", options: { fontSize: 19, bold: true, color: "FFFFFF", breakLine: true } },
+      { text: "concordato al tavolo del 18/11, in attesa di firma. Ad aprile l'Azienda proponeva 500 € a 45 di loro", options: { fontSize: 13, color: "CFE9D8" } }],
       { x: 9.6, y: 1.7, w: 2.9, h: 4, align: "center", valign: "middle", margin: 0, isTextBox: true });
-    s.addNotes("Il risultato annunciato nella mail del 18/11: +1.000 € annui per tutti gli incarichi di funzione organizzativa di coordinamento, con una nuova fascia nella graduazione.");
+    s.addNotes("Concordato al tavolo del 18/11/2026 (le organizzazioni presenti si sono dette disponibili a firmare; in attesa della sottoscrizione): +1.000 € annui dal 1/1/2027 per tutti gli incarichi di funzione organizzativa di coordinamento, con una nuova fascia nella graduazione.");
   }
   await fotoPiena(S3, "04-coordinatrice", "Responsabilità che finalmente hanno un valore.", "Coordinamenti, incarichi professionali, tutor");
   await videoSlide(S3, "03-incarichi", "Coordinatori e incarichi professionali");
@@ -1178,7 +1178,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       { x: M + 0.25, y: 1.8, w: 3.4, h: 2.9, align: "center", valign: "middle", margin: 0, isTextBox: true });
     s.addImage({ data: await icona("FaArrowRight", HEX.accent2), x: M + 4.05, y: 2.95, w: 0.6, h: 0.6, altText: "freccia" });
     card(s, M + 4.8, 1.65, 3.9, 3.2, HEX.accent2, { ombra: true });
-    s.addText([{ text: "OGGI", options: { fontSize: 12, bold: true, color: HEX.dk2, charSpacing: 3, breakLine: true } },
+    s.addText([{ text: "18/11 · CONCORDATO, IN ATTESA DI FIRMA", options: { fontSize: 11, bold: true, color: HEX.dk2, charSpacing: 1, breakLine: true } },
       { text: "+1.000 €", options: { fontSize: 54, bold: true, color: HEX.dk2, breakLine: true } },
       { text: "a tutti i 106 coordinatori", options: { fontSize: 16, color: HEX.dk2, breakLine: true } },
       { text: "106.000 € in tutto", options: { fontSize: 16, bold: true, color: HEX.dk2 } }],
@@ -1236,7 +1236,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const s = pres.addSlide({ masterName: "DIVISORE", sectionTitle: S3 });
     s.addText("Cosa cambia per te", { placeholder: "title" });
     s.addText("Le quattro cose da portarsi a casa dal punto 3", { placeholder: "body" });
-    const cose = ["Coordinatori: +1.000 € l'anno, tutti e 106", "Più 500 € di quota premiale 2026 ai coordinatori", "Tutor didattici: bandi e nel frattempo la quota", "Dal 2027 più soldi per gli incarichi di base"];
+    const cose = ["Coordinatori: +1.000 € l'anno dal 2027, tutti e 106 (da firmare)", "Più 500 € di quota premiale 2026 ai coordinatori", "Tutor didattici: bandi e nel frattempo la quota", "Dal 2027 più soldi per gli incarichi di base"];
     for (let i = 0; i < cose.length; i++) {
       const y = 0.9 + i * 1.4;
       card(s, 8.1, y, 4.65, 1.15, i % 2 ? "FFFFFF" : HEX.accent2);
@@ -1474,7 +1474,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addText("Il tempo lavora contro di te", { placeholder: "title" });
     await immagine(s, path.join(EV, "vertenze-tempo.jpg"), M, 1.5, 6.6, "Ogni mese che aspetti, il credito più vecchio esce dal conto");
     s.addText([{ text: "5 anni", options: { fontSize: 54, bold: true, color: HEX.accent2, breakLine: true } },
-      { text: "poi i crediti di lavoro si prescrivono. Ogni mese che passa, il più vecchio esce dal conto.", options: { fontSize: 18, color: "FFFFFF", breakLine: true } },
+      { text: "per festivo e indennità in ferie i crediti si prescrivono in 5 anni: ogni mese che passa, il più vecchio esce dal conto. Per i buoni pasto i termini li verifichiamo con l'avvocato.", options: { fontSize: 18, color: "FFFFFF", breakLine: true } },
       { text: " ", options: { fontSize: 10, breakLine: true } },
       { text: "La diffida firmata ferma l'orologio.", options: { fontSize: 18, bold: true, color: HEX.accent6 } }],
       { x: 7.6, y: 1.6, w: 5.1, h: 4.6, valign: "middle", margin: 0, isTextBox: true });
@@ -2177,7 +2177,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       { text: "Il TFS maturato si «congela» alla data di oggi e da lì cresce come il TFR", options: { bullet: true, breakLine: true } },
       { text: "Al Fondo vanno il 2% di TFR, l'1% tuo, l'1% dell'Azienda e un 1,2% in più dello Stato", options: { bullet: true, breakLine: true } },
       { text: "Il 2,5% in busta sparisce, ma il netto non cambia", options: { bullet: true, breakLine: true } },
-      { text: "Non si torna indietro", options: { bullet: true, bold: true, color: "C8102E" } }],
+      { text: "È una scelta che pesa: falla dopo un calcolo personale", options: { bullet: true, bold: true, color: "C8102E" } }],
       { x: M + 0.25, y: 1.6, w: 5.5, h: 4.75, fontSize: 15, color: C.text1, valign: "middle", margin: 0, isTextBox: true, paraSpaceAfter: 10 });
     const t = [["Esempio 2 · OSS di 50 anni, 26.000 €", "Netto"], ["Resta in TFS", "≈ 63.500 €"], ["Passa al TFR e aderisce (Fondo 2,5%)", "≈ 99.900 €"], ["Passa al TFR e aderisce (Fondo 4,0%)", "≈ 104.100 €"]];
     s.addTable(t.map((r, i) => r.map((c, j) => ({ text: c, options: { bold: i === 0 || j === 1, fontSize: i === 0 ? 13 : 15, color: i === 0 ? "FFFFFF" : (j === 1 && i > 1 ? HEX.accent1 : HEX.dk1),
@@ -2187,7 +2187,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     s.addText([{ text: "Può non convenire se:", options: { bold: true, color: HEX.dk2, breakLine: true } },
       { text: "l'ultimo stipendio sale molto (progressioni, incarichi) · mancano pochi anni · ti serve tutto in contanti. Serve un calcolo personale sull'estratto INPS.", options: { color: C.text1 } }],
       { x: 7.15, y: 4.3, w: 5.4, h: 2.1, fontSize: 14, valign: "middle", margin: 0, isTextBox: true });
-    s.addNotes("Esempio semplificato: 26 anni di servizio e 17 alla pensione, TFS di tipo IPS (1/15 dell'80% dell'ultima retribuzione per anno, DA VERIFICARE sull'estratto INPS), stipendi +2%. TFS congelato circa 36.000 € che diventano circa 54.800 € in 17 anni. Con stipendi +3%: 74.900 € contro 104.200-108.600 €. Il carattere irrevocabile dell'opzione va confermato su fonte primaria. Non dire «conviene sempre».");
+    s.addNotes("Esempio semplificato: 26 anni di servizio e 17 alla pensione, TFS di tipo IPS (1/15 dell'80% dell'ultima retribuzione per anno, DA VERIFICARE sull'estratto INPS), stipendi +2%. TFS congelato circa 36.000 € che diventano circa 54.800 € in 17 anni. Con stipendi +3%: 74.900 € contro 104.200-108.600 €. Se l'opzione si possa annullare non è confermato da fonte primaria: in sala non dire né «per sempre» né «si torna indietro». Non dire «conviene sempre».");
   }
   {
     const s = pres.addSlide({ masterName: "SCURO", sectionTitle: S9 });
@@ -2208,11 +2208,11 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });
     kicker(s, "Lezione 4 · scegliere il profilo");
     s.addText("Il comparto Garantito non è sempre il più sicuro", { placeholder: "title" });
-    s.addChart(pres.charts.BAR, [{ name: "Rendimento medio annuo a 10 anni", labels: ["Garantito Perseo Sirio", "TFR lasciato all'INPS"], values: [1.12, 2.5] }], {
+    s.addChart(pres.charts.BAR, [{ name: "Rendimento medio annuo a 10 anni", labels: ["Garantito Perseo Sirio", "TFR lasciato all'INPS"], values: [1.0, 2.5] }], {
       x: M, y: 1.45, w: 5.6, h: 4.6, barDir: "col", chartColors: ["9AA6A0", HEX.accent1], varyColors: true, showValue: true, dataLabelFormatCode: "0.00\"%\"", dataLabelPosition: "outEnd",
       dataLabelFontSize: 18, dataLabelFontBold: true, dataLabelColor: HEX.dk1, catAxisLabelFontSize: 13, catAxisLabelColor: HEX.dk1, catAxisLabelFontFace: "+mn-lt", valAxisHidden: true,
       valGridLine: { style: "none" }, catGridLine: { style: "none" }, showLegend: false, barGapWidthPct: 60 });
-    s.addText("Rendimenti netti al 31/12/2025", { x: M, y: 6.05, w: 5.6, h: 0.3, fontSize: 11, italic: true, color: "7A8B81", margin: 0, isTextBox: true });
+    s.addText("Rendimenti netti medi a 10 anni, valori indicativi al 31/12/2025", { x: M, y: 6.05, w: 5.6, h: 0.3, fontSize: 11, italic: true, color: "7A8B81", margin: 0, isTextBox: true });
     const c = [["Garantito", "2,70% nel 2025 · −5,06% nel 2022", "dove finisce chi è iscritto in silenzio"], ["Obbligazionario", "1,84% nel 2024 · 2,17% nel 2025", "attivo dal dicembre 2023"], ["Azionario", "12,26% nel 2024 · 6,29% nel 2025", "più oscillazioni, più rendimento nel lungo periodo"]];
     for (let i = 0; i < 3; i++) {
       const y = 1.5 + i * 1.6;
@@ -2222,7 +2222,7 @@ async function ricostruzione(sez, nome, kick, titolo, testo, nota) {
       s.addText(c[i][2], { x: 6.8, y: y + 0.65, w: 5.8, h: 0.6, fontSize: 13, color: C.text1, margin: 0, isTextBox: true });
     }
     s.addText("Regola semplice: più anni mancano alla pensione, più ha senso una linea con azioni, o il percorso Life Cycle che si fa più prudente con l'età.", { x: 6.6, y: 6.3, w: 6.15, h: 0.6, fontSize: 12.5, bold: true, color: HEX.dk2, margin: 0, isTextBox: true });
-    s.addNotes("Tre comparti (Garantito, Obbligazionario, Azionario) combinati in sei profili, compreso il Life Cycle. Garantito: 0,90% a 5 anni e 1,12% a 10 anni contro TFR 3,44% e 2,50%. Costi ISC a 10 anni: Garantito 0,60%, Obbligazionario 0,27%, Azionario 0,31%. I rendimenti passati non garantiscono quelli futuri. Fonte dei rendimenti medi: media ripresa da Sky TG24 perché il sito COVIP non era raggiungibile, da ricontrollare. Dal 1/1/2026 anche il TFR «virtuale» rende come il profilo scelto.");
+    s.addNotes("Tre comparti (Garantito, Obbligazionario, Azionario) combinati in sei profili, compreso il Life Cycle. Garantito: circa 1% medio annuo a 10 anni (Altroconsumo 1,0%; altre fonti 1,12%), contro circa 2,5% netto del TFR. Il sito del Fondo non è consultabile in automatico: verificare sulla Nota informativa. Costi ISC a 10 anni: Garantito 0,60%, Obbligazionario 0,27%, Azionario 0,31%. I rendimenti passati non garantiscono quelli futuri. Fonte dei rendimenti medi: media ripresa da Sky TG24 perché il sito COVIP non era raggiungibile, da ricontrollare. Dal 1/1/2026 anche il TFR «virtuale» rende come il profilo scelto.");
   }
   {
     const s = pres.addSlide({ masterName: "CONTENUTO", sectionTitle: S9 });

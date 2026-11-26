@@ -42,13 +42,13 @@
  },
  {
   "id": "s04",
-  "testo": "L'aumento parte dal primo gennaio duemilaventisette. E intanto, per il duemilaventisei, ai coordinatori va la quota premiale di cinquecento euro prevista dall'accordo di luglio.",
+  "testo": "L'aumento, concordato al tavolo il diciotto novembre e ora in attesa di firma, partirà dal primo gennaio duemilaventisette. E per il duemilaventisei ai coordinatori va la quota premiale di cinquecento euro.",
   "scena": {
    "tipo": "numero",
    "kicker": "COORDINATORI",
    "numero": "+1.000 €",
    "etichetta": "l'anno, dal 1° gennaio 2027",
-   "nota": "e nel 2026 la quota premiale di 500 €"
+   "nota": "concordato il 18/11, in attesa di firma · nel 2026 la quota premiale di 500 €"
   }
  },
  {

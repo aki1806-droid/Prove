@@ -127,12 +127,12 @@
    "titolo": "Garantito non vuol dire migliore",
    "sinistra": {
     "etichetta": "Garantito · 10 anni",
-    "valore": "1,12%",
-    "nota": "rendimento medio annuo"
+    "valore": "≈ 1%",
+    "nota": "rendimento medio annuo, indicativo"
    },
    "destra": {
     "etichetta": "TFR · 10 anni",
-    "valore": "2,50%",
+    "valore": "≈ 2,5%",
     "nota": "rivalutazione media annua"
    }
   }
