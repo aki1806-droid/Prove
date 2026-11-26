@@ -21,7 +21,7 @@ Tutte insieme, in una sola domanda a scelte multiple, appena arriva un pacchetto
 | Domanda | Risposte possibili | Note |
 |---|---|---|
 | **Con quale strumento faccio la voce?** | «HeyGen come passante» · «ElevenLabs diretto» | Si chiede **ogni volta**, anche se l'ultima risposta è stata la stessa |
-| **È per il provinciale o solo per l'Azienda Ospedale-Università?** | «Provinciale» (Padova e Rovigo: AOUP, ULSS 6 Euganea, ULSS 5 Polesana) · «Solo AOUP» | Regola dal 21/10/2026. Decide territori, canali WhatsApp e delegati |
+| **È per il provinciale o solo per l'Azienda Ospedale-Università?** | «Provinciale» (Padova e Rovigo: AOUP, ULSS 6 Euganea, ULSS 5 Polesana, IOV) · «Solo AOUP» | Regola dal 21/10/2026. Decide territori, canali WhatsApp e delegati |
 | **Su quale account HeyGen lavoro?** | di solito «quello del connettore» | I pacchetti PDRO lo chiedono sempre |
 | **Le grafiche/immagini come le faccio?** | animate · ferme con zoom · foto animate · clip in movimento | Dipende dal tipo di video |
 | **Che look dell'avatar?** (YouTube) | finora «19 Microfono a clip» | È lo stesso look del reel CISL: `e6d73d660d354b94b0a50c9692b7c34e` |

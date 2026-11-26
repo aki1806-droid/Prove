@@ -93,7 +93,7 @@ Costi misurati (API, ottobre 2026): voce di 2 minuti più chiusura ≈ 0,30 $; a
 
 1. **Con quale strumento faccio la voce?** HeyGen come passante (consigliato, una traccia per tutto il video) oppure
    ElevenLabs diretto. Si chiede **sempre**, anche se la risposta sembra ovvia.
-2. **Per chi è il video?** Provinciale (CISL FP Padova Rovigo: AOUP Padova, ULSS 6 Euganea, ULSS 5 Polesana, con i delegati
+2. **Per chi è il video?** Provinciale (CISL FP Padova Rovigo: AOUP Padova, ULSS 6 Euganea, ULSS 5 Polesana, IOV, con i delegati
    di ciascuno da `REFERENTI-CISL-FP.md`) oppure solo AOUP. Decide testi, didascalie, canali e contatti a schermo.
 3. **Su quale account HeyGen?** Il pacchetto lo chiede sempre. Con il connettore quasi esaurito, chiedere se usare la chiave
    API (e ricordare dove va messa).

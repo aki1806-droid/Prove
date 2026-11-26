@@ -27,3 +27,8 @@ convertito dalla L. 174/2026). Testo della voce scritto da Claude in 7 frasi e a
   la frase di Luca Ward «E dicci la tua: compila il sondaggio, trovi il link qui sotto.» (YysGEsbfrlPMPxzBhs7q, approvata).
   Scheda dei contatti 3,8 s, QR 6,5 s. Link anche nel TESTO_POST.md. Tempi con strumenti/ferie/tempi.py.
 - Uscita con il sondaggio: 73,0 s, −16,5 LUFS, QR letto dal video finito. Asset HeyGen: https://resource2.heygen.ai/video/f453bc178508462fafc81dbfc8802657/original.mp4
+
+## IOV (26/11/2026)
+- Achille: «manca lo IOV, del quale è sempre Fabio Turato il responsabile». Aggiunta la riga «IOV · Istituto Oncologico Veneto –
+  Fabio Turato 335 686 5715» nella scheda finale e nel TESTO_POST.md; aggiornati metodo/REFERENTI-CISL-FP.md, REGOLE-VIDEO.md,
+  METODO-COMPLETO.md.

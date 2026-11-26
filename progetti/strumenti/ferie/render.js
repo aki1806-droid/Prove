@@ -22,6 +22,8 @@ const PROV = `    <div class="ter">AOUP PADOVA</div>
     <div class="row"><span>Alessandro Piovan</span><b>335 746 9671</b></div>
     <div class="ter">ULSS 5 POLESANA</div>
     <div class="row"><span>Carlo Cogo</span><b>335 109 9506</b></div>
+    <div class="ter">IOV · ISTITUTO ONCOLOGICO VENETO</div>
+    <div class="row"><span>Fabio Turato</span><b>335 686 5715</b></div>
     <div style="margin-top:22px;padding-top:18px;border-top:3px solid #e3e9e5;font-weight:900;font-size:40px;color:var(--g2);text-align:center">fp.padova.rovigo@cisl.it</div>`;
 h = h.replace('__S5TITOLO__', VAR.s5titolo || 'HA CHIESTO<br>UN INCONTRO').replace('__S5PILL__', VAR.s5pill || 'Azienda ULSS 6 Euganea')
      .replace('__S5PILLSIZE__', VAR.s5pillsize || '50').replace('__DELEGATI__', VAR.delegati || PROV)
