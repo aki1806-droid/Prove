@@ -1,0 +1,173 @@
+{
+ "titolo": "ASSEMBLEA GENERALE 7 DICEMBRE – \"TOP 10: i motivi per esserci\"",
+ "formato": "9:16",
+ "scene": [
+  {
+   "scena": 1,
+   "titolo": "HOOK – Segnatelo",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[excited] Il sette dicembre, all'Azienda Ospedale Università di Padova, succede qualcosa che non capita spesso. [dramatically] TUTTO il comparto nella stessa sala. [warmly] Dati alla mano, documenti sul tavolo… [chuckles] e nessuna chiacchiera. [excited] Ecco perché non puoi mancare.",
+   "testo_sottotitoli": "Il sette dicembre, all'Azienda Ospedale Università di Padova, succede qualcosa che non capita spesso. Tutto il comparto nella stessa sala. Dati alla mano, documenti sul tavolo, e nessuna chiacchiera. Ecco perché non puoi mancare.",
+   "parole": 34,
+   "frame": [
+    "S01A",
+    "S01B"
+   ],
+   "foto": "bg_sala.png",
+   "regia": "Apertura da evento: buio, poi i fari si accendono e \"7 DIC\" si illumina al neon (flicker di 3 lampeggi + ronzio). Entra la foto della sala come polaroid; poi il bollino \"INGRESSO FREE e retribuito\" con pop.",
+   "tagli": [
+    0,
+    7.53
+   ]
+  },
+  {
+   "scena": 2,
+   "titolo": "LA CLASSIFICA",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[warmly] Abbiamo preparato una classifica. [excited] Dieci motivi per esserci! Si parte dal decimo. [short pause] [curious] E il primo, te lo anticipiamo… ti riguarda molto da vicino.",
+   "testo_sottotitoli": "Abbiamo preparato una classifica. Dieci motivi per esserci. Si parte dal decimo. E il primo, te lo anticipiamo, ti riguarda molto da vicino.",
+   "parole": 23,
+   "frame": [
+    "S02A"
+   ],
+   "foto": null,
+   "regia": "Stile hit-parade: \"TOP 10\" al neon, equalizzatore che pulsa a tempo di musica (beat 120 BPM), suono \"whoosh\" da classifica."
+  },
+  {
+   "scena": 3,
+   "titolo": "CLASSIFICA – Dal #10 Al #8",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[excited] Al decimo posto, la tua situazione previdenziale: pensione e futuro, spiegati semplice. [warmly] Al nono, gli andamenti occupazionali: chi entra, chi esce, e dove. [dramatically] All'ottavo, retention e benessere organizzativo: perché non basta assumere, bisogna anche far RESTARE.",
+   "testo_sottotitoli": "Al decimo posto, la tua situazione previdenziale: pensione e futuro, spiegati semplice. Al nono, gli andamenti occupazionali: chi entra, chi esce, e dove. All'ottavo, retention e benessere organizzativo: perché non basta assumere, bisogna anche far restare.",
+   "parole": 36,
+   "frame": [
+    "S03A",
+    "S03B",
+    "S03C"
+   ],
+   "foto": null,
+   "regia": "Ogni posizione entra dal lato con uno \"swoosh\" e il numero che \"rimbalza\"; una posizione per frase della voce. Sottofondo musicale energico.",
+   "tagli": [
+    0,
+    4.94,
+    9.31
+   ]
+  },
+  {
+   "scena": 4,
+   "titolo": "CLASSIFICA – Dal #7 Al #5",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[excited] Al settimo posto, il regolamento sugli incentivi per le funzioni tecniche. [happy] Al sesto, il welfare della Regione Veneto: i buoni da trecentocinquanta euro e come usarli. [dramatically] Al quinto, le vertenze legali: buono pasto, festivo infrasettimanale e indennità nelle ferie.",
+   "testo_sottotitoli": "Al settimo posto, il regolamento sugli incentivi per le funzioni tecniche. Al sesto, il welfare della Regione Veneto: i buoni da trecentocinquanta euro e come usarli. Al quinto, le vertenze legali: buono pasto, festivo infrasettimanale e indennità nelle ferie.",
+   "parole": 39,
+   "frame": [
+    "S04A",
+    "S04B",
+    "S04C"
+   ],
+   "foto": null,
+   "regia": "Ogni posizione entra dal lato con uno \"swoosh\" e il numero che \"rimbalza\"; una posizione per frase della voce. Sottofondo musicale energico.",
+   "tagli": [
+    0,
+    3.58,
+    8.8
+   ]
+  },
+  {
+   "scena": 5,
+   "titolo": "CLASSIFICA – Dal #4 Al #2",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[excited] Al quarto posto, il sistema degli incarichi. [warmly] Al terzo, gli accordi decentrati firmati in Azienda per il duemilaventisei, uno per uno, con la loro ratio. [dramatically] E al secondo posto… il nuovo contratto della sanità pubblica: cosa cambia, e quando.",
+   "testo_sottotitoli": "Al quarto posto, il sistema degli incarichi. Al terzo, gli accordi decentrati firmati in Azienda per il duemilaventisei, uno per uno, con la loro ratio. E al secondo posto, il nuovo contratto della sanità pubblica: cosa cambia, e quando.",
+   "parole": 39,
+   "frame": [
+    "S05A",
+    "S05B",
+    "S05C"
+   ],
+   "foto": null,
+   "regia": "Ogni posizione entra dal lato con uno \"swoosh\" e il numero che \"rimbalza\"; una posizione per frase della voce. Sottofondo musicale energico.",
+   "tagli": [
+    0,
+    2.6,
+    8.040000000000001
+   ]
+  },
+  {
+   "scena": 6,
+   "titolo": "IL NUMERO 1 – Tu",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[curious] E al primo posto? [short pause] [excited] TU. [warmly] Le tue domande, i tuoi dubbi, i problemi del tuo reparto. [slowly] Perché un'assemblea senza lavoratori è solo una riunione. [dramatically] Con te, diventa una voce che si fa sentire.",
+   "testo_sottotitoli": "E al primo posto? Tu. Le tue domande, i tuoi dubbi, i problemi del tuo reparto. Perché un'assemblea senza lavoratori è solo una riunione. Con te, diventa una voce che si fa sentire.",
+   "parole": 33,
+   "frame": [
+    "S06A",
+    "S06B"
+   ],
+   "foto": "c_10.png",
+   "regia": "Rullo di tamburi sul \"#1\"; stop della musica; poi \"TU.\" esplode al neon sulla foto della folla di colleghi (zoom lento). Applauso leggero in sottofondo.",
+   "tagli": [
+    0,
+    1.39
+   ]
+  },
+  {
+   "scena": 7,
+   "titolo": "IL BIGLIETTO – Quando e dove",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[excited] Segna tutto. [warmly] Lunedì sette dicembre, dalle sette e trenta alle tredici, in Aula Magna, al secondo piano della palazzina dei servizi. [happy] L'assemblea è in orario di lavoro ed è RETRIBUITA. È aperta a iscritti e simpatizzanti del comparto. [warmly] Organizzati con il tuo reparto, nel rispetto dei servizi minimi.",
+   "testo_sottotitoli": "Segna tutto. Lunedì sette dicembre, dalle sette e trenta alle tredici, in Aula Magna, al secondo piano della palazzina dei servizi. L'assemblea è in orario di lavoro ed è retribuita. È aperta a iscritti e simpatizzanti del comparto. Organizzati con il tuo reparto, nel rispetto dei servizi minimi.",
+   "parole": 48,
+   "frame": [
+    "S07A",
+    "S07B"
+   ],
+   "foto": null,
+   "regia": "Il biglietto d'ingresso scivola in scena e si \"timbra\"; le righe si accendono una alla volta sulla voce. Tenere il biglietto a schermo almeno 4 secondi.",
+   "tagli": [
+    0,
+    12.370000000000001
+   ]
+  },
+  {
+   "scena": 8,
+   "titolo": "PORTA UN COLLEGA",
+   "tipo": "GRAFICA",
+   "voce": "ElevenLabs · \"CISL FP – Voce calda 40 v4\" (voice ID JKBPFityf4CgC86y2ep8), modello eleven_v4 con tag – voce fuori campo",
+   "testo_voce": "[warmly] Non ti chiediamo di credere a noi. [slowly] Ti chiediamo di venire, guardare i documenti, fare domande e farti un'idea con la tua testa. [happy] E porta un collega: certe cose si capiscono meglio in tanti.",
+   "testo_sottotitoli": "Non ti chiediamo di credere a noi. Ti chiediamo di venire, guardare i documenti, fare domande e farti un'idea con la tua testa. E porta un collega: certe cose si capiscono meglio in tanti.",
+   "parole": 34,
+   "frame": [
+    "S08A",
+    "S08B"
+   ],
+   "foto": "bg_sala.png",
+   "regia": "Foto della sala con documenti, zoom lento. Capsula rosa \"PORTA UN COLLEGA\" con pop e suono di notifica: invito a condividere il video.",
+   "tagli": [
+    0,
+    6.77
+   ]
+  },
+  {
+   "scena": 9,
+   "titolo": "CHIUSURA – Achille",
+   "tipo": "GRAFICA + AVATAR",
+   "voce": "ElevenLabs · \"Achille nuovo 1 v4\" (atempo 1.12) + avatar HeyGen \"Aki with a lapel microphone\" in basso a destra",
+   "testo_voce": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Il sette dicembre ci mettiamo la faccia, e le carte. Venite in tanti: più siamo in sala, più pesa quello che diciamo al tavolo. Per informazioni chiamate me o Giovanna Vullo. Vi aspettiamo in Aula Magna.",
+   "testo_sottotitoli": "Sono Achille Pagliaro, CISL FP Padova Rovigo. Il sette dicembre ci mettiamo la faccia, e le carte. Venite in tanti: più siamo in sala, più pesa quello che diciamo al tavolo. Per informazioni chiamate me o Giovanna Vullo. Vi aspettiamo in Aula Magna.",
+   "parole": 43,
+   "frame": [
+    "S09A"
+   ],
+   "foto": null,
+   "regia": "Avatar \"Aki with a lapel microphone\" in basso a destra (area libera x>680, y>1100). Ultimo secondo: logo CISL FP + data a tutto schermo."
+  }
+ ]
+}
