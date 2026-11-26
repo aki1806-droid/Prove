@@ -32,3 +32,4 @@ convertito dalla L. 174/2026). Testo della voce scritto da Claude in 7 frasi e a
 - Achille: «manca lo IOV, del quale è sempre Fabio Turato il responsabile». Aggiunta la riga «IOV · Istituto Oncologico Veneto –
   Fabio Turato 335 686 5715» nella scheda finale e nel TESTO_POST.md; aggiornati metodo/REFERENTI-CISL-FP.md, REGOLE-VIDEO.md,
   METODO-COMPLETO.md.
+- Uscita con lo IOV: 73,0 s. Asset HeyGen: https://resource2.heygen.ai/video/ff199257a452444fabc91d90c75cfa2d/original.mp4
