@@ -21,3 +21,8 @@ convertito dalla L. 174/2026). Testo della voce scritto da Claude in 7 frasi e a
 - 63,8 s, 1080x1920, 30 fps, −16,5 LUFS, 13 MB (mandato in chat senza ricompressione).
 - Asset HeyGen (account 1): https://resource2.heygen.ai/video/515cd291d3b94b70959f593ace3b7284/original.mp4
 - Robin: in attesa dell'OK di Achille.
+
+## Sondaggio (26/11/2026, richiesta di Achille)
+- Nuova scena 8 «DICCI LA TUA» con QR code (verificato: si legge https://forms.gle/BgTcWb8KuUgcusv38), il link a schermo e
+  la frase di Luca Ward «E dicci la tua: compila il sondaggio, trovi il link qui sotto.» (YysGEsbfrlPMPxzBhs7q, approvata).
+  Scheda dei contatti 3,8 s, QR 6,5 s. Link anche nel TESTO_POST.md. Tempi con strumenti/ferie/tempi.py.

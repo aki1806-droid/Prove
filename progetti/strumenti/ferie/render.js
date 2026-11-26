@@ -24,7 +24,8 @@ const PROV = `    <div class="ter">AOUP PADOVA</div>
     <div class="row"><span>Carlo Cogo</span><b>335 109 9506</b></div>
     <div style="margin-top:22px;padding-top:18px;border-top:3px solid #e3e9e5;font-weight:900;font-size:40px;color:var(--g2);text-align:center">fp.padova.rovigo@cisl.it</div>`;
 h = h.replace('__S5TITOLO__', VAR.s5titolo || 'HA CHIESTO<br>UN INCONTRO').replace('__S5PILL__', VAR.s5pill || 'Azienda ULSS 6 Euganea')
-     .replace('__S5PILLSIZE__', VAR.s5pillsize || '50').replace('__DELEGATI__', VAR.delegati || PROV);
+     .replace('__S5PILLSIZE__', VAR.s5pillsize || '50').replace('__DELEGATI__', VAR.delegati || PROV)
+     .replace('__QR__', 'data:image/png;base64,' + fs.readFileSync(`${__dirname}/qr_sondaggio.png`).toString('base64'));
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({ viewport: { width: 1080, height: 1920 } });
   await p.setContent(h, { waitUntil: 'networkidle' }); await p.evaluate(() => document.fonts.ready);

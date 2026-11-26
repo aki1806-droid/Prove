@@ -12,5 +12,7 @@ Per qualsiasi dubbio contatta il tuo delegato di riferimento:
 🏥 ULSS 5 Polesana: Carlo Cogo 335 109 9506
 ✉️ fp.padova.rovigo@cisl.it
 
+📝 Dicci la tua, compila il sondaggio: https://forms.gle/BgTcWb8KuUgcusv38
+
 💚 CISL FP PADOVA ROVIGO
 #Ferie #DL144 #ULSS6 #CISLFP

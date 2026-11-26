@@ -11,5 +11,7 @@ Per qualsiasi dubbio:
 📞 Giovanna Vullo 389 928 5301
 ✉️ cisl.fp@aopd.veneto.it
 
+📝 Dicci la tua, compila il sondaggio: https://forms.gle/BgTcWb8KuUgcusv38
+
 💚 CISL FP PADOVA ROVIGO
 #Ferie #DL144 #AOUP #CISLFP

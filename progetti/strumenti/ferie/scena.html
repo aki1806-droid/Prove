@@ -112,6 +112,16 @@ __DELEGATI__
   </div>
 </div>
 
+<!-- S8 -->
+<div class="sc" id="s8">
+  <div id="t8a" class="big" style="position:absolute;left:0;right:0;top:300px;text-align:center;font-size:110px">DICCI<br><span style="color:var(--sun)">LA TUA</span></div>
+  <div class="card" id="qr" style="left:200px;right:200px;top:600px;padding:40px;text-align:center">
+    <img src="__QR__" style="width:600px;height:600px;display:block;margin:0 auto">
+    <div style="font-weight:900;font-size:40px;color:var(--g);margin-top:16px">COMPILA IL SONDAGGIO</div></div>
+  <div id="t8b" style="position:absolute;left:0;right:0;top:1440px;text-align:center"><div class="pill" style="background:#fff;color:var(--g);font-size:46px">forms.gle/BgTcWb8KuUgcusv38</div></div>
+  <div id="t8c" class="cap small" style="top:1590px">inquadra il QR code o usa il link nel post</div>
+</div>
+
 <script>
 const S = __SCENE__;
 const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
@@ -161,7 +171,9 @@ function render(t){
   // S7
   a=t-S[6].inizio; v=S[6].voce-S[6].inizio;
   pop($('t7a'),a,v,0.6);pop($('t7b'),a,v+2.0);pop($('del'),a,v+3.4,0.7,300);
-  const ff=cl((S[6].durata-a)/1.2);document.body.style.filter=`brightness(${ff})`;
+  if(S[7]){a=t-S[7].inizio; v=S[7].voce-S[7].inizio;
+    pop($('t8a'),a,0.1,0.6);pop($('qr'),a,v+0.6,0.7,300);pop($('t8b'),a,v+1.6);pop($('t8c'),a,v+2.2);}
+  const L=S[S.length-1];const ff=cl((L.inizio+L.durata-t)/1.2);document.body.style.filter=`brightness(${ff})`;
 }
 window.render=render;
 </script></body></html>
