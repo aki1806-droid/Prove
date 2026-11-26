@@ -29,3 +29,4 @@ Montaggio: strumenti/ferie/render.js (legge variante.json) e monta.py.
   autorizzato entro il 30 giugno, dopo il 30 giugno «PERSE». Fonte: art. 49 CCNL Sanità 2019-2021 (primo semestre
   dell'anno successivo), da verificare sul testo ufficiale. Musica allungata con una seconda copia in dissolvenza (monta.py).
 - Da verificare: il numero della legge di conversione (174/2026 nel testo di Achille; una fonte web riporta la L. 232/2026).
+- Uscita con il riporto: 95,0 s, −16,5 LUFS, QR verificato. Asset HeyGen: https://resource2.heygen.ai/video/a5890285056045bda19c92d99591a6dd/original.mp4

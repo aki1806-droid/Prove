@@ -42,3 +42,4 @@ convertito dalla L. 174/2026). Testo della voce scritto da Claude in 7 frasi e a
   autorizzato entro il 30 giugno, dopo il 30 giugno «PERSE». Fonte: art. 49 CCNL Sanità 2019-2021 (primo semestre
   dell'anno successivo), da verificare sul testo ufficiale. Musica allungata con una seconda copia in dissolvenza (monta.py).
 - Da verificare: il numero della legge di conversione (174/2026 nel testo di Achille; una fonte web riporta la L. 232/2026).
+- Uscita con il riporto: 94,2 s, −16,4 LUFS, QR verificato. Asset HeyGen: https://resource2.heygen.ai/video/1c90de16ec51435c9b3061c4b506a23f/original.mp4
