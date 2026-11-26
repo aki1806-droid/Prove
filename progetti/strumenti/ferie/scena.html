@@ -1,0 +1,177 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,800&display=swap" rel="stylesheet">
+<style>
+:root{--g:#06341F;--g2:#0B8A3E;--sun:#FFC83D;--sand:#F7E9CC;--red:#E5484D;--ink:#0F1F17}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff}
+#bg{position:absolute;inset:0;background:radial-gradient(1200px 900px at 50% 20%,#0E5A35 0%,#06341F 55%,#03200F 100%)}
+.blob{position:absolute;border-radius:50%;filter:blur(90px);opacity:.45}
+#grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.04) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.04) 2px,transparent 2px);background-size:90px 90px}
+#top{position:absolute;left:0;right:0;top:0;height:200px}
+#logo{position:absolute;left:48px;top:58px;height:96px;background:#fff;border-radius:18px;padding:10px 16px}
+#chip{position:absolute;right:48px;top:78px;background:rgba(255,255,255,.12);border:2px solid rgba(255,255,255,.25);border-radius:40px;padding:14px 26px;font-weight:800;font-size:26px;letter-spacing:3px}
+#bar{position:absolute;left:48px;right:48px;top:196px;height:8px;border-radius:4px;background:rgba(255,255,255,.12);overflow:hidden}
+#bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--sun),#FF9F43)}
+.sc{position:absolute;inset:0;opacity:0}
+.big{font-weight:900;letter-spacing:-2px;line-height:.95}
+.pill{display:inline-block;border-radius:60px;padding:22px 40px;font-weight:900;font-size:50px;letter-spacing:1px}
+.card{position:absolute;background:#fff;color:var(--ink);border-radius:36px;box-shadow:0 40px 80px rgba(0,0,0,.45)}
+.stamp{position:absolute;border:10px solid var(--red);color:var(--red);font-weight:900;border-radius:20px;padding:10px 30px;letter-spacing:4px;text-transform:uppercase;background:rgba(255,255,255,.02)}
+.cap{position:absolute;left:70px;right:70px;text-align:center;font-weight:800;font-size:54px;line-height:1.18}
+.cap em{font-style:normal;color:var(--sun)}.cap b{color:var(--red)}
+.small{font-weight:600;font-size:36px;color:rgba(255,255,255,.85)}
+.day{position:absolute;width:118px;height:118px;border-radius:22px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:40px;color:rgba(255,255,255,.75)}
+.day.f{background:var(--sun);color:var(--ink)}
+.chk{position:absolute;left:90px;right:90px;height:190px;border-radius:32px;background:#fff;color:var(--ink);display:flex;align-items:center;gap:34px;padding:0 40px;font-weight:800;font-size:46px;line-height:1.12;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+.chk span.k{flex:0 0 110px;height:110px;border-radius:50%;background:var(--g2);display:flex;align-items:center;justify-content:center;color:#fff;font-size:70px}
+.ter{font-weight:900;font-size:26px;letter-spacing:4px;color:var(--g2);margin:22px 0 6px}
+.row{display:flex;justify-content:space-between;font-size:33px;line-height:1.45;font-weight:600}.row b{font-weight:800}
+</style></head><body>
+<div id="bg"><div class="blob" id="b1" style="width:700px;height:700px;background:#FFC83D;left:-200px;top:300px"></div>
+<div class="blob" id="b2" style="width:800px;height:800px;background:#0B8A3E;right:-300px;top:1100px"></div></div>
+<div id="grid"></div>
+<div id="top"><img id="logo" src="__LOGO__"><div id="chip">FERIE · D.L. 144/2026</div><div id="bar"><i></i></div></div>
+
+<!-- S1 -->
+<div class="sc" id="s1">
+  <svg id="sun" style="position:absolute;left:290px;top:330px" width="500" height="500" viewBox="-250 -250 500 500">
+    <g id="rays">__RAYS__</g><circle r="130" fill="#FFC83D"/><circle r="130" fill="url(#sg)"/>
+    <defs><radialGradient id="sg"><stop offset="0" stop-color="#FFE38A"/><stop offset="1" stop-color="#FFB020"/></radialGradient></defs></svg>
+  <div id="ferie" class="big" style="position:absolute;left:0;right:0;top:780px;text-align:center;font-size:250px">__LETTERE__</div>
+  <div style="position:absolute;left:0;right:0;top:1120px;text-align:center">
+    <div class="pill" id="p1" style="background:#fff;color:var(--g)">NUOVE REGOLE</div></div>
+  <div style="position:absolute;left:0;right:0;top:1270px;text-align:center">
+    <div class="pill" id="p2" style="background:var(--sun);color:var(--ink)">TEMPI PRECISI</div></div>
+  <div style="position:absolute;left:0;right:0;top:1440px;text-align:center">
+    <div class="pill" id="p3" style="background:var(--red);color:#fff;font-size:62px;padding:28px 50px">⚠ RISCHIO DI PERDITA</div></div>
+</div>
+
+<!-- S2 -->
+<div class="sc" id="s2">
+  <div class="cap" style="top:300px;font-size:44px;letter-spacing:6px;color:var(--sun)">LA NORMA</div>
+  <div class="card" id="doc" style="left:110px;right:110px;top:420px;height:900px;padding:60px 60px">
+    <div style="font-weight:700;font-size:30px;letter-spacing:5px;color:#6b7a72">DECRETO LEGGE</div>
+    <div class="big" style="font-size:120px;color:var(--g)">n. 144/2026</div>
+    <div id="arrow" style="font-size:80px;color:var(--g2);font-weight:900;margin:24px 0 10px">↓ convertito</div>
+    <div style="font-weight:700;font-size:30px;letter-spacing:5px;color:#6b7a72">DALLA LEGGE</div>
+    <div class="big" style="font-size:120px;color:var(--g)">n. 174/2026</div>
+    <div id="art" style="display:inline-block;margin-top:46px;background:var(--g);color:#fff;border-radius:22px;padding:18px 34px;font-weight:900;font-size:52px">ART. 1 · FERIE</div>
+    <div style="position:absolute;left:60px;right:60px;bottom:50px;height:10px;border-radius:5px;background:#e6ece8"></div>
+  </div>
+  <div class="stamp" id="st2" style="right:130px;top:1060px;font-size:52px;transform:rotate(-10deg)">IN VIGORE</div>
+  <div class="cap" id="c2" style="top:1420px">Cambiano le regole sulla <em>fruizione delle ferie</em><br>nelle pubbliche amministrazioni</div>
+</div>
+
+<!-- S3 -->
+<div class="sc" id="s3">
+  <div class="cap" style="top:290px;font-size:44px;letter-spacing:6px;color:var(--sun)">IL RISCHIO</div>
+  <div id="cal" style="position:absolute;left:115px;top:390px;width:850px;height:780px">__GIORNI__</div>
+  <div id="tl" style="position:absolute;left:115px;right:115px;top:1200px;height:26px;border-radius:13px;background:rgba(255,255,255,.15);overflow:hidden"><i id="tlf" style="display:block;height:100%;width:0;background:linear-gradient(90deg,var(--sun),var(--red))"></i></div>
+  <div style="position:absolute;left:115px;right:115px;top:1236px;display:flex;justify-content:space-between" class="small"><span>periodo di riferimento</span><span>riporto autorizzato</span></div>
+  <div class="stamp" id="st3" style="left:250px;top:620px;font-size:110px;transform:rotate(-12deg);background:rgba(6,52,31,.6)">PERSE</div>
+  <div class="cap" id="c3" style="top:1360px">Le ferie <em>non fruite</em><br>possono andare <b>PERSE</b></div>
+  <div class="cap small" id="c3b" style="top:1530px">alla fine del periodo di riferimento<br>o del riporto eventualmente autorizzato</div>
+</div>
+
+<!-- S4 -->
+<div class="sc" id="s4">
+  <div class="cap" style="top:290px;font-size:44px;letter-spacing:6px;color:var(--sun)">LE CONSEGUENZE</div>
+  <svg id="coin" style="position:absolute;left:240px;top:420px" width="600" height="600" viewBox="-300 -300 600 600">
+    <circle r="260" fill="#FFB020"/><circle r="225" fill="#FFC83D"/><circle r="225" fill="none" stroke="#E89B0C" stroke-width="10" stroke-dasharray="16 14"/>
+    <text y="70" text-anchor="middle" font-family="Montserrat" font-weight="900" font-size="230" fill="#7A4E00">€</text>
+    <path id="crack" d="M-40,-260 L10,-120 L-30,-40 L30,60 L-10,150 L40,260" fill="none" stroke="#06341F" stroke-width="18" stroke-linejoin="round" stroke-dasharray="700" stroke-dashoffset="700"/></svg>
+  <div class="cap" id="c4" style="top:1120px">Effetti anche sull'<em>indennità economica</em><br>alla <b>cessazione</b> del rapporto di lavoro</div>
+</div>
+
+<!-- S5 -->
+<div class="sc" id="s5">
+  <div class="card" id="cisl" style="left:90px;right:90px;top:420px;height:820px;padding:70px 60px;text-align:center;background:linear-gradient(160deg,#fff,#F2FBF5)">
+    <img src="__LOGO__" style="height:190px">
+    <div class="big" style="font-size:96px;color:var(--g);margin-top:50px">HA CHIESTO<br>UN INCONTRO</div>
+    <div id="ulss" style="display:inline-block;margin-top:50px;background:var(--g);color:#fff;border-radius:24px;padding:20px 40px;font-weight:900;font-size:50px">Azienda ULSS 6 Euganea</div>
+  </div>
+  <div class="stamp" id="st5" style="right:110px;top:350px;font-size:76px;transform:rotate(8deg);background:#fff">URGENTE</div>
+  <div class="cap" id="c5" style="top:1340px">Per capire come si applica<br>la nuova disciplina <em>ai lavoratori</em></div>
+</div>
+
+<!-- S6 -->
+<div class="sc" id="s6">
+  <div class="cap" style="top:300px;font-size:44px;letter-spacing:6px;color:var(--sun)">L'OBIETTIVO</div>
+  <div class="chk" id="k1" style="top:430px"><span class="k">✓</span>Chiarire la norma</div>
+  <div class="chk" id="k2" style="top:660px"><span class="k">✓</span>Risposte organizzative concrete</div>
+  <div class="chk" id="k3" style="top:890px"><span class="k">✓</span>Uniformi in tutte le strutture</div>
+  <div class="cap" id="c6" style="top:1200px">Non solo chiarezza:<br><em>soluzioni</em> per chi lavora</div>
+</div>
+
+<!-- S7 -->
+<div class="sc" id="s7">
+  <div id="t7a" class="big" style="position:absolute;left:0;right:0;top:300px;text-align:center;font-size:92px">Le tue ferie<br>sono un <span style="color:var(--sun)">DIRITTO</span>.</div>
+  <div id="t7b" style="position:absolute;left:0;right:0;top:560px;text-align:center"><div class="pill" style="background:var(--red);color:#fff;font-size:58px">Non lasciarle scadere</div></div>
+  <div class="card" id="del" style="left:90px;right:90px;top:760px;padding:36px 54px 40px">
+    <div style="font-weight:900;font-size:44px;color:var(--g)">CHIEDI AL TUO DELEGATO</div>
+    <div class="ter">AOUP PADOVA</div>
+    <div class="row"><span>Achille Pagliaro</span><b>391 127 1018</b></div>
+    <div class="row"><span>Giovanna Vullo</span><b>389 928 5301</b></div>
+    <div class="ter">ULSS 6 EUGANEA</div>
+    <div class="row"><span>Fabio Turato</span><b>335 686 5715</b></div>
+    <div class="row"><span>Brenda Bergo</span><b>339 313 5967</b></div>
+    <div class="row"><span>Emiliano Bedon</span><b>346 743 0752</b></div>
+    <div class="row"><span>Alessandro Piovan</span><b>335 746 9671</b></div>
+    <div class="ter">ULSS 5 POLESANA</div>
+    <div class="row"><span>Carlo Cogo</span><b>335 109 9506</b></div>
+    <div style="margin-top:22px;padding-top:18px;border-top:3px solid #e3e9e5;font-weight:900;font-size:40px;color:var(--g2);text-align:center">fp.padova.rovigo@cisl.it</div>
+  </div>
+</div>
+
+<script>
+const S = __SCENE__;
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const eo=x=>1-Math.pow(1-cl(x),3);                       // ease out
+const bk=x=>{x=cl(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};   // ease out back
+const $=id=>document.getElementById(id);
+function pop(el,t,t0,d=0.5,dy=60){const p=(t-t0)/d;el.style.opacity=cl(p*1.6);el.style.transform=`translateY(${(1-eo(p))*dy}px) scale(${0.85+0.15*bk(p)})`}
+function slam(el,t,t0,rot){const p=cl((t-t0)/0.35);el.style.opacity=p>0?1:0;el.style.transform=`rotate(${rot}deg) scale(${2.4-1.4*eo(p)})`}
+function render(t){
+  const T=S[S.length-1].inizio+S[S.length-1].durata;
+  $('bar').firstElementChild.style.width=(100*t/T)+'%';
+  $('b1').style.transform=`translate(${Math.sin(t*.3)*120}px,${Math.cos(t*.23)*90}px)`;
+  $('b2').style.transform=`translate(${Math.cos(t*.27)*110}px,${Math.sin(t*.31)*120}px)`;
+  S.forEach((s,i)=>{const el=$('s'+s.n),a=t-s.inizio,d=s.durata;
+    let o=cl(a/0.45)*(i==S.length-1?1:cl((d-a)/0.45));el.style.opacity=o;el.style.transform=`translateY(${(1-cl(a/0.45))*40}px) scale(${1+(1-cl((d-a)/0.45))*0.04})`;
+    el.style.display=(a<-0.1||a>d+0.1)?'none':'block';});
+  // S1
+  let a=t-S[0].inizio, v=S[0].voce-S[0].inizio;
+  $('sun').style.transform=`translateY(${(1-eo(a/1.2))*400}px)`;$('sun').style.opacity=cl(a/0.6);
+  $('rays').setAttribute('transform',`rotate(${a*12})`);
+  [...document.querySelectorAll('#ferie span')].forEach((e,k)=>{const p=(a-0.15-k*0.12)/0.5;e.style.opacity=cl(p*2);e.style.transform=`translateY(${(1-bk(p))*-260}px)`});
+  pop($('p1'),a,v+0.75);pop($('p2'),a,v+1.7);pop($('p3'),a,v+2.9);
+  if(a>v+3.4)$('p3').style.transform+=` rotate(${Math.sin((a-v-3.4)*40)*Math.max(0,1-(a-v-3.4)*2)*3}deg)`;
+  // S2
+  a=t-S[1].inizio; v=S[1].voce-S[1].inizio;
+  pop($('doc'),a,0.1,0.7,200);pop($('arrow'),a,v+3.0,0.5,-30);pop($('art'),a,v+5.5);slam($('st2'),a,v+6.6,-10);pop($('c2'),a,v+7.4);
+  // S3
+  a=t-S[2].inizio; v=S[2].voce-S[2].inizio;
+  [...document.querySelectorAll('.day')].forEach((e,k)=>{const p=(a-0.05-k*0.018)/0.35;e.style.opacity=cl(p);e.style.transform=`scale(${0.6+0.4*bk(p)})`;
+    if(e.classList.contains('f')){const q=cl((a-v-2.8-k*0.02)/0.8);e.style.filter=`grayscale(${q})`;e.style.opacity=cl(p)*(1-0.65*q)}});
+  $('tlf').style.width=(100*cl((a-v)/(S[2].dv)))+'%';
+  slam($('st3'),a,v+3.6,-12);pop($('c3'),a,v+0.4);pop($('c3b'),a,v+3.9);
+  // S4
+  a=t-S[3].inizio; v=S[3].voce-S[3].inizio;
+  $('coin').style.opacity=cl(a/0.4);$('coin').style.transform=`scale(${0.7+0.3*bk(a/0.7)}) rotateY(${(1-eo(a/1.2))*180}deg)`;
+  const cr=cl((a-v-1.9)/0.5);$('crack').setAttribute('stroke-dashoffset',700*(1-cr));
+  if(cr>=1){const sh=Math.max(0,1-(a-v-2.4)*3);$('coin').style.transform+=` translateX(${Math.sin(a*60)*14*sh}px)`}
+  pop($('c4'),a,v+0.5);
+  // S5
+  a=t-S[4].inizio; v=S[4].voce-S[4].inizio;
+  pop($('cisl'),a,0.1,0.6,200);slam($('st5'),a,v+2.3,8);pop($('ulss'),a,v+3.3);pop($('c5'),a,v+4.4);
+  // S6
+  a=t-S[5].inizio; v=S[5].voce-S[5].inizio;
+  [['k1',0.5],['k2',3.1],['k3',4.9]].forEach(([id,o])=>{const e=$(id),p=(a-v-o)/0.5;e.style.opacity=cl(p*1.5);e.style.transform=`translateX(${(1-eo(p))*-700}px)`;
+    e.firstElementChild.style.transform=`scale(${bk((a-v-o-0.25)/0.4)})`});
+  pop($('c6'),a,v+6.2);
+  // S7
+  a=t-S[6].inizio; v=S[6].voce-S[6].inizio;
+  pop($('t7a'),a,v,0.6);pop($('t7b'),a,v+2.0);pop($('del'),a,v+3.4,0.7,300);
+  const ff=cl((S[6].durata-a)/1.2);document.body.style.filter=`brightness(${ff})`;
+}
+window.render=render;
+</script></body></html>
