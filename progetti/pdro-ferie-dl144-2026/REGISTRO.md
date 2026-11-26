@@ -33,3 +33,12 @@ convertito dalla L. 174/2026). Testo della voce scritto da Claude in 7 frasi e a
   Fabio Turato 335 686 5715» nella scheda finale e nel TESTO_POST.md; aggiornati metodo/REFERENTI-CISL-FP.md, REGOLE-VIDEO.md,
   METODO-COMPLETO.md.
 - Uscita con lo IOV: 73,0 s. Asset HeyGen: https://resource2.heygen.ai/video/ff199257a452444fabc91d90c75cfa2d/original.mp4
+
+## Periodo di riporto (27/11/2026, richiesta di Achille)
+- Nuova scena 3b dopo «Il rischio» (testo di Claude approvato da Achille, «solo con esigenze di servizio»): «Cos'è il periodo di
+  riporto? Se per motivate esigenze di servizio non riesci a fare le ferie entro l'anno, puoi farle entro il primo semestre
+  dell'anno successivo: cioè entro il trenta giugno, come prevede il contratto. Ma solo se il riporto è autorizzato. Dopo, le
+  ferie possono andare perse.» (obLFrPXFsWI8QMXWktvg, 19,1 s). A schermo: anno di maturazione 1 gen → 31 dic, riporto
+  autorizzato entro il 30 giugno, dopo il 30 giugno «PERSE». Fonte: art. 49 CCNL Sanità 2019-2021 (primo semestre
+  dell'anno successivo), da verificare sul testo ufficiale. Musica allungata con una seconda copia in dissolvenza (monta.py).
+- Da verificare: il numero della legge di conversione (174/2026 nel testo di Achille; una fonte web riporta la L. 232/2026).

@@ -1,6 +1,8 @@
 [
  {
   "n": 1,
+  "id": "1",
+  "file": "voce_01.mp3",
   "inizio": 0,
   "durata": 6.96,
   "voce": 0.7,
@@ -8,6 +10,8 @@
  },
  {
   "n": 2,
+  "id": "2",
+  "file": "voce_02.mp3",
   "inizio": 6.96,
   "durata": 12.84,
   "voce": 7.46,
@@ -15,6 +19,8 @@
  },
  {
   "n": 3,
+  "id": "3",
+  "file": "voce_03.mp3",
   "inizio": 19.8,
   "durata": 9.01,
   "voce": 20.3,
@@ -22,37 +28,56 @@
  },
  {
   "n": 4,
+  "id": "3b",
+  "file": "voce_03b.mp3",
   "inizio": 28.81,
-  "durata": 6.28,
+  "durata": 21.22,
   "voce": 29.31,
-  "dv": 4.78
+  "dv": 19.12
  },
  {
   "n": 5,
-  "inizio": 35.09,
-  "durata": 6.72,
-  "voce": 35.59,
-  "dv": 5.22
+  "id": "4",
+  "file": "voce_04.mp3",
+  "inizio": 50.03,
+  "durata": 6.28,
+  "voce": 50.53,
+  "dv": 4.78
  },
  {
   "n": 6,
-  "inizio": 41.81,
-  "durata": 8.5,
-  "voce": 42.31,
-  "dv": 7.0
+  "id": "5",
+  "file": "voce_05.mp3",
+  "inizio": 56.31,
+  "durata": 6.72,
+  "voce": 56.81,
+  "dv": 5.22
  },
  {
   "n": 7,
-  "inizio": 50.31,
-  "durata": 11.8,
-  "voce": 50.81,
-  "dv": 7.5
+  "id": "6",
+  "file": "voce_06.mp3",
+  "inizio": 63.03,
+  "durata": 8.5,
+  "voce": 63.53,
+  "dv": 7.0
  },
  {
   "n": 8,
-  "inizio": 62.11,
+  "id": "7",
+  "file": "voce_07.mp3",
+  "inizio": 71.53,
+  "durata": 11.8,
+  "voce": 72.03,
+  "dv": 7.5
+ },
+ {
+  "n": 9,
+  "id": "8",
+  "file": "voce_08.mp3",
+  "inizio": 83.33,
   "durata": 10.87,
-  "voce": 62.61,
+  "voce": 83.83,
   "dv": 3.87
  }
 ]

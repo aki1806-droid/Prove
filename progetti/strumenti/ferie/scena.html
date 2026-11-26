@@ -72,6 +72,26 @@
   <div class="cap small" id="c3b" style="top:1530px">alla fine del periodo di riferimento<br>o del riporto eventualmente autorizzato</div>
 </div>
 
+<!-- S3b: il periodo di riporto -->
+<div class="sc" id="s3b">
+  <div class="cap" style="top:290px;font-size:44px;letter-spacing:6px;color:var(--sun)">COS'È IL PERIODO DI RIPORTO?</div>
+  <div class="card" id="rq" style="left:90px;right:90px;top:400px;padding:34px 44px;font-weight:800;font-size:44px;line-height:1.2;color:var(--g)">
+    Ferie non fatte entro l'anno per <span style="color:#B87900">motivate esigenze di servizio</span></div>
+  <div id="rl" style="position:absolute;left:90px;right:90px;top:720px;height:620px">
+    <div id="ra" style="position:absolute;left:0;top:0;height:150px;width:560px;border-radius:28px;background:rgba(255,255,255,.14);border:3px solid rgba(255,255,255,.3);padding:22px 30px">
+      <div style="font-weight:900;font-size:30px;letter-spacing:4px;color:rgba(255,255,255,.8)">ANNO DI MATURAZIONE</div>
+      <div style="font-weight:900;font-size:46px;margin-top:8px">1 gen → 31 dic</div></div>
+    <div id="rb" style="position:absolute;left:0;top:200px;height:150px;width:900px;border-radius:28px;background:var(--sun);color:var(--ink);padding:22px 30px">
+      <div style="font-weight:900;font-size:30px;letter-spacing:4px">RIPORTO AUTORIZZATO</div>
+      <div style="font-weight:900;font-size:46px;margin-top:8px">entro il 30 giugno dell'anno dopo</div></div>
+    <div id="rc" style="position:absolute;left:0;top:400px;height:150px;width:900px;border-radius:28px;background:var(--red);padding:22px 30px">
+      <div style="font-weight:900;font-size:30px;letter-spacing:4px">DOPO IL 30 GIUGNO</div>
+      <div style="font-weight:900;font-size:46px;margin-top:8px">le ferie possono andare PERSE</div></div>
+  </div>
+  <div class="cap" id="c3r" style="top:1360px">Solo se il riporto<br>è <em>autorizzato</em></div>
+  <div class="cap small" id="c3r2" style="top:1520px">come prevede il contratto</div>
+</div>
+
 <!-- S4 -->
 <div class="sc" id="s4">
   <div class="cap" style="top:290px;font-size:44px;letter-spacing:6px;color:var(--sun)">LE CONSEGUENZE</div>
@@ -130,48 +150,54 @@ const bk=x=>{x=cl(x);const c=1.9;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2
 const $=id=>document.getElementById(id);
 function pop(el,t,t0,d=0.5,dy=60){const p=(t-t0)/d;el.style.opacity=cl(p*1.6);el.style.transform=`translateY(${(1-eo(p))*dy}px) scale(${0.85+0.15*bk(p)})`}
 function slam(el,t,t0,rot){const p=cl((t-t0)/0.35);el.style.opacity=p>0?1:0;el.style.transform=`rotate(${rot}deg) scale(${2.4-1.4*eo(p)})`}
+const Q=Object.fromEntries(S.map(s=>[s.id,s]));
 function render(t){
   const T=S[S.length-1].inizio+S[S.length-1].durata;
   $('bar').firstElementChild.style.width=(100*t/T)+'%';
   $('b1').style.transform=`translate(${Math.sin(t*.3)*120}px,${Math.cos(t*.23)*90}px)`;
   $('b2').style.transform=`translate(${Math.cos(t*.27)*110}px,${Math.sin(t*.31)*120}px)`;
-  S.forEach((s,i)=>{const el=$('s'+s.n),a=t-s.inizio,d=s.durata;
+  S.forEach((s,i)=>{const el=$('s'+s.id),a=t-s.inizio,d=s.durata;
     let o=cl(a/0.45)*(i==S.length-1?1:cl((d-a)/0.45));el.style.opacity=o;el.style.transform=`translateY(${(1-cl(a/0.45))*40}px) scale(${1+(1-cl((d-a)/0.45))*0.04})`;
     el.style.display=(a<-0.1||a>d+0.1)?'none':'block';});
   // S1
-  let a=t-S[0].inizio, v=S[0].voce-S[0].inizio;
+  let a=t-Q['1'].inizio, v=Q['1'].voce-Q['1'].inizio;
   $('sun').style.transform=`translateY(${(1-eo(a/1.2))*400}px)`;$('sun').style.opacity=cl(a/0.6);
   $('rays').setAttribute('transform',`rotate(${a*12})`);
   [...document.querySelectorAll('#ferie span')].forEach((e,k)=>{const p=(a-0.15-k*0.12)/0.5;e.style.opacity=cl(p*2);e.style.transform=`translateY(${(1-bk(p))*-260}px)`});
   pop($('p1'),a,v+0.75);pop($('p2'),a,v+1.7);pop($('p3'),a,v+2.9);
   if(a>v+3.4)$('p3').style.transform+=` rotate(${Math.sin((a-v-3.4)*40)*Math.max(0,1-(a-v-3.4)*2)*3}deg)`;
   // S2
-  a=t-S[1].inizio; v=S[1].voce-S[1].inizio;
+  a=t-Q['2'].inizio; v=Q['2'].voce-Q['2'].inizio;
   pop($('doc'),a,0.1,0.7,200);pop($('arrow'),a,v+3.0,0.5,-30);pop($('art'),a,v+5.5);slam($('st2'),a,v+6.6,-10);pop($('c2'),a,v+7.4);
   // S3
-  a=t-S[2].inizio; v=S[2].voce-S[2].inizio;
+  a=t-Q['3'].inizio; v=Q['3'].voce-Q['3'].inizio;
   [...document.querySelectorAll('.day')].forEach((e,k)=>{const p=(a-0.05-k*0.018)/0.35;e.style.opacity=cl(p);e.style.transform=`scale(${0.6+0.4*bk(p)})`;
     if(e.classList.contains('f')){const q=cl((a-v-2.8-k*0.02)/0.8);e.style.filter=`grayscale(${q})`;e.style.opacity=cl(p)*(1-0.65*q)}});
-  $('tlf').style.width=(100*cl((a-v)/(S[2].dv)))+'%';
+  $('tlf').style.width=(100*cl((a-v)/(Q['3'].dv)))+'%';
   slam($('st3'),a,v+3.6,-12);pop($('c3'),a,v+0.4);pop($('c3b'),a,v+3.9);
+  // S3b
+  if(Q['3b']){a=t-Q['3b'].inizio; v=Q['3b'].voce-Q['3b'].inizio;
+    pop($('rq'),a,v+2.3,0.6,80);
+    [['ra',4.8],['rb',7.0],['rc',16.8]].forEach(([id,o])=>{const e=$(id),p=(a-v-o)/0.55;e.style.opacity=cl(p*1.5);e.style.transform=`translateX(${(1-eo(p))*-900}px)`});
+    pop($('c3r'),a,v+14.1);pop($('c3r2'),a,v+12.2);}
   // S4
-  a=t-S[3].inizio; v=S[3].voce-S[3].inizio;
+  a=t-Q['4'].inizio; v=Q['4'].voce-Q['4'].inizio;
   $('coin').style.opacity=cl(a/0.4);$('coin').style.transform=`scale(${0.7+0.3*bk(a/0.7)}) rotateY(${(1-eo(a/1.2))*180}deg)`;
   const cr=cl((a-v-1.9)/0.5);$('crack').setAttribute('stroke-dashoffset',700*(1-cr));
   if(cr>=1){const sh=Math.max(0,1-(a-v-2.4)*3);$('coin').style.transform+=` translateX(${Math.sin(a*60)*14*sh}px)`}
   pop($('c4'),a,v+0.5);
   // S5
-  a=t-S[4].inizio; v=S[4].voce-S[4].inizio;
+  a=t-Q['5'].inizio; v=Q['5'].voce-Q['5'].inizio;
   pop($('cisl'),a,0.1,0.6,200);slam($('st5'),a,v+2.3,8);pop($('ulss'),a,v+3.3);pop($('c5'),a,v+4.4);
   // S6
-  a=t-S[5].inizio; v=S[5].voce-S[5].inizio;
+  a=t-Q['6'].inizio; v=Q['6'].voce-Q['6'].inizio;
   [['k1',0.5],['k2',3.1],['k3',4.9]].forEach(([id,o])=>{const e=$(id),p=(a-v-o)/0.5;e.style.opacity=cl(p*1.5);e.style.transform=`translateX(${(1-eo(p))*-700}px)`;
     e.firstElementChild.style.transform=`scale(${bk((a-v-o-0.25)/0.4)})`});
   pop($('c6'),a,v+6.2);
   // S7
-  a=t-S[6].inizio; v=S[6].voce-S[6].inizio;
+  a=t-Q['7'].inizio; v=Q['7'].voce-Q['7'].inizio;
   pop($('t7a'),a,v,0.6);pop($('t7b'),a,v+2.0);pop($('del'),a,v+3.4,0.7,300);
-  if(S[7]){a=t-S[7].inizio; v=S[7].voce-S[7].inizio;
+  if(Q['8']){a=t-Q['8'].inizio; v=Q['8'].voce-Q['8'].inizio;
     pop($('t8a'),a,0.1,0.6);pop($('qr'),a,v+0.6,0.7,300);pop($('t8b'),a,v+1.6);pop($('t8c'),a,v+2.2);}
   const L=S[S.length-1];const ff=cl((L.inizio+L.durata-t)/1.2);document.body.style.filter=`brightness(${ff})`;
 }
