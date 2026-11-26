@@ -9,3 +9,8 @@ ElevenLabs diretto) della versione provinciale in ../pdro-ferie-dl144-2026, con 
 - TESTO_POST.md riscritto da Claude dal testo di Achille, senza l'ULSS 6 e senza dire che l'incontro è già stato chiesto
   all'AOUP: da far rivedere ad Achille.
 Montaggio: strumenti/ferie/render.js (legge variante.json) e monta.py.
+
+## Uscita (26/11/2026)
+- 64,6 s, 1080x1920, 30 fps, −16,5 LUFS, 13 MB, mandato in chat.
+- Asset HeyGen (account 1): https://resource2.heygen.ai/video/332361b196974b3ba96fc076686eee82/original.mp4
+- Robin: in attesa dell'OK di Achille.
