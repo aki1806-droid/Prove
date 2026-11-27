@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cordata CRM</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="brand"><span class="logo">C</span> Cordata</div>
+    <nav id="nav"></nav>
+    <div class="side-foot">
+      <label>Operatore<select id="me"></select></label>
+      <button id="reset" class="ghost">Ripristina dati di esempio</button>
+    </div>
+  </aside>
+  <main id="view"></main>
+</div>
+<div id="modal" class="modal" hidden></div>
+<div id="toast" class="toast" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>
