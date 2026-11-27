@@ -1,13 +1,14 @@
 // Pagine viste dai clienti: /p/prenota/:slug, /p/modulo/:slug, /p/pagina/:slug, /p/area/:token
 const root = document.getElementById('root');
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const safeUrl = u => (/^(https?:\/\/|\/)/i.test(String(u || '')) ? u : '#');
+const safeUrl = u => (window.DEMO && /^\/p\//.test(String(u || '')) ? '#' + u : /^(https?:\/\/|\/)/i.test(String(u || '')) ? u : '#');
 const dt = s => new Date(s).toLocaleString('it-IT', { weekday: 'long', day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' });
 const pad = n => String(n).padStart(2, '0');
 const iso = d => `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
 const FOOT = '<footer>Pagina creata con Cordata CRM</footer>';
 
 async function api(path, method = 'GET', body) {
+  if (window.DEMO_API) return window.DEMO_API('/api/public/' + path, method, body);
   const r = await fetch('/api/public/' + path, { method, headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(j.error || 'Errore ' + r.status);
@@ -96,8 +97,9 @@ const pages = {
   },
 };
 
-(async () => {
-  const [, , kind, key] = location.pathname.split('/');
-  try { if (!pages[kind]) throw new Error('Pagina non trovata'); await pages[kind](decodeURIComponent(key || '')); }
+async function boot(kind, key) {
+  try { if (!pages[kind]) throw new Error('Pagina non trovata'); await pages[kind](key); }
   catch (e) { root.innerHTML = `<div class="card empty">${esc(e.message)}</div>`; }
-})();
+}
+if (window.DEMO) window.__public = boot;
+else { const [, , kind, key] = location.pathname.split('/'); boot(kind, decodeURIComponent(key || '')); }

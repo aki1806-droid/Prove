@@ -187,10 +187,10 @@ function readBody(req) {
   });
 }
 
-async function api(req, url) {
+async function api(req, url, pre) {
   const seg = url.pathname.split('/').filter(Boolean).slice(1).map(decodeURIComponent); // senza "api"
   const M = req.method;
-  const body = M === 'POST' || M === 'PUT' ? await readBody(req) : {};
+  const body = pre !== undefined ? pre : M === 'POST' || M === 'PUT' ? await readBody(req) : {};
   const [a, b, c, d] = seg;
 
   // --- pubblico (pagine condivise con i clienti) ---
@@ -341,7 +341,7 @@ function serveStatic(res, url) {
   });
 }
 
-const server = http.createServer(async (req, res) => {
+const handler = async (req, res) => {
   const url = new URL(req.url, 'http://localhost');
   if (!url.pathname.startsWith('/api/')) return serveStatic(res, url);
   try {
@@ -351,8 +351,10 @@ const server = http.createServer(async (req, res) => {
     if (!e.status) console.error(e);
     res.writeHead(e.status || 500, { 'Content-Type': 'application/json; charset=utf-8' }).end(JSON.stringify({ error: e.status ? e.message : 'Errore interno' }));
   }
-});
+};
 
 seedIfEmpty();
 engine.startTicker();
-server.listen(PORT, () => console.log(`Cordata CRM in ascolto su http://localhost:${PORT}`));
+// Avviato da riga di comando apre la porta; la versione di prova nel browser (build-demo.js) usa solo api().
+if (require.main === module) http.createServer(handler).listen(PORT, () => console.log(`Cordata CRM in ascolto su http://localhost:${PORT}`));
+module.exports = { api };

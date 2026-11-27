@@ -14,6 +14,7 @@ const S = { users: [], stages: [], me: 1 };
 try { S.me = Number(localStorage.getItem('cordata.me')) || 1; } catch { /* archivio non disponibile */ }
 
 async function api(path, method = 'GET', body) {
+  if (window.DEMO_API) return window.DEMO_API('/api/' + path, method, body);
   const r = await fetch('/api/' + path, { method, headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined });
   const j = await r.json().catch(() => ({}));
   if (!r.ok) throw new Error(j.error || 'Errore ' + r.status);
@@ -31,7 +32,7 @@ const tags = a => (a || []).map(t => `<span class="tag">${esc(t)}</span>`).join(
 const cname = c => esc(`${c.first_name || ''} ${c.last_name || ''}`.trim());
 const userOpts = () => [['', '— nessuno —'], ...S.users.map(u => [u.id, u.name])];
 const stageOpts = () => S.stages.map(s => [s.id, s.name]);
-const publicLink = p => `<a href="${esc(p)}" target="_blank" rel="noopener">${esc(location.origin + p)}</a>`;
+const publicLink = p => window.DEMO ? `<a href="#${esc(p)}">Apri la pagina pubblica</a>` : `<a href="${esc(p)}" target="_blank" rel="noopener">${esc(location.origin + p)}</a>`;
 
 // ---------- campi, finestre e editor a lista ----------
 function fieldHtml(f, v) {
@@ -53,6 +54,17 @@ function readValue(el) {
 }
 const collect = root => Object.fromEntries($$('[data-k]', root).map(el => [el.dataset.k, readValue(el)]));
 
+// Conferma dentro la pagina (i dialoghi del browser non sono sempre disponibili).
+function ask(msg) {
+  return new Promise(res => {
+    const o = document.createElement('div'); o.className = 'modal'; o.style.zIndex = 30;
+    o.innerHTML = `<div class="dialog"><p>${esc(msg)}</p><div class="actions"><button class="primary" data-y>Conferma</button><button data-n>Annulla</button></div></div>`;
+    document.body.append(o);
+    const done = v => { o.remove(); res(v); };
+    o.querySelector('[data-y]').onclick = () => done(true); o.querySelector('[data-n]').onclick = () => done(false);
+    o.querySelector('[data-y]').focus();
+  });
+}
 function closeModal() { $('#modal').hidden = true; $('#modal').innerHTML = ''; }
 function formModal(title, fields, values, onSave, onDelete) {
   const m = $('#modal');
@@ -60,7 +72,7 @@ function formModal(title, fields, values, onSave, onDelete) {
     <div class="actions"><button class="primary">Salva</button><button type="button" data-x>Annulla</button><span class="sp"></span>${onDelete ? '<button type="button" class="danger" data-del>Elimina</button>' : ''}</div></form>`;
   m.hidden = false;
   $('[data-x]', m).onclick = closeModal;
-  if (onDelete) $('[data-del]', m).onclick = guard(async () => { if (confirm('Eliminare definitivamente?')) { await onDelete(); closeModal(); } });
+  if (onDelete) $('[data-del]', m).onclick = guard(async () => { if (await ask('Eliminare definitivamente?')) { await onDelete(); closeModal(); } });
   $('form', m).onsubmit = guard(async e => { e.preventDefault(); await onSave(collect(m)); closeModal(); });
   const first = $('input,select,textarea', m); if (first) first.focus();
 }
@@ -100,8 +112,18 @@ async function drawNav(active) {
   let unread = 0; try { unread = (await api('dashboard')).unread; } catch { /* il badge è accessorio */ }
   $('#nav').innerHTML = NAV.map(([k, l]) => `<a href="#/${k}" class="${k === active ? 'on' : ''}">${l}${k === 'inbox' && unread ? `<span class="badge">${unread}</span>` : ''}</a>`).join('');
 }
+// Nella versione di prova (una pagina sola) la navigazione resta in memoria invece che nell'indirizzo.
+let HASH = location.hash;
+const go = h => { if (window.DEMO) { HASH = h; route(); } else location.hash = h; };
+if (window.DEMO) document.addEventListener('click', e => { const a = e.target.closest('a[href^="#/"]'); if (a) { e.preventDefault(); go(a.getAttribute('href')); window.scrollTo(0, 0); } });
 async function route() {
-  const [name = 'dashboard', arg] = location.hash.replace(/^#\/?/, '').split('/');
+  const h = window.DEMO ? HASH : location.hash;
+  if (window.DEMO) {
+    const m = h.match(/^#\/p\/([^/]+)\/(.+)/);
+    $('.app').hidden = !!m; $('#pubwrap').hidden = !m;
+    if (m) return window.__public(m[1], decodeURIComponent(m[2]));
+  }
+  const [name = 'dashboard', arg] = h.replace(/^#\/?/, '').split('/');
   const fn = routes[name] || routes.dashboard;
   drawNav(routes[name] ? name : 'dashboard');
   try { await fn(arg); } catch (e) { view.innerHTML = `<div class="card empty">${esc(e.message)}</div>`; }
@@ -149,11 +171,11 @@ routes.contatti = async id => {
     const q = contactFilter.q.toLowerCase();
     const rows = list.filter(c => (!contactFilter.tag || (c.tags || []).includes(contactFilter.tag)) && (!q || [c.first_name, c.last_name, c.company, c.email, c.phone].join(' ').toLowerCase().includes(q)));
     $('#rows').innerHTML = rows.map(c => `<tr class="click" data-id="${c.id}"><td><strong>${cname(c)}</strong></td><td>${esc(c.company)}</td><td class="small">${esc(c.email)}<br>${esc(c.phone)}</td><td>${esc(c.source)}</td><td>${tags(c.tags)}</td><td>${avatar(c.owner_id)}</td></tr>`).join('') || '<tr><td colspan="6" class="empty">Nessun contatto corrisponde alla ricerca</td></tr>';
-    $$('#rows tr.click').forEach(r => r.onclick = () => { location.hash = '#/contatti/' + r.dataset.id; });
+    $$('#rows tr.click').forEach(r => r.onclick = () => { go('#/contatti/' + r.dataset.id); });
   };
   $('#q').oninput = e => { contactFilter.q = e.target.value; draw(); };
   $('#tagf').onchange = e => { contactFilter.tag = e.target.value; draw(); };
-  $('#new').onclick = () => formModal('Nuovo contatto', contactFields(), { owner_id: S.me, tags: [] }, async v => { const c = await api('contacts', 'POST', v); location.hash = '#/contatti/' + c.id; });
+  $('#new').onclick = () => formModal('Nuovo contatto', contactFields(), { owner_id: S.me, tags: [] }, async v => { const c = await api('contacts', 'POST', v); go('#/contatti/' + c.id); });
   draw();
 };
 async function contactDetail(id) {
@@ -174,11 +196,11 @@ async function contactDetail(id) {
       ${d.enrollments.length ? `<div class="card"><h3>Corsi</h3>${d.enrollments.map(e => `<p class="small"><a href="#/corsi/${e.course_id}">${esc(e.course)}</a></p>`).join('')}</div>` : ''}
     </div>
   </div>`;
-  $('#edit').onclick = () => formModal('Modifica contatto', contactFields(), c, async v => { await api('contacts/' + id, 'PUT', v); refresh(); }, async () => { await api('contacts/' + id, 'DELETE'); location.hash = '#/contatti'; });
+  $('#edit').onclick = () => formModal('Modifica contatto', contactFields(), c, async v => { await api('contacts/' + id, 'PUT', v); refresh(); }, async () => { await api('contacts/' + id, 'DELETE'); go('#/contatti'); });
   $('#note').onsubmit = guard(async e => { e.preventDefault(); await api(`contacts/${id}/note`, 'POST', { text: $('#note textarea').value }); refresh(); });
   $('#opp').onclick = () => oppModal({ contact_id: Number(id), owner_id: S.me, stage_id: S.stages[0].id, value: 0 });
   $('#task').onclick = () => formModal('Nuova attività', [{ k: 'title', label: 'Cosa c\'è da fare', required: true }, { k: 'due_at', label: 'Entro', type: 'datetime-local' }, { k: 'owner_id', label: 'Chi', type: 'select', options: userOpts(), num: true }], { owner_id: S.me }, async v => { await api('tasks', 'POST', { ...v, contact_id: Number(id), done: 0 }); refresh(); });
-  $('#chat').onclick = () => formModal('Nuova conversazione', [{ k: 'channel', label: 'Canale', type: 'select', options: CHANNELS.map(x => [x, x]) }], {}, async v => { const cv = await api('conversations', 'POST', { contact_id: Number(id), channel: v.channel }); location.hash = '#/inbox/' + cv.id; });
+  $('#chat').onclick = () => formModal('Nuova conversazione', [{ k: 'channel', label: 'Canale', type: 'select', options: CHANNELS.map(x => [x, x]) }], {}, async v => { const cv = await api('conversations', 'POST', { contact_id: Number(id), channel: v.channel }); go('#/inbox/' + cv.id); });
   $$('[data-task]').forEach(el => el.onchange = guard(async () => { await api('tasks/' + el.dataset.task, 'PUT', { done: el.checked ? 1 : 0 }); }));
 }
 
@@ -234,7 +256,7 @@ routes.inbox = async id => {
   </div>
   <p class="muted small">Versione dimostrativa: i messaggi restano dentro il CRM, non partono davvero su WhatsApp o email.</p>`;
   $$('[data-f]').forEach(b => b.onclick = () => { inboxFilter = b.dataset.f; refresh(); });
-  $$('.conv').forEach(el => el.onclick = () => { location.hash = '#/inbox/' + el.dataset.id; });
+  $$('.conv').forEach(el => el.onclick = () => { go('#/inbox/' + el.dataset.id); });
   if (!cur) return;
   const box = $('#msgs'); box.scrollTop = box.scrollHeight;
   const ta = $('#send textarea');
@@ -314,7 +336,7 @@ routes.automazioni = async id => {
   <div class="card" style="margin-top:14px"><h2>Ultime esecuzioni</h2>${runsTable(runs)}</div>`;
   bindRuns();
   $$('[data-on]').forEach(c => c.onchange = guard(async () => { await api('workflows/' + c.dataset.on, 'PUT', { active: c.checked ? 1 : 0 }); toast(c.checked ? 'Automazione attivata' : 'Automazione in pausa'); }));
-  $('#new').onclick = guard(async () => { const w = await api('workflows', 'POST', { name: 'Nuova automazione', active: 0, trigger_type: 'lead_created', trigger_config: {}, steps: [] }); location.hash = '#/automazioni/' + w.id; });
+  $('#new').onclick = guard(async () => { const w = await api('workflows', 'POST', { name: 'Nuova automazione', active: 0, trigger_type: 'lead_created', trigger_config: {}, steps: [] }); go('#/automazioni/' + w.id); });
 };
 const runsTable = runs => runs.length ? `<div class="table-wrap"><table><thead><tr><th>Quando</th><th>Automazione</th><th>Contatto</th><th>Stato</th><th>Cosa è successo</th></tr></thead><tbody>${runs.map(r => `<tr><td class="nowrap small">${dt(r.created_at)}</td><td>${esc(r.workflow)}</td><td><a href="#/contatti/${r.contact_id}">${esc(r.contact)}</a></td>
   <td class="nowrap">${runPill(r.status)}${r.status === 'waiting' ? `<br><span class="small muted">fino a ${dt(r.resume_at)}</span><br><button class="mini" data-skip="${r.id}">Salta l'attesa</button>` : ''}</td><td class="small">${r.log.map(l => esc(l.text)).join(' · ')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">Ancora nessuna esecuzione.</p>';
@@ -347,7 +369,7 @@ async function workflowEditor(id) {
   bindRuns();
   const save = async () => api('workflows/' + id, 'PUT', { name: $('#wname').value, active: $('#wactive').checked ? 1 : 0, trigger_type: w.trigger_type, trigger_config: w.trigger_config, steps: w.steps });
   $('#save').onclick = guard(async () => { await save(); toast('Automazione salvata'); refresh(); });
-  $('#del').onclick = guard(async () => { if (confirm('Eliminare questa automazione?')) { await api('workflows/' + id, 'DELETE'); location.hash = '#/automazioni'; } });
+  $('#del').onclick = guard(async () => { if (await ask('Eliminare questa automazione?')) { await api('workflows/' + id, 'DELETE'); go('#/automazioni'); } });
   $('#test').onclick = guard(async () => { await save(); await api(`workflows/${id}/test`, 'POST', { contact_id: Number($('#tc').value) }); toast('Prova avviata'); refresh(); });
 }
 
@@ -366,8 +388,8 @@ routes.moduli = async arg => {
       : pages.map(p => `<div class="card"><h2><a href="#/moduli/p${p.id}">${esc(p.title)}</a> ${p.published ? '<span class="pill ok">pubblicata</span>' : '<span class="pill">bozza</span>'}</h2><p class="small muted">${(p.blocks || []).map(b => esc(BLOCKS[b.type])).join(' · ')}</p><p class="small">Indirizzo:<br>${publicLink('/p/pagina/' + p.slug)}</p></div>`).join('') || '<div class="card empty">Nessuna pagina</div>'}</div>`;
   $$('[data-tab]').forEach(b => b.onclick = () => { formsTab = b.dataset.tab; refresh(); });
   $('#new').onclick = guard(async () => {
-    if (formsTab === 'moduli') { const f = await api('forms', 'POST', { name: 'Nuovo modulo', stage_id: S.stages[0].id, fields: [{ key: 'first_name', label: 'Nome', type: 'text', required: 1 }, { key: 'email', label: 'Email', type: 'email', required: 1 }] }); location.hash = '#/moduli/m' + f.id; }
-    else { const p = await api('pages', 'POST', { title: 'Nuova pagina', published: 0, blocks: [{ type: 'hero', title: 'Il tuo titolo', subtitle: 'Una riga che spiega cosa offri' }] }); location.hash = '#/moduli/p' + p.id; }
+    if (formsTab === 'moduli') { const f = await api('forms', 'POST', { name: 'Nuovo modulo', stage_id: S.stages[0].id, fields: [{ key: 'first_name', label: 'Nome', type: 'text', required: 1 }, { key: 'email', label: 'Email', type: 'email', required: 1 }] }); go('#/moduli/m' + f.id); }
+    else { const p = await api('pages', 'POST', { title: 'Nuova pagina', published: 0, blocks: [{ type: 'hero', title: 'Il tuo titolo', subtitle: 'Una riga che spiega cosa offri' }] }); go('#/moduli/p' + p.id); }
   });
 };
 async function formEditor(f) {
@@ -385,7 +407,7 @@ async function formEditor(f) {
     blank: () => ({ label: 'Nuovo campo', key: 'altro', type: 'text', required: 0 }),
   });
   $('#save').onclick = guard(async () => { await api('forms/' + f.id, 'PUT', { ...collect($('#meta')), fields: f.fields }); toast('Modulo salvato'); refresh(); });
-  $('#del').onclick = guard(async () => { if (confirm('Eliminare il modulo?')) { await api('forms/' + f.id, 'DELETE'); location.hash = '#/moduli'; } });
+  $('#del').onclick = guard(async () => { if (await ask('Eliminare il modulo?')) { await api('forms/' + f.id, 'DELETE'); go('#/moduli'); } });
 }
 async function pageEditor(p, forms) {
   if (!p) throw new Error('Pagina non trovata');
@@ -400,7 +422,7 @@ async function pageEditor(p, forms) {
     blank: t => ({ type: t, ...(t === 'modulo' ? { form_id: forms[0]?.id } : {}) }),
   });
   $('#save').onclick = guard(async () => { await api('pages/' + p.id, 'PUT', { ...collect($('#meta')), blocks: p.blocks }); toast('Pagina salvata'); refresh(); });
-  $('#del').onclick = guard(async () => { if (confirm('Eliminare la pagina?')) { await api('pages/' + p.id, 'DELETE'); location.hash = '#/moduli'; } });
+  $('#del').onclick = guard(async () => { if (await ask('Eliminare la pagina?')) { await api('pages/' + p.id, 'DELETE'); go('#/moduli'); } });
 }
 
 // ---------- corsi e comunità ----------
@@ -409,7 +431,7 @@ routes.corsi = async id => {
   const list = await api('courses');
   view.innerHTML = head('Corsi e comunità', 'Aree riservate per i tuoi clienti: lezioni e bacheca', '<button class="primary" id="new">+ Nuovo corso</button>') +
     `<div class="grid two">${list.map(c => `<div class="card"><h2><a href="#/corsi/${c.id}">${esc(c.title)}</a></h2><p class="small muted">${esc(c.description)}</p></div>`).join('') || '<div class="card empty">Nessun corso</div>'}</div>`;
-  $('#new').onclick = () => formModal('Nuovo corso', [{ k: 'title', label: 'Titolo', required: true }, { k: 'description', label: 'Descrizione', type: 'textarea' }], {}, async v => { const c = await api('courses', 'POST', v); location.hash = '#/corsi/' + c.id; });
+  $('#new').onclick = () => formModal('Nuovo corso', [{ k: 'title', label: 'Titolo', required: true }, { k: 'description', label: 'Descrizione', type: 'textarea' }], {}, async v => { const c = await api('courses', 'POST', v); go('#/corsi/' + c.id); });
 };
 async function courseDetail(id) {
   const [d, contacts] = await Promise.all([api(`courses/${id}/detail`), api('contacts')]);
@@ -432,10 +454,10 @@ async function courseDetail(id) {
     for (const [i, l] of lessons.entries()) await api(l.id ? 'lessons/' + l.id : 'lessons', l.id ? 'PUT' : 'POST', { course_id: Number(id), title: l.title, content: l.content, video_url: l.video_url, position: i });
     toast('Lezioni salvate'); refresh();
   });
-  $('#edit').onclick = () => formModal('Modifica corso', [{ k: 'title', label: 'Titolo', required: true }, { k: 'description', label: 'Descrizione', type: 'textarea' }], d.course, async v => { await api('courses/' + id, 'PUT', v); refresh(); }, async () => { await api('courses/' + id, 'DELETE'); location.hash = '#/corsi'; });
+  $('#edit').onclick = () => formModal('Modifica corso', [{ k: 'title', label: 'Titolo', required: true }, { k: 'description', label: 'Descrizione', type: 'textarea' }], d.course, async v => { await api('courses/' + id, 'PUT', v); refresh(); }, async () => { await api('courses/' + id, 'DELETE'); go('#/corsi'); });
   $('#enroll').onclick = guard(async () => { await api(`courses/${id}/enroll`, 'POST', { contact_id: Number($('#who').value) }); refresh(); });
-  $$('[data-unenroll]').forEach(b => b.onclick = guard(async () => { if (confirm('Rimuovere l\'iscrizione?')) { await api('enrollments/' + b.dataset.unenroll, 'DELETE'); refresh(); } }));
-  $$('[data-delpost]').forEach(b => b.onclick = guard(async () => { if (confirm('Eliminare il post?')) { await api('posts/' + b.dataset.delpost, 'DELETE'); refresh(); } }));
+  $$('[data-unenroll]').forEach(b => b.onclick = guard(async () => { if (await ask('Rimuovere l\'iscrizione?')) { await api('enrollments/' + b.dataset.unenroll, 'DELETE'); refresh(); } }));
+  $$('[data-delpost]').forEach(b => b.onclick = guard(async () => { if (await ask('Eliminare il post?')) { await api('posts/' + b.dataset.delpost, 'DELETE'); refresh(); } }));
   $('#post').onsubmit = guard(async e => { e.preventDefault(); await api('posts', 'POST', { course_id: Number(id), author_name: user(S.me)?.name, body: $('#post textarea').value }); refresh(); });
 }
 
@@ -445,7 +467,7 @@ async function courseDetail(id) {
   if (!user(S.me)) S.me = S.users[0]?.id;
   $('#me').innerHTML = S.users.map(u => `<option value="${u.id}"${u.id === S.me ? ' selected' : ''}>${esc(u.name)}</option>`).join('');
   $('#me').onchange = e => { S.me = Number(e.target.value); try { localStorage.setItem('cordata.me', S.me); } catch { /* facoltativo */ } refresh(); };
-  $('#reset').onclick = guard(async () => { if (confirm('Cancellare tutto e ricaricare i dati di esempio?')) { await api('reset', 'POST'); [S.users, S.stages] = await Promise.all([api('users'), api('stages')]); toast('Dati di esempio ripristinati'); refresh(); } });
+  $('#reset').onclick = guard(async () => { if (await ask('Cancellare tutto e ricaricare i dati di esempio?')) { await api('reset', 'POST'); [S.users, S.stages] = await Promise.all([api('users'), api('stages')]); toast('Dati di esempio ripristinati'); refresh(); } });
   window.addEventListener('hashchange', route);
   route();
 })();

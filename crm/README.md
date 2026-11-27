@@ -20,6 +20,14 @@ Poi si apre <http://localhost:3000>. Al primo avvio il database
 «Ripristina dati di esempio» in basso a sinistra lo riporta a quello stato.
 `PORT` cambia la porta, `CRM_DATA_DIR` la cartella del database.
 
+## Versione di prova in una pagina
+
+    node build-demo.js
+
+scrive `dist/cordata-crm.html`: la stessa applicazione in un file solo, con il
+codice del server che gira nel browser sopra SQLite in JavaScript. Serve per
+provarla senza avviare niente; i dati restano nel browser di chi la apre.
+
 ## Cosa c'è
 
 | Modulo | Cosa fa |
