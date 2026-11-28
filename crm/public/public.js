@@ -78,28 +78,15 @@ const pages = {
     for (const btn of [...root.querySelectorAll('#days button')].slice(0, 7)) if (await pickDay(btn)) break;
   },
 
-  async area(token) {
-    const draw = v => {
-      document.title = v.course.title;
-      const done = new Set(v.completed), pct = v.lessons.length ? Math.round(100 * done.size / v.lessons.length) : 0;
-      root.innerHTML = `<div class="hero"><p class="small">Area riservata di ${esc(v.member)}</p><h1>${esc(v.course.title)}</h1><p>${esc(v.course.description)}</p>
-        <div class="progress" style="height:10px"><i style="width:${pct}%"></i></div><p class="small">${done.size} lezioni su ${v.lessons.length} completate</p></div>
-        <h2>Lezioni</h2>${v.lessons.map((l, i) => `<details class="lesson"${!done.has(l.id) && v.lessons.findIndex(x => !done.has(x.id)) === i ? ' open' : ''}><summary><span>${done.has(l.id) ? '✅' : '◻️'}</span>${i + 1}. ${esc(l.title)}</summary>
-          <div class="body">${esc(l.content)}${l.video_url ? `<p><a href="${esc(safeUrl(l.video_url))}" target="_blank" rel="noopener">Guarda il video</a></p>` : ''}<p><button data-lesson="${l.id}" data-done="${done.has(l.id) ? 0 : 1}" class="${done.has(l.id) ? '' : 'primary'}">${done.has(l.id) ? 'Segna come da rifare' : 'Ho completato la lezione'}</button></p></div></details>`).join('')}
-        <h2 style="margin-top:28px">Comunità</h2><form id="np" class="composer" style="padding:0 0 12px;border:0"><textarea placeholder="Scrivi alla comunità…" required></textarea><button class="primary">Pubblica</button></form>
-        ${v.posts.map(p => `<div class="post"><strong>${esc(p.author_name)}</strong><div>${esc(p.body)}</div>${p.comments.map(c => `<div class="cm"><strong>${esc(c.author_name)}</strong> ${esc(c.body)}</div>`).join('')}
-          <form data-post="${p.id}" class="composer" style="padding:10px 0 0;border:0"><input placeholder="Rispondi…" required style="flex:1"><button>Invia</button></form></div>`).join('')}${FOOT}`;
-      root.querySelectorAll('[data-lesson]').forEach(b => b.onclick = async () => draw(await api(`member/${token}/complete`, 'POST', { lesson_id: Number(b.dataset.lesson), done: b.dataset.done === '1' })));
-      document.getElementById('np').onsubmit = async e => { e.preventDefault(); draw(await api(`member/${token}/post`, 'POST', { body: e.target.querySelector('textarea').value })); };
-      root.querySelectorAll('[data-post]').forEach(f => f.onsubmit = async e => { e.preventDefault(); draw(await api(`member/${token}/comment`, 'POST', { post_id: Number(f.dataset.post), body: f.querySelector('input').value })); });
-    };
-    draw(await api('member/' + token));
-  },
 };
 
 async function boot(kind, key) {
+  root.className = 'pub';
   try { if (!pages[kind]) throw new Error('Pagina non trovata'); await pages[kind](key); }
   catch (e) { root.innerHTML = `<div class="card empty">${esc(e.message)}</div>`; }
 }
-if (window.DEMO) window.__public = boot;
-else { const [, , kind, key] = location.pathname.split('/'); boot(kind, decodeURIComponent(key || '')); }
+function startPublic() {
+  if (window.DEMO) { window.__public = boot; return; }
+  const [, , kind, key] = location.pathname.split('/');
+  boot(kind, decodeURIComponent(key || ''));
+}

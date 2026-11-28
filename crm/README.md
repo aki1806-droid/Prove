@@ -37,12 +37,14 @@ provarla senza avviare niente; i dati restano nel browser di chi la apre.
 | Pipeline | Bacheca a colonne con trascinamento, fasi modificabili, totali per fase |
 | Conversazioni | Casella condivisa per canale, non letti, operatore assegnato |
 | Calendario | Settimana, tipi di prenotazione con pagina pubblica e orari liberi calcolati |
-| Automazioni | Evento di partenza + passi in ordine (messaggio, attesa, condizione, tag, assegnazione, attività, cambio fase, notifica), registro delle esecuzioni |
+| Automazioni | Editor visuale ad albero: più eventi di partenza, rami sì/no con regole, test A/B, attesa di risposta, attese a tempo o a orario, una ventina di azioni, fascia oraria di invio, statistiche per passo, modelli pronti, simulazione del percorso su un contatto |
 | Moduli e pagine | Costruttore di moduli e di pagine a blocchi; chi compila diventa un contatto |
-| Corsi e comunità | Lezioni, iscritti con avanzamento, area riservata con collegamento personale, bacheca |
+| Corsi | Moduli e lezioni (testo, video, verifica con soglia), rilascio libero / sequenziale / a giorni, materiali, domande sotto le lezioni, attestato, iscritti con avanzamento, statistiche lezione per lezione |
+| Comunità | Canali, post con sondaggi, mi piace e risposte, moderazione, punti e livelli con classifica, eventi con adesione, corsi che si sbloccano a un livello |
+| Portale del cliente | Un indirizzo personale con bacheca, corsi, classifica, membri, eventi e profilo |
 
 Pagine viste dai clienti: `/p/prenota/<calendario>`, `/p/modulo/<modulo>`,
-`/p/pagina/<pagina>`, `/p/area/<codice di accesso>`.
+`/p/pagina/<pagina>`, `/p/portale/<codice di accesso>`.
 
 ## Limiti di questa versione
 
@@ -54,10 +56,14 @@ Pagine viste dai clienti: `/p/prenota/<calendario>`, `/p/modulo/<modulo>`,
 - **Un'azienda sola**, senza ruoli: l'operatore si sceglie da un menu.
 - Le attese delle automazioni sono reali (minuti, ore, giorni); per le prove
   c'è «Salta l'attesa» nel registro delle esecuzioni.
+- Il passo «Webhook» è simulato: registra l'invio ma non chiama nessun indirizzo.
+- I video delle lezioni sono collegamenti esterni, non c'è caricamento di file.
+- Il prezzo di un corso è solo indicativo: non ci sono pagamenti.
 
 ## File
 
 - `server.js` — server HTTP, API, regole (prenotazioni, moduli, pipeline)
-- `automations.js` — motore delle automazioni
+- `automations.js` — motore delle automazioni (albero di passi, attese, condizioni, statistiche, simulazione)
+- `academy.js` — corsi, comunità, punti e livelli, portale del cliente
 - `db.js` — schema e dati di esempio
-- `public/` — interfaccia (`app.js`) e pagine pubbliche (`public.js`)
+- `public/` — interfaccia (`app.js`, `auto.js`, `academy-ui.js`) e pagine viste dai clienti (`public.js`, `portal.js`)

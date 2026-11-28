@@ -79,6 +79,10 @@ function formModal(title, fields, values, onSave, onDelete) {
 $('#modal').addEventListener('mousedown', e => { if (e.target.id === 'modal') closeModal(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
+// Azione al premere del mouse (o da tastiera): un campo appena modificato fa ridisegnare l'area
+// quando perde il fuoco, e un normale "click" su un elemento ridisegnato andrebbe perso.
+const press = (el, fn) => { el.onmousedown = e => { if (e.button === 0) fn(e); }; el.onclick = e => { if (e.detail === 0) fn(e); }; };
+
 // items viene modificato sul posto; spec = { title(item), fields(item), types?: {chiave: etichetta}, blank(type) }
 function listEditor(root, items, spec) {
   const draw = () => {
@@ -97,16 +101,19 @@ function listEditor(root, items, spec) {
       if (act === 'down' && i < items.length - 1) [items[i + 1], items[i]] = [items[i], items[i + 1]];
     }
     draw();
+    if (spec.onChange) spec.onChange();
   };
   root.oninput = e => {
     const el = e.target; if (!el.dataset.k) return;
     items[Number(el.closest('.item').dataset.i)][el.dataset.k] = readValue(el);
+    if ((spec.redrawOn || []).includes(el.dataset.k)) draw();
+    if (spec.onChange) spec.onChange();
   };
   draw();
 }
 
 // ---------- navigazione ----------
-const NAV = [['dashboard', 'Dashboard'], ['contatti', 'Contatti'], ['pipeline', 'Pipeline'], ['inbox', 'Conversazioni'], ['calendario', 'Calendario'], ['automazioni', 'Automazioni'], ['moduli', 'Moduli e pagine'], ['corsi', 'Corsi e comunità']];
+const NAV = [['dashboard', 'Dashboard'], ['contatti', 'Contatti'], ['pipeline', 'Pipeline'], ['inbox', 'Conversazioni'], ['calendario', 'Calendario'], ['automazioni', 'Automazioni'], ['moduli', 'Moduli e pagine'], ['corsi', 'Corsi'], ['comunita', 'Comunità']];
 const routes = {};
 async function drawNav(active) {
   let unread = 0; try { unread = (await api('dashboard')).unread; } catch { /* il badge è accessorio */ }
@@ -193,11 +200,14 @@ async function contactDetail(id) {
       <div class="card"><h3>Appuntamenti</h3>${d.appointments.map(a => `<p class="small">${dt(a.start_at)} — ${esc(a.title)} <span class="pill">${esc(a.status)}</span></p>`).join('') || '<p class="muted small">Nessuno</p>'}</div>
       <div class="card"><h3>Attività</h3>${d.tasks.map(t => `<p class="small"><label><input type="checkbox" data-task="${t.id}"${t.done ? ' checked' : ''}> ${esc(t.title)}</label> <span class="muted">· ${dt(t.due_at)}</span></p>`).join('') || '<p class="muted small">Nessuna</p>'}<button id="task" class="mini">+ Attività</button></div>
       <div class="card"><h3>Conversazioni</h3>${d.conversations.map(v => `<p class="small"><a href="#/inbox/${v.id}">${esc(v.channel)}</a>${v.unread ? ` <span class="badge">${v.unread}</span>` : ''}</p>`).join('') || '<p class="muted small">Nessuna</p>'}<button id="chat" class="mini">+ Scrivi</button></div>
-      ${d.enrollments.length ? `<div class="card"><h3>Corsi</h3>${d.enrollments.map(e => `<p class="small"><a href="#/corsi/${e.course_id}">${esc(e.course)}</a></p>`).join('')}</div>` : ''}
+      <div class="card"><h3>Corsi e portale</h3>${d.enrollments.map(e => `<p class="small"><a href="#/corsi/${e.course_id}">${esc(e.course)}</a>${e.completed_at ? ' <span class="pill ok">completato</span>' : ''}</p>`).join('')}
+        ${d.member ? `<p class="small">${d.member.points} punti · ${publicLink('/p/portale/' + d.member.token)}</p>` : '<p class="muted small">Nessun accesso al portale</p><button id="invite" class="mini">Dai accesso</button>'}</div>
+      ${d.runs.length ? `<div class="card"><h3>Automazioni</h3>${d.runs.map(r => `<p class="small"><a href="#/automazioni/${r.workflow_id}">${esc(r.workflow)}</a> ${runPill(r.status)}</p>`).join('')}</div>` : ''}
     </div>
   </div>`;
   $('#edit').onclick = () => formModal('Modifica contatto', contactFields(), c, async v => { await api('contacts/' + id, 'PUT', v); refresh(); }, async () => { await api('contacts/' + id, 'DELETE'); go('#/contatti'); });
   $('#note').onsubmit = guard(async e => { e.preventDefault(); await api(`contacts/${id}/note`, 'POST', { text: $('#note textarea').value }); refresh(); });
+  if ($('#invite')) $('#invite').onclick = guard(async () => { await api('members', 'POST', { contact_id: Number(id) }); toast('Accesso al portale attivato'); refresh(); });
   $('#opp').onclick = () => oppModal({ contact_id: Number(id), owner_id: S.me, stage_id: S.stages[0].id, value: 0 });
   $('#task').onclick = () => formModal('Nuova attività', [{ k: 'title', label: 'Cosa c\'è da fare', required: true }, { k: 'due_at', label: 'Entro', type: 'datetime-local' }, { k: 'owner_id', label: 'Chi', type: 'select', options: userOpts(), num: true }], { owner_id: S.me }, async v => { await api('tasks', 'POST', { ...v, contact_id: Number(id), done: 0 }); refresh(); });
   $('#chat').onclick = () => formModal('Nuova conversazione', [{ k: 'channel', label: 'Canale', type: 'select', options: CHANNELS.map(x => [x, x]) }], {}, async v => { const cv = await api('conversations', 'POST', { contact_id: Number(id), channel: v.channel }); go('#/inbox/' + cv.id); });
@@ -305,74 +315,6 @@ routes.calendario = async () => {
   $$('[data-cal]').forEach(b => b.onclick = () => calModal(cals.find(c => c.id === Number(b.dataset.cal))));
 };
 
-// ---------- automazioni ----------
-const TRIGGERS = {
-  lead_created: { label: 'Nuovo lead creato' }, form_submitted: { label: 'Modulo inviato', k: 'form_id', from: 'forms', l: 'Quale modulo' },
-  appointment_booked: { label: 'Appuntamento prenotato', k: 'calendar_id', from: 'calendars', l: 'Quale calendario' }, tag_added: { label: 'Tag aggiunto', k: 'tag', l: 'Quale tag' },
-  stage_changed: { label: 'Opportunità cambia fase', k: 'stage_id', from: 'stages', l: 'In quale fase' }, message_received: { label: 'Messaggio ricevuto' },
-  birthday: { label: 'Compleanno del contatto' }, course_completed: { label: 'Corso completato', k: 'course_id', from: 'courses', l: 'Quale corso' },
-};
-const STEP_TYPES = { send_message: 'Invia messaggio', wait: 'Attendi', condition: 'Condizione sul tag', add_tag: 'Aggiungi tag', remove_tag: 'Rimuovi tag', assign: 'Assegna a un operatore', create_task: 'Crea attività', move_stage: 'Sposta opportunità', notify: 'Notifica interna' };
-const stepFields = s => ({
-  send_message: [{ k: 'channel', label: 'Canale', type: 'select', options: CHANNELS.map(x => [x, x]) }, { k: 'body', label: 'Testo — puoi usare {{nome}}, {{cognome}}, {{azienda}}', type: 'textarea' }],
-  wait: [{ k: 'amount', label: 'Quanto', type: 'number', num: true }, { k: 'unit', label: 'Unità', type: 'select', options: ['minuti', 'ore', 'giorni'].map(x => [x, x]) }],
-  condition: [{ k: 'mode', label: 'Prosegui solo se il contatto', type: 'select', options: [['has', 'ha il tag'], ['not_has', 'non ha il tag']] }, { k: 'tag', label: 'Tag' }],
-  add_tag: [{ k: 'tag', label: 'Tag' }], remove_tag: [{ k: 'tag', label: 'Tag' }],
-  assign: [{ k: 'user_id', label: 'Operatore', type: 'select', options: userOpts(), num: true }],
-  create_task: [{ k: 'title', label: 'Titolo dell\'attività', wide: true }, { k: 'days', label: 'Scadenza fra (giorni)', type: 'number', num: true }],
-  move_stage: [{ k: 'stage_id', label: 'Fase di destinazione', type: 'select', options: stageOpts(), num: true }],
-  notify: [{ k: 'text', label: 'Testo della notifica', wide: true }],
-}[s.type] || []);
-const stepBlank = t => ({ type: t, ...({ send_message: { channel: 'whatsapp', body: 'Ciao {{nome}}, ' }, wait: { amount: 1, unit: 'giorni' }, condition: { mode: 'has', tag: '' }, assign: { user_id: S.me }, create_task: { title: 'Richiamare {{nome}}', days: 1 }, move_stage: { stage_id: S.stages[0]?.id } }[t] || {}) });
-const runPill = s => `<span class="pill ${{ done: 'ok', waiting: 'warn', error: 'bad' }[s] || ''}">${{ done: 'completata', waiting: 'in attesa', running: 'in corso', error: 'errore' }[s] || esc(s)}</span>`;
-
-routes.automazioni = async id => {
-  if (id) return workflowEditor(id);
-  const [list, runs] = await Promise.all([api('workflows'), api('runs')]);
-  view.innerHTML = head('Automazioni', 'Quando succede qualcosa, il CRM fa il passo successivo al posto tuo', '<button class="primary" id="new">+ Nuova automazione</button>') + `
-  <div class="grid two">${list.map(w => `<div class="card"><div class="head" style="margin-bottom:6px"><h2 style="margin:0"><a href="#/automazioni/${w.id}">${esc(w.name)}</a></h2><span class="sp"></span><label class="switch"><input type="checkbox" data-on="${w.id}"${w.active ? ' checked' : ''}> attiva</label></div>
-    <p class="small"><span class="pill warn">Quando</span> ${esc(TRIGGERS[w.trigger_type]?.label || w.trigger_type)}${w.trigger_config?.tag ? ` «${esc(w.trigger_config.tag)}»` : ''}</p>
-    <p class="small muted">${(w.steps || []).map(s => esc(STEP_TYPES[s.type] || s.type)).join(' → ') || 'Nessun passo'}</p></div>`).join('')}</div>
-  <div class="card" style="margin-top:14px"><h2>Ultime esecuzioni</h2>${runsTable(runs)}</div>`;
-  bindRuns();
-  $$('[data-on]').forEach(c => c.onchange = guard(async () => { await api('workflows/' + c.dataset.on, 'PUT', { active: c.checked ? 1 : 0 }); toast(c.checked ? 'Automazione attivata' : 'Automazione in pausa'); }));
-  $('#new').onclick = guard(async () => { const w = await api('workflows', 'POST', { name: 'Nuova automazione', active: 0, trigger_type: 'lead_created', trigger_config: {}, steps: [] }); go('#/automazioni/' + w.id); });
-};
-const runsTable = runs => runs.length ? `<div class="table-wrap"><table><thead><tr><th>Quando</th><th>Automazione</th><th>Contatto</th><th>Stato</th><th>Cosa è successo</th></tr></thead><tbody>${runs.map(r => `<tr><td class="nowrap small">${dt(r.created_at)}</td><td>${esc(r.workflow)}</td><td><a href="#/contatti/${r.contact_id}">${esc(r.contact)}</a></td>
-  <td class="nowrap">${runPill(r.status)}${r.status === 'waiting' ? `<br><span class="small muted">fino a ${dt(r.resume_at)}</span><br><button class="mini" data-skip="${r.id}">Salta l'attesa</button>` : ''}</td><td class="small">${r.log.map(l => esc(l.text)).join(' · ')}</td></tr>`).join('')}</tbody></table></div>` : '<p class="muted">Ancora nessuna esecuzione.</p>';
-const bindRuns = () => $$('[data-skip]').forEach(b => b.onclick = guard(async () => { await api(`runs/${b.dataset.skip}/skip`, 'POST'); refresh(); }));
-
-async function workflowEditor(id) {
-  const [w, runs, contacts, forms, calendars, courses] = await Promise.all([api('workflows/' + id), api('runs?workflow_id=' + id), api('contacts'), api('forms'), api('calendars'), api('courses')]);
-  const src = { forms: forms.map(f => [f.id, f.name]), calendars: calendars.map(c => [c.id, c.name]), stages: stageOpts(), courses: courses.map(c => [c.id, c.title]) };
-  w.steps = w.steps || []; w.trigger_config = w.trigger_config || {};
-  view.innerHTML = head(w.name, 'Costruisci il flusso: un evento di partenza e i passi in ordine', '<a class="btn" href="#/automazioni">← Tutte</a><button class="danger" id="del">Elimina</button><button class="primary" id="save">Salva</button>') + `
-  <div class="split"><div>
-    <div class="card" style="margin-bottom:14px"><label class="f"><span>Nome</span><input id="wname" value="${esc(w.name)}"></label><label class="switch"><input type="checkbox" id="wactive"${w.active ? ' checked' : ''}> Automazione attiva</label></div>
-    <div class="flow"><div class="trigger-box"><h3>Quando</h3><div id="trig"></div></div><div id="steps"></div></div>
-  </div><div class="grid">
-    <div class="card"><h2>Prova su un contatto</h2><p class="small muted">Fa partire subito il flusso, anche se l'automazione è in pausa. Salva prima le modifiche.</p>
-      <select id="tc" style="width:100%;margin-bottom:8px">${contacts.map(c => `<option value="${c.id}">${cname(c)}</option>`).join('')}</select><button id="test">Avvia la prova</button></div>
-    <div class="card"><h2>Esecuzioni</h2>${runsTable(runs)}</div>
-  </div></div>`;
-  const drawTrig = () => {
-    const t = TRIGGERS[w.trigger_type] || {};
-    $('#trig').innerHTML = fieldHtml({ k: 'trigger_type', label: 'Evento di partenza', type: 'select', options: Object.entries(TRIGGERS).map(([k, v]) => [k, v.label]) }, w.trigger_type) +
-      (t.k ? fieldHtml(t.from ? { k: t.k, label: t.l, type: 'select', options: [['', '— qualsiasi —'], ...src[t.from]] } : { k: t.k, label: t.l + ' (vuoto = qualsiasi)' }, w.trigger_config[t.k]) : '');
-  };
-  $('#trig').onchange = e => {
-    if (e.target.dataset.k === 'trigger_type') { w.trigger_type = e.target.value; w.trigger_config = {}; drawTrig(); }
-    else w.trigger_config = { [e.target.dataset.k]: e.target.value };
-  };
-  drawTrig();
-  listEditor($('#steps'), w.steps, { title: s => STEP_TYPES[s.type] || s.type, fields: stepFields, types: STEP_TYPES, blank: stepBlank });
-  bindRuns();
-  const save = async () => api('workflows/' + id, 'PUT', { name: $('#wname').value, active: $('#wactive').checked ? 1 : 0, trigger_type: w.trigger_type, trigger_config: w.trigger_config, steps: w.steps });
-  $('#save').onclick = guard(async () => { await save(); toast('Automazione salvata'); refresh(); });
-  $('#del').onclick = guard(async () => { if (await ask('Eliminare questa automazione?')) { await api('workflows/' + id, 'DELETE'); go('#/automazioni'); } });
-  $('#test').onclick = guard(async () => { await save(); await api(`workflows/${id}/test`, 'POST', { contact_id: Number($('#tc').value) }); toast('Prova avviata'); refresh(); });
-}
-
 // ---------- moduli e pagine ----------
 const FIELD_KEYS = [['first_name', 'Nome'], ['last_name', 'Cognome'], ['email', 'Email'], ['phone', 'Telefono'], ['company', 'Azienda']];
 const BLOCKS = { hero: 'Titolo grande', testo: 'Testo', immagine: 'Immagine', bottone: 'Bottone', modulo: 'Modulo di contatto' };
@@ -425,44 +367,8 @@ async function pageEditor(p, forms) {
   $('#del').onclick = guard(async () => { if (await ask('Eliminare la pagina?')) { await api('pages/' + p.id, 'DELETE'); go('#/moduli'); } });
 }
 
-// ---------- corsi e comunità ----------
-routes.corsi = async id => {
-  if (id) return courseDetail(id);
-  const list = await api('courses');
-  view.innerHTML = head('Corsi e comunità', 'Aree riservate per i tuoi clienti: lezioni e bacheca', '<button class="primary" id="new">+ Nuovo corso</button>') +
-    `<div class="grid two">${list.map(c => `<div class="card"><h2><a href="#/corsi/${c.id}">${esc(c.title)}</a></h2><p class="small muted">${esc(c.description)}</p></div>`).join('') || '<div class="card empty">Nessun corso</div>'}</div>`;
-  $('#new').onclick = () => formModal('Nuovo corso', [{ k: 'title', label: 'Titolo', required: true }, { k: 'description', label: 'Descrizione', type: 'textarea' }], {}, async v => { const c = await api('courses', 'POST', v); go('#/corsi/' + c.id); });
-};
-async function courseDetail(id) {
-  const [d, contacts] = await Promise.all([api(`courses/${id}/detail`), api('contacts')]);
-  const lessons = d.lessons.map(l => ({ ...l })), original = d.lessons.map(l => l.id);
-  const free = contacts.filter(c => !d.enrollments.some(e => e.contact_id === c.id));
-  view.innerHTML = head(d.course.title, d.course.description || '', '<a class="btn" href="#/corsi">← Tutti</a><button id="edit">Modifica</button><button class="primary" id="save">Salva lezioni</button>') + `
-  <div class="split"><div><h3>Lezioni</h3><div id="lessons"></div></div>
-  <div class="grid">
-    <div class="card"><h2>Iscritti (${d.enrollments.length})</h2>
-      ${d.enrollments.map(e => `<p class="small"><strong><a href="#/contatti/${e.contact_id}">${esc(e.contact)}</a></strong> · ${e.completed.length}/${d.lessons.length} lezioni <button class="mini danger" data-unenroll="${e.id}" title="Rimuovi iscrizione">✕</button>
-        <span class="progress" style="display:block;margin:4px 0"><i style="width:${d.lessons.length ? 100 * e.completed.length / d.lessons.length : 0}%"></i></span>Accesso personale: ${publicLink('/p/area/' + e.token)}</p>`).join('') || '<p class="muted small">Nessun iscritto</p>'}
-      <div class="add-row"><select id="who" style="flex:1">${free.map(c => `<option value="${c.id}">${cname(c)}</option>`).join('')}</select><button id="enroll"${free.length ? '' : ' disabled'}>Iscrivi</button></div></div>
-    <div class="card"><h2>Bacheca della comunità</h2>
-      <form id="post" class="composer" style="padding:0 0 12px;border:0"><textarea placeholder="Scrivi un annuncio…" required></textarea><button class="primary">Pubblica</button></form>
-      ${d.posts.map(p => `<div class="post"><strong>${esc(p.author_name)}</strong> <span class="muted small">· ${dt(p.created_at)}</span> <button class="mini danger" data-delpost="${p.id}" title="Elimina post">✕</button><div>${esc(p.body)}</div>${p.comments.map(c => `<div class="cm"><strong>${esc(c.author_name)}</strong> ${esc(c.body)}</div>`).join('')}</div>`).join('') || '<p class="muted small">Nessun post</p>'}</div>
-  </div></div>`;
-  listEditor($('#lessons'), lessons, { title: l => l.title || 'Lezione', fields: () => [{ k: 'title', label: 'Titolo', wide: true }, { k: 'content', label: 'Contenuto', type: 'textarea' }, { k: 'video_url', label: 'Video (indirizzo, facoltativo)', wide: true }], blank: () => ({ title: 'Nuova lezione', content: '' }) });
-  $('#save').onclick = guard(async () => {
-    for (const lid of original) if (!lessons.some(l => l.id === lid)) await api('lessons/' + lid, 'DELETE');
-    for (const [i, l] of lessons.entries()) await api(l.id ? 'lessons/' + l.id : 'lessons', l.id ? 'PUT' : 'POST', { course_id: Number(id), title: l.title, content: l.content, video_url: l.video_url, position: i });
-    toast('Lezioni salvate'); refresh();
-  });
-  $('#edit').onclick = () => formModal('Modifica corso', [{ k: 'title', label: 'Titolo', required: true }, { k: 'description', label: 'Descrizione', type: 'textarea' }], d.course, async v => { await api('courses/' + id, 'PUT', v); refresh(); }, async () => { await api('courses/' + id, 'DELETE'); go('#/corsi'); });
-  $('#enroll').onclick = guard(async () => { await api(`courses/${id}/enroll`, 'POST', { contact_id: Number($('#who').value) }); refresh(); });
-  $$('[data-unenroll]').forEach(b => b.onclick = guard(async () => { if (await ask('Rimuovere l\'iscrizione?')) { await api('enrollments/' + b.dataset.unenroll, 'DELETE'); refresh(); } }));
-  $$('[data-delpost]').forEach(b => b.onclick = guard(async () => { if (await ask('Eliminare il post?')) { await api('posts/' + b.dataset.delpost, 'DELETE'); refresh(); } }));
-  $('#post').onsubmit = guard(async e => { e.preventDefault(); await api('posts', 'POST', { course_id: Number(id), author_name: user(S.me)?.name, body: $('#post textarea').value }); refresh(); });
-}
-
 // ---------- avvio ----------
-(async () => {
+async function start() {
   [S.users, S.stages] = await Promise.all([api('users'), api('stages')]);
   if (!user(S.me)) S.me = S.users[0]?.id;
   $('#me').innerHTML = S.users.map(u => `<option value="${u.id}"${u.id === S.me ? ' selected' : ''}>${esc(u.name)}</option>`).join('');
@@ -470,4 +376,4 @@ async function courseDetail(id) {
   $('#reset').onclick = guard(async () => { if (await ask('Cancellare tutto e ricaricare i dati di esempio?')) { await api('reset', 'POST'); [S.users, S.stages] = await Promise.all([api('users'), api('stages')]); toast('Dati di esempio ripristinati'); refresh(); } });
   window.addEventListener('hashchange', route);
   route();
-})();
+}

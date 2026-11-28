@@ -53,7 +53,7 @@ initSqlJs().then(SQL => {
     'node:path': { join: (...a) => a.join('/'), normalize: x => x, extname: () => '', sep: '/' },
     'node:crypto': { randomBytes: n => ({ toString: () => [...crypto.getRandomValues(new Uint8Array(n))].map(b => b.toString(16).padStart(2, '0')).join('') }) },
   };
-  const defs = { './db': ${mod('db.js')}, './automations': ${mod('automations.js')}, './server': ${mod('server.js')} };
+  const defs = { './db': ${mod('db.js')}, './automations': ${mod('automations.js')}, './academy': ${mod('academy.js')}, './server': ${mod('server.js')} };
   const cache = {};
   const require = name => {
     if (builtin[name]) return builtin[name];
@@ -62,7 +62,7 @@ initSqlJs().then(SQL => {
   };
   let server;
   try { server = require('./server'); }
-  catch (e) { try { localStorage.removeItem(KEY); } catch (x) { /* niente da pulire */ } delete cache['./db']; delete cache['./automations']; delete cache['./server']; server = require('./server'); }
+  catch (e) { try { localStorage.removeItem(KEY); } catch (x) { /* niente da pulire */ } delete cache['./db']; delete cache['./automations']; delete cache['./academy']; delete cache['./server']; server = require('./server'); }
 
   window.DEMO_API = async (p, method, body) => {
     try {
@@ -77,9 +77,14 @@ initSqlJs().then(SQL => {
 
   (function () {
 ${read('public/public.js')}
+${read('public/portal.js')}
+startPublic();
   })();
   (function () {
 ${read('public/app.js')}
+${read('public/auto.js')}
+${read('public/academy-ui.js')}
+start();
   })();
 }).catch(e => { document.getElementById('boot').textContent = 'Non riesco ad avviare la versione di prova: ' + e.message; });
 </script>

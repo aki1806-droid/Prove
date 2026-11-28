@@ -5,6 +5,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 const { db, now, fmt, seedIfEmpty, reset } = require('./db');
 const engine = require('./automations');
+const academy = require('./academy');
 
 const PORT = Number(process.env.PORT) || 3000;
 const PUB = path.join(__dirname, 'public');
@@ -19,11 +20,12 @@ const T = {
   tasks: { cols: ['contact_id', 'title', 'due_at', 'done', 'owner_id'] },
   calendars: { cols: ['name', 'slug', 'duration', 'description', 'days', 'start_hour', 'end_hour', 'owner_id', 'stage_id'], json: ['days'] },
   appointments: { cols: ['calendar_id', 'contact_id', 'title', 'start_at', 'end_at', 'status', 'notes'], order: 'start_at' },
-  workflows: { cols: ['name', 'active', 'trigger_type', 'trigger_config', 'steps'], json: ['trigger_config', 'steps'] },
+  workflows: { cols: ['name', 'description', 'active', 'triggers', 'steps', 'settings'], json: ['triggers', 'steps', 'settings'] },
   forms: { cols: ['name', 'slug', 'fields', 'stage_id', 'tag', 'thanks'], json: ['fields'] },
   pages: { cols: ['title', 'slug', 'blocks', 'published'], json: ['blocks'] },
-  courses: { cols: ['title', 'slug', 'description'] },
-  lessons: { cols: ['course_id', 'title', 'content', 'video_url', 'position'], order: 'position' },
+  courses: { cols: ['title', 'slug', 'description', 'emoji', 'color', 'category', 'instructor', 'published', 'price', 'access', 'min_level', 'drip_mode', 'certificate'] },
+  channels: { cols: ['name', 'emoji', 'description', 'position', 'staff_only'], order: 'position' },
+  events: { cols: ['title', 'description', 'start_at', 'link', 'location'], order: 'start_at' },
 };
 
 const parseRow = (t, r) => {
@@ -73,7 +75,7 @@ function uniqueSlug(t, base, id) {
 function createContact(body, sourceNote) {
   const c = insert('contacts', { tags: [], ...body });
   engine.activity(c.id, 'creato', sourceNote || 'Contatto creato');
-  engine.fire('lead_created', c.id);
+  engine.fire('lead_created', c.id, { source: c.source });
   return c;
 }
 function findOrCreateContact(data, source) {
@@ -86,6 +88,7 @@ function findOrCreateContact(data, source) {
 function afterContactUpdate(before, after) {
   const added = (after.tags || []).filter(t => !(before.tags || []).includes(t));
   for (const t of added) { engine.activity(after.id, 'tag', `Tag aggiunto: ${t}`); engine.fire('tag_added', after.id, { tag: t }); }
+  for (const t of (before.tags || []).filter(t => !(after.tags || []).includes(t))) engine.fire('tag_removed', after.id, { tag: t });
 }
 function moveOpportunity(id, stageId) {
   const o = one('opportunities', id);
@@ -95,6 +98,7 @@ function moveOpportunity(id, stageId) {
   const upd = update('opportunities', id, { stage_id: st.id });
   engine.activity(o.contact_id, 'pipeline', `«${o.title}» spostata in ${st.name}`);
   engine.fire('stage_changed', o.contact_id, { stage_id: st.id });
+  if (st.kind !== 'open') engine.fire(st.kind === 'won' ? 'opportunity_won' : 'opportunity_lost', o.contact_id, {});
   return upd;
 }
 function slots(cal, date) {
@@ -140,19 +144,6 @@ function submitForm(form, data) {
   engine.fire('form_submitted', contact.id, { form_id: form.id });
   return { ok: true, thanks: form.thanks || 'Grazie, ti ricontattiamo presto.' };
 }
-function memberView(token) {
-  const e = get('SELECT * FROM enrollments WHERE token=?', token);
-  if (!e) throw httpError(404, 'Accesso non valido');
-  const c = get('SELECT first_name,last_name FROM contacts WHERE id=?', e.contact_id);
-  const posts = all('SELECT * FROM posts WHERE course_id=? ORDER BY id DESC', e.course_id);
-  for (const p of posts) p.comments = all('SELECT * FROM comments WHERE post_id=? ORDER BY id', p.id);
-  return {
-    enrollment: e, member: `${c.first_name} ${c.last_name || ''}`.trim(), course: one('courses', e.course_id),
-    lessons: all('SELECT * FROM lessons WHERE course_id=? ORDER BY position,id', e.course_id),
-    completed: JSON.parse(e.completed || '[]'), posts,
-  };
-}
-
 // ---------- viste aggregate ----------
 function dashboard() {
   const month = now().slice(0, 7);
@@ -214,22 +205,7 @@ async function api(req, url, pre) {
       for (const bl of p.blocks || []) if (bl.type === 'modulo') { const f = one('forms', bl.form_id); bl.form = f && { slug: f.slug, name: f.name, fields: f.fields }; }
       return { title: p.title, blocks: p.blocks };
     }
-    if (b === 'member') {
-      const v = memberView(c);
-      if (M === 'GET') return v;
-      if (d === 'complete') {
-        const set = new Set(v.completed); body.done === false ? set.delete(body.lesson_id) : set.add(body.lesson_id);
-        run('UPDATE enrollments SET completed=? WHERE id=?', JSON.stringify([...set]), v.enrollment.id);
-        if (set.size === v.lessons.length && v.lessons.length) { engine.activity(v.enrollment.contact_id, 'corso', `Ha completato il corso «${v.course.title}»`); engine.fire('course_completed', v.enrollment.contact_id, { course_id: v.course.id }); }
-        return memberView(c);
-      }
-      if (d === 'post') { if (!String(body.body || '').trim()) throw httpError(400, 'Testo vuoto'); run('INSERT INTO posts (course_id,author_name,body,created_at) VALUES (?,?,?,?)', v.course.id, v.member, String(body.body).slice(0, 2000), now()); return memberView(c); }
-      if (d === 'comment') {
-        if (!get('SELECT id FROM posts WHERE id=? AND course_id=?', body.post_id, v.course.id)) throw httpError(404, 'Post non trovato');
-        run('INSERT INTO comments (post_id,author_name,body,created_at) VALUES (?,?,?,?)', body.post_id, v.member, String(body.body || '').slice(0, 2000), now());
-        return memberView(c);
-      }
-    }
+    if (b === 'portal') return academy.portal(c, d, M, body);
     throw httpError(404, 'Non trovato');
   }
 
@@ -246,9 +222,11 @@ async function api(req, url, pre) {
       conversations: all('SELECT * FROM conversations WHERE contact_id=?', b),
       tasks: all('SELECT * FROM tasks WHERE contact_id=? ORDER BY done, due_at', b),
       enrollments: all('SELECT e.*, c.title course FROM enrollments e JOIN courses c ON c.id=e.course_id WHERE e.contact_id=?', b),
+      member: get('SELECT * FROM members WHERE contact_id=?', b) || null,
+      runs: all(`SELECT r.*, w.name workflow FROM runs r JOIN workflows w ON w.id=r.workflow_id WHERE r.contact_id=? ORDER BY r.id DESC LIMIT 10`, b),
     };
   }
-  if (a === 'contacts' && c === 'note' && M === 'POST') { engine.activity(Number(b), 'nota', String(body.text || '').slice(0, 2000)); return { ok: true }; }
+  if (a === 'contacts' && c === 'note' && M === 'POST') { engine.activity(Number(b), 'nota', String(body.text || '').slice(0, 2000)); engine.fire('note_added', Number(b), {}); return { ok: true }; }
   if (a === 'opportunities' && c === 'move' && M === 'POST') return moveOpportunity(Number(b), body.stage_id);
   if (a === 'conversations') {
     if (M === 'GET' && !b) return conversationList();
@@ -263,7 +241,7 @@ async function api(req, url, pre) {
       const text = String(body.body || '').trim(); if (!text) throw httpError(400, 'Messaggio vuoto');
       const inbound = body.direction === 'in';
       engine.message(v.id, inbound ? 'in' : 'out', text, inbound ? null : String(body.author || ''));
-      if (inbound) engine.fire('message_received', v.contact_id, { channel: v.channel });
+      if (inbound) engine.fire('message_received', v.contact_id, { channel: v.channel, text });
       return { ok: true };
     }
   }
@@ -272,30 +250,25 @@ async function api(req, url, pre) {
     const ct = one('contacts', body.contact_id); if (!ct) throw httpError(400, 'Contatto inesistente');
     return book(cal, { ...body, email: ct.email, phone: ct.phone, first_name: ct.first_name }, 'inserito da operatore');
   }
-  if (a === 'workflows' && c === 'test' && M === 'POST') { const w = one('workflows', b); if (!w) throw httpError(404, 'Automazione non trovata'); engine.start(w, Number(body.contact_id)); return { ok: true }; }
+  if (a === 'workflows' && b && c) {
+    const w = get('SELECT * FROM workflows WHERE id=?', b); if (!w) throw httpError(404, 'Automazione non trovata');
+    if (c === 'test' && M === 'POST') { engine.start(w, Number(body.contact_id), 0, true); return { ok: true }; }
+    if (c === 'simulate' && M === 'POST') return engine.simulate(w, Number(body.contact_id));
+    if (c === 'stats') return engine.stats(w.id);
+  }
+  if (a === 'workflows' && M === 'GET' && !b) return all('SELECT * FROM workflows ORDER BY id').map(w => ({ ...parseRow('workflows', w), stats: engine.stats(w.id) }));
   if (a === 'runs') {
-    if (M === 'GET') return all(`SELECT r.*, c.first_name||' '||coalesce(c.last_name,'') contact, w.name workflow FROM runs r JOIN contacts c ON c.id=r.contact_id JOIN workflows w ON w.id=r.workflow_id ${url.searchParams.get('workflow_id') ? 'WHERE r.workflow_id=?' : ''} ORDER BY r.id DESC LIMIT 40`, ...(url.searchParams.get('workflow_id') ? [url.searchParams.get('workflow_id')] : [])).map(r => ({ ...r, log: JSON.parse(r.log || '[]') }));
+    if (M === 'GET') {
+      const wid = url.searchParams.get('workflow_id');
+      return all(`SELECT r.*, c.first_name||' '||coalesce(c.last_name,'') contact, w.name workflow FROM runs r JOIN contacts c ON c.id=r.contact_id JOIN workflows w ON w.id=r.workflow_id ${wid ? 'WHERE r.workflow_id=?' : ''} ORDER BY r.id DESC LIMIT 40`, ...(wid ? [wid] : []))
+        .map(r => ({ ...r, log: all('SELECT node_id,text,at FROM run_steps WHERE run_id=? ORDER BY id', r.id) }));
+    }
     if (M === 'POST' && c === 'skip') { engine.skipWait(Number(b)); return { ok: true }; }
+    if (M === 'POST' && c === 'stop') { engine.stop(Number(b), 'Interrotta dallo staff'); return { ok: true }; }
   }
   if (a === 'forms' && c === 'submissions') return all(`SELECT s.*, c.first_name||' '||coalesce(c.last_name,'') contact FROM submissions s JOIN contacts c ON c.id=s.contact_id WHERE s.form_id=? ORDER BY s.id DESC`, b).map(s => ({ ...s, data: JSON.parse(s.data) }));
-  if (a === 'courses' && c === 'detail') {
-    const co = one('courses', b); if (!co) throw httpError(404, 'Corso non trovato');
-    const posts = all('SELECT * FROM posts WHERE course_id=? ORDER BY id DESC', b);
-    for (const p of posts) p.comments = all('SELECT * FROM comments WHERE post_id=? ORDER BY id', p.id);
-    return {
-      course: co, lessons: all('SELECT * FROM lessons WHERE course_id=? ORDER BY position,id', b), posts,
-      enrollments: all(`SELECT e.*, c.first_name||' '||coalesce(c.last_name,'') contact FROM enrollments e JOIN contacts c ON c.id=e.contact_id WHERE e.course_id=? ORDER BY e.id DESC`, b).map(e => ({ ...e, completed: JSON.parse(e.completed || '[]') })),
-    };
-  }
-  if (a === 'courses' && c === 'enroll' && M === 'POST') {
-    if (get('SELECT id FROM enrollments WHERE course_id=? AND contact_id=?', b, body.contact_id)) throw httpError(409, 'Contatto già iscritto');
-    run('INSERT INTO enrollments (course_id,contact_id,token,completed,created_at) VALUES (?,?,?,?,?)', b, body.contact_id, crypto.randomBytes(12).toString('hex'), '[]', now());
-    engine.activity(Number(body.contact_id), 'corso', `Iscritto al corso «${one('courses', b).title}»`);
-    return { ok: true };
-  }
-  if (a === 'enrollments' && M === 'DELETE') { run('DELETE FROM enrollments WHERE id=?', b); return { ok: true }; }
-  if (a === 'posts' && M === 'POST') { run('INSERT INTO posts (course_id,author_name,body,created_at) VALUES (?,?,?,?)', body.course_id, body.author_name || 'Staff', String(body.body || '').slice(0, 2000), now()); return { ok: true }; }
-  if (a === 'posts' && M === 'DELETE') { run('DELETE FROM comments WHERE post_id=?', b); run('DELETE FROM posts WHERE id=?', b); return { ok: true }; }
+  const ac = academy.handle(a, b, c, M, body);
+  if (ac !== undefined) return ac;
 
   // --- CRUD generico ---
   if (!T[a]) throw httpError(404, 'Non trovato');
@@ -315,15 +288,21 @@ async function api(req, url, pre) {
     if (body.slug !== undefined && ['calendars', 'forms', 'pages', 'courses'].includes(a)) body.slug = uniqueSlug(a, body.slug, Number(b));
     if (a === 'opportunities' && body.stage_id !== undefined && Number(body.stage_id) !== before.stage_id) { moveOpportunity(Number(b), body.stage_id); delete body.stage_id; }
     const after = update(a, b, body);
+    if (a === 'appointments' && body.status && body.status !== before.status) { engine.activity(before.contact_id, 'appuntamento', `Appuntamento «${before.title}»: ${body.status}`); engine.fire('appointment_status', before.contact_id, { status: body.status, calendar_id: before.calendar_id }); }
+    if (a === 'tasks' && body.done && !before.done) engine.fire('task_completed', before.contact_id, {});
     if (a === 'contacts') afterContactUpdate(before, after);
     return after;
   }
   if (M === 'DELETE' && b) {
-    if (a === 'contacts') for (const t of ['opportunities', 'activities', 'appointments', 'tasks', 'runs', 'enrollments', 'submissions']) run(`DELETE FROM ${t} WHERE contact_id=?`, b);
-    if (a === 'contacts') { run('DELETE FROM messages WHERE conversation_id IN (SELECT id FROM conversations WHERE contact_id=?)', b); run('DELETE FROM conversations WHERE contact_id=?', b); }
+    if (a === 'contacts') {
+      run('DELETE FROM run_steps WHERE run_id IN (SELECT id FROM runs WHERE contact_id=?)', b);
+      for (const e of all('SELECT id FROM enrollments WHERE contact_id=?', b)) academy.unenrollById(e.id);
+      const m = get('SELECT id FROM members WHERE contact_id=?', b); if (m) academy.deleteMember(m.id);
+      for (const t of ['opportunities', 'activities', 'appointments', 'tasks', 'runs', 'submissions']) run(`DELETE FROM ${t} WHERE contact_id=?`, b);
+      run('DELETE FROM messages WHERE conversation_id IN (SELECT id FROM conversations WHERE contact_id=?)', b); run('DELETE FROM conversations WHERE contact_id=?', b);
+    }
     if (a === 'stages' && get('SELECT id FROM opportunities WHERE stage_id=?', b)) throw httpError(409, 'Sposta prima le opportunità di questa fase');
-    if (a === 'courses') { run('DELETE FROM lessons WHERE course_id=?', b); run('DELETE FROM enrollments WHERE course_id=?', b); }
-    if (a === 'workflows') run('DELETE FROM runs WHERE workflow_id=?', b);
+    if (a === 'workflows') { run('DELETE FROM run_steps WHERE workflow_id=?', b); run('DELETE FROM runs WHERE workflow_id=?', b); }
     run(`DELETE FROM ${a} WHERE id=?`, b);
     return { ok: true };
   }
