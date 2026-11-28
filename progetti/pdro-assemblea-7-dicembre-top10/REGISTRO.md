@@ -26,3 +26,4 @@ Pacchetto PDRO_Assemblea_7_dicembre_Top10.zip mandato da Achille il 26/11/2026. 
 - 116,9 s, −16,8 LUFS. Copia d'invio da 28 MB mandata in chat.
 - Asset HeyGen (account 1): https://resource2.heygen.ai/video/cdd1d7146db64727a4583db03821d630/original.mp4
 - Robin: OK di Achille il 27/11 («pubblica domani»); post 1245598 programmato sabato 28/11 alle 12:30 su YouTube 18260, TikTok 18053, Instagram 18045 (reel), Facebook 18051 (reel). Nel post «#10…#1» scritti «10°…1°» (Robin conta i numeri come hashtag, massimo 10).
+- Pubblicato il 28/11 alle 12:30: YouTube https://www.youtube.com/watch?v=fvAuUi6nrvo · TikTok https://www.tiktok.com/@cislfpaop/video/7713183277250530582 · Instagram https://www.instagram.com/reel/DgSJsBpOWKN/ . Facebook 18051 rifiutato («flagged by Facebook»), come dal 18/11.
